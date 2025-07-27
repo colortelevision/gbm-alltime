@@ -1,0 +1,101 @@
+{
+  "_resourceType": "sprite",
+  "id": "9d33262f-6033-41ed-aab8-7f742349685d",
+  "name": "D01-roebot death spritesheet",
+  "symbol": "sprite_d01_roebot_death_spr",
+  "numFrames": 7,
+  "filename": "D01-roebot death spritesheet.png",
+  "checksum": "ee9ee439ac5d26c33b44a4bb179f2a6f0fbec04d",
+  "width": 112,
+  "height": 24,
+  "states": [
+    {
+      "id": "9853ce1b-2210-41e3-a3c8-05900d983840",
+      "name": "",
+      "animationType": "multi_movement",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "657f6554-e7a4-4e96-9bde-38630fc10026",
+          "frames": [
+            {
+              "id": "a079a99d-775f-4898-b5ae-bb6612716207",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "87b5d93b-fd64-40e1-b3bc-216d0a00bef8",
+          "frames": [
+            {
+              "id": "5301412d-086d-486f-8282-0552d185b593",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "63c7c189-49a0-495f-9e29-3f1f85393636",
+          "frames": [
+            {
+              "id": "7c33bebb-a0f0-42d8-aba8-1430732822d0",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "7e247c24-501d-4e05-8658-24627c76631f",
+          "frames": [
+            {
+              "id": "7350aeb8-0dac-42e5-bb0c-48aa2e1780ae",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "dd774131-776b-4c56-bb95-48e015a0b690",
+          "frames": [
+            {
+              "id": "a5db2384-86cc-4691-b9a9-9c1eb68adfbd",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "37f2ed55-020d-4489-9f77-74af58fde7e2",
+          "frames": [
+            {
+              "id": "a6d62a70-0629-4f8f-a9a2-a2592753a279",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "6f78dc4e-d758-411f-bd57-b5cb290e4507",
+          "frames": [
+            {
+              "id": "99df6c60-3481-4d5d-b21c-6fe649e5a7a6",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "01130a2c-8b06-435b-9dfb-d136cc22da29",
+          "frames": [
+            {
+              "id": "c9ca0e62-bd63-40fc-a1cb-478057e09ec1",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 0,
+  "canvasWidth": 32,
+  "canvasHeight": 32,
+  "boundsX": 0,
+  "boundsY": 0,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15
+}

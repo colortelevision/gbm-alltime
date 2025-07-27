@@ -1,0 +1,82 @@
+{
+  "_resourceType": "script",
+  "id": "25fe6e2a-3edd-438a-86f9-1f4becc881b5",
+  "name": "Script 1",
+  "description": "",
+  "variables": {},
+  "actors": {
+    "0": {
+      "id": "0",
+      "name": "Actor A"
+    }
+  },
+  "symbol": "script_1",
+  "script": [
+    {
+      "command": "EVENT_SCRIPT_LOCK",
+      "args": {},
+      "id": "b414134a-85ae-436f-8097-8b66badecd2d"
+    },
+    {
+      "command": "EVENT_ACTOR_MOVE_TO",
+      "args": {
+        "actorId": "$self$",
+        "x": {
+          "type": "number",
+          "value": 28
+        },
+        "y": {
+          "type": "number",
+          "value": 24
+        },
+        "moveType": "horizontal",
+        "useCollisions": true,
+        "__collapse": false
+      },
+      "id": "2d0ee7b7-d5c0-46fb-8f71-6f9589e9281d"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "HELLO, YOU MUST BE \nTHE NEW GUY!",
+          "I'LL SHOW YOU TO YOUR OFFICE!"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "29a3896a-e053-4f32-88d3-1cc7936518e3"
+    },
+    {
+      "command": "EVENT_ACTOR_MOVE_TO",
+      "args": {
+        "actorId": "0",
+        "x": {
+          "type": "number",
+          "value": 49
+        },
+        "y": {
+          "type": "number",
+          "value": 22
+        },
+        "moveType": "horizontal",
+        "useCollisions": true
+      },
+      "id": "ab143872-55e1-46a3-814d-eaf33867a4d1"
+    }
+  ]
+}

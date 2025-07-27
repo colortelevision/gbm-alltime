@@ -1,0 +1,101 @@
+{
+  "_resourceType": "sprite",
+  "id": "39da484d-650e-4ad6-8bee-dfdb96d066dd",
+  "name": "101922 Matt gameboy running spritesheet ",
+  "symbol": "sprite_101922_matt_gameboy_",
+  "numFrames": 7.5,
+  "filename": "101922 Matt gameboy running spritesheet .png",
+  "checksum": "a3aabced059513823e08200032c0d246a7dcea0f",
+  "width": 120,
+  "height": 120,
+  "states": [
+    {
+      "id": "902cc31c-4533-470f-b4e0-79349fd66f77",
+      "name": "",
+      "animationType": "multi_movement",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "9d39ad22-4b16-480f-ab20-7bf32ca0c4fc",
+          "frames": [
+            {
+              "id": "52dd8420-b256-4b6e-9026-27a19619216d",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "4fd7892e-cf4a-4c6d-9ece-ad9c75153fcd",
+          "frames": [
+            {
+              "id": "cfa29bb8-797b-40ad-9cc3-2125e690b087",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "046e0382-2457-4b75-b66a-4851d04e4772",
+          "frames": [
+            {
+              "id": "2a4016ef-f0f0-403b-b50c-2b1ca42db25a",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "437c95a6-5960-4043-bd04-8576a729b7ce",
+          "frames": [
+            {
+              "id": "41c10266-7615-4d5f-814c-916a0e8ccbd1",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "2a8d25ba-a8e3-47ac-ad6c-ce7bfe647a7a",
+          "frames": [
+            {
+              "id": "a5c2aeb9-a9e3-4b45-a81a-2913c2e6584a",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "094329c3-b2a5-4f08-a5d7-32f6e1f521fa",
+          "frames": [
+            {
+              "id": "438d479f-c5fe-4d26-87e6-0359188f4d0d",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "2eeddba4-2736-489d-80a3-9b5262562c4f",
+          "frames": [
+            {
+              "id": "e450f596-e5ee-4344-81ba-11b9bd19dc4a",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "3d8e7f2f-87af-4aec-a8da-2d0a71fd08c5",
+          "frames": [
+            {
+              "id": "57fd46db-fae5-47b3-98f6-09f35ce2f33a",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 0,
+  "canvasWidth": 32,
+  "canvasHeight": 32,
+  "boundsX": 0,
+  "boundsY": 0,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15
+}

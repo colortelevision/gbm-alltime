@@ -1,0 +1,101 @@
+{
+  "_resourceType": "sprite",
+  "id": "70aad507-0c28-415c-a0dd-10cf8fdecdee",
+  "name": "112222 STICK DUEL PLATFORM SPRITESHEET",
+  "symbol": "sprite_112222_stick_duel_pl",
+  "numFrames": 5.5,
+  "filename": "112222 STICK DUEL PLATFORM SPRITESHEET.png",
+  "checksum": "19e376e57c886e9f36e84b11fdd759cbe1a942b2",
+  "width": 88,
+  "height": 160,
+  "states": [
+    {
+      "id": "9862c283-171e-4be2-baf9-0295837c72f8",
+      "name": "",
+      "animationType": "multi_movement",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "3aa2a8d5-2e6b-4ba5-af05-3d6fd57a74ae",
+          "frames": [
+            {
+              "id": "8e6f9d6a-7f29-4ba1-a8ec-53cf6e002cba",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "7ebab13e-8452-48a5-a7e1-202971868459",
+          "frames": [
+            {
+              "id": "492e0b14-e758-4422-8acc-134c6a5273cc",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "75d71a1d-17e4-4df2-9efb-f0dc73dae4fa",
+          "frames": [
+            {
+              "id": "1b486bdf-6307-4370-bc06-2cbad4e52dcd",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "319e3c2f-254e-421a-8d5b-bcb0fbab9fd5",
+          "frames": [
+            {
+              "id": "93737e92-a4f4-4a5b-ace2-4bf5815564ae",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "55b54fc2-b154-4dab-a796-a69493728920",
+          "frames": [
+            {
+              "id": "833a5bd2-1693-424d-a800-cfc04dab4b9c",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "2ceca37a-5beb-455a-87bb-114d4d6b102e",
+          "frames": [
+            {
+              "id": "e1161982-285c-4016-930e-354716796b88",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "c2274e42-db74-48a7-a4f3-27d80e62f1ca",
+          "frames": [
+            {
+              "id": "3514cea8-ff08-4882-a500-4f011299f39a",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "a88c2771-3c16-4e77-ba29-f8117702c5e6",
+          "frames": [
+            {
+              "id": "8f1a7fe3-4020-4fe0-aacd-07d35d3a3530",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 0,
+  "canvasWidth": 32,
+  "canvasHeight": 32,
+  "boundsX": 0,
+  "boundsY": 0,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15
+}

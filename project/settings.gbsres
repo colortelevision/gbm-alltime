@@ -1,11 +1,11 @@
 {
   "_resourceType": "settings",
-  "startSceneId": "",
-  "startX": 9,
-  "startY": 9,
+  "startSceneId": "dd7989b5-e14e-4f8e-92cd-d0ec7dbc516d",
+  "startX": 20,
+  "startY": 34,
   "startMoveSpeed": 1,
   "startAnimSpeed": 15,
-  "startDirection": "down",
+  "startDirection": "up",
   "showCollisionExtraTiles": false,
   "sgbEnabled": false,
   "customHead": "",
@@ -16,11 +16,11 @@
     "default-bg-4",
     "default-bg-5",
     "default-bg-6",
-    "dmg",
-    "default-ui"
+    "32bc1c98-3d87-4208-9fb1-f4c7c7bbbd94",
+    "104e2fdc-a5db-4561-b79b-5c269b07e927"
   ],
   "defaultSpritePaletteIds": [
-    "default-sprite",
+    "f7be70eb-8afe-4a5d-a29c-74976b56604e",
     "default-sprite",
     "default-sprite",
     "default-sprite",
@@ -81,7 +81,7 @@
   "customControlsSelect": [
     "Shift"
   ],
-  "colorMode": "mono",
+  "colorMode": "color",
   "generateDebugFilesEnabled": false,
   "compilerPreset": 3000,
   "scriptEventPresets": {},

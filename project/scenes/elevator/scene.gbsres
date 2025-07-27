@@ -1,0 +1,64 @@
+{
+  "_resourceType": "scene",
+  "id": "8c4811d0-002d-44ad-aa25-e6f08a8703d5",
+  "_index": 1,
+  "name": "ELEVATOR",
+  "backgroundId": "478c8502-6036-42f1-b343-f02723b23fa3",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    "f7be70eb-8afe-4a5d-a29c-74976b56604e"
+  ],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_2",
+  "x": 568,
+  "y": 112,
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "variable",
+          "value": "10"
+        },
+        "__collapseElse": false
+      },
+      "children": {
+        "true": [],
+        "false": [
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "not",
+                "value": {
+                  "type": "variable",
+                  "value": "10"
+                }
+              },
+              "__collapseElse": true
+            },
+            "children": {
+              "true": [],
+              "false": []
+            },
+            "id": "fd468eb9-817d-4603-a6dc-a22491942a8b"
+          }
+        ]
+      },
+      "id": "7072b1eb-369b-4dc1-ad42-c127f7d482ad"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}
