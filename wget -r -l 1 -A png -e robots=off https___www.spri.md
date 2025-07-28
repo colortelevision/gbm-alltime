@@ -1,0 +1,1 @@
+wget -r -l 1 -A png -e robots=off https://www.spriters-resource.com/game_boy_gbc/pokemongoldsilver/
