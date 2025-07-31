@@ -7,7 +7,7 @@
   "tilesetId": "",
   "width": 60,
   "height": 36,
-  "type": "TOPDOWN",
+  "type": "ADVENTURE",
   "paletteIds": [],
   "spritePaletteIds": [
     ""
@@ -26,11 +26,47 @@
       "id": "6fcac3b1-1a85-4601-be16-4065c521983d"
     },
     {
-      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "command": "EVENT_IF",
       "args": {
-        "customEventId": "25fe6e2a-3edd-438a-86f9-1f4becc881b5"
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "10"
+          },
+          "valueB": {
+            "type": "false"
+          }
+        },
+        "__collapseElse": false,
+        "__collapse": false
       },
-      "id": "20750ff3-febc-4a4c-8ec5-0240f206b6ef"
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "25fe6e2a-3edd-438a-86f9-1f4becc881b5",
+              "$actor[0]$": "10cdd8ff-ab2b-4061-b586-a76c0df7439d"
+            },
+            "id": "20750ff3-febc-4a4c-8ec5-0240f206b6ef"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_ENGINE_FIELD_SET",
+            "args": {
+              "value": {
+                "type": "number",
+                "value": 0
+              },
+              "__collapse": false
+            },
+            "id": "4f0bdd10-6ff5-49f4-9d44-fb0145a47cb6"
+          }
+        ]
+      },
+      "id": "21a543d1-2c3e-4ee0-809c-e3830e7749c5"
     }
   ],
   "playerHit1Script": [],

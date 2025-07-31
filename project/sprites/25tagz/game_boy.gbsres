@@ -1,0 +1,101 @@
+{
+  "_resourceType": "sprite",
+  "id": "df73e7e0-e7af-40aa-b2de-3e18d3f7a6ce",
+  "name": "25TAGZ/game_boy",
+  "symbol": "sprite_25tagz_game_boy",
+  "numFrames": 3,
+  "filename": "25TAGZ/game_boy.png",
+  "checksum": "1adbddeb24b5b8663d1e955fffcae45c2ef41441",
+  "width": 48,
+  "height": 64,
+  "states": [
+    {
+      "id": "012459ea-57dc-4859-9458-c66d61df0557",
+      "name": "",
+      "animationType": "multi_movement",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "3b289d24-0a80-4f6b-9834-a148a93d9106",
+          "frames": [
+            {
+              "id": "0f057871-108a-4614-9bfc-5ab76ea81203",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "24c654e9-d53f-4f60-b7bf-2b7de0eddfc8",
+          "frames": [
+            {
+              "id": "eb4cf317-d7dc-4921-bde5-5c7b3c921792",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "260c7d54-eb3f-4ad0-8186-d670081c9df4",
+          "frames": [
+            {
+              "id": "d6c256c0-f8d4-48f0-8354-610771248296",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "fa08088c-9108-4fff-a3c3-a157a4a64e25",
+          "frames": [
+            {
+              "id": "d513a620-f3be-4db3-a613-f216619b1da3",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "48f2a862-a9b9-4594-899f-bddaf01a452f",
+          "frames": [
+            {
+              "id": "1632f76c-88c2-4635-a21e-c4a265b1800e",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "06da38ff-57e1-45aa-8f71-03b754f3747b",
+          "frames": [
+            {
+              "id": "b939c255-4490-4613-80bb-5dfa946e8190",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "1d82acf7-33af-473e-ad15-124d527ab9ed",
+          "frames": [
+            {
+              "id": "94ee8fae-33d5-4d38-b75b-5a8714f9787e",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "bc2bb70c-7ba0-4305-954e-c47bd69d94ab",
+          "frames": [
+            {
+              "id": "ff7af40c-6929-4d0c-a917-b177b186326f",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 0,
+  "canvasWidth": 32,
+  "canvasHeight": 32,
+  "boundsX": 0,
+  "boundsY": 0,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15
+}

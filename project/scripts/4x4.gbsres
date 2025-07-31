@@ -1,0 +1,86 @@
+{
+  "_resourceType": "script",
+  "id": "bb99279e-0c64-4078-9875-afc4d540d152",
+  "name": "4x4",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_2",
+  "script": [
+    {
+      "id": "0a0f279d-250f-4701-8257-a5a0e217ceb2",
+      "command": "EVENT_GROUP",
+      "args": {
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "PT_EVENT_GET_TILE_ID",
+            "args": {
+              "variable": "0",
+              "x": {
+                "type": "number",
+                "value": 8
+              },
+              "y": {
+                "type": "number",
+                "value": 10
+              },
+              "__collapse": false
+            },
+            "id": "496dd6a3-7a21-48e5-aaae-bf7d3ed51b10"
+          },
+          {
+            "command": "PT_EVENT_GET_TILE_ID",
+            "args": {
+              "variable": "3",
+              "x": {
+                "type": "number",
+                "value": 6
+              },
+              "y": {
+                "type": "number",
+                "value": 11
+              },
+              "__collapse": false
+            },
+            "id": "14d29e36-acf2-4fc1-a16c-dcbb4462a8a0"
+          },
+          {
+            "command": "PT_EVENT_GET_TILE_ID",
+            "args": {
+              "variable": "11",
+              "x": {
+                "type": "number",
+                "value": 10
+              },
+              "y": {
+                "type": "number",
+                "value": 8
+              },
+              "__collapse": true
+            },
+            "id": "5d62df42-75f5-4eb3-9c2e-58ccf76e1d87"
+          },
+          {
+            "command": "PT_EVENT_GET_TILE_ID",
+            "args": {
+              "variable": "16",
+              "x": {
+                "type": "number",
+                "value": 12
+              },
+              "y": {
+                "type": "number",
+                "value": 6
+              },
+              "__collapse": true
+            },
+            "id": "7b76257b-f7f1-41d0-a2af-d133f87e894c"
+          }
+        ]
+      }
+    }
+  ]
+}

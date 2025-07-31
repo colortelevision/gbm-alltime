@@ -1,0 +1,101 @@
+{
+  "_resourceType": "sprite",
+  "id": "87125b40-5a61-41f3-9c5b-cf0ce758fc14",
+  "name": "25TAGZ/tilesets/cemetery",
+  "symbol": "sprite_25tagz_tilesets_ceme",
+  "numFrames": 8,
+  "filename": "25TAGZ/tilesets/cemetery.png",
+  "checksum": "0cf63485e5973e897bb373466a2e7c7f0fd1b775",
+  "width": 128,
+  "height": 48,
+  "states": [
+    {
+      "id": "b3810682-28c4-46a6-9dea-bec69d71a48e",
+      "name": "",
+      "animationType": "multi_movement",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "d08b7c65-c102-4094-b6e8-e88f1379ecd3",
+          "frames": [
+            {
+              "id": "ab8e8afc-a68d-4fa7-82a6-bd0a3b042a3d",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "3c5cd194-7e17-4069-a6e5-55d058c6a154",
+          "frames": [
+            {
+              "id": "9acc9513-1f6d-44e1-9998-76aeee2f3bd2",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "7d004ac1-0032-4a02-a91c-01689e59f0ba",
+          "frames": [
+            {
+              "id": "de94cb88-7204-45ca-b419-77ca29ea9370",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "f1afef8f-4e83-4f6c-8e44-df47fc292c95",
+          "frames": [
+            {
+              "id": "4454dc00-c4df-408b-870d-b0d90e18ba2e",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "0e819226-c3dd-41ee-a8d4-01b3176e0c2d",
+          "frames": [
+            {
+              "id": "2faa3869-b58d-4ae9-b758-bc66f8dcdcdb",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "2dbff56a-4486-4780-bdbe-be21b7c4be70",
+          "frames": [
+            {
+              "id": "d50eb822-0a34-42a2-b373-3b1078cfadb5",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "b7bdf482-3053-4574-9df8-0d4e74a0cad1",
+          "frames": [
+            {
+              "id": "96d5b010-844e-4eef-85dd-c9e37a5465b7",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "77997f49-b80b-4656-9fbd-7214e793972e",
+          "frames": [
+            {
+              "id": "fa649648-02a9-4f13-bb2e-df703d9560b6",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 0,
+  "canvasWidth": 32,
+  "canvasHeight": 32,
+  "boundsX": 0,
+  "boundsY": 0,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15
+}

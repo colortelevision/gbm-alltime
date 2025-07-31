@@ -12,7 +12,7 @@
     {
       "id": "e2990871-b301-4125-a4ed-1b8d62e9758f",
       "name": "",
-      "animationType": "multi_movement",
+      "animationType": "fixed_movement",
       "flipLeft": true,
       "animations": [
         {
@@ -20,7 +20,21 @@
           "frames": [
             {
               "id": "fe4d1bb7-a19e-4319-bafd-7ae01685088e",
-              "tiles": []
+              "tiles": [
+                {
+                  "id": "5d64cf35-964e-4524-8947-2995969d4477",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 56,
+                  "sliceY": 0,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 1,
+                  "priority": false
+                }
+              ]
             }
           ]
         },
@@ -56,7 +70,39 @@
           "frames": [
             {
               "id": "86afe9a1-6b7e-451d-8b5f-2b0e7db169d3",
-              "tiles": []
+              "tiles": [
+                {
+                  "id": "ace1a33a-2488-4840-bcf9-3b1a3541491f",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 64,
+                  "sliceY": 0,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 0,
+                  "priority": false
+                }
+              ]
+            },
+            {
+              "id": "531a7607-6b89-45ff-8e2c-bba1f286caa8",
+              "tiles": [
+                {
+                  "id": "367367c6-0f34-4169-ad79-e650f44bbd5c",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 72,
+                  "sliceY": 0,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 0,
+                  "priority": false
+                }
+              ]
             }
           ]
         },
@@ -90,9 +136,9 @@
       ]
     }
   ],
-  "numTiles": 0,
-  "canvasWidth": 32,
-  "canvasHeight": 32,
+  "numTiles": 3,
+  "canvasWidth": 8,
+  "canvasHeight": 16,
   "boundsX": 0,
   "boundsY": 0,
   "boundsWidth": 16,

@@ -1,0 +1,43 @@
+{
+  "_resourceType": "script",
+  "id": "70873e16-71d7-4a83-b935-ef8855b65378",
+  "name": "Script 5",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_5",
+  "script": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "17",
+        "value": {
+          "type": "true"
+        }
+      },
+      "id": "12d28b7b-41de-4bed-82d0-8354c68e5519"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "31",
+        "value": {
+          "type": "number",
+          "value": 3
+        }
+      },
+      "id": "82a66464-27bb-4c73-8646-c9be189ecdd5"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "32",
+        "value": {
+          "type": "number",
+          "value": 3
+        }
+      },
+      "id": "0946c269-0afe-4f21-92dc-fc8be3783b71"
+    }
+  ]
+}
