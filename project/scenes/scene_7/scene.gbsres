@@ -2,17 +2,20 @@
   "_resourceType": "scene",
   "id": "1466ea11-0793-4659-b228-1779cac72a43",
   "_index": 6,
+  "type": "TOPDOWN",
   "name": "Scene 7",
-  "backgroundId": "44e95e0c-d73e-4653-8b05-e98335a63edf",
-  "tilesetId": "",
+  "symbol": "scene_7",
+  "x": 256,
+  "y": 584,
   "width": 20,
   "height": 18,
-  "type": "TOPDOWN",
+  "backgroundId": "44e95e0c-d73e-4653-8b05-e98335a63edf",
+  "tilesetId": "",
   "paletteIds": [
-    null,
+    "",
     "365591fd-b649-41c7-b3ea-a33ce3584370",
-    null,
-    null,
+    "",
+    "",
     "1192b80c-2a58-470d-91dc-c5fe77520be3",
     "20ade3d2-1055-4d5c-9623-846acfb0f491"
   ],
@@ -20,11 +23,9 @@
     "775860dc-d74d-4e37-9dac-682ea40640ec",
     "775860dc-d74d-4e37-9dac-682ea40640ec"
   ],
-  "collisions": "0f!003+0f!00f+0f!003+0f!00f+0f!003+0f!00f+0f!003+0f!00f+0f!003+0f!00f+0f!003+0f!00f+0f!003+0f!00f+0f!003+0f!00f+0f!003+0f!00f+0f!003+0f!00f+0f!003+0f!00f+0f!003+0f!00f+0f!003+0f10+0064+",
   "autoFadeSpeed": 1,
-  "symbol": "scene_7",
-  "x": 256,
-  "y": 584,
+  "autoFadeEventCollapse": false,
+  "playerSpriteSheetId": "54f6d1d1-3c40-4d38-88c5-06f23ae11529",
   "script": [
     {
       "command": "XV_ARRAY_MANAGER_GET",
@@ -87,6 +88,5 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "playerSpriteSheetId": "54f6d1d1-3c40-4d38-88c5-06f23ae11529",
-  "autoFadeEventCollapse": false
+  "collisions": "0f!003+0f!00f+0f!003+0f!00f+0f!003+0f!00f+0f!003+0f!00f+0f!003+0f!00f+0f!003+0f!00f+0f!003+0f!00f+0f!003+0f!00f+0f!003+0f!00f+0f!003+0f!00f+0f!003+0f!00f+0f!003+0f!00f+0f!003+0f10+0064+"
 }
