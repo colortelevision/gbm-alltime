@@ -1,0 +1,100 @@
+{
+  "_resourceType": "sprite",
+  "id": "b81daf34-2fc6-4a11-94a8-08c1c9dc925b",
+  "name": "mew#1",
+  "symbol": "sprite_mew_1",
+  "width": 16,
+  "height": 96,
+  "states": [
+    {
+      "id": "e4dead71-14fb-4b6d-85bc-ff1a29264975",
+      "name": "",
+      "animationType": "multi_movement",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "549a28c4-f0e4-4d82-975b-203125faf065",
+          "frames": [
+            {
+              "id": "68b778c2-76a3-4ca4-82bb-3e0f59e5b61c",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "cb83e553-97e4-4918-8cc9-11abcd303e89",
+          "frames": [
+            {
+              "id": "2b32caf3-d9ce-449a-92c7-57651ed862ea",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "86602d34-89a9-4740-a3b3-bdf05134bc53",
+          "frames": [
+            {
+              "id": "b1d14dd5-2b26-4551-bcb8-9bb6e1ba9319",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "5bcd21b6-e640-4c79-a4eb-cd8bfdad80b0",
+          "frames": [
+            {
+              "id": "63783dd0-4928-4505-825d-e6547c294e67",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "ba4e0a8a-2742-4465-8257-1721578cd7b9",
+          "frames": [
+            {
+              "id": "d7735fbc-5c24-41f5-8e31-584c151368d7",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "945a6165-b2b6-4ceb-999b-3709f3db0e5e",
+          "frames": [
+            {
+              "id": "de47a03e-4eeb-4895-9117-7cb85c717e01",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "05c3795b-ae17-4ea3-af30-761c31f4fc7c",
+          "frames": [
+            {
+              "id": "949d3cda-fb41-43be-92b1-e0696fa0dcad",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "3896cf27-1207-4b59-93cb-7b8aa74e12e8",
+          "frames": [
+            {
+              "id": "b580ca5a-ce0c-4c7c-b857-705ad499e0ba",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 0,
+  "canvasWidth": 32,
+  "canvasHeight": 32,
+  "boundsX": 0,
+  "boundsY": 0,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "mew#1.png",
+  "checksum": "02bf63700790fb3c6d2d6411d80b8cd4137cdcda"
+}

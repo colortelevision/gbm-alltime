@@ -1,0 +1,100 @@
+{
+  "_resourceType": "sprite",
+  "id": "e41d4b3a-6eb1-42df-9873-c984eddfecc9",
+  "name": "armored_mewtwo#2",
+  "symbol": "sprite_armored_mewtwo_2",
+  "width": 16,
+  "height": 96,
+  "states": [
+    {
+      "id": "1ca9692b-c5ba-4136-a5ba-1c4598057652",
+      "name": "",
+      "animationType": "multi_movement",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "45c1f994-81d9-45b1-8401-bfe56144c816",
+          "frames": [
+            {
+              "id": "40df042e-215b-4d07-9aa1-60372b9807d0",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "c2feaa71-3523-4f5c-8cc0-d94cff293840",
+          "frames": [
+            {
+              "id": "9b0e0de8-5a31-421b-9349-150e9475e6d8",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "1cd2d4fa-923c-4beb-8b35-be5cfa884dd8",
+          "frames": [
+            {
+              "id": "3a7f98d1-d343-4a50-8239-41dd1d5bdad8",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "fee72114-31d2-4add-90a7-a6fb491267aa",
+          "frames": [
+            {
+              "id": "7a28f2a3-def3-4fe4-b4c4-d479a18fe2af",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "9895b93c-7ea1-4ab3-a530-3400b8d506ce",
+          "frames": [
+            {
+              "id": "865bb382-af1b-40cc-9ea7-5c179f07d160",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "05577de5-0107-477a-900b-e6f836a44675",
+          "frames": [
+            {
+              "id": "7a056c78-f8fb-4832-9250-668c0d7749aa",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "a9d01f9a-fba3-46cf-ae2d-3cb66f7c2c01",
+          "frames": [
+            {
+              "id": "b3fb6973-3e10-4600-bd8d-21e358035ab6",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "597280ec-a9ae-4c77-ad0c-f38c52417805",
+          "frames": [
+            {
+              "id": "1d9c5a25-22bf-4e9a-8d6b-bf2000503eef",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 0,
+  "canvasWidth": 32,
+  "canvasHeight": 32,
+  "boundsX": 0,
+  "boundsY": 0,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "armored_mewtwo#2.png",
+  "checksum": "fbafc51e56c0c61e067785577e33aa266c101b90"
+}

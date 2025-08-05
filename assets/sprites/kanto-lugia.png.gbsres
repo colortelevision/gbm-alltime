@@ -1,0 +1,159 @@
+{
+  "_resourceType": "sprite",
+  "id": "9c87b121-194b-4989-8242-19dd18006f82",
+  "name": "kanto-lugia",
+  "symbol": "sprite_kanto_lugia",
+  "width": 32,
+  "height": 16,
+  "states": [
+    {
+      "id": "e2e11a4c-e862-442c-a656-6b2482a32bea",
+      "name": "",
+      "animationType": "fixed",
+      "flipLeft": false,
+      "animations": [
+        {
+          "id": "e6c3dd56-870d-45ac-8d29-cf19fcc1a760",
+          "frames": [
+            {
+              "id": "750e2935-6081-4150-9b9e-852f2c9326b7",
+              "tiles": [
+                {
+                  "id": "3a352a9b-cef5-4849-8a60-3c20194cb515",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 0,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                },
+                {
+                  "id": "1a81fe36-1a0a-4270-b372-68a397b61666",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 8,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                }
+              ]
+            },
+            {
+              "id": "6e1aba7a-7202-4026-8263-8eb56a4c6b42",
+              "tiles": [
+                {
+                  "id": "c0e26991-bd17-4015-aa39-aa890ffadb59",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 16,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                },
+                {
+                  "id": "f62da497-4807-49b7-96e5-e3b979e02424",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 24,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "8051e06d-2658-439a-915a-ec20e0402696",
+          "frames": [
+            {
+              "id": "56714245-b2de-4526-8907-f15fb8c23fe9",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "9eb3ff29-e0dc-4cbe-8add-cca319f05cc7",
+          "frames": [
+            {
+              "id": "51f3131f-6cae-458a-87b1-adf8ef53aeca",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "982313ae-586c-4816-9126-87840df98ba9",
+          "frames": [
+            {
+              "id": "13411c89-e16c-464e-bed6-732cb27eee28",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "7f0ba3ff-a65f-4428-9130-85cd8699a726",
+          "frames": [
+            {
+              "id": "472d79ec-895e-4974-a0b8-4c4f2b0cb28d",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "6d5d30dd-482e-45d7-8a64-5bc0ad9360ab",
+          "frames": [
+            {
+              "id": "89521e01-4603-497c-8b15-10d199d81f1d",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "113763af-7dde-4e6b-b281-199486ae1c93",
+          "frames": [
+            {
+              "id": "c07ec5ee-e939-423c-ac00-24955c82e8ee",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "64a33ffc-54d0-42cc-9057-99b72427f131",
+          "frames": [
+            {
+              "id": "da566b5d-9021-4474-bf9e-d9548630af84",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 4,
+  "canvasWidth": 16,
+  "canvasHeight": 16,
+  "boundsX": 0,
+  "boundsY": 0,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "kanto-lugia.png",
+  "checksum": "120fadf6873c4b265c250da5b8451db991b762af",
+  "numFrames": 2
+}

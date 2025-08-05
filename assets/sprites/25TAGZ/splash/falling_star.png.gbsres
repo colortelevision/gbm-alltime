@@ -1,0 +1,101 @@
+{
+  "_resourceType": "sprite",
+  "id": "f967a8fa-bd7b-443d-98b6-347059a7d2cb",
+  "name": "25TAGZ/splash/falling_star",
+  "symbol": "sprite_25tagz_splash_fallin",
+  "width": 8,
+  "height": 8,
+  "states": [
+    {
+      "id": "17b9ace8-d259-4227-bc98-826800b3e857",
+      "name": "",
+      "animationType": "multi_movement",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "4f797fb5-80be-43d6-8a32-067961ff21c1",
+          "frames": [
+            {
+              "id": "3bf8a08f-bf80-42ec-983c-4b6edda56045",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "b3becb58-5245-4682-9023-0613d071a2d0",
+          "frames": [
+            {
+              "id": "b86b035b-d407-466f-87b3-c38105adc981",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "a53ac7ca-d4b2-45f7-8a14-f4c8588bb8c8",
+          "frames": [
+            {
+              "id": "1404ce86-1908-4c1c-98ee-ddb2a09cc8e9",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "0c1404bd-54e9-4f5e-a27b-10a18c93c733",
+          "frames": [
+            {
+              "id": "cc883f96-6a53-402a-9f5d-9404b9ba524d",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "312afd45-172b-4295-93ec-05d512436b01",
+          "frames": [
+            {
+              "id": "3a0099c0-0650-41a8-8c78-636185babd45",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "03c48240-ce2d-4e9a-86d6-e076f0b0168a",
+          "frames": [
+            {
+              "id": "83194e63-6369-4bad-93c8-70b6efcb1515",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "c1788879-e2a6-484e-9781-5d8865a529ca",
+          "frames": [
+            {
+              "id": "a7c7e384-4e19-4df6-aa56-3b36e553434a",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "5d5ae017-410e-41d7-9da7-9d2d34d390a2",
+          "frames": [
+            {
+              "id": "f45b373a-611d-4403-84b1-190a75f611b2",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 0,
+  "canvasWidth": 32,
+  "canvasHeight": 32,
+  "boundsX": 0,
+  "boundsY": 0,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "25TAGZ/splash/falling_star.png",
+  "checksum": "ab39d61016d2669de6885703b91afc770dec0b10",
+  "numFrames": 0.5
+}

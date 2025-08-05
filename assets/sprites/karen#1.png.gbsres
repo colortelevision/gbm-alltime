@@ -1,0 +1,100 @@
+{
+  "_resourceType": "sprite",
+  "id": "1cd0b592-004e-4d36-88c7-718bd35ae90a",
+  "name": "karen#1",
+  "symbol": "sprite_karen_1",
+  "width": 16,
+  "height": 48,
+  "states": [
+    {
+      "id": "b726fce6-3c95-469b-9312-14941db4bef4",
+      "name": "",
+      "animationType": "multi_movement",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "54734ac2-a57e-47f1-a032-3540a4afa3a3",
+          "frames": [
+            {
+              "id": "df1a9ea5-ea13-4542-9629-093a365b3d66",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "74a35be0-4b61-4490-bb2b-f92178298f0e",
+          "frames": [
+            {
+              "id": "da884f4a-b69e-4e18-b9d7-1ff6de968dad",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "39cebef5-978b-47cb-88dd-3486303e7f07",
+          "frames": [
+            {
+              "id": "37ea302d-428a-4019-bf91-bc427baa74fd",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "6f9d2cb2-66cb-46f0-83e5-c232751f9f10",
+          "frames": [
+            {
+              "id": "ae826355-6be3-4fed-9752-7107edb33549",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "c0e9a4fc-2298-406e-a484-3ac04d935170",
+          "frames": [
+            {
+              "id": "f5c27f30-3b2c-4b2d-804c-fb5a7ccff011",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "9fa35760-e2eb-4898-9429-b229dac74614",
+          "frames": [
+            {
+              "id": "306e30a8-8cb4-411b-b5d9-c9ff73b74e67",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "939100f8-8268-4064-ba8e-6ca6c3aeec00",
+          "frames": [
+            {
+              "id": "5a4cda57-7243-406e-bd91-c0cf727732ce",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "850fe265-ae01-464e-a41c-962e268ad84d",
+          "frames": [
+            {
+              "id": "fa02d59d-dbfc-487d-becd-820b29ee243f",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 0,
+  "canvasWidth": 32,
+  "canvasHeight": 32,
+  "boundsX": 0,
+  "boundsY": 0,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "karen#1.png",
+  "checksum": "6bf9e0abe31935b1058a8a76871ba2ccf241ae7c"
+}

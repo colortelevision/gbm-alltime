@@ -1,0 +1,101 @@
+{
+  "_resourceType": "sprite",
+  "id": "a36cdf52-83c4-43f3-aa09-0605e5732898",
+  "name": "walk",
+  "symbol": "sprite_walk",
+  "width": 74,
+  "height": 150,
+  "states": [
+    {
+      "id": "fb0cb950-5ad4-497e-80f3-ac2597a48242",
+      "name": "",
+      "animationType": "multi_movement",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "49851109-8144-4c43-8fd2-bfaea53b6328",
+          "frames": [
+            {
+              "id": "fba75212-7e08-4130-b3fb-863ea6b1e311",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "86dd3bee-d8fb-4d67-aa0b-73185540c80c",
+          "frames": [
+            {
+              "id": "fe8f26a6-5306-46b1-9e1a-9e82f821bfac",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "6311b916-4762-4b4b-8186-ab52ee63bf0e",
+          "frames": [
+            {
+              "id": "bfd9463b-dc2c-4754-955d-517c7c3e3575",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "41d6c6dc-47d9-4954-95d6-adb73e1b62d3",
+          "frames": [
+            {
+              "id": "0a69580b-cf5b-44aa-a6f6-e88fbc844010",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "f5d0e80f-0630-4ac4-9f3b-7345611d0a27",
+          "frames": [
+            {
+              "id": "7f139b80-23b7-4e0d-8aad-142870894d49",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "3256f631-ef6c-4168-8e40-7c0c3202dafd",
+          "frames": [
+            {
+              "id": "05f6ddd8-de7b-4d32-a402-4a97e84ffddd",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "9e501ed1-17f5-4f90-be7f-4b0f49e7262a",
+          "frames": [
+            {
+              "id": "69e85be5-7849-46b3-9a33-2954fbc32772",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "21f34fb6-a09b-4e87-a2fd-89fb2a97785c",
+          "frames": [
+            {
+              "id": "d31ca633-cb84-4017-bcc8-4256714e6c46",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 0,
+  "canvasWidth": 32,
+  "canvasHeight": 32,
+  "boundsX": 0,
+  "boundsY": 0,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "walk.png",
+  "checksum": "c157289d4282e3953fbf2dcaed9c4b8377a527c8",
+  "numFrames": 4.625
+}

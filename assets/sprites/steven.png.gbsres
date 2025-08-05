@@ -1,0 +1,100 @@
+{
+  "_resourceType": "sprite",
+  "id": "0f6a10e3-b59f-45dc-8ea6-19b21ebc6993",
+  "name": "steven",
+  "symbol": "sprite_steven",
+  "width": 16,
+  "height": 96,
+  "states": [
+    {
+      "id": "fb8595df-c9eb-4415-9ec9-6a7332ab1e6d",
+      "name": "",
+      "animationType": "multi_movement",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "23dd9d36-3da3-466f-8bdd-561ce256c5b2",
+          "frames": [
+            {
+              "id": "747b7c54-fe2b-4fba-b803-f7d9a6f6897b",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "5f1b9c90-e4f6-419b-abbe-ba0ebbf7304e",
+          "frames": [
+            {
+              "id": "f2b4b79e-9bac-45d7-898e-5be19265fa6a",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "ec648ed6-b722-4bc2-9cd1-20a61cb9f2fb",
+          "frames": [
+            {
+              "id": "1967c753-df0d-4067-a354-14eddaba9530",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "afc9f942-f42c-412e-a354-06107b8680cc",
+          "frames": [
+            {
+              "id": "5d861ae0-fa57-4b5e-8d13-e040e72eeec9",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "c25d4638-3c93-4a4a-8c70-71baa9e55e67",
+          "frames": [
+            {
+              "id": "bb0e4bf2-4ab1-4336-bd8c-cfbd2e71b748",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "697cccc0-a7a0-4904-b0d4-ba6572dcaa8c",
+          "frames": [
+            {
+              "id": "9d9b9ad7-dce0-43c0-9104-4b749fccb533",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "9ebfd510-d442-4a7f-bcc2-318591fe0288",
+          "frames": [
+            {
+              "id": "2b46ab69-3295-4aba-8922-c5197057f2cd",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "10f4eabb-8307-4592-ba7b-829aa66a3d0d",
+          "frames": [
+            {
+              "id": "7712f2e0-f6bf-497f-82ac-6fcf97d376b4",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 0,
+  "canvasWidth": 32,
+  "canvasHeight": 32,
+  "boundsX": 0,
+  "boundsY": 0,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "steven.png",
+  "checksum": "f931d514df471f2af5027109e337b1c108e732fc"
+}

@@ -1,0 +1,101 @@
+{
+  "_resourceType": "sprite",
+  "id": "f768f67e-4745-473c-8192-937f58e993ad",
+  "name": "conner rpg",
+  "symbol": "sprite_conner_rpg",
+  "width": 88,
+  "height": 12,
+  "states": [
+    {
+      "id": "422da39d-aa8c-4255-b164-389d14739b0e",
+      "name": "",
+      "animationType": "multi_movement",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "a93a2dd9-f367-43fb-a47c-0a6938f7902e",
+          "frames": [
+            {
+              "id": "48b6b27f-4284-4eec-ae72-c2eb7538ea55",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "58a39fbb-2779-4ba0-996b-99b22e242f96",
+          "frames": [
+            {
+              "id": "f79acf68-4dcd-48f2-b87b-1ba731a14313",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "d18bd253-caba-4fe7-915f-4e9bbe7adf1a",
+          "frames": [
+            {
+              "id": "507195d3-b653-43a5-9cd4-91208f50fa50",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "230daa75-1b82-4ca4-b151-ca28a18f5e58",
+          "frames": [
+            {
+              "id": "bed0bf3a-bef6-4f79-9424-be306fb45610",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "d05a7571-4d05-4745-8616-6fc0c686b3fb",
+          "frames": [
+            {
+              "id": "fe528049-4a82-412e-9162-b9068d022de0",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "5f3cd3b3-e2a0-4db0-bdc5-51381ff338cd",
+          "frames": [
+            {
+              "id": "7415658f-0471-4c58-83e2-ce2cd0c71121",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "c9134b64-7303-4498-a2c7-1d34cbccbd03",
+          "frames": [
+            {
+              "id": "ed62f47e-e57e-4e0a-a828-208dea2128df",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "42d0f87a-d3c4-4dab-8be4-a236d85aeb2f",
+          "frames": [
+            {
+              "id": "e0563790-a183-4d8b-82b5-ded183853631",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 0,
+  "canvasWidth": 32,
+  "canvasHeight": 32,
+  "boundsX": 0,
+  "boundsY": 0,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "conner rpg.png",
+  "checksum": "4fa4f0ab976a045cedbb374f53b3f56393112f1b",
+  "numFrames": 5.5
+}

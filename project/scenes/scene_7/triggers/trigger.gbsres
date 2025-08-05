@@ -1,0 +1,57 @@
+{
+  "_resourceType": "trigger",
+  "id": "bf4fb017-9687-438c-b409-68121d6b7c3c",
+  "name": "",
+  "prefabId": "",
+  "x": 3,
+  "y": 2,
+  "symbol": "trigger_9",
+  "prefabScriptOverrides": {},
+  "width": 1,
+  "height": 10,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_SET_STATE",
+      "args": {
+        "actorId": "player",
+        "spriteStateId": "DEAD",
+        "loopAnim": false,
+        "__collapse": false
+      },
+      "id": "ff7a538f-4722-4e3f-a374-d92f3f0247b5"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 1,
+        "frames": 30,
+        "__collapse": false
+      },
+      "id": "72cb1b95-95b5-4eee-8dd1-2a4f56cb9204"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_STATE",
+      "args": {
+        "actorId": "$self$",
+        "spriteStateId": "STANCE",
+        "loopAnim": true
+      },
+      "id": "1f9793e1-b7ed-44b2-947b-683fe7efc4b1"
+    },
+    {
+      "command": "EVENT_SOUND_PLAY_EFFECT",
+      "args": {
+        "type": "9383e07e-e1fd-4371-b04e-c536c95af293",
+        "priority": "medium",
+        "pitch": 4,
+        "frequency": 200,
+        "duration": 0.5,
+        "wait": true,
+        "effect": 0
+      },
+      "id": "e0125e86-cd81-4e96-abbc-7e430000b8af"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 0
+}

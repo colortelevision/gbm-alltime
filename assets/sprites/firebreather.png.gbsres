@@ -1,0 +1,100 @@
+{
+  "_resourceType": "sprite",
+  "id": "0320033c-e518-4da9-8929-3110cc37c6e6",
+  "name": "firebreather",
+  "symbol": "sprite_firebreather",
+  "width": 16,
+  "height": 96,
+  "states": [
+    {
+      "id": "b9bfc177-f17a-4e1b-bc8d-4dbfcb832b5f",
+      "name": "",
+      "animationType": "multi_movement",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "fa61232d-2f43-4057-a6b7-e3d59288cc8d",
+          "frames": [
+            {
+              "id": "2e53a2a6-bd0f-4127-b61e-11259de3e09b",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "ebf08571-05c0-4a31-8f03-383f3832b8c1",
+          "frames": [
+            {
+              "id": "f40306bf-625c-473d-b530-5e03eb1a9a3f",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "091af933-5beb-416a-b1fb-e535cc08864b",
+          "frames": [
+            {
+              "id": "62155bd1-65bc-4cae-8bdb-bd49c13e65c9",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "ba33f58f-af9e-49b0-8234-54b9236f00b7",
+          "frames": [
+            {
+              "id": "a2d57d02-c663-4c9a-9251-1922fb20cd64",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "72253681-0c6e-4b23-a4fd-d2b9040d7952",
+          "frames": [
+            {
+              "id": "7ca80f4a-bc10-437c-a5c6-a8902dfaeef8",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "30c4eb60-c9ad-4538-9978-73abe01bf17b",
+          "frames": [
+            {
+              "id": "1f82acff-9d77-4659-81b9-a322ef49774d",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "82a7aad5-4cf8-4d5c-a90d-b8effc5d8bde",
+          "frames": [
+            {
+              "id": "5c86205f-a6d8-47a8-a97b-70bbb38d8014",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "b6767eec-fc63-4ed0-897b-37c9ddaecc4c",
+          "frames": [
+            {
+              "id": "f9e7c202-da3e-4e21-85c7-a00111b38bb2",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 0,
+  "canvasWidth": 32,
+  "canvasHeight": 32,
+  "boundsX": 0,
+  "boundsY": 0,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "firebreather.png",
+  "checksum": "3e67734c002b23180ecb83616e1c91a834882b86"
+}

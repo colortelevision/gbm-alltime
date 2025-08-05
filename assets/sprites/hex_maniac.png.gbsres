@@ -1,0 +1,100 @@
+{
+  "_resourceType": "sprite",
+  "id": "a2a8cc55-82c4-4989-beb7-8230f60eae5d",
+  "name": "hex_maniac",
+  "symbol": "sprite_hex_maniac",
+  "width": 16,
+  "height": 96,
+  "states": [
+    {
+      "id": "bb5952ef-2115-489b-9c90-f9aa604f97a1",
+      "name": "",
+      "animationType": "multi_movement",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "e0104c61-95c5-4fa2-8a82-132c61ee0227",
+          "frames": [
+            {
+              "id": "fcf4e43c-4f45-4fc5-a8db-a3450e940d31",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "09f70e4b-6832-4c40-b0ae-664934d829e6",
+          "frames": [
+            {
+              "id": "7f5af2e7-ba9f-4ed4-9dad-a22f2724e94d",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "76e62abb-8d4b-45eb-bc86-3a41e0a83dd1",
+          "frames": [
+            {
+              "id": "11219957-8f51-45c9-abaf-22efb0c0ba2e",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "935b6575-8617-477d-9ef0-225cfa33723e",
+          "frames": [
+            {
+              "id": "e4e422dd-2eca-46b4-a218-643d85380c97",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "c2306bd1-f842-4749-83a1-9e3169e2a031",
+          "frames": [
+            {
+              "id": "732dfbf7-6acb-4358-937f-f09cc34ce9b0",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "6668d64d-6fc6-4b29-90dc-f49fdc1d535a",
+          "frames": [
+            {
+              "id": "6a07c0ce-d1c1-4d3d-81ac-4ce04d2b9b9c",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "c8c92a64-774a-4172-b2b9-8fcaf66457b8",
+          "frames": [
+            {
+              "id": "a6ad28f2-6e6e-4db6-b603-a184df4f241e",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "322ed9b5-6527-47bb-b17b-817447b92f4f",
+          "frames": [
+            {
+              "id": "23055e17-b163-41ec-a4ba-250325888e6d",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 0,
+  "canvasWidth": 32,
+  "canvasHeight": 32,
+  "boundsX": 0,
+  "boundsY": 0,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "hex_maniac.png",
+  "checksum": "9f20c07bcb2b4845755ad74b2e0b9202cb496761"
+}

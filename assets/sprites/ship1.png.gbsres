@@ -1,0 +1,101 @@
+{
+  "_resourceType": "sprite",
+  "id": "cc258ade-3ac0-44f6-9caa-73974441b2b3",
+  "name": "ship1",
+  "symbol": "sprite_ship1",
+  "width": 32,
+  "height": 32,
+  "states": [
+    {
+      "id": "0f8e3ad4-d6b8-45ff-b959-ed1761d0a423",
+      "name": "",
+      "animationType": "multi_movement",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "2e21c7ee-00c2-4c31-8da5-346a62989ad1",
+          "frames": [
+            {
+              "id": "78ad3de4-3d78-4170-9576-8e8e5177245b",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "ce0b4c9d-6067-4635-b50b-552b2ab9d2a6",
+          "frames": [
+            {
+              "id": "f470d801-5514-49d5-a61e-8ffe9b785c70",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "34d14c13-18d5-48b5-9865-b936ab79ca54",
+          "frames": [
+            {
+              "id": "67650287-15d6-4e8c-a6f6-96aabd142f2e",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "761d10c6-0cbb-42cc-a022-de67fefff213",
+          "frames": [
+            {
+              "id": "f7de245d-e6e9-4e9c-bf11-081d7933e886",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "49dac051-e18a-493e-91be-927de6c382a3",
+          "frames": [
+            {
+              "id": "eb4fb37c-ab10-4326-a79d-bf1af77db530",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "f0774f5a-2a0a-43ca-b019-37b78d16ea88",
+          "frames": [
+            {
+              "id": "40b6960f-43d0-4acd-a236-5b5b633ce117",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "20e44550-56ef-4c81-a0fd-f15c2ce4f3c2",
+          "frames": [
+            {
+              "id": "a5e64cd6-dc00-4b2d-9fb6-103c6a9b1621",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "938970a9-2060-4e0a-8f35-eac50b7a4d59",
+          "frames": [
+            {
+              "id": "2a7d5a8f-4353-4219-b8be-4e0857ac89d6",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 0,
+  "canvasWidth": 32,
+  "canvasHeight": 32,
+  "boundsX": 0,
+  "boundsY": 0,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "ship1.png",
+  "checksum": "fc4e7b97e2059f67a6c0381932481a1c33961978",
+  "numFrames": 2
+}

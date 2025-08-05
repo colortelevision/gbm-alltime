@@ -1,0 +1,159 @@
+{
+  "_resourceType": "sprite",
+  "id": "1e123b11-3dcf-45fe-9bbb-f48e916e8fcc",
+  "name": "REDWARD copy",
+  "symbol": "sprite_redward_copy",
+  "width": 32,
+  "height": 16,
+  "states": [
+    {
+      "id": "e1474a95-78c8-4a7d-aa4d-290d250b9195",
+      "name": "",
+      "animationType": "fixed",
+      "flipLeft": false,
+      "animations": [
+        {
+          "id": "aba0fd11-ff58-45ca-a37e-0e897f4b9e6e",
+          "frames": [
+            {
+              "id": "2c652509-aa33-4962-b8fe-ed4a85469f80",
+              "tiles": [
+                {
+                  "id": "abebfacc-ae41-498b-9daf-164b43411576",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 0,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                },
+                {
+                  "id": "ed29bdc6-063c-4346-a059-2fb278edb3bd",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 8,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                }
+              ]
+            },
+            {
+              "id": "d4487af1-7d37-42dd-8cd3-c3c80085e712",
+              "tiles": [
+                {
+                  "id": "a545a529-401e-44ff-a73b-23517f766865",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 16,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                },
+                {
+                  "id": "64c3a8e3-6c0f-4e04-9935-ab946e12353d",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 24,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "65424d79-c3d7-4041-9d27-2fd457de9fcc",
+          "frames": [
+            {
+              "id": "4c362164-2a23-475e-8785-177b28f77848",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "dd735626-2373-4a4f-b851-962098bab97c",
+          "frames": [
+            {
+              "id": "0875dd73-11e3-4587-995c-353eaefe1340",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "1fb7cab0-daf1-4cda-a389-cc4ce624f028",
+          "frames": [
+            {
+              "id": "b785f873-2fc5-4db2-8425-ee9a80da65ed",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "076b3fb5-2474-4e47-8256-fb9392158785",
+          "frames": [
+            {
+              "id": "18762989-8d9a-4bba-a933-3cf79dcad905",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "10a992e9-1311-438a-a268-1fc87666016e",
+          "frames": [
+            {
+              "id": "a778f300-f155-4413-9a7f-ec25307be979",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "7d3b8017-71be-4ac9-89c8-febd7a802684",
+          "frames": [
+            {
+              "id": "ed74a18c-ef21-4389-a9d8-b91399dc6f67",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "e0c40ea2-49e0-4e46-9265-d4edc255ec29",
+          "frames": [
+            {
+              "id": "63deb87f-c4da-4cb0-9b40-e35e0e9a9bfb",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 4,
+  "canvasWidth": 16,
+  "canvasHeight": 16,
+  "boundsX": 0,
+  "boundsY": 0,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "REDWARD copy.png",
+  "checksum": "ef47e6f2bebce78c29a292c5e6e956aab426db2a",
+  "numFrames": 2
+}

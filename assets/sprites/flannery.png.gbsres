@@ -1,0 +1,100 @@
+{
+  "_resourceType": "sprite",
+  "id": "71055ab6-f0f4-42b9-8603-8b3c174e4973",
+  "name": "flannery",
+  "symbol": "sprite_flannery",
+  "width": 16,
+  "height": 96,
+  "states": [
+    {
+      "id": "c398896e-6a83-49d1-a07f-e31ce43c8aa9",
+      "name": "",
+      "animationType": "multi_movement",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "19f5792c-dd65-4ea3-82c9-c81a0af4777e",
+          "frames": [
+            {
+              "id": "07510a81-fe6b-41cd-906c-3bfd1d7aebaf",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "7fe6798b-b694-4f12-a937-1a0785a283e2",
+          "frames": [
+            {
+              "id": "bc8a1275-fe59-4cda-9b14-f2064a27ac2e",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "7011afb1-1c78-4252-a642-589a23d07e26",
+          "frames": [
+            {
+              "id": "456d7fb9-55d9-4a6f-9c11-2e1f4e7bbe16",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "a52f4c33-9b83-47b7-bce0-7198e9346d5c",
+          "frames": [
+            {
+              "id": "a3920138-30e1-48dc-a5f7-a61c06863179",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "8da06bb6-ce82-425c-819e-e98c2520f48f",
+          "frames": [
+            {
+              "id": "58bddb4e-f4cc-4eab-b8fe-277fd9e584e4",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "ee3ec215-2a12-44ba-9aa8-2506760ae77c",
+          "frames": [
+            {
+              "id": "aa7a64d5-18e3-4ce5-ba44-6cd4266dff71",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "680ffaf5-8080-45ab-b95f-cb088cd08ed4",
+          "frames": [
+            {
+              "id": "332d1492-68a0-45bb-88a2-df1b88bf2b3e",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "10d6a467-a602-4f1e-818a-f2d841898b88",
+          "frames": [
+            {
+              "id": "b0784a2b-2238-40a1-95bf-d3d7225d1088",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 0,
+  "canvasWidth": 32,
+  "canvasHeight": 32,
+  "boundsX": 0,
+  "boundsY": 0,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "flannery.png",
+  "checksum": "06936b3fbbc9c5caf90db26ad70954d40e719298"
+}

@@ -1,0 +1,101 @@
+{
+  "_resourceType": "sprite",
+  "id": "57a34fca-0e61-4293-ac52-7a81fcc6db40",
+  "name": "25TAGZ/swimmer",
+  "symbol": "sprite_25tagz_swimmer",
+  "width": 16,
+  "height": 96,
+  "states": [
+    {
+      "id": "a9ebc7c2-93f9-422c-b9db-6b2f73d39877",
+      "name": "",
+      "animationType": "multi_movement",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "9adc98b2-7871-4e05-96d7-32d854f98dad",
+          "frames": [
+            {
+              "id": "180f8228-d980-46b5-85f3-2eee3f4349af",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "2602f36f-ee61-4648-a713-e1b37595b303",
+          "frames": [
+            {
+              "id": "4fc6e833-d970-42ab-bbdd-686c7c711f3f",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "d7793d9c-f5cb-477e-a377-3463f66b18d9",
+          "frames": [
+            {
+              "id": "b931c6b7-9b48-4347-846d-61537342eb00",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "78945914-75d1-424b-b963-d46eb4f1f789",
+          "frames": [
+            {
+              "id": "2b393c68-85c7-4234-aa58-1769662636e0",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "23b261b2-5561-42ea-aab7-1a06d3edb580",
+          "frames": [
+            {
+              "id": "6cbd5ec4-309b-47ee-abd1-3652914b6409",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "e7954d71-3f8c-4209-9e71-3db762444fa4",
+          "frames": [
+            {
+              "id": "8704bbde-2222-48d3-83bf-152b03c3cb24",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "2023a0de-872e-433b-9f07-7e040dae3126",
+          "frames": [
+            {
+              "id": "331eb318-e13f-4896-86ac-9cd3cd997a7a",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "bc21419a-bc49-44f2-b3f2-184abd8d284e",
+          "frames": [
+            {
+              "id": "b040d765-8e13-45fc-bd5a-bf7b2d4d257c",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 0,
+  "canvasWidth": 32,
+  "canvasHeight": 32,
+  "boundsX": 0,
+  "boundsY": 0,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "25TAGZ/swimmer.png",
+  "checksum": "0af2351ac433e86c40de149df934ea4ae8ee3f9c",
+  "numFrames": 1
+}

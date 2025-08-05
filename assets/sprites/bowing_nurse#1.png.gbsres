@@ -1,0 +1,100 @@
+{
+  "_resourceType": "sprite",
+  "id": "3d0cc385-8295-4f98-871d-e8cf57ad2357",
+  "name": "bowing_nurse#1",
+  "symbol": "sprite_bowing_nurse_1",
+  "width": 16,
+  "height": 48,
+  "states": [
+    {
+      "id": "34b3454b-b23c-47e6-84da-d7fe3ee876b6",
+      "name": "",
+      "animationType": "multi_movement",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "8044b9fb-c212-43b7-b329-92e2ba37242a",
+          "frames": [
+            {
+              "id": "405a8853-f876-4a98-a029-27d6e6e5f445",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "8ae23fc8-1b33-4843-88b7-155fda4a2c91",
+          "frames": [
+            {
+              "id": "94eec1cb-5fcb-4d4f-bd13-1e65cd112eac",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "f01d4f62-eabf-4221-8d00-7a6966b3a77b",
+          "frames": [
+            {
+              "id": "f148b7de-f61b-4e04-b8cc-d6bc475fbd98",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "5a9a332e-79af-4bc4-82bb-d3845d2c2ff9",
+          "frames": [
+            {
+              "id": "70be2e4f-01ff-423c-bf2f-c489f3fef405",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "1a249a99-4140-4ee1-9d5c-ca5f97c10625",
+          "frames": [
+            {
+              "id": "bb5427ed-602f-472e-b571-03943064346e",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "918c6b3c-6fbc-47ea-b432-47ab93025a31",
+          "frames": [
+            {
+              "id": "1c16a62c-bb4a-426a-9039-7b94fc6df1b4",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "daa21b3d-40a5-4beb-b68a-65912e7cbdc8",
+          "frames": [
+            {
+              "id": "3bbe31f0-c6c0-4c31-9d9e-4e85fe952f39",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "a8754a72-9582-48e3-a2d7-22f8f5ab450b",
+          "frames": [
+            {
+              "id": "9b172cb3-d140-4e83-8fb9-b1ef408b76b6",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 0,
+  "canvasWidth": 32,
+  "canvasHeight": 32,
+  "boundsX": 0,
+  "boundsY": 0,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "bowing_nurse#1.png",
+  "checksum": "8c603307e146dfca29536999925614f38f6e139a"
+}

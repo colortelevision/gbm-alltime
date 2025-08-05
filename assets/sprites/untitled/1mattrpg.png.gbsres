@@ -1,0 +1,181 @@
+{
+  "_resourceType": "sprite",
+  "id": "d5c65963-e380-4e5a-be9f-cdcd432467c0",
+  "name": "untitled/1mattrpg",
+  "symbol": "sprite_untitled_1mattrpg",
+  "width": 48,
+  "height": 16,
+  "states": [
+    {
+      "id": "eaad300d-2f19-492f-bf37-52d75e4b1c37",
+      "name": "",
+      "animationType": "multi",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "ff5236e0-6a0c-4150-baed-9ede73b4aa8f",
+          "frames": [
+            {
+              "id": "53e37d5d-d4ac-49f7-88a3-46c0507e5715",
+              "tiles": [
+                {
+                  "id": "1d3ef3aa-8039-4711-88cd-9f04676bf91d",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 32,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                },
+                {
+                  "id": "097c09b9-c3bf-44ee-b3c7-da241f9f72d5",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 40,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "a078dbb4-2df8-4a43-9611-b3299d50d9ea",
+          "frames": [
+            {
+              "id": "80afcb74-529b-4ac5-97e8-ec2db4ab2545",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "19934b67-566c-4067-a366-58403f02a0f6",
+          "frames": [
+            {
+              "id": "89b6f633-239f-406f-9f45-39b920a72779",
+              "tiles": [
+                {
+                  "id": "aa3e32ee-4499-4441-b65b-b404e4b7318a",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 16,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                },
+                {
+                  "id": "2656f4c7-e145-4ed7-8bf6-a782801972bf",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 24,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "c07cf588-1717-4b2f-9387-9d9f007a43d5",
+          "frames": [
+            {
+              "id": "4558d5bb-059f-4927-944e-78b0c218b625",
+              "tiles": [
+                {
+                  "id": "797f2789-e840-4714-a49c-b1bd3686f46e",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 0,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                },
+                {
+                  "id": "cc54a311-be61-4fa1-a5d2-aa4ad6ed4915",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 8,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "372ed313-3b69-4dbf-83f5-6673d3c5d9c2",
+          "frames": [
+            {
+              "id": "79a13b21-2f6d-43d1-a8a9-4ad491945970",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "b5dabfca-0609-4c3e-96ae-47bdccb728de",
+          "frames": [
+            {
+              "id": "f59321b6-99c5-4b1d-88e6-d982636dd63b",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "f60bb933-94b6-430e-9031-454d5098835a",
+          "frames": [
+            {
+              "id": "dc8b274b-7bc1-4bcf-bb9f-a05946b07dd9",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "82fd330a-8c35-4fec-b235-f4184dc9b6f5",
+          "frames": [
+            {
+              "id": "35d0297b-37d7-4cef-9786-b9e15f632889",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 6,
+  "canvasWidth": 16,
+  "canvasHeight": 16,
+  "boundsX": 0,
+  "boundsY": 0,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "untitled/1mattrpg.png",
+  "checksum": "2798d2c3413424fa3cd92aac626836c018bfc865"
+}

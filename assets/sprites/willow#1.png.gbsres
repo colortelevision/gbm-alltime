@@ -1,0 +1,100 @@
+{
+  "_resourceType": "sprite",
+  "id": "40c6c1c2-9895-448b-88b8-eadc300531a5",
+  "name": "willow#1",
+  "symbol": "sprite_willow_1",
+  "width": 16,
+  "height": 48,
+  "states": [
+    {
+      "id": "b0f71096-b158-4464-a8c5-9064d78ce47d",
+      "name": "",
+      "animationType": "multi_movement",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "badcdb56-64ed-4dc5-8c41-e5f204362f36",
+          "frames": [
+            {
+              "id": "2386d345-6f94-4dda-a03f-90007095da28",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "9e631d6a-7742-47a0-9901-dc92d73f66f0",
+          "frames": [
+            {
+              "id": "ace14790-7287-4ef5-87d1-53f5a7f12b2c",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "655d29e6-fcd0-4a5b-b25b-c24e7231f394",
+          "frames": [
+            {
+              "id": "7eeed266-912c-4a56-8f78-58d1e9988953",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "ec0e8771-e0c3-4cd9-9a7c-547ded073688",
+          "frames": [
+            {
+              "id": "1ac765cf-f250-4d45-8564-e9f8bc090743",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "f43da429-3559-40c0-83d6-0acd4dbda367",
+          "frames": [
+            {
+              "id": "72373bbb-4c53-49fa-9357-ab3f5c2fe2bc",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "e06e9500-a54d-4004-9658-372e37341462",
+          "frames": [
+            {
+              "id": "5cebb5ae-885c-47b0-a4cc-8558182c1a05",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "f237886d-61a8-4c52-9191-dc399cd87368",
+          "frames": [
+            {
+              "id": "df3e0091-7810-42fd-9532-243326004ea1",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "e7f1cb24-8e68-41e1-a1f5-15304239073d",
+          "frames": [
+            {
+              "id": "d3ae5fa1-81ba-4d73-a351-76c1ff27b6a2",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 0,
+  "canvasWidth": 32,
+  "canvasHeight": 32,
+  "boundsX": 0,
+  "boundsY": 0,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "willow#1.png",
+  "checksum": "0a60b3aa5d563d5efaeaaafe3a557aad0b013599"
+}

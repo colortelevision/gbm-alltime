@@ -1,0 +1,100 @@
+{
+  "_resourceType": "sprite",
+  "id": "4d4bdc1d-6b0e-460e-a71e-5ff160d0b615",
+  "name": "eevee",
+  "symbol": "sprite_eevee",
+  "width": 16,
+  "height": 96,
+  "states": [
+    {
+      "id": "980abd5a-88de-43b1-b1c0-dbf749a65eee",
+      "name": "",
+      "animationType": "multi_movement",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "d6380f46-5fd5-4947-861e-ded1b88d6768",
+          "frames": [
+            {
+              "id": "911b3e99-a953-4bc1-bd89-b254544928b9",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "55612dd2-8397-440b-84a5-b4c9142a741f",
+          "frames": [
+            {
+              "id": "de9eb9fb-ae5e-4688-8ded-457bc9f646a3",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "9df3a789-7079-4f55-8120-27a5862f8da2",
+          "frames": [
+            {
+              "id": "d9a2b845-a527-484c-9470-a3cee385b6b5",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "4c3339c7-24be-45bb-b3c6-ac6bac01513b",
+          "frames": [
+            {
+              "id": "ff5b261c-d09e-4688-a506-d2ad72d51df7",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "583d71c1-4b5a-45e0-8194-7f6862d6ef9e",
+          "frames": [
+            {
+              "id": "9ad1eb49-c28b-4bb0-aa5c-43ac5d05455f",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "8ad83d6d-d85a-4aef-9f6b-5973fc8e25dc",
+          "frames": [
+            {
+              "id": "ed54fc72-7879-45a0-a38f-7bc9f3f7b68b",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "d8e80618-1ca7-4e57-a33e-aee8c1f4076c",
+          "frames": [
+            {
+              "id": "c0f32326-cc3c-4fcb-acae-37ab84b2fb2b",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "dd7f7544-b17e-4072-8a40-142105ded359",
+          "frames": [
+            {
+              "id": "d266c9a9-6ef3-44fd-8361-c48fa2fb92bd",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 0,
+  "canvasWidth": 32,
+  "canvasHeight": 32,
+  "boundsX": 0,
+  "boundsY": 0,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "eevee.png",
+  "checksum": "07b6cd89ecaa70ad30e12324376f52c3ea082cd5"
+}

@@ -1,0 +1,100 @@
+{
+  "_resourceType": "sprite",
+  "id": "9c2d8ff9-de52-402a-ac0e-9384f2263a0f",
+  "name": "stockstick",
+  "symbol": "sprite_stockstick",
+  "width": 96,
+  "height": 96,
+  "states": [
+    {
+      "id": "84f5401a-c3cd-44cc-8790-3ab4d292ecc5",
+      "name": "",
+      "animationType": "multi_movement",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "224fb6ce-80c4-4bec-9f09-3267157e603b",
+          "frames": [
+            {
+              "id": "833868bd-e76a-4b20-860f-41845907ac39",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "29c070d9-77a4-4510-9b82-b393aa8ee825",
+          "frames": [
+            {
+              "id": "d4bf56b5-e08c-4045-bd7b-d877dba3c308",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "d233083b-aa6a-4329-b36a-aecd76c893ce",
+          "frames": [
+            {
+              "id": "47dddcc9-e03e-4a8c-896f-33556cb15b78",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "90906a63-4a5e-42c9-80e6-c5d3f00c5abb",
+          "frames": [
+            {
+              "id": "5c8bcdfd-a5a8-4e62-be17-7ff7e4697144",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "38c114e0-8135-4607-aa1e-f245c7109e91",
+          "frames": [
+            {
+              "id": "c1894e7e-7945-49e5-8548-e1d3d32d4ba1",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "427bbe7d-8ae1-446c-adb9-a4ddc321db84",
+          "frames": [
+            {
+              "id": "cacae16f-763f-4b62-a23d-398c73f349b0",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "93a31855-3516-4788-9634-a1f39097b17d",
+          "frames": [
+            {
+              "id": "bcf363ec-2198-48fc-9787-76ccd88e153b",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "0a1953e9-8f00-4265-be24-090acd6071a8",
+          "frames": [
+            {
+              "id": "7d9079c3-b06a-4aa8-ba8e-5080f9bd9ff0",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 0,
+  "canvasWidth": 32,
+  "canvasHeight": 32,
+  "boundsX": 0,
+  "boundsY": 0,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "stockstick.png",
+  "checksum": "2cf1e613b36273c4d5c5ecc5487fe93a50147dfb"
+}

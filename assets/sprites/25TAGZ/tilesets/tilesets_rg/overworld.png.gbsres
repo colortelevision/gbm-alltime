@@ -1,0 +1,101 @@
+{
+  "_resourceType": "sprite",
+  "id": "c5695fc1-99e3-40f0-b869-dc4901a27e6c",
+  "name": "25TAGZ/tilesets/tilesets_rg/overworld",
+  "symbol": "spritetagz_tilesets_tile_1",
+  "width": 128,
+  "height": 48,
+  "states": [
+    {
+      "id": "14ced835-7a47-4cb6-ad65-99a7d26f5090",
+      "name": "",
+      "animationType": "multi_movement",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "a235fb56-c01b-4884-89b3-deb1bced8a28",
+          "frames": [
+            {
+              "id": "cd26dc9f-1bd6-49ca-be9b-50b706da90e9",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "66492075-fc9b-4279-9396-712e24d3f6bc",
+          "frames": [
+            {
+              "id": "f261036c-6936-4915-ad70-6c40a8c4937d",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "ecd3c400-8f4d-4981-95a8-292b1fabcbde",
+          "frames": [
+            {
+              "id": "05e746ad-890f-4892-ae35-cdf7ca9eb865",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "daf89a9e-cd25-4632-b107-554595e4a742",
+          "frames": [
+            {
+              "id": "a16fb5db-2843-4ee0-b5a8-2431257f8361",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "b3124072-385a-4a0b-957f-18d0d730807e",
+          "frames": [
+            {
+              "id": "d7736be3-f866-4364-a80c-706bf2d26f8e",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "79b0f027-fd8c-4738-b40e-22a9d881e369",
+          "frames": [
+            {
+              "id": "10fd7e2e-fd68-4662-95e9-2045d946cb8c",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "088d2152-45cb-450a-b8cc-c7c1ef8bfd68",
+          "frames": [
+            {
+              "id": "abe4624b-301c-4387-ab3d-00f43ae80f75",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "d93fd03b-511a-49dd-a073-6169d3966f8f",
+          "frames": [
+            {
+              "id": "3a08dbd4-f427-41a3-a0f6-48597c252895",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 0,
+  "canvasWidth": 32,
+  "canvasHeight": 32,
+  "boundsX": 0,
+  "boundsY": 0,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "25TAGZ/tilesets/tilesets_rg/overworld.png",
+  "checksum": "32a999a347b4ee7626af93ee67760183dbf6227d",
+  "numFrames": 8
+}

@@ -2,26 +2,26 @@
   "_resourceType": "scene",
   "id": "b9f61af9-9379-44bf-8280-0d8ff1f650b3",
   "_index": 4,
-  "name": "Arena",
-  "backgroundId": "2924f18e-34ef-4af5-8461-317ea220e35b",
-  "tilesetId": "",
-  "width": 32,
-  "height": 24,
   "type": "PLATFORM",
-  "paletteIds": [
-    null,
-    "f7be70eb-8afe-4a5d-a29c-74976b56604e",
-    "41d0571e-0f36-494a-b085-dfdf8276ff91",
-    null,
-    null,
-    "86e86db4-b075-4fe7-85a2-f913ed33fb3c"
-  ],
-  "spritePaletteIds": [],
-  "collisions": "0f48+0010+0ff+0011+0ff+10!0010+0ff+10!0010+0ff+10!0010+0ff+10!0010+0fa+005+10!0010+10!005+0f4+005+10!0010+10!005+0f4+008+0fc+002+10!005+0f4+008+016+026+002+10!005+0f2+0018+10!001f+10!001f+10!001f+10!007+0fa+00c+0f14+00c+0f10+0018+0f8+0018+0f8+0018+0f8+0018+0f9+00!0f!00!0f!00!0f!00!0f!00!0f!00!0f!00!0f!00!0f!00!0f!00!0f!00!0f!00!0f8+00!0f!00!0f!00!0f!00!0f!00!0f!00!0f!00!0f!00!0f!00!0f!00!0f!00!0f!00!0f3+",
-  "autoFadeSpeed": 1,
+  "name": "Arena",
   "symbol": "scene_5",
   "x": 936,
   "y": 32,
+  "width": 32,
+  "height": 24,
+  "backgroundId": "2924f18e-34ef-4af5-8461-317ea220e35b",
+  "tilesetId": "",
+  "paletteIds": [
+    "",
+    "f7be70eb-8afe-4a5d-a29c-74976b56604e",
+    "41d0571e-0f36-494a-b085-dfdf8276ff91",
+    "",
+    "",
+    "86e86db4-b075-4fe7-85a2-f913ed33fb3c"
+  ],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
+  "playerSpriteSheetId": "2d079fc1-4d8c-4e4c-96ef-1782977b8ff9",
   "script": [
     {
       "command": "EVENT_ACTOR_SET_SPRITE",
@@ -161,5 +161,5 @@
   ],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "playerSpriteSheetId": "2d079fc1-4d8c-4e4c-96ef-1782977b8ff9"
+  "collisions": "0f48+0010+0ff+0011+0ff+10!0010+0ff+10!0010+0ff+10!0010+0ff+10!0010+0fa+005+10!0010+10!005+0f4+005+10!0010+10!005+0f4+008+0fc+002+10!005+0f4+008+016+026+002+10!005+0f2+0018+10!001f+10!001f+10!001f+10!007+0fa+00c+0f14+00c+0f10+0018+0f8+0018+0f8+0018+0f8+0018+0f9+00!0f!00!0f!00!0f!00!0f!00!0f!00!0f!00!0f!00!0f!00!0f!00!0f!00!0f!00!0f8+00!0f!00!0f!00!0f!00!0f!00!0f!00!0f!00!0f!00!0f!00!0f!00!0f!00!0f!00!0f3+"
 }

@@ -1,0 +1,100 @@
+{
+  "_resourceType": "sprite",
+  "id": "f674ccd8-8499-444e-a7b9-4a2a1a428ee8",
+  "name": "trademock/2link",
+  "symbol": "sprite_trademock_2link",
+  "width": 64,
+  "height": 64,
+  "states": [
+    {
+      "id": "f935039a-c0c6-49af-afa8-bb538763ebef",
+      "name": "",
+      "animationType": "multi_movement",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "a0ee56f8-4d17-4432-871a-ba3c8d6a7219",
+          "frames": [
+            {
+              "id": "f6a2327c-64e2-4fbb-8e49-418ed9fade5a",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "4a95d47e-c1bd-4b37-8e68-223e5bf36fdc",
+          "frames": [
+            {
+              "id": "e18f3831-97ff-49f7-877a-c14d4a6262e5",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "10f3a23c-d1cb-4d50-b6e8-1a66dc843997",
+          "frames": [
+            {
+              "id": "6b3d70e9-0147-4943-bb5b-c98d1090b36e",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "14f46086-1c21-4d02-b852-02511aecef9d",
+          "frames": [
+            {
+              "id": "ab6c7c21-47be-4dab-b7c4-94c8526ee225",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "8eea5219-9be5-4552-b60d-acf4764e1dda",
+          "frames": [
+            {
+              "id": "c96cef53-9afb-4d9e-b25b-e7330ea4a198",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "6e7365a4-4939-4db3-8f82-1cb00788753e",
+          "frames": [
+            {
+              "id": "31c764e9-817a-4d3b-976f-72e743475909",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "c6712dd5-770b-4af8-8927-9ca3e56aebb1",
+          "frames": [
+            {
+              "id": "567760ec-630e-494f-b5b5-eb85d0a24576",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "ef35023b-1554-48b8-a0d7-328356c942cc",
+          "frames": [
+            {
+              "id": "480f970b-1904-4817-b6e7-20880c28e7de",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 0,
+  "canvasWidth": 32,
+  "canvasHeight": 32,
+  "boundsX": 0,
+  "boundsY": 0,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "trademock/2link.png",
+  "checksum": "34e2108fcd0e429a7b5ae1f3ea478499f4144250"
+}

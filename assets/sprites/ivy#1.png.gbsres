@@ -1,0 +1,100 @@
+{
+  "_resourceType": "sprite",
+  "id": "4da12e17-0f86-4576-bfdd-046d16cd4c93",
+  "name": "ivy#1",
+  "symbol": "sprite_ivy_1",
+  "width": 16,
+  "height": 96,
+  "states": [
+    {
+      "id": "a05a0723-178f-424c-89f8-93fac11fc392",
+      "name": "",
+      "animationType": "multi_movement",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "b67b5f6a-6246-4ea5-ae30-1955c63b0543",
+          "frames": [
+            {
+              "id": "c9295a08-69f9-4025-9f90-a9330f68a311",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "ea31cba1-8467-4387-a37a-26fed8dec017",
+          "frames": [
+            {
+              "id": "8c1e9391-28cc-4c5d-b512-cdae57898593",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "9b79e567-1713-4399-b107-781c173aad8d",
+          "frames": [
+            {
+              "id": "6e31be04-4cb7-429d-9aac-c1c278958322",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "8a312cd5-18a0-48a4-8310-0d224787871d",
+          "frames": [
+            {
+              "id": "618d9ea2-bfcd-4650-86a0-efb7e0238e23",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "7c1dca5c-f570-4618-a3e1-03d964be49cb",
+          "frames": [
+            {
+              "id": "4ee1d575-2757-4df1-aaec-be42f527218a",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "1cb57b02-4065-45e9-af05-4093b1083a38",
+          "frames": [
+            {
+              "id": "eb78e743-ff2c-429c-9e7d-963d6347eb8c",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "17dee784-a36a-4bb5-b1f3-2dc47fdcee79",
+          "frames": [
+            {
+              "id": "8c296d33-2efd-49ce-9052-2a3983a84cc5",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "ae6ca098-4b73-45d7-bdfd-bd791e3e21ed",
+          "frames": [
+            {
+              "id": "ce4b0bd1-827c-41c4-a88a-11facd315056",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 0,
+  "canvasWidth": 32,
+  "canvasHeight": 32,
+  "boundsX": 0,
+  "boundsY": 0,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "ivy#1.png",
+  "checksum": "f57b62f4b33f6830a30ff584564fd2e89f4c6734"
+}

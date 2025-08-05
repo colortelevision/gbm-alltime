@@ -1,0 +1,100 @@
+{
+  "_resourceType": "sprite",
+  "id": "9b552786-9ea0-4064-95f8-8b12c9c31bbb",
+  "name": "farfetch_d",
+  "symbol": "sprite_farfetch_d",
+  "width": 16,
+  "height": 96,
+  "states": [
+    {
+      "id": "e43ce30f-8f7a-45ef-afee-63b8a5da39d4",
+      "name": "",
+      "animationType": "multi_movement",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "c723c190-a2ef-4d9c-87ab-7cee6f69ecfa",
+          "frames": [
+            {
+              "id": "e52b1ebb-025c-458b-a629-fac045163612",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "83287fd7-951e-44bd-b038-43fd3fa73de8",
+          "frames": [
+            {
+              "id": "5a201a6d-81af-4bbb-8f3f-aaac96dde755",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "bea74308-c5eb-45b1-8931-c090e5a92443",
+          "frames": [
+            {
+              "id": "5febd49d-1b2a-4c82-a472-a6b00661150a",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "fb2cb0f9-d4ad-4aa2-a18a-44630694abec",
+          "frames": [
+            {
+              "id": "51c89b75-bdce-40b9-9721-8f83b6d9b5eb",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "b4d35fb3-0c4c-44b0-8e8a-70019be41070",
+          "frames": [
+            {
+              "id": "9d64e1ef-1621-498f-9704-e524295d60d5",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "cc9e7dd3-3aa5-48e9-aa22-93c17470bfc0",
+          "frames": [
+            {
+              "id": "dcaffa02-2a83-4c83-bc62-9ca12196c075",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "e984567d-74e2-4ea9-927a-ac60ba96b4f8",
+          "frames": [
+            {
+              "id": "669ab871-243e-4312-b456-976de2bf9577",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "785c9e7b-8e99-4a5c-bba8-89b913fc77bf",
+          "frames": [
+            {
+              "id": "80b2de22-c193-4f0d-b4c1-759279431656",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 0,
+  "canvasWidth": 32,
+  "canvasHeight": 32,
+  "boundsX": 0,
+  "boundsY": 0,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "farfetch_d.png",
+  "checksum": "29f1c539679782ba999a874dc1573e5dc1ec27cc"
+}

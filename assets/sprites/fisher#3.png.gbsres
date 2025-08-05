@@ -1,0 +1,100 @@
+{
+  "_resourceType": "sprite",
+  "id": "9a23ef1e-a106-41f2-8a5b-316530d7e599",
+  "name": "fisher#3",
+  "symbol": "sprite_fisher_3",
+  "width": 16,
+  "height": 96,
+  "states": [
+    {
+      "id": "c62ff7c4-0b3e-4ee5-92e9-9fa66528c4b9",
+      "name": "",
+      "animationType": "multi_movement",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "d914e7a9-45ca-4785-bb23-04bb7c5f9e63",
+          "frames": [
+            {
+              "id": "f608e823-8c1d-42cb-8380-a54e81ebd878",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "99008c42-8dbd-448c-818f-1347675834a0",
+          "frames": [
+            {
+              "id": "36126bbe-1c60-467d-8d36-9b8064437ff6",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "8ae68250-4fb2-4c3e-8908-718ff0b8596b",
+          "frames": [
+            {
+              "id": "ea6d3dec-ba6a-49e5-ade5-a8d70eb20b9f",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "ab91ae06-9e52-4ea0-a8a6-9ac94a913e4f",
+          "frames": [
+            {
+              "id": "d6b49034-2ca8-4c26-bb3e-8e3c9b0693f8",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "f5bad8e6-3d3b-489d-9405-5900ba80bc8b",
+          "frames": [
+            {
+              "id": "31ee210f-53d5-4960-96e6-2930d94e2bc7",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "749ea62d-f5d9-4519-94c4-9160475804b1",
+          "frames": [
+            {
+              "id": "e1b60089-55b2-4b49-b526-3b81d63c825c",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "e77e9930-8302-41f7-9158-61ceae0b61be",
+          "frames": [
+            {
+              "id": "25aa360f-d22f-422e-9a00-b4f2242f9894",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "c2a468f2-3560-4123-a17e-240946be65d9",
+          "frames": [
+            {
+              "id": "6d4ec600-e6d3-4940-87ff-1ee9dbbcc9d9",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 0,
+  "canvasWidth": 32,
+  "canvasHeight": 32,
+  "boundsX": 0,
+  "boundsY": 0,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "fisher#3.png",
+  "checksum": "82d5c35cb9b07c7e417ed8d490a80bade7355b79"
+}

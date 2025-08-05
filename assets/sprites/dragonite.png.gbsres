@@ -1,0 +1,100 @@
+{
+  "_resourceType": "sprite",
+  "id": "8fd7236b-57b4-40a7-9ab3-f4a62828e5d8",
+  "name": "dragonite",
+  "symbol": "sprite_dragonite",
+  "width": 16,
+  "height": 96,
+  "states": [
+    {
+      "id": "999941ee-c11b-44f7-a623-21c1763bb244",
+      "name": "",
+      "animationType": "multi_movement",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "6eafc25e-7802-46bb-9a75-cbe9872f98a0",
+          "frames": [
+            {
+              "id": "d0602059-d303-412e-b6ac-631604a3b8d6",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "effb8a0e-cbe5-4540-803e-3b3365648c78",
+          "frames": [
+            {
+              "id": "237558b1-9964-457c-a67a-8d20ba8de87b",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "b417b31e-9dc6-4e00-ae79-0b4036b3e0b9",
+          "frames": [
+            {
+              "id": "e4a2a79c-7e85-436e-8254-f67789ce6f3a",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "c219c3f2-e07b-42cc-a5d5-616c56675654",
+          "frames": [
+            {
+              "id": "c7f1cc4e-41af-4b67-a8af-51bb814759b2",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "dbd4d4c1-88b9-4ab6-b891-103f66115cd3",
+          "frames": [
+            {
+              "id": "958ab40a-67a5-494b-a5f7-f7b4eaeceffa",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "f69ea45b-2104-4a12-a8d7-31b168a8f9ce",
+          "frames": [
+            {
+              "id": "103c0246-a562-44c2-816c-a35c8c82f6df",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "97edb152-92ee-4e9b-963a-07c7f9f42191",
+          "frames": [
+            {
+              "id": "a38d2679-e3f4-4e9f-a2bb-9b74af43399c",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "9d1f7b77-61b7-4eb1-a28b-889879e3ff85",
+          "frames": [
+            {
+              "id": "83f51e65-aa20-4625-9e77-f9fd3a2d608b",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 0,
+  "canvasWidth": 32,
+  "canvasHeight": 32,
+  "boundsX": 0,
+  "boundsY": 0,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "dragonite.png",
+  "checksum": "380c9138338eb0e0e7263a445c6438689bdc003a"
+}

@@ -1,0 +1,100 @@
+{
+  "_resourceType": "sprite",
+  "id": "eb86dacb-6d21-48c2-8137-e78e31580893",
+  "name": "cowgirl",
+  "symbol": "sprite_cowgirl",
+  "width": 16,
+  "height": 96,
+  "states": [
+    {
+      "id": "b441597b-a51f-4834-b07a-95d3aea6bad4",
+      "name": "",
+      "animationType": "multi_movement",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "5f45354b-bfaa-49d5-9f60-4070576ef5d6",
+          "frames": [
+            {
+              "id": "ec972351-1866-49a4-b2c9-d00c1e3bc447",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "c529e6eb-2e05-4999-99b4-3e5c00f26817",
+          "frames": [
+            {
+              "id": "40501045-9dd3-40f6-9694-fbf20793304c",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "54d93a1c-f091-4d52-a903-ba04441019b2",
+          "frames": [
+            {
+              "id": "ab91ef05-1b76-4a40-8d76-f7d9d212c980",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "1ab28d02-1195-41b7-9e67-32da3ac20129",
+          "frames": [
+            {
+              "id": "f0e803ee-d894-4330-9858-5a1f0f646f4b",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "9a4b9bf5-2ecc-45d7-9dcf-351541d5a70e",
+          "frames": [
+            {
+              "id": "853f528c-8827-4257-b960-f9270c9e6c68",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "3c34d735-50a0-4acd-b62f-a8d3099cdb7d",
+          "frames": [
+            {
+              "id": "3259f2a7-da52-4621-a6da-180d16bbea2c",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "d8e300a3-3a59-4515-a56d-742045f93b81",
+          "frames": [
+            {
+              "id": "a641510f-8c39-4712-b503-222be0172de4",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "4b2230ba-45a7-4ffc-9a12-f591cc545eed",
+          "frames": [
+            {
+              "id": "fc6b5495-e74d-4a0a-966c-5c4b0ededb38",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 0,
+  "canvasWidth": 32,
+  "canvasHeight": 32,
+  "boundsX": 0,
+  "boundsY": 0,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "cowgirl.png",
+  "checksum": "1b053b7f1b8b2ba36e67defc929c7dda73b1a705"
+}

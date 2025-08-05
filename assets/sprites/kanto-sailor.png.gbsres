@@ -1,0 +1,101 @@
+{
+  "_resourceType": "sprite",
+  "id": "da919540-f7c3-41d9-b5a6-6166ee76e0ee",
+  "name": "kanto-sailor",
+  "symbol": "sprite_kanto_sailor",
+  "width": 16,
+  "height": 96,
+  "states": [
+    {
+      "id": "3b68ea96-add6-468d-ae5d-b5c45c16f34c",
+      "name": "",
+      "animationType": "multi_movement",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "c673136a-8288-44be-abe2-c2460050ce0d",
+          "frames": [
+            {
+              "id": "e167f7dd-667f-4e78-aea2-06e15ad5e0b8",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "4cbc1ff0-d09e-4137-8199-c59ee820bdd8",
+          "frames": [
+            {
+              "id": "ea1ce15f-10da-44fc-898a-cb02cb02c560",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "1baedf5d-0ef4-4d9c-96fc-4c5e55fa301a",
+          "frames": [
+            {
+              "id": "60c8c997-9af4-4f0e-9d49-b5a4911d7a78",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "a03f8ffe-e9a7-40dc-bba5-6b4e8c39f374",
+          "frames": [
+            {
+              "id": "813febc2-42c8-4f2d-867d-ea9e19bf63f5",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "8f295184-a3ed-49c3-89a3-88a545ba9d63",
+          "frames": [
+            {
+              "id": "49d4529a-eeca-42ee-9f09-9c9587211a5e",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "c5c0a62f-b49e-4c8d-b24e-366e2ab11236",
+          "frames": [
+            {
+              "id": "4df40f73-fbd1-461e-b1b9-c41967e4fabe",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "9fd3518d-8c1b-4126-86db-c9b05bb9d01b",
+          "frames": [
+            {
+              "id": "f171744d-e483-4300-96c2-0b270b24ab78",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "d7792674-42f5-4152-b122-26a2423d7dc0",
+          "frames": [
+            {
+              "id": "776612be-792c-4031-8c16-c68eaf0c9d28",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 0,
+  "canvasWidth": 32,
+  "canvasHeight": 32,
+  "boundsX": 0,
+  "boundsY": 0,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "kanto-sailor.png",
+  "checksum": "1608fd091824047dd2498e799ed964c8303c6f45",
+  "numFrames": 1
+}

@@ -1,0 +1,101 @@
+{
+  "_resourceType": "sprite",
+  "id": "563900a0-22cb-4876-a8c3-17fd7f24c107",
+  "name": "battery level",
+  "symbol": "sprite_battery_level",
+  "width": 64,
+  "height": 32,
+  "states": [
+    {
+      "id": "df6f2ad4-0ae7-495b-a888-bf44c1b42a9d",
+      "name": "",
+      "animationType": "multi_movement",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "263892f4-249b-4577-9c94-1388b38418b6",
+          "frames": [
+            {
+              "id": "08706410-adf1-4c46-92f5-7cc40543e879",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "d7e4bdb6-000b-49a1-9e57-ba0edac67ca2",
+          "frames": [
+            {
+              "id": "5580d6e3-77c0-42e0-a6e1-9eb89003d905",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "f40b7617-041e-477a-b23c-5f1d2c01d971",
+          "frames": [
+            {
+              "id": "d95f0e2c-5216-4b80-b6ae-09b3fae3f61d",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "3b2060c9-8ab6-41c2-af8b-688f5f8f9032",
+          "frames": [
+            {
+              "id": "153c3204-eead-4d6f-98ca-44df464c0481",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "3e7b38a8-90c0-4f0e-b69c-ad0549191d03",
+          "frames": [
+            {
+              "id": "81c752db-ae9d-4fc0-8110-2c82cef87f5b",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "215ac5a2-9202-4a55-bd4b-41b9d11a060d",
+          "frames": [
+            {
+              "id": "2760a9c7-66cf-40b5-be9b-295481828aeb",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "937e3d40-0956-42ec-bdcd-ea96344d5536",
+          "frames": [
+            {
+              "id": "bc10026e-1f6b-4d2a-b90d-2356365bcca9",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "0fc99357-e26a-4693-bc9a-f9e50103996d",
+          "frames": [
+            {
+              "id": "239e8227-743f-425d-a90d-b7bb4bee61c3",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 0,
+  "canvasWidth": 32,
+  "canvasHeight": 32,
+  "boundsX": 0,
+  "boundsY": 0,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "battery level.png",
+  "checksum": "aab73b03de3d9e5b03a8f76f4520efc0e2b55dcd",
+  "numFrames": 4
+}

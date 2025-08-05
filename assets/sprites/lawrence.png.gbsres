@@ -1,0 +1,100 @@
+{
+  "_resourceType": "sprite",
+  "id": "0b82bcf8-12b4-4f0e-b7c9-1d6452e73d07",
+  "name": "lawrence",
+  "symbol": "sprite_lawrence",
+  "width": 16,
+  "height": 96,
+  "states": [
+    {
+      "id": "a92d8e64-bd03-4f4e-bf45-b6dfef096f60",
+      "name": "",
+      "animationType": "multi_movement",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "b46ecaa0-13a7-4b8d-9149-894c6aa300ec",
+          "frames": [
+            {
+              "id": "9b36de7e-f628-43e1-b649-4f2b1fefc8c1",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "0d379543-9c1e-426a-ae9c-a8c226bf12af",
+          "frames": [
+            {
+              "id": "52b95044-a4c3-429c-8318-cec481c91b98",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "3e0d9912-02ef-430d-9527-cfa62ec103a7",
+          "frames": [
+            {
+              "id": "eff88df1-26b8-455f-904d-36bec286850c",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "5f7a4d37-9d83-4358-9c3b-eb910c3c295a",
+          "frames": [
+            {
+              "id": "23a9250e-ce01-4a81-b648-293c32f67926",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "f8e3b3a6-6be2-4c3f-8e06-3159be21313c",
+          "frames": [
+            {
+              "id": "9c060768-ba06-4bb4-9f9b-5e1f04a009ff",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "d1f9e976-8b42-4632-bdbf-2d03ebf61e0e",
+          "frames": [
+            {
+              "id": "09bbe294-d213-499e-b101-aff0be8340c3",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "f1c72f93-5ad9-4e91-a70d-ca6846c79073",
+          "frames": [
+            {
+              "id": "2efaf0eb-c7e4-41d7-9b7f-b1e92e77cf21",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "b779a243-0b36-403f-8487-1c78b93604cd",
+          "frames": [
+            {
+              "id": "e94cc226-6b9c-446c-b664-ecd0904ef389",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 0,
+  "canvasWidth": 32,
+  "canvasHeight": 32,
+  "boundsX": 0,
+  "boundsY": 0,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "lawrence.png",
+  "checksum": "ab33d41a04cfcd38a767d4a9fb775edf9be0fc9a"
+}

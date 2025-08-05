@@ -1,0 +1,101 @@
+{
+  "_resourceType": "sprite",
+  "id": "1b035c8a-5375-4312-81b4-4f017faa34ad",
+  "name": "VEGETAHEAD2",
+  "symbol": "sprite_vegetahead2",
+  "width": 144,
+  "height": 56,
+  "states": [
+    {
+      "id": "1fd17784-0baf-4d7d-8528-4f2f3958402e",
+      "name": "",
+      "animationType": "multi_movement",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "77635e88-68c1-4562-9404-5dd793775f90",
+          "frames": [
+            {
+              "id": "fbb3ce17-9692-450a-8fdc-79897b87cc38",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "9707b4be-9296-407e-8423-b51a6156b82b",
+          "frames": [
+            {
+              "id": "4fdae6ee-f7ec-4305-adaf-b0665d3aa529",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "c405bc9b-b1ca-45e0-87cb-e9b4741da4fb",
+          "frames": [
+            {
+              "id": "2810b27f-1952-43a3-8d19-19a48ec2a9b1",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "1662f081-2c18-4f12-a0d1-c0093dcfa04b",
+          "frames": [
+            {
+              "id": "74466a6f-6504-464a-928d-012089389eb9",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "8acda4fa-d2a8-4a97-bd79-0fdf946f3012",
+          "frames": [
+            {
+              "id": "1dca2b2a-9c91-4c47-8ede-80fdb9640e7b",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "7b2c66b5-e286-4501-bd0d-74806110b9c9",
+          "frames": [
+            {
+              "id": "3fbab320-a239-41ad-b45c-ce605b144e79",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "218e8124-8658-4e26-a98c-289c9f3fa093",
+          "frames": [
+            {
+              "id": "85792fc6-4490-494b-b1cc-b80e4a742e96",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "bbb0b170-94f0-4dee-aaff-0c050a63ff45",
+          "frames": [
+            {
+              "id": "84e5a916-02a9-47f8-bd6d-26622f6762a6",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 0,
+  "canvasWidth": 32,
+  "canvasHeight": 32,
+  "boundsX": 0,
+  "boundsY": 0,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "VEGETAHEAD2.png",
+  "checksum": "e7262ac20d089c30030e2a8369e3fe56474ed138",
+  "numFrames": 9
+}

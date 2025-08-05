@@ -1,0 +1,92 @@
+{
+  "_resourceType": "scene",
+  "id": "1466ea11-0793-4659-b228-1779cac72a43",
+  "_index": 6,
+  "name": "Scene 7",
+  "backgroundId": "44e95e0c-d73e-4653-8b05-e98335a63edf",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [
+    null,
+    "365591fd-b649-41c7-b3ea-a33ce3584370",
+    null,
+    null,
+    "1192b80c-2a58-470d-91dc-c5fe77520be3",
+    "20ade3d2-1055-4d5c-9623-846acfb0f491"
+  ],
+  "spritePaletteIds": [
+    "775860dc-d74d-4e37-9dac-682ea40640ec",
+    "775860dc-d74d-4e37-9dac-682ea40640ec"
+  ],
+  "collisions": "0f!003+0f!00f+0f!003+0f!00f+0f!003+0f!00f+0f!003+0f!00f+0f!003+0f!00f+0f!003+0f!00f+0f!003+0f!00f+0f!003+0f!00f+0f!003+0f!00f+0f!003+0f!00f+0f!003+0f!00f+0f!003+0f!00f+0f!003+0f10+0064+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_7",
+  "x": 256,
+  "y": 584,
+  "script": [
+    {
+      "command": "XV_ARRAY_MANAGER_GET",
+      "args": {
+        "array_manager_get_tabs": "tabSetupArray",
+        "var1": "192",
+        "var2": "193",
+        "var3": "194",
+        "var4": "195",
+        "var5": "196",
+        "var6": "197",
+        "var7": "198",
+        "var8": "198",
+        "var9": "199",
+        "var10": "200",
+        "var11": "201",
+        "var12": "202",
+        "var13": "203",
+        "var14": "204",
+        "var15": "205",
+        "var16": "206",
+        "number_of_vars_to_use": "16",
+        "divide_bit_amount": "16",
+        "array_index": {
+          "type": "number",
+          "value": 0
+        },
+        "results": "L0",
+        "__collapse": true,
+        "__comment": true
+      },
+      "id": "e5a01e31-383f-48d1-b2cf-eee9c08b7437"
+    },
+    {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "788facb0-0839-4d62-9819-0180622bc0bb"
+      },
+      "id": "832edb87-b7e7-43d0-8446-1985afbc94ef"
+    },
+    {
+      "command": "GUD_EVENT_ENABLE_ISRFX",
+      "args": {
+        "__collapse": false,
+        "__comment": true
+      },
+      "id": "655b2f41-17c1-4a56-bfb5-87720189b4df"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_STATE",
+      "args": {
+        "actorId": "$self$",
+        "spriteStateId": "",
+        "loopAnim": true,
+        "__collapse": true
+      },
+      "id": "8402a8cc-76e1-4aba-a0f5-c8c43ae85da1"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "54f6d1d1-3c40-4d38-88c5-06f23ae11529",
+  "autoFadeEventCollapse": false
+}

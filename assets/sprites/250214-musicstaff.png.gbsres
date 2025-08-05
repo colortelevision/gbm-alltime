@@ -1,0 +1,101 @@
+{
+  "_resourceType": "sprite",
+  "id": "15aace0e-4584-4d00-bd28-01c59bba88db",
+  "name": "250214-musicstaff",
+  "symbol": "sprite_250214_musicstaff",
+  "width": 320,
+  "height": 302,
+  "states": [
+    {
+      "id": "830e6d9b-230d-47d2-8f4f-119685470b06",
+      "name": "",
+      "animationType": "multi_movement",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "c7602088-fa99-47b0-88d0-f32e985f029d",
+          "frames": [
+            {
+              "id": "2c187d0d-f31c-4ce3-abae-79b9896da209",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "7c5155cf-de39-4587-99e5-6699b3a14882",
+          "frames": [
+            {
+              "id": "acb991a8-2dbd-497c-a588-b2a105a2836c",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "0165ce5d-ba1c-4276-bef1-4fd817f49a18",
+          "frames": [
+            {
+              "id": "d6cb3fc0-e255-48b6-a7a0-0541fa0165d4",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "ad33e3ba-806e-4926-876e-7e9055b36613",
+          "frames": [
+            {
+              "id": "c768142e-0708-4e0e-b24f-9b9307a62b4a",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "4227bf93-5b74-4418-a0aa-29d7dd040af8",
+          "frames": [
+            {
+              "id": "582496b3-1015-4617-8f06-5fce0d5b7ccc",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "6d521a95-cbb5-4085-95a8-9b957bb5c84e",
+          "frames": [
+            {
+              "id": "a85e49a7-3e53-425d-a0e4-50344e9846c8",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "a3d02d66-7adb-4636-9fd9-5c8ec90d2998",
+          "frames": [
+            {
+              "id": "510146d8-23ea-4491-a200-bb59c64e26f3",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "8ddc97d4-8965-4d69-a58e-f811f7c3c0e0",
+          "frames": [
+            {
+              "id": "4390631d-3235-4ac5-b6f4-0fee4688bacd",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 0,
+  "canvasWidth": 32,
+  "canvasHeight": 32,
+  "boundsX": 0,
+  "boundsY": 0,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "250214-musicstaff.png",
+  "checksum": "3798a099e95104aedeb00667bd26441cd1ec92b7",
+  "numFrames": 20
+}

@@ -1,0 +1,100 @@
+{
+  "_resourceType": "sprite",
+  "id": "0b3f5581-3d52-4704-9c5b-2f20d78a95d8",
+  "name": "waitress#1",
+  "symbol": "sprite_waitress_1",
+  "width": 16,
+  "height": 96,
+  "states": [
+    {
+      "id": "66ef82e8-7c31-47f6-b00d-222cbc621cc3",
+      "name": "",
+      "animationType": "multi_movement",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "677143e5-96d9-406d-95a6-a7dbe2f789cc",
+          "frames": [
+            {
+              "id": "0d29a122-ef88-4f0e-b7ef-0b579cf89824",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "c389b14b-4c8e-4dcd-944a-548961974428",
+          "frames": [
+            {
+              "id": "89b56a71-31bb-4aca-b11b-f228303e6eb1",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "1710892b-b823-4c3f-86ed-dbce433d3ed1",
+          "frames": [
+            {
+              "id": "bacff49d-9e82-413e-b3ff-95edc28db83e",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "3ab6e322-fcc9-4fd6-9f09-bde608fb697c",
+          "frames": [
+            {
+              "id": "73b855b1-c5de-48c3-92f5-b93bc7569239",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "e73d0175-0c47-4789-86b8-3f0a7a70c6c4",
+          "frames": [
+            {
+              "id": "f6c4ceba-4806-4134-b2a1-267b72f5ed86",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "a3e3a1e5-6efc-478c-b56d-35266e4f0fa8",
+          "frames": [
+            {
+              "id": "0b6ff312-c288-4c9f-96b6-83f71713d1bb",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "7222415e-de08-4c35-ba4c-62726c82e1ea",
+          "frames": [
+            {
+              "id": "c1514e18-e2f2-4853-9a24-cf0c11ce1326",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "752e3d84-f3ad-496a-95fc-e0f92e82a4fe",
+          "frames": [
+            {
+              "id": "b47d4e9f-67f9-4ccf-8464-41c6df4646e2",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 0,
+  "canvasWidth": 32,
+  "canvasHeight": 32,
+  "boundsX": 0,
+  "boundsY": 0,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "waitress#1.png",
+  "checksum": "f4665638858c8b4a07d7b9a3d6f077d59324d924"
+}

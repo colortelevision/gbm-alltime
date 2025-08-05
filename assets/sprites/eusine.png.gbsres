@@ -1,0 +1,100 @@
+{
+  "_resourceType": "sprite",
+  "id": "fa357097-6a11-46fa-83df-66bf71116288",
+  "name": "eusine",
+  "symbol": "sprite_eusine",
+  "width": 16,
+  "height": 96,
+  "states": [
+    {
+      "id": "90e470c4-2a75-4cf1-95bd-530fad83a2fe",
+      "name": "",
+      "animationType": "multi_movement",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "83809be8-eb33-4c2b-a322-6a995f91c713",
+          "frames": [
+            {
+              "id": "779beb1d-cf06-4fc0-b201-2bf207a97852",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "c7427161-840b-4eb4-87cb-7de75040f39e",
+          "frames": [
+            {
+              "id": "800315a7-842d-44b2-9346-750e27978f62",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "a8d95d03-9c46-4b12-98b9-a64927489b23",
+          "frames": [
+            {
+              "id": "ce0fa8e3-c21e-4610-9271-ec1b16b80cc9",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "7073b841-530b-4056-8ce0-b4f8ac1b417f",
+          "frames": [
+            {
+              "id": "48963f33-ec88-41c3-86cd-16a5717309c4",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "30997589-196c-4a66-8221-694bf9671d8c",
+          "frames": [
+            {
+              "id": "e8a7f6d1-68f5-4a44-83c0-0c50101970b8",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "9f5bf62b-438a-43a5-a88f-1bfba301672a",
+          "frames": [
+            {
+              "id": "6ccfe281-f47c-4d0a-87f0-1b16f4176c5f",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "5a1629c0-11b4-4b57-ae21-56df0fd41159",
+          "frames": [
+            {
+              "id": "b96ba0d5-e919-45ab-8c13-ed276ac8863e",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "af3b872a-d7ef-4305-a61b-00541ff82bda",
+          "frames": [
+            {
+              "id": "45d1fd2d-d259-421e-9804-7e465f13cfc0",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 0,
+  "canvasWidth": 32,
+  "canvasHeight": 32,
+  "boundsX": 0,
+  "boundsY": 0,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "eusine.png",
+  "checksum": "38f92f6fdd4dca527d9afab8039fe64435f4ecdf"
+}

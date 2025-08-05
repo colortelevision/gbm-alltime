@@ -1,0 +1,100 @@
+{
+  "_resourceType": "sprite",
+  "id": "d5ef4e4e-8216-4700-ae64-749a14b2415b",
+  "name": "rpgchick",
+  "symbol": "sprite_rpgchick",
+  "width": 32,
+  "height": 48,
+  "states": [
+    {
+      "id": "5459b61c-f003-4ea2-b946-7d1f0df1e4fd",
+      "name": "",
+      "animationType": "multi_movement",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "96019115-1bfd-4842-8550-9a8d1f2a8062",
+          "frames": [
+            {
+              "id": "4496caa2-2b77-4468-b26e-173b46f3db9a",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "0dce00d3-d487-40c7-926c-5ed6bae0d8e2",
+          "frames": [
+            {
+              "id": "5229697b-1571-42b7-af85-fe4d74eefdab",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "b8311f17-ccfa-46ca-930c-255ed06873cf",
+          "frames": [
+            {
+              "id": "13ea3992-3b75-4e42-9888-97a1ed59601d",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "9a2c6cf9-e2eb-411b-a4e7-7f5b06b8c302",
+          "frames": [
+            {
+              "id": "8e053078-2258-4cf9-bb52-e443e9a72b70",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "fc645bbb-e9ab-4d9f-92fe-764b8b74a365",
+          "frames": [
+            {
+              "id": "05ee0e04-49cf-4401-8ea7-ad2b87c9b133",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "a017c26c-949d-4133-8c15-4cf31587f6db",
+          "frames": [
+            {
+              "id": "3c2c9f6f-34ee-42c2-8a4a-c0fd44e7b9a3",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "672af7d4-b9d9-4f04-9220-7162c795b637",
+          "frames": [
+            {
+              "id": "70e4cd52-874f-4fca-9c9d-225e94768791",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "45eb7025-c8f9-4761-9f7f-097b6184b094",
+          "frames": [
+            {
+              "id": "88020d09-70af-47b2-a866-9054a183d887",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 0,
+  "canvasWidth": 32,
+  "canvasHeight": 32,
+  "boundsX": 0,
+  "boundsY": 0,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "rpgchick.png",
+  "checksum": "f9284cbd9140131bd0a45cbf4071e62c36218690"
+}

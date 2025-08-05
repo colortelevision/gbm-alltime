@@ -1,0 +1,101 @@
+{
+  "_resourceType": "sprite",
+  "id": "5a1755c5-3777-4b5f-99d2-757197810375",
+  "name": "25TAGZ/tilesets/mansion",
+  "symbol": "sprite_25tagz_tilesets_mans",
+  "width": 128,
+  "height": 48,
+  "states": [
+    {
+      "id": "1060828e-6424-427a-b369-1a5d38a3775a",
+      "name": "",
+      "animationType": "multi_movement",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "e371c857-9164-4f45-882d-ab4f3299b18f",
+          "frames": [
+            {
+              "id": "a8e10bde-bcd7-4f6e-932f-10b67ac96ae1",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "2fed1525-9e09-476c-bac0-4b62d881f321",
+          "frames": [
+            {
+              "id": "69415a90-e2eb-475a-9bf3-426b9e1efd79",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "826db2e9-6edb-44c6-a370-da89e578512d",
+          "frames": [
+            {
+              "id": "97d7594d-a2a5-4975-ab6b-7e5cad221067",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "756b262f-1615-4088-8249-f320c4030876",
+          "frames": [
+            {
+              "id": "b8dc6b74-5011-431d-9df4-c012fa0b44c1",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "de6fc3c4-59c4-4649-91a3-70548812c50d",
+          "frames": [
+            {
+              "id": "426f1e03-f376-4a64-9952-38fe5d7be4dd",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "2a7cb3b8-8b33-4ec2-9f86-97207e24ace4",
+          "frames": [
+            {
+              "id": "3f0dcda6-d61e-4801-a2d1-924fe25223ab",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "c20fea8e-cd1c-4f56-b0aa-e3d854c734a0",
+          "frames": [
+            {
+              "id": "e8a4a82a-6adf-4f93-a106-864f0f2f1c0b",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "eda2bf47-e741-4ff1-9f11-5459f3232175",
+          "frames": [
+            {
+              "id": "9497a641-bfe9-435e-8d39-7caf826a5836",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 0,
+  "canvasWidth": 32,
+  "canvasHeight": 32,
+  "boundsX": 0,
+  "boundsY": 0,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "25TAGZ/tilesets/mansion.png",
+  "checksum": "439ea7973e4ea19d0f06f7a9c8748821350136de",
+  "numFrames": 8
+}

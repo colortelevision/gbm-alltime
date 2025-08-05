@@ -1,0 +1,42 @@
+{
+  "_resourceType": "script",
+  "id": "1a5ae645-6a1e-4edf-8276-697c3efe0947",
+  "name": "bots",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_6",
+  "script": [
+    {
+      "command": "XV_ARRAY_MANAGER_GET",
+      "args": {
+        "array_manager_get_tabs": "tabSetupArray",
+        "var1": "192",
+        "var2": "193",
+        "var3": "194",
+        "var4": "195",
+        "var5": "196",
+        "var6": "197",
+        "var7": "198",
+        "var8": "198",
+        "var9": "199",
+        "var10": "200",
+        "var11": "201",
+        "var12": "202",
+        "var13": "203",
+        "var14": "204",
+        "var15": "205",
+        "var16": "206",
+        "number_of_vars_to_use": "16",
+        "divide_bit_amount": "16",
+        "array_index": {
+          "type": "number",
+          "value": 0
+        },
+        "results": "L0",
+        "__collapse": false
+      },
+      "id": "1003a0b5-8102-4ec1-8809-9e3e57cfa1a8"
+    }
+  ]
+}

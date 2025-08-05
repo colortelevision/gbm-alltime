@@ -1,0 +1,100 @@
+{
+  "_resourceType": "actor",
+  "id": "24c4c92d-001a-49f9-b1dd-029025a0835f",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "54f6d1d1-3c40-4d38-88c5-06f23ae11529",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 4,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_9",
+  "script": [
+    {
+      "command": "EVENT_SOUND_PLAY_EFFECT",
+      "args": {
+        "type": "fffa9fec-06a1-41dd-97fe-cd44eb419dbd",
+        "priority": "medium",
+        "pitch": 4,
+        "frequency": 200,
+        "duration": 0.5,
+        "wait": true,
+        "effect": 0,
+        "__collapse": false,
+        "__comment": false
+      },
+      "id": "898188c2-30be-4c51-89a0-f93f096b0972"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_SPRITE",
+      "args": {
+        "actorId": "$self$",
+        "spriteSheetId": "1d504cdb-97cd-4d68-ac6e-660f972c8f35"
+      },
+      "id": "ec349df3-2977-41eb-a07d-967202007e1b"
+    },
+    {
+      "command": "EVENT_ACTOR_COLLISIONS_DISABLE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "126f2497-0fb3-4659-89f8-f40c918cb0b2"
+    },
+    {
+      "command": "EVENT_PLAYER_SET_SPRITE",
+      "args": {
+        "spriteSheetId": "54f6d1d1-3c40-4d38-88c5-06f23ae11529",
+        "__comment": true
+      },
+      "id": "a48fd674-c81f-4d66-b17a-6275ac884879"
+    },
+    {
+      "command": "EVENT_ACTOR_MOVE_TO",
+      "args": {
+        "actorId": "$self$",
+        "x": {
+          "type": "number",
+          "value": 2
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "moveType": "horizontal",
+        "useCollisions": false
+      },
+      "id": "3a312051-0d8c-4118-b65b-abfa60c412b5"
+    },
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "a80443eb-c747-4c35-bbca-4ea13a0377f4"
+    }
+  ],
+  "startScript": [
+    {
+      "command": "EVENT_ACTOR_SET_STATE",
+      "args": {
+        "actorId": "$self$",
+        "spriteStateId": "",
+        "loopAnim": true
+      },
+      "id": "28e989d0-5e21-412d-a3db-a6f2ceecb2f2"
+    }
+  ],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 2,
+  "y": 14,
+  "_index": 0
+}

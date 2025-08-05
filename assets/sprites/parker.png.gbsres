@@ -1,0 +1,101 @@
+{
+  "_resourceType": "sprite",
+  "id": "fc313936-adc7-41e7-9541-5b677df9a759",
+  "name": "parker",
+  "symbol": "sprite_parker",
+  "width": 20,
+  "height": 54,
+  "states": [
+    {
+      "id": "67448e9b-4e63-44d6-b25f-579f7a5bcdd8",
+      "name": "",
+      "animationType": "multi_movement",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "aae8b347-f5b9-41f3-ad51-548e28d03e5d",
+          "frames": [
+            {
+              "id": "3824a26c-3406-4f2d-886b-21b7844f7672",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "42aee323-bbc9-481a-9541-0deaad9a35a1",
+          "frames": [
+            {
+              "id": "e5826f39-37ee-447d-87dc-afcfc199d0ab",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "20ff957c-ca88-49b4-afcd-7bf4f8f01cf4",
+          "frames": [
+            {
+              "id": "d8dbdf56-9747-46cd-85f1-26a69aeac251",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "ac3db0a3-fad2-46de-9058-f36d9846d558",
+          "frames": [
+            {
+              "id": "402cff2e-5945-4b2b-b6cf-eb34f8ba587e",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "df347feb-6576-4e3d-95e0-aeb190a53d81",
+          "frames": [
+            {
+              "id": "41fff04f-12ed-4b88-98ff-e769cd001270",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "d6aeeb0a-1a7f-4be1-85fd-30c3df8717cc",
+          "frames": [
+            {
+              "id": "66818773-966c-4637-9627-1f181d0b2c36",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "68058a57-8c15-4ddc-8463-4a1ef8085590",
+          "frames": [
+            {
+              "id": "42a38957-9850-45de-8d41-281f11d85eb6",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "0185aaa8-eafa-4a55-93fe-7997b0d67555",
+          "frames": [
+            {
+              "id": "9c5010ff-f5e3-4eec-9a97-b597ac64864f",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 0,
+  "canvasWidth": 32,
+  "canvasHeight": 32,
+  "boundsX": 0,
+  "boundsY": 0,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "parker.png",
+  "checksum": "fec0514c4104ae852c45bb7bff617baf4a6970e0",
+  "numFrames": 1.25
+}

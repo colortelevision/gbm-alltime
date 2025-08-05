@@ -1,0 +1,101 @@
+{
+  "_resourceType": "sprite",
+  "id": "e2cf5f65-6254-4119-aea9-0cd9b5b220fd",
+  "name": "player_platform-winter",
+  "symbol": "sprite_player_platform_wint",
+  "width": 88,
+  "height": 160,
+  "states": [
+    {
+      "id": "82fc56ca-615a-41c0-9b74-5d692f02668e",
+      "name": "",
+      "animationType": "multi_movement",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "e0df1c1e-05b5-4f3d-9ef9-e58030d37f0a",
+          "frames": [
+            {
+              "id": "14190fae-44b4-4a77-96f3-f44eaa99ae5f",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "bec15c99-cadb-4f86-93ed-abad296c914c",
+          "frames": [
+            {
+              "id": "1bad231a-3b8d-4f3a-9723-35b3f6de6c4a",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "dcf11a7e-93d6-4a1b-acb5-08389470853e",
+          "frames": [
+            {
+              "id": "f4f0ef29-cabb-4de2-8caf-f5eb43012044",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "3a016d0a-f07b-4cb4-bf25-47395a1b12a5",
+          "frames": [
+            {
+              "id": "0cf7e425-1e52-493c-870d-86aa668e5c5a",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "8ebcfdcd-f271-424f-a639-03678f8c9397",
+          "frames": [
+            {
+              "id": "7288801d-7e76-4dcc-8142-0d0fad868e02",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "035efb53-926a-44e7-8839-314427414a6c",
+          "frames": [
+            {
+              "id": "5e011e4e-7df6-4147-8d83-ca2eb59a2377",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "d4efa274-2400-43f3-bf1e-9e34a3dae9dd",
+          "frames": [
+            {
+              "id": "9acffc9f-b238-46da-b4a0-1a3a0f0b08d7",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "63b38ae1-ae68-4b91-b2b7-b34a5894928f",
+          "frames": [
+            {
+              "id": "9af84efb-0ed9-4bf0-8ed2-48882cadd199",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 0,
+  "canvasWidth": 32,
+  "canvasHeight": 32,
+  "boundsX": 0,
+  "boundsY": 0,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "player_platform-winter.png",
+  "checksum": "27aa9664a568c00468c5d178e076aa2f15d78fb0",
+  "numFrames": 5.5
+}

@@ -1,0 +1,100 @@
+{
+  "_resourceType": "sprite",
+  "id": "2e79b7e9-3083-403f-8a63-7053fee80021",
+  "name": "bird_keeper",
+  "symbol": "sprite_bird_keeper",
+  "width": 16,
+  "height": 96,
+  "states": [
+    {
+      "id": "da9c42b2-aa83-43a1-af3d-62cf2c4cdf21",
+      "name": "",
+      "animationType": "multi_movement",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "54038872-587e-4683-9c8c-154417edc3d5",
+          "frames": [
+            {
+              "id": "5465dca5-bbf2-4c44-8a52-331cff531ee9",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "a60b9a45-45b2-4a29-9aa4-b5f54842f270",
+          "frames": [
+            {
+              "id": "14ebf125-9ab8-4a3f-95d7-1badc33f0662",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "ce5799da-538d-4943-9cad-120f62a43f71",
+          "frames": [
+            {
+              "id": "4387eb13-5454-4424-8b4e-ce7f447ebc67",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "b86ab236-3989-49f3-8150-b0048251ddc4",
+          "frames": [
+            {
+              "id": "ea773c54-2b07-4f0d-9cf5-035032ba6b0c",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "d744f0fd-e93b-4990-b81b-e7dc7ad0e292",
+          "frames": [
+            {
+              "id": "c9ee6a22-4b73-4cc6-8900-87bcd8333c85",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "8fffcfd4-fbe6-44ea-b87e-5a64e3f0b978",
+          "frames": [
+            {
+              "id": "31e90212-6f68-4e28-9c2e-6406bb358c33",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "cf7e240d-d779-471a-bc24-4f41b81adfde",
+          "frames": [
+            {
+              "id": "c7d48465-7d08-40f0-b732-ed075e436110",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "894ffc51-77de-46fe-bba3-6f431a97003d",
+          "frames": [
+            {
+              "id": "bb1d8836-abb3-464a-a870-75692758d555",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 0,
+  "canvasWidth": 32,
+  "canvasHeight": 32,
+  "boundsX": 0,
+  "boundsY": 0,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "bird_keeper.png",
+  "checksum": "9dbd34e26a3d68ed98ac1b5e5cc686b1062c3fc4"
+}

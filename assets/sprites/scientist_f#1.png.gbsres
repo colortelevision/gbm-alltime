@@ -1,0 +1,100 @@
+{
+  "_resourceType": "sprite",
+  "id": "d6f0de72-e0e9-4b18-8f62-e82dc2e286f6",
+  "name": "scientist_f#1",
+  "symbol": "sprite_scientist_f_1",
+  "width": 16,
+  "height": 96,
+  "states": [
+    {
+      "id": "26ecf01c-606e-41fd-b350-69c1f666dc18",
+      "name": "",
+      "animationType": "multi_movement",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "9eb90855-ac0a-42a7-bbd9-fb2ed5fef3ea",
+          "frames": [
+            {
+              "id": "4da09308-09ea-4b9e-958c-f1124f20a5b6",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "60a3631e-bd05-42d3-85ba-7adeee8c23dd",
+          "frames": [
+            {
+              "id": "d26c94ea-2347-4b84-87d1-f1584cac3952",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "5cedddb7-4636-4eaf-8f76-168f5d4aede8",
+          "frames": [
+            {
+              "id": "537a59c8-a434-4c15-b2d9-6f774e97fd11",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "60f35ccf-b1c2-4553-b749-1f6323642736",
+          "frames": [
+            {
+              "id": "744a35f7-43c2-404e-8d07-b840dbcf6d51",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "0cf99b26-1939-4a85-b488-5485d9605eb1",
+          "frames": [
+            {
+              "id": "87b892d1-50e6-4fcd-a013-9a46e5b2e36f",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "44d4c8c6-3262-4743-b44a-9a49068c4487",
+          "frames": [
+            {
+              "id": "22749e14-724a-4659-b8b4-9f1097daa74f",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "441edb59-3061-4141-8de0-c935cae2ac9c",
+          "frames": [
+            {
+              "id": "3b666807-d541-4264-a4ab-2cc318d2296f",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "6850c3c5-adca-4d5b-a9b9-c2a52efb356d",
+          "frames": [
+            {
+              "id": "2a748ac5-65d4-4bdf-a34c-50b6d6181a23",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 0,
+  "canvasWidth": 32,
+  "canvasHeight": 32,
+  "boundsX": 0,
+  "boundsY": 0,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "scientist_f#1.png",
+  "checksum": "4d7b35d0a863a0fcaa24c5d7dd5a13841567c6fa"
+}

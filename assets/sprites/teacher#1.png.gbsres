@@ -1,0 +1,100 @@
+{
+  "_resourceType": "sprite",
+  "id": "aa7be07b-e553-4130-8b24-c94e703dbdbe",
+  "name": "teacher#1",
+  "symbol": "sprite_teacher_1",
+  "width": 16,
+  "height": 96,
+  "states": [
+    {
+      "id": "fd5cc5b6-17fe-4d9e-a788-f214f2191402",
+      "name": "",
+      "animationType": "multi_movement",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "d5494ea2-b73e-4370-b53d-62d3876108f7",
+          "frames": [
+            {
+              "id": "fbdd6242-0ab7-4774-bbb9-185cbc8dc282",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "d2d71d1e-e81b-4373-ba34-77f8e1f53abc",
+          "frames": [
+            {
+              "id": "dba4483b-6224-4dbd-a087-f3b4949b09ff",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "ee83bc4e-f0a8-4aaf-b767-18c962edd633",
+          "frames": [
+            {
+              "id": "25dac0b4-3af4-4fd4-9db0-d731d382f84a",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "97bbba0c-6b87-4d15-80d3-f9df0521b2b2",
+          "frames": [
+            {
+              "id": "c043ce08-707c-43ba-b97a-9630303487a2",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "49867cda-0054-4ec6-8bfe-aca21a401cd0",
+          "frames": [
+            {
+              "id": "d4b7173a-7ccf-4632-b12b-ba6a32e4b92f",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "e50c7011-0ef6-4ff3-a6f1-0b288279f5e7",
+          "frames": [
+            {
+              "id": "567697ee-933d-4183-8d5b-bc8d56d63cb5",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "60537467-4218-4335-aadd-669d3f73428c",
+          "frames": [
+            {
+              "id": "d0de289c-f5fb-47bc-aeab-1e9f308a945b",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "7767c4b3-d5b2-4d0e-872f-1dee85c61177",
+          "frames": [
+            {
+              "id": "5b115e84-aa1b-4a43-8106-45d2caef79b1",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 0,
+  "canvasWidth": 32,
+  "canvasHeight": 32,
+  "boundsX": 0,
+  "boundsY": 0,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "teacher#1.png",
+  "checksum": "eddc53289712fe2a402b711218e9e631b7680967"
+}

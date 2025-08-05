@@ -1,0 +1,101 @@
+{
+  "_resourceType": "sprite",
+  "id": "0d5d1917-f960-4d9d-90c0-a2d22e2ef2ff",
+  "name": "DJdance",
+  "symbol": "sprite_djdance",
+  "width": 96,
+  "height": 64,
+  "states": [
+    {
+      "id": "dc4ba85d-0158-44f1-bc65-877159fe7d08",
+      "name": "",
+      "animationType": "multi_movement",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "604b32e5-153f-44f4-9495-7693affd5237",
+          "frames": [
+            {
+              "id": "64c3371d-402c-4dab-ba62-2888038c7980",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "e06fd5dc-facf-4f12-909c-746a45225a9e",
+          "frames": [
+            {
+              "id": "d97ddf57-0f61-45f9-983b-a0f74e591dae",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "7ae31497-8dde-43ae-9ae5-b630f9adcffe",
+          "frames": [
+            {
+              "id": "28cf9733-bca9-4189-80b0-2307558f6b89",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "c5a8a3f7-aa63-4dbf-b8b9-4433806c99cf",
+          "frames": [
+            {
+              "id": "6627d709-f922-4e7a-9c53-9848d1608950",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "43cd079f-e842-4bd6-9776-e6058ea08976",
+          "frames": [
+            {
+              "id": "87b5619a-f851-4a24-b72c-dcaa7095841c",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "cdda17d4-ed07-46b4-850f-7703296ff1f8",
+          "frames": [
+            {
+              "id": "454ef898-97c1-4f94-bce2-20158db4b9d2",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "7351c4c8-16e4-4f91-9664-f46ab757bfaa",
+          "frames": [
+            {
+              "id": "7a02b34e-faee-41e2-96dc-e394581ea277",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "68b3c735-c6f9-4a7d-b6a1-4edc82854eb4",
+          "frames": [
+            {
+              "id": "f51bcc4c-b459-4a06-a0c5-f11083d74bf4",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 0,
+  "canvasWidth": 32,
+  "canvasHeight": 32,
+  "boundsX": 0,
+  "boundsY": 0,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "DJdance.png",
+  "checksum": "007632b0b55170ab3bfb90182dc5cae510114cb5",
+  "numFrames": 6
+}

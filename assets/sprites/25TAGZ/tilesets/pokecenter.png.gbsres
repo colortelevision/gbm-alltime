@@ -1,0 +1,101 @@
+{
+  "_resourceType": "sprite",
+  "id": "0b0c8f25-0a7c-4397-91cb-55651ae285e9",
+  "name": "25TAGZ/tilesets/pokecenter",
+  "symbol": "sprite_25tagz_tilesets_poke",
+  "width": 128,
+  "height": 48,
+  "states": [
+    {
+      "id": "dce48b7a-e278-4dee-9f26-6b8b35bdee97",
+      "name": "",
+      "animationType": "multi_movement",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "d7bc1728-2eea-418c-b675-a03acee2fdf5",
+          "frames": [
+            {
+              "id": "127043e6-0e89-48db-acd1-0c739a22fd29",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "5785fec4-bb85-4fc8-aac3-4e3a36549d23",
+          "frames": [
+            {
+              "id": "98bc0deb-005b-4272-97d0-5d643d2de0a6",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "ef58257a-13f6-45a2-b86e-d49e50929b0a",
+          "frames": [
+            {
+              "id": "03f9ba40-765f-4392-9da7-af2ce31576d4",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "ac2c6e47-4019-45d9-8827-f1f7296beaa0",
+          "frames": [
+            {
+              "id": "9f91286c-54f1-433d-8b72-a7731c6ae65c",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "9fe0acf5-57a1-4412-b9d8-9596ba3ff646",
+          "frames": [
+            {
+              "id": "968cacec-a7d7-42d4-aeb3-81b3e295eaa2",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "db973a3a-2e14-4c56-a68b-82113729f6ee",
+          "frames": [
+            {
+              "id": "9edcbaca-8e83-483f-be99-86a450041693",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "4068e34e-e774-4182-b117-82f6446a7bed",
+          "frames": [
+            {
+              "id": "4cee7113-a522-47a4-92d1-60906038ea3a",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "150d5d7e-803e-46c5-9d02-3f3042b5495b",
+          "frames": [
+            {
+              "id": "6ce9b470-9a04-403e-b202-cbe4242daeb5",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 0,
+  "canvasWidth": 32,
+  "canvasHeight": 32,
+  "boundsX": 0,
+  "boundsY": 0,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "25TAGZ/tilesets/pokecenter.png",
+  "checksum": "c761654a339b5109ded7275e06fffff91169b52a",
+  "numFrames": 8
+}

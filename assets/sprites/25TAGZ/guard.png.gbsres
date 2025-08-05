@@ -1,0 +1,101 @@
+{
+  "_resourceType": "sprite",
+  "id": "e68a3c5f-520c-41be-bddb-1e87a4365e9b",
+  "name": "25TAGZ/guard",
+  "symbol": "sprite_25tagz_guard",
+  "width": 16,
+  "height": 48,
+  "states": [
+    {
+      "id": "7b988756-f43e-4144-b414-6fa05d0ed4bd",
+      "name": "",
+      "animationType": "multi_movement",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "56b7d6d0-fd2f-40b6-80ba-b0454c7541bd",
+          "frames": [
+            {
+              "id": "1530429d-ce3c-493f-bb03-245c57d15aed",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "af1c0e1a-0a9e-4609-a8ab-8ec2b781fe1d",
+          "frames": [
+            {
+              "id": "13858802-ea1e-4b02-a09a-9c0f268ba3ad",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "01cb134f-65d1-4dd3-aa8b-d2bddb21d5ab",
+          "frames": [
+            {
+              "id": "7e9796a6-5513-4537-93db-850fc641c665",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "b64b07e4-f781-453e-8faa-7311b144314b",
+          "frames": [
+            {
+              "id": "4aa62018-00a6-4836-afeb-1fac07bbf93b",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "c91d3511-4996-4f17-80e2-f965c0d9b185",
+          "frames": [
+            {
+              "id": "b633b907-d855-4feb-b1d1-ae0e30b94231",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "f73fe48c-dd24-4e9e-bf55-94969ccaaaae",
+          "frames": [
+            {
+              "id": "816c2ffe-1540-4eb3-bac6-caac34b23d33",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "acb46950-aca0-4fc0-8f34-686264bc70ac",
+          "frames": [
+            {
+              "id": "a725db04-c8f6-4af1-ac58-393246635b78",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "b6a32709-397b-4c66-8c1e-f2f8bd70cd61",
+          "frames": [
+            {
+              "id": "461d8c82-1b19-497c-b7b2-3f9e1c9253d4",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 0,
+  "canvasWidth": 32,
+  "canvasHeight": 32,
+  "boundsX": 0,
+  "boundsY": 0,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "25TAGZ/guard.png",
+  "checksum": "986eb43e0013ea9a6a2937e8e13a380199513332",
+  "numFrames": 1
+}

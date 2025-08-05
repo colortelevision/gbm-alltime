@@ -1,0 +1,101 @@
+{
+  "_resourceType": "sprite",
+  "id": "044701cd-bbad-4f5b-98ff-10fc09cb496f",
+  "name": "25TAGZ/tilesets/lobby",
+  "symbol": "sprite_25tagz_tilesets_lobb",
+  "width": 128,
+  "height": 48,
+  "states": [
+    {
+      "id": "3a884155-8a7b-4f46-806f-b678674d4962",
+      "name": "",
+      "animationType": "multi_movement",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "ac000a92-28c2-4c75-9862-133d3f98b00d",
+          "frames": [
+            {
+              "id": "baea2941-8d96-45db-8e77-58ebfb7634ff",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "e09e3f2f-4b73-48a6-a492-86f5b44ab54f",
+          "frames": [
+            {
+              "id": "53a768b7-2b32-47e9-a1aa-d8081e28a131",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "c49e62db-cf98-493a-a25c-8fe6f53ec1bb",
+          "frames": [
+            {
+              "id": "d71c7c4d-6d2e-46e6-a018-7b3b48c3919f",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "905ce885-e656-4a53-8e55-0da994f1b7b7",
+          "frames": [
+            {
+              "id": "780f090a-6236-47d3-aee5-e68352c8a26c",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "3a80534b-428d-4631-9fd5-3e233e6888de",
+          "frames": [
+            {
+              "id": "f37ae948-c007-4dd0-bbac-338a85c0cb89",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "70f328b6-c10a-43a5-89cd-b79271aa6c85",
+          "frames": [
+            {
+              "id": "b65b9049-c3ef-41da-add2-46952263db18",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "1203804a-74b4-4b2d-a7eb-19d74f0d8f2f",
+          "frames": [
+            {
+              "id": "e9dc2a77-2232-49db-8c17-f7041e4c76f6",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "91cc5e8c-1848-45e7-8bc7-7ef9e0e9a262",
+          "frames": [
+            {
+              "id": "c388b53e-c987-46e9-ab9c-bb2730ad1fa7",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 0,
+  "canvasWidth": 32,
+  "canvasHeight": 32,
+  "boundsX": 0,
+  "boundsY": 0,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "25TAGZ/tilesets/lobby.png",
+  "checksum": "217057718244b64b015e6482854e07652aea01bc",
+  "numFrames": 8
+}

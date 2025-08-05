@@ -1,0 +1,100 @@
+{
+  "_resourceType": "sprite",
+  "id": "a0dae3d1-4543-491f-8378-3edc429707d2",
+  "name": "archer#1",
+  "symbol": "sprite_archer_1",
+  "width": 16,
+  "height": 48,
+  "states": [
+    {
+      "id": "44b8c90a-41c6-426a-857b-35abbd71ab85",
+      "name": "",
+      "animationType": "multi_movement",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "a3475fc4-9a63-4368-af8c-9a0ffa87d269",
+          "frames": [
+            {
+              "id": "5496ecc5-637e-4257-ac6c-4486a66fa354",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "70a46b2f-b89f-4e2d-8c91-660501b181bd",
+          "frames": [
+            {
+              "id": "d2f75f0d-484d-4f43-9b46-1142a6107278",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "ffaf2188-8d80-4d9b-b71b-d6fe4eea5b4b",
+          "frames": [
+            {
+              "id": "02525d73-9319-4a5d-80dc-a82abbf7c809",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "8f551d87-497c-4dd0-af25-cc6a982a1d57",
+          "frames": [
+            {
+              "id": "9886d9c0-ced2-4d21-b9dd-167a1287bede",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "2e9e50dd-0a7d-49e9-978b-9f69f799bf91",
+          "frames": [
+            {
+              "id": "7acd3351-fd87-4833-bd07-803ae3df1d6f",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "c49f41d7-0d4c-45ea-915f-694ed583106d",
+          "frames": [
+            {
+              "id": "416a893e-2a51-4961-82a7-4b964b94fa50",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "f35693c9-aeea-41f1-8df2-5a2645243bde",
+          "frames": [
+            {
+              "id": "af4a5bc9-38a5-454e-998f-a27be6fd752d",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "22b3aeff-4011-4a16-89a1-968107d96fd7",
+          "frames": [
+            {
+              "id": "b2ed5740-fb77-4062-973b-822539eb8a01",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 0,
+  "canvasWidth": 32,
+  "canvasHeight": 32,
+  "boundsX": 0,
+  "boundsY": 0,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "archer#1.png",
+  "checksum": "79c4b7ee394f1d0de21710842228e65be0b924cb"
+}

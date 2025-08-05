@@ -1,0 +1,100 @@
+{
+  "_resourceType": "sprite",
+  "id": "c5d0b438-2bba-4195-bd67-355e4fc67e95",
+  "name": "andy#1",
+  "symbol": "sprite_andy_1",
+  "width": 16,
+  "height": 48,
+  "states": [
+    {
+      "id": "a404569c-57dc-44dd-97cb-1b8a7169d928",
+      "name": "",
+      "animationType": "multi_movement",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "e5541f38-2c78-4e89-ae48-874ed745bfd9",
+          "frames": [
+            {
+              "id": "827ebee0-c8df-42c0-ba6b-d0021232e1e8",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "7df1071b-de12-44ef-99de-43be65c59a69",
+          "frames": [
+            {
+              "id": "c1eedb31-be5a-4fbc-b074-aa59e9a25e2c",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "984b2740-2780-4349-894e-d013e092f2e3",
+          "frames": [
+            {
+              "id": "ed3ae68f-4aae-48b1-821a-873997215d80",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "ec39f3b4-5dc4-49e3-a763-75e40245485e",
+          "frames": [
+            {
+              "id": "6f1a5abc-8e9d-4a6b-ab22-be4008b93e67",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "129d69de-a8af-49e7-814e-956f80ba7e2b",
+          "frames": [
+            {
+              "id": "f4afbaac-5dab-4814-b280-37381af4b20e",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "e5ef9e8e-ea03-4246-a54d-dcccad471acb",
+          "frames": [
+            {
+              "id": "015025c7-f6ee-4654-9b5e-172a77e75ef7",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "18923c8a-d302-4a07-9c02-9090ed29afed",
+          "frames": [
+            {
+              "id": "d76a647b-d3fb-489a-8cd2-95c1f1c8e4f6",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "787742ae-94a2-434f-aeab-295135d4c3a9",
+          "frames": [
+            {
+              "id": "35780ad4-d89e-4a09-9e25-28d15250bdb2",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 0,
+  "canvasWidth": 32,
+  "canvasHeight": 32,
+  "boundsX": 0,
+  "boundsY": 0,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "andy#1.png",
+  "checksum": "13ae6168567616bcb2e1269ad5d5dfc78217bb2a"
+}

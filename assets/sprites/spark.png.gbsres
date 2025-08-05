@@ -1,0 +1,100 @@
+{
+  "_resourceType": "sprite",
+  "id": "83b2bbe4-5acb-474d-abfb-eea793a9c54a",
+  "name": "spark",
+  "symbol": "sprite_spark",
+  "width": 16,
+  "height": 96,
+  "states": [
+    {
+      "id": "69c15715-2f61-4e34-9260-24833cddde94",
+      "name": "",
+      "animationType": "multi_movement",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "cfd5e2be-22ad-4ca2-b6c2-7255ac56c409",
+          "frames": [
+            {
+              "id": "5890e824-0315-4d64-aac8-06a88edee254",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "a8f78f5d-9d06-429e-bf31-3d9373d73360",
+          "frames": [
+            {
+              "id": "12a509b7-3474-450e-b2fd-9b1f76eab05c",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "97b6bddb-e577-41d2-88ac-713ff8da8d67",
+          "frames": [
+            {
+              "id": "e6b3282c-8442-4468-9532-895ed572b59c",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "1d70484f-f072-4342-9892-e5cb9f2d67cd",
+          "frames": [
+            {
+              "id": "51068c6b-a2ab-41a0-9653-91cc90ee784b",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "6012391b-dc85-4e8c-b962-ba4d31782d87",
+          "frames": [
+            {
+              "id": "61eb5e52-92ed-4185-a5c9-3a3aa4ab3b3f",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "c5a38141-28ed-499d-8f3f-17a20b4b6dcd",
+          "frames": [
+            {
+              "id": "2be6f31c-8441-4b3e-ad6f-16d44415dd8b",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "452c30da-9b15-4048-a5d5-3b7e403d6d0c",
+          "frames": [
+            {
+              "id": "f116206e-3322-46a4-9b61-26f6c97877ea",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "3539bd4f-e429-4b33-9f49-8db488fdb8d0",
+          "frames": [
+            {
+              "id": "1d149b5e-49f0-474f-b40e-d270d5502c9a",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 0,
+  "canvasWidth": 32,
+  "canvasHeight": 32,
+  "boundsX": 0,
+  "boundsY": 0,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "spark.png",
+  "checksum": "ecf597e6bc441807ffc6a55469d27a9e37345c2f"
+}
