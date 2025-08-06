@@ -1,0 +1,101 @@
+{
+  "_resourceType": "sprite",
+  "id": "1f4bc8dd-0c72-4c63-8568-370ac37b3275",
+  "name": "MILKHOUSE/CTV_110522 television sprite",
+  "symbol": "sprite_ctv_110522_televisio",
+  "width": 64,
+  "height": 64,
+  "states": [
+    {
+      "id": "cfec411c-619b-4ada-b3c4-cf2d84df8e40",
+      "name": "",
+      "animationType": "multi_movement",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "e74ccf20-959a-46f1-97ff-7ab133afeac9",
+          "frames": [
+            {
+              "id": "2bb26cf1-7065-4f24-a4e1-2eb203a1e4eb",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "dd8b470d-af3b-490c-b8fc-0697d68d0562",
+          "frames": [
+            {
+              "id": "6e919392-91b1-4113-8374-c7157f2c75f9",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "127cfb5a-ea23-4296-b869-282ec0e8924d",
+          "frames": [
+            {
+              "id": "df481804-2d4c-4df6-8d0d-a6f22012a751",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "d214bde4-cd69-4dd9-9188-69aead1f6c5c",
+          "frames": [
+            {
+              "id": "9c876a86-bacb-4fc9-9629-642a4c770377",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "2c6c8719-e952-4408-9f50-d812d4fb1a0d",
+          "frames": [
+            {
+              "id": "8d292af1-0eb6-4c11-968a-4d173d26bb35",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "53f57699-8ce0-46f6-be48-76cf8037534e",
+          "frames": [
+            {
+              "id": "a933e4f3-8f73-4229-88b9-66005a5ddbfa",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "64f62245-01ad-4be8-b817-99400bf86f9b",
+          "frames": [
+            {
+              "id": "aa252ee7-ac75-4864-9490-18f4efea7a10",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "8f4f5d04-e8a1-423b-8899-6441972207f1",
+          "frames": [
+            {
+              "id": "c9849b67-1c04-4b58-9571-5317aac90e61",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 0,
+  "canvasWidth": 32,
+  "canvasHeight": 32,
+  "boundsX": 0,
+  "boundsY": 0,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "MILKHOUSE/CTV_110522 television sprite.png",
+  "checksum": "80620a43cb3515825996d622e5afb1091a7febfc",
+  "numFrames": 4
+}

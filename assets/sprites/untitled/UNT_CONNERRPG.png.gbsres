@@ -1,0 +1,128 @@
+{
+  "_resourceType": "sprite",
+  "id": "a2613020-9b66-40c2-99ad-bdb9a7fc0918",
+  "name": "untitled/UNT_CONNERRPG",
+  "symbol": "sprite_unt_connerrpg",
+  "width": 112,
+  "height": 16,
+  "states": [
+    {
+      "id": "3aba40f7-de39-4427-a966-4e6de9c2d6f1",
+      "name": "",
+      "animationType": "platform_player",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "02717308-03e4-4540-b2b8-d97acd4bcb3c",
+          "frames": [
+            {
+              "id": "157c430e-c697-4454-bc1f-205e91724cba",
+              "tiles": [
+                {
+                  "id": "10d4f5b1-0991-4593-8c5d-0358456d57ea",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 0,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                },
+                {
+                  "id": "ea1cb769-fb46-427f-ae30-6a5392c77bb1",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 8,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "bb3eae7f-ca78-4513-bdb3-d4335c5d4b0e",
+          "frames": [
+            {
+              "id": "a7067e86-47c5-48d6-8ae7-b4bed1388ca8",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "75a92068-255e-4d98-8a50-2fd3a12f8b9b",
+          "frames": [
+            {
+              "id": "057d28a0-03b1-4da1-b46e-2c0ce2d8fb93",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "af0f7df9-f76c-41b6-8247-8feff0623057",
+          "frames": [
+            {
+              "id": "9a947463-6a4d-4b2e-8025-b3cec9771989",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "702fc508-e131-4710-a4e1-92badf13877e",
+          "frames": [
+            {
+              "id": "7bd089b1-ca74-4dc1-98e7-f4917e2c0b37",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "f452b044-e9c6-45c1-8101-571ee7a001e1",
+          "frames": [
+            {
+              "id": "1733a505-0429-48e7-992f-bcaeb3999f60",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "e89c6c63-2d17-4d97-8322-9e0aa1ccc2c9",
+          "frames": [
+            {
+              "id": "a14cde8f-3089-487f-b985-30973646855b",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "7b9d9f11-253f-4390-ab4d-22064c031a44",
+          "frames": [
+            {
+              "id": "31005a04-20e3-45c2-b8fd-95d53e0d1562",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 2,
+  "canvasWidth": 16,
+  "canvasHeight": 16,
+  "boundsX": 0,
+  "boundsY": 0,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "untitled/UNT_CONNERRPG.png",
+  "checksum": "cb301966a3b598642c10321f203a617b487a79bb",
+  "numFrames": 7
+}

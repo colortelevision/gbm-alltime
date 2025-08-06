@@ -1,0 +1,100 @@
+{
+  "_resourceType": "sprite",
+  "id": "cb61dc9f-3886-4012-9428-6655115e8b9d",
+  "name": "bots/112322 capsule spritesheet 16x16",
+  "symbol": "sprite_112322_capsule_sprit",
+  "width": 80,
+  "height": 48,
+  "states": [
+    {
+      "id": "704c4e29-6650-458f-ba9c-94198162bbf7",
+      "name": "",
+      "animationType": "multi_movement",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "5048ed86-37c9-4962-9522-85da9507f6cf",
+          "frames": [
+            {
+              "id": "824be8dd-ddc4-42fd-a5e3-637704198e3e",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "8f3ce7c1-9b74-4ffd-813d-00f6896c9a21",
+          "frames": [
+            {
+              "id": "257dc03b-af8c-4ffa-a5c7-134ba1df4650",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "f4353782-838f-49ef-b4b8-c5e60aab461c",
+          "frames": [
+            {
+              "id": "0a8c9d7a-8735-49b7-91f7-c46d360c5135",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "0369326e-7db8-4ad9-ad82-80d17781a958",
+          "frames": [
+            {
+              "id": "f14f020d-875f-4902-840c-13fb4e923ba3",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "64e3f151-8e19-40d4-96e7-99d853f22fed",
+          "frames": [
+            {
+              "id": "e4de09c6-90f1-4e7d-9e59-a7f5f72bfbf9",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "a91329f3-15aa-432f-997c-7566fb8bfd9c",
+          "frames": [
+            {
+              "id": "1ce41637-ed7a-419b-8da5-92bb2b307b0d",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "f8e80e00-a27d-4ffe-9596-86d89f952015",
+          "frames": [
+            {
+              "id": "fa49a03b-0871-479b-8692-a4a9b9c31d90",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "99b43a81-51df-4fa3-8e21-01f9ea675920",
+          "frames": [
+            {
+              "id": "d68238ea-9a4f-49af-bd5b-578098f21d61",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 0,
+  "canvasWidth": 32,
+  "canvasHeight": 32,
+  "boundsX": 0,
+  "boundsY": 0,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "bots/112322 capsule spritesheet 16x16.png",
+  "checksum": "d3212f47b75bafa1f17e5606fbc23347ff98328f"
+}

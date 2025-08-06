@@ -1,0 +1,182 @@
+{
+  "_resourceType": "sprite",
+  "id": "b8261562-5727-4de7-8621-6c1caccc59b5",
+  "name": "untitled/UNT_parker mouth sprites",
+  "symbol": "sprite_unt_parker_mouth_spr",
+  "width": 48,
+  "height": 16,
+  "states": [
+    {
+      "id": "59618b8d-a68a-4b76-9797-b37e68222cbe",
+      "name": "",
+      "animationType": "multi",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "19cac238-4ab5-4632-8c90-e41f7bb691bd",
+          "frames": [
+            {
+              "id": "aff9236a-9d09-483c-b8b2-b7f3357b1da1",
+              "tiles": [
+                {
+                  "id": "e3374645-4c04-4ff9-8056-9d17e682e6df",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 32,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                },
+                {
+                  "id": "30ac1115-e8bc-4914-95c3-6cfd6eb71c6a",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 40,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "dbf71e39-0ab1-462e-871c-9f1009685137",
+          "frames": [
+            {
+              "id": "4372356b-07c6-4e63-a0ed-8c1ed65ddf78",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "7d308690-83bf-4a89-81e1-afad6b4e9115",
+          "frames": [
+            {
+              "id": "9a07bc2c-b2d9-42f3-bbee-bf7d464a35b5",
+              "tiles": [
+                {
+                  "id": "6c2c332f-cb65-43be-9c9d-0c815f40f59e",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 16,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                },
+                {
+                  "id": "efa3ecb2-75ff-4056-a0eb-e93b8cf3166c",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 24,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "7057ccce-274f-4031-a5cd-ef8590f58de3",
+          "frames": [
+            {
+              "id": "3777df62-4535-4628-801b-4358d08d1e82",
+              "tiles": [
+                {
+                  "id": "79ef8b62-b642-4016-8dac-a34b85629988",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 0,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                },
+                {
+                  "id": "b45924f1-04e1-487b-b292-f51a94bcf0c2",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 8,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "d9ae81c8-65d8-41df-9c81-8cdb48c81da1",
+          "frames": [
+            {
+              "id": "e105894d-920f-42cf-bb01-40be0ee12bf7",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "ca7ed5b9-6539-4ced-804e-849d6a19a902",
+          "frames": [
+            {
+              "id": "8f339849-86b0-40ec-beaf-e0b0b7756611",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "e2e0f70f-4b7a-4d16-94dc-b7c96caef7ac",
+          "frames": [
+            {
+              "id": "480ba911-1626-4acd-a4ec-237eb0046d44",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "e248e93c-e98f-443a-9347-e6f741ac38d6",
+          "frames": [
+            {
+              "id": "8a7e01b5-2eb4-47fe-bf8a-bc4132eb542d",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 6,
+  "canvasWidth": 16,
+  "canvasHeight": 16,
+  "boundsX": 0,
+  "boundsY": 0,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "untitled/UNT_parker mouth sprites.png",
+  "checksum": "f79567f751e20041e6fec8e1254f9af899f4873f",
+  "numFrames": 3
+}

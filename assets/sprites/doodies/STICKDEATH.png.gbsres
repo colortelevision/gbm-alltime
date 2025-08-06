@@ -1,0 +1,101 @@
+{
+  "_resourceType": "sprite",
+  "id": "91468b33-89f6-483c-befb-3cdc8d2c353a",
+  "name": "doodies/STICKDEATH",
+  "symbol": "sprite_stickdeath",
+  "width": 96,
+  "height": 32,
+  "states": [
+    {
+      "id": "6c7a5a92-4208-4c33-b305-8b962b397a97",
+      "name": "",
+      "animationType": "multi_movement",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "046219fd-e0dc-4f13-a0f3-02e695b16ff3",
+          "frames": [
+            {
+              "id": "50feb360-dd35-43c1-a55f-77af07f3923c",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "0b9e86a9-042a-40d3-8e4a-c63c73782d1e",
+          "frames": [
+            {
+              "id": "242d46fd-0f7f-458e-b9c6-f9f5bc3b0d13",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "0c857b6b-53ec-4895-8f4e-5733ac68c596",
+          "frames": [
+            {
+              "id": "097bffe3-0714-4718-8b40-5f63eb2f7ae8",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "30b93bb0-50f0-415f-8bee-3d8d47ac0df7",
+          "frames": [
+            {
+              "id": "ad75ab7e-bdc4-4971-9f54-75a52bdec7d8",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "ef235fe6-b843-4d23-99ea-7ee6a01b4ffa",
+          "frames": [
+            {
+              "id": "65ca4df2-f263-4f90-ad3e-8b58aad4d90e",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "7a4033bc-8b9c-48ad-b516-36ab54ef2d7c",
+          "frames": [
+            {
+              "id": "d7fae9d3-7306-47ec-b25b-14556770c001",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "ccbf3807-12b5-41ae-8660-d3bcc75a7f8a",
+          "frames": [
+            {
+              "id": "b5c81019-6b09-4661-9e38-d416a1a12404",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "d806848f-d1bb-4493-a2ea-f47e389095eb",
+          "frames": [
+            {
+              "id": "b258ad57-336f-43e8-97da-687b492a32a0",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 0,
+  "canvasWidth": 32,
+  "canvasHeight": 32,
+  "boundsX": 0,
+  "boundsY": 0,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "doodies/STICKDEATH.png",
+  "checksum": "8e2ab3396380eb02c9b5d5b5db53c1745d0b206f",
+  "numFrames": 6
+}

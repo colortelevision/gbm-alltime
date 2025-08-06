@@ -1,0 +1,158 @@
+{
+  "_resourceType": "sprite",
+  "id": "3aaa182f-8c97-4dc3-8d3c-ee6c0428d197",
+  "name": "items/keyboard 2",
+  "symbol": "sprite_keyboard_2",
+  "width": 32,
+  "height": 16,
+  "states": [
+    {
+      "id": "63855092-da03-442a-9aa5-9a6a5e8e5bc0",
+      "name": "",
+      "animationType": "fixed",
+      "flipLeft": false,
+      "animations": [
+        {
+          "id": "3af25c96-dab7-4131-a0c9-41361978c679",
+          "frames": [
+            {
+              "id": "082d82db-0b1e-4952-af2e-60bbe426ed66",
+              "tiles": [
+                {
+                  "id": "10caa240-6dc3-4494-8c21-e8597b1e3809",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 0,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                },
+                {
+                  "id": "08f3a190-22b1-46f1-bf16-edfef39ac369",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 8,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                }
+              ]
+            },
+            {
+              "id": "db81506a-49d2-4872-9754-7a9e565f6292",
+              "tiles": [
+                {
+                  "id": "093381b5-794c-4fbd-91f9-49b84aa74fe0",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 16,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                },
+                {
+                  "id": "0f66287b-4123-45fb-8ff3-43256c99e97c",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 24,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "8d7605b5-f3c9-4cec-9066-71686298b1aa",
+          "frames": [
+            {
+              "id": "12c79943-c739-4ccc-a28d-cee1d0e3f5b1",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "bf5262c3-8cb6-4efc-b3cf-95b650cd2518",
+          "frames": [
+            {
+              "id": "710fefbc-dff1-4847-ad22-bdcd860fff8d",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "ec8ab7a3-28d6-46e7-a0ad-95972a0d8547",
+          "frames": [
+            {
+              "id": "312a0e9e-89d4-47d3-a819-4bcc33dd380b",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "874d9573-334a-42ac-a009-4df13c042c64",
+          "frames": [
+            {
+              "id": "ed272bc6-5bbe-412d-b7c1-7e32947c66a8",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "6ca7ec95-8c14-4d3f-b630-58b78ef7fd3a",
+          "frames": [
+            {
+              "id": "1024f480-c93f-4ccf-acff-a821aa66f959",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "c67629ca-1a6c-4a7b-a05a-a06a78c8957b",
+          "frames": [
+            {
+              "id": "60e8281a-c082-4186-873a-3aeb6464ceb6",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "69885e98-ccba-42a7-9130-4bff9dfcdf10",
+          "frames": [
+            {
+              "id": "8f6db02d-886e-4f96-8e00-0bec4831a03e",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 4,
+  "canvasWidth": 16,
+  "canvasHeight": 16,
+  "boundsX": 0,
+  "boundsY": 0,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "items/keyboard 2.png",
+  "checksum": "d34424c9198884f4d77733646ce8e5206cb1fdc3"
+}

@@ -1,0 +1,101 @@
+{
+  "_resourceType": "sprite",
+  "id": "9809029e-3ae8-4203-bbc7-33ee5614f3b0",
+  "name": "MILKHOUSE/WFU_b12",
+  "symbol": "sprite_wfu_b12",
+  "width": 80,
+  "height": 32,
+  "states": [
+    {
+      "id": "d094c04e-ca70-4591-8d4d-7db6f0a8f405",
+      "name": "",
+      "animationType": "multi_movement",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "dc55764a-bf23-46b6-9623-e3ec9dc5a6fb",
+          "frames": [
+            {
+              "id": "49d9f3dc-a7a3-478c-853e-e9e572fbd359",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "ecf0f8c6-ff9a-4d52-80c7-4857abbacd16",
+          "frames": [
+            {
+              "id": "7edccda6-03c3-4277-ac95-0279a9cfa0e3",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "4689dba7-2012-465e-bfd7-7c425d9f4f91",
+          "frames": [
+            {
+              "id": "0c74c549-1980-438b-a5d9-278931f2996f",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "c843dfcf-9708-430e-8330-34df62a42de8",
+          "frames": [
+            {
+              "id": "3b5bdbbd-58e7-4aa4-80cb-fa7f91e187c0",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "c1724761-8a3d-4bf9-a10f-a833d5a2aa55",
+          "frames": [
+            {
+              "id": "b0c542c0-1b47-4fb0-b986-b1ed37115f9a",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "5d4e3343-3b9c-4bc6-8642-2b2c1016c450",
+          "frames": [
+            {
+              "id": "ce1934f4-b2fa-40ae-9b94-e5d16a5301da",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "d858e923-8124-4a45-a7c8-621d252576a4",
+          "frames": [
+            {
+              "id": "a487af14-1a33-4ff8-b4be-3ee1ac36ee4e",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "9c033690-b63c-42ec-a1e0-71180892614c",
+          "frames": [
+            {
+              "id": "15a69be3-b1af-49d1-9bc8-f7bd981cb406",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 0,
+  "canvasWidth": 32,
+  "canvasHeight": 32,
+  "boundsX": 0,
+  "boundsY": 0,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "MILKHOUSE/WFU_b12.png",
+  "checksum": "cad562545bd29a80fe98e58833c89e427abf42a5",
+  "numFrames": 5
+}

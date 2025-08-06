@@ -1,0 +1,100 @@
+{
+  "_resourceType": "sprite",
+  "id": "2a314d54-a226-4bf4-8da5-298f047bcf26",
+  "name": "trademock/accountable ant animation",
+  "symbol": "sprite_accountable_ant_anim",
+  "width": 96,
+  "height": 64,
+  "states": [
+    {
+      "id": "6fdc16c2-cbab-418f-a07e-27c58752bba7",
+      "name": "",
+      "animationType": "multi_movement",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "be9edb5e-0ea3-4aa2-a8ea-7a00ececd8b7",
+          "frames": [
+            {
+              "id": "3bb908b8-c5d6-467d-b06e-5d8ee4aa5d41",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "7d359904-062a-4f16-af26-b4daae0c8106",
+          "frames": [
+            {
+              "id": "6cf9d8e4-b375-4200-a7e1-9a0fb3748b52",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "04dee359-eb96-49bf-9784-ee01753aa9be",
+          "frames": [
+            {
+              "id": "b0e210af-1d2a-405c-95c4-ae3dc4cc2a03",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "5a270285-42f3-4934-b014-bad36d62990c",
+          "frames": [
+            {
+              "id": "a64f56ef-7717-4f75-8a6a-946f8c528c82",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "77df0a00-2487-4535-a74d-e7f9056293cd",
+          "frames": [
+            {
+              "id": "88768733-cec2-4c50-8833-3e3dc539a06f",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "ef80c4a3-fb4c-477d-b7cd-6380e2c34c40",
+          "frames": [
+            {
+              "id": "4b922c38-b42f-4702-8467-7e9bed3cf813",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "780d8335-1e5d-481d-afe1-89aba2eddf69",
+          "frames": [
+            {
+              "id": "a26ad324-b704-4448-aeb7-027629b34300",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "c0b8bf84-1fae-4036-bd1d-d67c52f10cd2",
+          "frames": [
+            {
+              "id": "92f659a5-8e8b-4696-bcbb-4afbc2e9cd6b",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 0,
+  "canvasWidth": 32,
+  "canvasHeight": 32,
+  "boundsX": 0,
+  "boundsY": 0,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "trademock/accountable ant animation.png",
+  "checksum": "23e5b99649b747090d4b29630a71cd5088029c70"
+}

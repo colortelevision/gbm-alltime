@@ -1,0 +1,101 @@
+{
+  "_resourceType": "sprite",
+  "id": "fdbb6134-01f9-4246-af32-5e1750a58848",
+  "name": "MILKHOUSE/ctv guide spritesheet",
+  "symbol": "sprite_ctv_guide_spriteshee",
+  "width": 64,
+  "height": 64,
+  "states": [
+    {
+      "id": "ad342383-8b22-4c24-8c50-2e99d2c82331",
+      "name": "",
+      "animationType": "multi_movement",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "592eb317-4689-4f15-b9ae-7555ebb3e803",
+          "frames": [
+            {
+              "id": "83fe9d57-974d-4ca2-8a81-1a3dd3607e65",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "9d48ede0-d7de-4c82-9a8f-cc6d637f82fc",
+          "frames": [
+            {
+              "id": "84651fba-71be-4bd8-aa49-ac137bebeb70",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "6c3c6db5-1c46-401d-99d3-8d3b2a28e05a",
+          "frames": [
+            {
+              "id": "6bd2f682-1c5a-48fa-bcc1-560559563d2d",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "8a2cb0cd-ae44-4ea8-b525-d4e024c597b3",
+          "frames": [
+            {
+              "id": "17e1176f-13ed-420e-9b35-4d926c44b62a",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "f3874bc0-1b7f-41f7-917e-f269502f5764",
+          "frames": [
+            {
+              "id": "5ffb7338-fabd-4b18-873a-8dcd037b54b6",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "549a2618-f510-4de7-8c7f-71cc22e8ec47",
+          "frames": [
+            {
+              "id": "3d42cdae-bacb-4f50-8932-b864e75303fd",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "a7ba168d-427d-4071-8d6d-e4356901850a",
+          "frames": [
+            {
+              "id": "820c4af9-1f7c-414e-904b-adde3fa404fa",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "dfdb9dfe-7ade-4d4f-8aea-15bd6d1229e5",
+          "frames": [
+            {
+              "id": "6a2e58c5-83e8-43db-a1ac-50b6dedf9010",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 0,
+  "canvasWidth": 32,
+  "canvasHeight": 32,
+  "boundsX": 0,
+  "boundsY": 0,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "MILKHOUSE/ctv guide spritesheet.png",
+  "checksum": "2e79380c56c5ac4f9b25e24263867c94a8b6e5aa",
+  "numFrames": 4
+}

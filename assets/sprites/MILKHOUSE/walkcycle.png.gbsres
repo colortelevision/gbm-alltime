@@ -1,0 +1,101 @@
+{
+  "_resourceType": "sprite",
+  "id": "c33261ae-0726-42eb-935f-93b0bbf52953",
+  "name": "MILKHOUSE/walkcycle",
+  "symbol": "sprite_walkcycle",
+  "width": 64,
+  "height": 133,
+  "states": [
+    {
+      "id": "a4fe2844-dd3f-4145-8ca9-822c9b3bf510",
+      "name": "",
+      "animationType": "multi_movement",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "89f87bba-9f40-4e5f-9691-981cffe6e4b8",
+          "frames": [
+            {
+              "id": "ecb5a849-c136-42b3-b61d-70ba582eed74",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "695e06fe-9c69-4202-8430-7c2a430ffc7e",
+          "frames": [
+            {
+              "id": "fa4b2a4f-0679-413c-bf2b-1c66f6b94522",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "6bea6a6a-ccac-436a-8ce9-b119a15d773f",
+          "frames": [
+            {
+              "id": "89ac8e72-388d-420f-9edb-e45e6c58ca48",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "5e5bb409-7f83-4de5-b84e-e580b9b19404",
+          "frames": [
+            {
+              "id": "aa558be2-a147-4eb9-9fd9-0d1f24a97083",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "d9103f78-a2d6-4fa2-b96e-d19d62f2d7b6",
+          "frames": [
+            {
+              "id": "81d6b1ae-9af0-4275-936b-8035680bf8fb",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "311d7092-9899-4534-875b-9dfddf9b2ea0",
+          "frames": [
+            {
+              "id": "1509d322-5c02-4b3a-8a9a-6f1107da222a",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "b32fa748-0b17-4a27-a330-2891bbfaad07",
+          "frames": [
+            {
+              "id": "505d1a31-a695-4466-beed-f3f5c3df866b",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "6e1c53b3-82d4-44f4-bd89-304b19b46e31",
+          "frames": [
+            {
+              "id": "136eef4c-cfb0-4cec-949a-fd92e126cbfb",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 0,
+  "canvasWidth": 32,
+  "canvasHeight": 32,
+  "boundsX": 0,
+  "boundsY": 0,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "MILKHOUSE/walkcycle.png",
+  "checksum": "002d0bd4ea46dbe337789e5b4e440dbe7811c374",
+  "numFrames": 4
+}

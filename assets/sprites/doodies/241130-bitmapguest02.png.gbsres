@@ -1,0 +1,101 @@
+{
+  "_resourceType": "sprite",
+  "id": "f6644256-0774-4ab7-90ac-d6bc473f0d87",
+  "name": "doodies/241130-bitmapguest02",
+  "symbol": "sprite_241130_bitmapguest02",
+  "width": 64,
+  "height": 32,
+  "states": [
+    {
+      "id": "b8ce2be4-eb72-407f-bdc8-d3f112716388",
+      "name": "",
+      "animationType": "multi_movement",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "7a3e5e08-fa1f-4ab1-b68c-b236c308cc92",
+          "frames": [
+            {
+              "id": "0d33dbff-1e8a-4f29-b79e-6807fb4404e1",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "493da20a-a564-402c-bc24-adaccb29cc93",
+          "frames": [
+            {
+              "id": "538a6f14-0736-4cc4-a2bd-f18d87cbaee6",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "48fed9e2-1303-457c-8264-a89bf7492e21",
+          "frames": [
+            {
+              "id": "f61d55a9-ab83-45d3-a6fe-68b2cb7df135",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "d84e8c17-d904-4f21-aa20-702994e57560",
+          "frames": [
+            {
+              "id": "0ec9c10f-7f28-4d9e-a029-9ff1da15cf68",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "3a90072d-908c-4447-9b86-3187fe670b3e",
+          "frames": [
+            {
+              "id": "d80ac863-19ff-480e-b9a8-715897ec1e5a",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "a4e0b3c9-405e-41a6-ae5d-b64f69d71bb3",
+          "frames": [
+            {
+              "id": "a39c30a4-849a-4c15-abe4-b0f98a5ad442",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "0d479fdd-357f-444b-9f3f-4cb943915b4b",
+          "frames": [
+            {
+              "id": "e0f738cd-e11e-471a-8e1f-57136c00dea6",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "ea96f950-7f40-4093-9b19-0f10b5a28728",
+          "frames": [
+            {
+              "id": "12400c28-1385-4552-b3bc-ae688c03f1df",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 0,
+  "canvasWidth": 32,
+  "canvasHeight": 32,
+  "boundsX": 0,
+  "boundsY": 0,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "doodies/241130-bitmapguest02.png",
+  "checksum": "32f5ae8a3a7fe75d4b22d386cfdada61a5576e7d",
+  "numFrames": 4
+}

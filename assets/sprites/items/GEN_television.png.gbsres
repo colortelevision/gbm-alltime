@@ -1,0 +1,101 @@
+{
+  "_resourceType": "sprite",
+  "id": "73823971-a9cb-4ab6-b8b7-3a0c04627e24",
+  "name": "items/GEN_television",
+  "symbol": "sprite_gen_television",
+  "width": 48,
+  "height": 32,
+  "states": [
+    {
+      "id": "0bc85eaf-2aa2-4f85-8926-93415d26ca40",
+      "name": "",
+      "animationType": "multi_movement",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "0aac5477-4ab5-4c94-8595-e684a7cab4cc",
+          "frames": [
+            {
+              "id": "2aa92747-cbf5-4d71-ad0a-aa5f7485bdc4",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "96d4bf50-4618-47ca-a2f6-0ac13fcae0ca",
+          "frames": [
+            {
+              "id": "08610992-4b89-4f53-86c6-6c11c245e941",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "a59768ff-0727-4fd7-9dcd-e1f2fd9eca6b",
+          "frames": [
+            {
+              "id": "ebec7c75-9686-4845-943c-52ef9d0a1b59",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "206671d2-12c9-4bf8-adb2-5e1a9edf5a44",
+          "frames": [
+            {
+              "id": "7960d4bf-669d-49ab-ae0c-190eb5e425b0",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "0b8e3970-2c39-4d36-83d5-9f60fc90caaf",
+          "frames": [
+            {
+              "id": "758ea5e2-4019-47f2-83b2-13a97ed1176f",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "a09d886f-9601-4c0b-98a4-9f9f0e8a4abd",
+          "frames": [
+            {
+              "id": "26a5f738-e7a7-4cab-be5b-1f3dd4abe4dd",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "faad06bb-674e-4ec4-8389-a52f199cfec3",
+          "frames": [
+            {
+              "id": "b37d8085-9c46-472d-8de2-0d75bb2c3a60",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "b20e7e70-3c50-4525-9182-0cb32f85e6d4",
+          "frames": [
+            {
+              "id": "86dd9732-6568-4234-8ca0-379cd96f20fa",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 0,
+  "canvasWidth": 32,
+  "canvasHeight": 32,
+  "boundsX": 0,
+  "boundsY": 0,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "items/GEN_television.png",
+  "checksum": "86979ae764db9c8f1a4be93f24b080b1ed8b28c6",
+  "numFrames": 3
+}

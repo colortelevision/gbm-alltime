@@ -1,0 +1,101 @@
+{
+  "_resourceType": "sprite",
+  "id": "d0d07f4a-05be-416e-9ed2-ac95dab83f5e",
+  "name": "uiux/slide_numbers",
+  "symbol": "sprite_slide_numbers",
+  "width": 64,
+  "height": 64,
+  "states": [
+    {
+      "id": "28731e51-980a-4caa-9214-d0cc4812f30f",
+      "name": "",
+      "animationType": "multi_movement",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "cdd21875-de2d-42e9-9e1b-b1f3447a75fc",
+          "frames": [
+            {
+              "id": "d7fc4a9c-0261-4089-b0a2-939a6c1c3886",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "190b8381-611a-49af-b73c-0d61613407be",
+          "frames": [
+            {
+              "id": "b20f8cae-2f4a-4a68-8b7d-b96cd9bdd971",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "0863d166-380b-4bb2-85b3-88a67983a2b5",
+          "frames": [
+            {
+              "id": "65bb19e4-a17b-41aa-b4ab-1a2a44d2d2f9",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "c45909dc-5ac1-4b6a-a638-07df3708a89c",
+          "frames": [
+            {
+              "id": "c99d6eef-bacd-4979-99d8-b6eb20a0baa7",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "ee0fbf6e-50df-4f65-bd11-8dabd0bb83b9",
+          "frames": [
+            {
+              "id": "02ff256a-f02b-4d89-8556-fa76802f8ae1",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "021ea729-50c4-4cef-bfa2-585a8f1e425a",
+          "frames": [
+            {
+              "id": "cc823f91-5306-4f7d-91ad-cc8d6e6a492f",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "003735c6-3336-4cc7-9ad9-2d7a9bb03ae3",
+          "frames": [
+            {
+              "id": "508f2b90-b836-456a-900b-54e9615171f3",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "a1407560-c126-43fa-acad-32643e90d136",
+          "frames": [
+            {
+              "id": "e2fe1a4d-f4f4-40e9-aa38-fdd0ecb92c41",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 0,
+  "canvasWidth": 32,
+  "canvasHeight": 32,
+  "boundsX": 0,
+  "boundsY": 0,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "uiux/slide_numbers.png",
+  "checksum": "fdbed17bdca62dca1d3ab716c7872cefa939b0f9",
+  "numFrames": 4
+}

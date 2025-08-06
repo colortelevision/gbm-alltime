@@ -1,0 +1,128 @@
+{
+  "_resourceType": "sprite",
+  "id": "c53328f6-a189-47d5-bfe2-6022ca4e391f",
+  "name": "uiux/buttonon",
+  "symbol": "sprite_buttonon",
+  "width": 16,
+  "height": 16,
+  "states": [
+    {
+      "id": "4f128690-67f6-4d43-abc2-dea11862134b",
+      "name": "",
+      "animationType": "fixed",
+      "flipLeft": false,
+      "animations": [
+        {
+          "id": "2aba27e9-c5f9-490f-bb3f-fad1c41258e3",
+          "frames": [
+            {
+              "id": "d6cbc37f-b8f4-43ad-b174-cb95c0300337",
+              "tiles": [
+                {
+                  "id": "b00bb14c-28c1-4279-8a91-b9c05ac458a6",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 0,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                },
+                {
+                  "id": "61aa4784-9649-4c65-a50e-5599f6e92a8b",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 8,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "8fe7dc2d-078f-41ce-9187-f9a6ec861d67",
+          "frames": [
+            {
+              "id": "97a0baf6-dabf-4e68-89bc-a50b486afdd4",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "1fa5aa87-300b-41f7-a0d7-5e87fcc0b2a1",
+          "frames": [
+            {
+              "id": "4a83401c-14a8-4a43-adc1-68da14f4bf3e",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "eb114ec2-8818-420b-bed3-034732d15e50",
+          "frames": [
+            {
+              "id": "e9244354-12c7-4809-92c3-c721219d7990",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "002ce92c-4685-4107-a68d-f750c036c766",
+          "frames": [
+            {
+              "id": "f7e79fe5-a7c7-41c3-bd26-36bc53bff42a",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "fa5ee873-8be5-4f66-8fa3-25620d516302",
+          "frames": [
+            {
+              "id": "55f9feee-4836-4d4b-a39e-7f02441844c2",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "bf4f332d-49bc-46fe-9025-96c545d40aa0",
+          "frames": [
+            {
+              "id": "987c6f6b-b278-4365-ae7f-91341adfedf7",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "350d0fbc-fc75-4dc1-a5d9-14c07e8a2938",
+          "frames": [
+            {
+              "id": "62d0bfa8-d89e-42d3-bad6-796742d0406b",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 2,
+  "canvasWidth": 16,
+  "canvasHeight": 16,
+  "boundsX": 0,
+  "boundsY": 0,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "uiux/buttonon.png",
+  "checksum": "6d764fee837f7a179a871be65b8cc7edfdb06744",
+  "numFrames": 1
+}

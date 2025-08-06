@@ -1,0 +1,101 @@
+{
+  "_resourceType": "sprite",
+  "id": "0496c361-8944-44f7-853e-a1957b482c4a",
+  "name": "MILKHOUSE/trop",
+  "symbol": "sprite_trop",
+  "width": 24,
+  "height": 24,
+  "states": [
+    {
+      "id": "6f265b3b-1019-4f96-bf90-496664b0a2f6",
+      "name": "",
+      "animationType": "multi_movement",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "68ad3fc8-1d30-4d1d-9b3c-a4f064a4d9b1",
+          "frames": [
+            {
+              "id": "c9a308fd-17ca-4ce7-9cb9-16c1bd796127",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "27eea1e2-cb1a-46b7-8dbd-ef741e38ddc4",
+          "frames": [
+            {
+              "id": "815d7164-d52e-4864-8036-6fc8c1503584",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "71ed5579-7082-489e-9402-06301c78c755",
+          "frames": [
+            {
+              "id": "64f410a6-1b46-4f03-a146-926b5ab228f7",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "afa84d39-5370-438d-b140-608877bcf9bb",
+          "frames": [
+            {
+              "id": "33b91eb5-37c4-4879-889e-79293b118749",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "3364303a-55c4-4538-b3f5-726da9f073fc",
+          "frames": [
+            {
+              "id": "d4b69662-38b9-4663-b4e5-259e1df9a35b",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "23d973df-519b-4ea6-8b01-87040ca7cd71",
+          "frames": [
+            {
+              "id": "680d1faf-f27f-47d0-8858-38410ffd6c46",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "3b52c935-d007-4ba6-b84c-c1a0074d849c",
+          "frames": [
+            {
+              "id": "777892a2-1b11-4803-b59c-e1704fb31f70",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "18c0c7cd-9b4e-49da-9cf0-03da628e742b",
+          "frames": [
+            {
+              "id": "70500dac-4f7b-4321-a6d7-6018d70c4fd0",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 0,
+  "canvasWidth": 32,
+  "canvasHeight": 32,
+  "boundsX": 0,
+  "boundsY": 0,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "MILKHOUSE/trop.png",
+  "checksum": "7ff947b517c70cc860639ec69d63e6b77a259d03",
+  "numFrames": 1.5
+}
