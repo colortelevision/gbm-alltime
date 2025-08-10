@@ -1,0 +1,181 @@
+{
+  "_resourceType": "sprite",
+  "id": "d2bc2509-50c1-48eb-a3c8-2a5dc73b573a",
+  "name": "uiux/SKIPBUTTON",
+  "symbol": "sprite_uiux_skipbutton",
+  "width": 56,
+  "height": 16,
+  "states": [
+    {
+      "id": "11e81f96-3548-41da-82b8-79c9d5c9907e",
+      "name": "",
+      "animationType": "multi",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "4199a96a-acf0-49c3-a0b0-eb3a7ac31754",
+          "frames": [
+            {
+              "id": "00981cd7-96c0-412b-acce-8d0d8d6f5d02",
+              "tiles": [
+                {
+                  "id": "9d5ff001-9f19-44f0-a606-66979c8ace1c",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 32,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                },
+                {
+                  "id": "b0bc7b70-7c39-49ea-9b3b-4aef12a4fd50",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 40,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "98d75efc-b39f-4f3f-8acb-3b8c63cedb6c",
+          "frames": [
+            {
+              "id": "0229e646-528a-4217-9668-c6bd80fb337e",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "5634f285-e32a-4cd0-ad17-c4c1cac3bc6a",
+          "frames": [
+            {
+              "id": "687c07ed-da22-4613-94fe-1c9358367a1f",
+              "tiles": [
+                {
+                  "id": "5cdc569f-47e5-4b73-a3ba-f3dce4669f47",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 16,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                },
+                {
+                  "id": "5a16c0ce-cfa3-4dbe-b5f9-912d2dbef701",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 24,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "c7f572bd-739b-4037-b720-42d87b611f6b",
+          "frames": [
+            {
+              "id": "385f9e47-a5ea-4586-9bbb-e3796eeaef12",
+              "tiles": [
+                {
+                  "id": "8668be5e-66b4-4d30-a7ac-1370750a8772",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 0,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                },
+                {
+                  "id": "8f900844-94a0-4e6e-b9e9-eb1bb6953b07",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 8,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "5f70a6fe-4e8d-46a3-969f-13873de7d9f7",
+          "frames": [
+            {
+              "id": "0f205131-874a-43b8-a5f3-bc8d5c3a8609",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "b4eca157-3821-4cb1-bd42-f66702105d34",
+          "frames": [
+            {
+              "id": "9a1e3e70-2be5-4a0c-9131-dd3320755ac7",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "b11ad170-f689-4fca-83a5-fb702bc1d587",
+          "frames": [
+            {
+              "id": "d3e646e3-82d3-4b83-87a8-5cc366fa9c4c",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "520c1a4d-599f-481c-89b6-abcb368716c2",
+          "frames": [
+            {
+              "id": "adb7f664-0ec4-432c-b404-0c134b41006b",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 6,
+  "canvasWidth": 16,
+  "canvasHeight": 16,
+  "boundsX": 0,
+  "boundsY": 0,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "uiux/SKIPBUTTON.png",
+  "checksum": "b30b3477e13a6b59d797290f9e5b1fc0e64a8089"
+}

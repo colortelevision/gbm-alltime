@@ -1,0 +1,100 @@
+{
+  "_resourceType": "sprite",
+  "id": "4c52abbd-27c5-4144-a74a-affe1f6e7292",
+  "name": "doodies/stickalien",
+  "symbol": "sprite_doodies_stickalien",
+  "width": 32,
+  "height": 32,
+  "states": [
+    {
+      "id": "c3c57b2d-c194-4830-88f8-36613a22a032",
+      "name": "",
+      "animationType": "multi_movement",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "6c77aafa-fbc9-4c2c-a2c9-240f52b7a39a",
+          "frames": [
+            {
+              "id": "65463a63-4274-4261-85b3-e4521f040125",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "f0b42dd1-9395-4f40-af29-88155eb93121",
+          "frames": [
+            {
+              "id": "3b1de84e-fec1-4c4f-a063-1c07e2767e31",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "ba78a3b8-ced2-4fdd-827c-1ac6ace37582",
+          "frames": [
+            {
+              "id": "232db3d8-3e3a-4a8d-bc32-0005457e05e2",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "71ee2c96-a196-4291-9500-d7c8b6bbf3ad",
+          "frames": [
+            {
+              "id": "cfafe102-bbad-4390-bd35-cc9ba6e55dd0",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "f0bb075d-e4b3-4262-aea1-dc212508e08d",
+          "frames": [
+            {
+              "id": "16426349-aa9a-42eb-9690-0bb7619ff0e8",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "8b7cec28-5974-4b44-a256-0d88d3933b2f",
+          "frames": [
+            {
+              "id": "4dd23f1e-9cab-4545-9427-36083ddd7c3a",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "14440364-1232-4bc7-9c69-ea32be348a18",
+          "frames": [
+            {
+              "id": "c61f64af-2a6f-4246-a066-638588590ffa",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "4dc34211-b147-4d61-be83-3dff91932ace",
+          "frames": [
+            {
+              "id": "bf3bd1b2-5616-4a6a-a4d3-4ba1dd2129ac",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 0,
+  "canvasWidth": 32,
+  "canvasHeight": 32,
+  "boundsX": 0,
+  "boundsY": 0,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "doodies/stickalien.png",
+  "checksum": "0160a06cd1dacd8461ce793cafe84368c59a3b6c"
+}

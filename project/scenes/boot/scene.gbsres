@@ -1,0 +1,268 @@
+{
+  "_resourceType": "scene",
+  "id": "63f8a012-7294-4e37-9c1c-fb2597f8bd58",
+  "_index": 12,
+  "type": "TOPDOWN",
+  "name": "BOOT",
+  "symbol": "scene_13",
+  "x": 824,
+  "y": 496,
+  "width": 20,
+  "height": 18,
+  "backgroundId": "6ea93da3-4595-4d0d-b2c6-fa1fafd71c55",
+  "tilesetId": "",
+  "paletteIds": [
+    "",
+    "",
+    "",
+    "",
+    "07738087-47c4-485d-9c44-fa4fa02f1438",
+    "10af623f-c012-4f2e-a443-0c79dd1f6b78",
+    "",
+    "20ade3d2-1055-4d5c-9623-846acfb0f491"
+  ],
+  "spritePaletteIds": [
+    "104e2fdc-a5db-4561-b79b-5c269b07e927"
+  ],
+  "autoFadeSpeed": 1,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_HIDE",
+      "args": {
+        "actorId": "$self$",
+        "__comment": true,
+        "__collapse": false
+      },
+      "id": "2a503666-f571-4d40-87d9-8ac21c4cf853"
+    },
+    {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 1760,
+        "duration": 0.03,
+        "effect": 0,
+        "__collapse": true
+      },
+      "id": "0ea92f44-a96b-4249-9c2b-cde9e2e9c173"
+    },
+    {
+      "command": "EVENT_SOUND_PLAY_EFFECT",
+      "args": {
+        "type": "tone",
+        "priority": "medium",
+        "pitch": 4,
+        "frequency": 1760,
+        "duration": 0.2,
+        "wait": false,
+        "effect": 0,
+        "__collapse": true
+      },
+      "id": "cbfb3849-2c80-4b49-8a96-5ca5833e6cf1"
+    },
+    {
+      "id": "9df148f5-6c58-4991-a452-16b9112995f0",
+      "command": "EVENT_GROUP",
+      "args": {
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_WAIT",
+            "args": {
+              "time": 0.3,
+              "frames": 30,
+              "__collapse": false
+            },
+            "id": "a407488a-7d02-4eaf-9287-4bce64e4ab28"
+          },
+          {
+            "command": "EVENT_PALETTE_SET_BACKGROUND",
+            "args": {
+              "palette0": "keep",
+              "palette1": "keep",
+              "palette2": "keep",
+              "palette3": "keep",
+              "palette4": "699fcb29-43b6-4a1f-8017-fa1ab53c991d",
+              "palette5": "keep",
+              "palette6": "keep",
+              "palette7": "keep",
+              "__collapse": false
+            },
+            "id": "c908d2c7-29eb-4d88-aad6-53bba4a00212"
+          },
+          {
+            "command": "EVENT_WAIT",
+            "args": {
+              "time": 0.1,
+              "frames": 30,
+              "__collapse": false
+            },
+            "id": "01d15764-8046-4f53-b2ff-990c01d68e33"
+          },
+          {
+            "command": "EVENT_PALETTE_SET_BACKGROUND",
+            "args": {
+              "palette0": "keep",
+              "palette1": "keep",
+              "palette2": "keep",
+              "palette3": "keep",
+              "palette4": "1d5b3c74-ec68-4fe1-842b-b3afee39a6d3",
+              "palette5": "keep",
+              "palette6": "keep",
+              "palette7": "keep",
+              "__collapse": true
+            },
+            "id": "3244a5f2-2610-4610-9f9b-8427ac01ce1c"
+          },
+          {
+            "command": "EVENT_WAIT",
+            "args": {
+              "time": 0.1,
+              "frames": 30,
+              "__collapse": false
+            },
+            "id": "95f3d2b4-99c5-4efd-9c5c-66030d7bbf28"
+          },
+          {
+            "command": "EVENT_PALETTE_SET_BACKGROUND",
+            "args": {
+              "palette0": "keep",
+              "palette1": "keep",
+              "palette2": "keep",
+              "palette3": "keep",
+              "palette4": "aba59315-81a5-40ef-b0dd-106e880dd7a2",
+              "palette5": "keep",
+              "palette6": "keep",
+              "palette7": "keep",
+              "__collapse": false
+            },
+            "id": "f2b2056d-9729-4f33-a1c7-a7c4f1b70df7"
+          },
+          {
+            "command": "EVENT_WAIT",
+            "args": {
+              "time": 0.1,
+              "frames": 30,
+              "__collapse": true
+            },
+            "id": "26aa8c9f-4834-46fc-b0b9-ed475a852411"
+          },
+          {
+            "command": "EVENT_PALETTE_SET_BACKGROUND",
+            "args": {
+              "palette0": "keep",
+              "palette1": "keep",
+              "palette2": "keep",
+              "palette3": "keep",
+              "palette4": "07738087-47c4-485d-9c44-fa4fa02f1438",
+              "palette5": "keep",
+              "palette6": "keep",
+              "palette7": "keep",
+              "__collapse": true
+            },
+            "id": "c9994e69-e0f6-43e4-a640-d42383a8e992"
+          },
+          {
+            "command": "EVENT_WAIT",
+            "args": {
+              "time": 0.1,
+              "frames": 30,
+              "__collapse": false
+            },
+            "id": "99949153-aac1-4d90-b788-d81cfef94de7"
+          },
+          {
+            "command": "EVENT_PALETTE_SET_BACKGROUND",
+            "args": {
+              "palette0": "keep",
+              "palette1": "keep",
+              "palette2": "keep",
+              "palette3": "keep",
+              "palette4": "cbed3a8d-17e7-415a-8c54-7d2009820cf5",
+              "palette5": "keep",
+              "palette6": "keep",
+              "palette7": "keep",
+              "__collapse": false
+            },
+            "id": "31c2021e-0829-41af-b235-fcbf6c2f4a26"
+          }
+        ]
+      }
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 0.3,
+        "frames": 30,
+        "__collapse": true
+      },
+      "id": "38826c7d-da64-4443-88ce-40ad6c56abb0"
+    },
+    {
+      "command": "EVENT_TEXT_DRAW",
+      "args": {
+        "text": "PRESS SEL TO ENTER BIOS",
+        "x": 1,
+        "y": 16,
+        "location": "background",
+        "__collapse": true
+      },
+      "id": "54839bd1-e71b-435b-891a-05b3c13198f6"
+    },
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "select"
+        ],
+        "override": true,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SOUND_PLAY_EFFECT",
+            "args": {
+              "type": "tone",
+              "priority": "medium",
+              "pitch": 4,
+              "frequency": 1760,
+              "duration": 0.2,
+              "wait": false,
+              "effect": 0,
+              "__collapse": true
+            },
+            "id": "ab513008-f5f8-4c93-ae5d-a75bbd23de31"
+          },
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "c6957208-bf8e-4a53-8cb6-79b8d4b94593",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": 1
+              },
+              "direction": "",
+              "fadeSpeed": 0
+            },
+            "id": "fac0eb0e-75d3-419e-8aa4-1a8392de914e"
+          }
+        ]
+      },
+      "id": "ed88c40e-483b-4144-8b72-47746ebd3da9"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": "",
+  "playerSpriteSheetId": "0496c361-8944-44f7-853e-a1957b482c4a",
+  "autoFadeEventCollapse": true
+}

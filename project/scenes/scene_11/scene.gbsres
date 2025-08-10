@@ -2,28 +2,28 @@
   "_resourceType": "scene",
   "id": "ad87c3ea-af10-4c46-81a3-3bc8fc3294b6",
   "_index": 10,
+  "type": "PLATFORM",
   "name": "Scene 11",
-  "backgroundId": "c37a6dcb-2942-4196-99a4-eb8824076643",
-  "tilesetId": "",
+  "symbol": "scene_11",
+  "x": 640,
+  "y": 336,
   "width": 20,
   "height": 18,
-  "type": "PLATFORM",
+  "backgroundId": "c37a6dcb-2942-4196-99a4-eb8824076643",
+  "tilesetId": "",
   "paletteIds": [
-    null,
-    null,
-    null,
-    null,
-    null,
+    "",
+    "",
+    "",
+    "",
+    "",
     "775860dc-d74d-4e37-9dac-682ea40640ec"
   ],
   "spritePaletteIds": [
     "1c79dad0-4d60-42b2-a682-524627b46904"
   ],
-  "collisions": "0018+0fb+008+0f!009+0f2+008+0f!009+0f2+008+0f!009+0f2+008+0fb+00f6+",
   "autoFadeSpeed": 1,
-  "symbol": "scene_11",
-  "x": 640,
-  "y": 336,
+  "playerSpriteSheetId": "0f4e4dfe-c613-4f6f-9c70-c2d036f0f75f",
   "script": [
     {
       "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
@@ -129,5 +129,5 @@
   ],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "playerSpriteSheetId": "0f4e4dfe-c613-4f6f-9c70-c2d036f0f75f"
+  "collisions": "0018+0fb+008+0f!009+0f2+008+0f!009+0f2+008+0f!009+0f2+008+0fb+00f6+"
 }
