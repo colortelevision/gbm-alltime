@@ -9,7 +9,7 @@
     {
       "id": "64e2bc1f-d993-450d-8781-e0791dcccd65",
       "name": "",
-      "animationType": "multi_movement",
+      "animationType": "fixed",
       "flipLeft": true,
       "animations": [
         {
@@ -17,7 +17,34 @@
           "frames": [
             {
               "id": "a3c02150-ca70-47d3-91d0-17d97f1e15a4",
-              "tiles": []
+              "tiles": [
+                {
+                  "id": "65c30b87-c3f3-42cc-b3d9-3a36c6d3ffa9",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 0,
+                  "sliceY": 0,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 2,
+                  "priority": false
+                },
+                {
+                  "id": "ce578ddd-a69f-482f-b7c3-f2aeb8f6d7ce",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 8,
+                  "sliceY": 0,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 2,
+                  "priority": false
+                }
+              ]
             }
           ]
         },
@@ -85,9 +112,103 @@
           ]
         }
       ]
+    },
+    {
+      "id": "67eee1a7-1e98-4ce6-b324-d59a70051062",
+      "name": "body",
+      "animations": [
+        {
+          "id": "beeadf1d-4a70-4004-b75d-af564e8e3a57",
+          "frames": [
+            {
+              "id": "c4d15487-82d2-4bb7-a8fc-65a18019a6ae",
+              "tiles": [
+                {
+                  "id": "3f199a20-a42b-4d9d-8a96-17a54faeea4f",
+                  "x": 1,
+                  "y": 16,
+                  "sliceX": 32,
+                  "sliceY": 0,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 0,
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "112b2c7e-286d-465e-bc04-7887dd29a1da",
+          "frames": [
+            {
+              "id": "eee9bf8d-6f06-4107-898d-3e5f9a0596b4",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "46fbfff7-839c-4ec3-868d-ad329ad34874",
+          "frames": [
+            {
+              "id": "50282c5a-8f8d-4a3f-b085-7c0fe5a751f5",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "e569ba01-e5fc-4ff0-b5eb-7e92117ac067",
+          "frames": [
+            {
+              "id": "e556ee76-d226-415a-a4e4-39744c571017",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "ed2d7c40-47a1-4db5-8300-cb4a807bc9e8",
+          "frames": [
+            {
+              "id": "17ef332e-bb9a-409b-a44a-4b282b1eaf4d",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "f92f5359-4326-4a17-9b96-cfc3ca3f29ed",
+          "frames": [
+            {
+              "id": "0a26ec9b-53b9-453b-8941-0c944dc7f302",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "b458c065-d3ca-4ff8-8fdd-e2fa49ebe2c5",
+          "frames": [
+            {
+              "id": "03932b94-a2dd-4d17-9184-3fe765812d74",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "30648653-2395-4404-a944-f8d74f271a1b",
+          "frames": [
+            {
+              "id": "b628e802-7a81-48e5-8f9e-0d582bee14ff",
+              "tiles": []
+            }
+          ]
+        }
+      ],
+      "animationType": "fixed_movement",
+      "flipLeft": true
     }
   ],
-  "numTiles": 0,
+  "numTiles": 3,
   "canvasWidth": 32,
   "canvasHeight": 32,
   "boundsX": 0,
@@ -96,6 +217,6 @@
   "boundsHeight": 16,
   "animSpeed": 15,
   "filename": "bots/102122 tv man spritesheet.png",
-  "checksum": "38b9ff2462ed36493da692ddb70587be0a6994c7",
+  "checksum": "17cb8257ba83dbc40d0c807f5eb710b04edc54ac",
   "numFrames": 4
 }
