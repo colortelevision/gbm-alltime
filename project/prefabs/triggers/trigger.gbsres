@@ -1,0 +1,21 @@
+{
+  "_resourceType": "triggerPrefab",
+  "id": "cc3efda3-4af0-4470-9338-64611e1633bc",
+  "name": "",
+  "script": [
+    {
+      "command": "EVENT_SOUND_PLAY_EFFECT",
+      "args": {
+        "type": "0bd74973-5406-4673-be7c-0483da44ed85",
+        "priority": "medium",
+        "pitch": 4,
+        "frequency": 200,
+        "duration": 0.5,
+        "wait": true,
+        "effect": 0
+      },
+      "id": "84046a44-5e39-479a-81f5-16e6e56b5239"
+    }
+  ],
+  "leaveScript": []
+}

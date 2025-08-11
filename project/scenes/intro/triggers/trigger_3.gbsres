@@ -1,0 +1,111 @@
+{
+  "_resourceType": "trigger",
+  "id": "64d4f7ef-5970-4c63-83b5-a6bf864fc1c9",
+  "name": "",
+  "prefabId": "",
+  "x": 46,
+  "y": 16,
+  "symbol": "trigger_22",
+  "prefabScriptOverrides": {},
+  "width": 1,
+  "height": 12,
+  "script": [
+    {
+      "command": "EVENT_IF_ACTOR_AT_POSITION",
+      "args": {
+        "actorId": "faa62941-f321-4f08-b5d7-f3e9b107bc2c",
+        "x": {
+          "type": "number",
+          "value": 49
+        },
+        "y": {
+          "type": "number",
+          "value": 22
+        },
+        "__collapseElse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_EMOTE",
+            "args": {
+              "actorId": "faa62941-f321-4f08-b5d7-f3e9b107bc2c",
+              "emoteId": "745344d1-ad9a-495d-bcd0-e05000732d66"
+            },
+            "id": "6532f440-a899-4d5b-8b3f-70f4dfad53ba"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "LET'S PICK UP THE PACE, KID."
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "640f35d0-2109-4759-b091-012a440afcfa"
+          },
+          {
+            "command": "EVENT_ACTOR_MOVE_TO",
+            "args": {
+              "actorId": "faa62941-f321-4f08-b5d7-f3e9b107bc2c",
+              "x": {
+                "type": "number",
+                "value": 50
+              },
+              "y": {
+                "type": "number",
+                "value": 2
+              },
+              "moveType": "horizontal",
+              "useCollisions": false,
+              "__collapse": false
+            },
+            "id": "a4014deb-507b-4d40-996f-34e48e51e99e"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_DIRECTION",
+            "args": {
+              "actorId": "faa62941-f321-4f08-b5d7-f3e9b107bc2c",
+              "direction": {
+                "type": "direction",
+                "value": "right"
+              }
+            },
+            "id": "0fe4ff14-4a32-4ed6-b88e-49a9bf135a15"
+          }
+        ],
+        "false": []
+      },
+      "id": "abf1c60c-4f1c-463e-87af-a36fffb7f212"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "L0",
+        "value": {
+          "type": "false"
+        },
+        "__collapse": true,
+        "__comment": true
+      },
+      "id": "3115f456-aeea-4d21-826a-4ccf9c5a3e0d"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 2
+}

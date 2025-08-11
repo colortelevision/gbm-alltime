@@ -5,23 +5,35 @@
   "type": "TOPDOWN",
   "name": "3f",
   "symbol": "scene_9",
-  "x": 616,
+  "x": 536,
   "y": 1216,
   "width": 60,
   "height": 36,
   "backgroundId": "e95667c1-e212-463c-9da1-016bc4d42f65",
   "tilesetId": "",
   "paletteIds": [
-    "b8bdbb80-bf49-4511-b932-607f0ec0a3d2",
-    "17d779d0-f0d5-4b13-aaed-4b71a812b525",
-    "9fb1f41b-54d4-43c6-8731-16de50176aa0",
     "86e86db4-b075-4fe7-85a2-f913ed33fb3c",
-    "",
-    "775860dc-d74d-4e37-9dac-682ea40640ec"
+    "17d779d0-f0d5-4b13-aaed-4b71a812b525",
+    "474a8d83-8645-4899-b86a-4681b8498709",
+    "4c562fad-58cd-42c9-9853-42c1d919c57d",
+    "41d0571e-0f36-494a-b085-dfdf8276ff91",
+    "5dafcf6e-b1d8-4c6b-b105-32d877f561e4"
   ],
   "spritePaletteIds": [],
   "autoFadeSpeed": 1,
-  "script": [],
+  "script": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "52",
+        "value": {
+          "type": "number",
+          "value": 3
+        }
+      },
+      "id": "89ce4f82-b24d-440a-b2b7-e618eb46e8e7"
+    }
+  ],
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],

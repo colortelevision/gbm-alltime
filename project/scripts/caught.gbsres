@@ -1,0 +1,28 @@
+{
+  "_resourceType": "script",
+  "id": "7a2c6dca-cd84-4c8b-b125-1f7cca28819b",
+  "name": "CAUGHT",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_9",
+  "script": [
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "b9f61af9-9379-44bf-8280-0d8ff1f650b3",
+        "x": {
+          "type": "number",
+          "value": 7
+        },
+        "y": {
+          "type": "number",
+          "value": 9
+        },
+        "direction": "right",
+        "fadeSpeed": "2"
+      },
+      "id": "bd783a06-8b72-46fe-98db-e82722dc5fe9"
+    }
+  ]
+}

@@ -1,8 +1,8 @@
 {
   "_resourceType": "settings",
-  "startSceneId": "ad87c3ea-af10-4c46-81a3-3bc8fc3294b6",
-  "startX": 5,
-  "startY": 3,
+  "startSceneId": "63f8a012-7294-4e37-9c1c-fb2597f8bd58",
+  "startX": 18,
+  "startY": 16,
   "startMoveSpeed": 1,
   "startAnimSpeed": 15,
   "startDirection": "right",
@@ -22,13 +22,13 @@
   ],
   "defaultSpritePaletteIds": [
     "71df34a8-cef4-4807-95d8-5b7d6bf7bd53",
+    "86e86db4-b075-4fe7-85a2-f913ed33fb3c",
+    "775860dc-d74d-4e37-9dac-682ea40640ec",
+    "07738087-47c4-485d-9c44-fa4fa02f1438",
     "default-sprite",
     "default-sprite",
     "default-sprite",
-    "default-sprite",
-    "default-sprite",
-    "default-sprite",
-    "default-sprite"
+    "10af623f-c012-4f2e-a443-0c79dd1f6b78"
   ],
   "defaultSpritePaletteId": "default-sprite",
   "defaultUIPaletteId": "default-ui",
@@ -36,11 +36,11 @@
   "defaultFontId": "4bd653f0-e08d-424e-9e5b-c1f3aaa21e47",
   "defaultCharacterEncoding": "",
   "defaultPlayerSprites": {
-    "TOPDOWN": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
-    "PLATFORM": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
-    "ADVENTURE": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
-    "SHMUP": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
-    "POINTNCLICK": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
+    "TOPDOWN": "9d2cf33f-2f68-45ed-8a0a-24472ef949c5",
+    "PLATFORM": "2d079fc1-4d8c-4e4c-96ef-1782977b8ff9",
+    "ADVENTURE": "14dcaf61-9d94-4e9d-8e3c-08e06d660c11",
+    "SHMUP": "3f948a52-3017-42d0-affc-9a03447f3cd4",
+    "POINTNCLICK": "57776ecd-617a-463c-bafe-278759867630",
     "LOGO": "581d34d0-9591-4e6e-a609-1d94f203b0cd"
   },
   "musicDriver": "huge",
@@ -52,29 +52,37 @@
   "customColorsBlack": "202850",
   "customControlsUp": [
     "ArrowUp",
-    "w"
+    "w",
+    "W"
   ],
   "customControlsDown": [
     "ArrowDown",
-    "s"
+    "s",
+    "S"
   ],
   "customControlsLeft": [
     "ArrowLeft",
-    "a"
+    "a",
+    "A"
   ],
   "customControlsRight": [
     "ArrowRight",
-    "d"
+    "d",
+    "D"
   ],
   "customControlsA": [
     "Alt",
+    "Z",
+    "J",
     "z",
     "j"
   ],
   "customControlsB": [
     "Control",
+    "x",
     "k",
-    "x"
+    "K",
+    "X"
   ],
   "customControlsStart": [
     "Enter"

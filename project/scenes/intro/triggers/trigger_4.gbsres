@@ -1,0 +1,73 @@
+{
+  "_resourceType": "trigger",
+  "id": "846a3384-a261-4e36-a82a-cdf4a4cf7855",
+  "name": "",
+  "prefabId": "",
+  "x": 52,
+  "y": 2,
+  "symbol": "trigger_23",
+  "prefabScriptOverrides": {},
+  "width": 2,
+  "height": 1,
+  "script": [
+    {
+      "command": "EVENT_IF_ACTOR_AT_POSITION",
+      "args": {
+        "actorId": "faa62941-f321-4f08-b5d7-f3e9b107bc2c",
+        "x": {
+          "type": "number",
+          "value": 50
+        },
+        "y": {
+          "type": "number",
+          "value": 2
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "YOU KNOW WHAT, I DON'T GET\nPAID TO HELP SLOW ASS TURTLES.",
+                "GO UPSTAIRS AND FIGURE THIS\nSHIT OUT ON OUR OWN. ",
+                "...",
+                "PLEASURE TO MEET YOU, AND\nWELCOME TO THE SILPH TEAM!"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "317a7314-2604-4fa7-b4a6-70d0159a3c8b"
+          },
+          {
+            "command": "EVENT_ACTOR_EMOTE",
+            "args": {
+              "actorId": "faa62941-f321-4f08-b5d7-f3e9b107bc2c",
+              "emoteId": "e68f3e28-236a-4497-8c51-581a893add03"
+            },
+            "id": "0b0396ad-7a0c-47e2-a6e3-6745650ba9ee"
+          }
+        ],
+        "false": []
+      },
+      "id": "b029b391-5ce0-4133-b17c-4bc09fc48c6e"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 3
+}

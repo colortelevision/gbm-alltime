@@ -83,7 +83,7 @@
                     "closeButton": "a",
                     "closeDelayTime": 0.5,
                     "closeDelayFrames": 30,
-                    "__collapse": true
+                    "__collapse": false
                   },
                   "id": "29a3896a-e053-4f32-88d3-1cc7936518e3"
                 },
@@ -104,6 +104,17 @@
                     "__collapse": true
                   },
                   "id": "ab143872-55e1-46a3-814d-eaf33867a4d1"
+                },
+                {
+                  "command": "EVENT_ACTOR_SET_DIRECTION",
+                  "args": {
+                    "actorId": "0",
+                    "direction": {
+                      "type": "direction",
+                      "value": "left"
+                    }
+                  },
+                  "id": "eb1c5048-ae81-4e9e-b074-6e90fbb9347b"
                 },
                 {
                   "command": "EVENT_SET_VALUE",

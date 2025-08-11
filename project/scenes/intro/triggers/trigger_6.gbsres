@@ -1,0 +1,87 @@
+{
+  "_resourceType": "trigger",
+  "id": "dff7f940-b4e6-4cf3-a83e-ef3b4cad4c02",
+  "name": "",
+  "prefabId": "",
+  "x": 18,
+  "y": 1,
+  "symbol": "trigger_25",
+  "prefabScriptOverrides": {},
+  "width": 1,
+  "height": 11,
+  "script": [
+    {
+      "command": "EVENT_IF_ACTOR_AT_POSITION",
+      "args": {
+        "actorId": "faa62941-f321-4f08-b5d7-f3e9b107bc2c",
+        "x": {
+          "type": "number",
+          "value": 10
+        },
+        "y": {
+          "type": "number",
+          "value": 5
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_EMOTE",
+            "args": {
+              "actorId": "faa62941-f321-4f08-b5d7-f3e9b107bc2c",
+              "emoteId": "7f3448d2-0251-4a83-b64f-a6a7fc0746fc"
+            },
+            "id": "78899fc3-fc5c-46cb-a6d0-ce1101509ac2"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "WAGIES GO THE OTHER WAY!\nDON'T LET ME CATCH YOU\nTRYING TO TAKE THE ELEVATOR!"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "a033ee21-4189-48f5-a374-4a02bd48ba2e"
+          },
+          {
+            "command": "EVENT_ACTOR_MOVE_RELATIVE",
+            "args": {
+              "actorId": "$self$",
+              "x": {
+                "type": "number",
+                "value": -2
+              },
+              "y": {
+                "type": "number",
+                "value": 0
+              },
+              "moveType": "horizontal",
+              "useCollisions": false
+            },
+            "id": "1bf8c195-5c1f-4406-b0bd-0a1a2152989b"
+          }
+        ],
+        "false": []
+      },
+      "id": "3d909651-6234-4687-b7df-89d547ee719c"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 5
+}

@@ -303,7 +303,7 @@
                   "args": {
                     "variable": "L0",
                     "choices": 3,
-                    "__collapseCase0": true,
+                    "__collapseCase0": false,
                     "__collapseCase1": true,
                     "__collapseCase2": true,
                     "__collapseCase3": false,
@@ -332,21 +332,21 @@
                       "type": "number",
                       "value": 2
                     },
-                    "__collapse": true
+                    "__collapse": false
                   },
                   "children": {
                     "true0": [
                       {
                         "command": "EVENT_SWITCH_SCENE",
                         "args": {
-                          "sceneId": "80bf141f-2c64-4c4d-a4ca-5b80fba6e9dc",
+                          "sceneId": "07e642cc-ed35-45c9-805e-550683671818",
                           "x": {
                             "type": "number",
-                            "value": 0
+                            "value": 2
                           },
                           "y": {
                             "type": "number",
-                            "value": 0
+                            "value": 1
                           },
                           "direction": "",
                           "fadeSpeed": "2"
@@ -358,14 +358,14 @@
                       {
                         "command": "EVENT_SWITCH_SCENE",
                         "args": {
-                          "sceneId": "446e1510-af0a-4f39-bf7a-828abecc0bdb",
+                          "sceneId": "07e642cc-ed35-45c9-805e-550683671818",
                           "x": {
                             "type": "number",
-                            "value": 0
+                            "value": 7
                           },
                           "y": {
                             "type": "number",
-                            "value": 0
+                            "value": 1
                           },
                           "direction": "",
                           "fadeSpeed": "2"

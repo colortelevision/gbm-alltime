@@ -213,6 +213,37 @@
       "id": "54839bd1-e71b-435b-891a-05b3c13198f6"
     },
     {
+      "command": "EVENT_SET_TIMER_SCRIPT",
+      "args": {
+        "timer": 1,
+        "duration": 7,
+        "frames": 30,
+        "__scriptTabs": "end"
+      },
+      "children": {
+        "script": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "07e642cc-ed35-45c9-805e-550683671818",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": 0
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "5b9d092b-7f77-4f12-86b8-7a3629a80e2f"
+          }
+        ]
+      },
+      "id": "4c7fe4d9-9ea9-4b3c-80aa-4d91a442ecb8"
+    },
+    {
       "command": "EVENT_SET_INPUT_SCRIPT",
       "args": {
         "input": [

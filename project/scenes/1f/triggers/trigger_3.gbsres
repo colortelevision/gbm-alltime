@@ -1,0 +1,106 @@
+{
+  "_resourceType": "trigger",
+  "id": "07b20a0b-05d0-40ed-9556-4f26eddb5c99",
+  "name": "",
+  "prefabId": "",
+  "x": 21,
+  "y": 1,
+  "symbol": "trigger_26",
+  "prefabScriptOverrides": {},
+  "width": 1,
+  "height": 9,
+  "script": [
+    {
+      "command": "EVENT_IF_ACTOR_AT_POSITION",
+      "args": {
+        "actorId": "10cdd8ff-ab2b-4061-b586-a76c0df7439d",
+        "x": {
+          "type": "number",
+          "value": 10
+        },
+        "y": {
+          "type": "number",
+          "value": 5
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_EMOTE",
+            "args": {
+              "actorId": "faa62941-f321-4f08-b5d7-f3e9b107bc2c",
+              "emoteId": "7f3448d2-0251-4a83-b64f-a6a7fc0746fc"
+            },
+            "id": "ced351d4-26c9-4626-81fe-08e9d13a9076"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "WAGIES GO THE OTHER WAY!\nDON'T LET ME CATCH YOU\nTRYING TO TAKE THE ELEVATOR!"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "8292aa82-9294-4bb4-8939-e1cf6aa1897f"
+          },
+          {
+            "command": "EVENT_ACTOR_MOVE_TO",
+            "args": {
+              "actorId": "$self$",
+              "x": {
+                "type": "number",
+                "value": 45
+              },
+              "y": {
+                "type": "number",
+                "value": 2
+              },
+              "moveType": "horizontal",
+              "useCollisions": false,
+              "__collapse": false,
+              "__comment": true
+            },
+            "id": "da69caa1-fa03-40a0-af89-17be4ce3db4e"
+          },
+          {
+            "command": "EVENT_ACTOR_MOVE_RELATIVE",
+            "args": {
+              "actorId": "$self$",
+              "x": {
+                "type": "number",
+                "value": -2
+              },
+              "y": {
+                "type": "number",
+                "value": 0
+              },
+              "moveType": "horizontal",
+              "useCollisions": false
+            },
+            "id": "db6e69a3-57f5-46dc-b747-5b06bbaf0343"
+          }
+        ],
+        "false": []
+      },
+      "id": "dbd749c2-9eb0-4824-9e3e-86c5b441b13d"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 2
+}

@@ -3,7 +3,7 @@
   "engineFieldValues": [
     {
       "id": "fade_style",
-      "value": 0
+      "value": 1
     },
     {
       "id": "topdown_grid",
@@ -20,6 +20,38 @@
     {
       "id": "shooter_scroll_speed",
       "value": 24
+    },
+    {
+      "id": "plat_jump_min",
+      "value": 2567
+    },
+    {
+      "id": "plat_extra_jumps",
+      "value": 1
+    },
+    {
+      "id": "plat_jump_reduction",
+      "value": 688
+    },
+    {
+      "id": "plat_wall_jump_max",
+      "value": 38
+    },
+    {
+      "id": "plat_run_boost",
+      "value": 4
+    },
+    {
+      "id": "plat_dash",
+      "value": 2
+    },
+    {
+      "id": "plat_dash_momentum",
+      "value": 1
+    },
+    {
+      "id": "plat_dash_through",
+      "value": 1
     }
   ]
 }

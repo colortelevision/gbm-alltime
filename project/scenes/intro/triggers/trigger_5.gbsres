@@ -1,0 +1,88 @@
+{
+  "_resourceType": "trigger",
+  "id": "284f9026-f861-4a95-aa16-02cbe228fc72",
+  "name": "",
+  "prefabId": "",
+  "x": 43,
+  "y": 1,
+  "symbol": "trigger_24",
+  "prefabScriptOverrides": {},
+  "width": 1,
+  "height": 9,
+  "script": [
+    {
+      "command": "EVENT_IF_ACTOR_AT_POSITION",
+      "args": {
+        "actorId": "faa62941-f321-4f08-b5d7-f3e9b107bc2c",
+        "x": {
+          "type": "number",
+          "value": 50
+        },
+        "y": {
+          "type": "number",
+          "value": 2
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_EMOTE",
+            "args": {
+              "actorId": "faa62941-f321-4f08-b5d7-f3e9b107bc2c",
+              "emoteId": "56423c9c-dca0-4f5b-ad92-28e9660d50f1"
+            },
+            "id": "ff04f5f3-ad3f-481e-96f8-d38feabb89da"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "THE ELEVATOR IS FOR MANAGERS\nONLY!",
+                "WAGIES TAKE THE STAIRS.\nnow let's move it!"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "87408a60-a7fa-4079-84f1-65852c642241"
+          },
+          {
+            "command": "EVENT_ACTOR_MOVE_RELATIVE",
+            "args": {
+              "actorId": "$self$",
+              "x": {
+                "type": "number",
+                "value": 2
+              },
+              "y": {
+                "type": "number",
+                "value": 0
+              },
+              "moveType": "horizontal",
+              "useCollisions": false
+            },
+            "id": "1571c9d2-2443-4b14-8bbb-4f2a673d7a6a"
+          }
+        ],
+        "false": []
+      },
+      "id": "ce663990-50c7-47d7-9d78-7d0c94dc846b"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 4
+}

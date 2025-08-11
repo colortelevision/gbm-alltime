@@ -22,6 +22,16 @@
         "effect": 0
       },
       "id": "8120369c-cc35-4c90-bd79-cb36653bad7b"
+    },
+    {
+      "command": "PT_EVENT_ACTOR_EFFECTS",
+      "args": {
+        "effect": "split_out",
+        "actorId": "$self$",
+        "distance": 20,
+        "speed": 2
+      },
+      "id": "5b79823c-1c8f-4987-b5e0-fd32eb15f3a2"
     }
   ],
   "leaveScript": [],

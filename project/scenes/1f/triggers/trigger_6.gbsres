@@ -1,0 +1,58 @@
+{
+  "_resourceType": "trigger",
+  "id": "a6e54631-b52a-439b-9aa6-57582671ac02",
+  "name": "",
+  "prefabId": "",
+  "x": 38,
+  "y": 2,
+  "symbol": "trigger_29",
+  "prefabScriptOverrides": {},
+  "width": 5,
+  "height": 2,
+  "script": [
+    {
+      "command": "EVENT_MUSIC_STOP",
+      "args": {},
+      "id": "acdc8cd7-2729-426a-b554-4d477814e93a"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "FREEZE MOTHERFUCKER!"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "b4eebb4a-18f8-47e6-9a91-d2839a300274"
+    },
+    {
+      "command": "EVENT_SCRIPT_LOCK",
+      "args": {},
+      "id": "5feb1cc4-9907-42c7-9fc0-225fb7c4ab87"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "7a2c6dca-cd84-4c8b-b125-1f7cca28819b"
+      },
+      "id": "50264577-d890-4ee4-a68b-9a48ecf9998f"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 5
+}

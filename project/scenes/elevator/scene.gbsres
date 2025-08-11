@@ -5,17 +5,17 @@
   "type": "TOPDOWN",
   "name": "ELEVATOR",
   "symbol": "scene_2",
-  "x": 1096,
-  "y": 1656,
+  "x": 1480,
+  "y": 1608,
   "width": 20,
   "height": 18,
   "backgroundId": "478c8502-6036-42f1-b343-f02723b23fa3",
   "tilesetId": "",
   "paletteIds": [
     "",
-    "",
-    "",
-    "",
+    "dc2f962d-1c50-4a20-9c60-7699aca60c99",
+    "20ade3d2-1055-4d5c-9623-846acfb0f491",
+    "47f5c99c-f723-40b1-a885-919d91068c63",
     "",
     "f7be70eb-8afe-4a5d-a29c-74976b56604e"
   ],
@@ -69,5 +69,6 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "collisions": "0f7e+008+0fc+008+0fc+008+0fc+008+0fc+008+0fc+008+0fc+008+0fe+004+0f10+004+0f44+"
+  "collisions": "0f7e+008+0fc+008+0fc+008+0fc+008+0fc+008+0fc+008+0fc+008+0fe+004+0f10+004+0f44+",
+  "playerSpriteSheetId": "73e3f95b-0117-4d97-aa04-19a3f7210fe8"
 }
