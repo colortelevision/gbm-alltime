@@ -24,7 +24,20 @@
   "symbol": "scene_17",
   "x": 2608,
   "y": 1864,
-  "script": [],
+  "script": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "52",
+        "value": {
+          "type": "number",
+          "value": 8
+        },
+        "__collapse": false
+      },
+      "id": "1735d02f-902f-4651-b3fe-fbeb1b56d9ca"
+    }
+  ],
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": []

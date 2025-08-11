@@ -2,28 +2,29 @@
   "_resourceType": "scene",
   "id": "c6957208-bf8e-4a53-8cb6-79b8d4b94593",
   "_index": 13,
+  "type": "POINTNCLICK",
   "name": "BIOS",
-  "backgroundId": "a760aad9-54c6-40e4-bcab-2d2a8a4d149d",
-  "tilesetId": "",
+  "symbol": "scene_14",
+  "x": 832,
+  "y": 296,
   "width": 20,
   "height": 18,
-  "type": "POINTNCLICK",
+  "backgroundId": "a760aad9-54c6-40e4-bcab-2d2a8a4d149d",
+  "tilesetId": "",
   "paletteIds": [
-    null,
-    null,
-    null,
-    null,
-    null,
+    "",
+    "",
+    "",
+    "",
+    "",
     "07738087-47c4-485d-9c44-fa4fa02f1438"
   ],
   "spritePaletteIds": [
     "775860dc-d74d-4e37-9dac-682ea40640ec"
   ],
-  "collisions": "",
   "autoFadeSpeed": 2,
-  "symbol": "scene_14",
-  "x": 832,
-  "y": 296,
+  "autoFadeEventCollapse": false,
+  "playerSpriteSheetId": "57776ecd-617a-463c-bafe-278759867630",
   "script": [
     {
       "command": "EVENT_ACTOR_DEACTIVATE",
@@ -569,6 +570,5 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "playerSpriteSheetId": "57776ecd-617a-463c-bafe-278759867630",
-  "autoFadeEventCollapse": false
+  "collisions": ""
 }

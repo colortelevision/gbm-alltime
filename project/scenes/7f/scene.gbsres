@@ -24,7 +24,19 @@
   "symbol": "scene_18",
   "x": 2488,
   "y": 1504,
-  "script": [],
+  "script": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "52",
+        "value": {
+          "type": "number",
+          "value": 7
+        }
+      },
+      "id": "adb0f4f0-5583-4be7-ab6c-6ce91bacddf1"
+    }
+  ],
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": []

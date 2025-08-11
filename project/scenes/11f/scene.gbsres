@@ -1,0 +1,35 @@
+{
+  "_resourceType": "scene",
+  "id": "72314381-6739-4202-bf47-ffef8f6570eb",
+  "_index": 23,
+  "name": "11F",
+  "backgroundId": "d04d4240-215f-47bb-b3f1-1cb8778db4f9",
+  "tilesetId": "",
+  "width": 36,
+  "height": 36,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "00510+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_24",
+  "x": 1408,
+  "y": 1976,
+  "script": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "52",
+        "value": {
+          "type": "number",
+          "value": 11
+        },
+        "__collapse": false
+      },
+      "id": "a0597c99-4db4-486b-97c1-ec30cc0d0670"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

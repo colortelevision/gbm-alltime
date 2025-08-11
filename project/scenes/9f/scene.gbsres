@@ -1,0 +1,35 @@
+{
+  "_resourceType": "scene",
+  "id": "386e4c26-e357-4e0d-8ade-f0a323d34bd8",
+  "_index": 21,
+  "name": "9F",
+  "backgroundId": "b272dd97-98f1-4a7c-83fc-d2ac7add8585",
+  "tilesetId": "",
+  "width": 52,
+  "height": 36,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "00750+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_22",
+  "x": 2128,
+  "y": 1984,
+  "script": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "52",
+        "value": {
+          "type": "number",
+          "value": 9
+        },
+        "__collapse": false
+      },
+      "id": "f45c6707-46d2-4265-a176-a04390f31568"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

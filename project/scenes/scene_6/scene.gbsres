@@ -5,8 +5,8 @@
   "type": "TOPDOWN",
   "name": "Scene 6",
   "symbol": "scene_6",
-  "x": 1066,
-  "y": 365,
+  "x": 672,
+  "y": 232,
   "width": 20,
   "height": 28,
   "backgroundId": "5fb09847-2cd6-491f-8cba-69258e3f3bba",
@@ -164,7 +164,8 @@
           "value": 4
         },
         "speed": 0.25,
-        "__collapse": true
+        "__collapse": false,
+        "__comment": true
       },
       "id": "25654cf0-c46a-449a-bd81-e4f13bd0e46a"
     },
