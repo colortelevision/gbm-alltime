@@ -5,8 +5,8 @@
   "type": "TOPDOWN",
   "name": "2f",
   "symbol": "scene_3",
-  "x": 384,
-  "y": 1552,
+  "x": 704,
+  "y": 1592,
   "width": 60,
   "height": 36,
   "backgroundId": "acd87241-f4d3-46ca-8724-4defea56477b",
@@ -36,10 +36,17 @@
     {
       "command": "EVENT_MUSIC_PLAY",
       "args": {
-        "musicId": "7d080177-1372-46ba-a0cc-74be41bd164e",
+        "musicId": "fdd403b3-8d20-4d8b-ad2f-95259b85e8b7",
         "__collapse": false
       },
       "id": "929e852f-5a1a-4656-a080-3fec913b5320"
+    },
+    {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "156e7e85-3b0e-43d9-a921-b9f81ed84545"
+      },
+      "id": "54c93d2d-f5be-4896-918d-d2938c648db8"
     }
   ],
   "playerHit1Script": [],

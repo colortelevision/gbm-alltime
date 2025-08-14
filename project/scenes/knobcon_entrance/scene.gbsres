@@ -2,7 +2,7 @@
   "_resourceType": "scene",
   "id": "c84a2deb-64a9-4027-8a8b-e272b94779f0",
   "_index": 28,
-  "name": "Scene 29",
+  "name": "KNOBCON ENTRANCE",
   "backgroundId": "665ee1de-b42f-492a-914f-cbd4d58167f9",
   "tilesetId": "",
   "width": 20,
@@ -16,15 +16,17 @@
     "3dd362d6-9322-4f20-9b3f-985a54d80fd9",
     "86e86db4-b075-4fe7-85a2-f913ed33fb3c"
   ],
-  "spritePaletteIds": [],
+  "spritePaletteIds": [
+    "32bc1c98-3d87-4208-9fb1-f4c7c7bbbd94"
+  ],
   "collisions": "",
   "autoFadeSpeed": 1,
   "symbol": "scene_29",
-  "x": 2080,
-  "y": 760,
+  "x": 336,
+  "y": 608,
   "script": [],
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "playerSpriteSheetId": "c20a201b-15d7-4f6a-914d-75af0d5b5c88"
+  "playerSpriteSheetId": "d623d894-7162-46ca-b558-51079ab8c1d7"
 }

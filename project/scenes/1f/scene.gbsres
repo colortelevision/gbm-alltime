@@ -5,8 +5,8 @@
   "type": "ADVENTURE",
   "name": "1F",
   "symbol": "scene_1",
-  "x": 672,
-  "y": 1880,
+  "x": 864,
+  "y": 1920,
   "width": 60,
   "height": 36,
   "backgroundId": "8e0f91ea-c2c8-49e1-9d32-9901d9ae741c",
@@ -39,7 +39,7 @@
     {
       "command": "EVENT_MUSIC_PLAY",
       "args": {
-        "musicId": "a14b5549-1c47-481e-987f-e5b56db3e49f"
+        "musicId": "cef51f59-9708-4c75-b21f-8b165902b664"
       },
       "id": "6fcac3b1-1a85-4601-be16-4065c521983d"
     },

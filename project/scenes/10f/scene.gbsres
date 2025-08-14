@@ -13,8 +13,8 @@
   "collisions": "00480+",
   "autoFadeSpeed": 1,
   "symbol": "scene_23",
-  "x": 1816,
-  "y": 1984,
+  "x": 1672,
+  "y": 1968,
   "script": [
     {
       "command": "EVENT_SET_VALUE",
@@ -27,6 +27,13 @@
         "__collapse": false
       },
       "id": "0c3798f1-3db5-44b4-85bb-62219f6ea30a"
+    },
+    {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "c4cd145d-8556-465a-8259-befa1c89df0b"
+      },
+      "id": "91e9d43b-5f17-4e6b-8cd8-07f1a61ec11c"
     }
   ],
   "playerHit1Script": [],

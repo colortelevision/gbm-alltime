@@ -5,8 +5,8 @@
   "type": "TOPDOWN",
   "name": "5F",
   "symbol": "scene_15",
-  "x": 1584,
-  "y": 1096,
+  "x": 1576,
+  "y": 1112,
   "width": 60,
   "height": 36,
   "backgroundId": "85f0193b-e6fd-4112-9183-d7125fb2122c",
@@ -32,6 +32,13 @@
         }
       },
       "id": "d6dc9bf5-44d3-41a5-8359-395f4b68c7ca"
+    },
+    {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "1dcf5189-9894-44e6-bc3f-0dd4bf8e4dc7"
+      },
+      "id": "2bec749c-1d1a-4724-8e11-35869d89c9b5"
     }
   ],
   "playerHit1Script": [],
