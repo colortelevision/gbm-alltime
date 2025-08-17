@@ -182,7 +182,7 @@
       "command": "EVENT_SWITCH",
       "args": {
         "variable": "52",
-        "choices": 4,
+        "choices": 11,
         "__collapseCase0": false,
         "__collapseCase1": false,
         "__collapseCase2": false,
@@ -278,13 +278,139 @@
             "id": "cf87b955-688e-4467-903c-fd40be0cb047"
           }
         ],
-        "true4": [],
-        "true5": [],
-        "true6": [],
-        "true7": [],
-        "true8": [],
-        "true9": [],
-        "true10": [],
+        "true4": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "7e7243b3-2997-4575-a72e-b57fec71bfde",
+              "x": {
+                "type": "number",
+                "value": 40
+              },
+              "y": {
+                "type": "number",
+                "value": 2
+              },
+              "direction": "down",
+              "fadeSpeed": "2"
+            },
+            "id": "654bc399-d097-4473-a9ba-0f4aed923a34"
+          }
+        ],
+        "true5": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "7408e6fb-e1ec-4f2d-9a03-9407ad482541",
+              "x": {
+                "type": "number",
+                "value": 36
+              },
+              "y": {
+                "type": "number",
+                "value": 2
+              },
+              "direction": "down",
+              "fadeSpeed": "2"
+            },
+            "id": "2ed32e6d-1b4c-4f31-9b53-ec70fc3b73a5"
+          }
+        ],
+        "true6": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "53fd71b0-2b27-4e56-92b6-b9775f924d3a",
+              "x": {
+                "type": "number",
+                "value": 36
+              },
+              "y": {
+                "type": "number",
+                "value": 2
+              },
+              "direction": "down",
+              "fadeSpeed": "2"
+            },
+            "id": "d480b0a3-7c66-4116-aeaf-c7c548b1de51"
+          }
+        ],
+        "true7": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "ba83b6dd-b8ee-4c25-9bd6-658e25bdd4f4",
+              "x": {
+                "type": "number",
+                "value": 36
+              },
+              "y": {
+                "type": "number",
+                "value": 2
+              },
+              "direction": "down",
+              "fadeSpeed": "2"
+            },
+            "id": "4438641b-fca4-40e0-9423-e6518757929b"
+          }
+        ],
+        "true8": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "386e4c26-e357-4e0d-8ade-f0a323d34bd8",
+              "x": {
+                "type": "number",
+                "value": 36
+              },
+              "y": {
+                "type": "number",
+                "value": 2
+              },
+              "direction": "down",
+              "fadeSpeed": "2"
+            },
+            "id": "1fdbf133-c713-41df-9a2b-c2754ef6c2ac"
+          }
+        ],
+        "true9": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "c3963edd-21d3-4f65-8382-f98acaea213b",
+              "x": {
+                "type": "number",
+                "value": 24
+              },
+              "y": {
+                "type": "number",
+                "value": 2
+              },
+              "direction": "down",
+              "fadeSpeed": "2"
+            },
+            "id": "d07a64ca-9da6-4b60-8457-83ddbe026253"
+          }
+        ],
+        "true10": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "72314381-6739-4202-bf47-ffef8f6570eb",
+              "x": {
+                "type": "number",
+                "value": 26
+              },
+              "y": {
+                "type": "number",
+                "value": 2
+              },
+              "direction": "down",
+              "fadeSpeed": "2"
+            },
+            "id": "bdbd1e72-8266-4526-9531-5d1d783aca88"
+          }
+        ],
         "true11": [],
         "true12": [],
         "true13": [],
