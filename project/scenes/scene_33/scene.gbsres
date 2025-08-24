@@ -7,15 +7,27 @@
   "tilesetId": "",
   "width": 20,
   "height": 18,
-  "type": "TOPDOWN",
-  "paletteIds": [],
+  "type": "POINTNCLICK",
+  "paletteIds": [
+    "3fa4d93e-63de-4cd9-b099-1a3bc4732eca",
+    null,
+    null,
+    null,
+    "d654aedd-e5fd-43fa-b086-08bc5a70aa3b"
+  ],
   "spritePaletteIds": [],
   "collisions": "00168+",
   "autoFadeSpeed": 1,
   "symbol": "scene_33",
-  "x": 2711.6393280029297,
-  "y": 694.9192314147949,
-  "script": [],
+  "x": 2704,
+  "y": 720,
+  "script": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {},
+      "id": "fc2e0445-bb71-4207-a9a5-eead004488ab"
+    }
+  ],
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": []
