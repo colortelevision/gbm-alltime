@@ -3,48 +3,8 @@
   "id": "eef4a451-4abd-4284-9da3-5c985f6d5685",
   "name": "vStart",
   "description": "",
-  "variables": {
-    "V0": {
-      "id": "V0",
-      "name": "Variable A",
-      "passByReference": true
-    }
-  },
+  "variables": {},
   "actors": {},
   "symbol": "script_10",
-  "script": [
-    {
-      "command": "XV_ARRAY_MANAGER_SET",
-      "args": {
-        "array_manager_set_tabs": "tabSetupArray",
-        "var1": "V0",
-        "var2": "V0",
-        "var3": "V0",
-        "var4": "V0",
-        "var5": "V0",
-        "var6": "V0",
-        "var7": "V0",
-        "var8": "V0",
-        "var9": "V0",
-        "var10": "V0",
-        "var11": "V0",
-        "var12": "V0",
-        "var13": "V0",
-        "var14": "V0",
-        "var15": "V0",
-        "var16": "V0",
-        "number_of_vars_to_use": "16",
-        "divide_bit_amount": "16",
-        "array_index": {
-          "type": "number",
-          "value": 0
-        },
-        "set_value": {
-          "type": "number",
-          "value": 1
-        }
-      },
-      "id": "f9edbd17-1a06-4ae2-b289-1ae6b9c4f60f"
-    }
-  ]
+  "script": []
 }
