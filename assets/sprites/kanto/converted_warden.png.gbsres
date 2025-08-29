@@ -1,0 +1,100 @@
+{
+  "_resourceType": "sprite",
+  "id": "90f4d068-9dc3-44ec-ab2f-89ab4e9e9f23",
+  "name": "kanto/converted_warden",
+  "symbol": "sprite_kanto_converted_ward",
+  "width": 16,
+  "height": 48,
+  "states": [
+    {
+      "id": "47af27ca-b310-476b-80f3-8e419ff4271f",
+      "name": "",
+      "animationType": "multi_movement",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "a1d0e2fa-b6d8-4225-822e-db332cdfc086",
+          "frames": [
+            {
+              "id": "d545c672-74e8-451a-919a-103ce8aa0729",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "2347bf4b-b153-4788-97cf-8576ef747f55",
+          "frames": [
+            {
+              "id": "769b50f7-6786-43a0-8409-e411ff8ebf14",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "e37db89e-472b-4f5a-96dd-eec04c107d0a",
+          "frames": [
+            {
+              "id": "37d3532f-d8c3-4a38-b592-c77430ba8bcd",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "0ed23cdb-20d1-4a4d-a9dd-e09fe15644ad",
+          "frames": [
+            {
+              "id": "0fd582c2-74d4-45d1-bae1-a9929d06a738",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "64b6c491-5ba9-4754-9a99-fce8065ef3f1",
+          "frames": [
+            {
+              "id": "7e3a4dd9-9493-494d-82b9-d071d06f0c12",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "2d533308-14bc-4a6f-8c1a-656998a1e2ad",
+          "frames": [
+            {
+              "id": "3ae19ec1-57d2-44d0-8369-b76e50fc2295",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "093453b0-5238-45ff-98f8-188a4138b708",
+          "frames": [
+            {
+              "id": "5fa93b8e-2ae9-450a-9f71-1a54bb648f52",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "e1662fb6-41d6-4b76-9457-ddb579087875",
+          "frames": [
+            {
+              "id": "0952e1df-ed66-4fcf-ac6f-2eb59e3f7fe8",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 0,
+  "canvasWidth": 32,
+  "canvasHeight": 32,
+  "boundsX": 0,
+  "boundsY": 0,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "kanto/converted_warden.png",
+  "checksum": "8c9575c6f4fcf1f2aea946f2fa53197404fa2702"
+}

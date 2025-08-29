@@ -1,0 +1,100 @@
+{
+  "_resourceType": "sprite",
+  "id": "2543d7a5-3306-45cd-b305-ac1ae3c5edfe",
+  "name": "kanto/converted_heal_machine",
+  "symbol": "sprite_kanto_converted_heal",
+  "width": 8,
+  "height": 16,
+  "states": [
+    {
+      "id": "ee94b42e-dd72-4911-9539-fdf8349334fb",
+      "name": "",
+      "animationType": "fixed",
+      "flipLeft": false,
+      "animations": [
+        {
+          "id": "4666aae0-f736-4520-9a53-ceb45d9908bc",
+          "frames": [
+            {
+              "id": "cc04e46e-8c55-4385-b93e-a1d50d85c065",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "0717bf74-4bdb-4380-b72d-392117dfb624",
+          "frames": [
+            {
+              "id": "c789354c-5f78-4baa-a3e4-dbeb475176d5",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "3c957a28-690c-4146-94ad-c0cfd0ca0148",
+          "frames": [
+            {
+              "id": "f3ef571e-db95-4367-bceb-355fcc00a284",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "8a8c24e5-3b9a-4602-87ca-e1efc60abce0",
+          "frames": [
+            {
+              "id": "623f9fca-3b45-492f-94b0-eabd4046c1a4",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "9e118f53-4458-4bc8-b2ef-690147632d6e",
+          "frames": [
+            {
+              "id": "3bc32705-7c73-4ca0-9593-a283cf2aed49",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "f96def8e-fc6a-42c8-93a6-4686f28a17bf",
+          "frames": [
+            {
+              "id": "5758d669-1b29-4cbc-9154-a40d9a5c7d2c",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "5f580df4-d7c3-4b1f-bc03-90fa1bde3ec4",
+          "frames": [
+            {
+              "id": "52c70ce9-a56d-4981-988a-8c6ad78613b0",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "09c45b77-7507-40a9-894e-bc3a229af1cd",
+          "frames": [
+            {
+              "id": "ae188e79-a7bb-4196-8b19-8bb77a60a39c",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 0,
+  "canvasWidth": 16,
+  "canvasHeight": 16,
+  "boundsX": 0,
+  "boundsY": 0,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "kanto/converted_heal_machine.png",
+  "checksum": "e7623dfc170c6652869c745f46f9d9a72cd160bd"
+}

@@ -1,0 +1,100 @@
+{
+  "_resourceType": "sprite",
+  "id": "d5f3cba5-5bd6-45f2-bb58-9aed70ff46fb",
+  "name": "kanto/converted_snake",
+  "symbol": "sprite_kanto_converted_snak",
+  "width": 8,
+  "height": 32,
+  "states": [
+    {
+      "id": "7443b97b-265e-4601-9e31-3b782da96744",
+      "name": "",
+      "animationType": "multi_movement",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "08717aae-12ad-4eab-8d71-e7c5d538e735",
+          "frames": [
+            {
+              "id": "b7e0d136-f529-44d5-b77a-9bf7c40c20a0",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "7c149da9-8676-4a04-94e1-36f666e5611a",
+          "frames": [
+            {
+              "id": "16e4f03d-6ca9-45aa-9b8e-0ec1c4d87823",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "2ce20e28-18bc-4767-b713-ae6766ad1735",
+          "frames": [
+            {
+              "id": "817a299b-e69c-48e7-99a7-f7f8282bf88d",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "357eaacc-c2f3-4e8d-897d-8f29df4c63d9",
+          "frames": [
+            {
+              "id": "48844d98-d795-42fd-bbf4-d1cb80168d36",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "4696e830-c482-46a5-b03f-3a588c933db8",
+          "frames": [
+            {
+              "id": "62f406b0-515f-4509-badd-c75cb7b160e2",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "20a15d4e-ca2e-4cea-a6a0-8e5aa41e67ee",
+          "frames": [
+            {
+              "id": "e578e1cf-a849-444f-967f-d4da1f26b268",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "37438107-0c9a-41af-a09f-6c20c0f79e57",
+          "frames": [
+            {
+              "id": "be1c9c1c-7a6a-434f-b31f-d54db2759bff",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "d361581c-979e-4fd0-a228-b6acbe72a0c2",
+          "frames": [
+            {
+              "id": "6852718e-b8df-42ca-8bd3-d2cb7ffe4ac0",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 0,
+  "canvasWidth": 32,
+  "canvasHeight": 32,
+  "boundsX": 0,
+  "boundsY": 0,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "kanto/converted_snake.png",
+  "checksum": "44cd68437443f5aed1980c14eaae95d572dfaf81"
+}

@@ -1,0 +1,100 @@
+{
+  "_resourceType": "sprite",
+  "id": "a5d2035b-cfaf-439a-851b-7873a965ab1b",
+  "name": "kanto/converted_hiker",
+  "symbol": "sprite_kanto_converted_hike",
+  "width": 16,
+  "height": 96,
+  "states": [
+    {
+      "id": "5402a6ce-6922-49ef-a43a-d913828927ae",
+      "name": "",
+      "animationType": "multi_movement",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "2b6f800f-2e21-4cbb-8ee2-8cc194a974a9",
+          "frames": [
+            {
+              "id": "f5f66520-7692-461d-bd53-104318eed7f0",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "9fb61aa8-4b21-44d6-96c7-2b42e5c35157",
+          "frames": [
+            {
+              "id": "6b304365-b430-4135-b0a1-12f1df24602f",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "7f734e92-0876-42e5-acb2-c80a0ee0f26d",
+          "frames": [
+            {
+              "id": "5a926502-85dc-430e-882a-9c05bfd23a43",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "58a70d95-c695-4a4d-8ea9-0437a51df7d6",
+          "frames": [
+            {
+              "id": "5ae0c039-6fc3-41b9-8535-cec4802c6bf0",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "3672be0e-e5b7-4574-a980-8e88a6116246",
+          "frames": [
+            {
+              "id": "3408380f-90a7-42eb-839b-05ae4db55472",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "c2ac817a-06ce-4a4b-b66d-e0d318d675de",
+          "frames": [
+            {
+              "id": "f2607885-f855-4744-919b-e985b2e08535",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "9b11f469-c374-46b5-8649-b26dc59de07d",
+          "frames": [
+            {
+              "id": "700446ab-eecf-4218-8c79-ea390f4c61a4",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "81a2dd35-5c4e-4fd9-887f-59b1c59c23a6",
+          "frames": [
+            {
+              "id": "8184f616-4008-48e6-8e00-4fa6f702e8ed",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 0,
+  "canvasWidth": 32,
+  "canvasHeight": 32,
+  "boundsX": 0,
+  "boundsY": 0,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "kanto/converted_hiker.png",
+  "checksum": "17de02bf37316ae533b4b53f43b189b9c4c85322"
+}

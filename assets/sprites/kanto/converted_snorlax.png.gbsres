@@ -1,0 +1,127 @@
+{
+  "_resourceType": "sprite",
+  "id": "c685464a-3f06-418c-8366-2d24ba5ab40c",
+  "name": "kanto/converted_snorlax",
+  "symbol": "sprite_kanto_converted_snor",
+  "width": 16,
+  "height": 16,
+  "states": [
+    {
+      "id": "65a351aa-fb5e-469c-8015-6dbcebd37801",
+      "name": "",
+      "animationType": "fixed",
+      "flipLeft": false,
+      "animations": [
+        {
+          "id": "e89f70e4-ebd5-4f60-869c-79956d5b1fb6",
+          "frames": [
+            {
+              "id": "c19ee90f-a1aa-479b-8e88-67412718270e",
+              "tiles": [
+                {
+                  "id": "cd5007c6-96b2-4afe-9863-c92e45621924",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 0,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                },
+                {
+                  "id": "b8b6da67-7ddf-40c8-aec6-dd31b3b5672a",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 8,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "a438db96-12e5-42f3-a62a-6e389c26b9d7",
+          "frames": [
+            {
+              "id": "b6b4e6da-37ea-40b4-9cd4-a068096a7ec0",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "caea5704-7f88-418a-8cc9-8536f15f7ec9",
+          "frames": [
+            {
+              "id": "db096de8-268a-42e0-becb-e1e30c066c8b",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "e4411668-0eaf-4848-a18b-a9997a67698f",
+          "frames": [
+            {
+              "id": "c887689b-7331-4d54-97c5-07915f782338",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "87c4f040-5b41-4918-b8ae-884884f8d544",
+          "frames": [
+            {
+              "id": "7512aeed-cbd4-4874-afa4-bcbc88722332",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "4765b498-1e79-4dfe-8528-b9d87e4fc1e8",
+          "frames": [
+            {
+              "id": "07a622b7-8900-45fd-8d14-cb8f96bd8450",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "e903009d-f6e4-41e9-afe9-fba39225e77c",
+          "frames": [
+            {
+              "id": "e4f377ff-e0c9-4f83-af66-52c0541eadaa",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "5a132de6-c1e1-4521-801a-2d3a710d6c2c",
+          "frames": [
+            {
+              "id": "5a02a9ee-15a5-4225-aadc-9f625198844e",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 2,
+  "canvasWidth": 16,
+  "canvasHeight": 16,
+  "boundsX": 0,
+  "boundsY": 0,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "kanto/converted_snorlax.png",
+  "checksum": "1101419b408cf2e9b8028b51ca8152ea3dcc124f"
+}

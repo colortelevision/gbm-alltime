@@ -1,0 +1,100 @@
+{
+  "_resourceType": "sprite",
+  "id": "97cabadd-9ce1-4ac4-a77d-44cfa00e8a0c",
+  "name": "kanto/converted_lance",
+  "symbol": "sprite_kanto_converted_lanc",
+  "width": 16,
+  "height": 96,
+  "states": [
+    {
+      "id": "c44b9051-0bda-4265-89b5-d23c9e75053f",
+      "name": "",
+      "animationType": "multi_movement",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "10d95505-d062-4858-bb56-2b5931eb0921",
+          "frames": [
+            {
+              "id": "dcd739da-b94c-42b7-b259-243cda37fc3b",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "636a44ce-661b-4aa0-b369-779f6a63cbbf",
+          "frames": [
+            {
+              "id": "5e49282a-814e-4ad1-b6c3-c499ca720a8b",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "475962bf-c7b9-44b4-9447-b2f8bc627d39",
+          "frames": [
+            {
+              "id": "7ba6d8e5-a7d6-4bb2-aa30-c14d70d7458f",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "193e3d75-b688-43b2-984f-af2f8286dc8e",
+          "frames": [
+            {
+              "id": "8f484074-bd48-40b4-9f1d-4b3733826017",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "15ec5409-a369-4e8d-a16f-ca5f168f86b6",
+          "frames": [
+            {
+              "id": "e439f16a-1735-4591-bea4-073e4e3a039d",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "d377a169-88a8-4de5-8af7-d4bf439c82a1",
+          "frames": [
+            {
+              "id": "d8b77de6-46e2-49de-80f5-86a088bc3558",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "db30bb0c-9c77-4185-823a-53f57e09e23d",
+          "frames": [
+            {
+              "id": "05455ff6-8787-441c-bcdf-c54fa27af4f5",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "f61df0a6-f36b-45bd-a073-ca5c7f6e7a9c",
+          "frames": [
+            {
+              "id": "7230f291-fd45-4dff-ab85-d4cc0e4d968d",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 0,
+  "canvasWidth": 32,
+  "canvasHeight": 32,
+  "boundsX": 0,
+  "boundsY": 0,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "kanto/converted_lance.png",
+  "checksum": "f1016bb64cd80f6ed7a58ce8dee75cc0db905c38"
+}

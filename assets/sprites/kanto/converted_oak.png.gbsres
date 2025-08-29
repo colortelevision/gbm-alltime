@@ -1,0 +1,100 @@
+{
+  "_resourceType": "sprite",
+  "id": "20d28423-7f5e-4d00-b999-6f77adf063da",
+  "name": "kanto/converted_oak",
+  "symbol": "sprite_kanto_converted_oak",
+  "width": 16,
+  "height": 96,
+  "states": [
+    {
+      "id": "135113aa-4d0b-4581-8d7a-c095a4a48c8c",
+      "name": "",
+      "animationType": "multi_movement",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "b452dee0-c8bf-4fd2-8543-c598fbab2318",
+          "frames": [
+            {
+              "id": "9d57a7ea-8cc9-4984-a116-f0af5ca5919f",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "2f529d47-1ee1-487e-b331-4921b54a3a34",
+          "frames": [
+            {
+              "id": "e8320ccf-ca24-4402-9cca-4d433b3751ab",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "bbfa6c58-02e2-4318-a558-fe8a2ce93d02",
+          "frames": [
+            {
+              "id": "a5ede34a-6bef-48f8-908a-ed5c5f80afe8",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "c23061f0-3638-442b-b3eb-1b8924a4a1ea",
+          "frames": [
+            {
+              "id": "f0780a3a-6a58-4cb5-9a02-8ac1164bce1d",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "af874fe7-9b84-4ab7-8241-64297ed2456c",
+          "frames": [
+            {
+              "id": "381346c1-6ed2-439e-b939-9ecc38f76afc",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "f63209fb-389b-49f8-b8de-ab9536fafb3f",
+          "frames": [
+            {
+              "id": "b36b1e14-81d8-43b6-b725-e24c0575973e",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "f3e279c4-ee6b-42df-a5f0-2f3ab5d4d5bc",
+          "frames": [
+            {
+              "id": "491c438a-0b8e-4e68-a7b2-2bb997ec6d45",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "52bf067b-29b1-4836-bdde-3dbbd474ca4b",
+          "frames": [
+            {
+              "id": "77cc45fa-db6e-4de9-9f7b-9daa38304046",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 0,
+  "canvasWidth": 32,
+  "canvasHeight": 32,
+  "boundsX": 0,
+  "boundsY": 0,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "kanto/converted_oak.png",
+  "checksum": "2c2362ed386a27861a9b12c256bbb0b878cd7044"
+}

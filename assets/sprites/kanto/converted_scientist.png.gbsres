@@ -1,0 +1,100 @@
+{
+  "_resourceType": "sprite",
+  "id": "8a136d84-f83f-486a-b412-78e8b5aeb39e",
+  "name": "kanto/converted_scientist",
+  "symbol": "sprite_kanto_converted_scie",
+  "width": 16,
+  "height": 96,
+  "states": [
+    {
+      "id": "3cc87a38-8303-4256-a010-0e4153be4cc2",
+      "name": "",
+      "animationType": "multi_movement",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "29e5aa23-a938-4e66-b0d3-ee5c6661904a",
+          "frames": [
+            {
+              "id": "0ddf2ef4-f790-4b37-b538-794f63f1d57b",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "fc2cf1a1-2f34-49f0-92e2-ad2f64fe97da",
+          "frames": [
+            {
+              "id": "aac57c11-47be-4bf1-af52-96f2ab3cd978",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "7a533aa7-1339-42c4-ad7f-35c65aa2dc76",
+          "frames": [
+            {
+              "id": "37506d6b-dd91-494d-b76c-5c956df6500a",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "439abbec-ec51-4610-ac84-20b8b2d15745",
+          "frames": [
+            {
+              "id": "bbc70600-a9d1-47a8-be3f-ffb278e0b61c",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "2657c6f8-c3c4-4248-9a64-340dcd995963",
+          "frames": [
+            {
+              "id": "aa87af38-55f6-463b-a888-733683d818bb",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "e0e6d32b-df50-46c0-8811-071ae77d1bed",
+          "frames": [
+            {
+              "id": "40ef5075-3271-40a9-9806-c87624fbc288",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "9e7b3c11-001a-4261-9464-4a856b9fe633",
+          "frames": [
+            {
+              "id": "a5e29f2c-abb4-4ab2-a389-c8c423297449",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "b116a877-6f49-41eb-91cc-f71e45687e19",
+          "frames": [
+            {
+              "id": "b1bcc5f4-1a5f-48ed-ac3f-b63bb11ca975",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 0,
+  "canvasWidth": 32,
+  "canvasHeight": 32,
+  "boundsX": 0,
+  "boundsY": 0,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "kanto/converted_scientist.png",
+  "checksum": "1d7be352657fd5f69d8ce6226dc062093836d134"
+}

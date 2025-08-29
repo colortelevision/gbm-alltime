@@ -1,0 +1,100 @@
+{
+  "_resourceType": "sprite",
+  "id": "da0c5997-6796-4cc8-a87a-bdcb4a4e7578",
+  "name": "kanto/converted_clerk",
+  "symbol": "sprite_kanto_converted_cler",
+  "width": 16,
+  "height": 48,
+  "states": [
+    {
+      "id": "0e8c646c-a037-46e9-beb1-1f1e01e083b2",
+      "name": "",
+      "animationType": "multi_movement",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "a9d8bb5d-1bef-4540-8121-a3457c7d4a5d",
+          "frames": [
+            {
+              "id": "c8163bb9-f3c7-4a49-aef1-653087f02143",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "f1026c96-a2e9-406d-a7df-a2a1a9f0b2d0",
+          "frames": [
+            {
+              "id": "61ac229b-a2ff-4dda-9def-8786bf3da1ea",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "10324ceb-3beb-46ee-af34-e19bd318f821",
+          "frames": [
+            {
+              "id": "1125dd42-5b3e-41a8-aea2-ad7583ec85ca",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "7ad1c8b5-5552-4022-b313-0a3d70359f54",
+          "frames": [
+            {
+              "id": "5f7eda3e-5f2a-49e6-abf4-ce2b1b69aa67",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "0e4dd73a-958b-4ca9-93f0-ad76aa699e32",
+          "frames": [
+            {
+              "id": "f36e8422-c7f5-4b08-84d6-155591ddbbc3",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "4b7741f9-746e-4440-85c3-27d80f498810",
+          "frames": [
+            {
+              "id": "6a31c424-8ec0-4fe8-a5ad-572af9879f6b",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "44bf525d-7902-4d62-9ff0-1d3e8cf646fa",
+          "frames": [
+            {
+              "id": "6eaac716-108f-4e11-8bc9-5962a47a27c2",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "2faf4069-ba3b-4c6a-8e6b-41371b6289e6",
+          "frames": [
+            {
+              "id": "3347d48b-0555-4c88-be2d-2e846fa32316",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 0,
+  "canvasWidth": 32,
+  "canvasHeight": 32,
+  "boundsX": 0,
+  "boundsY": 0,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "kanto/converted_clerk.png",
+  "checksum": "14ff4abd0218ee61b19d9607bc93dd3a4a13d606"
+}

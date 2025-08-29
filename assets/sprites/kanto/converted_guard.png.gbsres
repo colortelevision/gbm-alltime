@@ -1,0 +1,100 @@
+{
+  "_resourceType": "sprite",
+  "id": "5b4ce2b8-53ba-4e2f-8e56-4c1ed0f8baf0",
+  "name": "kanto/converted_guard",
+  "symbol": "sprite_kanto_converted_guar",
+  "width": 16,
+  "height": 48,
+  "states": [
+    {
+      "id": "673ae98d-26eb-45f4-a0d1-1afec8774ab3",
+      "name": "",
+      "animationType": "multi_movement",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "aa80ac8f-d4d9-48f9-a8f1-da0d8bbe67e0",
+          "frames": [
+            {
+              "id": "5cb5b2a9-6ad4-45c0-9f88-ced4f49bd3b7",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "384f7fe6-b75c-4bc1-9819-a18ea588804d",
+          "frames": [
+            {
+              "id": "6c19d236-2737-41d0-a0e4-093a1c8b2273",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "b38ff4b4-7fba-495e-beec-1a8ee7c538c7",
+          "frames": [
+            {
+              "id": "c57b2073-7fde-46ab-b2aa-7db5d15e865e",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "2f3fa309-94ec-422e-9195-2aa549c0d01d",
+          "frames": [
+            {
+              "id": "c5fd8694-8c58-4b1a-83ed-aa2eb50abff3",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "ec0cf667-dd50-4120-8f53-d94064761af0",
+          "frames": [
+            {
+              "id": "33dd0212-4c05-4fd9-8e83-845ee7148070",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "6fa48875-c7bb-4765-81b8-89f9524a345f",
+          "frames": [
+            {
+              "id": "f755551e-0cd6-41db-a4eb-c60432a3010d",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "c1d8513a-f224-4b4c-bad0-f9ae639a0c4f",
+          "frames": [
+            {
+              "id": "15805f08-5206-40c1-a7b3-6b2a14b0fce9",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "18e45728-8a58-4c81-97d0-66d407291a65",
+          "frames": [
+            {
+              "id": "0c57f9ba-68f2-4923-ab65-bc86b6cab0b3",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 0,
+  "canvasWidth": 32,
+  "canvasHeight": 32,
+  "boundsX": 0,
+  "boundsY": 0,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "kanto/converted_guard.png",
+  "checksum": "ffc4f61fac5dde826388d236f2b23db7f2550faf"
+}

@@ -1,0 +1,100 @@
+{
+  "_resourceType": "sprite",
+  "id": "a892450c-1e6c-4609-acce-94f8b07f2639",
+  "name": "kanto/converted_rocket",
+  "symbol": "sprite_kanto_converted_rock_0",
+  "width": 16,
+  "height": 96,
+  "states": [
+    {
+      "id": "a763e5cf-d664-435f-9585-70efe4421146",
+      "name": "",
+      "animationType": "multi_movement",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "029c51ac-dd8a-430f-ae62-ccea80b3f46c",
+          "frames": [
+            {
+              "id": "51d3cc74-d7bb-4991-b35e-27a2b82ef95e",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "a6fb4932-34cb-4f8d-b603-fab02eab6f9e",
+          "frames": [
+            {
+              "id": "bd983302-49f4-425c-9c00-c46dc7ce387f",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "2373b7c6-4524-402b-abf8-193214190b3f",
+          "frames": [
+            {
+              "id": "cd5a0fde-440c-4b33-b625-faf3447aa702",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "afc54412-268e-4493-8463-62501887359a",
+          "frames": [
+            {
+              "id": "d3ff195d-f3a8-40b8-80b8-03e6693be374",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "890bc7fd-1fcb-40f2-8aea-d223a1f3fc00",
+          "frames": [
+            {
+              "id": "723229aa-b933-4083-baac-5fc3d8515110",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "d9a10db0-c34e-4fcb-a489-82924b7b848f",
+          "frames": [
+            {
+              "id": "2941d018-6253-4472-9bd1-7aea26760a3d",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "d75d0bfa-58ad-483e-8e66-c31fccc4dff8",
+          "frames": [
+            {
+              "id": "d29bdd1a-9603-410b-a051-4838bc202f25",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "97b194bc-84af-47fa-aa8b-edddb86f7031",
+          "frames": [
+            {
+              "id": "29d208a0-6d01-4e72-95d2-f74a1e4799a9",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 0,
+  "canvasWidth": 32,
+  "canvasHeight": 32,
+  "boundsX": 0,
+  "boundsY": 0,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "kanto/converted_rocket.png",
+  "checksum": "d2f8aeda481816b7ba9b768f12d7d1a72e7cad40"
+}

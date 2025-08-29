@@ -1,0 +1,127 @@
+{
+  "_resourceType": "sprite",
+  "id": "bf7003bf-9dd6-49a7-995d-95d5167df324",
+  "name": "kanto/converted_paper",
+  "symbol": "sprite_kanto_converted_pape",
+  "width": 16,
+  "height": 16,
+  "states": [
+    {
+      "id": "59febc23-dc3a-4bbf-8a0f-314b190bfe3a",
+      "name": "",
+      "animationType": "fixed",
+      "flipLeft": false,
+      "animations": [
+        {
+          "id": "1ce9477d-adf1-4b37-bdc5-3f01a6dca0cc",
+          "frames": [
+            {
+              "id": "505d256d-4a7a-4e02-a543-d5ce41b1c276",
+              "tiles": [
+                {
+                  "id": "f1dcef35-8128-4ae1-a948-81153ef4d001",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 0,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                },
+                {
+                  "id": "48d3c39f-7381-4648-98fb-8995a983883f",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 8,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "52c2d018-6124-4f30-bdad-eb9f52d0be3d",
+          "frames": [
+            {
+              "id": "dc4726d9-b60d-448c-9b0f-d9c6ee2613f4",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "3e897052-43c9-42a1-aec2-81d52c541306",
+          "frames": [
+            {
+              "id": "ad3d5def-89f7-46f1-886c-23dae1a1c849",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "6646d0ab-6f54-44c5-8d56-1696082de668",
+          "frames": [
+            {
+              "id": "6d85be7e-1cc8-4338-b72f-744d9eb5fb9d",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "ec1dc9b1-c4c6-4580-ab9f-2d580cf3690a",
+          "frames": [
+            {
+              "id": "ee478259-6de1-4b6e-8329-ea3893f21f93",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "d335ae78-704b-4e07-939c-15946e7b9447",
+          "frames": [
+            {
+              "id": "2a1714c2-2ff8-4507-bc75-19498235d6d4",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "f0239b91-415d-4559-8eb5-9f965dfca34a",
+          "frames": [
+            {
+              "id": "62484acd-b9c3-46ab-8b9b-282edd005343",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "d78f35f9-5a4c-4397-90b4-b2b7f3cf71a7",
+          "frames": [
+            {
+              "id": "469ab590-13b6-4cb4-81f7-9161721eadf1",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 2,
+  "canvasWidth": 16,
+  "canvasHeight": 16,
+  "boundsX": 0,
+  "boundsY": 0,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "kanto/converted_paper.png",
+  "checksum": "00abf85d40db277baf47e78149949970dfa59889"
+}

@@ -1,0 +1,100 @@
+{
+  "_resourceType": "sprite",
+  "id": "09e92e42-baa5-466a-a735-f683f544f18f",
+  "name": "kanto/converted_rocker",
+  "symbol": "sprite_kanto_converted_rock",
+  "width": 16,
+  "height": 96,
+  "states": [
+    {
+      "id": "d8485a75-ab96-4e1f-a099-8cd15f16adfd",
+      "name": "",
+      "animationType": "multi_movement",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "d1f4e873-0927-4f68-86f5-de7100c49e75",
+          "frames": [
+            {
+              "id": "16742aba-f414-4da6-95ba-35439e3b962c",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "768e2ea4-f0ed-4c84-8ea9-44b88e4b00d5",
+          "frames": [
+            {
+              "id": "415366e7-c56f-4dc2-b2d2-0382e4aaa3cb",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "6b79f46e-37d4-4f0c-b131-de58ece60908",
+          "frames": [
+            {
+              "id": "9bdf2998-f27d-4ad2-a46d-287940a48e30",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "c67b9b56-d4e0-4908-970e-b36a4eef7ac0",
+          "frames": [
+            {
+              "id": "af724ff7-5e19-46a8-8087-8f71e7ed2a68",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "f87c22bf-6d40-4b3c-b45b-ed8b69c85b70",
+          "frames": [
+            {
+              "id": "7e70852a-d6f0-47a8-9f5d-3bbbb0f383e2",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "68118874-7dcf-4a0a-8791-72b45e21ce1a",
+          "frames": [
+            {
+              "id": "703c53d2-8645-44d7-bdeb-7792256d037f",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "c05d8461-e3eb-4cfa-bdbb-198a687d385b",
+          "frames": [
+            {
+              "id": "93347d0f-397e-457a-bd30-1c6882ffda17",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "ca4ae161-fa9a-4145-913f-0ca42eb80f55",
+          "frames": [
+            {
+              "id": "fa4f2d5a-e4f9-4a19-a079-6288be844fb2",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 0,
+  "canvasWidth": 32,
+  "canvasHeight": 32,
+  "boundsX": 0,
+  "boundsY": 0,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "kanto/converted_rocker.png",
+  "checksum": "cd2f9c64f1380cbed79fc39717178db3cd4598bc"
+}

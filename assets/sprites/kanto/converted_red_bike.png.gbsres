@@ -1,0 +1,100 @@
+{
+  "_resourceType": "sprite",
+  "id": "a8032d3b-027f-4523-8814-ca3cb96f315b",
+  "name": "kanto/converted_red_bike",
+  "symbol": "sprite_kanto_converted_red_",
+  "width": 16,
+  "height": 96,
+  "states": [
+    {
+      "id": "8e537e65-25c4-4d28-bb6c-5fc7e0dacbe8",
+      "name": "",
+      "animationType": "multi_movement",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "6fdcbe95-ef21-4bf0-88f0-df8e66116f45",
+          "frames": [
+            {
+              "id": "77438642-2f31-40a3-88db-3f8a77a47771",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "919b6fcc-155c-4428-97f5-7d9fa15d3a25",
+          "frames": [
+            {
+              "id": "53143c73-ab2d-4a04-b26b-98f5ae581f87",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "59e05b15-e5c7-4214-905f-344e6b5bc2d3",
+          "frames": [
+            {
+              "id": "f7a1a6e4-f8f4-4b6b-8778-a4f4647a94fe",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "8ed90e61-258f-415c-a003-2789023ad071",
+          "frames": [
+            {
+              "id": "107dbb48-9cd1-45b5-8cd6-70824506daf2",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "9cfc8964-d86e-4d01-8b7e-88600afadb61",
+          "frames": [
+            {
+              "id": "66c5caa4-bac1-466d-9b5e-be562a5852a4",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "2749a818-d0b5-4233-b797-37de5d404d74",
+          "frames": [
+            {
+              "id": "1f545a61-e448-4766-9e33-a9fe0504bb4f",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "4725d0fb-c34f-4048-96ba-430b62dda6dd",
+          "frames": [
+            {
+              "id": "d123b4b8-2e4a-44ca-8ff4-6cf63a429c2a",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "ad2234a5-5747-45df-aea6-ffd11c5ca5e2",
+          "frames": [
+            {
+              "id": "72237ff3-1731-4a28-8d37-2aee2ede3ed5",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 0,
+  "canvasWidth": 32,
+  "canvasHeight": 32,
+  "boundsX": 0,
+  "boundsY": 0,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "kanto/converted_red_bike.png",
+  "checksum": "8b97efab76ba13c5a57f1b169ede3757c3c1918d"
+}

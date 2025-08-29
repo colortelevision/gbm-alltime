@@ -1,0 +1,100 @@
+{
+  "_resourceType": "sprite",
+  "id": "16e3fb29-2fd7-41d6-a834-57b0c666c22b",
+  "name": "kanto/converted_gym_guide",
+  "symbol": "sprite_kanto_converted_gym_",
+  "width": 16,
+  "height": 48,
+  "states": [
+    {
+      "id": "a366c7b0-e56d-4805-9caa-73c572fa57c5",
+      "name": "",
+      "animationType": "multi_movement",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "cd7ada37-3fd9-46a0-ac0d-6e66272d4398",
+          "frames": [
+            {
+              "id": "6b20031b-1723-4776-a87d-ac7e22c436eb",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "b763588b-b85c-4631-85e1-1a214fdbf775",
+          "frames": [
+            {
+              "id": "f21bc194-07ed-4452-aaba-a50f54bdec6f",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "7f7ae3a4-0371-427e-bd3d-cdefc181dbc3",
+          "frames": [
+            {
+              "id": "d5e76f5a-d4da-47a0-a16b-0f69fbd7d96a",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "429a5175-97bf-49dc-b6c9-2513bde2223b",
+          "frames": [
+            {
+              "id": "6c32b1dc-05b4-47c3-ac7c-d1e07b621961",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "2f8f1fef-26ef-44b4-a46f-f0636a4aa361",
+          "frames": [
+            {
+              "id": "4ce4cff3-7e5f-4040-97f7-7d6ff1cf8823",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "deb9bd77-5da0-4cca-b6f9-bae99fbf595d",
+          "frames": [
+            {
+              "id": "7ec84417-908c-4e78-977f-06f1843e42a2",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "c4a3d46f-8042-4a8f-b2d1-b39d3184d5e8",
+          "frames": [
+            {
+              "id": "4d6411d0-955d-4661-bf3f-182b49d767a8",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "22e24490-cc77-4488-9d62-948d46bd8157",
+          "frames": [
+            {
+              "id": "99dc0444-96d8-438e-8c42-55d38a858f0e",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 0,
+  "canvasWidth": 32,
+  "canvasHeight": 32,
+  "boundsX": 0,
+  "boundsY": 0,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "kanto/converted_gym_guide.png",
+  "checksum": "65e5673d3dc0274da87445d6fc729b6d19d44b75"
+}

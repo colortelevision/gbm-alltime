@@ -1,0 +1,100 @@
+{
+  "_resourceType": "sprite",
+  "id": "967a4f56-a5e8-452b-ba39-22ceda17ed06",
+  "name": "kanto/converted_lorelei",
+  "symbol": "sprite_kanto_converted_lore",
+  "width": 16,
+  "height": 96,
+  "states": [
+    {
+      "id": "ef8a37b2-2ff4-4c7d-98d0-211a232f506e",
+      "name": "",
+      "animationType": "multi_movement",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "f471f42c-810b-44e9-a47e-5b3feb2e19fe",
+          "frames": [
+            {
+              "id": "ed49e211-e975-4296-a15a-faa7ca8a994f",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "86ba22a8-31d6-444b-822c-7e839af65c44",
+          "frames": [
+            {
+              "id": "f7d34dfb-f52b-4781-b1bc-6e3dd8395de2",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "35027eb9-76f1-4347-ac01-834c4a8624d3",
+          "frames": [
+            {
+              "id": "8e94ca30-651e-496b-895a-0855c6913bda",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "2c1c3d2b-f206-4803-9440-ca11091fc909",
+          "frames": [
+            {
+              "id": "386008b8-0fe5-4818-b02d-1d7fc4f2115b",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "a8611403-392c-45f6-a201-112756820dfb",
+          "frames": [
+            {
+              "id": "35ff1f51-20dd-462c-b5a1-8e9862f85d7b",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "32b9e1b9-01c8-46cc-a0d9-63d55a1c090c",
+          "frames": [
+            {
+              "id": "81e39723-7adf-48cb-86a9-b4173eefe13a",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "554a7e5d-ea3e-4e52-8ca8-a82b7d371c74",
+          "frames": [
+            {
+              "id": "b8766847-c6af-499c-911b-29c28a8e2be8",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "fce5346b-aa3c-4597-b0eb-b0074307c7d2",
+          "frames": [
+            {
+              "id": "6c91c796-a356-47e0-9d05-1b2f1c7c50e2",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 0,
+  "canvasWidth": 32,
+  "canvasHeight": 32,
+  "boundsX": 0,
+  "boundsY": 0,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "kanto/converted_lorelei.png",
+  "checksum": "2d95b8425e9d5c5c5118bb2d3d78a478d26a11a3"
+}

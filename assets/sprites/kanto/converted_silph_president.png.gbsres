@@ -1,0 +1,100 @@
+{
+  "_resourceType": "sprite",
+  "id": "655bfbf4-5ccb-468f-938a-c92b4ac5aff6",
+  "name": "kanto/converted_silph_president",
+  "symbol": "sprite_kanto_converted_silp",
+  "width": 16,
+  "height": 48,
+  "states": [
+    {
+      "id": "1c0f4ada-d62f-408b-b46e-51ace7c8964d",
+      "name": "",
+      "animationType": "multi_movement",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "05c09bd5-68ec-41b5-858a-e9cc2da3efd4",
+          "frames": [
+            {
+              "id": "b4551f28-d61c-4a54-aa7a-965329c32d0f",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "bf68d8e9-fe40-4c05-bb80-e1dcb5f3e9c7",
+          "frames": [
+            {
+              "id": "6f252c19-6906-4b49-980e-3338f55e3e22",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "6e982474-3b27-4a65-91e8-9ad6b7336982",
+          "frames": [
+            {
+              "id": "944e5e9c-2e12-4631-9a1d-b6e3a33ad65c",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "e3bfe5c7-f42f-4ae9-81b3-0513e44d7893",
+          "frames": [
+            {
+              "id": "06684764-cab5-4f46-8211-546bdeaedc5a",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "b849a379-ce0a-484b-adee-c537708fbf84",
+          "frames": [
+            {
+              "id": "b300f81b-b7e2-4340-aaac-178cb171f988",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "449d68a7-8b9c-407b-91c6-ec6a02a0c5f2",
+          "frames": [
+            {
+              "id": "6c9dbaf1-ccc8-4c37-89d0-5e3a6e9766fc",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "af4ee895-6b85-4f6c-8160-a095ad8bc56d",
+          "frames": [
+            {
+              "id": "bca6033c-7f63-474e-8b6b-59e4ef71ba95",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "1412dbcc-dab2-4f71-9391-e75adfd43eac",
+          "frames": [
+            {
+              "id": "fa7f22c1-c294-49b5-9c77-9cb3b85aaa3d",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 0,
+  "canvasWidth": 32,
+  "canvasHeight": 32,
+  "boundsX": 0,
+  "boundsY": 0,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "kanto/converted_silph_president.png",
+  "checksum": "95d3875a1b1489bd1656b011666b2d7aae8f473c"
+}

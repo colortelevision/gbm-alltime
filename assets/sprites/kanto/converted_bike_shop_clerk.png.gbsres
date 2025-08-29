@@ -1,0 +1,181 @@
+{
+  "_resourceType": "sprite",
+  "id": "4dd43e9c-f489-4821-b6f5-ed2d849400ce",
+  "name": "kanto/converted_bike_shop_clerk",
+  "symbol": "sprite_kanto_converted_bike_0",
+  "width": 16,
+  "height": 48,
+  "states": [
+    {
+      "id": "9efaba3d-80a8-46cd-a785-df47ab503fd4",
+      "name": "",
+      "animationType": "multi",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "cd2a9e78-d374-42c7-8159-b753d8ef1ea5",
+          "frames": [
+            {
+              "id": "0e48e495-c2ee-4ac7-a6b7-373fcf61a95b",
+              "tiles": [
+                {
+                  "id": "16f8a06a-ab72-484d-864d-6941e19d0fbd",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 0,
+                  "sliceY": 32,
+                  "palette": 0,
+                  "flipX": true,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 6,
+                  "priority": false
+                },
+                {
+                  "id": "5dff207c-0bef-47c9-8325-9d1195cde66f",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 8,
+                  "sliceY": 32,
+                  "palette": 0,
+                  "flipX": true,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 6,
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "5f449bed-ce26-4d31-983a-7353ff64c03d",
+          "frames": [
+            {
+              "id": "f7475bce-3fdc-4441-8131-af1d4e3e09c8",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "21838bdb-4adc-4874-ab51-179299bbde23",
+          "frames": [
+            {
+              "id": "7ee38b94-80e6-429b-b189-6128df645239",
+              "tiles": [
+                {
+                  "id": "44adee2d-d640-47b9-8f84-6c9028fb470f",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 0,
+                  "sliceY": 16,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 6,
+                  "priority": false
+                },
+                {
+                  "id": "eb565a93-417e-4e5f-adb1-2458ff7e06bf",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 8,
+                  "sliceY": 16,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 6,
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "7e20f3d4-1640-4947-ba43-8abb8add56b3",
+          "frames": [
+            {
+              "id": "366af189-b0a1-4ce3-8732-1b25219a560a",
+              "tiles": [
+                {
+                  "id": "e70e2bb7-8c19-4899-8c3c-75b39265a227",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 0,
+                  "sliceY": 0,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 6,
+                  "priority": false
+                },
+                {
+                  "id": "136193fe-440a-42f6-a1a5-09507ad97dee",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 8,
+                  "sliceY": 0,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 6,
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "d2b40fd7-5535-4b25-8763-64cfacdab2b3",
+          "frames": [
+            {
+              "id": "24ee55fd-5e1b-42a6-a41c-84ff216db2e1",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "0476166a-557a-4f73-b0f1-0097b740cb2e",
+          "frames": [
+            {
+              "id": "c704acd3-6f63-4bbe-9192-e393e0fe7905",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "3f7ffb26-70ba-4815-b7f5-f58b497d5a63",
+          "frames": [
+            {
+              "id": "8a3545a3-b801-45b0-8c83-0fb43d1679ab",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "f782f403-5a81-40ed-8e01-db357b2f877d",
+          "frames": [
+            {
+              "id": "34971e76-01d1-47ac-aa3a-3b62908ce003",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 5,
+  "canvasWidth": 16,
+  "canvasHeight": 16,
+  "boundsX": 0,
+  "boundsY": 0,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "kanto/converted_bike_shop_clerk.png",
+  "checksum": "4b048c21707d7e7b67eb1b337cbd0f388f9738a9"
+}

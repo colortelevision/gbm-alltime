@@ -1,0 +1,127 @@
+{
+  "_resourceType": "sprite",
+  "id": "5c2f523a-c9b4-4833-b582-be97e172e6e8",
+  "name": "kanto/converted_town_map_cursor",
+  "symbol": "sprite_kanto_converted_town",
+  "width": 16,
+  "height": 16,
+  "states": [
+    {
+      "id": "352f32f8-7075-447b-853a-43bae435c516",
+      "name": "",
+      "animationType": "fixed",
+      "flipLeft": false,
+      "animations": [
+        {
+          "id": "b4dc3fde-703d-438f-8852-a989e6e8fc58",
+          "frames": [
+            {
+              "id": "dff011dd-d4f2-44b3-93f7-a869ed263342",
+              "tiles": [
+                {
+                  "id": "714c0ac8-ac40-46b2-993e-5dbea73df733",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 0,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                },
+                {
+                  "id": "d51ca592-f7bb-4dd9-83dc-d1bf3bd72c1f",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 8,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "4362ee6d-e3eb-4b8f-9889-b3b5cdde16c4",
+          "frames": [
+            {
+              "id": "a2981394-da3f-439a-b4fb-408ac79b41c0",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "c0b07d1a-3a17-4cf0-9c72-c10ccfdd5dda",
+          "frames": [
+            {
+              "id": "806e0dbd-3e23-4d63-873a-95d26057425c",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "00b79bcb-aad9-404b-8dea-065a83e7b283",
+          "frames": [
+            {
+              "id": "87254d39-7281-49ee-82c2-bc342744ae94",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "35123611-83bf-4df0-b7b2-cc9c5638a44a",
+          "frames": [
+            {
+              "id": "1af724f3-ec9f-49ad-99dc-6a3c43cf9302",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "2cfa4699-eea0-42cc-abd6-5482fc2864bb",
+          "frames": [
+            {
+              "id": "d2fac8ea-5fb1-4200-924c-2d60789598d1",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "32cae3dc-8f98-4312-8a7e-32e3b0ca59c2",
+          "frames": [
+            {
+              "id": "d45d2346-dbce-421d-8d11-5693ca998a0b",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "7b0f6cff-b32f-4a03-816e-21d73576a789",
+          "frames": [
+            {
+              "id": "051e658f-aaac-4f70-9149-b567bc9d5ec8",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 1,
+  "canvasWidth": 16,
+  "canvasHeight": 16,
+  "boundsX": 0,
+  "boundsY": 0,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "kanto/converted_town_map_cursor.png",
+  "checksum": "17093fd93d0e66d011f911f1ae1b0ab848edf0ba"
+}

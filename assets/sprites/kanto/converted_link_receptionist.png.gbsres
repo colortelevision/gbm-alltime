@@ -1,0 +1,100 @@
+{
+  "_resourceType": "sprite",
+  "id": "c7b6615f-8a94-4409-aa7a-3371444eeeab",
+  "name": "kanto/converted_link_receptionist",
+  "symbol": "sprite_kanto_converted_link",
+  "width": 16,
+  "height": 48,
+  "states": [
+    {
+      "id": "160b69c9-5ff4-480d-b0a3-40bbce1b2324",
+      "name": "",
+      "animationType": "multi_movement",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "f93d9482-dd2f-484e-99eb-26f87b228d1d",
+          "frames": [
+            {
+              "id": "604096c6-2e08-48f1-92cc-2ffd7fc8e184",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "f00924cc-435b-4143-9eb3-8217d3bef9eb",
+          "frames": [
+            {
+              "id": "0bf0d0dd-aaae-415c-8891-2b356a02fcb7",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "952ddce0-5cd9-40cb-b642-7ed5ca6ed566",
+          "frames": [
+            {
+              "id": "9f2438a0-18a0-4e4b-9890-175db15c85a8",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "270de7b8-2097-47d2-bc7c-e069ff3e2480",
+          "frames": [
+            {
+              "id": "be638839-d486-4bd0-a429-48c6208d96b3",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "dda9a8aa-8754-4d95-8412-b0297b200fc1",
+          "frames": [
+            {
+              "id": "1095ecd8-4aa3-4d1e-b8ce-fd9b445c16bc",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "ae56f703-b842-4fc3-9621-e265b47558a6",
+          "frames": [
+            {
+              "id": "4cec97de-e0a4-465c-9ce7-45b47b6796e3",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "58ea8737-5433-4359-915a-2ee3e67655c4",
+          "frames": [
+            {
+              "id": "68074b37-381c-42bf-ab16-173c5a2278ef",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "e9709c4d-c9a2-452f-9b13-8744e5e347ce",
+          "frames": [
+            {
+              "id": "348066a1-a29f-4da8-bcb6-9eb56ea2abb6",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 0,
+  "canvasWidth": 32,
+  "canvasHeight": 32,
+  "boundsX": 0,
+  "boundsY": 0,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "kanto/converted_link_receptionist.png",
+  "checksum": "b5cb8b51c5286a91b3848b2571a82a5e3cf90914"
+}

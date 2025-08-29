@@ -1,0 +1,100 @@
+{
+  "_resourceType": "sprite",
+  "id": "4e79496a-90d0-4dd5-bc11-3fe76210def1",
+  "name": "kanto/converted_waiter",
+  "symbol": "sprite_kanto_converted_wait",
+  "width": 16,
+  "height": 96,
+  "states": [
+    {
+      "id": "5c5a8e5c-bd8b-4a27-9ea5-77e35c68d8da",
+      "name": "",
+      "animationType": "multi_movement",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "ab3efe87-1065-474d-96e3-7987b7a13b98",
+          "frames": [
+            {
+              "id": "7fe952f3-f687-496b-826c-ca5765ceb911",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "26a7949e-102e-4266-8001-04db54a56db9",
+          "frames": [
+            {
+              "id": "07e09c7d-0209-40f2-b5f3-db874fd88705",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "32e33c29-7753-45ff-b63f-4a80aa9aec1d",
+          "frames": [
+            {
+              "id": "06a21cfd-2b25-4b7c-902c-4d72cccef9d8",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "96d9b4cd-98a6-4a3c-9890-a123a4b1e251",
+          "frames": [
+            {
+              "id": "99db1241-f3fa-47a9-b919-b67009611dda",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "837877eb-fde4-4af4-bcba-e306f359dd5c",
+          "frames": [
+            {
+              "id": "aa9267c2-5391-4947-b48a-c879f6676b78",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "0df4cf47-e43f-4ee3-85c1-df30860faba3",
+          "frames": [
+            {
+              "id": "1cf16579-4715-4771-a5a1-0b51c562eb63",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "3d3f4dcd-c064-429e-9506-98ce62634ad7",
+          "frames": [
+            {
+              "id": "97d58253-4ed2-4db1-9642-6296fdd4f3de",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "66db5082-6ad1-475b-b628-f4d4e0b2e86e",
+          "frames": [
+            {
+              "id": "7313921a-62a7-4baf-8937-530aab4f60a4",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 0,
+  "canvasWidth": 32,
+  "canvasHeight": 32,
+  "boundsX": 0,
+  "boundsY": 0,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "kanto/converted_waiter.png",
+  "checksum": "8b201ee1888fa1b25dc1b9c920d902690790cd20"
+}

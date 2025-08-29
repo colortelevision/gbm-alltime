@@ -1,0 +1,100 @@
+{
+  "_resourceType": "sprite",
+  "id": "6e9c16a4-6272-47b7-8b48-22160f24de45",
+  "name": "kanto/converted_granny",
+  "symbol": "sprite_kanto_converted_gran",
+  "width": 16,
+  "height": 48,
+  "states": [
+    {
+      "id": "bf9e1921-125a-4b49-8ad1-af1a99a39117",
+      "name": "",
+      "animationType": "multi_movement",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "5e46f4f1-420f-4f32-8e06-f0fdbd1263ca",
+          "frames": [
+            {
+              "id": "f17e2553-01a2-479f-8a84-3dc89abf8eff",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "7ca987ba-f88c-4bda-b822-a4b11d86b783",
+          "frames": [
+            {
+              "id": "439ac209-74da-4ae9-9df0-4b469129988a",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "a4469a11-fadf-4243-a29f-bcc6f6df4fb3",
+          "frames": [
+            {
+              "id": "293f6d22-333a-4ef4-8b62-3332a57cfd58",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "51f41203-be2f-4c62-8788-7285e64793a1",
+          "frames": [
+            {
+              "id": "b057f25b-74b7-4d33-9e1c-080a060023ca",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "5dd8b5d5-09e3-434a-9e03-b999df8951ec",
+          "frames": [
+            {
+              "id": "c5a75ae9-4031-40aa-8a54-6b39612f43dd",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "0f084faa-e749-4e5a-a97d-cf7adbd815d8",
+          "frames": [
+            {
+              "id": "9331ef67-940d-4920-b195-c2ee55e5b15c",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "c0dda54f-d551-4ac9-9bea-2d2d5520cb6f",
+          "frames": [
+            {
+              "id": "65f32c74-c5c7-4647-aa04-02aec44fa7d4",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "e371fd81-37f9-425e-bf8c-737e4d13714e",
+          "frames": [
+            {
+              "id": "ff781f15-7055-4b90-b704-acb63d468292",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 0,
+  "canvasWidth": 32,
+  "canvasHeight": 32,
+  "boundsX": 0,
+  "boundsY": 0,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "kanto/converted_granny.png",
+  "checksum": "a34cde8afd9a59ddb3f674a48517b9fbed0dccaf"
+}

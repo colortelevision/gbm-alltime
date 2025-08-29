@@ -1,0 +1,127 @@
+{
+  "_resourceType": "sprite",
+  "id": "1657c0e9-7c14-4229-938a-0d670ff0e321",
+  "name": "kanto/converted_pokedex",
+  "symbol": "sprite_kanto_converted_poke_0",
+  "width": 16,
+  "height": 16,
+  "states": [
+    {
+      "id": "354d9b99-7a87-42db-8cb7-4742ecfe8f5b",
+      "name": "",
+      "animationType": "fixed",
+      "flipLeft": false,
+      "animations": [
+        {
+          "id": "f3f7e528-bbc7-4345-b6f9-ccd0f1a68966",
+          "frames": [
+            {
+              "id": "1aaa09cf-566c-4752-9409-1bca29afedf8",
+              "tiles": [
+                {
+                  "id": "d0ea104d-71b0-4e05-8d5c-7a2bdcddcb44",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 0,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                },
+                {
+                  "id": "c3263cac-70bb-4bef-b8e6-3baecdab39cb",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 8,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "a91ab6a0-d382-435b-b536-468ae8c6fc0d",
+          "frames": [
+            {
+              "id": "ab54887d-4220-48c8-9ee5-ba8f411df5fa",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "128f5560-1013-4f03-a1ae-fc8376d80b78",
+          "frames": [
+            {
+              "id": "b04e9c32-3de4-445a-b9d0-5f4c33ba72de",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "eb910960-4995-475b-a400-a4228257670e",
+          "frames": [
+            {
+              "id": "5e51b340-3684-4d23-8681-3a9bf3ae4223",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "a800eb10-f3c5-43ff-a20c-ce183a1d5610",
+          "frames": [
+            {
+              "id": "9531aee8-d6ad-468f-8b53-928b12b8bf79",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "e0490d0e-acde-4c13-b8f3-32d3b7405469",
+          "frames": [
+            {
+              "id": "1fea5d56-ce81-4b8a-bd85-beab08166477",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "3ccebc6b-90d1-4906-8524-2f42ef606957",
+          "frames": [
+            {
+              "id": "d5ff3b81-8fe3-48f4-82ef-1866b6c83ffd",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "1147e747-f2ea-456d-a3ae-28130689b7f8",
+          "frames": [
+            {
+              "id": "b6bc2e24-44a3-4838-90f7-314fcbe7c4f9",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 2,
+  "canvasWidth": 16,
+  "canvasHeight": 16,
+  "boundsX": 0,
+  "boundsY": 0,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "kanto/converted_pokedex.png",
+  "checksum": "584d0be14bdf930d388147bd4b3e4eb699340353"
+}

@@ -1,0 +1,100 @@
+{
+  "_resourceType": "sprite",
+  "id": "fff361be-3f3b-4b26-b42e-247251450ff9",
+  "name": "kanto/converted_swimmer",
+  "symbol": "sprite_kanto_converted_swim",
+  "width": 16,
+  "height": 96,
+  "states": [
+    {
+      "id": "f16a59a2-f00b-4f0a-a3d4-f8639b1bb775",
+      "name": "",
+      "animationType": "multi_movement",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "44f9ef8b-2597-43b2-b466-27aa64bf4e78",
+          "frames": [
+            {
+              "id": "abde2179-f6fe-41f1-aab4-f3d32481c18d",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "702eab79-7f37-4efb-8ed5-c61dada71e82",
+          "frames": [
+            {
+              "id": "c1a1cde0-1ef7-4af6-93f9-1a0775f32d0e",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "85a20ae1-4e2e-4e55-b29a-ff6c224feadc",
+          "frames": [
+            {
+              "id": "6f55a0d9-b9c9-48de-9c5f-4d301f8c4e62",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "9d355978-c5dd-4a2b-905b-213e798715ea",
+          "frames": [
+            {
+              "id": "3b30f825-5f7b-47ef-9441-2af9aaee321b",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "b5c5c309-6d62-4aab-b727-c3d298230a2c",
+          "frames": [
+            {
+              "id": "ea2fc4db-ec2a-4111-b833-e966c4a9f3cf",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "49956f30-2e2f-444e-8f49-8d212f38bda6",
+          "frames": [
+            {
+              "id": "85a8b89f-7df6-4d32-8ac8-aab452940dde",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "24994771-526c-45ce-b7d4-db052d9835de",
+          "frames": [
+            {
+              "id": "c265b6e9-1e9b-42b7-8cd5-833baa1f2b7d",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "eb06a4f3-1ca8-455d-a3b4-e567bd34d804",
+          "frames": [
+            {
+              "id": "3df58ec1-178c-4731-9d72-4ebfdb8768be",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 0,
+  "canvasWidth": 32,
+  "canvasHeight": 32,
+  "boundsX": 0,
+  "boundsY": 0,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "kanto/converted_swimmer.png",
+  "checksum": "cefb8093e80a8108ecb64f85857df5032fee38c1"
+}

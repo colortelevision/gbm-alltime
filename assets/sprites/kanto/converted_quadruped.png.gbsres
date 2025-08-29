@@ -1,0 +1,100 @@
+{
+  "_resourceType": "sprite",
+  "id": "fdc990ca-b455-43b2-a634-128d57144bb2",
+  "name": "kanto/converted_quadruped",
+  "symbol": "sprite_kanto_converted_quad",
+  "width": 8,
+  "height": 32,
+  "states": [
+    {
+      "id": "17e1d9e0-5bb1-4f76-9032-a6cfc0fc7822",
+      "name": "",
+      "animationType": "multi_movement",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "cc442ca8-6deb-4e0d-89fb-031fabfd1624",
+          "frames": [
+            {
+              "id": "7bd8df07-0335-4862-bb7c-b4769a5877af",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "232d981f-0e58-496c-8b21-c32e557c0a61",
+          "frames": [
+            {
+              "id": "a72b631d-d2b1-4988-966c-447e1a27b589",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "c05ece1b-21f4-47f6-98a5-38a395d29c2a",
+          "frames": [
+            {
+              "id": "2ac565ec-7f8b-42c7-b264-2b5f359c9bd0",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "88445ae4-7ee3-45bc-a935-7d4cd07c023a",
+          "frames": [
+            {
+              "id": "1134a3ae-3d79-42b6-93e7-c523b6787341",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "46887b11-2c41-43a9-8085-76d062c45836",
+          "frames": [
+            {
+              "id": "3ed55c0a-2dab-488d-8cb8-4e7afc080943",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "e478d846-d861-4130-983b-161552994e86",
+          "frames": [
+            {
+              "id": "679625eb-8fb8-4772-a2a9-d4a2849aa75f",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "30b292e1-7f17-4ba6-9747-17b1e2ce6934",
+          "frames": [
+            {
+              "id": "9619af5d-3207-4cee-9a52-4c3fc1c06ca0",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "7506a2bd-5c6c-4405-9ded-5fdeb8c0a2e1",
+          "frames": [
+            {
+              "id": "8460f354-0890-4108-a4d4-1453da395ad1",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 0,
+  "canvasWidth": 32,
+  "canvasHeight": 32,
+  "boundsX": 0,
+  "boundsY": 0,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "kanto/converted_quadruped.png",
+  "checksum": "6c5d3753e18f3dd991a7d02ccaee6f11751497d5"
+}

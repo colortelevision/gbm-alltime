@@ -1,0 +1,100 @@
+{
+  "_resourceType": "sprite",
+  "id": "39cc04eb-7da4-4a85-88ed-e95256826257",
+  "name": "kanto/converted_smoke",
+  "symbol": "sprite_kanto_converted_smok",
+  "width": 8,
+  "height": 8,
+  "states": [
+    {
+      "id": "a0a6a803-2718-4cb0-87ce-1ff88ceeea03",
+      "name": "",
+      "animationType": "multi_movement",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "73d6a206-a5a1-4a0a-bc1f-49bfe60cb2a2",
+          "frames": [
+            {
+              "id": "22646959-5dd4-4de0-8b98-aa2fc3488787",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "5a79729f-9881-472a-83ee-58c6c3d39f8f",
+          "frames": [
+            {
+              "id": "49143b7b-c401-4cd5-9dcb-c1050f4876b6",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "979cbe17-627a-4aa7-b057-1319269dfe6f",
+          "frames": [
+            {
+              "id": "eef89b11-4ad8-48da-bf29-29947f4d20a6",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "05d4ab51-f9a9-4e88-98b8-1082721b4655",
+          "frames": [
+            {
+              "id": "afb9addb-0514-4b07-846d-718d2223384d",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "7abdae88-f20a-4e2a-a0a2-139c93b0524d",
+          "frames": [
+            {
+              "id": "b491488d-e5df-41b9-9383-a574f7cac444",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "adf3cba9-41d0-4d90-9aa7-1a89e5df33c5",
+          "frames": [
+            {
+              "id": "34403071-c5e2-431d-ba11-082eefe02df4",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "ee64ba3c-9d80-42d3-a3b1-e86be69fbaa6",
+          "frames": [
+            {
+              "id": "16914bac-fea9-42ec-90cd-fa478909daf5",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "9dc9b824-d59a-4ee6-9c8a-9676f3cca81f",
+          "frames": [
+            {
+              "id": "25c0b7e1-cbac-4b7d-8d67-11a0fe84a630",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 0,
+  "canvasWidth": 32,
+  "canvasHeight": 32,
+  "boundsX": 0,
+  "boundsY": 0,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "kanto/converted_smoke.png",
+  "checksum": "567e6e7d3a3a937359deef6e11440694d08043b5"
+}

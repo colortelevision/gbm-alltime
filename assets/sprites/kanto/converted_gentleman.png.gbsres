@@ -1,0 +1,100 @@
+{
+  "_resourceType": "sprite",
+  "id": "144e9ca9-ee41-48cd-92e3-e7b6198c4c67",
+  "name": "kanto/converted_gentleman",
+  "symbol": "sprite_kanto_converted_gent",
+  "width": 16,
+  "height": 96,
+  "states": [
+    {
+      "id": "87e19f74-d312-4717-aa86-5977f6eca743",
+      "name": "",
+      "animationType": "multi_movement",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "fd21c77a-18cf-46e6-a2dd-07573acd361b",
+          "frames": [
+            {
+              "id": "f27a2571-818c-41d9-9f31-34e65571b940",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "c61bb6f2-5a6a-4e23-b75a-62dfd8fb4e45",
+          "frames": [
+            {
+              "id": "0f3fd793-9852-4430-b136-f86f3dbb7169",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "009daf97-9760-4d51-831b-9f29b8e147ad",
+          "frames": [
+            {
+              "id": "e0c73d15-b982-4c59-8632-f4b6c42e5dd3",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "0f280d5a-c7f9-4222-8162-eda81df41534",
+          "frames": [
+            {
+              "id": "5ac87cfe-9c80-4812-a97c-bbfa1c621fb9",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "8978208f-e960-46ce-8e7f-c4d21fb409b5",
+          "frames": [
+            {
+              "id": "d42bc5a1-7d24-4f0a-b0f1-33b3f90868cc",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "2860997c-eaa9-497d-adde-d6ed9f2b4425",
+          "frames": [
+            {
+              "id": "b3891f36-366c-4117-95f3-e80c0c9e0aef",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "7cb86be6-ff93-46b1-8a55-11ed7d2ae467",
+          "frames": [
+            {
+              "id": "e9a21d5c-d81e-4108-a21c-79e6e9d0e65b",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "67876347-112c-4c2e-9452-66597235f23e",
+          "frames": [
+            {
+              "id": "b37c1caf-123e-4df5-8741-af41a2c3a41a",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 0,
+  "canvasWidth": 32,
+  "canvasHeight": 32,
+  "boundsX": 0,
+  "boundsY": 0,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "kanto/converted_gentleman.png",
+  "checksum": "075c21a7a59c64d412787a89dd8741f5bc0b9bc6"
+}

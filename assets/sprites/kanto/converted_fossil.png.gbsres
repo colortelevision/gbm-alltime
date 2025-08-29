@@ -1,0 +1,127 @@
+{
+  "_resourceType": "sprite",
+  "id": "fdad517b-50ff-45ad-a379-6901236afd08",
+  "name": "kanto/converted_fossil",
+  "symbol": "sprite_kanto_converted_foss",
+  "width": 16,
+  "height": 16,
+  "states": [
+    {
+      "id": "6f2c147e-3104-4db7-9108-c1a61171af71",
+      "name": "",
+      "animationType": "fixed",
+      "flipLeft": false,
+      "animations": [
+        {
+          "id": "3e8e475d-a93e-4ee8-999c-3db3041d1fcf",
+          "frames": [
+            {
+              "id": "edc24d6a-3384-4d04-b92b-afbc67fc4678",
+              "tiles": [
+                {
+                  "id": "786fd28f-aadf-44e1-ad0f-178ca6a5e03f",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 0,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                },
+                {
+                  "id": "a5c51b67-8713-4d50-bedb-57c1d55524c5",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 8,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "472bfc94-805d-4138-a929-6400995b91b8",
+          "frames": [
+            {
+              "id": "8565c8cb-96ef-4f39-97ad-5615b8a0ed3c",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "1ae1e50b-7ba4-43b5-b613-7191769c89dc",
+          "frames": [
+            {
+              "id": "59b69362-658c-4a4f-9987-d18e1a2a8def",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "50aa8c02-8464-4099-bcb9-ef687c66ec89",
+          "frames": [
+            {
+              "id": "f9ea0bf8-408a-4f2a-aee0-93c371b156d7",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "1cdd7ffe-0264-47a2-adb5-ba5fa6a68cf2",
+          "frames": [
+            {
+              "id": "ded30255-f8e4-44fa-8ed2-67c24052bf7c",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "5e69e5d5-1d8d-45d4-9628-1bd274401f86",
+          "frames": [
+            {
+              "id": "c522ae60-6875-4bdc-a1f0-3b8af713110d",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "a5590324-ec02-4ab8-b1bc-cd7f1d096f2c",
+          "frames": [
+            {
+              "id": "1b268231-0bd9-4a44-a0de-1dc3cb366ded",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "49549984-13c8-4aa5-8993-f0cf8b4fc19e",
+          "frames": [
+            {
+              "id": "32d0388b-e59f-467b-b81d-f80e41df968f",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 2,
+  "canvasWidth": 16,
+  "canvasHeight": 16,
+  "boundsX": 0,
+  "boundsY": 0,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "kanto/converted_fossil.png",
+  "checksum": "6d4dd6fa16161ad3631744eceebb552cf0c423f0"
+}

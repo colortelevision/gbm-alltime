@@ -1,0 +1,100 @@
+{
+  "_resourceType": "sprite",
+  "id": "78b436d0-baa2-449b-bd9c-e8dc1c416a11",
+  "name": "kanto/converted_channeler",
+  "symbol": "sprite_kanto_converted_chan",
+  "width": 16,
+  "height": 96,
+  "states": [
+    {
+      "id": "1b33da83-a377-453e-9560-338921308c0f",
+      "name": "",
+      "animationType": "multi_movement",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "0f4ed71a-08ee-463a-b716-c457dbc0481c",
+          "frames": [
+            {
+              "id": "c2e94e5a-3c70-4309-856b-15ef92db221b",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "35a9069c-6e50-4eab-9a53-587aa835aec7",
+          "frames": [
+            {
+              "id": "f577230d-ea2e-4edb-adca-92bd610f7770",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "8d3c385f-f95b-4955-b5af-f26d6c274f4c",
+          "frames": [
+            {
+              "id": "a300b0e2-8835-4b3e-8d37-fcbb84d8f424",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "0719c1c1-3750-4401-a96d-bce5a9618c48",
+          "frames": [
+            {
+              "id": "c8074ab8-d68e-4496-b6e9-d8e1dec9a800",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "708ab1ee-ad7f-4282-89d2-c3c5f3114152",
+          "frames": [
+            {
+              "id": "90fcdaac-e86d-4e1a-80b4-8102188073e9",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "711d0b5a-2a29-46f6-8423-e18ce100fa79",
+          "frames": [
+            {
+              "id": "33ce6f47-5b5b-4664-8e8f-9c24cfeac146",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "9b85a811-42d5-4c80-954b-41e812e0ea2d",
+          "frames": [
+            {
+              "id": "3a64e651-8dea-4856-85dc-48e72568a1e9",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "35a9a171-99f6-4d5f-a7e3-d8a81e9c0d0e",
+          "frames": [
+            {
+              "id": "c55ca18d-c055-499e-bbfe-6af486303474",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 0,
+  "canvasWidth": 32,
+  "canvasHeight": 32,
+  "boundsX": 0,
+  "boundsY": 0,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "kanto/converted_channeler.png",
+  "checksum": "55656b35e7823473ec1df0a3e5988eb975a2b5d8"
+}

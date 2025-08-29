@@ -1,0 +1,127 @@
+{
+  "_resourceType": "sprite",
+  "id": "38be0ae4-8748-47ef-8158-9056d022f9f3",
+  "name": "kanto/converted_gambler_asleep",
+  "symbol": "sprite_kanto_converted_gamb_0",
+  "width": 16,
+  "height": 16,
+  "states": [
+    {
+      "id": "9ac17703-b1a6-4a97-a390-1ff141ece3e0",
+      "name": "",
+      "animationType": "fixed",
+      "flipLeft": false,
+      "animations": [
+        {
+          "id": "d933ad42-cf9d-4639-8cd8-e5ef5470a837",
+          "frames": [
+            {
+              "id": "c780058d-cde7-4356-9b5c-989ca9ff1b30",
+              "tiles": [
+                {
+                  "id": "b95c00fb-c6f0-4a6d-accc-dcbb686c8f8a",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 0,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                },
+                {
+                  "id": "cda91c2b-0d11-4cca-9903-0971858c839e",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 8,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3688053b-716f-490c-8b6f-f7c79ce0e2db",
+          "frames": [
+            {
+              "id": "c92e1d2f-4e85-4442-b3a3-f702bc19192a",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "3c01424f-1b74-4bdd-9ec0-b915ce136c07",
+          "frames": [
+            {
+              "id": "abde36fa-0bbf-4ae2-9e26-c4d28686c629",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "a6006ca3-d544-4151-9796-64ac6fca82bf",
+          "frames": [
+            {
+              "id": "7c413a2d-803c-44ad-98c2-9e961a33ff69",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "f79c457b-d8c0-45c7-a369-5e60916b0164",
+          "frames": [
+            {
+              "id": "af86f964-24ac-4286-8be8-b193c5b17d34",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "9997a339-f867-4623-9573-885c4bdd7b21",
+          "frames": [
+            {
+              "id": "d595e858-3275-4707-a68f-408ed7d3f176",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "0573d69e-de46-4125-826b-93275ec6f2fd",
+          "frames": [
+            {
+              "id": "8d6dafb1-4ddb-4db1-838a-8cfe5013e376",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "587fe8f2-3024-4df6-8ad2-0a2209831db0",
+          "frames": [
+            {
+              "id": "23e828a7-e28c-472b-bc4c-5bd95572144c",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 2,
+  "canvasWidth": 16,
+  "canvasHeight": 16,
+  "boundsX": 0,
+  "boundsY": 0,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "kanto/converted_gambler_asleep.png",
+  "checksum": "4f0e6e1a2f5cb681b34e4f13f07634610e34c186"
+}

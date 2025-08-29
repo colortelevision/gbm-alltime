@@ -1,0 +1,100 @@
+{
+  "_resourceType": "sprite",
+  "id": "0a4edc59-23d2-4a91-bb44-bc31b504c1dc",
+  "name": "kanto/converted_mon_nest_icon",
+  "symbol": "sprite_kanto_converted_mon_",
+  "width": 8,
+  "height": 8,
+  "states": [
+    {
+      "id": "434879fe-9d57-4543-8ddd-d37116877821",
+      "name": "",
+      "animationType": "multi_movement",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "d8dcdadf-ceb7-484d-90f4-02c92c08644d",
+          "frames": [
+            {
+              "id": "8e5fd17c-0d2a-4ba5-8751-b7bef3b55a6b",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "8a96b6da-cc4d-4221-a4d4-27298a57c4fd",
+          "frames": [
+            {
+              "id": "bbd71f04-f382-488a-a952-7660aa48e887",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "90928587-a9f1-49a4-ac31-0541ebc586c0",
+          "frames": [
+            {
+              "id": "76dd213f-f470-48f0-914a-0ae834d75336",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "5594c4b7-d4ee-4c2a-8635-0cc27ee7f182",
+          "frames": [
+            {
+              "id": "b2c58303-105d-402d-a5b0-7fe0a74bafc9",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "f8f5ca27-eed5-4451-abd7-1108825153a1",
+          "frames": [
+            {
+              "id": "e7584bd2-ce31-4274-802b-3e73ceb0da69",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "ca3fbc83-a6f7-4c27-ad3d-99abd62c9dea",
+          "frames": [
+            {
+              "id": "60242b3a-0e5c-44f5-bca1-4db3e139b9c9",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "9375b9e9-92d2-42d0-b3b7-e8c2f2cd14bf",
+          "frames": [
+            {
+              "id": "3afad2d0-35d0-4f9f-9bdd-00201efa3f7f",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "e7410195-565a-441d-a568-a71258687291",
+          "frames": [
+            {
+              "id": "6f16b44c-27db-4406-9365-32d0def9aa3b",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 0,
+  "canvasWidth": 32,
+  "canvasHeight": 32,
+  "boundsX": 0,
+  "boundsY": 0,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "kanto/converted_mon_nest_icon.png",
+  "checksum": "a75212ed00ae5ed06f9bb3a9f2a98d3935d5cea9"
+}

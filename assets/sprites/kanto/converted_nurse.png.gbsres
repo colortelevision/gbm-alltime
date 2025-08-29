@@ -1,0 +1,100 @@
+{
+  "_resourceType": "sprite",
+  "id": "48a2b17c-591b-415c-8436-70a5c1feba6c",
+  "name": "kanto/converted_nurse",
+  "symbol": "sprite_kanto_converted_nurs",
+  "width": 16,
+  "height": 48,
+  "states": [
+    {
+      "id": "5e5276f5-d87d-43cf-8a27-ad7cf46de175",
+      "name": "",
+      "animationType": "multi_movement",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "44ad5cb2-c829-4c14-aff3-43c6035b8ebc",
+          "frames": [
+            {
+              "id": "f4eaefb9-6d6c-4642-aa28-ce9caea68bcb",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "55ba1c66-c48a-4858-a7a1-03bcc2f50aa2",
+          "frames": [
+            {
+              "id": "735901fc-776c-4e8b-85ba-c06351886ca6",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "9b584447-3c1f-4659-8480-7a1bf6801e58",
+          "frames": [
+            {
+              "id": "e761fa46-96d2-4f3f-9e03-7de315988f8a",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "816a036e-6899-4e15-ba52-d2cf5568f11a",
+          "frames": [
+            {
+              "id": "3ffdfd90-0b07-489f-99be-ef9057c57211",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "a7caa14e-51df-4b24-984f-f743020976e1",
+          "frames": [
+            {
+              "id": "d20459e5-ac39-48b0-9480-2de669bd314b",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "0c0cb293-8f54-4e66-b6c5-6fd05f25a740",
+          "frames": [
+            {
+              "id": "cbc8306d-25b2-4b95-9b4c-1effb0cc6bcf",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "7b3ca31b-5421-497d-8957-30a6d369ab30",
+          "frames": [
+            {
+              "id": "eac2e7ae-6a14-46d9-ace0-69397814e33b",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "0b157b88-5426-42c3-85dd-afcd03b5baf7",
+          "frames": [
+            {
+              "id": "785609c3-b993-4443-acf3-ccaab8cd7c02",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 0,
+  "canvasWidth": 32,
+  "canvasHeight": 32,
+  "boundsX": 0,
+  "boundsY": 0,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "kanto/converted_nurse.png",
+  "checksum": "e72c7387ea6dba1b64614c0846bd52733839a47c"
+}

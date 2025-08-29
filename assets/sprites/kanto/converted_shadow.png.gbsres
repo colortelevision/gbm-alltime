@@ -1,0 +1,100 @@
+{
+  "_resourceType": "sprite",
+  "id": "6fe99be5-0b07-4b98-a65a-4c87e226fc32",
+  "name": "kanto/converted_shadow",
+  "symbol": "sprite_kanto_converted_shad",
+  "width": 8,
+  "height": 8,
+  "states": [
+    {
+      "id": "4e75b343-57fd-4011-907e-e79ed89ea34b",
+      "name": "",
+      "animationType": "multi_movement",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "91608443-760f-4940-ba5f-204d46ff9b80",
+          "frames": [
+            {
+              "id": "ccba7deb-014c-42bd-bfa0-2bfdc2a9bf04",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "00d9f713-726a-485a-9af0-9a5b4fee3fb0",
+          "frames": [
+            {
+              "id": "03684769-a7bc-4071-94db-f734a5b8edf5",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "3880fca1-f034-4a55-91f3-ba2e1d51fe04",
+          "frames": [
+            {
+              "id": "4e8e89a4-deff-44e3-8bcf-4d95750515e3",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "fb1a190d-662e-4b8a-9e2f-71fad1958926",
+          "frames": [
+            {
+              "id": "49dd3848-ae2d-429b-88a6-bd73837cfd9d",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "66508584-d80a-4a6b-b376-2f49358a7d01",
+          "frames": [
+            {
+              "id": "0bae317f-fe4a-4f6e-a3d6-0a7e5a7b2ab8",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "abd92b7a-c6c9-4cee-9b0f-db70c8d1f64f",
+          "frames": [
+            {
+              "id": "b12365c7-d8e1-46d9-a6f2-4a53b9bc31af",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "dec4e6cc-a8ec-47e0-b89a-cb8eee3338eb",
+          "frames": [
+            {
+              "id": "29eef95f-a016-4fff-8ceb-d1856843b7c1",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "6dbcf9e0-3524-4476-9998-18b466ec9ba2",
+          "frames": [
+            {
+              "id": "e0a8f373-932e-46d7-88a9-71cef029f79d",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 0,
+  "canvasWidth": 32,
+  "canvasHeight": 32,
+  "boundsX": 0,
+  "boundsY": 0,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "kanto/converted_shadow.png",
+  "checksum": "813e9cc5a614d6aef956fd8fa453e4b31ca1aa56"
+}

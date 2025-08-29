@@ -1,0 +1,100 @@
+{
+  "_resourceType": "sprite",
+  "id": "e6415bd6-d5a6-40bc-976d-9985260078b9",
+  "name": "kanto/converted_daisy",
+  "symbol": "sprite_kanto_converted_dais",
+  "width": 16,
+  "height": 96,
+  "states": [
+    {
+      "id": "b5849b74-c9ba-4d9d-a21a-187fc92cbbd5",
+      "name": "",
+      "animationType": "multi_movement",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "966b7d08-c66c-42f1-8a00-411f6cddcb05",
+          "frames": [
+            {
+              "id": "9015b512-2ecd-46fb-b6cc-8daad07749a1",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "8c72072f-a33f-4d18-b50d-6c65397a4db0",
+          "frames": [
+            {
+              "id": "cb4734d1-b98e-457e-9391-b47ddb1ea2fb",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "6016fd3b-7bd5-4762-8189-27f9bcb901ba",
+          "frames": [
+            {
+              "id": "325e39f8-3dc2-4e0c-b8c8-4cb3c7d93386",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "b35f8cf2-90f3-47e7-b83c-02f255ecb27c",
+          "frames": [
+            {
+              "id": "2cc5ab6c-272c-47ae-b734-feae0edb259b",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "9242b70c-e56c-4a76-a8a2-b141b1c28dc2",
+          "frames": [
+            {
+              "id": "7202e4c8-a7cc-4329-a0ae-1afce21fd5d3",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "0cf37b8d-c93e-4d40-ae22-49e5109763c0",
+          "frames": [
+            {
+              "id": "5dd3e78d-26f0-46ad-9818-526c235f6785",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "f6948411-a069-4743-810e-8f5a887325b2",
+          "frames": [
+            {
+              "id": "d4d49912-7fc0-4e4b-a03e-4a7dfbb74114",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "9ef09bf6-3179-4b82-82e8-c1ceca794919",
+          "frames": [
+            {
+              "id": "5424cb87-7685-43e6-97c4-f4c7d8a1a283",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 0,
+  "canvasWidth": 32,
+  "canvasHeight": 32,
+  "boundsX": 0,
+  "boundsY": 0,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "kanto/converted_daisy.png",
+  "checksum": "fe8ba697d4c3e73f087bb1f6d16d1cc0ca082a5e"
+}

@@ -1,0 +1,127 @@
+{
+  "_resourceType": "sprite",
+  "id": "30186e0b-2618-4540-87d0-dbff1e98addc",
+  "name": "kanto/converted_old_amber",
+  "symbol": "sprite_kanto_converted_old_",
+  "width": 16,
+  "height": 16,
+  "states": [
+    {
+      "id": "3e720c0e-e42a-475f-8ded-f19303c77268",
+      "name": "",
+      "animationType": "fixed",
+      "flipLeft": false,
+      "animations": [
+        {
+          "id": "1ba6a575-6a55-44bf-82e3-a2e54b80fbb2",
+          "frames": [
+            {
+              "id": "14589395-a038-402e-9331-b4ed88d4aca7",
+              "tiles": [
+                {
+                  "id": "f425fd67-b941-4c36-9415-48c753696127",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 0,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                },
+                {
+                  "id": "7657d856-ca60-428f-8563-5b52368dae83",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 8,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ef751ddb-4e5e-46d7-9563-e8f19aa5f412",
+          "frames": [
+            {
+              "id": "4cd911e9-c6ba-4a78-b18f-57ef613d06ee",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "b3bc57b7-7326-41be-9f37-458abfaf7d2a",
+          "frames": [
+            {
+              "id": "1d5e6fa3-b665-4c03-9909-859a002d58e2",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "98fcd98f-dffc-4a45-a788-affb5612d8fd",
+          "frames": [
+            {
+              "id": "fcc61fdc-d07c-4a7b-9b2b-8c31bb5e8cab",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "57389a22-71b1-4c5d-91bd-d31378185e33",
+          "frames": [
+            {
+              "id": "d5ec41b5-407b-45be-9d2c-e526de5aa4af",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "140d9531-d50a-4683-bd8c-6717ff7d0107",
+          "frames": [
+            {
+              "id": "697d1d4e-9264-4987-9425-fca1863a6848",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "3b3200fc-5259-486d-a996-e74d183d54a4",
+          "frames": [
+            {
+              "id": "55c79f95-676a-490e-a18f-de52fe2c3157",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "1c2c576d-d5f7-4c09-ae89-00aeb4db3986",
+          "frames": [
+            {
+              "id": "bd8cebd6-1130-49a4-8b3e-39651f5fbeb6",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 2,
+  "canvasWidth": 16,
+  "canvasHeight": 16,
+  "boundsX": 0,
+  "boundsY": 0,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "kanto/converted_old_amber.png",
+  "checksum": "d4aad3d74602e038950f3e7fbc32c9616cc0b3e8"
+}

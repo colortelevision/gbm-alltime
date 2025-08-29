@@ -1,0 +1,100 @@
+{
+  "_resourceType": "sprite",
+  "id": "692c90ca-9e82-49b5-934d-90c067a0136c",
+  "name": "kanto/converted_sailor",
+  "symbol": "sprite_kanto_converted_sail",
+  "width": 16,
+  "height": 96,
+  "states": [
+    {
+      "id": "4c8c46b0-222d-4177-8976-f35f5a09a34c",
+      "name": "",
+      "animationType": "multi_movement",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "3da22454-d73e-4475-8e4c-fdb181e73db6",
+          "frames": [
+            {
+              "id": "cbbdb5ce-d2d0-4e00-8d42-4ff1d3edff19",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "0a19a3a5-4100-41fe-bc5a-d48bbb4d9c76",
+          "frames": [
+            {
+              "id": "c50d17cc-dee2-46b2-b209-04d76b9dd48c",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "e6d30a20-a149-426c-8a2d-f94a84c3772a",
+          "frames": [
+            {
+              "id": "9b3a915c-3f0f-400d-9e4a-6ce3b306a7ed",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "e3133e3b-ad02-4c23-89f7-14d463bd59f4",
+          "frames": [
+            {
+              "id": "f7bb7538-eecb-462f-aa51-c530762bd59b",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "66b26cfc-6e2a-42a6-af74-2a05d1a540bc",
+          "frames": [
+            {
+              "id": "240bb6f7-92d8-4be7-8be0-32e9d174e5a8",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "4ed556b3-74d7-4088-95b8-e499eb5a354b",
+          "frames": [
+            {
+              "id": "ddaadce0-4538-4dd4-a262-c3ef83264de3",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "c6b6e3bc-15a0-4730-8ad1-d66a0182abfe",
+          "frames": [
+            {
+              "id": "0d6b50d1-34fd-4775-9d45-6cd23641bc73",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "a841ed2a-546f-46d4-a259-b1a6be05e3b1",
+          "frames": [
+            {
+              "id": "b9b719fa-2946-46a9-904b-9e484d532e1f",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 0,
+  "canvasWidth": 32,
+  "canvasHeight": 32,
+  "boundsX": 0,
+  "boundsY": 0,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "kanto/converted_sailor.png",
+  "checksum": "9974ccf7289309ae590d9d063353251817db0701"
+}
