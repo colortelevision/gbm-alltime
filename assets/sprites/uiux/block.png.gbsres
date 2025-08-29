@@ -27,7 +27,7 @@
                   "flipX": false,
                   "flipY": false,
                   "palette": 0,
-                  "paletteIndex": 0,
+                  "paletteIndex": 4,
                   "objPalette": "OBP0",
                   "priority": false
                 },
@@ -40,8 +40,39 @@
                   "flipX": false,
                   "flipY": false,
                   "palette": 0,
-                  "paletteIndex": 0,
+                  "paletteIndex": 4,
                   "objPalette": "OBP0",
+                  "priority": false
+                }
+              ]
+            },
+            {
+              "id": "942b2353-a75c-40d7-81ba-011c0c75389d",
+              "tiles": [
+                {
+                  "id": "422a7ee0-b17e-4b1f-aa77-5edd0f8132fe",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 0,
+                  "sliceY": 0,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP1",
+                  "paletteIndex": 7,
+                  "priority": false
+                },
+                {
+                  "id": "98dd1624-5219-4c03-bb23-af144371bcf2",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 8,
+                  "sliceY": 0,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP1",
+                  "paletteIndex": 7,
                   "priority": false
                 }
               ]

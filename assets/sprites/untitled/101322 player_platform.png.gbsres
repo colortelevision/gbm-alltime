@@ -17,7 +17,60 @@
           "frames": [
             {
               "id": "48c3b7e3-a0dd-4130-967b-57524c48230a",
-              "tiles": []
+              "tiles": [
+                {
+                  "id": "ce4a2077-3f7e-43e1-bdee-7aadcc95e098",
+                  "x": 0,
+                  "y": 16,
+                  "sliceX": 8,
+                  "sliceY": 0,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 5,
+                  "priority": false
+                },
+                {
+                  "id": "cc029058-38f9-4bfc-bcdc-39dd45bf1e87",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 8,
+                  "sliceY": 16,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 5,
+                  "priority": false
+                },
+                {
+                  "id": "327db7f3-8c6c-46e5-9043-f7856a4e9eb1",
+                  "x": 8,
+                  "y": 16,
+                  "sliceX": 16,
+                  "sliceY": 0,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 5,
+                  "priority": false
+                },
+                {
+                  "id": "aa6adeea-cadc-49d8-a26a-19e2870d17e9",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 16,
+                  "sliceY": 16,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 5,
+                  "priority": false
+                }
+              ]
             }
           ]
         },
@@ -87,7 +140,7 @@
       ]
     }
   ],
-  "numTiles": 0,
+  "numTiles": 4,
   "canvasWidth": 32,
   "canvasHeight": 32,
   "boundsX": 0,
