@@ -3,8 +3,6 @@
   "id": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
   "name": "actor_animated",
   "symbol": "sprite_actor_animated",
-  "width": 96,
-  "height": 16,
   "states": [
     {
       "id": "ce938dce-afdb-4ffc-bd45-5685c6cf78c5",
@@ -350,6 +348,8 @@
   "boundsWidth": 16,
   "boundsHeight": 8,
   "animSpeed": 15,
+  "width": 96,
+  "height": 16,
   "filename": "actor_animated.png",
   "checksum": "cd6c8ebac31ccd6a325b8a7e94a05d442ae6725e",
   "numFrames": 6

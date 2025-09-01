@@ -3,8 +3,6 @@
   "id": "72633cba-bcd9-496a-8a24-5331be259b67",
   "name": "items/television",
   "symbol": "sprite_television",
-  "width": 48,
-  "height": 32,
   "states": [
     {
       "id": "320d8c27-6ebe-44bc-b866-077da4992a18",
@@ -95,6 +93,8 @@
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
+  "width": 48,
+  "height": 32,
   "filename": "items/television.png",
   "checksum": "86979ae764db9c8f1a4be93f24b080b1ed8b28c6",
   "numFrames": 3

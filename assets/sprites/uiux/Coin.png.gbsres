@@ -3,8 +3,6 @@
   "id": "42bdc79f-e716-4060-849e-0112b6e73280",
   "name": "uiux/Coin",
   "symbol": "sprite_coin",
-  "width": 64,
-  "height": 16,
   "states": [
     {
       "id": "5b9ff92c-6d13-41de-9cd4-0fa9ab7679c9",
@@ -215,6 +213,8 @@
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
+  "width": 64,
+  "height": 16,
   "filename": "uiux/Coin.png",
   "checksum": "ef7fed1863c0f07ca3b53bd50d874ce6ce35ac0a"
 }

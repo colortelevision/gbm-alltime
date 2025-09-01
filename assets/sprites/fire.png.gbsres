@@ -3,8 +3,6 @@
   "id": "f69d6a96-8fe2-4e42-9f12-d4193c8bc836",
   "name": "fire",
   "symbol": "sprite_fire",
-  "width": 64,
-  "height": 16,
   "states": [
     {
       "id": "43008fc3-8a98-4e7c-be26-9b550f11a2a4",
@@ -215,6 +213,8 @@
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
+  "width": 64,
+  "height": 16,
   "filename": "fire.png",
   "checksum": "178804359d94af9d2cd342cf77f92f4fb6373589",
   "numFrames": 4

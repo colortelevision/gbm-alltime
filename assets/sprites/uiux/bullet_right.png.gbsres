@@ -3,8 +3,6 @@
   "id": "a5f49897-09c7-4c93-bc49-d602db9be5ec",
   "name": "uiux/bullet_right",
   "symbol": "sprite_bullet_right",
-  "width": 32,
-  "height": 16,
   "states": [
     {
       "id": "5a01c201-ea14-4292-87d2-d4a8a403266a",
@@ -153,6 +151,8 @@
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
+  "width": 32,
+  "height": 16,
   "filename": "uiux/bullet_right.png",
   "checksum": "8314b3c3b8f067e20f49bf3bd3cb63e03a457cc0",
   "numFrames": 2

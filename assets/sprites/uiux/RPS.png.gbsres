@@ -3,8 +3,6 @@
   "id": "da840a03-06e1-4b31-918b-5d4861b5de97",
   "name": "uiux/RPS",
   "symbol": "sprite_rps",
-  "width": 48,
-  "height": 32,
   "states": [
     {
       "id": "55d17d77-837f-4443-bf1b-0254f26feaf0",
@@ -95,6 +93,8 @@
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
+  "width": 48,
+  "height": 32,
   "filename": "uiux/RPS.png",
   "checksum": "a4771b42a2b28b0a8dd10a4c5190536a746a1275",
   "numFrames": 3

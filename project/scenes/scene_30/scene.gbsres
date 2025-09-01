@@ -2,12 +2,16 @@
   "_resourceType": "scene",
   "id": "c0182fa7-f7db-482d-9c6e-3f21160089c6",
   "_index": 29,
+  "type": "TOPDOWN",
   "name": "Scene 30",
-  "backgroundId": "ac260491-a4ba-4f04-8c8a-cac1f46fec82",
-  "tilesetId": "",
+  "symbol": "scene_30",
+  "x": 2040,
+  "y": 728,
   "width": 20,
   "height": 18,
-  "type": "TOPDOWN",
+  "backgroundId": "ac260491-a4ba-4f04-8c8a-cac1f46fec82",
+  "tilesetId": "",
+  "colorModeOverride": "none",
   "paletteIds": [
     "4ce823d4-1fbc-4be5-b471-cc6192d8c50e",
     "07738087-47c4-485d-9c44-fa4fa02f1438",
@@ -17,13 +21,10 @@
     "cdcf5699-2e30-4e60-a1a7-3cf79a099561"
   ],
   "spritePaletteIds": [],
-  "collisions": "",
   "autoFadeSpeed": 1,
-  "symbol": "scene_30",
-  "x": 2040,
-  "y": 728,
   "script": [],
   "playerHit1Script": [],
   "playerHit2Script": [],
-  "playerHit3Script": []
+  "playerHit3Script": [],
+  "collisions": ""
 }

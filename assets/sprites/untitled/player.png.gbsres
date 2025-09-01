@@ -3,8 +3,6 @@
   "id": "bb353ef2-6413-4e27-83aa-01b778611025",
   "name": "untitled/player",
   "symbol": "sprite_player",
-  "width": 112,
-  "height": 16,
   "states": [
     {
       "id": "b637f967-f450-4130-abc9-088725da3942",
@@ -308,6 +306,8 @@
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
+  "width": 112,
+  "height": 16,
   "filename": "untitled/player.png",
   "checksum": "4badbf5c7f5ee0cd5fe9d84609c695c585ecfe55",
   "numFrames": 7

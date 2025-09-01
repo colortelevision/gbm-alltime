@@ -3,8 +3,6 @@
   "id": "bb850ad5-2c67-40fe-a430-92127d617e51",
   "name": "kanto/converted_spinners",
   "symbol": "sprite_kanto_converted_spin",
-  "width": 32,
-  "height": 8,
   "states": [
     {
       "id": "194db083-a53e-4a7d-a936-1d7a3bc7fac1",
@@ -729,6 +727,8 @@
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
+  "width": 32,
+  "height": 8,
   "filename": "kanto/converted_spinners.png",
   "checksum": "361f70899095b919f5fb94f29ce0f47b3b904b07"
 }

@@ -3,8 +3,6 @@
   "id": "12c174fb-51fe-48bf-8306-c495a9b32a5c",
   "name": "items/signpost",
   "symbol": "sprite_signpost",
-  "width": 16,
-  "height": 16,
   "states": [
     {
       "id": "61ea872e-c34a-4907-9b0e-f763ef3336bd",
@@ -122,6 +120,8 @@
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
+  "width": 16,
+  "height": 16,
   "filename": "items/signpost.png",
   "checksum": "3e8fb04c9e760bdfe7c161503a208c39c80c3811",
   "numFrames": 1

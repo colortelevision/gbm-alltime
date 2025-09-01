@@ -3,8 +3,6 @@
   "id": "e9cc179c-27d1-4a46-b4e5-940331ed2073",
   "name": "npc005",
   "symbol": "sprite_npc005",
-  "width": 96,
-  "height": 16,
   "states": [
     {
       "id": "4c541f39-d6d8-4c5d-adc7-bc7c4414d58c",
@@ -350,6 +348,8 @@
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
+  "width": 96,
+  "height": 16,
   "filename": "npc005.png",
   "checksum": "fe2a346e79ea7e5c00b74d726e273a056cbffb28",
   "numFrames": 6

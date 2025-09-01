@@ -3,8 +3,6 @@
   "id": "563900a0-22cb-4876-a8c3-17fd7f24c107",
   "name": "battery level",
   "symbol": "sprite_battery_level",
-  "width": 64,
-  "height": 32,
   "states": [
     {
       "id": "df6f2ad4-0ae7-495b-a888-bf44c1b42a9d",
@@ -95,6 +93,8 @@
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
+  "width": 64,
+  "height": 32,
   "filename": "battery level.png",
   "checksum": "aab73b03de3d9e5b03a8f76f4520efc0e2b55dcd",
   "numFrames": 4

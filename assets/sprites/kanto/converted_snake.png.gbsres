@@ -3,8 +3,6 @@
   "id": "d5f3cba5-5bd6-45f2-bb58-9aed70ff46fb",
   "name": "kanto/converted_snake",
   "symbol": "sprite_kanto_converted_snak",
-  "width": 8,
-  "height": 32,
   "states": [
     {
       "id": "7443b97b-265e-4601-9e31-3b782da96744",
@@ -95,6 +93,8 @@
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
+  "width": 8,
+  "height": 32,
   "filename": "kanto/converted_snake.png",
   "checksum": "44cd68437443f5aed1980c14eaae95d572dfaf81"
 }

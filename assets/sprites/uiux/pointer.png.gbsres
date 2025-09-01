@@ -3,8 +3,6 @@
   "id": "57776ecd-617a-463c-bafe-278759867630",
   "name": "uiux/pointer",
   "symbol": "sprite_pointer",
-  "width": 32,
-  "height": 32,
   "states": [
     {
       "id": "ced7c0b9-22f1-44a3-ac03-7ef21b46214e",
@@ -215,6 +213,8 @@
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
+  "width": 32,
+  "height": 32,
   "filename": "uiux/pointer.png",
   "checksum": "e751fe13ab9fbdfb3f4b521e0b2d901718e4a56f"
 }

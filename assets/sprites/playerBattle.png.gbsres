@@ -3,8 +3,6 @@
   "id": "df255b3d-72ef-46f3-bab1-e22e52216c90",
   "name": "playerBattle",
   "symbol": "sprite_playerbattle",
-  "width": 96,
-  "height": 16,
   "states": [
     {
       "id": "15ce3408-b0c2-43ba-8497-b80cb8425289",
@@ -350,6 +348,8 @@
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
+  "width": 96,
+  "height": 16,
   "filename": "playerBattle.png",
   "checksum": "daafaf17d3af31fe1d39ea0056fa4eaf88e3f43a",
   "numFrames": 6

@@ -3,8 +3,6 @@
   "id": "8d59acfd-29ed-414a-a150-c9a77b1a2010",
   "name": "25TAGZ/tilesets/underground",
   "symbol": "sprite_25tagz_tilesets_unde",
-  "width": 128,
-  "height": 16,
   "states": [
     {
       "id": "f4f4559c-bb19-4a01-b429-d1d56c6535d4",
@@ -339,6 +337,8 @@
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
+  "width": 128,
+  "height": 16,
   "filename": "25TAGZ/tilesets/underground.png",
   "checksum": "9c635e54e3c447baf4f951863bccc1b8dae3d778",
   "numFrames": 8

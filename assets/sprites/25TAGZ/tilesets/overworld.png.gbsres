@@ -3,8 +3,6 @@
   "id": "0c75d580-a22a-491b-b795-3e7ea89fd798",
   "name": "25TAGZ/tilesets/overworld",
   "symbol": "sprite_25tagz_tilesets_over",
-  "width": 128,
-  "height": 48,
   "states": [
     {
       "id": "22a3ec42-3326-4eeb-a981-19360fcd8cfe",
@@ -95,6 +93,8 @@
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
+  "width": 128,
+  "height": 48,
   "filename": "25TAGZ/tilesets/overworld.png",
   "checksum": "0b5975b8df9db3a261a1e032fac33fa0d847c2a0",
   "numFrames": 8

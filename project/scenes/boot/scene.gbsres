@@ -11,6 +11,7 @@
   "height": 18,
   "backgroundId": "6ea93da3-4595-4d0d-b2c6-fa1fafd71c55",
   "tilesetId": "",
+  "colorModeOverride": "none",
   "paletteIds": [
     "",
     "",
@@ -25,6 +26,8 @@
     "104e2fdc-a5db-4561-b79b-5c269b07e927"
   ],
   "autoFadeSpeed": 1,
+  "autoFadeEventCollapse": true,
+  "playerSpriteSheetId": "0496c361-8944-44f7-853e-a1957b482c4a",
   "script": [
     {
       "command": "EVENT_ACTOR_HIDE",
@@ -72,8 +75,14 @@
           {
             "command": "EVENT_WAIT",
             "args": {
-              "time": 0.3,
-              "frames": 30,
+              "time": {
+                "type": "number",
+                "value": 0.5
+              },
+              "frames": {
+                "type": "number",
+                "value": 30
+              },
               "__collapse": false
             },
             "id": "a407488a-7d02-4eaf-9287-4bce64e4ab28"
@@ -96,8 +105,14 @@
           {
             "command": "EVENT_WAIT",
             "args": {
-              "time": 0.1,
-              "frames": 30,
+              "time": {
+                "type": "number",
+                "value": 0.5
+              },
+              "frames": {
+                "type": "number",
+                "value": 30
+              },
               "__collapse": false
             },
             "id": "01d15764-8046-4f53-b2ff-990c01d68e33"
@@ -120,8 +135,14 @@
           {
             "command": "EVENT_WAIT",
             "args": {
-              "time": 0.1,
-              "frames": 30,
+              "time": {
+                "type": "number",
+                "value": 0.5
+              },
+              "frames": {
+                "type": "number",
+                "value": 30
+              },
               "__collapse": false
             },
             "id": "95f3d2b4-99c5-4efd-9c5c-66030d7bbf28"
@@ -144,8 +165,14 @@
           {
             "command": "EVENT_WAIT",
             "args": {
-              "time": 0.1,
-              "frames": 30,
+              "time": {
+                "type": "number",
+                "value": 0.5
+              },
+              "frames": {
+                "type": "number",
+                "value": 30
+              },
               "__collapse": true
             },
             "id": "26aa8c9f-4834-46fc-b0b9-ed475a852411"
@@ -168,8 +195,14 @@
           {
             "command": "EVENT_WAIT",
             "args": {
-              "time": 0.1,
-              "frames": 30,
+              "time": {
+                "type": "number",
+                "value": 0.5
+              },
+              "frames": {
+                "type": "number",
+                "value": 30
+              },
               "__collapse": false
             },
             "id": "99949153-aac1-4d90-b788-d81cfef94de7"
@@ -195,8 +228,14 @@
     {
       "command": "EVENT_WAIT",
       "args": {
-        "time": 0.3,
-        "frames": 30,
+        "time": {
+          "type": "number",
+          "value": 0.5
+        },
+        "frames": {
+          "type": "number",
+          "value": 30
+        },
         "__collapse": true
       },
       "id": "38826c7d-da64-4443-88ce-40ad6c56abb0"
@@ -293,7 +332,5 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "collisions": "",
-  "playerSpriteSheetId": "0496c361-8944-44f7-853e-a1957b482c4a",
-  "autoFadeEventCollapse": true
+  "collisions": ""
 }

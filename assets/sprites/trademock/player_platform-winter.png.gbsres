@@ -3,8 +3,6 @@
   "id": "e2cf5f65-6254-4119-aea9-0cd9b5b220fd",
   "name": "trademock/player_platform-winter",
   "symbol": "sprite_player_platform_wint",
-  "width": 88,
-  "height": 160,
   "states": [
     {
       "id": "82fc56ca-615a-41c0-9b74-5d692f02668e",
@@ -95,6 +93,8 @@
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
+  "width": 88,
+  "height": 160,
   "filename": "trademock/player_platform-winter.png",
   "checksum": "27aa9664a568c00468c5d178e076aa2f15d78fb0",
   "numFrames": 5.5

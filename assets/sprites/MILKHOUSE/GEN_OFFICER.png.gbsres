@@ -3,8 +3,6 @@
   "id": "edbc7b5a-dcaa-42ca-a134-0e6f73ab8564",
   "name": "MILKHOUSE/GEN_OFFICER",
   "symbol": "sprite_gen_officer",
-  "width": 128,
-  "height": 16,
   "states": [
     {
       "id": "bc6051d0-d91c-4807-9862-f9986202e531",
@@ -339,6 +337,8 @@
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
+  "width": 128,
+  "height": 16,
   "filename": "MILKHOUSE/GEN_OFFICER.png",
   "checksum": "0e68f8f06e60a968217768373a0ee422cd4d9782",
   "numFrames": 8

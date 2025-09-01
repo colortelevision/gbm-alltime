@@ -3,8 +3,6 @@
   "id": "f1b377e8-2225-45aa-a5eb-f85d7a672cb7",
   "name": "items/torch",
   "symbol": "sprite_torch",
-  "width": 16,
-  "height": 16,
   "states": [
     {
       "id": "dd6d2c79-abb5-4896-ad1a-710a342ed3af",
@@ -122,6 +120,8 @@
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
+  "width": 16,
+  "height": 16,
   "filename": "items/torch.png",
   "checksum": "7115d29144680ee075cf63709a5bd562d327b0a4",
   "numFrames": 1

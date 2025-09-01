@@ -1,20 +1,24 @@
 {
   "_resourceType": "actor",
   "id": "ab3fb6c7-69e9-4f19-b5db-b45775047975",
+  "_index": 0,
+  "symbol": "actor_14",
+  "prefabId": "",
   "name": "",
+  "x": 11,
+  "y": 4,
   "frame": 0,
   "animate": false,
   "spriteSheetId": "34389dee-b332-423f-b577-8df2cf1e13f2",
-  "prefabId": "",
+  "paletteId": "",
   "direction": "left",
   "moveSpeed": 1,
   "animSpeed": 15,
-  "paletteId": "",
   "isPinned": false,
   "persistent": false,
   "collisionGroup": "1",
+  "collisionExtraFlags": [],
   "prefabScriptOverrides": {},
-  "symbol": "actor_14",
   "script": [
     {
       "command": "EVENT_CAMERA_SHAKE",
@@ -54,7 +58,8 @@
                 "value": 0
               },
               "moveType": "horizontal",
-              "useCollisions": false
+              "useCollisions": false,
+              "collideWith": []
             },
             "id": "a1bd853d-5bb3-4d6f-ba10-e4a132378974"
           }
@@ -73,7 +78,8 @@
                 "value": 0
               },
               "moveType": "horizontal",
-              "useCollisions": false
+              "useCollisions": false,
+              "collideWith": []
             },
             "id": "1169912d-c8de-4ac4-b446-c4a5844b1a2c"
           }
@@ -98,8 +104,14 @@
     {
       "command": "EVENT_WAIT",
       "args": {
-        "time": 0.1,
-        "frames": 30
+        "time": {
+          "type": "number",
+          "value": 0.5
+        },
+        "frames": {
+          "type": "number",
+          "value": 30
+        }
       },
       "id": "1f6df9e6-88e6-4fcd-9f4f-f2665b816b73"
     },
@@ -135,8 +147,5 @@
     }
   ],
   "hit2Script": [],
-  "hit3Script": [],
-  "x": 11,
-  "y": 4,
-  "_index": 0
+  "hit3Script": []
 }

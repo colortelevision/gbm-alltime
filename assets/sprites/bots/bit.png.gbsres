@@ -3,8 +3,6 @@
   "id": "c05f12f8-51d5-47f7-86ce-ff276a837c1b",
   "name": "bots/bit",
   "symbol": "sprite_bit",
-  "width": 16,
-  "height": 16,
   "states": [
     {
       "id": "a4a60a1e-7a38-4b73-a0fe-a45e45eff6c7",
@@ -122,6 +120,8 @@
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
+  "width": 16,
+  "height": 16,
   "filename": "bots/bit.png",
   "checksum": "107a8ba267e6df77f9dd89a5eea50778d764cb16",
   "numFrames": 1

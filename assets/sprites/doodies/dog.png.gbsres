@@ -3,8 +3,6 @@
   "id": "eef5c893-803f-4822-9673-ff3deae3ca3e",
   "name": "doodies/dog",
   "symbol": "sprite_dog",
-  "width": 32,
-  "height": 16,
   "states": [
     {
       "id": "d8410408-16be-4ce4-97cf-b810a5d47efb",
@@ -153,6 +151,8 @@
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
+  "width": 32,
+  "height": 16,
   "filename": "doodies/dog.png",
   "checksum": "5da70783bdb37fb20f01afffbb280aadf04f7218",
   "numFrames": 2

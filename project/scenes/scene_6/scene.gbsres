@@ -11,6 +11,7 @@
   "height": 28,
   "backgroundId": "5fb09847-2cd6-491f-8cba-69258e3f3bba",
   "tilesetId": "",
+  "colorModeOverride": "none",
   "paletteIds": [
     "",
     "",
@@ -19,6 +20,7 @@
   ],
   "spritePaletteIds": [],
   "autoFadeSpeed": 1,
+  "autoFadeEventCollapse": true,
   "script": [
     {
       "command": "EVENT_ACTOR_DEACTIVATE",
@@ -146,8 +148,14 @@
     {
       "command": "EVENT_WAIT",
       "args": {
-        "time": 0.3,
-        "frames": 30,
+        "time": {
+          "type": "number",
+          "value": 0.5
+        },
+        "frames": {
+          "type": "number",
+          "value": 30
+        },
         "__collapse": false
       },
       "id": "cc6be08b-7bc3-47e0-b719-8acdeb3ce789"
@@ -204,6 +212,5 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "collisions": "00230+",
-  "autoFadeEventCollapse": true
+  "collisions": "00230+"
 }

@@ -3,8 +3,6 @@
   "id": "a5950ce4-10fb-4a82-8403-77ba74d01e32",
   "name": "uiux/blocks",
   "symbol": "sprite_blocks",
-  "width": 16,
-  "height": 32,
   "states": [
     {
       "id": "6df46ee0-85e6-404f-8ee8-f55b9ee14079",
@@ -180,6 +178,8 @@
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
+  "width": 16,
+  "height": 32,
   "filename": "uiux/blocks.png",
   "checksum": "b426f1a5acc31a703c86722bf6adab619e8c9d63",
   "numFrames": 1

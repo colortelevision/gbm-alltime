@@ -3,8 +3,6 @@
   "id": "35b9c4ca-1731-41d0-a14c-4186fbc48fdf",
   "name": "items/machine03",
   "symbol": "sprite_machine03",
-  "width": 32,
-  "height": 24,
   "states": [
     {
       "id": "7ace9e51-20f6-4cb5-b35d-56d75d89fbc4",
@@ -95,6 +93,8 @@
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
+  "width": 32,
+  "height": 24,
   "filename": "items/machine03.png",
   "checksum": "3f08b81a97c5d87eaa9295521b3846c82622c02e",
   "numFrames": 2

@@ -19,7 +19,7 @@
     },
     {
       "id": "shooter_scroll_speed",
-      "value": 24
+      "value": 48
     },
     {
       "id": "plat_jump_min",
@@ -52,6 +52,14 @@
     {
       "id": "plat_dash_through",
       "value": 1
+    },
+    {
+      "id": "FEAT_PLATFORM_COYOTE_TIME",
+      "value": 0
+    },
+    {
+      "id": "FEAT_PLATFORM_DROP_THROUGH",
+      "value": 0
     }
   ]
 }

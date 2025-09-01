@@ -3,8 +3,6 @@
   "id": "c87b7cbe-0c86-4e3a-a61c-3cb6b5acfe8a",
   "name": "enemy01",
   "symbol": "sprite_enemy01",
-  "width": 96,
-  "height": 16,
   "states": [
     {
       "id": "5ce65560-ce9e-407c-bb37-16530151fc71",
@@ -350,6 +348,8 @@
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
+  "width": 96,
+  "height": 16,
   "filename": "enemy01.png",
   "checksum": "381b5f4abf1978970959191c3f82abcc1ae52dbc",
   "numFrames": 6
