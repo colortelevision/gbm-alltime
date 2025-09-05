@@ -7,7 +7,7 @@
     {
       "id": "d1285677-b2a4-43b4-9b3b-398970ea4da5",
       "name": "",
-      "animationType": "multi_movement",
+      "animationType": "fixed",
       "flipLeft": true,
       "animations": [
         {
@@ -15,7 +15,112 @@
           "frames": [
             {
               "id": "e8d29296-d61a-48f8-b2e1-d6394e47dda4",
-              "tiles": []
+              "tiles": [
+                {
+                  "id": "47aed7ec-f11e-4582-ac72-0b9bbc50b871",
+                  "x": -8,
+                  "y": 16,
+                  "sliceX": 0,
+                  "sliceY": 0,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 5,
+                  "priority": false
+                },
+                {
+                  "id": "dd832498-334b-472c-bd06-74ce0c430016",
+                  "x": -8,
+                  "y": 0,
+                  "sliceX": 0,
+                  "sliceY": 16,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 5,
+                  "priority": false
+                },
+                {
+                  "id": "3578635d-ae6f-425f-b9ca-2b86c6f538bd",
+                  "x": 0,
+                  "y": 16,
+                  "sliceX": 8,
+                  "sliceY": 0,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 5,
+                  "priority": false
+                },
+                {
+                  "id": "186b15e9-d483-48ab-a5ea-31802242f215",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 8,
+                  "sliceY": 16,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 5,
+                  "priority": false
+                },
+                {
+                  "id": "5c5f5654-0af2-4185-86c7-b749ca40af7a",
+                  "x": 8,
+                  "y": 16,
+                  "sliceX": 16,
+                  "sliceY": 0,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 5,
+                  "priority": false
+                },
+                {
+                  "id": "e91fb13d-ee79-4a5c-bf6f-3c12c72e2767",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 16,
+                  "sliceY": 16,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 5,
+                  "priority": false
+                },
+                {
+                  "id": "eb940921-80c5-48d7-acdb-78c74ae1eb31",
+                  "x": 16,
+                  "y": 16,
+                  "sliceX": 24,
+                  "sliceY": 0,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 5,
+                  "priority": false
+                },
+                {
+                  "id": "9fd9c9d0-e782-4129-a7cc-28ab664378eb",
+                  "x": 16,
+                  "y": 0,
+                  "sliceX": 24,
+                  "sliceY": 16,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 5,
+                  "priority": false
+                }
+              ]
             }
           ]
         },
@@ -85,7 +190,7 @@
       ]
     }
   ],
-  "numTiles": 0,
+  "numTiles": 8,
   "canvasWidth": 32,
   "canvasHeight": 32,
   "boundsX": 0,
