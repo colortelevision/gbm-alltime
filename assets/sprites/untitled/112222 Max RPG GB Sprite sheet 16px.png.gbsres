@@ -398,37 +398,6 @@
               ]
             },
             {
-              "id": "a1b64b71-fd8f-48d0-925e-29050cd8722c",
-              "tiles": [
-                {
-                  "id": "1487ee2e-0078-4e49-b0c2-438ed7dd9e21",
-                  "x": 8,
-                  "y": 0,
-                  "sliceX": 48,
-                  "sliceY": 0,
-                  "palette": 0,
-                  "flipX": true,
-                  "flipY": false,
-                  "objPalette": "OBP0",
-                  "paletteIndex": 0,
-                  "priority": false
-                },
-                {
-                  "id": "02f9b767-9ef9-434c-bd01-ce8f95e4de06",
-                  "x": 0,
-                  "y": 0,
-                  "sliceX": 56,
-                  "sliceY": 0,
-                  "palette": 0,
-                  "flipX": true,
-                  "flipY": false,
-                  "objPalette": "OBP0",
-                  "paletteIndex": 0,
-                  "priority": false
-                }
-              ]
-            },
-            {
               "id": "7ea54bb1-96d5-4bf8-b24e-62cae2ddb65f",
               "tiles": [
                 {
@@ -452,6 +421,37 @@
                   "sliceY": 0,
                   "palette": 0,
                   "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 0,
+                  "priority": false
+                }
+              ]
+            },
+            {
+              "id": "a1b64b71-fd8f-48d0-925e-29050cd8722c",
+              "tiles": [
+                {
+                  "id": "1487ee2e-0078-4e49-b0c2-438ed7dd9e21",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 48,
+                  "sliceY": 0,
+                  "palette": 0,
+                  "flipX": true,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 0,
+                  "priority": false
+                },
+                {
+                  "id": "02f9b767-9ef9-434c-bd01-ce8f95e4de06",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 56,
+                  "sliceY": 0,
+                  "palette": 0,
+                  "flipX": true,
                   "flipY": false,
                   "objPalette": "OBP0",
                   "paletteIndex": 0,
