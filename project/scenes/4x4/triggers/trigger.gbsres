@@ -4,7 +4,7 @@
   "name": "",
   "prefabId": "",
   "x": 6,
-  "y": 11,
+  "y": 5,
   "symbol": "trigger_1",
   "prefabScriptOverrides": {},
   "width": 2,
@@ -35,7 +35,8 @@
     {
       "command": "EVENT_DEC_VALUE",
       "args": {
-        "variable": "0"
+        "variable": "0",
+        "__collapse": false
       },
       "id": "d7a55c27-bbc1-4d28-8960-f8db16347003"
     }
