@@ -1,0 +1,100 @@
+{
+  "_resourceType": "sprite",
+  "id": "df807911-051c-4e91-a954-ae64e77439ce",
+  "name": "bots/250911-lbot",
+  "symbol": "sprite_bots_250911_lbot",
+  "states": [
+    {
+      "id": "88580c0d-7f0e-453d-b90a-c9c5e55bce9c",
+      "name": "",
+      "animationType": "multi_movement",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "176b517d-0c6a-4b89-844f-37225447a680",
+          "frames": [
+            {
+              "id": "dd6d209d-d939-43b7-8d25-e333ce66e6bb",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "5c661de6-2eb0-4b2a-8ade-a3b34fed07aa",
+          "frames": [
+            {
+              "id": "688dfa37-4f45-4d59-a14f-b227ac109ba4",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "cbf61788-3aa1-4641-820d-a2dd2397ee1e",
+          "frames": [
+            {
+              "id": "4cef72a5-4a6c-4853-af30-b43dac49c011",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "2e858d0a-e02b-4f03-8b43-35c53f61adc6",
+          "frames": [
+            {
+              "id": "80124369-6a6c-4843-b40d-5946b8833630",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "69b09b03-0cb2-420b-8a77-bb8d6d41e5c9",
+          "frames": [
+            {
+              "id": "74f9d114-e4e9-4447-8360-d3642f8031ff",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "f6765ea0-dc0d-454a-8d81-3f7468b82124",
+          "frames": [
+            {
+              "id": "f75a3a5b-a765-417c-8525-622c35634bd7",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "04d0f47e-4d19-4583-b145-6d95aaa2e1d9",
+          "frames": [
+            {
+              "id": "52f0efee-9351-434d-b609-84593c8230c3",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "f0170a66-4708-4952-927a-08146204a1b0",
+          "frames": [
+            {
+              "id": "60430197-5363-443e-8ced-bfe6aad5034f",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 0,
+  "canvasWidth": 32,
+  "canvasHeight": 32,
+  "boundsX": 0,
+  "boundsY": 0,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "bots/250911-lbot.png",
+  "width": 96,
+  "height": 56,
+  "checksum": "c1f8e3847ea9a7d3b26b03e1f4ecad5ad60bfe0c"
+}

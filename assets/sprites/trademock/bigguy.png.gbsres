@@ -1,0 +1,100 @@
+{
+  "_resourceType": "sprite",
+  "id": "c368de4e-b5c4-45da-aabe-178b7bb228bf",
+  "name": "trademock/bigguy",
+  "symbol": "sprite_trademock_bigguy",
+  "states": [
+    {
+      "id": "1ed05e4b-9e81-450b-baea-5a957ab3ca97",
+      "name": "",
+      "animationType": "multi_movement",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "3ca908fe-1576-467a-8115-75774a2c5455",
+          "frames": [
+            {
+              "id": "67c4d393-19b2-4914-9b91-205b456a5b8e",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "f14c80bd-02e1-4f6b-969e-f56752384ca8",
+          "frames": [
+            {
+              "id": "a42e1bd9-ea73-428e-85d8-58bec0450731",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "6908c797-18b2-46f9-86ea-864b75be6dda",
+          "frames": [
+            {
+              "id": "7eef991b-533c-4ac7-8fc4-3cd606dd7bf0",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "7dca8197-912e-4c1c-858d-2d99c8970ffb",
+          "frames": [
+            {
+              "id": "40677a1a-e4c1-4a54-a1c1-f3c0644dfcea",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "3308b908-bfb5-4145-8c14-4387e219832c",
+          "frames": [
+            {
+              "id": "773a7875-67e7-485e-a562-9f1467df6335",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "f881f7b3-beb9-474b-9ab3-a12f2e9a6666",
+          "frames": [
+            {
+              "id": "10633753-c5c7-4e04-9580-1e0b36f7d88d",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "9f39ef8b-4130-43c2-8625-40c55c1acdb1",
+          "frames": [
+            {
+              "id": "6a816138-8451-4db7-8afc-de0e6dfa1adc",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "f80c062f-3224-4598-9863-86bee5879d2d",
+          "frames": [
+            {
+              "id": "94706aaf-e066-4b08-8885-8f7ab1972251",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 0,
+  "canvasWidth": 32,
+  "canvasHeight": 32,
+  "boundsX": 0,
+  "boundsY": 0,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "trademock/bigguy.png",
+  "width": 128,
+  "height": 64,
+  "checksum": "bcaa7c38d98ec5fe9d492af859f87d45ff5582fa"
+}
