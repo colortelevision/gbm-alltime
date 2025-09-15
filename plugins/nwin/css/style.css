@@ -1,0 +1,100 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set desktop background */
+body {
+    background-color: #008080;
+    background-image: url('background.png');
+    background-repeat: repeat;
+}
+
+/* Style the desktop */
+#desktop {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+}
+
+/* Style the icons */
+.icon {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    cursor: pointer;
+}
+
+.icon img {
+    width: 100%;
+    height: 100%;
+}
+
+#icon1 {
+    top: 50px;
+    left: 50px;
+}
+
+#icon2 {
+    top: 150px;
+    left: 50px;
+}
+
+/* Style the start menu */
+#start-menu {
+    width: 200px;
+    height: 300px;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    background-color: #f0f0f0;
+    display: none;
+}
+
+/* Style the start button */
+#start-button {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #00bfff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+/* Style the windows */
+.window {
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffffff;
+    display: none;
+    z-index: 1;
+}
+
+.window-header {
+    height: 30px;
+    background-color: #f0f0f0;
+    cursor: move;
+}
+
+.window-title {
+    margin-left: 10px;
+    line-height: 30px;
+    font-weight: bold;
+}
+
+.window-body {
+    padding: 10px;
+}
+

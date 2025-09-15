@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Windows Desktop Simulation</title>
+	<style>
+		body {
+			background-color: #008080;
+			font-family: Arial, sans-serif;
+			font-size: 16px;
+		}
+		#desktop {
+			position: absolute;
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			background-image: 
+url('img/desktop-background.jpg');
+			background-repeat: no-repeat;
+			background-size: cover;
+			padding: 20px;
+		}
+		.icon {
+			position: absolute;
+			width: 64px;
+			height: 64px;
+			background-image: url('img/icon.png');
+			background-repeat: no-repeat;
+			background-size: cover;
+			cursor: pointer;
+		}
+		#start-menu {
+			position: absolute;
+			top: 30px;
+			left: 30px;
+			width: 200px;
+			height: 300px;
+			background-color: #fff;
+			border: 1px solid #000;
+			padding: 10px;
+			display: none;
+		}
+		#start-menu ul {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+		}
+		#start-menu li {
+			padding: 5px;
+			border-bottom: 1px solid #ccc;
+			cursor: pointer;
+		}
+		.window {
+			position: absolute;
+			top: 100px;
+			left: 100px;
+			width: 500px;
+			height: 400px;
+			background-color: #fff;
+			border: 1px solid #000;
+			display: none;
+		}
+		.window-header {
+			background-color: #ddd;
+			border-bottom: 1px solid #000;
+			padding: 5px;
+			cursor: move;
+		}
+		.window-content {
+			padding: 10px;
+		}
+	</style>
+</head>
+<body>
+	<div id="desktop">
+		<div class="icon" style="top: 100px; left: 100px;"></div>
+		<div class="icon" style="top: 200px; left: 100px;"></div>
+		<div class="icon" style="top: 100px; left: 200px;"></div>
+		<div class="icon" style="top: 200px; left: 200px;"></div>
+        <div id="start-button" class="icon" style="top: 100px; left: 100px;"></div>
+
+	</div>
+
+	<div id="start-menu">
+		<ul>
+			<li>My Computer</li>
+			<li>Control Panel</li>
+			<li>My Documents</li>
+			<li>Recycle Bin</li>
+		</ul>
+	</div>
+
+	<div id="window-1" class="window">
+		<div class="window-header">Window 1</div>
+		<div class="window-content">
+			<p>This is the content of Window 1</p>
+		</div>
+	</div>
+
+	<div id="window-2" class="window">
+		<div class="window-header">Window 2</div>
+		<div class="window-content">
+			<p>This is the content of Window 2</p>
+		</div>
+	</div>
+
+	<script src="js/script.js"></script>
+
