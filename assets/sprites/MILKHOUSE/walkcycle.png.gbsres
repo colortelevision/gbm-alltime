@@ -3,6 +3,8 @@
   "id": "c33261ae-0726-42eb-935f-93b0bbf52953",
   "name": "MILKHOUSE/walkcycle",
   "symbol": "sprite_walkcycle",
+  "width": 64,
+  "height": 133,
   "states": [
     {
       "id": "a4fe2844-dd3f-4145-8ca9-822c9b3bf510",
@@ -1403,17 +1405,15 @@
       ]
     }
   ],
-  "numTiles": 59,
+  "numTiles": 32,
   "canvasWidth": 32,
-  "canvasHeight": 64,
+  "canvasHeight": 32,
   "boundsX": 0,
   "boundsY": 0,
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
-  "width": 64,
-  "height": 133,
-  "filename": "MILKHOUSE/walkcycle.png",
+  "filename": "milkhouse/walkcycle.png",
   "checksum": "002d0bd4ea46dbe337789e5b4e440dbe7811c374",
   "numFrames": 4
 }

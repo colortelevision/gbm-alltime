@@ -3,6 +3,8 @@
   "id": "8439aefb-c9ce-43e0-922e-be1f50ab4907",
   "name": "MILKHOUSE/download-6",
   "symbol": "sprite_download_6",
+  "width": 56,
+  "height": 56,
   "states": [
     {
       "id": "b1d14863-d5b1-465d-a699-b9db46eeb1fa",
@@ -450,17 +452,15 @@
       ]
     }
   ],
-  "numTiles": 24,
-  "canvasWidth": 56,
-  "canvasHeight": 56,
+  "numTiles": 9,
+  "canvasWidth": 32,
+  "canvasHeight": 32,
   "boundsX": 0,
   "boundsY": 0,
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
-  "width": 56,
-  "height": 56,
-  "filename": "MILKHOUSE/download-6.png",
+  "filename": "milkhouse/download-6.png",
   "checksum": "95eb999e531d818ce02d990c86426372fcdff1a0",
   "numFrames": 3.5
 }

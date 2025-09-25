@@ -3,6 +3,8 @@
   "id": "0496c361-8944-44f7-853e-a1957b482c4a",
   "name": "MILKHOUSE/trop",
   "symbol": "sprite_trop",
+  "width": 24,
+  "height": 24,
   "states": [
     {
       "id": "6f265b3b-1019-4f96-bf90-496664b0a2f6",
@@ -3993,16 +3995,14 @@
     }
   ],
   "numTiles": 18,
-  "canvasWidth": 24,
+  "canvasWidth": 32,
   "canvasHeight": 32,
   "boundsX": 0,
   "boundsY": 0,
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
-  "width": 24,
-  "height": 24,
-  "filename": "MILKHOUSE/trop.png",
+  "filename": "milkhouse/trop.png",
   "checksum": "7ff947b517c70cc860639ec69d63e6b77a259d03",
   "numFrames": 1.5
 }

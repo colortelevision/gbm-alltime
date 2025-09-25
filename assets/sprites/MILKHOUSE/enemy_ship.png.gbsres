@@ -3,6 +3,8 @@
   "id": "5b4fe4f5-1258-45ba-98f1-dfe19357a724",
   "name": "MILKHOUSE/enemy_ship",
   "symbol": "sprite_enemy_ship",
+  "width": 96,
+  "height": 80,
   "states": [
     {
       "id": "71484df8-2ad4-46da-ad1e-c85372bae830",
@@ -307,9 +309,7 @@
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
-  "width": 96,
-  "height": 80,
-  "filename": "MILKHOUSE/enemy_ship.png",
+  "filename": "milkhouse/enemy_ship.png",
   "checksum": "b4139a29d8a47fefbf1bcf706baa94180caafa0e",
   "numFrames": 6
 }

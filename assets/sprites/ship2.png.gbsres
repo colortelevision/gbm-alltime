@@ -3,6 +3,8 @@
   "id": "b3864169-679c-4025-ba1a-0ab551fa1be1",
   "name": "ship2",
   "symbol": "sprite_ship2",
+  "width": 32,
+  "height": 32,
   "states": [
     {
       "id": "75f44788-c4ad-486b-b32f-c58e11e26d0e",
@@ -93,8 +95,6 @@
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
-  "width": 32,
-  "height": 32,
   "filename": "ship2.png",
   "checksum": "2f32587c16d52b06943318fb9254c41947a7cdbd",
   "numFrames": 2

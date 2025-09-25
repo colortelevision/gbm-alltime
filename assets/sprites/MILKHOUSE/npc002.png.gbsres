@@ -3,6 +3,8 @@
   "id": "1e5e64b7-f535-4311-867b-4bb9d23cf2f2",
   "name": "MILKHOUSE/npc002",
   "symbol": "sprite_npc002",
+  "width": 48,
+  "height": 16,
   "states": [
     {
       "id": "0bb251bf-f150-4abf-aada-8ae5c254a21c",
@@ -11,13 +13,13 @@
       "flipLeft": true,
       "animations": [
         {
-          "id": "5e0536b6-d0ab-45c0-b96c-bf7c9758aade",
+          "id": "dde79874-9d9d-4f72-9a7d-ee6e9d25d6f2",
           "frames": [
             {
-              "id": "76913409-c688-411a-8a4b-a83eb4888942",
+              "id": "f1206d20-5692-4d2b-b48c-a020ef21a494",
               "tiles": [
                 {
-                  "id": "896dfe19-dc05-4b38-9b56-5cdcf3881f14",
+                  "id": "10106083-41f5-4ed1-91a2-baff8541e62a",
                   "x": 0,
                   "y": 0,
                   "sliceX": 32,
@@ -30,7 +32,7 @@
                   "priority": false
                 },
                 {
-                  "id": "7963c1f0-ac41-4d80-a9aa-a576c7c284fb",
+                  "id": "9abf91eb-ffd1-48e4-acff-d12a321e4dc8",
                   "x": 8,
                   "y": 0,
                   "sliceX": 40,
@@ -47,22 +49,22 @@
           ]
         },
         {
-          "id": "67ad4aff-4fc7-4c91-b7c6-314f7b77640b",
+          "id": "4acfb377-5d85-4b2e-85bc-8d7fa587827d",
           "frames": [
             {
-              "id": "286a53f8-e014-4c60-bf8d-1272a2be0946",
+              "id": "e049e677-acc7-4762-a61e-ec4b449a391a",
               "tiles": []
             }
           ]
         },
         {
-          "id": "386825e7-7ffd-4e73-a9d8-b6088f0a6d8e",
+          "id": "6b6dc464-3e8c-4b54-a969-bcf35c9719cc",
           "frames": [
             {
-              "id": "882ecc04-5fa5-4cbd-be8a-2444181621fd",
+              "id": "b5e38ef6-4418-4cdc-b5ee-2d07110166a0",
               "tiles": [
                 {
-                  "id": "e31a7305-d5ed-4d0e-8fa7-14515596ff48",
+                  "id": "68458e18-1c4c-43f7-be17-abfbe36ee4df",
                   "x": 0,
                   "y": 0,
                   "sliceX": 16,
@@ -75,7 +77,7 @@
                   "priority": false
                 },
                 {
-                  "id": "4903711d-0e57-47c6-90b8-137d3fe3cbf9",
+                  "id": "91c34f93-af1c-4031-a454-1e5b24973ae6",
                   "x": 8,
                   "y": 0,
                   "sliceX": 24,
@@ -92,13 +94,13 @@
           ]
         },
         {
-          "id": "5b35dab7-4221-49e4-9869-0e9d90a0d615",
+          "id": "1762d833-96b8-4642-bf4b-f6dcc9ae5614",
           "frames": [
             {
-              "id": "f69b501c-7ecd-421b-9b8b-ae601287206a",
+              "id": "b0c8d565-93d4-4c75-84ae-546d5eb488a4",
               "tiles": [
                 {
-                  "id": "340a837b-0a13-464b-9a12-4c52bd5ad0df",
+                  "id": "cf31d36b-f287-4acc-8495-b39e44b3b7ff",
                   "x": 0,
                   "y": 0,
                   "sliceX": 0,
@@ -111,7 +113,7 @@
                   "priority": false
                 },
                 {
-                  "id": "d466a22f-fc07-4990-8652-abd780700ad3",
+                  "id": "a2c0138e-2f70-4d46-af67-ed28f8c23b9c",
                   "x": 8,
                   "y": 0,
                   "sliceX": 8,
@@ -128,37 +130,37 @@
           ]
         },
         {
-          "id": "a2ffb2c2-71df-4502-8a8f-50496ed080a3",
+          "id": "99a3ec58-580f-4223-a555-5acabc1c8fba",
           "frames": [
             {
-              "id": "e98aefe1-b4db-427a-9fa3-7263537b4d05",
+              "id": "045cedfb-5886-4cd9-8896-9aecc7e9d59e",
               "tiles": []
             }
           ]
         },
         {
-          "id": "8088bb2f-6702-4b25-89b2-b86802e3366b",
+          "id": "5d1f8538-99dd-463d-b9c1-cad59a2b4505",
           "frames": [
             {
-              "id": "2eb0220c-5892-44fc-950a-bbc32f3cb75e",
+              "id": "a58c9460-c438-45d6-b84c-f3ca75a874a4",
               "tiles": []
             }
           ]
         },
         {
-          "id": "8220c731-eac9-4be4-915d-8f923a236f3e",
+          "id": "6b7ff5d9-91b1-414b-86e3-0111f10d1814",
           "frames": [
             {
-              "id": "8c9f26a0-b983-4398-8d73-5843ee1f9432",
+              "id": "a8131d53-4d07-4f0a-9e7b-d1b435c03ce0",
               "tiles": []
             }
           ]
         },
         {
-          "id": "1116ec8b-b545-4356-aaea-616ad528a925",
+          "id": "95b0c35c-430b-40ad-a954-3c0722e46a51",
           "frames": [
             {
-              "id": "b5ca43d9-cb95-4103-aa01-7b5da03bcd6d",
+              "id": "d98c1020-55d3-4c99-9ea3-a639f64634ef",
               "tiles": []
             }
           ]
@@ -174,9 +176,7 @@
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
-  "width": 48,
-  "height": 16,
-  "filename": "MILKHOUSE/npc002.png",
+  "filename": "milkhouse/npc002.png",
   "checksum": "36b2103b0af5cc6ca3ec3142c1f930d740778c2d",
   "numFrames": 3
 }
