@@ -3,6 +3,8 @@
   "id": "6b3d4e15-78ed-42fb-aac1-de0f3720782f",
   "name": "uiux/abutton",
   "symbol": "sprite_abutton",
+  "width": 32,
+  "height": 16,
   "states": [
     {
       "id": "cacb8bc2-0568-4bcc-9a81-da3e956d06f4",
@@ -244,8 +246,6 @@
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
-  "width": 32,
-  "height": 16,
   "filename": "uiux/abutton.png",
   "checksum": "2a78a1b7585cc8fa4483fdfbc6dbe01989f0a176",
   "numFrames": 2

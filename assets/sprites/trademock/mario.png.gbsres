@@ -3,6 +3,8 @@
   "id": "8bec02d3-4f48-4b09-a571-c585b02a89ea",
   "name": "trademock/mario",
   "symbol": "sprite_mario",
+  "width": 96,
+  "height": 32,
   "states": [
     {
       "id": "2e0fd160-fb05-476c-9166-32a1e9809a58",
@@ -418,8 +420,6 @@
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
-  "width": 96,
-  "height": 32,
   "filename": "trademock/mario.png",
   "checksum": "40366d3dd4fc5234a76f745981cc2d8cd751f786",
   "numFrames": 6

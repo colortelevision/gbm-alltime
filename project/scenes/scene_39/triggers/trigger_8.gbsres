@@ -1,0 +1,38 @@
+{
+  "_resourceType": "trigger",
+  "id": "b7be13cb-67aa-4cf7-9bcb-0865afb7ebce",
+  "name": "",
+  "prefabId": "",
+  "x": 0,
+  "y": 40,
+  "symbol": "trigger_118",
+  "prefabScriptOverrides": {},
+  "width": 1,
+  "height": 2,
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "L0"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 0
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [],
+        "false": []
+      },
+      "id": "94717451-2101-410e-a846-19a61a664f02"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 7
+}

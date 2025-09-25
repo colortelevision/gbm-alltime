@@ -3,11 +3,13 @@
   "id": "1b035c8a-5375-4312-81b4-4f017faa34ad",
   "name": "trademock/VEGETAHEAD2",
   "symbol": "sprite_vegetahead2",
+  "width": 144,
+  "height": 56,
   "states": [
     {
       "id": "1fd17784-0baf-4d7d-8528-4f2f3958402e",
       "name": "",
-      "animationType": "horizontal",
+      "animationType": "fixed",
       "flipLeft": true,
       "animations": [
         {
@@ -1040,9 +1042,6 @@
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
-  "width": 144,
-  "height": 56,
   "filename": "trademock/VEGETAHEAD2.png",
-  "checksum": "e7262ac20d089c30030e2a8369e3fe56474ed138",
-  "numFrames": 9
+  "checksum": "e7262ac20d089c30030e2a8369e3fe56474ed138"
 }
