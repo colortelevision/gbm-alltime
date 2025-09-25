@@ -3,6 +3,8 @@
   "id": "a116b118-e512-4bc3-9aa6-ab0009fb5c58",
   "name": "items/savepoint",
   "symbol": "sprite_savepoint",
+  "width": 32,
+  "height": 16,
   "states": [
     {
       "id": "c4e16ebf-c73b-4a20-a599-a0ea87a91bdf",
@@ -151,8 +153,6 @@
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
-  "width": 32,
-  "height": 16,
   "filename": "items/savepoint.png",
   "checksum": "574e3cac02d25e70610a13feba0783d7635bb839",
   "numFrames": 2

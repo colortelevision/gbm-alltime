@@ -3,6 +3,8 @@
   "id": "fd92c0a2-bde2-4af0-8d58-31b065d8d232",
   "name": "items/SHURIKEN",
   "symbol": "sprite_shuriken",
+  "width": 16,
+  "height": 32,
   "states": [
     {
       "id": "a6939b15-599f-4ca9-8926-087998a1ad06",
@@ -151,8 +153,6 @@
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
-  "width": 16,
-  "height": 32,
   "filename": "items/SHURIKEN.png",
   "checksum": "27fd654a3208426f9b46340a2c64adb70ae4dfcd",
   "numFrames": 1

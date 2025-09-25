@@ -3,11 +3,13 @@
   "id": "aa862f47-795d-4b06-ae00-76f422a79af8",
   "name": "bots/l-bot",
   "symbol": "sprite_bots_l_bot",
+  "width": 48,
+  "height": 16,
   "states": [
     {
       "id": "d914fb90-4a66-4d06-956f-5dde2297af41",
       "name": "",
-      "animationType": "horizontal_movement",
+      "animationType": "fixed",
       "flipLeft": true,
       "animations": [
         {
@@ -949,8 +951,6 @@
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
-  "width": 48,
-  "height": 16,
   "filename": "bots/l-bot.png",
   "checksum": "b5471100306b2487dd2a14d1106132144f35d53d"
 }

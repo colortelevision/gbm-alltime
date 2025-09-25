@@ -3,6 +3,8 @@
   "id": "ba385f81-bcee-4ffb-b677-696d26fb4708",
   "name": "explode",
   "symbol": "sprite_explode",
+  "width": 64,
+  "height": 16,
   "states": [
     {
       "id": "c8685d67-bb4f-48cc-bb82-ffd3e203aa79",
@@ -213,8 +215,6 @@
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
-  "width": 64,
-  "height": 16,
   "filename": "explode.png",
   "checksum": "3bb5bb170d76027fce34694c0c0d8237c189690c",
   "numFrames": 4

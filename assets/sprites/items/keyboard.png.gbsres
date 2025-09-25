@@ -3,6 +3,8 @@
   "id": "358501b3-da0d-4819-b6a4-de6918a06b9c",
   "name": "items/keyboard",
   "symbol": "sprite_keyboard",
+  "width": 32,
+  "height": 16,
   "states": [
     {
       "id": "badbc960-9bce-4647-bc0d-485b67168031",
@@ -151,8 +153,6 @@
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
-  "width": 32,
-  "height": 16,
   "filename": "items/keyboard.png",
   "checksum": "d34424c9198884f4d77733646ce8e5206cb1fdc3",
   "numFrames": 2
