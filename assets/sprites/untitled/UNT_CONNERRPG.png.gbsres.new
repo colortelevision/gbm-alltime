@@ -1,47 +1,47 @@
 {
   "_resourceType": "sprite",
-  "id": "b5497ca9-579d-4c5f-9a68-5abf24837944",
-  "name": "untitled/CONNERRPG",
-  "symbol": "sprite_connerrpg",
+  "id": "a2613020-9b66-40c2-99ad-bdb9a7fc0918",
+  "name": "untitled/UNT_CONNERRPG",
+  "symbol": "sprite_unt_connerrpg",
   "width": 112,
   "height": 16,
   "states": [
     {
-      "id": "0e4e1d3c-7141-400c-bd9c-15788b623c96",
+      "id": "3aba40f7-de39-4427-a966-4e6de9c2d6f1",
       "name": "",
       "animationType": "multi_movement",
       "flipLeft": true,
       "animations": [
         {
-          "id": "aaabb7f9-2bf8-424c-a53a-aa3dc5f243d0",
+          "id": "02717308-03e4-4540-b2b8-d97acd4bcb3c",
           "frames": [
             {
-              "id": "1045cd0b-f869-45fc-b826-b6e2dec69319",
+              "id": "157c430e-c697-4454-bc1f-205e91724cba",
               "tiles": [
                 {
-                  "id": "4d5be6b9-b195-4e59-9080-a9ff60e260b9",
-                  "x": -1,
+                  "id": "10d4f5b1-0991-4593-8c5d-0358456d57ea",
+                  "x": 0,
                   "y": 0,
-                  "sliceX": 64,
+                  "sliceX": 0,
                   "sliceY": 0,
-                  "palette": 0,
                   "flipX": false,
                   "flipY": false,
-                  "objPalette": "OBP0",
+                  "palette": 0,
                   "paletteIndex": 0,
+                  "objPalette": "OBP0",
                   "priority": false
                 },
                 {
-                  "id": "95d22ee8-3523-44c1-9f5a-3b43f6b5b6ac",
-                  "x": 7,
+                  "id": "ea1cb769-fb46-427f-ae30-6a5392c77bb1",
+                  "x": 8,
                   "y": 0,
-                  "sliceX": 72,
+                  "sliceX": 8,
                   "sliceY": 0,
-                  "palette": 0,
                   "flipX": false,
                   "flipY": false,
-                  "objPalette": "OBP0",
+                  "palette": 0,
                   "paletteIndex": 0,
+                  "objPalette": "OBP0",
                   "priority": false
                 }
               ]
@@ -49,64 +49,64 @@
           ]
         },
         {
-          "id": "a8466d2b-0f15-490b-ab7a-07fe1c573a2c",
+          "id": "bb3eae7f-ca78-4513-bdb3-d4335c5d4b0e",
           "frames": [
             {
-              "id": "968c8915-dc1c-43a1-bf59-7ca315b7cf46",
+              "id": "a7067e86-47c5-48d6-8ae7-b4bed1388ca8",
               "tiles": []
             }
           ]
         },
         {
-          "id": "ee19f974-15d7-4c6f-80ec-8afa7a11d6e3",
+          "id": "75a92068-255e-4d98-8a50-2fd3a12f8b9b",
           "frames": [
             {
-              "id": "429779ae-be38-4f16-87c1-4266d426f620",
+              "id": "057d28a0-03b1-4da1-b46e-2c0ce2d8fb93",
               "tiles": []
             }
           ]
         },
         {
-          "id": "244e7018-ae6f-434c-ac1e-4c86a2df23de",
+          "id": "af0f7df9-f76c-41b6-8247-8feff0623057",
           "frames": [
             {
-              "id": "4eabe104-0fd3-4509-8666-486f5398131c",
+              "id": "9a947463-6a4d-4b2e-8025-b3cec9771989",
               "tiles": []
             }
           ]
         },
         {
-          "id": "56e6f55b-29b3-40a6-9709-8ef051544be8",
+          "id": "702fc508-e131-4710-a4e1-92badf13877e",
           "frames": [
             {
-              "id": "77104104-cd96-4465-a34d-7426c9991866",
+              "id": "7bd089b1-ca74-4dc1-98e7-f4917e2c0b37",
               "tiles": []
             }
           ]
         },
         {
-          "id": "b5a7c845-475c-4569-aea1-f96d9f17323b",
+          "id": "f452b044-e9c6-45c1-8101-571ee7a001e1",
           "frames": [
             {
-              "id": "c2d49a69-a3d8-4232-a310-7c204496549b",
+              "id": "1733a505-0429-48e7-992f-bcaeb3999f60",
               "tiles": []
             }
           ]
         },
         {
-          "id": "b018d92d-fb00-4d5a-a3e4-36df90dc74c4",
+          "id": "e89c6c63-2d17-4d97-8322-9e0aa1ccc2c9",
           "frames": [
             {
-              "id": "274513cc-46a4-4d40-a2bc-9a4b557b69d7",
+              "id": "a14cde8f-3089-487f-b985-30973646855b",
               "tiles": []
             }
           ]
         },
         {
-          "id": "cc13db7e-c803-4701-92bc-26f9ad37f859",
+          "id": "7b9d9f11-253f-4390-ab4d-22064c031a44",
           "frames": [
             {
-              "id": "121afa84-0a14-4098-b122-fac505a6c7c1",
+              "id": "31005a04-20e3-45c2-b8fd-95d53e0d1562",
               "tiles": []
             }
           ]
@@ -122,7 +122,7 @@
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
-  "filename": "untitled/CONNERRPG.png",
-  "checksum": "57c73462383d78c37cefc67c4a054d87b2c5d136",
+  "filename": "untitled/UNT_CONNERRPG.png",
+  "checksum": "cb301966a3b598642c10321f203a617b487a79bb",
   "numFrames": 7
 }
