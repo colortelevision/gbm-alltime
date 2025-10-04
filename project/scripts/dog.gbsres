@@ -1,0 +1,72 @@
+{
+  "_resourceType": "script",
+  "id": "7e81ad58-0076-4c57-892c-a387c8862d41",
+  "name": "dog",
+  "description": "",
+  "variables": {},
+  "actors": {
+    "9": {
+      "id": "9",
+      "name": "Actor J"
+    }
+  },
+  "symbol": "script_13",
+  "script": [
+    {
+      "command": "EVENT_IF_ACTOR_AT_POSITION",
+      "args": {
+        "actorId": "9",
+        "x": {
+          "type": "number",
+          "value": 89
+        },
+        "y": {
+          "type": "number",
+          "value": 4
+        },
+        "__collapseElse": false,
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "9",
+              "__collapse": false
+            },
+            "id": "d246a952-5663-4238-8a27-cff91130e6fa"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_ACTOR_ACTIVATE",
+            "args": {
+              "actorId": "9"
+            },
+            "id": "9d1a64a9-6f00-4ef0-8075-c4fedb9fcf04"
+          },
+          {
+            "command": "EVENT_ACTOR_MOVE_TO",
+            "args": {
+              "actorId": "9",
+              "x": {
+                "type": "number",
+                "value": 89
+              },
+              "y": {
+                "type": "number",
+                "value": 4
+              },
+              "moveType": "horizontal",
+              "useCollisions": false,
+              "__collapse": false
+            },
+            "id": "6b2109fd-be72-4b77-ac46-4def190d1fad"
+          }
+        ]
+      },
+      "id": "1408e0a8-4d28-410f-92e9-73f7441e76cf"
+    }
+  ]
+}

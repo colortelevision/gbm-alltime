@@ -1,0 +1,179 @@
+{
+  "_resourceType": "script",
+  "id": "15bae85c-451b-4a1a-8d39-e59a6d00d04c",
+  "name": "dealerDeal",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_12",
+  "script": [
+    {
+      "command": "EVENT_LOOP_WHILE",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "74"
+          },
+          "valueB": {
+            "type": "true"
+          }
+        }
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "I CAN SELL YOU A GRAM OF\nCOCAINE FOR 50 BUCKS"
+              ],
+              "__section": "behavior",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "any",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "dda55998-123e-4849-84b7-a44afe0671fd"
+          },
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "gte",
+                "valueA": {
+                  "type": "variable",
+                  "value": "69"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 50
+                }
+              },
+              "__collapseElse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_MENU",
+                  "args": {
+                    "variable": "75",
+                    "items": 2,
+                    "option1": "make deal",
+                    "option2": "later",
+                    "option3": "",
+                    "option4": "",
+                    "option5": "",
+                    "option6": "",
+                    "option7": "",
+                    "option8": "",
+                    "cancelOnB": true,
+                    "layout": "menu",
+                    "cancelOnLastOption": true
+                  },
+                  "id": "25393997-e0e6-4a4f-806c-a2367cc9c757"
+                },
+                {
+                  "command": "EVENT_IF",
+                  "args": {
+                    "condition": {
+                      "type": "variable",
+                      "value": "75"
+                    },
+                    "__collapseElse": true
+                  },
+                  "children": {
+                    "true": [
+                      {
+                        "command": "EVENT_SOUND_PLAY_EFFECT",
+                        "args": {
+                          "type": "aa80f280-1e51-4fae-8d88-20cd5fcd65ef",
+                          "priority": "medium",
+                          "pitch": 4,
+                          "frequency": 200,
+                          "duration": 0.5,
+                          "wait": true,
+                          "effect": 0
+                        },
+                        "id": "0ea395ea-dba0-4cee-bab5-c745e825bcf2"
+                      },
+                      {
+                        "command": "EVENT_VARIABLE_MATH",
+                        "args": {
+                          "vectorX": "69",
+                          "operation": "sub",
+                          "other": "val",
+                          "vectorY": "V0",
+                          "value": 50,
+                          "minValue": "0",
+                          "maxValue": "32767",
+                          "clamp": false
+                        },
+                        "id": "088bf324-084a-4dab-b541-9d391d2b1f36"
+                      },
+                      {
+                        "command": "EVENT_INC_VALUE",
+                        "args": {
+                          "variable": "72"
+                        },
+                        "id": "9229a78b-357a-4e3f-bca8-286b1bb239cb"
+                      },
+                      {
+                        "command": "EVENT_SET_VALUE",
+                        "args": {
+                          "variable": "74",
+                          "value": {
+                            "type": "false"
+                          }
+                        },
+                        "id": "f6d2fc5c-b85b-4596-b094-cb4ca01650fd"
+                      }
+                    ],
+                    "false": []
+                  },
+                  "id": "9fc36ad6-a50e-45e6-8e70-b6416e1cb86d"
+                },
+                {
+                  "command": "EVENT_SET_VALUE",
+                  "args": {
+                    "variable": "74",
+                    "value": {
+                      "type": "false"
+                    }
+                  },
+                  "id": "54b7fceb-ef44-4c2d-b2dc-e493bff0cc6e"
+                }
+              ],
+              "false": [
+                {
+                  "command": "EVENT_SET_VALUE",
+                  "args": {
+                    "variable": "74",
+                    "value": {
+                      "type": "false"
+                    }
+                  },
+                  "id": "c52e232b-ab9a-48c7-856f-3d576cd0750d"
+                }
+              ]
+            },
+            "id": "b2bea643-6713-415a-a592-8bee50c2c05d"
+          }
+        ]
+      },
+      "id": "9fb29c9e-02e3-45ad-add4-e3ce055bf938"
+    }
+  ]
+}

@@ -7,7 +7,6 @@
   "startAnimSpeed": 15,
   "startDirection": "right",
   "showCollisionExtraTiles": false,
-  "showCollisionTileValues": false,
   "collisionLayerOpacity": 50,
   "sgbEnabled": false,
   "customHead": "",
@@ -92,14 +91,9 @@
     "Shift"
   ],
   "colorMode": "color",
-  "colorCorrection": "default",
   "generateDebugFilesEnabled": false,
   "compilerPreset": 3000,
   "scriptEventPresets": {},
   "scriptEventDefaultPresets": {},
-  "runSceneSelectionOnly": false,
-  "spriteMode": "8x16",
-  "openBuildFolderOnExport": true,
-  "showRomUsageAfterBuild": false,
-  "romFilename": ""
+  "runSceneSelectionOnly": false
 }

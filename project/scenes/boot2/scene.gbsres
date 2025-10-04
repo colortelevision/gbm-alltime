@@ -1,25 +1,25 @@
 {
   "_resourceType": "scene",
-  "id": "e781dccc-4d86-422e-b110-3735f0192c9c",
-  "_index": 20,
+  "id": "63f8a012-7294-4e37-9c1c-fb2597f8bd58",
+  "_index": 12,
   "type": "TOPDOWN",
-  "name": "BOOT",
-  "symbol": "scene_21",
-  "x": 824,
-  "y": 672,
+  "name": "BOOT2",
+  "symbol": "scene_13",
+  "x": 1008,
+  "y": 664,
   "width": 20,
   "height": 18,
-  "backgroundId": "f3e7d93c-e318-4f6d-bf8d-e4924a316048",
+  "backgroundId": "6ea93da3-4595-4d0d-b2c6-fa1fafd71c55",
   "tilesetId": "",
   "colorModeOverride": "none",
   "paletteIds": [
-    "default-bg-1",
-    "default-bg-2",
-    "default-bg-3",
-    "default-bg-4",
+    "",
+    "",
+    "",
+    "",
     "07738087-47c4-485d-9c44-fa4fa02f1438",
     "10af623f-c012-4f2e-a443-0c79dd1f6b78",
-    "32bc1c98-3d87-4208-9fb1-f4c7c7bbbd94",
+    "",
     "20ade3d2-1055-4d5c-9623-846acfb0f491"
   ],
   "spritePaletteIds": [
@@ -36,7 +36,7 @@
         "__comment": true,
         "__collapse": false
       },
-      "id": "1743eda6-4c58-4f06-85c5-2a25c9e87961"
+      "id": "2a503666-f571-4d40-87d9-8ac21c4cf853"
     },
     {
       "command": "EVENT_TEXT_SET_SOUND_EFFECT",
@@ -48,7 +48,7 @@
         "effect": 0,
         "__collapse": true
       },
-      "id": "95176fb5-09b7-4bd0-a935-d76227e0a376"
+      "id": "0ea92f44-a96b-4249-9c2b-cde9e2e9c173"
     },
     {
       "command": "EVENT_SOUND_PLAY_EFFECT",
@@ -62,10 +62,10 @@
         "effect": 0,
         "__collapse": true
       },
-      "id": "1050bfb6-c976-4e94-9943-8c2ceeed642a"
+      "id": "cbfb3849-2c80-4b49-8a96-5ca5833e6cf1"
     },
     {
-      "id": "d8788d82-7161-42bb-924d-1e7c62104b54",
+      "id": "9df148f5-6c58-4991-a452-16b9112995f0",
       "command": "EVENT_GROUP",
       "args": {
         "__collapse": true
@@ -85,7 +85,7 @@
               },
               "__collapse": false
             },
-            "id": "da49d36f-6d6d-4dfe-8681-20ef3d00f2ac"
+            "id": "a407488a-7d02-4eaf-9287-4bce64e4ab28"
           },
           {
             "command": "EVENT_PALETTE_SET_BACKGROUND",
@@ -100,7 +100,7 @@
               "palette7": "keep",
               "__collapse": false
             },
-            "id": "f57c1b19-1cdf-4afb-9a08-ad1bde01d2f5"
+            "id": "c908d2c7-29eb-4d88-aad6-53bba4a00212"
           },
           {
             "command": "EVENT_WAIT",
@@ -115,7 +115,7 @@
               },
               "__collapse": false
             },
-            "id": "8d87b19e-2cee-422d-889a-617366e37634"
+            "id": "01d15764-8046-4f53-b2ff-990c01d68e33"
           },
           {
             "command": "EVENT_PALETTE_SET_BACKGROUND",
@@ -130,7 +130,7 @@
               "palette7": "keep",
               "__collapse": true
             },
-            "id": "873c1f52-242a-4468-854e-ef1a0a5f3605"
+            "id": "3244a5f2-2610-4610-9f9b-8427ac01ce1c"
           },
           {
             "command": "EVENT_WAIT",
@@ -145,7 +145,7 @@
               },
               "__collapse": false
             },
-            "id": "217a9067-d9df-4744-804b-6ce163e6ff8b"
+            "id": "95f3d2b4-99c5-4efd-9c5c-66030d7bbf28"
           },
           {
             "command": "EVENT_PALETTE_SET_BACKGROUND",
@@ -160,7 +160,7 @@
               "palette7": "keep",
               "__collapse": false
             },
-            "id": "f874cf62-fb43-4486-a2d9-2d1be82583d7"
+            "id": "f2b2056d-9729-4f33-a1c7-a7c4f1b70df7"
           },
           {
             "command": "EVENT_WAIT",
@@ -175,7 +175,7 @@
               },
               "__collapse": true
             },
-            "id": "7606c863-c3ef-45e3-9dbd-7290c9ff1d79"
+            "id": "26aa8c9f-4834-46fc-b0b9-ed475a852411"
           },
           {
             "command": "EVENT_PALETTE_SET_BACKGROUND",
@@ -190,7 +190,7 @@
               "palette7": "keep",
               "__collapse": true
             },
-            "id": "cce55e11-c47d-472d-9daf-eb9fae96748d"
+            "id": "c9994e69-e0f6-43e4-a640-d42383a8e992"
           },
           {
             "command": "EVENT_WAIT",
@@ -205,7 +205,7 @@
               },
               "__collapse": false
             },
-            "id": "5211574a-d992-4d06-8854-87a5d8805e3c"
+            "id": "99949153-aac1-4d90-b788-d81cfef94de7"
           },
           {
             "command": "EVENT_PALETTE_SET_BACKGROUND",
@@ -220,7 +220,7 @@
               "palette7": "keep",
               "__collapse": false
             },
-            "id": "4b548dd9-de3c-497f-aa7f-3d08dbdfa08f"
+            "id": "31c2021e-0829-41af-b235-fcbf6c2f4a26"
           }
         ]
       }
@@ -238,7 +238,7 @@
         },
         "__collapse": true
       },
-      "id": "d5f4b625-f18c-419f-b866-60eaae16901f"
+      "id": "38826c7d-da64-4443-88ce-40ad6c56abb0"
     },
     {
       "command": "EVENT_TEXT_DRAW",
@@ -249,7 +249,7 @@
         "location": "background",
         "__collapse": true
       },
-      "id": "8d94d666-d742-4b43-ba96-3b7c45c46f0b"
+      "id": "54839bd1-e71b-435b-891a-05b3c13198f6"
     },
     {
       "command": "EVENT_SET_TIMER_SCRIPT",
@@ -257,8 +257,7 @@
         "timer": 1,
         "duration": 7,
         "frames": 30,
-        "__scriptTabs": "end",
-        "__collapse": true
+        "__scriptTabs": "end"
       },
       "children": {
         "script": [
@@ -277,11 +276,11 @@
               "direction": "",
               "fadeSpeed": "2"
             },
-            "id": "d9396ec5-b129-4c25-9429-651930a38c11"
+            "id": "5b9d092b-7f77-4f12-86b8-7a3629a80e2f"
           }
         ]
       },
-      "id": "865d683a-cac2-40d3-af3c-6c12076dfcf8"
+      "id": "4c7fe4d9-9ea9-4b3c-80aa-4d91a442ecb8"
     },
     {
       "command": "EVENT_SET_INPUT_SCRIPT",
@@ -304,9 +303,9 @@
               "duration": 0.2,
               "wait": false,
               "effect": 0,
-              "__collapse": false
+              "__collapse": true
             },
-            "id": "82930c4e-8a67-43ca-b705-a55b3098e074"
+            "id": "ab513008-f5f8-4c93-ae5d-a75bbd23de31"
           },
           {
             "command": "EVENT_SWITCH_SCENE",
@@ -323,11 +322,11 @@
               "direction": "",
               "fadeSpeed": 0
             },
-            "id": "32258537-5f5d-4263-9005-bc535d9f1316"
+            "id": "fac0eb0e-75d3-419e-8aa4-1a8392de914e"
           }
         ]
       },
-      "id": "27c63030-5bf8-498b-8e5b-a85c22fe3d8f"
+      "id": "ed88c40e-483b-4144-8b72-47746ebd3da9"
     }
   ],
   "playerHit1Script": [],

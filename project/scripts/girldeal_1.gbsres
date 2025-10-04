@@ -1,0 +1,181 @@
+{
+  "_resourceType": "script",
+  "id": "fc32d64e-9b06-479f-b586-ee522cba6bd7",
+  "name": "girlDeal_1",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_11",
+  "script": [
+    {
+      "command": "EVENT_LOOP_WHILE",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "73"
+          },
+          "valueB": {
+            "type": "true"
+          }
+        }
+      },
+      "children": {
+        "true": [
+          {
+            "id": "cf11aff1-0a25-43d1-9bbe-058eef09a1b1",
+            "command": "EVENT_GROUP",
+            "args": {},
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "HI, CAN YOU SELL ME SOME\nCOCAINE?? I NEED SOME!!\nI CAN GIVE YOU 100 BUCKS\nFOR A GRAMM! PLEASE!!"
+                    ],
+                    "__section": "text",
+                    "avatarId": "",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "any",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30,
+                    "__collapse": true
+                  },
+                  "id": "0074b8fb-2bc3-4db2-a4b7-793c92c62ede"
+                },
+                {
+                  "command": "EVENT_IF",
+                  "args": {
+                    "condition": {
+                      "type": "gte",
+                      "valueA": {
+                        "type": "variable",
+                        "value": "72"
+                      },
+                      "valueB": {
+                        "type": "number",
+                        "value": 1
+                      }
+                    },
+                    "__collapseElse": false,
+                    "__collapse": true
+                  },
+                  "children": {
+                    "true": [
+                      {
+                        "command": "EVENT_CHOICE",
+                        "args": {
+                          "variable": "71",
+                          "trueText": "MAKE THAT DEAL",
+                          "falseText": "NOT RIGHT NOW",
+                          "__collapse": false
+                        },
+                        "id": "7a8b7f85-b9eb-471a-b2f4-373efee483eb"
+                      },
+                      {
+                        "command": "EVENT_IF",
+                        "args": {
+                          "condition": {
+                            "type": "variable",
+                            "value": "71"
+                          },
+                          "__collapseElse": false
+                        },
+                        "children": {
+                          "true": [
+                            {
+                              "command": "EVENT_VARIABLE_MATH",
+                              "args": {
+                                "vectorX": "69",
+                                "operation": "add",
+                                "other": "val",
+                                "vectorY": "V0",
+                                "value": 100,
+                                "minValue": "0",
+                                "maxValue": "32767",
+                                "clamp": false
+                              },
+                              "id": "e6df42e4-2dcf-46b1-8535-85f4585ae842"
+                            },
+                            {
+                              "command": "EVENT_DEC_VALUE",
+                              "args": {
+                                "variable": "72"
+                              },
+                              "id": "dcfc8b6e-a6c6-4f27-b42c-c9e6ad6b6966"
+                            },
+                            {
+                              "command": "EVENT_SET_VALUE",
+                              "args": {
+                                "variable": "73",
+                                "value": {
+                                  "type": "false"
+                                },
+                                "__comment": true
+                              },
+                              "id": "5f023a06-5397-48be-8080-8a444ad77617"
+                            }
+                          ],
+                          "false": [
+                            {
+                              "command": "EVENT_SET_VALUE",
+                              "args": {
+                                "variable": "73",
+                                "value": {
+                                  "type": "false"
+                                }
+                              },
+                              "id": "1fa92c4c-ca04-47f6-b7ac-88ee573a667d"
+                            }
+                          ]
+                        },
+                        "id": "7b13ee95-346e-4585-9036-fd874d6f5289"
+                      }
+                    ],
+                    "false": [
+                      {
+                        "command": "EVENT_SET_VALUE",
+                        "args": {
+                          "variable": "73",
+                          "value": {
+                            "type": "false"
+                          }
+                        },
+                        "id": "6a5bc827-6584-4bf4-a9dd-afa2ad5d9476"
+                      }
+                    ]
+                  },
+                  "id": "991bfc47-5516-4156-bebc-8b853e43d377"
+                },
+                {
+                  "command": "EVENT_SET_VALUE",
+                  "args": {
+                    "variable": "73",
+                    "value": {
+                      "type": "false"
+                    },
+                    "__collapse": true
+                  },
+                  "id": "28b18f4c-4884-4101-8484-faba2988b866"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "id": "491b1195-7880-4e71-bfac-0bb648d1659a"
+    }
+  ]
+}

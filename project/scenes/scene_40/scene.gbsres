@@ -1,0 +1,57 @@
+{
+  "_resourceType": "scene",
+  "id": "40299e04-9053-4959-a5d1-461584156752",
+  "_index": 39,
+  "name": "Scene 40",
+  "backgroundId": "c882b493-061b-46c9-b80d-d0222632fd85",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "POINTNCLICK",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_40",
+  "x": 2800,
+  "y": 1160,
+  "script": [
+    {
+      "command": "EVENT_TEXT_DRAW",
+      "args": {
+        "text": "ENERGY:   ... $68$\nCOINS:    ... $69$\nCOCAINE:  ... $72$\n",
+        "x": 1,
+        "y": 3,
+        "location": "background"
+      },
+      "id": "7ae57675-d25c-4e7a-945b-304d7f9885ba"
+    },
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "b",
+          "start",
+          "select"
+        ],
+        "override": true,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SCENE_POP_STATE",
+            "args": {
+              "fadeSpeed": "2"
+            },
+            "id": "be5f4cc5-65cf-4943-b65c-4c724041ccab"
+          }
+        ]
+      },
+      "id": "f4e88cbb-d65a-4a3c-9838-58b4a300c1a0"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

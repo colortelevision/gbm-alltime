@@ -1,0 +1,102 @@
+{
+  "_resourceType": "actor",
+  "id": "961a6930-7b55-4969-9842-78c8d3fda44b",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "d219d29a-b959-4284-b7d5-7cc92cc7c5a6",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_44",
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "variable",
+          "value": "55"
+        },
+        "__collapseElse": false,
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "40299e04-9053-4959-a5d1-461584156752",
+              "x": {
+                "type": "number",
+                "value": 2
+              },
+              "y": {
+                "type": "number",
+                "value": 5
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "7df07fe7-cff9-443d-b839-c3fdcfbd6761"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_SOUND_PLAY_EFFECT",
+            "args": {
+              "type": "7ee2ef67-1892-4bf5-b090-8b5b4009be9d",
+              "priority": "medium",
+              "pitch": 4,
+              "frequency": 200,
+              "duration": 0.5,
+              "wait": true,
+              "effect": 0
+            },
+            "id": "ddf61998-41db-4db5-8e1b-ec3fab45cc07"
+          }
+        ]
+      },
+      "id": "4e3b6f8f-3108-4262-bc78-54c7510f0d37"
+    }
+  ],
+  "startScript": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "variable",
+          "value": "55"
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_SET_STATE",
+            "args": {
+              "actorId": "961a6930-7b55-4969-9842-78c8d3fda44b",
+              "spriteStateId": "on",
+              "loopAnim": false
+            },
+            "id": "9dd1117e-e06e-45c9-a13a-979e5dde8663"
+          }
+        ],
+        "false": []
+      },
+      "id": "56e6435e-a0d7-4ac7-b6d5-93715fcab4e7"
+    }
+  ],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 3,
+  "y": 12,
+  "_index": 0
+}
