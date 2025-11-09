@@ -1,85 +1,83 @@
 {
   "_resourceType": "sprite",
-  "id": "fbf9bd2c-0b9a-4534-98f4-2dc214371130",
+  "id": "f34302e7-438f-445d-b912-c8f21cc90100",
   "name": "MILKHOUSE/AKD_103122 singer ",
-  "symbol": "sprite_akd_103122_singer_",
-  "width": 36,
-  "height": 64,
+  "symbol": "sprite_milkhouse_akd_0",
   "states": [
     {
-      "id": "bc11c404-b254-4947-99b5-6e089775fa46",
+      "id": "3296ff61-cb40-4feb-b7ce-9442a2827879",
       "name": "",
       "animationType": "multi_movement",
       "flipLeft": true,
       "animations": [
         {
-          "id": "4be6bab9-fc74-45a6-b15f-022dced69732",
+          "id": "aaa93700-ae75-4f80-85d2-1c23d9bcc172",
           "frames": [
             {
-              "id": "f87e010e-b30f-49db-8a5a-cb8d4694c003",
+              "id": "50fb4275-c654-4ca4-8c5b-de43fca1fa28",
               "tiles": []
             }
           ]
         },
         {
-          "id": "c4e0e128-256c-4a48-9937-9aa49f92f7ae",
+          "id": "49ee1ee5-6382-4a72-bb99-16a85125b907",
           "frames": [
             {
-              "id": "a3f1a09d-1240-4488-b4c0-0452324242b2",
+              "id": "6a9aee53-a17a-4dd2-8f70-a8bda89c2ed5",
               "tiles": []
             }
           ]
         },
         {
-          "id": "3ca52012-3fec-4a6c-a506-9acda9da01bd",
+          "id": "ec199865-fdd8-49ff-af8e-da6de931b6e3",
           "frames": [
             {
-              "id": "46604f5a-1c16-467c-ade9-8629d219649b",
+              "id": "605c165a-77b8-4fdf-85df-1e1ff09bbe1a",
               "tiles": []
             }
           ]
         },
         {
-          "id": "d3594c47-7d5b-48d2-adca-835dc5b51f87",
+          "id": "47bcfa2c-f76a-4611-a8d4-3142e2feec39",
           "frames": [
             {
-              "id": "5f585015-c3a4-4656-a4d3-ad99df248912",
+              "id": "26921813-2811-417c-9919-1b05d04a92b0",
               "tiles": []
             }
           ]
         },
         {
-          "id": "de0c6b94-3734-4d93-a7d0-bf824c827401",
+          "id": "a745aae4-2ce4-4922-9513-e8d973bba966",
           "frames": [
             {
-              "id": "31bfc4f6-259c-41de-8a98-8619d9a1eb78",
+              "id": "d2d11325-1a24-47ed-b8c0-9b922e103a37",
               "tiles": []
             }
           ]
         },
         {
-          "id": "403eb10b-24f0-4962-8106-13936a2267d1",
+          "id": "75c69bd8-bb1e-4b39-94d3-f6ad62189aa8",
           "frames": [
             {
-              "id": "42ace16b-23c2-47f3-b48b-54578c740f4a",
+              "id": "1bdfee90-3175-4857-90a6-2657f5391e43",
               "tiles": []
             }
           ]
         },
         {
-          "id": "5ee16a7f-615b-421a-b43c-73b043649cac",
+          "id": "8a3fd90f-4c57-44e3-9603-b0a2774d1a83",
           "frames": [
             {
-              "id": "11349b56-5778-4613-9173-b88f00985e71",
+              "id": "053c5ef1-b829-4422-9ef1-f6a15a316c38",
               "tiles": []
             }
           ]
         },
         {
-          "id": "d6e6a645-ef59-448c-889c-7d8a21c75b05",
+          "id": "66d24d15-6ef8-4f58-8a10-b11d409abbc0",
           "frames": [
             {
-              "id": "d0c28a21-7b82-4fa0-8272-8ed8b106f0d2",
+              "id": "b6ca7db2-4dc3-4431-93fd-fcf965a964df",
               "tiles": []
             }
           ]
@@ -88,14 +86,17 @@
     }
   ],
   "numTiles": 0,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
   "canvasWidth": 32,
   "canvasHeight": 32,
   "boundsX": 0,
-  "boundsY": 0,
+  "boundsY": -8,
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
-  "filename": "milkhouse/AKD_103122 singer .png",
-  "checksum": "dc719a5a00e8cb2492508fac235f15825c8de598",
-  "numFrames": 2.25
+  "filename": "MILKHOUSE/AKD_103122 singer .png",
+  "width": 36,
+  "height": 64,
+  "checksum": "dc719a5a00e8cb2492508fac235f15825c8de598"
 }

@@ -1,85 +1,83 @@
 {
   "_resourceType": "sprite",
-  "id": "2709b69f-32aa-49ce-99dd-52f89ce55f9a",
+  "id": "c2ecdbca-e499-4565-9291-3d8d227b87df",
   "name": "25TAGZ/tilesets/cavern",
   "symbol": "sprite_25tagz_tilesets_cave",
-  "width": 128,
-  "height": 40,
   "states": [
     {
-      "id": "2b54362a-e886-4184-ac38-a283f5c803a1",
+      "id": "27eba6f5-c749-4c64-9147-1f06763c7b5b",
       "name": "",
       "animationType": "multi_movement",
       "flipLeft": true,
       "animations": [
         {
-          "id": "4af535a8-1021-4a28-84fb-d9a1317d83ae",
+          "id": "b14938f3-32ea-4343-ad57-b9022a8f3c00",
           "frames": [
             {
-              "id": "f0d8b6f1-4461-4f70-ad8d-b4b7184462fc",
+              "id": "b09e4cb0-8c1b-4afd-bcdd-f1af130efa35",
               "tiles": []
             }
           ]
         },
         {
-          "id": "e18f995a-f919-4e6a-9e5f-062e9161be73",
+          "id": "1007e6e4-adc1-4c9a-bb4c-012f30e197eb",
           "frames": [
             {
-              "id": "98b9fe4a-ab5c-4e1c-879e-141ef52c729f",
+              "id": "a67d62ee-99e0-4e95-86d6-13a5fc1ef45a",
               "tiles": []
             }
           ]
         },
         {
-          "id": "491b0991-37ae-450f-9907-df002436f1fd",
+          "id": "44929522-7b90-44aa-820f-f335a09d1108",
           "frames": [
             {
-              "id": "d096d68d-2480-475c-8412-63c9e5b5237c",
+              "id": "f34d43b9-8651-445f-96ab-eb580347e110",
               "tiles": []
             }
           ]
         },
         {
-          "id": "2f5c3a87-cf47-4bd6-947f-7233a7363907",
+          "id": "e3f557b4-d752-4b48-a362-2d738762c05f",
           "frames": [
             {
-              "id": "b9aeec63-212e-47c9-8474-752bead4eef7",
+              "id": "e9d52ecf-7937-4315-aedd-31ffd75e9bf8",
               "tiles": []
             }
           ]
         },
         {
-          "id": "85829652-8d37-46b3-aacc-6d759754767a",
+          "id": "1a8b76b5-418d-4556-a911-1f3d2067886a",
           "frames": [
             {
-              "id": "51244a75-94f7-4727-bf65-102a543c6c64",
+              "id": "d16d914f-10bb-410e-9e40-6948c1db9e3e",
               "tiles": []
             }
           ]
         },
         {
-          "id": "3f191a4f-2f42-4a53-955e-da9cf2747f70",
+          "id": "ed4437e4-3337-4b16-969f-5d2c573794c7",
           "frames": [
             {
-              "id": "edadad79-53d8-4973-aaeb-1d055fc66ae5",
+              "id": "0f5158c2-fe92-4896-a368-6e960d3bc46d",
               "tiles": []
             }
           ]
         },
         {
-          "id": "abad377b-47fb-44a8-b096-1b092ba10533",
+          "id": "bd7ff886-90cf-47c2-a04b-d0b6ac472c29",
           "frames": [
             {
-              "id": "107b2a01-c472-4c28-ab8e-208c1a2aa845",
+              "id": "ca7519e8-60b1-49e4-9665-8a136797d5a1",
               "tiles": []
             }
           ]
         },
         {
-          "id": "d645db8c-19ee-442d-8c4c-ad37e3eb7bac",
+          "id": "d3a076bf-b212-4b69-896e-fafc98f67100",
           "frames": [
             {
-              "id": "8a2be7d6-d923-489f-85cc-247665540533",
+              "id": "93085aee-3547-436d-b9b8-03b4935d67e8",
               "tiles": []
             }
           ]
@@ -88,14 +86,17 @@
     }
   ],
   "numTiles": 0,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
   "canvasWidth": 32,
   "canvasHeight": 32,
   "boundsX": 0,
-  "boundsY": 0,
+  "boundsY": -8,
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
-  "filename": "25tagz/tilesets/cavern.png",
-  "checksum": "1b879b59f272704af3c0757f7815af031830f7a7",
-  "numFrames": 8
+  "filename": "25TAGZ/tilesets/cavern.png",
+  "width": 128,
+  "height": 40,
+  "checksum": "1b879b59f272704af3c0757f7815af031830f7a7"
 }

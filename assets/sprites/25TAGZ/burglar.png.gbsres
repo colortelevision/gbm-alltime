@@ -1,85 +1,83 @@
 {
   "_resourceType": "sprite",
-  "id": "dcd3b83b-dd6e-40e8-8dc4-f49f2a2f992d",
+  "id": "81025332-84f4-4281-8e74-dd4cee14b8ff",
   "name": "25TAGZ/burglar",
   "symbol": "sprite_25tagz_burglar",
-  "width": 56,
-  "height": 56,
   "states": [
     {
-      "id": "3cc74b72-cfb9-4e46-a4de-41eed36f8fb0",
+      "id": "241a8dd6-f4c9-44cd-939c-f7455582499c",
       "name": "",
       "animationType": "multi_movement",
       "flipLeft": true,
       "animations": [
         {
-          "id": "68895c8e-5a2a-4e3d-b3cc-1c3f98c2f6f4",
+          "id": "76b83fe3-f363-4c4f-8a98-82259e728291",
           "frames": [
             {
-              "id": "07b2e960-5e4d-48c8-9a55-baf11f1f470a",
+              "id": "c872b35f-1e72-45f0-b872-ceb14e6a8934",
               "tiles": []
             }
           ]
         },
         {
-          "id": "de4a694d-8101-4f8b-8abb-ac0b144a4deb",
+          "id": "8d9b7642-1cb5-4fbd-97e8-9b53c34003f6",
           "frames": [
             {
-              "id": "a901a913-5e52-467d-a800-dc5d9ddfba3e",
+              "id": "9bf77258-0e1c-47e6-88b2-e4ee9024e73b",
               "tiles": []
             }
           ]
         },
         {
-          "id": "f62fa6e4-0a34-4b51-bb32-da78012b8338",
+          "id": "20f6ba9e-1feb-4ace-a0c6-cf805651607c",
           "frames": [
             {
-              "id": "bb2e50de-6d7b-4524-bc4a-ddb8aa066b30",
+              "id": "db66afca-ee91-4f2c-ad28-be9b85fe1d09",
               "tiles": []
             }
           ]
         },
         {
-          "id": "5588e455-cd46-4739-a596-9792c1fd0bd7",
+          "id": "95f6a561-cb5e-4807-ba15-2791980b5eb8",
           "frames": [
             {
-              "id": "eaffd2bf-9824-4924-95c8-97232e8839d9",
+              "id": "d4fe8faf-aef6-4d6e-8bb1-d3dc332762ec",
               "tiles": []
             }
           ]
         },
         {
-          "id": "58bd94fa-87b0-40c2-8e3e-868329ed6dec",
+          "id": "40044085-6b86-4653-86fe-20eca1720a35",
           "frames": [
             {
-              "id": "3103b9bd-f278-4544-a208-25251cd915f7",
+              "id": "3fa1295b-cc17-4c0e-ab09-45395cfab19d",
               "tiles": []
             }
           ]
         },
         {
-          "id": "6cc52cce-0a44-4f99-ab31-e407fe9b81ee",
+          "id": "0c5f5698-e0c8-4a2c-90de-c960f5541fcf",
           "frames": [
             {
-              "id": "2c6d0f68-ebea-472b-8190-dd5db4b4feda",
+              "id": "2c8224f8-335f-41b9-9108-9e6eac92ac78",
               "tiles": []
             }
           ]
         },
         {
-          "id": "e2223710-9e5d-48d3-a0c5-92e0ce3d53d2",
+          "id": "e5d83dc2-f808-4611-97db-49ce32dcdcde",
           "frames": [
             {
-              "id": "4dc9c204-bb3f-483a-9e9b-777634f66076",
+              "id": "1532db16-322c-46b2-943d-b6009d0c1e37",
               "tiles": []
             }
           ]
         },
         {
-          "id": "4f528064-6bfd-4ab0-9be6-effba7320217",
+          "id": "18cc5266-d096-4269-af37-118af2b7f34f",
           "frames": [
             {
-              "id": "5a6d888a-e0ca-40b6-93c3-725f1987a699",
+              "id": "8bf4bff2-1554-4692-a21a-7854b5d1edd3",
               "tiles": []
             }
           ]
@@ -88,14 +86,17 @@
     }
   ],
   "numTiles": 0,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
   "canvasWidth": 32,
   "canvasHeight": 32,
   "boundsX": 0,
-  "boundsY": 0,
+  "boundsY": -8,
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
-  "filename": "25tagz/burglar.png",
-  "checksum": "3d2d3ef42e77f7bcaa80905d6a2bbe2860936a64",
-  "numFrames": 3.5
+  "filename": "25TAGZ/burglar.png",
+  "width": 56,
+  "height": 56,
+  "checksum": "3d2d3ef42e77f7bcaa80905d6a2bbe2860936a64"
 }

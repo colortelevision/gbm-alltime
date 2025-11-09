@@ -115,6 +115,93 @@
         ]
       },
       "id": "9f3d8aec-69c4-4b2e-a43e-4c876dfcbc35"
+    },
+    {
+      "command": "EVENT_SET_TIMER_SCRIPT",
+      "args": {
+        "timer": 1,
+        "duration": 0.3,
+        "frames": 30,
+        "__scriptTabs": "end",
+        "__collapse": false
+      },
+      "children": {
+        "script": [
+          {
+            "command": "EVENT_REPLACE_TILE_XY_SEQUENCE",
+            "args": {
+              "x": {
+                "type": "number",
+                "value": 22
+              },
+              "y": {
+                "type": "number",
+                "value": 6
+              },
+              "tileIndex": {
+                "type": "number",
+                "value": 0
+              },
+              "variable": "L0",
+              "tilesetId": "c3448327-7d0e-47f5-be75-00c95bd3f2af",
+              "frames": {
+                "type": "number",
+                "value": 2
+              }
+            },
+            "id": "9dc9eb26-96f0-45a3-ab38-dc89b7377f3c"
+          },
+          {
+            "command": "EVENT_REPLACE_TILE_XY_SEQUENCE",
+            "args": {
+              "x": {
+                "type": "number",
+                "value": 22
+              },
+              "y": {
+                "type": "number",
+                "value": 17
+              },
+              "tileIndex": {
+                "type": "number",
+                "value": 4
+              },
+              "variable": "L0",
+              "tilesetId": "4991cc19-85b6-45f9-bef6-39496dc2c62a",
+              "frames": {
+                "type": "number",
+                "value": 4
+              }
+            },
+            "id": "cd9e6e7e-269f-465f-8ae1-903729a9604b"
+          },
+          {
+            "command": "EVENT_REPLACE_TILE_XY_SEQUENCE",
+            "args": {
+              "x": {
+                "type": "number",
+                "value": 14
+              },
+              "y": {
+                "type": "number",
+                "value": 43
+              },
+              "tileIndex": {
+                "type": "number",
+                "value": 0
+              },
+              "variable": "L2",
+              "tilesetId": "d7042527-d20e-486d-93e6-66b9397df510",
+              "frames": {
+                "type": "number",
+                "value": 4
+              }
+            },
+            "id": "324c6cfc-467e-4df7-9cd4-6cbd7634c921"
+          }
+        ]
+      },
+      "id": "96be73b7-0358-4c9b-be71-bd5a6d54c969"
     }
   ],
   "playerHit1Script": [],

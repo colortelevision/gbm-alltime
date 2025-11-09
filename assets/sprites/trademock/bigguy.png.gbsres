@@ -3,8 +3,6 @@
   "id": "c368de4e-b5c4-45da-aabe-178b7bb228bf",
   "name": "trademock/bigguy",
   "symbol": "sprite_trademock_bigguy",
-  "width": 128,
-  "height": 64,
   "states": [
     {
       "id": "1ed05e4b-9e81-450b-baea-5a957ab3ca97",
@@ -88,13 +86,17 @@
     }
   ],
   "numTiles": 0,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
   "canvasWidth": 32,
   "canvasHeight": 32,
   "boundsX": 0,
-  "boundsY": 0,
+  "boundsY": -8,
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
   "filename": "trademock/bigguy.png",
+  "width": 128,
+  "height": 64,
   "checksum": "bcaa7c38d98ec5fe9d492af859f87d45ff5582fa"
 }

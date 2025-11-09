@@ -3,8 +3,6 @@
   "id": "34389dee-b332-423f-b577-8df2cf1e13f2",
   "name": "doodies/1bitstickfight",
   "symbol": "sprite_doodies_1bitstickfig",
-  "width": 96,
-  "height": 16,
   "states": [
     {
       "id": "38328424-2b88-444c-bf0f-55a51f7e6fbe",
@@ -1181,13 +1179,17 @@
     }
   ],
   "numTiles": 15,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
   "canvasWidth": 16,
   "canvasHeight": 16,
   "boundsX": 0,
-  "boundsY": 0,
+  "boundsY": -8,
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
   "filename": "doodies/1bitstickfight.png",
+  "width": 96,
+  "height": 16,
   "checksum": "460e85b9ca543654abf0b680c0f91959eefef7ac"
 }

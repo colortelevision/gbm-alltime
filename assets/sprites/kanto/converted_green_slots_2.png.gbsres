@@ -3,8 +3,6 @@
   "id": "37d85612-33b4-4931-a6a4-030006b6804c",
   "name": "kanto/converted_green_slots_2",
   "symbol": "sprite_kanto_converted_gree",
-  "width": 32,
-  "height": 48,
   "states": [
     {
       "id": "bd6f5d9e-d314-4218-b56a-556604cdf8a4",
@@ -88,13 +86,17 @@
     }
   ],
   "numTiles": 0,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
   "canvasWidth": 32,
   "canvasHeight": 32,
   "boundsX": 0,
-  "boundsY": 0,
+  "boundsY": -8,
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
   "filename": "kanto/converted_green_slots_2.png",
+  "width": 32,
+  "height": 48,
   "checksum": "666b24ca9fa73ce86ad0503c9519290ced75215a"
 }

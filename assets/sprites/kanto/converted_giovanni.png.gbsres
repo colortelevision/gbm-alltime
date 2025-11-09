@@ -3,8 +3,6 @@
   "id": "91a40f37-49da-4746-8fbd-a5c75fe2ecbc",
   "name": "kanto/converted_giovanni",
   "symbol": "sprite_kanto_converted_giov",
-  "width": 16,
-  "height": 96,
   "states": [
     {
       "id": "6eb305ab-d427-4955-8e9f-80b0512b150d",
@@ -467,13 +465,17 @@
     }
   ],
   "numTiles": 10,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
   "canvasWidth": 16,
   "canvasHeight": 16,
   "boundsX": 0,
-  "boundsY": 0,
+  "boundsY": -8,
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
   "filename": "kanto/converted_giovanni.png",
+  "width": 16,
+  "height": 96,
   "checksum": "cc3444449256d53725fea711c4e1bcd347c2bb54"
 }

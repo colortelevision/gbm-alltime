@@ -3,8 +3,6 @@
   "id": "ac84dd1e-c690-4f69-83f4-c50b9f70292a",
   "name": "trademock/E11_H01 2_T02-ORL_back",
   "symbol": "sprite_trademock_e11_h01_0",
-  "width": 96,
-  "height": 16,
   "states": [
     {
       "id": "fb99dcf5-f91f-4881-816d-e163d72b1726",
@@ -467,13 +465,17 @@
     }
   ],
   "numTiles": 10,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
   "canvasWidth": 16,
   "canvasHeight": 16,
   "boundsX": 0,
-  "boundsY": 0,
+  "boundsY": -8,
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
   "filename": "trademock/E11_H01 2_T02-ORL_back.png",
+  "width": 96,
+  "height": 16,
   "checksum": "d734076f0c0337df30925aa1e90b4ac38bd9235e"
 }

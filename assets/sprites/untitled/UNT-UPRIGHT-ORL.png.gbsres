@@ -3,8 +3,6 @@
   "id": "b59698e4-66b7-4650-a2eb-07bdb5d74d17",
   "name": "untitled/UNT-UPRIGHT-ORL",
   "symbol": "sprite_untitled_unt_upright_0",
-  "width": 16,
-  "height": 96,
   "states": [
     {
       "id": "f26210a1-6412-4446-aff9-c5faa5f7b5c3",
@@ -88,13 +86,17 @@
     }
   ],
   "numTiles": 0,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
   "canvasWidth": 32,
   "canvasHeight": 32,
   "boundsX": 0,
-  "boundsY": 0,
+  "boundsY": -8,
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
   "filename": "untitled/UNT-UPRIGHT-ORL.png",
+  "width": 16,
+  "height": 96,
   "checksum": "dd61b1cb40f84b33bd9358e27ff738b8ccba413b"
 }

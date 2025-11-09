@@ -3,8 +3,6 @@
   "id": "c9c171fd-0311-4d16-bdd1-b24be60428fd",
   "name": "warden#1",
   "symbol": "sprite_warden_1",
-  "width": 16,
-  "height": 48,
   "states": [
     {
       "id": "a2d5cce1-de93-44d0-8f90-c333abd823fc",
@@ -88,13 +86,17 @@
     }
   ],
   "numTiles": 0,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
   "canvasWidth": 32,
   "canvasHeight": 32,
   "boundsX": 0,
-  "boundsY": 0,
+  "boundsY": -8,
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
   "filename": "warden#1.png",
+  "width": 16,
+  "height": 48,
   "checksum": "c00aca21374fe20d1504063ca7f55dad76996d74"
 }

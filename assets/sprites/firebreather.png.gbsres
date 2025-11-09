@@ -3,8 +3,6 @@
   "id": "0320033c-e518-4da9-8929-3110cc37c6e6",
   "name": "firebreather",
   "symbol": "sprite_firebreather",
-  "width": 16,
-  "height": 96,
   "states": [
     {
       "id": "b9bfc177-f17a-4e1b-bc8d-4dbfcb832b5f",
@@ -88,13 +86,17 @@
     }
   ],
   "numTiles": 0,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
   "canvasWidth": 32,
   "canvasHeight": 32,
   "boundsX": 0,
-  "boundsY": 0,
+  "boundsY": -8,
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
   "filename": "firebreather.png",
+  "width": 16,
+  "height": 96,
   "checksum": "3e67734c002b23180ecb83616e1c91a834882b86"
 }

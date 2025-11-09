@@ -1,85 +1,83 @@
 {
   "_resourceType": "sprite",
-  "id": "e5265695-597d-4547-92ab-90261a07bbc3",
+  "id": "cbafaa39-0791-4e43-ad9e-5d91fff7a095",
   "name": "25TAGZ/agatha",
   "symbol": "sprite_25tagz_agatha",
-  "width": 16,
-  "height": 96,
   "states": [
     {
-      "id": "3868c53f-adf8-4c3c-b13f-6adbf939d62d",
+      "id": "d8894c01-83ac-4093-96dc-7667f9550dfb",
       "name": "",
       "animationType": "multi_movement",
       "flipLeft": true,
       "animations": [
         {
-          "id": "166fe0d6-7605-4a1a-bc38-9c0ed6aba9b5",
+          "id": "bd37bdc5-4eac-43e3-a94e-2a76aac6836e",
           "frames": [
             {
-              "id": "a2d75c3f-32ce-4ca6-b9ac-d937afe1a6f5",
+              "id": "daef565b-1dda-4e8a-b779-4e61aec149be",
               "tiles": []
             }
           ]
         },
         {
-          "id": "424743e3-463d-4e36-b4bc-6878c7f93990",
+          "id": "fc9c251d-2a57-4168-96c2-2e83450d167b",
           "frames": [
             {
-              "id": "8dfdad9b-e194-442e-b0b8-1cbdef6db052",
+              "id": "6fe2c9c5-54bb-4ed6-b10f-cee530e4f4d2",
               "tiles": []
             }
           ]
         },
         {
-          "id": "6a0034cb-d44c-44dd-97af-a3a755897f0e",
+          "id": "af6e94c9-59ff-4cde-a7d7-3e7b7504c48b",
           "frames": [
             {
-              "id": "a38a6aa3-2f78-41be-8b12-e977af1731eb",
+              "id": "faaf57a7-a146-4fa2-9ba3-b56a3f0f83dd",
               "tiles": []
             }
           ]
         },
         {
-          "id": "421c94b7-c5c0-4c67-a1f4-acf0fd2abc53",
+          "id": "f5e2b833-816b-4662-b6e8-5b1d7aca8a27",
           "frames": [
             {
-              "id": "9775f496-73a6-4098-8aeb-c50757c188ea",
+              "id": "7b43b4fa-1092-43a5-82ed-9cf529cceb46",
               "tiles": []
             }
           ]
         },
         {
-          "id": "18fce8d9-ad06-40f4-8528-9ccb206b2e49",
+          "id": "b7526bdf-6646-4888-9b15-7dd6f309553b",
           "frames": [
             {
-              "id": "37588c78-468e-468c-bace-ef7f2069d038",
+              "id": "c6cb47d7-c4d3-49ac-81f4-ec3544c63b4b",
               "tiles": []
             }
           ]
         },
         {
-          "id": "7b39afb2-4e8f-45ba-b862-64bc4f8b786d",
+          "id": "0a328fb4-570f-46d2-94b7-ce07bf10f31c",
           "frames": [
             {
-              "id": "027327fe-bad9-4590-85a9-c1c0c7a67251",
+              "id": "47088fd8-5a94-4b82-8d2d-c2649603488d",
               "tiles": []
             }
           ]
         },
         {
-          "id": "d797017b-c23f-4b7f-bcb1-e786aa866dbf",
+          "id": "401124c8-a201-4a6e-bcfa-b8059e58c72c",
           "frames": [
             {
-              "id": "8d849fb4-e4e2-40d2-8b54-27e23f91848a",
+              "id": "16a15071-52c3-4668-927c-b2dd652a38c0",
               "tiles": []
             }
           ]
         },
         {
-          "id": "271e71fb-09ee-4a80-b008-af2fa50d2ddb",
+          "id": "5f316b16-4ca4-4d7e-af2d-c5669a41daf4",
           "frames": [
             {
-              "id": "5bee9e01-e2eb-42e7-9667-dd951885737e",
+              "id": "2798a51c-9dc1-4e1c-9648-e5c37bf0da43",
               "tiles": []
             }
           ]
@@ -88,14 +86,17 @@
     }
   ],
   "numTiles": 0,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
   "canvasWidth": 32,
   "canvasHeight": 32,
   "boundsX": 0,
-  "boundsY": 0,
+  "boundsY": -8,
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
-  "filename": "25tagz/agatha.png",
-  "checksum": "feb8952515480bcdcea89d331d319b4a19c1f093",
-  "numFrames": 1
+  "filename": "25TAGZ/agatha.png",
+  "width": 16,
+  "height": 96,
+  "checksum": "feb8952515480bcdcea89d331d319b4a19c1f093"
 }

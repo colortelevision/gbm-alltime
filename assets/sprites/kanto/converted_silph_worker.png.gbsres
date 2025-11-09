@@ -3,8 +3,6 @@
   "id": "8364b0bb-1a45-4e32-a0d5-5701792c67d9",
   "name": "kanto/converted_silph_worker",
   "symbol": "sprite_kanto_converted_silp_0",
-  "width": 16,
-  "height": 48,
   "states": [
     {
       "id": "12b901c0-3df9-4b27-bb4c-c11059831f81",
@@ -88,13 +86,17 @@
     }
   ],
   "numTiles": 0,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
   "canvasWidth": 32,
   "canvasHeight": 32,
   "boundsX": 0,
-  "boundsY": 0,
+  "boundsY": -8,
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
   "filename": "kanto/converted_silph_worker.png",
+  "width": 16,
+  "height": 48,
   "checksum": "95b789584bef3becb8ecd8939ebba408f13e9f8d"
 }

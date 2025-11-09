@@ -3,8 +3,6 @@
   "id": "6243fccc-d3ae-4200-83c0-56e968d5d2c3",
   "name": "untitled/parker mouh layers spritesheet",
   "symbol": "sprite_parker_mouh_layers_s",
-  "width": 48,
-  "height": 16,
   "states": [
     {
       "id": "dc2f7aa5-8da3-416b-b884-1e6922555598",
@@ -479,14 +477,17 @@
     }
   ],
   "numTiles": 6,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
   "canvasWidth": 16,
   "canvasHeight": 16,
   "boundsX": 0,
-  "boundsY": 0,
+  "boundsY": -8,
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
   "filename": "untitled/parker mouh layers spritesheet.png",
-  "checksum": "6aad76464e3e0b8a2d1b1491b37c4938008c9575",
-  "numFrames": 3
+  "width": 48,
+  "height": 16,
+  "checksum": "6aad76464e3e0b8a2d1b1491b37c4938008c9575"
 }

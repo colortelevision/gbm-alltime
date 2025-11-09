@@ -3,8 +3,6 @@
   "id": "00e463d8-649c-40d6-b45a-a14af12381a2",
   "name": "untitled/UNT_Matt Office",
   "symbol": "sprite_unt_matt_office",
-  "width": 160,
-  "height": 144,
   "states": [
     {
       "id": "73d14772-c110-4c0c-847a-9b420db7edfe",
@@ -88,14 +86,17 @@
     }
   ],
   "numTiles": 0,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
   "canvasWidth": 32,
   "canvasHeight": 32,
   "boundsX": 0,
-  "boundsY": 0,
+  "boundsY": -8,
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
   "filename": "untitled/UNT_Matt Office.png",
-  "checksum": "dee7c1ec964bf92383c2af7d969084b4174aaa79",
-  "numFrames": 10
+  "width": 160,
+  "height": 144,
+  "checksum": "dee7c1ec964bf92383c2af7d969084b4174aaa79"
 }

@@ -1,85 +1,83 @@
 {
   "_resourceType": "sprite",
-  "id": "8a8a0f8d-2b66-461c-b41e-0d07c922571b",
+  "id": "fe398c86-c834-485a-a7ab-1f9c5a2b0d29",
   "name": "25TAGZ/sailor",
   "symbol": "sprite_25tagz_sailor",
-  "width": 16,
-  "height": 96,
   "states": [
     {
-      "id": "b486a1cf-2c26-4503-b96c-6f125de097c1",
+      "id": "1351f96e-54fd-4e66-a0b7-163f502caaaf",
       "name": "",
       "animationType": "multi_movement",
       "flipLeft": true,
       "animations": [
         {
-          "id": "898a6023-77ac-4185-b152-b459c98d47ac",
+          "id": "a1b34726-2151-4fa4-951f-7a9a364656b5",
           "frames": [
             {
-              "id": "d8beb0b3-917f-42fd-8aaa-cf629c7ad088",
+              "id": "e47e8d64-86cb-41a0-9479-312b72a1d99e",
               "tiles": []
             }
           ]
         },
         {
-          "id": "ebfc41c0-7a88-49e9-bcf8-2d62ea1f1755",
+          "id": "94057398-fc71-402c-a430-1537a8022458",
           "frames": [
             {
-              "id": "4ee20966-1723-4896-a272-e22e8c999bf7",
+              "id": "8fe5f55d-5b98-416a-9d99-8a87c14726c1",
               "tiles": []
             }
           ]
         },
         {
-          "id": "1c5f5ff8-0e0c-4684-aa5c-834695d6fa05",
+          "id": "7e65f9c3-1d7d-489b-9c9f-6cd04ca37e3c",
           "frames": [
             {
-              "id": "e0c8c547-ca66-4fc7-a9bc-eef3ce384092",
+              "id": "3c2df40b-6099-4df6-905f-825ea0e7d459",
               "tiles": []
             }
           ]
         },
         {
-          "id": "28335093-c1a9-4465-b82b-76ddf37ff3b0",
+          "id": "054c6a8d-fb0c-4226-88ac-c9dd7c15c00c",
           "frames": [
             {
-              "id": "131e1c1b-d833-42d9-8ab2-75aae151795d",
+              "id": "7b07ae24-fe54-4146-b9aa-f2bda2577cf5",
               "tiles": []
             }
           ]
         },
         {
-          "id": "51f14eca-019f-42ac-883d-478512217583",
+          "id": "27b94e9b-9f60-4a91-bdf4-8eb753181071",
           "frames": [
             {
-              "id": "09da0774-c997-4eb1-879e-7751fa185ab3",
+              "id": "3d0cb71e-9bdf-4643-8502-214936766701",
               "tiles": []
             }
           ]
         },
         {
-          "id": "92cfa825-2c7c-4193-a7ca-e3c91ebbe652",
+          "id": "54c4950b-dfe1-4943-9603-22d1de9b171d",
           "frames": [
             {
-              "id": "7bc2cb9b-cec9-4d83-827e-e35c3a4214f4",
+              "id": "d7c24fe2-f006-4a29-9fa3-745f5c0abb17",
               "tiles": []
             }
           ]
         },
         {
-          "id": "b1915d80-536a-47e5-ac27-cddbd7025d43",
+          "id": "21c3f39c-0681-44e5-a956-587d2e6b3358",
           "frames": [
             {
-              "id": "547ff26c-40e1-406a-ba55-b1edb4e94eb5",
+              "id": "c77aa283-75e5-4c0c-8105-87996e41f98b",
               "tiles": []
             }
           ]
         },
         {
-          "id": "d8408620-c15e-47a1-8e6d-cd5d8d2942c3",
+          "id": "a480c57b-a680-4249-8e7b-580e3f7f0e41",
           "frames": [
             {
-              "id": "56861bb8-92fb-4615-876e-a94b3ddb1ff2",
+              "id": "fd5cd917-d5c2-4ccd-98a7-b3ebd2777db7",
               "tiles": []
             }
           ]
@@ -88,14 +86,17 @@
     }
   ],
   "numTiles": 0,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
   "canvasWidth": 32,
   "canvasHeight": 32,
   "boundsX": 0,
-  "boundsY": 0,
+  "boundsY": -8,
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
-  "filename": "25tagz/sailor.png",
-  "checksum": "6df84f58a0f8e940243d7a88e5611e76823ed6a7",
-  "numFrames": 1
+  "filename": "25TAGZ/sailor.png",
+  "width": 16,
+  "height": 96,
+  "checksum": "6df84f58a0f8e940243d7a88e5611e76823ed6a7"
 }

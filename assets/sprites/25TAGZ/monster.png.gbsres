@@ -1,85 +1,83 @@
 {
   "_resourceType": "sprite",
-  "id": "0347e145-9abf-4941-8688-d99f1d1d8652",
+  "id": "604b4987-13ac-4ec0-a317-c770d9d1dadf",
   "name": "25TAGZ/monster",
   "symbol": "sprite_25tagz_monster",
-  "width": 16,
-  "height": 96,
   "states": [
     {
-      "id": "c696baa3-f711-4b76-a020-9df6cffdd309",
+      "id": "b7e494ea-0561-40e5-99fa-58202977475b",
       "name": "",
       "animationType": "multi_movement",
       "flipLeft": true,
       "animations": [
         {
-          "id": "8b891fe4-7eb8-49b1-b159-9f6da5775cb7",
+          "id": "5f50aa81-3e9d-4fb8-a9ac-b34ec0cb5393",
           "frames": [
             {
-              "id": "b2c0afc5-efb1-477b-97fc-6fec3dfd428e",
+              "id": "709aef85-66d0-4c4d-9da8-fbbd25fb553b",
               "tiles": []
             }
           ]
         },
         {
-          "id": "2f248195-f4ca-41c2-9b56-71325d6a3904",
+          "id": "37344204-4a25-4b98-860d-d48e1691afa5",
           "frames": [
             {
-              "id": "a9147639-6b6f-4a40-ba20-da3ccf005a30",
+              "id": "00fac8f0-6a6e-4469-a191-edc0961c4780",
               "tiles": []
             }
           ]
         },
         {
-          "id": "dbb8dc87-1f33-417d-8933-b069ede64ce1",
+          "id": "f40f9067-08c1-4cda-89f6-d449be76d223",
           "frames": [
             {
-              "id": "09680a21-1905-48b2-a353-c4c9dc2a1904",
+              "id": "e0d83d6c-022f-4cd7-977a-faa70f08e194",
               "tiles": []
             }
           ]
         },
         {
-          "id": "57d95b7a-67d9-4d5d-ac80-adf96de34dde",
+          "id": "a5622519-277e-4c9c-8e2c-cbee4a956706",
           "frames": [
             {
-              "id": "0ae754eb-77b1-4cc4-a018-e2cb7c4aa1c9",
+              "id": "8370318a-2f8d-45bb-8064-01e92f722d4e",
               "tiles": []
             }
           ]
         },
         {
-          "id": "df82be59-ff48-44a3-bda9-fd417ce2e825",
+          "id": "f8a7596e-9507-46bd-9a4b-0d1fc7efc6fe",
           "frames": [
             {
-              "id": "49f2ba28-cb3f-4282-bcbe-062f486dc176",
+              "id": "37df11a6-2f8b-48d1-ad3f-d654019aba0b",
               "tiles": []
             }
           ]
         },
         {
-          "id": "af014ddf-1db4-463e-8e70-3cd1732f8509",
+          "id": "a7e47362-4694-4555-9b53-b23f2a769ed6",
           "frames": [
             {
-              "id": "f01ecc25-cd8f-441e-9ceb-018c37d2dbe9",
+              "id": "9e37c57f-6a48-484f-b4d8-ff5401c38583",
               "tiles": []
             }
           ]
         },
         {
-          "id": "26ab5b13-3df0-42ef-959d-75be759c4fd8",
+          "id": "0951771a-44fe-4337-882d-d3e52f07cc8d",
           "frames": [
             {
-              "id": "56545825-c46a-4763-9194-397cc731fce8",
+              "id": "6db3907e-3b7b-4160-a2b6-2a7428feebac",
               "tiles": []
             }
           ]
         },
         {
-          "id": "53dda9a4-e97b-4996-9e0e-a460604f5f73",
+          "id": "76322f02-5813-43a8-848a-9f264c1fe9d4",
           "frames": [
             {
-              "id": "1aa0c1cc-1c69-4fd8-a3b1-a540647a38e2",
+              "id": "4aad5a55-f3b7-4c75-86ba-0262ae1c8451",
               "tiles": []
             }
           ]
@@ -88,14 +86,17 @@
     }
   ],
   "numTiles": 0,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
   "canvasWidth": 32,
   "canvasHeight": 32,
   "boundsX": 0,
-  "boundsY": 0,
+  "boundsY": -8,
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
-  "filename": "25tagz/monster.png",
-  "checksum": "faa50ac3e823d02d694a2a096b1e0497e29ba0ef",
-  "numFrames": 1
+  "filename": "25TAGZ/monster.png",
+  "width": 16,
+  "height": 96,
+  "checksum": "faa50ac3e823d02d694a2a096b1e0497e29ba0ef"
 }

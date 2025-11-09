@@ -1,85 +1,83 @@
 {
   "_resourceType": "sprite",
-  "id": "9809029e-3ae8-4203-bbc7-33ee5614f3b0",
+  "id": "1806bd68-7cf4-4af3-a81b-678770a48c99",
   "name": "MILKHOUSE/WFU_b12",
-  "symbol": "sprite_wfu_b12",
-  "width": 80,
-  "height": 32,
+  "symbol": "sprite_milkhouse_wfu_b12",
   "states": [
     {
-      "id": "d094c04e-ca70-4591-8d4d-7db6f0a8f405",
+      "id": "4d240b9f-dd5e-46a7-878b-a87650152b73",
       "name": "",
       "animationType": "multi_movement",
       "flipLeft": true,
       "animations": [
         {
-          "id": "dc55764a-bf23-46b6-9623-e3ec9dc5a6fb",
+          "id": "8996ac61-9adf-41a9-9d09-de9b736defa0",
           "frames": [
             {
-              "id": "49d9f3dc-a7a3-478c-853e-e9e572fbd359",
+              "id": "3874dbbf-3d67-47ef-866d-6022f53c81d1",
               "tiles": []
             }
           ]
         },
         {
-          "id": "ecf0f8c6-ff9a-4d52-80c7-4857abbacd16",
+          "id": "dc2964e8-68f0-466e-92ae-f29861648b65",
           "frames": [
             {
-              "id": "7edccda6-03c3-4277-ac95-0279a9cfa0e3",
+              "id": "430bd39a-422e-49e7-b2dd-67d958dda6bd",
               "tiles": []
             }
           ]
         },
         {
-          "id": "4689dba7-2012-465e-bfd7-7c425d9f4f91",
+          "id": "cd3a96c6-923e-47ac-ab22-cad6abea2c97",
           "frames": [
             {
-              "id": "0c74c549-1980-438b-a5d9-278931f2996f",
+              "id": "4e22d4cc-393a-4dfe-901e-01c137f45fa8",
               "tiles": []
             }
           ]
         },
         {
-          "id": "c843dfcf-9708-430e-8330-34df62a42de8",
+          "id": "a71f5afd-1f83-4329-b9c9-77cb1de9d143",
           "frames": [
             {
-              "id": "3b5bdbbd-58e7-4aa4-80cb-fa7f91e187c0",
+              "id": "7f906c32-6727-4889-8354-97fc98062fc6",
               "tiles": []
             }
           ]
         },
         {
-          "id": "c1724761-8a3d-4bf9-a10f-a833d5a2aa55",
+          "id": "d72081ed-a3f7-4a23-9b19-82f951c9a479",
           "frames": [
             {
-              "id": "b0c542c0-1b47-4fb0-b986-b1ed37115f9a",
+              "id": "b670612c-88db-4392-92e5-07e9312f9980",
               "tiles": []
             }
           ]
         },
         {
-          "id": "5d4e3343-3b9c-4bc6-8642-2b2c1016c450",
+          "id": "8af7043a-5422-4503-a904-1b6459d7013f",
           "frames": [
             {
-              "id": "ce1934f4-b2fa-40ae-9b94-e5d16a5301da",
+              "id": "08ce991e-42f0-48f3-9349-f0868d2f3857",
               "tiles": []
             }
           ]
         },
         {
-          "id": "d858e923-8124-4a45-a7c8-621d252576a4",
+          "id": "8b6d41de-b9b9-4214-a49c-69526b3a3281",
           "frames": [
             {
-              "id": "a487af14-1a33-4ff8-b4be-3ee1ac36ee4e",
+              "id": "e38e6365-de3e-4795-9cd3-8d2e80eeffeb",
               "tiles": []
             }
           ]
         },
         {
-          "id": "9c033690-b63c-42ec-a1e0-71180892614c",
+          "id": "833e0a40-febd-4494-9ef5-7f392ab94610",
           "frames": [
             {
-              "id": "15a69be3-b1af-49d1-9bc8-f7bd981cb406",
+              "id": "34d2f028-0f45-4b91-93ef-d9f42ec810b5",
               "tiles": []
             }
           ]
@@ -88,14 +86,17 @@
     }
   ],
   "numTiles": 0,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
   "canvasWidth": 32,
   "canvasHeight": 32,
   "boundsX": 0,
-  "boundsY": 0,
+  "boundsY": -8,
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
-  "filename": "milkhouse/WFU_b12.png",
-  "checksum": "cad562545bd29a80fe98e58833c89e427abf42a5",
-  "numFrames": 5
+  "filename": "MILKHOUSE/WFU_b12.png",
+  "width": 80,
+  "height": 32,
+  "checksum": "cad562545bd29a80fe98e58833c89e427abf42a5"
 }

@@ -3,8 +3,6 @@
   "id": "cb7c33d2-13f9-48bc-a455-d0d00819b57f",
   "name": "kanto/converted_monster",
   "symbol": "sprite_kanto_converted_mons",
-  "width": 16,
-  "height": 96,
   "states": [
     {
       "id": "fa445a30-181c-490e-b16e-07b5af6a2faf",
@@ -88,13 +86,17 @@
     }
   ],
   "numTiles": 0,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
   "canvasWidth": 32,
   "canvasHeight": 32,
   "boundsX": 0,
-  "boundsY": 0,
+  "boundsY": -8,
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
   "filename": "kanto/converted_monster.png",
+  "width": 16,
+  "height": 96,
   "checksum": "edeb3a83b83568f81fab0db47bbe7f14910f56e3"
 }

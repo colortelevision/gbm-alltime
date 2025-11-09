@@ -1,25 +1,23 @@
 {
   "_resourceType": "sprite",
-  "id": "21eaed0c-5675-439b-a5d1-902228925ad3",
+  "id": "a61a0491-f73a-49f0-a47c-5567d0f9a20b",
   "name": "25TAGZ/snorlax",
   "symbol": "sprite_25tagz_snorlax",
-  "width": 16,
-  "height": 16,
   "states": [
     {
-      "id": "74ea6ba6-68b5-4e5b-bdad-a5a022c33496",
+      "id": "457720ca-9c97-4045-a733-260abb817b54",
       "name": "",
       "animationType": "fixed",
       "flipLeft": false,
       "animations": [
         {
-          "id": "36571568-d5fe-4b54-90cf-341e45342202",
+          "id": "9a758481-dfe0-4eb5-98e1-d84b540d11db",
           "frames": [
             {
-              "id": "3a2ba791-dd02-4491-a669-1c17eec13533",
+              "id": "235877b2-bfaa-4af4-a199-76a626487075",
               "tiles": [
                 {
-                  "id": "dcfdd2ee-1c77-4717-94c3-39632149ef05",
+                  "id": "0ea84cb6-d0ce-4d77-bb8e-84a0d486f2ee",
                   "x": 0,
                   "y": 0,
                   "sliceX": 0,
@@ -32,7 +30,7 @@
                   "priority": false
                 },
                 {
-                  "id": "db2eede7-0b88-4be2-8b5a-b2d252cd4b3d",
+                  "id": "6473624c-7c5b-4142-a4ed-ec22c7e2d65f",
                   "x": 8,
                   "y": 0,
                   "sliceX": 8,
@@ -49,64 +47,64 @@
           ]
         },
         {
-          "id": "3bc5793b-db3e-4fdf-85f0-8715b8b3c3b2",
+          "id": "b660835a-9095-42cc-a3a3-e7021d5c658f",
           "frames": [
             {
-              "id": "a3db7864-8841-4af9-87a9-de3469f109b3",
+              "id": "ae652ab5-ecac-4e15-96f9-8c95d8e7478e",
               "tiles": []
             }
           ]
         },
         {
-          "id": "d190a70a-f40e-407d-9f62-964ab1dfd460",
+          "id": "5252d222-8db6-45f2-994c-538576146756",
           "frames": [
             {
-              "id": "ef336682-051a-434e-b7ed-002694104d40",
+              "id": "7f4d37da-e7bd-486b-92eb-6a717e659a32",
               "tiles": []
             }
           ]
         },
         {
-          "id": "30eb2821-aae8-4ce4-adc2-cbc4de6cd090",
+          "id": "fd68e539-f158-42d5-a5b9-e42108bd9709",
           "frames": [
             {
-              "id": "91f19ee7-d0bd-46aa-9d87-5af7bfa2d33d",
+              "id": "b83e6a71-d53f-489b-9df3-2135aa84a6a4",
               "tiles": []
             }
           ]
         },
         {
-          "id": "3c42e1de-a5f6-47d8-ac3b-c63e2cfd2542",
+          "id": "60d32974-e46a-40fc-917f-dfefc2b4d320",
           "frames": [
             {
-              "id": "955740c4-ae6e-436e-a968-ab2686b52f68",
+              "id": "69a07e02-1f31-46bc-a725-c16fcf13e1fd",
               "tiles": []
             }
           ]
         },
         {
-          "id": "38a4809d-2ca4-436b-ba1a-eaaae5dcc6d6",
+          "id": "a303a5cd-2618-402c-b3c0-bb34c90277f0",
           "frames": [
             {
-              "id": "fe4fec98-35d1-4209-89eb-f29e57cd5b2a",
+              "id": "d65bb157-6d5a-487a-be5e-e2762b2504ba",
               "tiles": []
             }
           ]
         },
         {
-          "id": "1c9be59d-8cee-44d1-b8e5-24b6256aba06",
+          "id": "bb979d8b-136e-44ba-ad83-fc07ec2ccc82",
           "frames": [
             {
-              "id": "98f24e67-5f2d-43e8-8d24-4d057a94b155",
+              "id": "c2f4e106-a09e-46b8-bca9-94c19aace67d",
               "tiles": []
             }
           ]
         },
         {
-          "id": "677fbf5e-9095-4076-9740-9504f2b45ad5",
+          "id": "40572756-f7e0-417b-8375-16e5eb1a9228",
           "frames": [
             {
-              "id": "d814ed8c-ec68-4fa4-a8ca-8a55749f708e",
+              "id": "59cb9606-b202-47d9-8d68-90b75f7f8100",
               "tiles": []
             }
           ]
@@ -115,14 +113,17 @@
     }
   ],
   "numTiles": 2,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
   "canvasWidth": 16,
   "canvasHeight": 16,
   "boundsX": 0,
-  "boundsY": 0,
+  "boundsY": -8,
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
-  "filename": "25tagz/snorlax.png",
-  "checksum": "4060c64ac895d5d7641db16b1379df68ebc87179",
-  "numFrames": 1
+  "filename": "25TAGZ/snorlax.png",
+  "width": 16,
+  "height": 16,
+  "checksum": "4060c64ac895d5d7641db16b1379df68ebc87179"
 }

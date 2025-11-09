@@ -3,8 +3,6 @@
   "id": "1f6b78fa-d0e8-4905-8762-23402bc1fc28",
   "name": "items/radio",
   "symbol": "sprite_radio",
-  "width": 16,
-  "height": 16,
   "states": [
     {
       "id": "f62814ba-d74f-404b-9a08-0ff6096997f9",
@@ -115,14 +113,17 @@
     }
   ],
   "numTiles": 2,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
   "canvasWidth": 16,
   "canvasHeight": 16,
   "boundsX": 0,
-  "boundsY": 0,
+  "boundsY": -8,
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
   "filename": "items/radio.png",
-  "checksum": "9c063b49d0e054cca97948bf8c4c55fd138c5b56",
-  "numFrames": 1
+  "width": 16,
+  "height": 16,
+  "checksum": "9c063b49d0e054cca97948bf8c4c55fd138c5b56"
 }

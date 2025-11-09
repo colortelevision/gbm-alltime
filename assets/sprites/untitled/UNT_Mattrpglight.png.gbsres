@@ -3,8 +3,6 @@
   "id": "2f8e3c3a-3d0e-466e-ab0d-0ef350ac879f",
   "name": "untitled/UNT_Mattrpglight",
   "symbol": "sprite_unt_mattrpglight",
-  "width": 48,
-  "height": 16,
   "states": [
     {
       "id": "cab84450-4f13-4abb-9b40-3a6ddd2543cd",
@@ -169,14 +167,17 @@
     }
   ],
   "numTiles": 6,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
   "canvasWidth": 16,
   "canvasHeight": 16,
   "boundsX": 0,
-  "boundsY": 0,
+  "boundsY": -8,
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
   "filename": "untitled/UNT_Mattrpglight.png",
-  "checksum": "2798d2c3413424fa3cd92aac626836c018bfc865",
-  "numFrames": 3
+  "width": 48,
+  "height": 16,
+  "checksum": "2798d2c3413424fa3cd92aac626836c018bfc865"
 }

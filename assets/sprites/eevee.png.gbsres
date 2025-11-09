@@ -3,8 +3,6 @@
   "id": "4d4bdc1d-6b0e-460e-a71e-5ff160d0b615",
   "name": "eevee",
   "symbol": "sprite_eevee",
-  "width": 16,
-  "height": 96,
   "states": [
     {
       "id": "980abd5a-88de-43b1-b1c0-dbf749a65eee",
@@ -88,13 +86,17 @@
     }
   ],
   "numTiles": 0,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
   "canvasWidth": 32,
   "canvasHeight": 32,
   "boundsX": 0,
-  "boundsY": 0,
+  "boundsY": -8,
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
   "filename": "eevee.png",
+  "width": 16,
+  "height": 96,
   "checksum": "07b6cd89ecaa70ad30e12324376f52c3ea082cd5"
 }

@@ -3,8 +3,6 @@
   "id": "e897e00d-fe5f-4dcc-a354-b804531d49b8",
   "name": "doodies/SD_230111 mu ninja spritesheet",
   "symbol": "sprite_sd_mu_ninja_s_0",
-  "width": 64,
-  "height": 32,
   "states": [
     {
       "id": "2c43e0ad-ea67-4753-9f8b-cc471e408e31",
@@ -88,14 +86,17 @@
     }
   ],
   "numTiles": 0,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
   "canvasWidth": 32,
   "canvasHeight": 32,
   "boundsX": 0,
-  "boundsY": 0,
+  "boundsY": -8,
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
   "filename": "doodies/SD_230111 mu ninja spritesheet.png",
-  "checksum": "c5d611435d0251ed7530a80a7b14ac86613da1e6",
-  "numFrames": 4
+  "width": 64,
+  "height": 32,
+  "checksum": "c5d611435d0251ed7530a80a7b14ac86613da1e6"
 }

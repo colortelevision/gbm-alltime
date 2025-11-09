@@ -1,85 +1,83 @@
 {
   "_resourceType": "sprite",
-  "id": "f967a8fa-bd7b-443d-98b6-347059a7d2cb",
+  "id": "ac0c1aaf-e00f-4f8b-82bc-cedd8cc9167f",
   "name": "25TAGZ/splash/falling_star",
   "symbol": "sprite_25tagz_splash_fallin",
-  "width": 8,
-  "height": 8,
   "states": [
     {
-      "id": "17b9ace8-d259-4227-bc98-826800b3e857",
+      "id": "75c2c750-5529-4688-a7fd-41df77abb971",
       "name": "",
       "animationType": "multi_movement",
       "flipLeft": true,
       "animations": [
         {
-          "id": "4f797fb5-80be-43d6-8a32-067961ff21c1",
+          "id": "cceb7cb1-2b68-479e-8497-9e5e88185d19",
           "frames": [
             {
-              "id": "3bf8a08f-bf80-42ec-983c-4b6edda56045",
+              "id": "2130ce22-0f89-44ea-aedd-553bced59ef2",
               "tiles": []
             }
           ]
         },
         {
-          "id": "b3becb58-5245-4682-9023-0613d071a2d0",
+          "id": "89cbe900-f25b-46e2-a44b-20da5ebe0805",
           "frames": [
             {
-              "id": "b86b035b-d407-466f-87b3-c38105adc981",
+              "id": "81703c9c-fcf0-4d7e-b69a-799b4d06a6e4",
               "tiles": []
             }
           ]
         },
         {
-          "id": "a53ac7ca-d4b2-45f7-8a14-f4c8588bb8c8",
+          "id": "01ab45d2-8827-4e01-911b-0b2eb7d23a6d",
           "frames": [
             {
-              "id": "1404ce86-1908-4c1c-98ee-ddb2a09cc8e9",
+              "id": "24d40e4a-cbc0-4931-afbe-3a48759a5230",
               "tiles": []
             }
           ]
         },
         {
-          "id": "0c1404bd-54e9-4f5e-a27b-10a18c93c733",
+          "id": "a304c5c6-ec65-43c2-a246-6055388b1ad0",
           "frames": [
             {
-              "id": "cc883f96-6a53-402a-9f5d-9404b9ba524d",
+              "id": "1f9167b9-5f80-46f4-a1e6-72d064aeaa85",
               "tiles": []
             }
           ]
         },
         {
-          "id": "312afd45-172b-4295-93ec-05d512436b01",
+          "id": "abf9de8d-40e8-4687-9845-a47a836d3ba8",
           "frames": [
             {
-              "id": "3a0099c0-0650-41a8-8c78-636185babd45",
+              "id": "ed645410-3416-4de9-8f9d-f097d51f8552",
               "tiles": []
             }
           ]
         },
         {
-          "id": "03c48240-ce2d-4e9a-86d6-e076f0b0168a",
+          "id": "78e654d9-912d-4999-a5f6-2146cfa94b2d",
           "frames": [
             {
-              "id": "83194e63-6369-4bad-93c8-70b6efcb1515",
+              "id": "2f744565-23dd-4edb-9a91-177098e17ff4",
               "tiles": []
             }
           ]
         },
         {
-          "id": "c1788879-e2a6-484e-9781-5d8865a529ca",
+          "id": "4437d149-aaed-4bd8-977b-12541d3c0eba",
           "frames": [
             {
-              "id": "a7c7e384-4e19-4df6-aa56-3b36e553434a",
+              "id": "21824615-0468-4213-8c40-0167543e6eb6",
               "tiles": []
             }
           ]
         },
         {
-          "id": "5d5ae017-410e-41d7-9da7-9d2d34d390a2",
+          "id": "dc89e830-6503-4095-83e2-ee8392197f84",
           "frames": [
             {
-              "id": "f45b373a-611d-4403-84b1-190a75f611b2",
+              "id": "64458dcb-860c-46ca-9f95-996f8ce96bbf",
               "tiles": []
             }
           ]
@@ -88,14 +86,17 @@
     }
   ],
   "numTiles": 0,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
   "canvasWidth": 32,
   "canvasHeight": 32,
   "boundsX": 0,
-  "boundsY": 0,
+  "boundsY": -8,
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
-  "filename": "25tagz/splash/falling_star.png",
-  "checksum": "ab39d61016d2669de6885703b91afc770dec0b10",
-  "numFrames": 0.5
+  "filename": "25TAGZ/splash/falling_star.png",
+  "width": 8,
+  "height": 8,
+  "checksum": "ab39d61016d2669de6885703b91afc770dec0b10"
 }

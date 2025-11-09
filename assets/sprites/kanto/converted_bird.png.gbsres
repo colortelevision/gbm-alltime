@@ -3,8 +3,6 @@
   "id": "0262c252-2c5f-4ad3-b074-68f8fb36ecf6",
   "name": "kanto/converted_bird",
   "symbol": "sprite_kanto_converted_bird",
-  "width": 16,
-  "height": 96,
   "states": [
     {
       "id": "8606c37e-850e-4367-96bd-2d5a9c7c82fb",
@@ -343,13 +341,17 @@
     }
   ],
   "numTiles": 10,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
   "canvasWidth": 16,
   "canvasHeight": 16,
   "boundsX": 0,
-  "boundsY": 0,
+  "boundsY": -8,
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
   "filename": "kanto/converted_bird.png",
+  "width": 16,
+  "height": 96,
   "checksum": "9e8424dc0b5b58135f67aa1b7dee0c80030b0970"
 }

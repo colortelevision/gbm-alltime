@@ -1,85 +1,83 @@
 {
   "_resourceType": "sprite",
-  "id": "d15f66f4-7049-467a-ad3f-246c17bd0da6",
+  "id": "79dceb00-c5ca-4a4d-bf28-469ac2787650",
   "name": "25TAGZ/lorelei",
   "symbol": "sprite_25tagz_lorelei",
-  "width": 16,
-  "height": 96,
   "states": [
     {
-      "id": "639faf8b-f0c8-4816-b803-53d9944d1b39",
+      "id": "0d7fa1bb-a7ad-40e7-865e-66526b7c2846",
       "name": "",
       "animationType": "multi_movement",
       "flipLeft": true,
       "animations": [
         {
-          "id": "994b0b18-2c54-417c-b920-94051730294d",
+          "id": "7b47eac7-8f96-4d3d-a767-154ca849bd35",
           "frames": [
             {
-              "id": "4ec95e69-d340-4dbd-bbfa-f21b0dba7e6f",
+              "id": "2bb71850-a01b-45ef-a4e3-b12824ba9740",
               "tiles": []
             }
           ]
         },
         {
-          "id": "1680417c-ffb2-401b-bb5a-5221ed28e86f",
+          "id": "7723df15-9151-46da-a1c1-512346634e77",
           "frames": [
             {
-              "id": "7a119b82-1ae3-41cd-9c9e-5503a85ce8f6",
+              "id": "209e5f9f-2f9a-4b9a-b3d2-d9a7a2160a1c",
               "tiles": []
             }
           ]
         },
         {
-          "id": "a40f1e00-db10-40b7-829c-5ff7a30f72c0",
+          "id": "f014fa0f-669c-4d31-8fc1-fbb66a36dac5",
           "frames": [
             {
-              "id": "86a4c12e-cf05-48c1-9dca-aefa9c9c784c",
+              "id": "75d946cd-1b0b-46c0-8bc4-3173e5b1f4c0",
               "tiles": []
             }
           ]
         },
         {
-          "id": "96ee06a5-6505-4222-b358-e470ad2c9cf2",
+          "id": "215755c3-c254-481e-a7e4-7be4cb2e7584",
           "frames": [
             {
-              "id": "358309a3-f084-4c47-82c0-385edbe66c2c",
+              "id": "e5295b6c-97df-4f13-b616-47010b5423c3",
               "tiles": []
             }
           ]
         },
         {
-          "id": "a823ad20-ddbb-49c6-9c61-44fffabe653d",
+          "id": "7c4f7855-323e-4c07-b4c8-8adc963fc52a",
           "frames": [
             {
-              "id": "acbd4e1d-0a0a-4942-b0ef-af6caedae046",
+              "id": "3083026e-65a1-4635-b322-cdd130dc77ac",
               "tiles": []
             }
           ]
         },
         {
-          "id": "29a5cd64-9852-452a-a284-0da7d2a0fe7f",
+          "id": "9fae7d7c-a209-4a3e-beb5-3ed50196a297",
           "frames": [
             {
-              "id": "cf924826-621a-4e61-8f45-05a2a4e335fd",
+              "id": "9d5a9136-a224-48d7-9930-4e912e48cfcf",
               "tiles": []
             }
           ]
         },
         {
-          "id": "730d1a6e-9f3c-40aa-9f2a-ddcc788c5a4a",
+          "id": "1f97e332-6814-421c-bcde-fb0fbc924f3f",
           "frames": [
             {
-              "id": "ec3392ae-96ee-4bfe-b9e7-a83bbde72bc2",
+              "id": "5ce2345f-2127-457f-a9c9-44f64d01e5e2",
               "tiles": []
             }
           ]
         },
         {
-          "id": "36d44437-0d3e-4643-91e6-0c41f7c8fb88",
+          "id": "a6177204-068b-4fdf-b1a3-4e2e813521a2",
           "frames": [
             {
-              "id": "a6e3e81d-bab5-4dc0-a8d8-c44cc70c2ff8",
+              "id": "e065a8c7-67a4-4d42-9fbd-6af22bcaffb1",
               "tiles": []
             }
           ]
@@ -88,14 +86,17 @@
     }
   ],
   "numTiles": 0,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
   "canvasWidth": 32,
   "canvasHeight": 32,
   "boundsX": 0,
-  "boundsY": 0,
+  "boundsY": -8,
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
-  "filename": "25tagz/lorelei.png",
-  "checksum": "27c824e18859ca1658413bb5256da19ba279c87e",
-  "numFrames": 1
+  "filename": "25TAGZ/lorelei.png",
+  "width": 16,
+  "height": 96,
+  "checksum": "27c824e18859ca1658413bb5256da19ba279c87e"
 }

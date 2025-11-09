@@ -3,8 +3,6 @@
   "id": "42916276-766c-48f7-ba25-e3adf9120937",
   "name": "uiux/bullet (2)",
   "symbol": "sprite_bullet_2_",
-  "width": 8,
-  "height": 16,
   "states": [
     {
       "id": "60826894-1308-4d64-a8b0-274c5c2c5a7a",
@@ -102,14 +100,17 @@
     }
   ],
   "numTiles": 1,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
   "canvasWidth": 8,
   "canvasHeight": 16,
   "boundsX": 0,
-  "boundsY": 0,
+  "boundsY": -8,
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
   "filename": "uiux/bullet (2).png",
-  "checksum": "c3c1b9fb548ee9738daeb6ab2580d99cdee8bf16",
-  "numFrames": 0.5
+  "width": 8,
+  "height": 16,
+  "checksum": "c3c1b9fb548ee9738daeb6ab2580d99cdee8bf16"
 }

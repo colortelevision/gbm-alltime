@@ -3,8 +3,6 @@
   "id": "aa7be07b-e553-4130-8b24-c94e703dbdbe",
   "name": "teacher#1",
   "symbol": "sprite_teacher_1",
-  "width": 16,
-  "height": 96,
   "states": [
     {
       "id": "fd5cc5b6-17fe-4d9e-a788-f214f2191402",
@@ -88,13 +86,17 @@
     }
   ],
   "numTiles": 0,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
   "canvasWidth": 32,
   "canvasHeight": 32,
   "boundsX": 0,
-  "boundsY": 0,
+  "boundsY": -8,
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
   "filename": "teacher#1.png",
+  "width": 16,
+  "height": 96,
   "checksum": "eddc53289712fe2a402b711218e9e631b7680967"
 }

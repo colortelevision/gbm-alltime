@@ -3,8 +3,6 @@
   "id": "bff7045e-b8d2-44b8-be1e-2d32af328451",
   "name": "untitled/250923-parkerplat-punch",
   "symbol": "sprite_untitled_250923_park",
-  "width": 88,
-  "height": 160,
   "states": [
     {
       "id": "06ea4624-b2b1-4e30-8a60-653debb4fbb4",
@@ -88,13 +86,17 @@
     }
   ],
   "numTiles": 0,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
   "canvasWidth": 32,
   "canvasHeight": 32,
   "boundsX": 0,
-  "boundsY": 0,
+  "boundsY": -8,
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
   "filename": "untitled/250923-parkerplat-punch.png",
+  "width": 88,
+  "height": 160,
   "checksum": "ef55a70e8bdcc38e508a7e1b74b935773d38fdd8"
 }

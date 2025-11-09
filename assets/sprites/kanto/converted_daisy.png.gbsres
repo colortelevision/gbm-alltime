@@ -3,8 +3,6 @@
   "id": "e6415bd6-d5a6-40bc-976d-9985260078b9",
   "name": "kanto/converted_daisy",
   "symbol": "sprite_kanto_converted_dais",
-  "width": 16,
-  "height": 96,
   "states": [
     {
       "id": "b5849b74-c9ba-4d9d-a21a-187fc92cbbd5",
@@ -519,13 +517,17 @@
     }
   ],
   "numTiles": 10,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
   "canvasWidth": 16,
   "canvasHeight": 16,
   "boundsX": 0,
-  "boundsY": 0,
+  "boundsY": -8,
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
   "filename": "kanto/converted_daisy.png",
+  "width": 16,
+  "height": 96,
   "checksum": "fe8ba697d4c3e73f087bb1f6d16d1cc0ca082a5e"
 }

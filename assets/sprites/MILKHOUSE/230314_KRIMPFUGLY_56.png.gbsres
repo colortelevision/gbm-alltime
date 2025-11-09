@@ -1,85 +1,83 @@
 {
   "_resourceType": "sprite",
-  "id": "23622896-de07-4023-9b44-67bff1e9be68",
+  "id": "2c5abe04-2614-4028-9045-7b12f2569edf",
   "name": "MILKHOUSE/230314_KRIMPFUGLY_56",
-  "symbol": "sprite_230314_krimpfugly_56",
-  "width": 56,
-  "height": 56,
+  "symbol": "sprite_milkhouse_230314_kri",
   "states": [
     {
-      "id": "cdbe35e0-15f6-4325-865e-808abcfef348",
+      "id": "a4fa3717-719b-4217-a0d6-c7bc6e0b0909",
       "name": "",
       "animationType": "multi_movement",
       "flipLeft": true,
       "animations": [
         {
-          "id": "2747854c-2f94-4abd-875e-97b26be6b8d3",
+          "id": "e7ee3364-57a8-4c03-9dc5-35ad6d064ebd",
           "frames": [
             {
-              "id": "d79b85a7-c946-4d70-b45b-56cbec74aa3b",
+              "id": "6d1fad18-1893-4f5d-8897-91bcdb4b6a26",
               "tiles": []
             }
           ]
         },
         {
-          "id": "3c06ef01-cbcd-431e-8dae-1230d6abcaad",
+          "id": "2640ae99-2b44-49f9-9300-0bfe4c752439",
           "frames": [
             {
-              "id": "9b9e277a-f0a8-40f2-a7bf-b5d6c53f714c",
+              "id": "fbe7eada-836a-43d4-8b3c-e9e1df0866c6",
               "tiles": []
             }
           ]
         },
         {
-          "id": "cfee8521-c116-4a3c-90b6-d497f40770e1",
+          "id": "3854be68-2dca-4a88-98e6-724312cf6fe9",
           "frames": [
             {
-              "id": "abc0aa16-d4c9-4f88-a9ff-57fed855fa17",
+              "id": "4cf238a2-1f18-49b6-9a4d-db2a2c4f589d",
               "tiles": []
             }
           ]
         },
         {
-          "id": "a2ba74b0-9429-470f-a03e-1e69714f77fb",
+          "id": "c3b60af6-2cd8-48c3-80bb-75fb7559fbcd",
           "frames": [
             {
-              "id": "34f95aa9-6b88-4a61-96f8-8e3ad1d9fca2",
+              "id": "d6c7544b-821e-448e-a534-6e6d84b64306",
               "tiles": []
             }
           ]
         },
         {
-          "id": "0f046c12-23cb-46cb-8a10-59211ad841a0",
+          "id": "9796421b-7b18-4a6f-b47b-96def94dd135",
           "frames": [
             {
-              "id": "04e87982-eee6-42cb-bf31-4eef2b0212d3",
+              "id": "d85c11cc-594e-45e7-b330-70f52ad9681b",
               "tiles": []
             }
           ]
         },
         {
-          "id": "3b39829a-55c9-4b2c-92a5-0bf0cd315367",
+          "id": "0b88156a-9942-45a7-9946-85ff9252c59d",
           "frames": [
             {
-              "id": "1f83e359-0ab0-4cdb-a8da-d08eed07d8e9",
+              "id": "9ae14a48-26a4-4e49-ae0d-72c45bc0a552",
               "tiles": []
             }
           ]
         },
         {
-          "id": "323a989b-89ee-49dc-8aa9-ff66bc5e925b",
+          "id": "6dba0cf2-7bc8-4331-a20e-a4efb9bd33ad",
           "frames": [
             {
-              "id": "681a3216-1a84-48cd-8a58-8aa4b9cc576a",
+              "id": "249a252a-cfdf-4d3e-9b4e-fc9264c1e5a9",
               "tiles": []
             }
           ]
         },
         {
-          "id": "5750329b-f591-4cb4-83c3-1e5b7c7a7212",
+          "id": "7dce8675-efea-4138-b62c-3acaa3d09b57",
           "frames": [
             {
-              "id": "13992554-aa6f-47d3-86d1-4134fc10e4d0",
+              "id": "a6fcccf3-489c-46ff-ba63-d3505819b8a6",
               "tiles": []
             }
           ]
@@ -88,14 +86,17 @@
     }
   ],
   "numTiles": 0,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
   "canvasWidth": 32,
   "canvasHeight": 32,
   "boundsX": 0,
-  "boundsY": 0,
+  "boundsY": -8,
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
-  "filename": "milkhouse/230314_KRIMPFUGLY_56.png",
-  "checksum": "8048407516ca71257c9e40af21a202999951eb84",
-  "numFrames": 3.5
+  "filename": "MILKHOUSE/230314_KRIMPFUGLY_56.png",
+  "width": 56,
+  "height": 56,
+  "checksum": "8048407516ca71257c9e40af21a202999951eb84"
 }

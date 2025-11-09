@@ -3,8 +3,6 @@
   "id": "14dcaf61-9d94-4e9d-8e3c-08e06d660c11",
   "name": "doodies/SD_RPG_STICK",
   "symbol": "sprite_sd_rpg_stick",
-  "width": 96,
-  "height": 16,
   "states": [
     {
       "id": "ffb5525a-c558-4a8a-800b-b554defb58e2",
@@ -343,14 +341,17 @@
     }
   ],
   "numTiles": 8,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
   "canvasWidth": 16,
   "canvasHeight": 16,
   "boundsX": 0,
-  "boundsY": 0,
+  "boundsY": -8,
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
   "filename": "doodies/SD_RPG_STICK.png",
-  "checksum": "e588c3465ce4624dfcfe6b8492868a1f14db4e34",
-  "numFrames": 6
+  "width": 96,
+  "height": 16,
+  "checksum": "e588c3465ce4624dfcfe6b8492868a1f14db4e34"
 }

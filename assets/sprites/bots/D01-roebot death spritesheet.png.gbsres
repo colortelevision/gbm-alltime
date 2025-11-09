@@ -3,8 +3,6 @@
   "id": "9d33262f-6033-41ed-aab8-7f742349685d",
   "name": "bots/D01-roebot death spritesheet",
   "symbol": "sprite_d01_roebot_death_spr",
-  "width": 112,
-  "height": 24,
   "states": [
     {
       "id": "9853ce1b-2210-41e3-a3c8-05900d983840",
@@ -375,14 +373,17 @@
     }
   ],
   "numTiles": 16,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
   "canvasWidth": 32,
   "canvasHeight": 32,
   "boundsX": 0,
-  "boundsY": 0,
+  "boundsY": -8,
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
   "filename": "bots/D01-roebot death spritesheet.png",
-  "checksum": "ee9ee439ac5d26c33b44a4bb179f2a6f0fbec04d",
-  "numFrames": 7
+  "width": 112,
+  "height": 24,
+  "checksum": "ee9ee439ac5d26c33b44a4bb179f2a6f0fbec04d"
 }

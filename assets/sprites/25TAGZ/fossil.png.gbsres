@@ -1,25 +1,23 @@
 {
   "_resourceType": "sprite",
-  "id": "ebe65348-ea00-40d0-a8af-5c1dad9fc87d",
+  "id": "4f3b0e5a-beea-41c8-ac7a-707d4083b696",
   "name": "25TAGZ/fossil",
   "symbol": "sprite_25tagz_fossil",
-  "width": 16,
-  "height": 16,
   "states": [
     {
-      "id": "9dd3bdee-d13f-4900-ae9e-07b72c620039",
+      "id": "b24fc72d-4884-4cca-9cda-f7e07868e1bd",
       "name": "",
       "animationType": "fixed",
       "flipLeft": false,
       "animations": [
         {
-          "id": "aae79836-42cd-4468-bf33-3c0a9afcd0fd",
+          "id": "d92ba3ba-296a-4d57-9f2d-a2ae38c7e3bc",
           "frames": [
             {
-              "id": "35f54856-a394-4e1a-b791-cbdff1deb894",
+              "id": "c637e181-5614-4133-9c09-6ca902eec224",
               "tiles": [
                 {
-                  "id": "d81d75eb-f227-44b0-a299-13ae9eae9a5c",
+                  "id": "c204ce3d-a855-4387-b660-5cb9087ad9a6",
                   "x": 0,
                   "y": 0,
                   "sliceX": 0,
@@ -32,7 +30,7 @@
                   "priority": false
                 },
                 {
-                  "id": "5176c46c-04c6-4af8-91d7-402143a65c8a",
+                  "id": "8d46d7ed-f2ee-48b3-85c4-34e2913170d2",
                   "x": 8,
                   "y": 0,
                   "sliceX": 8,
@@ -49,64 +47,64 @@
           ]
         },
         {
-          "id": "3de1e1ca-e199-45e6-b6a1-ed9f1adeb90b",
+          "id": "8728d540-19ea-4c65-8c7b-90e03f638e93",
           "frames": [
             {
-              "id": "cd7643c0-c7d6-4f18-8e7f-eb387da8d182",
+              "id": "449ff05d-d393-4906-b641-81643bbda47b",
               "tiles": []
             }
           ]
         },
         {
-          "id": "e7de3a1c-db93-43cf-9ef0-233a1c70a2e8",
+          "id": "32e36fb4-d0f8-46e6-838c-17eb7f3aaa4b",
           "frames": [
             {
-              "id": "db02be7b-4646-4337-b290-25723a970333",
+              "id": "6f8504e7-80db-4035-b2fa-732c5507db5f",
               "tiles": []
             }
           ]
         },
         {
-          "id": "b335d9a4-5554-49d8-b65c-8f985c08d30f",
+          "id": "7f5e2633-21ff-450e-88db-a7d09ecf3bf0",
           "frames": [
             {
-              "id": "84972e28-e4d1-450b-a499-12cea7eb508f",
+              "id": "c70e5850-0865-49c9-a88b-2b0724ccc4f8",
               "tiles": []
             }
           ]
         },
         {
-          "id": "28eeeb88-11b7-427f-9aef-3db5496fe0bb",
+          "id": "61d2de0a-2bcc-4359-9fe8-9a7c543e0723",
           "frames": [
             {
-              "id": "e9db0cec-bc92-4468-9bae-892f374718b8",
+              "id": "49a49acf-4446-4859-972d-cda37507eb72",
               "tiles": []
             }
           ]
         },
         {
-          "id": "91744554-a68f-473c-814c-09e675a2e875",
+          "id": "3f725f49-c4b9-442a-8f37-ba82318853a2",
           "frames": [
             {
-              "id": "6787eb7f-2f66-4795-a646-452a421cf339",
+              "id": "fd38078c-bfd4-4419-9315-37955ce70d85",
               "tiles": []
             }
           ]
         },
         {
-          "id": "dcf9d1c0-ec8c-4cf2-b2bd-e7d8980a07e1",
+          "id": "a0c4107e-2051-4e46-9833-9a4f99c7b564",
           "frames": [
             {
-              "id": "ea0cf5d0-08a8-45c9-96c6-a5c240e6fcae",
+              "id": "56db559c-9f1d-41a7-aab8-10cdca4fd6f3",
               "tiles": []
             }
           ]
         },
         {
-          "id": "11f24f30-9e12-41ed-844c-e6fdadff7992",
+          "id": "dd4c4ce3-8326-4db1-b42d-5f9b9418d119",
           "frames": [
             {
-              "id": "627cafb1-4fef-4149-a03b-77a821fdf226",
+              "id": "2f032ebb-bf93-433f-af46-99116a0226a9",
               "tiles": []
             }
           ]
@@ -115,14 +113,17 @@
     }
   ],
   "numTiles": 2,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
   "canvasWidth": 16,
   "canvasHeight": 16,
   "boundsX": 0,
-  "boundsY": 0,
+  "boundsY": -8,
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
-  "filename": "25tagz/fossil.png",
-  "checksum": "d356279761460fe32d6de7372b4bafdfb6ff6f46",
-  "numFrames": 1
+  "filename": "25TAGZ/fossil.png",
+  "width": 16,
+  "height": 16,
+  "checksum": "d356279761460fe32d6de7372b4bafdfb6ff6f46"
 }

@@ -3,8 +3,6 @@
   "id": "fa357097-6a11-46fa-83df-66bf71116288",
   "name": "eusine",
   "symbol": "sprite_eusine",
-  "width": 16,
-  "height": 96,
   "states": [
     {
       "id": "90e470c4-2a75-4cf1-95bd-530fad83a2fe",
@@ -88,13 +86,17 @@
     }
   ],
   "numTiles": 0,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
   "canvasWidth": 32,
   "canvasHeight": 32,
   "boundsX": 0,
-  "boundsY": 0,
+  "boundsY": -8,
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
   "filename": "eusine.png",
+  "width": 16,
+  "height": 96,
   "checksum": "38f92f6fdd4dca527d9afab8039fe64435f4ecdf"
 }

@@ -3,8 +3,6 @@
   "id": "f6ddde04-3c17-47bb-bda3-c7ebeb7e5a23",
   "name": "uiux/splatter",
   "symbol": "sprite_splatter",
-  "width": 16,
-  "height": 32,
   "states": [
     {
       "id": "c2f5c5da-f841-48cd-ac74-e85aefb71f41",
@@ -115,14 +113,17 @@
     }
   ],
   "numTiles": 2,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
   "canvasWidth": 32,
   "canvasHeight": 32,
   "boundsX": 0,
-  "boundsY": 0,
+  "boundsY": -8,
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
   "filename": "uiux/splatter.png",
-  "checksum": "65bfcac0afa54ea39cfa6be2f408d4f1f506b3b8",
-  "numFrames": 1
+  "width": 16,
+  "height": 32,
+  "checksum": "65bfcac0afa54ea39cfa6be2f408d4f1f506b3b8"
 }

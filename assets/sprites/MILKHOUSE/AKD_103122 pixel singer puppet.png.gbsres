@@ -1,85 +1,83 @@
 {
   "_resourceType": "sprite",
-  "id": "741d4c4d-7ad4-4850-88c1-31ce31ffcf52",
+  "id": "b1fe51ec-c3d7-49a7-8d53-a71297738379",
   "name": "MILKHOUSE/AKD_103122 pixel singer puppet",
-  "symbol": "sprite_akd_103122_pixel_sin",
-  "width": 64,
-  "height": 64,
+  "symbol": "sprite_milkhouse_akd_103122",
   "states": [
     {
-      "id": "3925b28d-0dbc-408a-89cf-6c314678379c",
+      "id": "bb394a63-731d-4d7c-9e4e-247dbf80b411",
       "name": "",
       "animationType": "multi_movement",
       "flipLeft": true,
       "animations": [
         {
-          "id": "56b215e3-5da3-4688-87e8-cbd108da5081",
+          "id": "0e742935-1171-41d0-82a8-d07d312994b1",
           "frames": [
             {
-              "id": "eb6d0e99-5ded-4b70-8152-66a8d6381ec0",
+              "id": "60f072da-2c2d-4b8e-9c60-c11fab9752f6",
               "tiles": []
             }
           ]
         },
         {
-          "id": "121d8a0f-5211-428a-9786-68f63ffb3862",
+          "id": "336a2fc1-159b-4ca3-89c6-fe016377f0ce",
           "frames": [
             {
-              "id": "5d2cd3e7-5c3d-4360-aafc-90a2fa8b7c0a",
+              "id": "04a4f5f6-6307-4beb-89b4-501d7760480f",
               "tiles": []
             }
           ]
         },
         {
-          "id": "da70a61c-bd40-421c-a28a-e2b2a57ac25e",
+          "id": "2e42605c-4651-4462-8145-68e086bb5744",
           "frames": [
             {
-              "id": "48fbae69-4698-4346-91a6-ae00bcbcdf04",
+              "id": "957ac5d7-d226-4697-9074-aa1a6dab3081",
               "tiles": []
             }
           ]
         },
         {
-          "id": "cbd7d5c4-e624-428f-81d5-37c52af26264",
+          "id": "77313211-bc4d-4d36-bc7c-c5398a8b6866",
           "frames": [
             {
-              "id": "679f44b4-2eae-48f0-bd65-3835c38867e8",
+              "id": "0382eef6-30f1-4487-83b4-2abab2c00345",
               "tiles": []
             }
           ]
         },
         {
-          "id": "0ed064ae-b5f5-479f-946a-b0c710295020",
+          "id": "2c8c6f64-30fa-40ee-88a0-f69981b73d2a",
           "frames": [
             {
-              "id": "fa76ae85-0f90-48cd-99dc-71371784bebd",
+              "id": "214ad0e7-a8d7-4c48-9f9b-1ecd4ae1396b",
               "tiles": []
             }
           ]
         },
         {
-          "id": "7cc30957-a3b1-44b9-a822-e2e6e510ac4e",
+          "id": "f8c5d212-2b5a-4cbb-afc8-cba8bf18711c",
           "frames": [
             {
-              "id": "a523d03f-8481-48ec-9fe0-2cb7e81b824e",
+              "id": "760931cf-2848-4e8c-afc5-442a14887159",
               "tiles": []
             }
           ]
         },
         {
-          "id": "aff1be69-9ec9-4902-bf13-49d3231f7973",
+          "id": "600df4fc-21d8-4215-b034-1835f6b1f225",
           "frames": [
             {
-              "id": "cbafa06a-390b-45ee-8611-4f9d377f4532",
+              "id": "09688ffb-6fd9-4838-9322-26585cdddc58",
               "tiles": []
             }
           ]
         },
         {
-          "id": "60bdff71-5b07-41c9-bf43-f98ae854d605",
+          "id": "f3a29600-2138-4458-9f4d-bd857d19e0ce",
           "frames": [
             {
-              "id": "aef23678-04d5-4e7c-9086-7e5f11b13259",
+              "id": "223cdbbb-6a51-4139-8648-af7031fe0ecf",
               "tiles": []
             }
           ]
@@ -88,14 +86,17 @@
     }
   ],
   "numTiles": 0,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
   "canvasWidth": 32,
   "canvasHeight": 32,
   "boundsX": 0,
-  "boundsY": 0,
+  "boundsY": -8,
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
-  "filename": "milkhouse/AKD_103122 pixel singer puppet.png",
-  "checksum": "3ba76e30d5bda943e98316760ab5372c12e14bd0",
-  "numFrames": 4
+  "filename": "MILKHOUSE/AKD_103122 pixel singer puppet.png",
+  "width": 64,
+  "height": 64,
+  "checksum": "3ba76e30d5bda943e98316760ab5372c12e14bd0"
 }

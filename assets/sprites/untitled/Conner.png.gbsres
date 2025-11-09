@@ -3,8 +3,6 @@
   "id": "6ade27ae-bc58-44a5-96b3-602ce98a322a",
   "name": "untitled/Conner",
   "symbol": "sprite_conner",
-  "width": 32,
-  "height": 58,
   "states": [
     {
       "id": "701eb877-f15d-4989-94b5-444da9563b47",
@@ -297,14 +295,17 @@
     }
   ],
   "numTiles": 13,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
   "canvasWidth": 64,
   "canvasHeight": 64,
   "boundsX": 0,
-  "boundsY": 0,
+  "boundsY": -8,
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
   "filename": "untitled/Conner.png",
-  "checksum": "7a4bd258ea82aad53660015517523e7af0b2b6df",
-  "numFrames": 2
+  "width": 32,
+  "height": 58,
+  "checksum": "7a4bd258ea82aad53660015517523e7af0b2b6df"
 }

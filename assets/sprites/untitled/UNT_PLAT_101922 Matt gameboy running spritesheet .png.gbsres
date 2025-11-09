@@ -3,8 +3,6 @@
   "id": "7daeebda-6409-4958-9dca-db1e3794905e",
   "name": "untitled/UNT_PLAT_101922 Matt gameboy running spritesheet ",
   "symbol": "sprite_unt_plat_101922_matt",
-  "width": 120,
-  "height": 120,
   "states": [
     {
       "id": "99c35cc2-293e-4c72-8f25-de7b7d85dca7",
@@ -88,14 +86,17 @@
     }
   ],
   "numTiles": 0,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
   "canvasWidth": 32,
   "canvasHeight": 32,
   "boundsX": 0,
-  "boundsY": 0,
+  "boundsY": -8,
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
   "filename": "untitled/UNT_PLAT_101922 Matt gameboy running spritesheet .png",
-  "checksum": "a3aabced059513823e08200032c0d246a7dcea0f",
-  "numFrames": 7.5
+  "width": 120,
+  "height": 120,
+  "checksum": "a3aabced059513823e08200032c0d246a7dcea0f"
 }

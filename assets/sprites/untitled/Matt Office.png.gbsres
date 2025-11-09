@@ -3,8 +3,6 @@
   "id": "ff853a2c-b693-462f-8254-e4d18e9ec81f",
   "name": "untitled/Matt Office",
   "symbol": "sprite_matt_office",
-  "width": 160,
-  "height": 144,
   "states": [
     {
       "id": "d6b4d807-f20a-414d-addf-3069131486d6",
@@ -88,14 +86,17 @@
     }
   ],
   "numTiles": 0,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
   "canvasWidth": 32,
   "canvasHeight": 32,
   "boundsX": 0,
-  "boundsY": 0,
+  "boundsY": -8,
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
   "filename": "untitled/Matt Office.png",
-  "checksum": "dee7c1ec964bf92383c2af7d969084b4174aaa79",
-  "numFrames": 10
+  "width": 160,
+  "height": 144,
+  "checksum": "dee7c1ec964bf92383c2af7d969084b4174aaa79"
 }

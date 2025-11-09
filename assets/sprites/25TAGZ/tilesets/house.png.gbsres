@@ -1,85 +1,83 @@
 {
   "_resourceType": "sprite",
-  "id": "85fc26b9-d428-4d97-9b20-6a62a7b63ca0",
+  "id": "e2463faf-c8f5-47e1-b50b-e90447cbb1a9",
   "name": "25TAGZ/tilesets/house",
   "symbol": "sprite_25tagz_tilesets_hous",
-  "width": 128,
-  "height": 48,
   "states": [
     {
-      "id": "7fdefb35-9e04-48b0-953b-8eea405b6c7e",
+      "id": "9e180977-3858-46ce-93df-3af27030dc10",
       "name": "",
       "animationType": "multi_movement",
       "flipLeft": true,
       "animations": [
         {
-          "id": "a4a2ecf5-e67c-49d4-af36-38f6a4ecc380",
+          "id": "de8bbff5-4242-41e8-9eea-c1c4f2463e63",
           "frames": [
             {
-              "id": "ef25bd2c-1bb9-466f-a19c-314c9c724db2",
+              "id": "bc4e3a02-a821-4db6-b8aa-c7074a1691d5",
               "tiles": []
             }
           ]
         },
         {
-          "id": "f783591a-7ea4-4f1a-95e0-6972b85ee0d7",
+          "id": "484cac8a-076a-475a-a574-0716f9227c2b",
           "frames": [
             {
-              "id": "6236aa19-fd05-4a93-9869-37c24320d2de",
+              "id": "093b6a21-34ef-4afd-aaec-fefdde8b51b8",
               "tiles": []
             }
           ]
         },
         {
-          "id": "53a41065-7517-497b-aa1e-7e5b22c34afa",
+          "id": "5ac00328-f5a0-4eee-9176-d01167385dcb",
           "frames": [
             {
-              "id": "0cb0a9a3-e4f5-48d3-bad7-18a19a335170",
+              "id": "668bd956-4b09-4881-99b5-3bbd96bf4467",
               "tiles": []
             }
           ]
         },
         {
-          "id": "68d97951-baa1-4747-807d-5746955708c1",
+          "id": "a9f8e543-e48f-4af3-8b9e-1f56e06fbba5",
           "frames": [
             {
-              "id": "75a3714a-7420-4f99-adfa-496bc447d7a4",
+              "id": "a731bd22-5a48-45cc-8737-881990eedb59",
               "tiles": []
             }
           ]
         },
         {
-          "id": "b51c6f1c-94e0-4b32-b378-9ed581189f05",
+          "id": "27ab657c-5d20-4b1f-b112-d10439dba777",
           "frames": [
             {
-              "id": "3dd92aa7-db23-47e1-9939-32161c7aa1c5",
+              "id": "1d05dc7a-3563-411b-9ce8-9236ee6438dd",
               "tiles": []
             }
           ]
         },
         {
-          "id": "1eeda31a-0599-499f-b171-ad237920c8c1",
+          "id": "576e2603-e09f-4d28-abf5-58df338f1863",
           "frames": [
             {
-              "id": "fdeb0ea4-2018-4b83-b97d-23e58fc4661e",
+              "id": "cde44f5e-ebe9-4ad5-9bea-f48f4d275e0d",
               "tiles": []
             }
           ]
         },
         {
-          "id": "7d4ba9d7-cb61-47aa-b3fc-816c46c63813",
+          "id": "8161b297-1bcd-4fa8-ad7f-64cbba57515a",
           "frames": [
             {
-              "id": "5d28d08f-17fc-4eb2-a485-ea23fec72116",
+              "id": "f53eba45-25f1-4ccd-9e7c-78d3f6d15e73",
               "tiles": []
             }
           ]
         },
         {
-          "id": "42f592e1-d89c-40a7-81e7-658e8dea82bd",
+          "id": "46d83424-9752-4c8f-8f16-b54d04221197",
           "frames": [
             {
-              "id": "886b9a1e-4712-49c1-b267-a02d106ca6f4",
+              "id": "0110f177-a756-4e6d-aa4f-1f18487d7505",
               "tiles": []
             }
           ]
@@ -88,14 +86,17 @@
     }
   ],
   "numTiles": 0,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
   "canvasWidth": 32,
   "canvasHeight": 32,
   "boundsX": 0,
-  "boundsY": 0,
+  "boundsY": -8,
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
-  "filename": "25tagz/tilesets/house.png",
-  "checksum": "8f058722600817328b14dc3f7116f1b52af228ac",
-  "numFrames": 8
+  "filename": "25TAGZ/tilesets/house.png",
+  "width": 128,
+  "height": 48,
+  "checksum": "8f058722600817328b14dc3f7116f1b52af228ac"
 }

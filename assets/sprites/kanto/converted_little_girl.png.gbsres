@@ -3,8 +3,6 @@
   "id": "d5c683d0-799a-43f6-91aa-6846858ecda4",
   "name": "kanto/converted_little_girl",
   "symbol": "sprite_kanto_converted_litt_0",
-  "width": 16,
-  "height": 96,
   "states": [
     {
       "id": "168e01ac-3206-4348-acb3-aba950fa7619",
@@ -88,13 +86,17 @@
     }
   ],
   "numTiles": 0,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
   "canvasWidth": 32,
   "canvasHeight": 32,
   "boundsX": 0,
-  "boundsY": 0,
+  "boundsY": -8,
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
   "filename": "kanto/converted_little_girl.png",
+  "width": 16,
+  "height": 96,
   "checksum": "c92a7a888a9db343e47782cb8e6ef2b59924d415"
 }

@@ -1,85 +1,83 @@
 {
   "_resourceType": "sprite",
-  "id": "f5a83a72-86f4-4c28-9936-ca0ec80a2341",
+  "id": "0f83491c-fe38-4973-8cf0-7c12bc61e710",
   "name": "25TAGZ/gameboy_kid",
   "symbol": "sprite_25tagz_gameboy_kid",
-  "width": 16,
-  "height": 48,
   "states": [
     {
-      "id": "bccacaca-737c-40bc-84ac-85d7fc3ab988",
+      "id": "abb58016-1a0e-4b14-b21b-0cd8d84e2bab",
       "name": "",
       "animationType": "multi_movement",
       "flipLeft": true,
       "animations": [
         {
-          "id": "5671f45c-49bb-4607-a934-6c1e5db7197e",
+          "id": "a11bc612-9ed0-4ebe-9824-a8cbbd5e9359",
           "frames": [
             {
-              "id": "652f470b-04b2-4398-981b-6127f7a2b002",
+              "id": "f52dd0c0-eff4-476d-bcc8-3c2f76c99451",
               "tiles": []
             }
           ]
         },
         {
-          "id": "85dc8d1a-a4d8-457f-b1f6-6f2bd57a537e",
+          "id": "ca75330d-cfb9-4a1c-8ee1-24f031d378cd",
           "frames": [
             {
-              "id": "43ababf3-d5d8-4cdf-b79f-645de760e529",
+              "id": "941496a3-a9f9-472f-8b32-3c35e0c5180d",
               "tiles": []
             }
           ]
         },
         {
-          "id": "42307b45-42fb-4c9a-b98d-9bcd363eee63",
+          "id": "6466ba15-fc97-4a73-9f00-aa835cf0a0d6",
           "frames": [
             {
-              "id": "1693b5be-91e5-4d63-b519-d1c4c1962b46",
+              "id": "210d9ad1-d077-4e79-8156-41274599b490",
               "tiles": []
             }
           ]
         },
         {
-          "id": "00867d29-ba18-4a37-a7f6-463e9b7ed874",
+          "id": "e3159ddd-b49a-43c8-953d-71e1adf9da8d",
           "frames": [
             {
-              "id": "7cf88330-6687-4fa7-b29c-6bfb33252bda",
+              "id": "dddb2ca2-62b8-4c1e-95d2-d41a787bdec5",
               "tiles": []
             }
           ]
         },
         {
-          "id": "a9d821e2-ed63-41a9-a689-d14752bbdcea",
+          "id": "dcc2a200-2bd1-44f1-a54c-1d789d9dd2b3",
           "frames": [
             {
-              "id": "fa14fcdf-00cc-4cc1-85d8-3d546e9f9419",
+              "id": "02095a59-6f95-41d2-a4f1-114f502e5b04",
               "tiles": []
             }
           ]
         },
         {
-          "id": "16eefcc3-561a-4451-9808-04c7dde706bd",
+          "id": "ca9ead80-0490-4b1f-a04e-064c8a9a2381",
           "frames": [
             {
-              "id": "3335f4fe-2b33-4623-bd2f-ab515359e25f",
+              "id": "e5398648-57c4-4c7e-bb93-5c3ec9f9756a",
               "tiles": []
             }
           ]
         },
         {
-          "id": "c801ab22-71b9-4b24-8dc7-147456c67642",
+          "id": "6c67c020-0f54-495a-9a90-0737be0dfc62",
           "frames": [
             {
-              "id": "2f934409-d5a1-47cc-90dc-61e2106d312a",
+              "id": "1560433a-40d5-4052-8f61-7ad33dcdff23",
               "tiles": []
             }
           ]
         },
         {
-          "id": "de82a09e-4a6e-4d1a-b233-d6c0f26e0b7b",
+          "id": "50fe6446-50ac-44a3-87ac-b40f45466d9f",
           "frames": [
             {
-              "id": "b0630ccb-5803-433d-a23f-5b7b6a420959",
+              "id": "229b08ec-ee18-429a-ab8f-f9c003344754",
               "tiles": []
             }
           ]
@@ -88,14 +86,17 @@
     }
   ],
   "numTiles": 0,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
   "canvasWidth": 32,
   "canvasHeight": 32,
   "boundsX": 0,
-  "boundsY": 0,
+  "boundsY": -8,
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
-  "filename": "25tagz/gameboy_kid.png",
-  "checksum": "266d34b3f03d7fbf8b592536248e39d9938d3654",
-  "numFrames": 1
+  "filename": "25TAGZ/gameboy_kid.png",
+  "width": 16,
+  "height": 48,
+  "checksum": "266d34b3f03d7fbf8b592536248e39d9938d3654"
 }

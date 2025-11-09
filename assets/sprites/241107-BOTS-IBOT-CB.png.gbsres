@@ -3,8 +3,6 @@
   "id": "5bbd43a5-2220-4350-8846-c1c678062c4c",
   "name": "241107-BOTS-IBOT-CB",
   "symbol": "sprite_241107_bots_ibot_cb",
-  "width": 810,
-  "height": 810,
   "states": [
     {
       "id": "bb7b9afd-0d53-4d71-a3af-adb34a818a1b",
@@ -88,14 +86,17 @@
     }
   ],
   "numTiles": 0,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
   "canvasWidth": 32,
   "canvasHeight": 32,
   "boundsX": 0,
-  "boundsY": 0,
+  "boundsY": -8,
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
   "filename": "241107-BOTS-IBOT-CB.png",
-  "checksum": "6c34c5a6a820a89d2c5542cfb33e9a1d52e7ca00",
-  "numFrames": 50.625
+  "width": 810,
+  "height": 810,
+  "checksum": "6c34c5a6a820a89d2c5542cfb33e9a1d52e7ca00"
 }

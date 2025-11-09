@@ -3,8 +3,6 @@
   "id": "8217050a-a882-465b-85d2-39cc74a29d46",
   "name": "doodies/DOODIES-CAT-SRITESHEET",
   "symbol": "sprite_doodies_cat_sriteshe",
-  "width": 96,
-  "height": 16,
   "states": [
     {
       "id": "77067cff-6dd5-4243-80c2-fde963ea2338",
@@ -343,13 +341,17 @@
     }
   ],
   "numTiles": 12,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
   "canvasWidth": 16,
   "canvasHeight": 16,
   "boundsX": 0,
-  "boundsY": 0,
+  "boundsY": -8,
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
   "filename": "doodies/DOODIES-CAT-SRITESHEET.png",
+  "width": 96,
+  "height": 16,
   "checksum": "a550d2d8d3cf2136f1caf634748a93fe3100b154"
 }

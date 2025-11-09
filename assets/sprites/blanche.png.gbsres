@@ -3,8 +3,6 @@
   "id": "1412b4eb-dd7e-48a6-ad2d-692eddf573e1",
   "name": "blanche",
   "symbol": "sprite_blanche",
-  "width": 16,
-  "height": 96,
   "states": [
     {
       "id": "b57eb02d-0826-44e9-b044-2c250952dcaf",
@@ -88,13 +86,17 @@
     }
   ],
   "numTiles": 0,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
   "canvasWidth": 32,
   "canvasHeight": 32,
   "boundsX": 0,
-  "boundsY": 0,
+  "boundsY": -8,
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
   "filename": "blanche.png",
+  "width": 16,
+  "height": 96,
   "checksum": "25e691d791ec5b841c1852babcd76f9a5edf8cf5"
 }

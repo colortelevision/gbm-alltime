@@ -3,8 +3,6 @@
   "id": "9bf32b3f-9211-4a58-9677-0d26f19f419b",
   "name": "untitled/ryu",
   "symbol": "sprite_ryu",
-  "width": 43,
-  "height": 56,
   "states": [
     {
       "id": "197904cc-f552-4c4e-acd2-2ab688d5604e",
@@ -401,14 +399,17 @@
     }
   ],
   "numTiles": 18,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
   "canvasWidth": 56,
   "canvasHeight": 56,
   "boundsX": 0,
-  "boundsY": 0,
+  "boundsY": -8,
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
   "filename": "untitled/ryu.png",
-  "checksum": "c5b0fd145c0b20b51e2bd624327cdbb564d7c100",
-  "numFrames": 2.6875
+  "width": 43,
+  "height": 56,
+  "checksum": "c5b0fd145c0b20b51e2bd624327cdbb564d7c100"
 }

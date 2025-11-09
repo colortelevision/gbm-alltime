@@ -1,85 +1,83 @@
 {
   "_resourceType": "sprite",
-  "id": "e4d186ae-1b84-41f9-8a9d-bd9307eaeeb9",
+  "id": "9e6a68c8-b5f1-4484-b1e3-54069b2195d8",
   "name": "25TAGZ/tilesets/reds_house",
   "symbol": "sprite_25tagz_tilesets_reds",
-  "width": 128,
-  "height": 40,
   "states": [
     {
-      "id": "43f2e543-f777-429a-af62-963d5cc3f6a9",
+      "id": "f7d8a5a4-ee15-4787-a14d-31d43c153603",
       "name": "",
       "animationType": "multi_movement",
       "flipLeft": true,
       "animations": [
         {
-          "id": "d9d5ca5e-a97d-4145-8f3b-6a3b5d10dd73",
+          "id": "32de619b-0658-4aae-a124-78b33eca6e95",
           "frames": [
             {
-              "id": "d531f379-dff5-4d2a-8a82-ff5cce59eb6b",
+              "id": "10a49dc8-b92b-4ec6-ae10-af81f2dcee8e",
               "tiles": []
             }
           ]
         },
         {
-          "id": "3f9fd927-572d-490d-9b63-5fd1ba2ef211",
+          "id": "8739ae58-6d3a-4182-96fd-fe4e82627952",
           "frames": [
             {
-              "id": "955f5ac5-f2fd-46fb-99f4-c9e68419fefb",
+              "id": "1dc0ef16-a7cd-4d00-9146-b7bb02bc417e",
               "tiles": []
             }
           ]
         },
         {
-          "id": "d6595c75-ac21-4780-abd1-6870b4b691f7",
+          "id": "f964a17a-d163-470a-8c24-bfc604edf20e",
           "frames": [
             {
-              "id": "946d7dfc-d805-41f9-ab79-b30cc00566ea",
+              "id": "948f8bd3-6da9-4d1b-b9a8-d5a1f415462f",
               "tiles": []
             }
           ]
         },
         {
-          "id": "6bc2023b-38f0-4800-8327-04ea6374bd97",
+          "id": "4de45481-e2a3-4161-bb52-3f43c78e88c5",
           "frames": [
             {
-              "id": "67776146-5520-474c-b3c9-7a87a32a2239",
+              "id": "39cd5cc7-5cc5-4270-9324-19e313c83e42",
               "tiles": []
             }
           ]
         },
         {
-          "id": "178c7fa0-7e30-4c40-a216-639685337c90",
+          "id": "4ac7b376-d375-4de0-9269-b995b49a950f",
           "frames": [
             {
-              "id": "b7caeb10-87d3-4172-b0da-bcd2e6e12f10",
+              "id": "70ad3993-a4a9-4e4e-b4ae-edc3fd2b9d67",
               "tiles": []
             }
           ]
         },
         {
-          "id": "98a21f85-28ed-4d87-a029-2194ca59e4bf",
+          "id": "c165e1f6-5855-4c0d-ab1e-c266ea975317",
           "frames": [
             {
-              "id": "7db18bf6-6cf9-437c-af1b-34891d2fdd35",
+              "id": "6db3224b-e09d-4363-b443-011b7f096376",
               "tiles": []
             }
           ]
         },
         {
-          "id": "05ae1041-e956-4334-aeab-14da2fa191cc",
+          "id": "6e18ec48-ac41-45fb-8ce2-c2fe1a8d57d6",
           "frames": [
             {
-              "id": "794910ba-4e59-473f-9bba-c2f97e37c5eb",
+              "id": "2d87a4cc-132f-44f8-9d6c-1b08e4ee1e05",
               "tiles": []
             }
           ]
         },
         {
-          "id": "7e342697-7e83-4baf-bc49-89e066787cf6",
+          "id": "744791b3-7a03-4f0c-9903-98d292fe524a",
           "frames": [
             {
-              "id": "ace6bf4d-70ec-434f-a4d5-662cf041e4c2",
+              "id": "d246d5a7-1a5c-4d75-b1a3-58110f6b8597",
               "tiles": []
             }
           ]
@@ -88,14 +86,17 @@
     }
   ],
   "numTiles": 0,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
   "canvasWidth": 32,
   "canvasHeight": 32,
   "boundsX": 0,
-  "boundsY": 0,
+  "boundsY": -8,
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
-  "filename": "25tagz/tilesets/reds_house.png",
-  "checksum": "b5d082772f4deb1444f61187892ceedb456a8f05",
-  "numFrames": 8
+  "filename": "25TAGZ/tilesets/reds_house.png",
+  "width": 128,
+  "height": 40,
+  "checksum": "b5d082772f4deb1444f61187892ceedb456a8f05"
 }

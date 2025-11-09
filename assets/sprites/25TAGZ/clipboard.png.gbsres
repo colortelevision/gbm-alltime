@@ -1,25 +1,23 @@
 {
   "_resourceType": "sprite",
-  "id": "539da640-e591-40d0-b863-76dcd54279d5",
+  "id": "264a135e-0568-4ccf-8041-a93721f4c69b",
   "name": "25TAGZ/clipboard",
   "symbol": "sprite_25tagz_clipboard",
-  "width": 16,
-  "height": 16,
   "states": [
     {
-      "id": "3fe08394-0ee8-492d-8ebd-4821e91de724",
+      "id": "d08a5ac4-3601-45d4-a08f-39888704b0b3",
       "name": "",
       "animationType": "fixed",
       "flipLeft": false,
       "animations": [
         {
-          "id": "89e89a8a-09bf-4c71-bb06-cc94fa0efd24",
+          "id": "df5c8734-707c-44d5-af45-d389f996258c",
           "frames": [
             {
-              "id": "31cbddea-51e5-4d82-bbbe-f1a085f2e4f7",
+              "id": "79928fc5-ce6d-4eb4-afb0-153cb21c6821",
               "tiles": [
                 {
-                  "id": "dcbd22bb-a169-46df-8bbb-0cb668bc8656",
+                  "id": "efce9b80-fb55-4fc9-be19-17beeca33202",
                   "x": 0,
                   "y": 0,
                   "sliceX": 0,
@@ -32,7 +30,7 @@
                   "priority": false
                 },
                 {
-                  "id": "b5a4c42f-7af6-4cde-9415-6151c56c5bf0",
+                  "id": "58da9d8c-32ca-40b8-ab18-0caa9a0eb296",
                   "x": 8,
                   "y": 0,
                   "sliceX": 8,
@@ -49,64 +47,64 @@
           ]
         },
         {
-          "id": "26370f76-d769-4e6c-bfdf-209bdf17a597",
+          "id": "e8a34a7c-9063-444f-bae6-6c6a1624edf4",
           "frames": [
             {
-              "id": "1b7310dc-ea6e-4bce-a050-bd9bd787b2e5",
+              "id": "56cef94b-4979-4e63-aac2-509e0eeba051",
               "tiles": []
             }
           ]
         },
         {
-          "id": "847519f8-af94-44e2-beee-6709dbc2f236",
+          "id": "d92889b2-8aa3-4ec0-8697-b0ba6694b246",
           "frames": [
             {
-              "id": "dc72b5bd-569e-41bd-be28-707987f18865",
+              "id": "d4b6e720-9f9d-433a-9e63-02ec2ff44e5b",
               "tiles": []
             }
           ]
         },
         {
-          "id": "330c9cc0-76a3-4f53-95b2-60fa37e78613",
+          "id": "968c9066-2c1a-4fe1-8c80-b1225476960e",
           "frames": [
             {
-              "id": "89c7f583-48e0-4321-ac7c-47321d8773e4",
+              "id": "66e59d45-6136-4dea-acd5-096170f810b9",
               "tiles": []
             }
           ]
         },
         {
-          "id": "d42f6835-f302-4a41-a33e-70e801d9224c",
+          "id": "37df49b7-8d09-4a9b-b4c9-55375557d4e2",
           "frames": [
             {
-              "id": "32312e18-4204-4a13-ad16-62c2f73bba7e",
+              "id": "63c2c8e8-e859-4e04-bbc0-aa6d01fdc763",
               "tiles": []
             }
           ]
         },
         {
-          "id": "8c0da907-699e-49a7-ba0b-023a40696369",
+          "id": "5e64b6aa-1107-4567-8871-ab5a0b434749",
           "frames": [
             {
-              "id": "3dab5c79-a0ba-4eaf-9a04-146b2703543d",
+              "id": "386c5753-ce40-4e64-a7a4-5cd474e360ec",
               "tiles": []
             }
           ]
         },
         {
-          "id": "02158db1-f50b-4410-bcc5-b17cc11af388",
+          "id": "ecd1da68-ce04-4b88-afba-6537a8cb5d96",
           "frames": [
             {
-              "id": "9998395c-ab62-42ae-bd1b-0530dce1f14d",
+              "id": "cdab805b-d898-4e04-bab0-afbdd7fc8280",
               "tiles": []
             }
           ]
         },
         {
-          "id": "9912ef6b-a32f-4413-a833-6a388fc6e4b4",
+          "id": "85fccf04-2923-4a7c-bbcc-4bee6cfb58ea",
           "frames": [
             {
-              "id": "9559ec50-2cd6-42be-b040-e0a7813aadfa",
+              "id": "55fe34d2-7639-4c90-b716-9940914f7af8",
               "tiles": []
             }
           ]
@@ -115,14 +113,17 @@
     }
   ],
   "numTiles": 2,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
   "canvasWidth": 16,
   "canvasHeight": 16,
   "boundsX": 0,
-  "boundsY": 0,
+  "boundsY": -8,
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
-  "filename": "25tagz/clipboard.png",
-  "checksum": "19a1004da868d64f67f3d9338e6ae92a204c453d",
-  "numFrames": 1
+  "filename": "25TAGZ/clipboard.png",
+  "width": 16,
+  "height": 16,
+  "checksum": "19a1004da868d64f67f3d9338e6ae92a204c453d"
 }

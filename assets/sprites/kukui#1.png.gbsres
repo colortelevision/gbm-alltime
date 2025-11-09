@@ -3,8 +3,6 @@
   "id": "e3ce231f-1cb5-4336-8bd7-b7060507ddb1",
   "name": "kukui#1",
   "symbol": "sprite_kukui_1",
-  "width": 16,
-  "height": 48,
   "states": [
     {
       "id": "a4f319f8-5dd3-45cd-93cc-2df77172ab90",
@@ -88,13 +86,17 @@
     }
   ],
   "numTiles": 0,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
   "canvasWidth": 32,
   "canvasHeight": 32,
   "boundsX": 0,
-  "boundsY": 0,
+  "boundsY": -8,
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
   "filename": "kukui#1.png",
+  "width": 16,
+  "height": 48,
   "checksum": "64e09d3cd807011a6b58216cdbbf14684f1be2c1"
 }

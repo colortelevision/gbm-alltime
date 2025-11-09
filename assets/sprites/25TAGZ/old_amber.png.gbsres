@@ -1,25 +1,23 @@
 {
   "_resourceType": "sprite",
-  "id": "ca08f5e7-0b9b-4098-85ee-8311d0efe1dd",
+  "id": "4948cb8b-968a-4b84-9a45-ff1de7c70b21",
   "name": "25TAGZ/old_amber",
   "symbol": "sprite_25tagz_old_amber",
-  "width": 16,
-  "height": 16,
   "states": [
     {
-      "id": "2a19c1b4-487d-491b-bae1-114f115686d8",
+      "id": "56bb90a9-c6ff-4995-a1d8-013463db82e9",
       "name": "",
       "animationType": "fixed",
       "flipLeft": false,
       "animations": [
         {
-          "id": "49a8e7be-5a67-4445-9385-87a4b44685b5",
+          "id": "c7b8db5a-d6e8-41c2-af98-b2a0924a6b88",
           "frames": [
             {
-              "id": "c022ca41-777d-4c41-b9e9-40f1ba62c1a6",
+              "id": "ff9836a3-178f-4c18-b4e9-1002a74fa198",
               "tiles": [
                 {
-                  "id": "f92ad8ad-4291-4c87-9b3e-799d288f3d79",
+                  "id": "309334ad-c9ed-478e-ae3a-9beed8f7d6d9",
                   "x": 0,
                   "y": 0,
                   "sliceX": 0,
@@ -32,7 +30,7 @@
                   "priority": false
                 },
                 {
-                  "id": "f867a9ba-bacf-48da-9c76-217c6f9aa5a5",
+                  "id": "505ac337-bbcc-4f79-a19c-4f9f28b3c33b",
                   "x": 8,
                   "y": 0,
                   "sliceX": 8,
@@ -49,64 +47,64 @@
           ]
         },
         {
-          "id": "caee6661-105b-49e5-830e-3ffeb1f2d32b",
+          "id": "8845b78b-a369-476c-beca-f0f30208343c",
           "frames": [
             {
-              "id": "1e4fb988-f893-4c43-b1ca-eac5fe8b01d4",
+              "id": "b3c78181-b9db-4759-9fef-f6ac3036a002",
               "tiles": []
             }
           ]
         },
         {
-          "id": "41f72268-cdc8-46f2-a47c-36936b616b7c",
+          "id": "ccde1d36-0bb7-4423-8ab8-8cb89e9904eb",
           "frames": [
             {
-              "id": "f3ffe958-4b9f-4c91-9bf2-aa886157995e",
+              "id": "f701141c-9c04-45c9-941a-53693f2944f6",
               "tiles": []
             }
           ]
         },
         {
-          "id": "ef8520fd-bfed-4bf8-94f8-42c88d6d2d8c",
+          "id": "9f7aebcf-11e5-477b-8f73-177c1f804adf",
           "frames": [
             {
-              "id": "c9badcdd-6659-44a6-b323-74ac0966254c",
+              "id": "e9016321-129f-471f-bc10-f2017a8b2472",
               "tiles": []
             }
           ]
         },
         {
-          "id": "ce7a1834-710d-4889-a0c2-dcb8f7886986",
+          "id": "13b92eea-371f-4166-8011-7e33f84094bd",
           "frames": [
             {
-              "id": "3c3c95e2-b13f-4a90-8d1d-5876df8f4eee",
+              "id": "2372d366-d5a9-4991-98d0-976b538b08b5",
               "tiles": []
             }
           ]
         },
         {
-          "id": "611650ab-7226-4ab5-a922-ef9fd80e5d3f",
+          "id": "de641208-4383-46f3-b24b-eba868a1c21d",
           "frames": [
             {
-              "id": "3e820d7d-8a69-4e9a-a990-e7547bd340ca",
+              "id": "1efac127-06ce-45df-9af8-f8f4ce7789f9",
               "tiles": []
             }
           ]
         },
         {
-          "id": "9d141da0-f5d4-4a4e-91f3-fcd6ee97516c",
+          "id": "e2194faf-b3bf-4360-aed7-ed8e2f0a36d5",
           "frames": [
             {
-              "id": "aa304bc8-242b-4b1f-94bc-c2fa072c91ca",
+              "id": "f85900c8-2506-468a-9dd3-a8fafd1f1cdc",
               "tiles": []
             }
           ]
         },
         {
-          "id": "3f16f86d-fcd2-4a30-8176-e92363e8a67b",
+          "id": "04772b75-fc27-4c70-898a-37c964f35f27",
           "frames": [
             {
-              "id": "c3a2c76a-7890-45ee-bd63-27c81ed52c5b",
+              "id": "c1c2bb0c-67b8-42e4-af09-0bcea38205eb",
               "tiles": []
             }
           ]
@@ -115,14 +113,17 @@
     }
   ],
   "numTiles": 2,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
   "canvasWidth": 16,
   "canvasHeight": 16,
   "boundsX": 0,
-  "boundsY": 0,
+  "boundsY": -8,
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
-  "filename": "25tagz/old_amber.png",
-  "checksum": "21843f1d6d656fe0f5f1abfe70e3bc5675a764ec",
-  "numFrames": 1
+  "filename": "25TAGZ/old_amber.png",
+  "width": 16,
+  "height": 16,
+  "checksum": "21843f1d6d656fe0f5f1abfe70e3bc5675a764ec"
 }

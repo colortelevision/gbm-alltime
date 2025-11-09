@@ -3,8 +3,6 @@
   "id": "39cc04eb-7da4-4a85-88ed-e95256826257",
   "name": "kanto/converted_smoke",
   "symbol": "sprite_kanto_converted_smok",
-  "width": 8,
-  "height": 8,
   "states": [
     {
       "id": "a0a6a803-2718-4cb0-87ce-1ff88ceeea03",
@@ -88,13 +86,17 @@
     }
   ],
   "numTiles": 0,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
   "canvasWidth": 32,
   "canvasHeight": 32,
   "boundsX": 0,
-  "boundsY": 0,
+  "boundsY": -8,
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
   "filename": "kanto/converted_smoke.png",
+  "width": 8,
+  "height": 8,
   "checksum": "567e6e7d3a3a937359deef6e11440694d08043b5"
 }

@@ -3,8 +3,6 @@
   "id": "da0c5997-6796-4cc8-a87a-bdcb4a4e7578",
   "name": "kanto/converted_clerk",
   "symbol": "sprite_kanto_converted_cler",
-  "width": 16,
-  "height": 48,
   "states": [
     {
       "id": "0e8c646c-a037-46e9-beb1-1f1e01e083b2",
@@ -169,13 +167,17 @@
     }
   ],
   "numTiles": 5,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
   "canvasWidth": 16,
   "canvasHeight": 16,
   "boundsX": 0,
-  "boundsY": 0,
+  "boundsY": -8,
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
   "filename": "kanto/converted_clerk.png",
+  "width": 16,
+  "height": 48,
   "checksum": "14ff4abd0218ee61b19d9607bc93dd3a4a13d606"
 }

@@ -3,8 +3,6 @@
   "id": "966311de-f6d9-4907-a1d7-ead6e5052d7a",
   "name": "doodies/distrokidgb",
   "symbol": "sprite_distrokidgb",
-  "width": 64,
-  "height": 16,
   "states": [
     {
       "id": "e1b8c30f-8141-496c-bb06-a75f26bbe7ec",
@@ -328,14 +326,17 @@
     }
   ],
   "numTiles": 5,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
   "canvasWidth": 16,
   "canvasHeight": 16,
   "boundsX": 0,
-  "boundsY": 0,
+  "boundsY": -8,
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
   "filename": "doodies/distrokidgb.png",
-  "checksum": "afda433762ccf4afb4e08ff694e251a1a90ad3b0",
-  "numFrames": 4
+  "width": 64,
+  "height": 16,
+  "checksum": "afda433762ccf4afb4e08ff694e251a1a90ad3b0"
 }

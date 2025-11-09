@@ -3,8 +3,6 @@
   "id": "989b2531-8392-4430-b759-55cc511e9621",
   "name": "untitled/ami sprite attempt",
   "symbol": "sprite_ami_sprite_attempt",
-  "width": 24,
-  "height": 40,
   "states": [
     {
       "id": "26a51a33-e021-4f7a-838b-1684efab5f06",
@@ -206,14 +204,17 @@
     }
   ],
   "numTiles": 8,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
   "canvasWidth": 32,
   "canvasHeight": 40,
   "boundsX": 0,
-  "boundsY": 0,
+  "boundsY": -8,
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
   "filename": "untitled/ami sprite attempt.png",
-  "checksum": "339417916cb9275c563bbcb6d3f27dfeba9b62fe",
-  "numFrames": 1.5
+  "width": 24,
+  "height": 40,
+  "checksum": "339417916cb9275c563bbcb6d3f27dfeba9b62fe"
 }

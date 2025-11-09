@@ -1,85 +1,83 @@
 {
   "_resourceType": "sprite",
-  "id": "79c75b39-5160-48b7-b92f-8737d9edb58d",
+  "id": "73d0b1ed-7610-492b-b839-92456d05ca8b",
   "name": "25TAGZ/fairy",
   "symbol": "sprite_25tagz_fairy",
-  "width": 16,
-  "height": 96,
   "states": [
     {
-      "id": "f587204f-184a-4df3-bca8-c5d3e34f730c",
+      "id": "5f74ed24-33e5-4575-ac31-b3f4ca23fb12",
       "name": "",
       "animationType": "multi_movement",
       "flipLeft": true,
       "animations": [
         {
-          "id": "03d5f736-12c0-4cae-845b-5806aa4542cf",
+          "id": "0f2e5821-f5f2-472f-87a5-caadb55deff7",
           "frames": [
             {
-              "id": "aad37128-2517-47d9-8e7b-b6fd1036b8dd",
+              "id": "34add393-8457-45a2-afd6-7a83233330ca",
               "tiles": []
             }
           ]
         },
         {
-          "id": "8318b872-0a9e-49b4-95e2-42e6d895d1ce",
+          "id": "ac34d53c-5d1a-4238-8dc6-505a3e5f9800",
           "frames": [
             {
-              "id": "ae63302c-240f-48a1-ad7d-7aa02652367c",
+              "id": "40b5d215-c0b8-4e95-b289-22ab458c2b01",
               "tiles": []
             }
           ]
         },
         {
-          "id": "b7230def-186d-41e8-8334-024ea1baad68",
+          "id": "b92c523f-3382-4999-b04a-defb9c8d341d",
           "frames": [
             {
-              "id": "61c591b0-4d4b-424e-af9e-5153c07f7c99",
+              "id": "d39bab6f-b801-4a51-8129-1dfa82ba19bf",
               "tiles": []
             }
           ]
         },
         {
-          "id": "6a40bc53-d326-4eb4-b526-2287597cd2b8",
+          "id": "e690fa05-3c3b-4639-9f43-917f1c9fde47",
           "frames": [
             {
-              "id": "11b746b5-50f9-42e1-8351-f1bf255c13e7",
+              "id": "e3848aea-b532-4a09-8499-15653f51afa6",
               "tiles": []
             }
           ]
         },
         {
-          "id": "7068b4ea-6c61-491c-859f-2c38687f9452",
+          "id": "a17b5b5d-97db-4254-84ff-a79f87399e67",
           "frames": [
             {
-              "id": "4d686d93-adab-4799-ae32-bfffee101b73",
+              "id": "064906f2-1d33-463a-81da-4b284e5b450a",
               "tiles": []
             }
           ]
         },
         {
-          "id": "2eb91539-76e5-47c0-8034-7d26f56ab549",
+          "id": "9b189374-fa07-4bec-8af1-ec42b65f273b",
           "frames": [
             {
-              "id": "fd3333b2-10fb-4eea-9060-444cdf5b5e4a",
+              "id": "31fb34b6-61b3-4bef-b0c4-ec3aacbcf35c",
               "tiles": []
             }
           ]
         },
         {
-          "id": "01e8d39d-aea7-45dd-823e-6b4ff7e9a2de",
+          "id": "ca4edba6-1ec0-49be-9571-d4f59398e6b0",
           "frames": [
             {
-              "id": "264ce15c-db57-4170-ad5a-42b049771d57",
+              "id": "3eabef72-0310-4aac-9534-a7db9067cf53",
               "tiles": []
             }
           ]
         },
         {
-          "id": "ebf2341b-bb48-46be-a89d-f3e9a8191cf6",
+          "id": "b5596a4a-c5a9-4ba4-b2ec-281ef43693e9",
           "frames": [
             {
-              "id": "f7198b4b-ba8b-442c-9c5b-b1f86b3e2ea9",
+              "id": "31c14548-7c62-4fa0-9a0c-22e2372a70c2",
               "tiles": []
             }
           ]
@@ -88,14 +86,17 @@
     }
   ],
   "numTiles": 0,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
   "canvasWidth": 32,
   "canvasHeight": 32,
   "boundsX": 0,
-  "boundsY": 0,
+  "boundsY": -8,
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
-  "filename": "25tagz/fairy.png",
-  "checksum": "1165922c302a175250a73713bd61234068f03d73",
-  "numFrames": 1
+  "filename": "25TAGZ/fairy.png",
+  "width": 16,
+  "height": 96,
+  "checksum": "1165922c302a175250a73713bd61234068f03d73"
 }

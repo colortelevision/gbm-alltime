@@ -3,8 +3,6 @@
   "id": "de2fec3e-1ff1-4048-b893-8bfbdb7fe20c",
   "name": "doodies/SD_fullexample",
   "symbol": "sprite_sd_fullexample",
-  "width": 640,
-  "height": 96,
   "states": [
     {
       "id": "8e88be94-fc58-478c-979b-0ce99e041ebe",
@@ -88,14 +86,17 @@
     }
   ],
   "numTiles": 0,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
   "canvasWidth": 32,
   "canvasHeight": 32,
   "boundsX": 0,
-  "boundsY": 0,
+  "boundsY": -8,
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
   "filename": "doodies/SD_fullexample.png",
-  "checksum": "f300ed6c8431205150f907593c8ac4e31e8381b5",
-  "numFrames": 40
+  "width": 640,
+  "height": 96,
+  "checksum": "f300ed6c8431205150f907593c8ac4e31e8381b5"
 }

@@ -3,8 +3,6 @@
   "id": "50a45cdd-1fd3-42ed-9ab4-95e74744dce4",
   "name": "untitled/250921-connerplatformsword",
   "symbol": "sprite_untitled_250921_conn",
-  "width": 64,
-  "height": 64,
   "states": [
     {
       "id": "c2be10ac-81ca-4eda-b3ef-ac26dc4581bb",
@@ -88,13 +86,17 @@
     }
   ],
   "numTiles": 0,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
   "canvasWidth": 32,
   "canvasHeight": 32,
   "boundsX": 0,
-  "boundsY": 0,
+  "boundsY": -8,
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
   "filename": "untitled/250921-connerplatformsword.png",
+  "width": 64,
+  "height": 64,
   "checksum": "254148f9e05c3f5ebc3d54917598c7aa70075d0b"
 }

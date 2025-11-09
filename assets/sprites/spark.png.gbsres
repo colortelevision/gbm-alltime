@@ -3,8 +3,6 @@
   "id": "83b2bbe4-5acb-474d-abfb-eea793a9c54a",
   "name": "spark",
   "symbol": "sprite_spark",
-  "width": 16,
-  "height": 96,
   "states": [
     {
       "id": "69c15715-2f61-4e34-9260-24833cddde94",
@@ -88,13 +86,17 @@
     }
   ],
   "numTiles": 0,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
   "canvasWidth": 32,
   "canvasHeight": 32,
   "boundsX": 0,
-  "boundsY": 0,
+  "boundsY": -8,
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
   "filename": "spark.png",
+  "width": 16,
+  "height": 96,
   "checksum": "ecf597e6bc441807ffc6a55469d27a9e37345c2f"
 }

@@ -3,8 +3,6 @@
   "id": "d219d29a-b959-4284-b7d5-7cc92cc7c5a6",
   "name": "uiux/DJ_mp3 spritesheet",
   "symbol": "sprite_dj_mp3_spritesheet",
-  "width": 16,
-  "height": 64,
   "states": [
     {
       "id": "df554201-4eb7-4b40-8ee6-a3548917c7d8",
@@ -384,14 +382,17 @@
     }
   ],
   "numTiles": 3,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
   "canvasWidth": 32,
   "canvasHeight": 32,
   "boundsX": 0,
-  "boundsY": 0,
+  "boundsY": -8,
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
   "filename": "uiux/DJ_mp3 spritesheet.png",
-  "checksum": "e7afbe0faa796ebd879ebf502f519073a2296723",
-  "numFrames": 1
+  "width": 16,
+  "height": 64,
+  "checksum": "e7afbe0faa796ebd879ebf502f519073a2296723"
 }

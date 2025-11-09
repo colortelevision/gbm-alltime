@@ -1,85 +1,83 @@
 {
   "_resourceType": "sprite",
-  "id": "8a06857c-bbbb-4e06-9c0b-3c7070bdff0b",
+  "id": "5f04a08e-26a5-49fa-9709-30e315f3cf39",
   "name": "25TAGZ/blackbelt",
   "symbol": "sprite_25tagz_blackbelt",
-  "width": 56,
-  "height": 56,
   "states": [
     {
-      "id": "c348b6ff-7e88-4202-bb3e-6329b28bc895",
+      "id": "efae186c-e001-4eee-b7e8-438fdb66b90a",
       "name": "",
       "animationType": "multi_movement",
       "flipLeft": true,
       "animations": [
         {
-          "id": "f9599fe0-668d-40fe-b8a3-e6f4e358998e",
+          "id": "02ebcc3b-8019-4c6b-87bd-df78a54ea3b7",
           "frames": [
             {
-              "id": "c2c8015a-d4df-4ed7-8d63-25730b9ee43b",
+              "id": "ee1cb648-1554-4c5c-8003-41578d91bc05",
               "tiles": []
             }
           ]
         },
         {
-          "id": "1a2fe9d3-aa33-4aad-a549-8037000e6755",
+          "id": "0b9f3fe8-788a-42dc-8291-13864903b36a",
           "frames": [
             {
-              "id": "fae9246e-275f-48dc-b3db-d3c4f747d7fc",
+              "id": "90147d6c-3127-45bf-b4a8-8058ca1fa645",
               "tiles": []
             }
           ]
         },
         {
-          "id": "3ad697de-dbe3-41d8-80f6-1f1928ee90f8",
+          "id": "1de60ae8-3ec9-4d6f-a2d0-073f06abe1d6",
           "frames": [
             {
-              "id": "21e437dc-6573-4b58-87bf-e8c284d7c6fc",
+              "id": "c2de5564-fdaa-4670-bede-66c9dff06268",
               "tiles": []
             }
           ]
         },
         {
-          "id": "616d4074-aba5-4080-a4f7-33983715be05",
+          "id": "dafe287a-ea2a-4970-9bc7-47ef94ceb39d",
           "frames": [
             {
-              "id": "ca671ddf-6324-418c-8fe6-141b5b06132e",
+              "id": "00d763b5-2d3d-42c0-8d49-6128a187d602",
               "tiles": []
             }
           ]
         },
         {
-          "id": "e00ad1a3-4178-46e1-961c-81b1dc17fd0f",
+          "id": "26322247-acd7-44d4-8eb6-cd1c333b6393",
           "frames": [
             {
-              "id": "fe1b7980-019e-4483-9f68-45c4b0ce7b0c",
+              "id": "a0752cec-b5e0-4c76-86d6-a0892b4d7c0e",
               "tiles": []
             }
           ]
         },
         {
-          "id": "d2b073ca-f4ec-48b2-9082-b9d7d9c9d219",
+          "id": "ef2347e7-5814-4e10-b0ab-4a6ac7a46d96",
           "frames": [
             {
-              "id": "59c15225-9fb9-473c-a3bf-690161218fff",
+              "id": "802b296b-1a36-4ca3-bb2c-4dd03a4cec6a",
               "tiles": []
             }
           ]
         },
         {
-          "id": "d5d9b318-7ba0-4ec9-8a4a-225ccbec553d",
+          "id": "07665b91-b439-4992-9801-bb929012a226",
           "frames": [
             {
-              "id": "876b125d-66c9-4d24-b924-1e1bf66c17a7",
+              "id": "9301f6a2-5247-4736-acfc-a45180278c88",
               "tiles": []
             }
           ]
         },
         {
-          "id": "b8331455-2c86-43af-bc14-296ce1e5f4b2",
+          "id": "ac4b78c6-1c28-42c3-be35-9590e4839b7b",
           "frames": [
             {
-              "id": "601a2e45-ce91-446e-ae18-5bda2ab9bada",
+              "id": "e220bfb0-86f4-42b5-a193-bbc85ab5db61",
               "tiles": []
             }
           ]
@@ -88,14 +86,17 @@
     }
   ],
   "numTiles": 0,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
   "canvasWidth": 32,
   "canvasHeight": 32,
   "boundsX": 0,
-  "boundsY": 0,
+  "boundsY": -8,
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
-  "filename": "25tagz/blackbelt.png",
-  "checksum": "99b400614628f2ff081c7ea837f3728aae954ce6",
-  "numFrames": 3.5
+  "filename": "25TAGZ/blackbelt.png",
+  "width": 56,
+  "height": 56,
+  "checksum": "99b400614628f2ff081c7ea837f3728aae954ce6"
 }

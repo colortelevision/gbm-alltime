@@ -1,25 +1,23 @@
 {
   "_resourceType": "sprite",
-  "id": "d623d894-7162-46ca-b558-51079ab8c1d7",
+  "id": "692b5bae-17ca-4538-8ec6-e7ed563777e7",
   "name": "25TAGZ/gambler_asleep",
   "symbol": "sprite_25tagz_gambler_aslee",
-  "width": 16,
-  "height": 16,
   "states": [
     {
-      "id": "02d87df7-bf30-48f2-a876-a7d033c4005e",
+      "id": "6e765f02-ada4-4a46-b7a8-2948f9c1b10e",
       "name": "",
       "animationType": "fixed",
       "flipLeft": false,
       "animations": [
         {
-          "id": "f893b725-59c3-4347-92b5-101f85302899",
+          "id": "deeca0ee-5fd0-4bd0-bc6f-971614e9de82",
           "frames": [
             {
-              "id": "25488680-28ee-43a5-9e9d-c22541c1b083",
+              "id": "d4ab09e6-bee7-47b3-a0ba-504d6a451adc",
               "tiles": [
                 {
-                  "id": "9b612fee-e750-4311-91e7-4ab8ae61bad0",
+                  "id": "c2cd584c-b889-49a4-8192-b0d3d19d2b18",
                   "x": 0,
                   "y": 0,
                   "sliceX": 0,
@@ -32,7 +30,7 @@
                   "priority": false
                 },
                 {
-                  "id": "88f60f82-951c-4f44-a604-2bf491116ed7",
+                  "id": "4f6a04cc-922e-4b6a-adc8-a710a98ad868",
                   "x": 8,
                   "y": 0,
                   "sliceX": 8,
@@ -49,64 +47,64 @@
           ]
         },
         {
-          "id": "959c7b34-91e6-434f-a130-1cf21e5ad685",
+          "id": "7ca28585-9d84-48c9-91f4-56a3edaf481b",
           "frames": [
             {
-              "id": "c33251fc-1ab4-49a4-9f9c-7c9f5cbb90b0",
+              "id": "43e6924c-4e9c-470a-87e0-ba3d749c4bfa",
               "tiles": []
             }
           ]
         },
         {
-          "id": "6ceb0bbf-be78-49ba-8615-c37eb726bd98",
+          "id": "5a794ea4-e97d-4890-953f-da0a138e8a4e",
           "frames": [
             {
-              "id": "fc18b098-448c-4019-8fe2-9668e87750d2",
+              "id": "24fd8f77-ce5b-45d5-8c42-c0e6558beec8",
               "tiles": []
             }
           ]
         },
         {
-          "id": "90b1b29f-f7ec-45fa-a0c7-f98be6907fd6",
+          "id": "adf63d3b-477d-4438-a921-11dd2683bf24",
           "frames": [
             {
-              "id": "663c25dc-d881-4889-b366-ea6906ce2f2a",
+              "id": "038419d0-2db8-4f98-871d-3e4f61d25fe1",
               "tiles": []
             }
           ]
         },
         {
-          "id": "31dbef1d-f84f-46d4-a8ac-99d37630171f",
+          "id": "ea75228b-8e7b-4d54-ab7b-b5a7129a2a62",
           "frames": [
             {
-              "id": "0eda3c53-c5f1-4360-b139-ff74e4377f92",
+              "id": "a5a52f30-8bb9-420b-a2c9-100ed4867c34",
               "tiles": []
             }
           ]
         },
         {
-          "id": "4e9e4cb9-70e8-43ca-98d2-a34dddd9146d",
+          "id": "fc65c01d-3e60-42e1-bd63-51f42a6b90f8",
           "frames": [
             {
-              "id": "75aa8277-b025-43fe-8676-b746f0c570a7",
+              "id": "c9c79a7a-e8ef-4054-a53d-63651220c4f2",
               "tiles": []
             }
           ]
         },
         {
-          "id": "a6d41489-b9d1-4be7-8bc9-00df3419b1c9",
+          "id": "3f25abc4-0622-4635-92eb-376e0b1ca6cc",
           "frames": [
             {
-              "id": "ebaeca75-d75a-4b62-bf91-7c63eba19bbf",
+              "id": "174138f5-a2d9-4d74-be16-55ca23788b23",
               "tiles": []
             }
           ]
         },
         {
-          "id": "a7121131-f368-487c-8d13-862a398f22c0",
+          "id": "4b565859-cdb5-4275-9a49-34cd98567bb9",
           "frames": [
             {
-              "id": "d527ef52-80c2-4113-8bc2-677dbd5d612e",
+              "id": "6ed2b7a6-b30f-4176-8db9-197b877e1306",
               "tiles": []
             }
           ]
@@ -115,14 +113,17 @@
     }
   ],
   "numTiles": 2,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
   "canvasWidth": 16,
   "canvasHeight": 16,
   "boundsX": 0,
-  "boundsY": 0,
+  "boundsY": -8,
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
-  "filename": "25tagz/gambler_asleep.png",
-  "checksum": "988508c875372d24fad01705e1372f6b496d0b96",
-  "numFrames": 1
+  "filename": "25TAGZ/gambler_asleep.png",
+  "width": 16,
+  "height": 16,
+  "checksum": "988508c875372d24fad01705e1372f6b496d0b96"
 }

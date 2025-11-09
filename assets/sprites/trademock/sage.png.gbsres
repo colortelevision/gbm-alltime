@@ -3,8 +3,6 @@
   "id": "bed9a76e-7627-4fa0-856a-903c40aa3693",
   "name": "trademock/sage",
   "symbol": "sprite_sage",
-  "width": 16,
-  "height": 16,
   "states": [
     {
       "id": "1163fb67-737a-421e-ad2a-7e74f7da4a88",
@@ -115,14 +113,17 @@
     }
   ],
   "numTiles": 2,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
   "canvasWidth": 16,
   "canvasHeight": 16,
   "boundsX": 0,
-  "boundsY": 0,
+  "boundsY": -8,
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
   "filename": "trademock/sage.png",
-  "checksum": "0f0fec264c85a7572c4dc810b886ea4a2bf8a3f5",
-  "numFrames": 1
+  "width": 16,
+  "height": 16,
+  "checksum": "0f0fec264c85a7572c4dc810b886ea4a2bf8a3f5"
 }

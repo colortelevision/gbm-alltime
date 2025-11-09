@@ -3,8 +3,6 @@
   "id": "bf7003bf-9dd6-49a7-995d-95d5167df324",
   "name": "kanto/converted_paper",
   "symbol": "sprite_kanto_converted_pape",
-  "width": 16,
-  "height": 16,
   "states": [
     {
       "id": "59febc23-dc3a-4bbf-8a0f-314b190bfe3a",
@@ -115,13 +113,17 @@
     }
   ],
   "numTiles": 2,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
   "canvasWidth": 16,
   "canvasHeight": 16,
   "boundsX": 0,
-  "boundsY": 0,
+  "boundsY": -8,
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
   "filename": "kanto/converted_paper.png",
+  "width": 16,
+  "height": 16,
   "checksum": "00abf85d40db277baf47e78149949970dfa59889"
 }

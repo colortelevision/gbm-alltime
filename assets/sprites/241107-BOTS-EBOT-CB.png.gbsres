@@ -3,8 +3,6 @@
   "id": "8b0e19d6-5477-4f18-95de-3615f73b9958",
   "name": "241107-BOTS-EBOT-CB",
   "symbol": "sprite_241107_bots_ebot_cb",
-  "width": 729,
-  "height": 729,
   "states": [
     {
       "id": "3435ff66-1481-4c79-8fe7-8c6bfb54015e",
@@ -88,14 +86,17 @@
     }
   ],
   "numTiles": 0,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
   "canvasWidth": 32,
   "canvasHeight": 32,
   "boundsX": 0,
-  "boundsY": 0,
+  "boundsY": -8,
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
   "filename": "241107-BOTS-EBOT-CB.png",
-  "checksum": "78e3fc2e48fc90945a4d070fc820f66b0e1a9e0d",
-  "numFrames": 45.5625
+  "width": 729,
+  "height": 729,
+  "checksum": "78e3fc2e48fc90945a4d070fc820f66b0e1a9e0d"
 }

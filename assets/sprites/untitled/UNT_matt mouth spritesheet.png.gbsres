@@ -3,8 +3,6 @@
   "id": "a29d7163-f5d1-406a-83ff-96d1dc8bd6d3",
   "name": "untitled/UNT_matt mouth spritesheet",
   "symbol": "sprite_unt_matt_mouth_sprit",
-  "width": 32,
-  "height": 32,
   "states": [
     {
       "id": "9a8ce18b-0462-4842-9196-a45be508092d",
@@ -88,14 +86,17 @@
     }
   ],
   "numTiles": 0,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
   "canvasWidth": 32,
   "canvasHeight": 32,
   "boundsX": 0,
-  "boundsY": 0,
+  "boundsY": -8,
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
   "filename": "untitled/UNT_matt mouth spritesheet.png",
-  "checksum": "c3988bb9bfda1808f6bbbff98749ecd7b45c7d7c",
-  "numFrames": 2
+  "width": 32,
+  "height": 32,
+  "checksum": "c3988bb9bfda1808f6bbbff98749ecd7b45c7d7c"
 }

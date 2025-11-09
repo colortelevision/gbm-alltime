@@ -3,8 +3,6 @@
   "id": "bf217b13-f8a7-46a6-9535-0750952c05ba",
   "name": "outside",
   "symbol": "sprite_outside",
-  "width": 256,
-  "height": 256,
   "states": [
     {
       "id": "a394417e-eac7-4f04-8316-1e4f182ae1a3",
@@ -88,14 +86,17 @@
     }
   ],
   "numTiles": 0,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
   "canvasWidth": 32,
   "canvasHeight": 32,
   "boundsX": 0,
-  "boundsY": 0,
+  "boundsY": -8,
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
   "filename": "outside.png",
-  "checksum": "be7f433ff38e7550fe609f63788e0a820b231d2d",
-  "numFrames": 16
+  "width": 256,
+  "height": 256,
+  "checksum": "be7f433ff38e7550fe609f63788e0a820b231d2d"
 }

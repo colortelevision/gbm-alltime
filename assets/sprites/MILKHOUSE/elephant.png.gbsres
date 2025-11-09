@@ -1,85 +1,83 @@
 {
   "_resourceType": "sprite",
-  "id": "140e5a13-cc99-4fbe-b7d9-f9dc24b4cf27",
+  "id": "1608d75b-6648-4ce5-a945-2b8fda48875f",
   "name": "MILKHOUSE/elephant",
-  "symbol": "sprite_elephant",
-  "width": 504,
-  "height": 48,
+  "symbol": "sprite_milkhouse_elephant",
   "states": [
     {
-      "id": "c335037c-9928-4a13-bffa-710fb01b28f7",
+      "id": "aa204044-79b3-4bd7-8415-a456bdd4d961",
       "name": "",
       "animationType": "multi_movement",
       "flipLeft": true,
       "animations": [
         {
-          "id": "495f8696-5dda-4758-9ac5-fb634830a85e",
+          "id": "b14ea95b-fec6-4ecc-a53b-e2b9bbdc81bb",
           "frames": [
             {
-              "id": "1f972d8d-5bff-4140-9b21-a37294f4d659",
+              "id": "c4390510-00ed-4394-b647-0a6a987a3d48",
               "tiles": []
             }
           ]
         },
         {
-          "id": "d4358ca9-8bb7-4bd7-935b-45d159aa8271",
+          "id": "9f08ba1e-2573-4c48-93d5-fb3178987251",
           "frames": [
             {
-              "id": "a7a245cb-905b-4ecb-b35a-d1f95ff4480b",
+              "id": "d1c458a9-2310-465e-920e-c235d574f01e",
               "tiles": []
             }
           ]
         },
         {
-          "id": "159ff1f7-68f4-46fd-8ddd-0a3c099f6ef3",
+          "id": "ca2a1ef6-0ae8-490c-90cf-d4708e810b82",
           "frames": [
             {
-              "id": "4e381ceb-a895-4096-89f5-33245ff9d454",
+              "id": "2dd4eb00-13ac-4ea2-8556-1f2c636a003f",
               "tiles": []
             }
           ]
         },
         {
-          "id": "00f5556f-56d0-45a1-b62b-2cb75b6956c1",
+          "id": "56b4917a-2796-4f9e-b1c5-40c0652f4e95",
           "frames": [
             {
-              "id": "76b7d903-0477-4187-844f-b31dca4db857",
+              "id": "f12172c4-43c3-41a6-ab95-2d8773d1f064",
               "tiles": []
             }
           ]
         },
         {
-          "id": "33bf3e22-8db7-4201-9a13-63450e6f3ef7",
+          "id": "14515daf-1276-4083-9079-2ff8e241d506",
           "frames": [
             {
-              "id": "f05db882-217e-4f78-a9f2-bad7db1d93ea",
+              "id": "9e35670d-c0e2-4100-9df5-e3147acbf824",
               "tiles": []
             }
           ]
         },
         {
-          "id": "6e305fc5-8ad3-4b14-befe-a75a62824bef",
+          "id": "2d40f50e-e1df-4530-b7e3-23ed8c028520",
           "frames": [
             {
-              "id": "7ce84293-8792-4950-9b12-9e146e0cf36d",
+              "id": "f2447280-7661-4039-958a-27c3634df525",
               "tiles": []
             }
           ]
         },
         {
-          "id": "0585ef9d-ae08-4b0b-9989-17e7598dcb48",
+          "id": "00cadcc1-26d6-47f5-aaac-ddf4baf0d2c0",
           "frames": [
             {
-              "id": "13b03935-52f2-4687-96da-dc266c26da1b",
+              "id": "ddc40f41-5741-44cc-ad89-dd5bd80bd8b6",
               "tiles": []
             }
           ]
         },
         {
-          "id": "c75a31d9-f36f-44ab-8360-484b67e071d1",
+          "id": "64aee200-68ce-4796-a40a-bdde8e085493",
           "frames": [
             {
-              "id": "d6e90914-3649-416d-8a68-ee03c4a10c90",
+              "id": "7a3b38f0-594f-4844-8d78-39e6d239acd8",
               "tiles": []
             }
           ]
@@ -88,14 +86,17 @@
     }
   ],
   "numTiles": 0,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
   "canvasWidth": 32,
   "canvasHeight": 32,
   "boundsX": 0,
-  "boundsY": 0,
+  "boundsY": -8,
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
-  "filename": "milkhouse/elephant.png",
-  "checksum": "545bf3ca94b828d641251637eee6f85b35953da1",
-  "numFrames": 31.5
+  "filename": "MILKHOUSE/elephant.png",
+  "width": 504,
+  "height": 48,
+  "checksum": "545bf3ca94b828d641251637eee6f85b35953da1"
 }

@@ -3,8 +3,6 @@
   "id": "7754a7d0-7770-402c-a85c-eed3354dd27c",
   "name": "kanto/converted_blue_jigglypuff_2",
   "symbol": "sprite_kanto_converted_blue_1",
-  "width": 48,
-  "height": 48,
   "states": [
     {
       "id": "13711412-f0d7-46f4-b28d-e8d49e1f785d",
@@ -88,13 +86,17 @@
     }
   ],
   "numTiles": 0,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
   "canvasWidth": 32,
   "canvasHeight": 32,
   "boundsX": 0,
-  "boundsY": 0,
+  "boundsY": -8,
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
   "filename": "kanto/converted_blue_jigglypuff_2.png",
+  "width": 48,
+  "height": 48,
   "checksum": "7f7a56ceebd926de869eccdccbc6d875577e8449"
 }

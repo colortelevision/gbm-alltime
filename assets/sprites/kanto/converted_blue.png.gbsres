@@ -3,8 +3,6 @@
   "id": "cfebf5a8-0bbf-494b-9e1b-50aee3fea604",
   "name": "kanto/converted_blue",
   "symbol": "sprite_kanto_converted_blue",
-  "width": 16,
-  "height": 96,
   "states": [
     {
       "id": "38c7f78f-302d-4fd4-9f27-5e3fb0041cea",
@@ -467,13 +465,17 @@
     }
   ],
   "numTiles": 12,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
   "canvasWidth": 16,
   "canvasHeight": 16,
   "boundsX": 0,
-  "boundsY": 0,
+  "boundsY": -8,
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
   "filename": "kanto/converted_blue.png",
+  "width": 16,
+  "height": 96,
   "checksum": "1aead7f4ae955ec245482b5ef5ff67bc4b14af16"
 }

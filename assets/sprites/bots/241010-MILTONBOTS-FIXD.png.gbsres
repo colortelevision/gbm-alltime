@@ -3,8 +3,6 @@
   "id": "61e37c89-6077-415f-a953-24624a6ce638",
   "name": "bots/241010-MILTONBOTS-FIXD",
   "symbol": "sprite_241010_miltonbots_fi",
-  "width": 64,
-  "height": 16,
   "states": [
     {
       "id": "9f091eb7-e8d3-4092-981c-bc4235bb4d0d",
@@ -208,14 +206,17 @@
     }
   ],
   "numTiles": 8,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
   "canvasWidth": 16,
   "canvasHeight": 16,
   "boundsX": 0,
-  "boundsY": 0,
+  "boundsY": -8,
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
   "filename": "bots/241010-MILTONBOTS-FIXD.png",
-  "checksum": "74d59e35c8c5f271de0586c25dc18dd0de4463e6",
-  "numFrames": 4
+  "width": 64,
+  "height": 16,
+  "checksum": "74d59e35c8c5f271de0586c25dc18dd0de4463e6"
 }

@@ -3,8 +3,6 @@
   "id": "af30354a-1e27-460f-ad5b-5e10dc4d91fc",
   "name": "kanto/converted_mom",
   "symbol": "sprite_kanto_converted_mom",
-  "width": 16,
-  "height": 48,
   "states": [
     {
       "id": "22b2b127-eb7d-40d9-b1e8-78f64e67a5d0",
@@ -88,13 +86,17 @@
     }
   ],
   "numTiles": 0,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
   "canvasWidth": 32,
   "canvasHeight": 32,
   "boundsX": 0,
-  "boundsY": 0,
+  "boundsY": -8,
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
   "filename": "kanto/converted_mom.png",
+  "width": 16,
+  "height": 48,
   "checksum": "fd10417d38e2c8f5841ead955796fd737f262384"
 }

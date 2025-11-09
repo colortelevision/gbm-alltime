@@ -3,8 +3,6 @@
   "id": "63c1b065-43ae-465d-81b8-20008b620c09",
   "name": "untitled/npc_gardener",
   "symbol": "sprite_npc_gardener",
-  "width": 16,
-  "height": 32,
   "states": [
     {
       "id": "3007ee25-40b7-42f6-a3f9-77fea82b4c46",
@@ -88,14 +86,17 @@
     }
   ],
   "numTiles": 0,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
   "canvasWidth": 32,
   "canvasHeight": 32,
   "boundsX": 0,
-  "boundsY": 0,
+  "boundsY": -8,
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
   "filename": "untitled/npc_gardener.png",
-  "checksum": "f7260ed87db7690a0dc5181d87001c4dddc5e600",
-  "numFrames": 1
+  "width": 16,
+  "height": 32,
+  "checksum": "f7260ed87db7690a0dc5181d87001c4dddc5e600"
 }

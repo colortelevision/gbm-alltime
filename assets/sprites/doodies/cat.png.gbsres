@@ -3,8 +3,6 @@
   "id": "545160e7-791e-4baf-a659-5d9fd2f7c64e",
   "name": "doodies/cat",
   "symbol": "sprite_cat",
-  "width": 16,
-  "height": 16,
   "states": [
     {
       "id": "abfdc523-4789-45ad-ba56-6fe69b79bf27",
@@ -115,14 +113,17 @@
     }
   ],
   "numTiles": 2,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
   "canvasWidth": 16,
   "canvasHeight": 16,
   "boundsX": 0,
-  "boundsY": 0,
+  "boundsY": -8,
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
   "filename": "doodies/cat.png",
-  "checksum": "5f81465071483e403c6a9f290abb651c4d09ae8b",
-  "numFrames": 1
+  "width": 16,
+  "height": 16,
+  "checksum": "5f81465071483e403c6a9f290abb651c4d09ae8b"
 }

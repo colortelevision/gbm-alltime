@@ -3,8 +3,6 @@
   "id": "9c87b121-194b-4989-8242-19dd18006f82",
   "name": "kanto-lugia",
   "symbol": "sprite_kanto_lugia",
-  "width": 32,
-  "height": 16,
   "states": [
     {
       "id": "e2e11a4c-e862-442c-a656-6b2482a32bea",
@@ -146,14 +144,17 @@
     }
   ],
   "numTiles": 4,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
   "canvasWidth": 16,
   "canvasHeight": 16,
   "boundsX": 0,
-  "boundsY": 0,
+  "boundsY": -8,
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
   "filename": "kanto-lugia.png",
-  "checksum": "120fadf6873c4b265c250da5b8451db991b762af",
-  "numFrames": 2
+  "width": 32,
+  "height": 16,
+  "checksum": "120fadf6873c4b265c250da5b8451db991b762af"
 }

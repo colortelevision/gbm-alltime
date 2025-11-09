@@ -3,8 +3,6 @@
   "id": "64aa7a2e-bf26-4469-995d-051342b03aa3",
   "name": "uiux/block",
   "symbol": "sprite_block",
-  "width": 16,
-  "height": 16,
   "states": [
     {
       "id": "75d928f7-20e3-4aea-8665-515727fe0024",
@@ -146,14 +144,17 @@
     }
   ],
   "numTiles": 2,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
   "canvasWidth": 16,
   "canvasHeight": 16,
   "boundsX": 0,
-  "boundsY": 0,
+  "boundsY": -8,
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
   "filename": "uiux/block.png",
-  "checksum": "c0de63089cab1a01e1a59c955c54eba32c369af9",
-  "numFrames": 1
+  "width": 16,
+  "height": 16,
+  "checksum": "c0de63089cab1a01e1a59c955c54eba32c369af9"
 }

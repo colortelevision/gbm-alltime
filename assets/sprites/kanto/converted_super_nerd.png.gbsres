@@ -3,8 +3,6 @@
   "id": "76a598d8-9654-4ae7-84ca-83a58fe3f28c",
   "name": "kanto/converted_super_nerd",
   "symbol": "sprite_kanto_converted_supe",
-  "width": 16,
-  "height": 96,
   "states": [
     {
       "id": "f6c740c6-70eb-4e2e-8764-fe1ade775cd3",
@@ -88,13 +86,17 @@
     }
   ],
   "numTiles": 0,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
   "canvasWidth": 32,
   "canvasHeight": 32,
   "boundsX": 0,
-  "boundsY": 0,
+  "boundsY": -8,
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
   "filename": "kanto/converted_super_nerd.png",
+  "width": 16,
+  "height": 96,
   "checksum": "be3e4c9059e3d9574d9354e7f7931666d4cd6cc6"
 }

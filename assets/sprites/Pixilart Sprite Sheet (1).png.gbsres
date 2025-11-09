@@ -3,8 +3,6 @@
   "id": "46aed624-04ae-4b5a-9902-b150096f8df2",
   "name": "Pixilart Sprite Sheet (1)",
   "symbol": "sprite_pixilart_sprite_shee",
-  "width": 11520,
-  "height": 320,
   "states": [
     {
       "id": "a61380b2-f05e-4ce7-83f0-ddd869b772a1",
@@ -88,14 +86,17 @@
     }
   ],
   "numTiles": 0,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
   "canvasWidth": 32,
   "canvasHeight": 32,
   "boundsX": 0,
-  "boundsY": 0,
+  "boundsY": -8,
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
   "filename": "Pixilart Sprite Sheet (1).png",
-  "checksum": "6b51e9641808d8bf1ba4f113bea10bc1fc00c9af",
-  "numFrames": 720
+  "width": 11520,
+  "height": 320,
+  "checksum": "6b51e9641808d8bf1ba4f113bea10bc1fc00c9af"
 }

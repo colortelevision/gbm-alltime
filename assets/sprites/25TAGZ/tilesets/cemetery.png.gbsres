@@ -1,85 +1,83 @@
 {
   "_resourceType": "sprite",
-  "id": "87125b40-5a61-41f3-9c5b-cf0ce758fc14",
+  "id": "cc0d1e9e-0a12-4726-9149-f7a802955274",
   "name": "25TAGZ/tilesets/cemetery",
   "symbol": "sprite_25tagz_tilesets_ceme",
-  "width": 128,
-  "height": 48,
   "states": [
     {
-      "id": "b3810682-28c4-46a6-9dea-bec69d71a48e",
+      "id": "ec60205c-aaa2-4872-a2b2-2e2102f34e4e",
       "name": "",
       "animationType": "multi_movement",
       "flipLeft": true,
       "animations": [
         {
-          "id": "d08b7c65-c102-4094-b6e8-e88f1379ecd3",
+          "id": "cf6afe2a-d3f3-4e75-9809-aa4c0855507c",
           "frames": [
             {
-              "id": "ab8e8afc-a68d-4fa7-82a6-bd0a3b042a3d",
+              "id": "3a418c4e-fafe-48c0-a6be-abc8cedbb0c7",
               "tiles": []
             }
           ]
         },
         {
-          "id": "3c5cd194-7e17-4069-a6e5-55d058c6a154",
+          "id": "48788fd4-6de3-4081-be61-7fdb7fe632b1",
           "frames": [
             {
-              "id": "9acc9513-1f6d-44e1-9998-76aeee2f3bd2",
+              "id": "3402a255-4c32-4076-ad66-a43ef6e7e58a",
               "tiles": []
             }
           ]
         },
         {
-          "id": "7d004ac1-0032-4a02-a91c-01689e59f0ba",
+          "id": "455ae075-9067-4970-beaf-ef59c1241b72",
           "frames": [
             {
-              "id": "de94cb88-7204-45ca-b419-77ca29ea9370",
+              "id": "6e7d42a8-bbc8-4df3-9b54-fe4e08d4784d",
               "tiles": []
             }
           ]
         },
         {
-          "id": "f1afef8f-4e83-4f6c-8e44-df47fc292c95",
+          "id": "59869ce7-8035-471a-aa20-f47b5ee10396",
           "frames": [
             {
-              "id": "4454dc00-c4df-408b-870d-b0d90e18ba2e",
+              "id": "2e637b13-f83f-4275-88bc-8ecf3525c0ad",
               "tiles": []
             }
           ]
         },
         {
-          "id": "0e819226-c3dd-41ee-a8d4-01b3176e0c2d",
+          "id": "aed34b7e-529e-4083-8c80-ae7a5c65fddb",
           "frames": [
             {
-              "id": "2faa3869-b58d-4ae9-b758-bc66f8dcdcdb",
+              "id": "7e94c14a-3f71-40d4-bc77-f23b437c6834",
               "tiles": []
             }
           ]
         },
         {
-          "id": "2dbff56a-4486-4780-bdbe-be21b7c4be70",
+          "id": "653df58e-c00b-4971-b750-fca4f8d6f0f6",
           "frames": [
             {
-              "id": "d50eb822-0a34-42a2-b373-3b1078cfadb5",
+              "id": "9c1659ef-3256-4bb4-af6f-658213d6c232",
               "tiles": []
             }
           ]
         },
         {
-          "id": "b7bdf482-3053-4574-9df8-0d4e74a0cad1",
+          "id": "91844163-0929-4560-a5b6-11fc8561ea2e",
           "frames": [
             {
-              "id": "96d5b010-844e-4eef-85dd-c9e37a5465b7",
+              "id": "cc32eaad-f9c0-4345-942e-922ff92f40df",
               "tiles": []
             }
           ]
         },
         {
-          "id": "77997f49-b80b-4656-9fbd-7214e793972e",
+          "id": "3e2e5ff4-e55b-41c1-87db-5aa2b59da5cf",
           "frames": [
             {
-              "id": "fa649648-02a9-4f13-bb2e-df703d9560b6",
+              "id": "11fa439b-864f-46d1-92cc-fde57ff74415",
               "tiles": []
             }
           ]
@@ -88,14 +86,17 @@
     }
   ],
   "numTiles": 0,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
   "canvasWidth": 32,
   "canvasHeight": 32,
   "boundsX": 0,
-  "boundsY": 0,
+  "boundsY": -8,
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
-  "filename": "25tagz/tilesets/cemetery.png",
-  "checksum": "0cf63485e5973e897bb373466a2e7c7f0fd1b775",
-  "numFrames": 8
+  "filename": "25TAGZ/tilesets/cemetery.png",
+  "width": 128,
+  "height": 48,
+  "checksum": "0cf63485e5973e897bb373466a2e7c7f0fd1b775"
 }

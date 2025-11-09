@@ -3,8 +3,6 @@
   "id": "73823971-a9cb-4ab6-b8b7-3a0c04627e24",
   "name": "items/GEN_television",
   "symbol": "sprite_gen_television",
-  "width": 48,
-  "height": 32,
   "states": [
     {
       "id": "0bc85eaf-2aa2-4f85-8926-93415d26ca40",
@@ -88,14 +86,17 @@
     }
   ],
   "numTiles": 0,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
   "canvasWidth": 32,
   "canvasHeight": 32,
   "boundsX": 0,
-  "boundsY": 0,
+  "boundsY": -8,
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
   "filename": "items/GEN_television.png",
-  "checksum": "86979ae764db9c8f1a4be93f24b080b1ed8b28c6",
-  "numFrames": 3
+  "width": 48,
+  "height": 32,
+  "checksum": "86979ae764db9c8f1a4be93f24b080b1ed8b28c6"
 }

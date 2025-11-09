@@ -3,8 +3,6 @@
   "id": "d09f1b87-8e64-40fe-a658-99ff42e92ec6",
   "name": "doodies/e (3)",
   "symbol": "sprite_e_3_",
-  "width": 86,
-  "height": 32,
   "states": [
     {
       "id": "b4289476-024d-4ce7-861c-6f66ea5d002e",
@@ -88,14 +86,17 @@
     }
   ],
   "numTiles": 0,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
   "canvasWidth": 32,
   "canvasHeight": 32,
   "boundsX": 0,
-  "boundsY": 0,
+  "boundsY": -8,
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
   "filename": "doodies/e (3).png",
-  "checksum": "5b23bb02ea593d1db65d226f22b4985ab5057fdc",
-  "numFrames": 5.375
+  "width": 86,
+  "height": 32,
+  "checksum": "5b23bb02ea593d1db65d226f22b4985ab5057fdc"
 }

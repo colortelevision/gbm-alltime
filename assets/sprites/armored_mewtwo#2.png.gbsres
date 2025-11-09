@@ -3,8 +3,6 @@
   "id": "e41d4b3a-6eb1-42df-9873-c984eddfecc9",
   "name": "armored_mewtwo#2",
   "symbol": "sprite_armored_mewtwo_2",
-  "width": 16,
-  "height": 96,
   "states": [
     {
       "id": "1ca9692b-c5ba-4136-a5ba-1c4598057652",
@@ -88,13 +86,17 @@
     }
   ],
   "numTiles": 0,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
   "canvasWidth": 32,
   "canvasHeight": 32,
   "boundsX": 0,
-  "boundsY": 0,
+  "boundsY": -8,
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
   "filename": "armored_mewtwo#2.png",
+  "width": 16,
+  "height": 96,
   "checksum": "fbafc51e56c0c61e067785577e33aa266c101b90"
 }

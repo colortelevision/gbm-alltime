@@ -3,8 +3,6 @@
   "id": "a2a8cc55-82c4-4989-beb7-8230f60eae5d",
   "name": "hex_maniac",
   "symbol": "sprite_hex_maniac",
-  "width": 16,
-  "height": 96,
   "states": [
     {
       "id": "bb5952ef-2115-489b-9c90-f9aa604f97a1",
@@ -88,13 +86,17 @@
     }
   ],
   "numTiles": 0,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
   "canvasWidth": 32,
   "canvasHeight": 32,
   "boundsX": 0,
-  "boundsY": 0,
+  "boundsY": -8,
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
   "filename": "hex_maniac.png",
+  "width": 16,
+  "height": 96,
   "checksum": "9f20c07bcb2b4845755ad74b2e0b9202cb496761"
 }

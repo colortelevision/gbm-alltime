@@ -1,85 +1,83 @@
 {
   "_resourceType": "sprite",
-  "id": "da099075-0525-42e4-b68c-085dc28eed27",
+  "id": "a2b5b016-661d-4cf8-b339-2f424779f9b3",
   "name": "MILKHOUSE/IRL_110922 beach dinosaur",
-  "symbol": "sprite_irl_110922_beach_din",
-  "width": 64,
-  "height": 64,
+  "symbol": "sprite_milkhouse_irl_110922",
   "states": [
     {
-      "id": "d8e9b943-47d0-4070-9e5f-040f6ec7ae0c",
+      "id": "542412e7-c3e4-4ba0-92dc-946e687c5e59",
       "name": "",
       "animationType": "multi_movement",
       "flipLeft": true,
       "animations": [
         {
-          "id": "ccf3b1d6-bd72-4058-95a9-be0c41a718fb",
+          "id": "784ce546-e438-43fe-a6b2-2170779048a3",
           "frames": [
             {
-              "id": "5edf5f62-a432-438c-b484-5f7ee9e7a2f5",
+              "id": "3ecd0ce9-415e-4658-912f-39aac83b0d95",
               "tiles": []
             }
           ]
         },
         {
-          "id": "d51ffa17-6563-441b-9cd3-59a469537ae2",
+          "id": "c487b21f-6c7e-426a-b233-c38bd011b0d4",
           "frames": [
             {
-              "id": "52a8d853-7a78-4145-99e8-f2c35fa4c768",
+              "id": "f866a7a6-ba45-4a7f-aec9-fd9e3b77840f",
               "tiles": []
             }
           ]
         },
         {
-          "id": "cfbaa35e-7f09-4807-91e6-9ce3c29f9619",
+          "id": "68e61e6f-d99b-4bad-855c-dc7cf866e93e",
           "frames": [
             {
-              "id": "7b9f89f2-e6ab-466b-a509-8bbbd5fb7b25",
+              "id": "31f48e8f-b3fa-425f-88c4-3cf57a1a5f69",
               "tiles": []
             }
           ]
         },
         {
-          "id": "42fb5797-16f5-4e34-aa19-86f10652a1b2",
+          "id": "540b815d-060b-4b68-9d17-34dcb0ca07da",
           "frames": [
             {
-              "id": "ce2f1116-1989-4207-9376-7925d867b0b7",
+              "id": "b81f27a6-40dd-4a8c-a586-40c08a60c0eb",
               "tiles": []
             }
           ]
         },
         {
-          "id": "a2755aa4-c81d-4278-a024-fcaf033ecaa6",
+          "id": "6747e666-333c-47d9-9fda-304b738b86a5",
           "frames": [
             {
-              "id": "4fa52fdc-21b2-4cdc-a18c-bd75cfe84e9c",
+              "id": "a4cd3598-7273-42bd-bd80-3b5e97d58900",
               "tiles": []
             }
           ]
         },
         {
-          "id": "48df57e1-48d8-446f-ba3c-859d2da42aa7",
+          "id": "c2ea2bbf-e8d7-414d-b7e1-82c53dbb923e",
           "frames": [
             {
-              "id": "c9a4f273-644d-4053-a8f6-9580100e8bb6",
+              "id": "fc1db206-20d0-41af-be43-d5d7e68d0aed",
               "tiles": []
             }
           ]
         },
         {
-          "id": "0a124bd5-b4b9-4ae9-a2f8-f6a200e8216d",
+          "id": "ad75d885-80bb-44d3-a483-821144e4e58e",
           "frames": [
             {
-              "id": "f442892f-97f0-4055-bdc4-40e8606a07a1",
+              "id": "db81afcf-4480-4af9-b864-8e008d521bea",
               "tiles": []
             }
           ]
         },
         {
-          "id": "99389bb5-c740-4d58-8366-ab3dabda71b9",
+          "id": "4e7a46be-0a45-4969-90c5-25bacd66dd73",
           "frames": [
             {
-              "id": "85916e70-06ba-43e9-a7c9-76ae7de3c7e9",
+              "id": "b5280372-5232-4252-af27-de3a532ad656",
               "tiles": []
             }
           ]
@@ -88,14 +86,17 @@
     }
   ],
   "numTiles": 0,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
   "canvasWidth": 32,
   "canvasHeight": 32,
   "boundsX": 0,
-  "boundsY": 0,
+  "boundsY": -8,
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
-  "filename": "milkhouse/IRL_110922 beach dinosaur.png",
-  "checksum": "4c91ec2b676ff775fc85272d28dd22f7a0df39bd",
-  "numFrames": 4
+  "filename": "MILKHOUSE/IRL_110922 beach dinosaur.png",
+  "width": 64,
+  "height": 64,
+  "checksum": "4c91ec2b676ff775fc85272d28dd22f7a0df39bd"
 }

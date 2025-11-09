@@ -3,8 +3,6 @@
   "id": "48a2b17c-591b-415c-8436-70a5c1feba6c",
   "name": "kanto/converted_nurse",
   "symbol": "sprite_kanto_converted_nurs",
-  "width": 16,
-  "height": 48,
   "states": [
     {
       "id": "5e5276f5-d87d-43cf-8a27-ad7cf46de175",
@@ -88,13 +86,17 @@
     }
   ],
   "numTiles": 0,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
   "canvasWidth": 32,
   "canvasHeight": 32,
   "boundsX": 0,
-  "boundsY": 0,
+  "boundsY": -8,
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
   "filename": "kanto/converted_nurse.png",
+  "width": 16,
+  "height": 48,
   "checksum": "e72c7387ea6dba1b64614c0846bd52733839a47c"
 }

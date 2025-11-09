@@ -3,8 +3,6 @@
   "id": "adee9881-e1a2-4ea4-81da-f2b59536cef4",
   "name": "doodies/f (1)",
   "symbol": "sprite_f_1_",
-  "width": 86,
-  "height": 32,
   "states": [
     {
       "id": "b418f7e9-d8b3-4edb-ac06-e2faf0e624f6",
@@ -88,14 +86,17 @@
     }
   ],
   "numTiles": 0,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
   "canvasWidth": 32,
   "canvasHeight": 32,
   "boundsX": 0,
-  "boundsY": 0,
+  "boundsY": -8,
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
   "filename": "doodies/f (1).png",
-  "checksum": "decae44c4f8750e24919ffec46dbcd9769a5a98e",
-  "numFrames": 5.375
+  "width": 86,
+  "height": 32,
+  "checksum": "decae44c4f8750e24919ffec46dbcd9769a5a98e"
 }

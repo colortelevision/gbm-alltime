@@ -1,85 +1,83 @@
 {
   "_resourceType": "sprite",
-  "id": "9fefb73a-b3aa-4024-8a0d-c64c05995246",
+  "id": "609188cb-9399-4b47-8c2c-bdeb06235aea",
   "name": "25TAGZ/nurse",
   "symbol": "sprite_25tagz_nurse",
-  "width": 16,
-  "height": 48,
   "states": [
     {
-      "id": "6c4af441-2889-4900-afb8-1c812e173bac",
+      "id": "f67cbeb8-e1e9-4a85-bbc6-306062c619e0",
       "name": "",
       "animationType": "multi_movement",
       "flipLeft": true,
       "animations": [
         {
-          "id": "a7d8f23c-bbe8-4888-a83d-9d081f732555",
+          "id": "c027cc5a-119d-484b-8193-fe571b5d72f1",
           "frames": [
             {
-              "id": "31cdffbd-f553-4406-801c-a131af9cf75e",
+              "id": "9a71da3b-9707-4e2a-9073-f23c0a3e5d85",
               "tiles": []
             }
           ]
         },
         {
-          "id": "0bba580b-3b21-461d-a625-9269353d7d1e",
+          "id": "3a0a271c-dabf-4f4c-a3a0-a5b3a4e0b1e9",
           "frames": [
             {
-              "id": "01640ad7-8678-4146-86c8-e0b662673b44",
+              "id": "e7a79a0e-350f-4211-b6a4-8da93407438b",
               "tiles": []
             }
           ]
         },
         {
-          "id": "918d51e5-7710-47d7-bf75-6a8d90ac8762",
+          "id": "e4e98238-dced-484c-b63b-8022eafd3931",
           "frames": [
             {
-              "id": "22a90b9d-fb9e-43d6-9b2d-4fd19e57bfe4",
+              "id": "611c57e6-c04a-460c-92aa-40bac1f438fe",
               "tiles": []
             }
           ]
         },
         {
-          "id": "b5bcca57-9207-4c64-984a-8a9fb1b3fe09",
+          "id": "f01345a2-5d44-4ebd-b9b2-fba5340c9c9a",
           "frames": [
             {
-              "id": "a6fcd37c-9bb2-43c1-be6f-7c69ae232ef1",
+              "id": "c428088d-53fa-4bd6-95f4-cb2712f0721f",
               "tiles": []
             }
           ]
         },
         {
-          "id": "0dff3776-9300-4eef-aa24-fe7dda5fea5c",
+          "id": "43ff16f0-11b7-458e-87e4-0966c0f56f78",
           "frames": [
             {
-              "id": "6b6d2c76-f19e-4bba-b3d4-875b2cc161fa",
+              "id": "9b6470ff-2262-4894-911f-8ebafff13676",
               "tiles": []
             }
           ]
         },
         {
-          "id": "38a47d85-4001-4c5e-8c86-0d276caac11b",
+          "id": "00ff8cb5-33af-40a8-8850-ed603f601e16",
           "frames": [
             {
-              "id": "d1ffa598-6f74-4a04-9e07-b42fd8f4116a",
+              "id": "e9020cd1-e4df-4685-be2c-47aa659d4fa2",
               "tiles": []
             }
           ]
         },
         {
-          "id": "d3bf6344-5f2e-4103-9563-5f98654046e9",
+          "id": "baba12ae-e394-41be-8236-f418db76bc63",
           "frames": [
             {
-              "id": "db2ed195-1b07-44f4-8f07-1dd1b56d8903",
+              "id": "1188c087-edf5-4b10-a62d-bef5e98aab15",
               "tiles": []
             }
           ]
         },
         {
-          "id": "beb78229-8d50-4221-a07c-103b004f6f2b",
+          "id": "2812d122-566a-43a7-a936-ea9309aa0b70",
           "frames": [
             {
-              "id": "4a3842df-8d65-4e61-b485-73773bbc9cea",
+              "id": "2c4650bc-d452-4e52-83b9-a173e7aecf75",
               "tiles": []
             }
           ]
@@ -88,14 +86,17 @@
     }
   ],
   "numTiles": 0,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
   "canvasWidth": 32,
   "canvasHeight": 32,
   "boundsX": 0,
-  "boundsY": 0,
+  "boundsY": -8,
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
-  "filename": "25tagz/nurse.png",
-  "checksum": "b0bbcf2b2a6e925c27730af5baf3fa20ceb64ecd",
-  "numFrames": 1
+  "filename": "25TAGZ/nurse.png",
+  "width": 16,
+  "height": 48,
+  "checksum": "b0bbcf2b2a6e925c27730af5baf3fa20ceb64ecd"
 }

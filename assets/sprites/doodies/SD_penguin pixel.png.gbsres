@@ -3,8 +3,6 @@
   "id": "c62b2bb7-9369-4173-9583-6ae57841f738",
   "name": "doodies/SD_penguin pixel",
   "symbol": "sprite_sd_penguin_pixel",
-  "width": 32,
-  "height": 32,
   "states": [
     {
       "id": "1519a8b8-7089-46b9-8106-2a58ea5f9f5c",
@@ -88,14 +86,17 @@
     }
   ],
   "numTiles": 0,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
   "canvasWidth": 32,
   "canvasHeight": 32,
   "boundsX": 0,
-  "boundsY": 0,
+  "boundsY": -8,
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
   "filename": "doodies/SD_penguin pixel.png",
-  "checksum": "4ec16f8076b70337aa30d1e17f2b33d59d2c0741",
-  "numFrames": 2
+  "width": 32,
+  "height": 32,
+  "checksum": "4ec16f8076b70337aa30d1e17f2b33d59d2c0741"
 }

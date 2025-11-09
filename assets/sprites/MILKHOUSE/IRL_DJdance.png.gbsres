@@ -1,85 +1,83 @@
 {
   "_resourceType": "sprite",
-  "id": "2e8546dc-d4b6-462f-a817-d24b902471d2",
+  "id": "8a40add0-13e1-4410-89db-797a95951f69",
   "name": "MILKHOUSE/IRL_DJdance",
-  "symbol": "sprite_irl_djdance",
-  "width": 96,
-  "height": 64,
+  "symbol": "sprite_milkhouse_irl_djdanc",
   "states": [
     {
-      "id": "ef9280db-71b7-4b61-85c7-cb1848a81edf",
+      "id": "19bef560-0e64-4565-8558-e6e240d85d4f",
       "name": "",
       "animationType": "multi_movement",
       "flipLeft": true,
       "animations": [
         {
-          "id": "a5bdcdab-e096-4feb-afd1-03f8c8889814",
+          "id": "16add7fa-fe64-459f-8e58-7d6e7ddce249",
           "frames": [
             {
-              "id": "7305bc36-fff5-4b71-af3f-287bcf242f50",
+              "id": "cd837d16-c186-429e-b40f-e3146e9c2e6e",
               "tiles": []
             }
           ]
         },
         {
-          "id": "3890df22-31f5-4ba3-8dbb-6364b16ab398",
+          "id": "7f6eb78e-f5f5-410f-b1e7-97fb20832a9c",
           "frames": [
             {
-              "id": "bf51c2cf-eb19-4635-99cb-7386f3998812",
+              "id": "4c75cb7f-eb23-4905-94bd-abc30252e80d",
               "tiles": []
             }
           ]
         },
         {
-          "id": "1e9a9be9-b2d9-4968-9858-b59c56bc6e94",
+          "id": "25bcdf2c-3b60-4158-a834-f443a251ee92",
           "frames": [
             {
-              "id": "152a224a-7207-4915-b525-9798c4d6927a",
+              "id": "5fbedbdc-5b20-4855-bf88-023f1abc9ccd",
               "tiles": []
             }
           ]
         },
         {
-          "id": "57a2eef5-11eb-4ab6-be91-c846b8132f22",
+          "id": "cff8cabf-3b98-4124-91d9-689d5d4b380d",
           "frames": [
             {
-              "id": "c0bb81b1-31e2-4b93-bb3e-9fa78ef85e66",
+              "id": "89d13cf2-9a40-4742-a2c5-ddfd9b8944e0",
               "tiles": []
             }
           ]
         },
         {
-          "id": "8e177219-23e6-4e2c-93be-0f176a882b91",
+          "id": "fcfcdb86-9e8f-4960-a6d3-abb468946a06",
           "frames": [
             {
-              "id": "ab13c734-7ab0-4120-af1e-6e12e27cd8e9",
+              "id": "2e73df66-1beb-4013-b49a-e4622ece56d3",
               "tiles": []
             }
           ]
         },
         {
-          "id": "adb576f2-706c-49c6-8531-fc0fc9458c5a",
+          "id": "dc94947e-a774-4883-b111-68a55f543f0e",
           "frames": [
             {
-              "id": "25dfb959-18cc-4e0b-ba52-0e2921540b74",
+              "id": "58a04a34-acff-4ea4-9091-224a1a0caf38",
               "tiles": []
             }
           ]
         },
         {
-          "id": "8d264ab1-2daa-4a56-ae6d-bafa20054286",
+          "id": "fffec391-7790-4e67-a995-618a4636cf70",
           "frames": [
             {
-              "id": "d9fe40fc-34f5-4d2f-920f-b534f980e2e1",
+              "id": "8130c294-4ca5-4697-8b98-b933d8604301",
               "tiles": []
             }
           ]
         },
         {
-          "id": "6b83ff0f-9d6f-434f-acab-9aac913d15f5",
+          "id": "7de2c848-1a51-4475-a443-ab82d8e3f6ac",
           "frames": [
             {
-              "id": "d992b614-ea79-4f26-9c6e-a90a36c0ba4c",
+              "id": "0ac81000-61b5-45ee-aee8-2bccdd5d6493",
               "tiles": []
             }
           ]
@@ -88,14 +86,17 @@
     }
   ],
   "numTiles": 0,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
   "canvasWidth": 32,
   "canvasHeight": 32,
   "boundsX": 0,
-  "boundsY": 0,
+  "boundsY": -8,
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
-  "filename": "milkhouse/IRL_DJdance.png",
-  "checksum": "007632b0b55170ab3bfb90182dc5cae510114cb5",
-  "numFrames": 6
+  "filename": "MILKHOUSE/IRL_DJdance.png",
+  "width": 96,
+  "height": 64,
+  "checksum": "007632b0b55170ab3bfb90182dc5cae510114cb5"
 }

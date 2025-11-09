@@ -1,85 +1,83 @@
 {
   "_resourceType": "sprite",
-  "id": "ea13264b-abd7-48bc-b5ad-9e93668fccc8",
+  "id": "e1c3ed5f-8799-48a4-8705-62887c4ff0de",
   "name": "25TAGZ/mr_fuji",
   "symbol": "sprite_25tagz_mr_fuji",
-  "width": 16,
-  "height": 96,
   "states": [
     {
-      "id": "f9cd8116-3f99-4111-89ba-8ae62e45c586",
+      "id": "68be4c93-dcb6-4c5c-ac72-ce98532059b5",
       "name": "",
       "animationType": "multi_movement",
       "flipLeft": true,
       "animations": [
         {
-          "id": "1697c732-82cc-49d4-b72e-1e4d13f68d25",
+          "id": "eb8181db-6329-4273-9c25-a164daefc712",
           "frames": [
             {
-              "id": "18152a9d-34ad-4ea0-8231-de3dce48ad58",
+              "id": "8467f6fb-079a-4dd1-adc8-3beacee070c3",
               "tiles": []
             }
           ]
         },
         {
-          "id": "6b87f7f6-038f-4fab-90d1-506ce1c495ff",
+          "id": "7873aa7c-af10-4f3b-b403-874cb2f1d42a",
           "frames": [
             {
-              "id": "2a0e4dda-4041-4ca3-89ef-cc38d00a695e",
+              "id": "3cca80a6-ba1e-4db0-8f9c-76edda18d8fc",
               "tiles": []
             }
           ]
         },
         {
-          "id": "ec4652d3-763a-44ab-b4ac-1ae907a6285a",
+          "id": "90925c20-d1a8-4099-b78e-1d5a29115d62",
           "frames": [
             {
-              "id": "50c4f607-a80c-4060-8ac3-7fe8ef0298a4",
+              "id": "b5e58161-6345-4314-a239-db699b8d0cc9",
               "tiles": []
             }
           ]
         },
         {
-          "id": "257231f4-73b5-4d06-9850-212ece956d54",
+          "id": "39cddedb-907c-44ef-b10d-daef97270a3d",
           "frames": [
             {
-              "id": "8c0a03d0-bbdd-47ef-ae2f-4d704390da92",
+              "id": "26ee67b3-0638-419e-b747-55bf38780c81",
               "tiles": []
             }
           ]
         },
         {
-          "id": "04d9965c-ec9e-432a-bad1-8a5af88f71b8",
+          "id": "24d7c042-1bbf-4c84-9c72-ada90c3cec9d",
           "frames": [
             {
-              "id": "800d9846-c469-4f69-b948-93087e89d2d0",
+              "id": "5301b738-6c1e-4c68-8854-a50ef51ea24d",
               "tiles": []
             }
           ]
         },
         {
-          "id": "a1befcaf-f47c-4c58-914a-0fdc5fe938fe",
+          "id": "cfee7ade-8313-41e3-b542-1bfbc20dbab0",
           "frames": [
             {
-              "id": "6490efdf-1b3b-485c-bb64-33dfb35687f7",
+              "id": "be123ad1-1ae8-45c6-9dde-2f8031161259",
               "tiles": []
             }
           ]
         },
         {
-          "id": "bec34fee-055b-4c4a-86f8-030b765c8549",
+          "id": "15af2b81-5f6f-4a36-be12-8bd0dc502c8b",
           "frames": [
             {
-              "id": "9029d443-43cb-4711-9154-b0351eafc714",
+              "id": "12f1e173-481d-4bc2-85be-fff92241f1c1",
               "tiles": []
             }
           ]
         },
         {
-          "id": "58f6a558-fe57-4810-a26a-448f76ca7e26",
+          "id": "443b207d-b557-4045-a71c-641b2d6eef18",
           "frames": [
             {
-              "id": "afdc9301-d259-4d6d-9447-19ff8209c741",
+              "id": "5572bd23-b0e0-4ca6-ac29-0a54ea524fa4",
               "tiles": []
             }
           ]
@@ -88,14 +86,17 @@
     }
   ],
   "numTiles": 0,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
   "canvasWidth": 32,
   "canvasHeight": 32,
   "boundsX": 0,
-  "boundsY": 0,
+  "boundsY": -8,
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
-  "filename": "25tagz/mr_fuji.png",
-  "checksum": "1c064b7c0e7939e30146b9ba11f6728497c4229c",
-  "numFrames": 1
+  "filename": "25TAGZ/mr_fuji.png",
+  "width": 16,
+  "height": 96,
+  "checksum": "1c064b7c0e7939e30146b9ba11f6728497c4229c"
 }

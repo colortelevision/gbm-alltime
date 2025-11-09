@@ -1,85 +1,83 @@
 {
   "_resourceType": "sprite",
-  "id": "32f011e3-9742-431e-98d2-0493c2ad232e",
+  "id": "6a2170ec-80a7-41e1-baef-4e0143c225f4",
   "name": "25TAGZ/bird",
   "symbol": "sprite_25tagz_bird",
-  "width": 16,
-  "height": 96,
   "states": [
     {
-      "id": "8004ef57-c9af-4ea3-a005-2f25884992db",
+      "id": "00997a56-f323-48b0-a443-86ec6ad06ee0",
       "name": "",
       "animationType": "multi_movement",
       "flipLeft": true,
       "animations": [
         {
-          "id": "b288d1b6-d71c-444f-bea5-6dba3b814e19",
+          "id": "9b13dc83-27dd-47d9-ab8c-d3f6a8e311dd",
           "frames": [
             {
-              "id": "a08f2432-1bd1-4fa1-a77d-06f8d644b352",
+              "id": "092da941-9c41-411a-a448-3adde69c9fed",
               "tiles": []
             }
           ]
         },
         {
-          "id": "71cd40de-621a-4adc-8d52-d8e5d445c65b",
+          "id": "cea2701d-0af4-4b1d-9929-962bc1974675",
           "frames": [
             {
-              "id": "f6aa2926-eb8d-4aad-93c4-7fcdae7a1464",
+              "id": "6a5e284c-7612-4d79-8b59-7b11718c12ad",
               "tiles": []
             }
           ]
         },
         {
-          "id": "01deeca1-b736-46c1-bb54-03388f93ed0c",
+          "id": "5a47a191-37ac-4adc-9c71-d26e9b13bab4",
           "frames": [
             {
-              "id": "3e942da9-c8ce-4e5e-a51a-ea909c192fb1",
+              "id": "306b7f5b-7881-4fef-847b-788d35d5a33f",
               "tiles": []
             }
           ]
         },
         {
-          "id": "e189422a-962c-4ad7-a5c0-bae10513dd5a",
+          "id": "a52eb38c-2575-4533-8ac7-e363981cec74",
           "frames": [
             {
-              "id": "31dac7fe-c4c4-4996-b04e-4908c56d4981",
+              "id": "cd05eefc-52b5-4c9e-9c25-f5fac8b69158",
               "tiles": []
             }
           ]
         },
         {
-          "id": "0ab85788-d990-48d5-8997-3c4d43749e62",
+          "id": "d02fa2ec-3854-4549-b38b-b9f5ad125fbb",
           "frames": [
             {
-              "id": "22458ec0-fef9-4b5a-859b-1335360ba33d",
+              "id": "db9c002d-28a7-48bf-a454-57b5cb2e6c49",
               "tiles": []
             }
           ]
         },
         {
-          "id": "50c60101-2b65-4c68-9de0-ef0e4793b772",
+          "id": "56f56d72-effb-40ed-a0d3-89d57e2b7344",
           "frames": [
             {
-              "id": "015c3895-34d5-48dc-98db-73c0f5abe04f",
+              "id": "28e0ccba-166a-4e74-8f12-4aa16a04f48b",
               "tiles": []
             }
           ]
         },
         {
-          "id": "b7439c1b-2a0e-475d-8085-9981c809f09b",
+          "id": "c608c869-b619-4d6c-92fc-555cac647207",
           "frames": [
             {
-              "id": "76e82f88-575f-4cba-8ef6-19e77cca2147",
+              "id": "092050e4-65ce-4293-9b18-6b662658f78f",
               "tiles": []
             }
           ]
         },
         {
-          "id": "dc2bd013-9ade-496c-9cea-d3aa1bbf438e",
+          "id": "0d0e1808-9268-490c-98fd-40bbd0025a18",
           "frames": [
             {
-              "id": "d401621a-4247-4880-bff1-033b4e785f3f",
+              "id": "5a77bb5a-6a0b-4c6c-aa34-78e49398a650",
               "tiles": []
             }
           ]
@@ -88,14 +86,17 @@
     }
   ],
   "numTiles": 0,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
   "canvasWidth": 32,
   "canvasHeight": 32,
   "boundsX": 0,
-  "boundsY": 0,
+  "boundsY": -8,
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
-  "filename": "25tagz/bird.png",
-  "checksum": "2d8b2d4d9059178364fe28e88ea2d07351537620",
-  "numFrames": 1
+  "filename": "25TAGZ/bird.png",
+  "width": 16,
+  "height": 96,
+  "checksum": "2d8b2d4d9059178364fe28e88ea2d07351537620"
 }

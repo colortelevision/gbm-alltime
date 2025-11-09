@@ -3,8 +3,6 @@
   "id": "692c90ca-9e82-49b5-934d-90c067a0136c",
   "name": "kanto/converted_sailor",
   "symbol": "sprite_kanto_converted_sail",
-  "width": 16,
-  "height": 96,
   "states": [
     {
       "id": "4c8c46b0-222d-4177-8976-f35f5a09a34c",
@@ -88,13 +86,17 @@
     }
   ],
   "numTiles": 0,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
   "canvasWidth": 32,
   "canvasHeight": 32,
   "boundsX": 0,
-  "boundsY": 0,
+  "boundsY": -8,
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
   "filename": "kanto/converted_sailor.png",
+  "width": 16,
+  "height": 96,
   "checksum": "9974ccf7289309ae590d9d063353251817db0701"
 }

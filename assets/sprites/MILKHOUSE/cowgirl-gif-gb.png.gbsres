@@ -1,85 +1,83 @@
 {
   "_resourceType": "sprite",
-  "id": "a06b6841-7970-45ff-8309-e71e8cd58e8b",
+  "id": "ad4fa893-29b4-457a-9cfc-e6da10ea870a",
   "name": "MILKHOUSE/cowgirl-gif-gb",
-  "symbol": "sprite_cowgirl_gif_gb",
-  "width": 96,
-  "height": 96,
+  "symbol": "sprite_milkhouse_cowgirl_gi",
   "states": [
     {
-      "id": "c38cd72f-6427-4fbd-9906-19e1a0c6518e",
+      "id": "27abf1e1-32ae-427f-b90f-9d03438a1e5a",
       "name": "",
       "animationType": "multi_movement",
       "flipLeft": true,
       "animations": [
         {
-          "id": "39969fdc-f1e1-4458-a18d-479a254b1b69",
+          "id": "b6347af2-8786-4498-ac9d-184482ec2d2e",
           "frames": [
             {
-              "id": "238a82f9-55c7-40ee-a1da-b3be9791930d",
+              "id": "77076cf3-d8e6-47fc-8ff3-3386b2533fc8",
               "tiles": []
             }
           ]
         },
         {
-          "id": "407d2d05-4813-46a5-b31b-87593c0798e8",
+          "id": "803f7779-8a09-4e13-a58e-8426ebb1e9a9",
           "frames": [
             {
-              "id": "7aebb13c-dfe4-43d3-b97e-a1adcf6560c2",
+              "id": "8e9f2592-b978-4d9f-9adb-05fc6fbedbb6",
               "tiles": []
             }
           ]
         },
         {
-          "id": "50bf8500-6a0b-499f-94be-a8c15cd94ae4",
+          "id": "3b184b6d-c74d-4bb8-8a77-766c51f487ed",
           "frames": [
             {
-              "id": "854c3934-9803-4bd8-85a0-908c61568a32",
+              "id": "0f5179c3-4148-4467-b51c-85a767d069d0",
               "tiles": []
             }
           ]
         },
         {
-          "id": "ef62fd71-4d69-46f9-adf0-2fa5c5cf2e14",
+          "id": "0345769e-ce8a-4f4e-9c64-8e851796e254",
           "frames": [
             {
-              "id": "4025a4b2-cf4f-47ca-8ddf-fcd46ff3538c",
+              "id": "0a44c4ad-8ba9-4295-b9de-f8eb559d8dbd",
               "tiles": []
             }
           ]
         },
         {
-          "id": "9b8ee12d-09f4-461c-81a0-98da20818c3a",
+          "id": "008a4799-977b-4071-925c-36da5c7b4243",
           "frames": [
             {
-              "id": "4acc4b58-6c66-4178-95ad-f91d0a9ff96f",
+              "id": "89a233e0-d033-484d-ad34-d0f0e10e77da",
               "tiles": []
             }
           ]
         },
         {
-          "id": "956795e2-cc16-4da0-933c-2cc4b5bd54c1",
+          "id": "0bf15b64-1a66-4950-8697-1c6edf9b2a8d",
           "frames": [
             {
-              "id": "e26e3e0a-42fa-45b1-b06a-2f656d6f8e48",
+              "id": "f26d4f39-8d59-46c9-86ab-663c61ad6c9e",
               "tiles": []
             }
           ]
         },
         {
-          "id": "6a8dfa13-3ae0-409f-b30e-c7d81c3c4eed",
+          "id": "75f05e56-3101-4772-9d3c-0d4d497792e7",
           "frames": [
             {
-              "id": "2d1c77fa-defe-4efa-81a8-7eda2b8cb41b",
+              "id": "a52540af-f152-4440-96f4-dc906abcf225",
               "tiles": []
             }
           ]
         },
         {
-          "id": "c81ec3fc-be2f-40cb-b057-16098ae9b7d9",
+          "id": "c845b8cf-c922-4129-8706-6a0873bc366f",
           "frames": [
             {
-              "id": "d212ab83-9cbf-4823-922a-530256f6f0db",
+              "id": "a05b87be-85f3-4b62-be9b-f76121ba1f60",
               "tiles": []
             }
           ]
@@ -88,14 +86,17 @@
     }
   ],
   "numTiles": 0,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
   "canvasWidth": 32,
   "canvasHeight": 32,
   "boundsX": 0,
-  "boundsY": 0,
+  "boundsY": -8,
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
-  "filename": "milkhouse/cowgirl-gif-gb.png",
-  "checksum": "0b6f031cb19860b892ec7160b0aeb49e9d06f3ff",
-  "numFrames": 6
+  "filename": "MILKHOUSE/cowgirl-gif-gb.png",
+  "width": 96,
+  "height": 96,
+  "checksum": "0b6f031cb19860b892ec7160b0aeb49e9d06f3ff"
 }

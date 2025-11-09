@@ -3,8 +3,6 @@
   "id": "a095ad0f-8c28-4fd5-b47b-20165382bd5b",
   "name": "bots/actor_animated",
   "symbol": "sprite_bots_actor_animated",
-  "width": 96,
-  "height": 16,
   "states": [
     {
       "id": "785eb0d0-b1d0-4a81-b2bf-34b8a583ce12",
@@ -343,13 +341,17 @@
     }
   ],
   "numTiles": 7,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
   "canvasWidth": 16,
   "canvasHeight": 16,
   "boundsX": 0,
-  "boundsY": 0,
+  "boundsY": -8,
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
   "filename": "bots/actor_animated.png",
+  "width": 96,
+  "height": 16,
   "checksum": "0dfdb771a3424f6aba3e3d252e9d617e77756864"
 }

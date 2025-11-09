@@ -3,8 +3,6 @@
   "id": "dc5e73e1-40e9-4f3a-9f5f-850f4426c3ed",
   "name": "kanto/converted_fishing_guru",
   "symbol": "sprite_kanto_converted_fish_0",
-  "width": 16,
-  "height": 48,
   "states": [
     {
       "id": "8f28fd63-39dd-4ca2-aaca-d43da544e0d3",
@@ -88,13 +86,17 @@
     }
   ],
   "numTiles": 0,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
   "canvasWidth": 32,
   "canvasHeight": 32,
   "boundsX": 0,
-  "boundsY": 0,
+  "boundsY": -8,
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
   "filename": "kanto/converted_fishing_guru.png",
+  "width": 16,
+  "height": 48,
   "checksum": "cab99ef4e66bef482c1634a6b7b3f9a7f66167d8"
 }

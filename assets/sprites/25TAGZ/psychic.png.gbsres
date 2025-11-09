@@ -1,85 +1,83 @@
 {
   "_resourceType": "sprite",
-  "id": "e6cb2e3b-f22d-473d-8ad6-74f2d5fff7c9",
+  "id": "0613a437-2403-41f0-b1a7-f09962746f00",
   "name": "25TAGZ/psychic",
   "symbol": "sprite_25tagz_psychic",
-  "width": 56,
-  "height": 56,
   "states": [
     {
-      "id": "74c5a720-8031-4d65-af7e-7e58923dc9f4",
+      "id": "e3aaadda-4ef9-419a-8a8b-69c031f77817",
       "name": "",
       "animationType": "multi_movement",
       "flipLeft": true,
       "animations": [
         {
-          "id": "f68ed96d-0e80-4fbb-921f-50ab1cffdf62",
+          "id": "0d9c289a-b5ad-49ed-b4b4-5e2121721297",
           "frames": [
             {
-              "id": "4e99c505-6018-4cf7-91b3-41c477c487f4",
+              "id": "c7a80e3b-2ead-4afc-b350-20dfd6509b1d",
               "tiles": []
             }
           ]
         },
         {
-          "id": "33b2c0a5-4373-45a7-b8be-92681b93618a",
+          "id": "fb8d1300-d2bd-4718-ba62-4d79d85c4ea0",
           "frames": [
             {
-              "id": "43971f62-bf9e-4bd1-aee4-776a5f4a0869",
+              "id": "24eb2149-69fc-4d3d-b8c2-2a2ac5a3e70e",
               "tiles": []
             }
           ]
         },
         {
-          "id": "79a4e6ed-8638-4113-8c2f-6ffdabf229d7",
+          "id": "cf4f54a8-eacd-47ac-bcdd-4d576a776f02",
           "frames": [
             {
-              "id": "99852b1f-e13d-4b2a-8df7-23eaad235d24",
+              "id": "dd3eca18-09e9-44c3-9b3c-ecbe36e3ed5a",
               "tiles": []
             }
           ]
         },
         {
-          "id": "70b6919c-a3e0-4523-ad70-798ad13b1e9c",
+          "id": "be5cdd1d-6301-4b16-842d-50801a3e470f",
           "frames": [
             {
-              "id": "3f9bb633-2b38-4dba-b2a3-5b5b207ba289",
+              "id": "a42c21c9-8de0-43fb-a52c-df93b469c7fd",
               "tiles": []
             }
           ]
         },
         {
-          "id": "7e8e4ee9-b68a-4dbc-921e-7624ab334269",
+          "id": "3b4a9ce2-dc4f-410e-978e-cbbc8de0b064",
           "frames": [
             {
-              "id": "98861b1c-a9af-47f6-9dbe-94f9c8196b1f",
+              "id": "40cbba51-9e67-48cb-a896-549289420d5d",
               "tiles": []
             }
           ]
         },
         {
-          "id": "82c70ff0-51c3-4ba6-bda2-d2362f0212ef",
+          "id": "f78279e2-df3e-46ee-a6c5-50eaf2f4dd6e",
           "frames": [
             {
-              "id": "88eda8c9-a34d-4747-9556-e6eef9d971b2",
+              "id": "66737194-41a5-4e1c-a221-6c7cc2ef1e64",
               "tiles": []
             }
           ]
         },
         {
-          "id": "90e85cb6-9dbd-4121-b090-1f8f17815337",
+          "id": "29afac52-47a0-4606-b47b-f318cd26cce5",
           "frames": [
             {
-              "id": "ef15b984-af77-44be-85dc-2ffabfb8f3d2",
+              "id": "a13d34ad-73d5-43be-bb87-1199429738d8",
               "tiles": []
             }
           ]
         },
         {
-          "id": "27f24bd4-2cbf-4e01-9abf-117c71c497f8",
+          "id": "8e1c1a63-ef55-447c-8725-a776b21e0d0b",
           "frames": [
             {
-              "id": "bb96f09d-9860-41ed-b98f-f522f64f93ec",
+              "id": "48ec2a94-0ce9-4262-b042-fb1e92604650",
               "tiles": []
             }
           ]
@@ -88,14 +86,17 @@
     }
   ],
   "numTiles": 0,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
   "canvasWidth": 32,
   "canvasHeight": 32,
   "boundsX": 0,
-  "boundsY": 0,
+  "boundsY": -8,
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
-  "filename": "25tagz/psychic.png",
-  "checksum": "8641c2a1dcf3eaef1bc6a92b5e6162db376d52c3",
-  "numFrames": 3.5
+  "filename": "25TAGZ/psychic.png",
+  "width": 56,
+  "height": 56,
+  "checksum": "8641c2a1dcf3eaef1bc6a92b5e6162db376d52c3"
 }

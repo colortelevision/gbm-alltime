@@ -1,25 +1,23 @@
 {
   "_resourceType": "sprite",
-  "id": "07489ce3-0664-4026-b47b-10b7bfc70bdf",
+  "id": "04e97aba-18ca-45d9-9433-63c9c2c9c7d8",
   "name": "MILKHOUSE/IRL_SPOT",
-  "symbol": "sprite_irl_spot",
-  "width": 32,
-  "height": 16,
+  "symbol": "sprite_milkhouse_irl_spot",
   "states": [
     {
-      "id": "e5e96a23-30e8-457d-810e-e6e166ff4253",
+      "id": "0ba87bee-5b29-43a1-b4dc-0dbd0a402278",
       "name": "",
       "animationType": "fixed",
       "flipLeft": false,
       "animations": [
         {
-          "id": "f60cf80b-d86e-4db5-848d-e9ab568ec071",
+          "id": "a4e2e1fe-9907-465c-9dae-9baf1eb98e03",
           "frames": [
             {
-              "id": "daca2c3b-3a52-449d-a25a-cd33fd469914",
+              "id": "48123107-fb36-4d7d-9f51-f64b63edf674",
               "tiles": [
                 {
-                  "id": "79719003-cb84-4b37-830b-b5c6b9120158",
+                  "id": "b420f970-ef6e-4907-afd4-5cf0ed31107d",
                   "x": 0,
                   "y": 0,
                   "sliceX": 0,
@@ -32,7 +30,7 @@
                   "priority": false
                 },
                 {
-                  "id": "6bdd6890-1259-4b43-bcca-6ac179637589",
+                  "id": "05918e98-4c3b-4183-b416-359f72bdb91e",
                   "x": 8,
                   "y": 0,
                   "sliceX": 8,
@@ -47,10 +45,10 @@
               ]
             },
             {
-              "id": "97d3e923-c02f-445f-bf08-2213d80d8b33",
+              "id": "c445e3f1-14db-4466-a98b-fcf26a549642",
               "tiles": [
                 {
-                  "id": "d4cac6db-65a5-4175-bffe-dd2c309fb78a",
+                  "id": "d5dbc838-66c6-4a94-bf82-017ea7d517fd",
                   "x": 0,
                   "y": 0,
                   "sliceX": 16,
@@ -63,7 +61,7 @@
                   "priority": false
                 },
                 {
-                  "id": "1882d796-7e33-4ff3-81e2-f1adf1a47358",
+                  "id": "8f9f4902-176c-40eb-99de-25bcb531f04e",
                   "x": 8,
                   "y": 0,
                   "sliceX": 24,
@@ -80,64 +78,64 @@
           ]
         },
         {
-          "id": "37db30bc-1852-4d3b-a16a-6d0b2e808075",
+          "id": "771ea46c-e0b7-45d1-9491-742ad1badabc",
           "frames": [
             {
-              "id": "14ac10a8-6bde-42f5-b5e8-039a813c1485",
+              "id": "b0bd4e81-21c5-4bd2-816c-791027d639f6",
               "tiles": []
             }
           ]
         },
         {
-          "id": "0417445e-508f-472a-8c66-66b51c3e1296",
+          "id": "0a387170-33a6-4a1f-87af-638e33e232af",
           "frames": [
             {
-              "id": "d50853a7-e692-429b-bc12-e2b91a257578",
+              "id": "d6da2adf-85c5-4ed6-8fca-653f3e461edc",
               "tiles": []
             }
           ]
         },
         {
-          "id": "bcd61aaa-d00c-431d-b748-a6304b635574",
+          "id": "743f7d51-4a2a-4760-90fd-16ebd6d1d7d7",
           "frames": [
             {
-              "id": "5393f5f9-67fe-4677-bf29-bf5836375717",
+              "id": "a9447a57-71c5-4a53-976c-d4db42aca6bf",
               "tiles": []
             }
           ]
         },
         {
-          "id": "012b09e2-def9-448a-9841-225afeff3427",
+          "id": "e24eab9e-a065-4e1d-8c12-932c0db56855",
           "frames": [
             {
-              "id": "5d15fa86-1f9e-4c44-94d0-9a4c02efb784",
+              "id": "276e8e26-8d50-404f-88c3-0eb4dfcb437f",
               "tiles": []
             }
           ]
         },
         {
-          "id": "e4ba5277-9d8f-4f81-b824-68d7e2aaac32",
+          "id": "88ea33ed-221c-40c5-a2e2-a10c3e4d030e",
           "frames": [
             {
-              "id": "7e3f1601-c36e-4b3c-867c-25ec22fb4819",
+              "id": "baa730eb-08c5-410f-97d6-821d8b4d15e0",
               "tiles": []
             }
           ]
         },
         {
-          "id": "866d8b7e-e832-489b-bf6a-d21ca42ab6a8",
+          "id": "f29e4e7c-5172-46eb-aa3b-cf2025d19fc8",
           "frames": [
             {
-              "id": "8b8dd913-0c49-4d43-b949-116b0896e395",
+              "id": "653019ac-2f2e-42a1-9d1d-54979340f60a",
               "tiles": []
             }
           ]
         },
         {
-          "id": "336db42d-f17b-489a-bc08-7a3f38803e1f",
+          "id": "8c72d582-0ad8-4d09-945f-01c508365503",
           "frames": [
             {
-              "id": "a8546fd4-2419-4822-9c8d-bb082759b507",
+              "id": "9473e7fb-c997-4034-8a07-ca9e893efbc0",
               "tiles": []
             }
           ]
@@ -146,14 +144,17 @@
     }
   ],
   "numTiles": 4,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
   "canvasWidth": 16,
   "canvasHeight": 16,
   "boundsX": 0,
-  "boundsY": 0,
+  "boundsY": -8,
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
-  "filename": "milkhouse/IRL_SPOT.png",
-  "checksum": "ef47e6f2bebce78c29a292c5e6e956aab426db2a",
-  "numFrames": 2
+  "filename": "MILKHOUSE/IRL_SPOT.png",
+  "width": 32,
+  "height": 16,
+  "checksum": "ef47e6f2bebce78c29a292c5e6e956aab426db2a"
 }

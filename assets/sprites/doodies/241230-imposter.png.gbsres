@@ -3,8 +3,6 @@
   "id": "c6371b59-e639-4663-ad5e-06dd6a696335",
   "name": "doodies/241230-imposter",
   "symbol": "sprite_241230_imposter",
-  "width": 64,
-  "height": 32,
   "states": [
     {
       "id": "0afec4a9-60ad-4f3c-acc3-740802e452a8",
@@ -88,14 +86,17 @@
     }
   ],
   "numTiles": 0,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
   "canvasWidth": 32,
   "canvasHeight": 32,
   "boundsX": 0,
-  "boundsY": 0,
+  "boundsY": -8,
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
   "filename": "doodies/241230-imposter.png",
-  "checksum": "ce065e3bf927fa39831efb1a9fc5a7871b3a9730",
-  "numFrames": 4
+  "width": 64,
+  "height": 32,
+  "checksum": "ce065e3bf927fa39831efb1a9fc5a7871b3a9730"
 }

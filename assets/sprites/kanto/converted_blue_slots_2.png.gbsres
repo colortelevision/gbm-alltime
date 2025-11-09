@@ -3,8 +3,6 @@
   "id": "c5c4de0a-5574-4ff7-a2b1-7e6a4ca8921d",
   "name": "kanto/converted_blue_slots_2",
   "symbol": "sprite_kanto_converted_blue_3",
-  "width": 32,
-  "height": 48,
   "states": [
     {
       "id": "cf215625-6f83-4075-b020-9dcd2a03d5cf",
@@ -88,13 +86,17 @@
     }
   ],
   "numTiles": 0,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
   "canvasWidth": 32,
   "canvasHeight": 32,
   "boundsX": 0,
-  "boundsY": 0,
+  "boundsY": -8,
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
   "filename": "kanto/converted_blue_slots_2.png",
+  "width": 32,
+  "height": 48,
   "checksum": "67f5daa47ddb5e6b0bdf4d67e20da92bd740e330"
 }

@@ -3,8 +3,6 @@
   "id": "9a1bc314-350c-4eba-a332-359a674d1db0",
   "name": "james#1",
   "symbol": "sprite_james_1",
-  "width": 16,
-  "height": 96,
   "states": [
     {
       "id": "95e1dea7-0231-4897-ae1e-062f3e7c0542",
@@ -88,13 +86,17 @@
     }
   ],
   "numTiles": 0,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
   "canvasWidth": 32,
   "canvasHeight": 32,
   "boundsX": 0,
-  "boundsY": 0,
+  "boundsY": -8,
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
   "filename": "james#1.png",
+  "width": 16,
+  "height": 96,
   "checksum": "0d79f1569e13f245a914a9999fd11fa41c44224c"
 }

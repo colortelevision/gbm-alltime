@@ -3,8 +3,6 @@
   "id": "0f6a10e3-b59f-45dc-8ea6-19b21ebc6993",
   "name": "steven",
   "symbol": "sprite_steven",
-  "width": 16,
-  "height": 96,
   "states": [
     {
       "id": "fb8595df-c9eb-4415-9ec9-6a7332ab1e6d",
@@ -88,13 +86,17 @@
     }
   ],
   "numTiles": 0,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
   "canvasWidth": 32,
   "canvasHeight": 32,
   "boundsX": 0,
-  "boundsY": 0,
+  "boundsY": -8,
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
   "filename": "steven.png",
+  "width": 16,
+  "height": 96,
   "checksum": "f931d514df471f2af5027109e337b1c108e732fc"
 }

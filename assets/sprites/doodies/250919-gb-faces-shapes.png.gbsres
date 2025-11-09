@@ -3,8 +3,6 @@
   "id": "c852fa85-1258-4520-a46e-c350303881fe",
   "name": "doodies/250919-gb-faces-shapes",
   "symbol": "sprite_doodies_250919_gb_fa",
-  "width": 160,
-  "height": 144,
   "states": [
     {
       "id": "c270f274-d812-40ad-a5d7-aba7eadea2e9",
@@ -88,13 +86,17 @@
     }
   ],
   "numTiles": 0,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
   "canvasWidth": 32,
   "canvasHeight": 32,
   "boundsX": 0,
-  "boundsY": 0,
+  "boundsY": -8,
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
   "filename": "doodies/250919-gb-faces-shapes.png",
+  "width": 160,
+  "height": 144,
   "checksum": "ced2f1c29df71bab611f829d65f800fd1ac1c98a"
 }

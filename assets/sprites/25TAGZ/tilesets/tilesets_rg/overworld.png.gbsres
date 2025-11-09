@@ -1,85 +1,83 @@
 {
   "_resourceType": "sprite",
-  "id": "c5695fc1-99e3-40f0-b869-dc4901a27e6c",
+  "id": "0dbc0a1f-3bef-4e1f-a795-d633700aafb3",
   "name": "25TAGZ/tilesets/tilesets_rg/overworld",
   "symbol": "spritetagz_tilesets_tile_1",
-  "width": 128,
-  "height": 48,
   "states": [
     {
-      "id": "14ced835-7a47-4cb6-ad65-99a7d26f5090",
+      "id": "978837e1-4b4a-4c6f-a26b-c24aed7a18bb",
       "name": "",
       "animationType": "multi_movement",
       "flipLeft": true,
       "animations": [
         {
-          "id": "a235fb56-c01b-4884-89b3-deb1bced8a28",
+          "id": "ebfa7568-1831-46f8-b8e9-bbed2df63c5e",
           "frames": [
             {
-              "id": "cd26dc9f-1bd6-49ca-be9b-50b706da90e9",
+              "id": "476c17ba-998c-4d0f-8572-0dea9944d06a",
               "tiles": []
             }
           ]
         },
         {
-          "id": "66492075-fc9b-4279-9396-712e24d3f6bc",
+          "id": "d3c4e4ba-c927-4eac-8a6b-491b521f5be5",
           "frames": [
             {
-              "id": "f261036c-6936-4915-ad70-6c40a8c4937d",
+              "id": "ab1a26fe-7e78-412d-9f99-8a313ca1885d",
               "tiles": []
             }
           ]
         },
         {
-          "id": "ecd3c400-8f4d-4981-95a8-292b1fabcbde",
+          "id": "a4dc1fdf-f700-47a1-bb2d-ec21242d008b",
           "frames": [
             {
-              "id": "05e746ad-890f-4892-ae35-cdf7ca9eb865",
+              "id": "818c1406-3a9d-4b09-b48c-a46c6541729b",
               "tiles": []
             }
           ]
         },
         {
-          "id": "daf89a9e-cd25-4632-b107-554595e4a742",
+          "id": "b0829114-4bf8-474d-8b28-d60d8967f337",
           "frames": [
             {
-              "id": "a16fb5db-2843-4ee0-b5a8-2431257f8361",
+              "id": "22fba158-1a59-463e-a57c-36df027c3d2f",
               "tiles": []
             }
           ]
         },
         {
-          "id": "b3124072-385a-4a0b-957f-18d0d730807e",
+          "id": "d338175c-a4bb-4447-b299-2671bc4d5c5f",
           "frames": [
             {
-              "id": "d7736be3-f866-4364-a80c-706bf2d26f8e",
+              "id": "d3e822b4-805d-42c0-be01-0fd14ca96819",
               "tiles": []
             }
           ]
         },
         {
-          "id": "79b0f027-fd8c-4738-b40e-22a9d881e369",
+          "id": "17614acb-6a16-4704-8ace-7b5e95d0e1d1",
           "frames": [
             {
-              "id": "10fd7e2e-fd68-4662-95e9-2045d946cb8c",
+              "id": "87351643-5c2f-4874-9689-0a557ef6a624",
               "tiles": []
             }
           ]
         },
         {
-          "id": "088d2152-45cb-450a-b8cc-c7c1ef8bfd68",
+          "id": "870fdf35-b534-4736-9315-02df045af82e",
           "frames": [
             {
-              "id": "abe4624b-301c-4387-ab3d-00f43ae80f75",
+              "id": "42518f24-5d07-4706-99d5-1998c170b043",
               "tiles": []
             }
           ]
         },
         {
-          "id": "d93fd03b-511a-49dd-a073-6169d3966f8f",
+          "id": "c455b14b-ace5-4c59-9580-55cfbc698c78",
           "frames": [
             {
-              "id": "3a08dbd4-f427-41a3-a0f6-48597c252895",
+              "id": "c7753daa-7c58-4731-a4c7-f905ff171867",
               "tiles": []
             }
           ]
@@ -88,14 +86,17 @@
     }
   ],
   "numTiles": 0,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
   "canvasWidth": 32,
   "canvasHeight": 32,
   "boundsX": 0,
-  "boundsY": 0,
+  "boundsY": -8,
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
-  "filename": "25tagz/tilesets/tilesets_rg/overworld.png",
-  "checksum": "32a999a347b4ee7626af93ee67760183dbf6227d",
-  "numFrames": 8
+  "filename": "25TAGZ/tilesets/tilesets_rg/overworld.png",
+  "width": 128,
+  "height": 48,
+  "checksum": "32a999a347b4ee7626af93ee67760183dbf6227d"
 }

@@ -1,85 +1,83 @@
 {
   "_resourceType": "sprite",
-  "id": "17974611-d7f3-4eb3-81c4-c51a7fe3f1f9",
+  "id": "ea068298-3c84-459b-9498-dc2cc8bbc17c",
   "name": "25TAGZ/scientist",
   "symbol": "sprite_25tagz_scientist",
-  "width": 16,
-  "height": 96,
   "states": [
     {
-      "id": "7abff1f0-8fba-4121-a335-88ff79290703",
+      "id": "05cf4680-5eec-4c10-a6b7-8c0b5fc4b1b0",
       "name": "",
       "animationType": "multi_movement",
       "flipLeft": true,
       "animations": [
         {
-          "id": "608816c1-68ea-4a38-95d3-6308b687da4c",
+          "id": "fb082093-ed9d-4d40-a10b-429aa81e8e8d",
           "frames": [
             {
-              "id": "b25e998c-db49-46ab-b6d2-ad8e255e5659",
+              "id": "511f326d-a324-418e-9d45-8ed94e16dda4",
               "tiles": []
             }
           ]
         },
         {
-          "id": "b19671bc-e3bf-4439-bf16-a305a56b940e",
+          "id": "af5f7fa3-92d4-4019-9cf9-49b9d3a12bea",
           "frames": [
             {
-              "id": "d2bd3abc-8518-46c8-92d4-8b783b00e781",
+              "id": "a6302c82-64c1-4c49-a4e4-c7567a3f73e4",
               "tiles": []
             }
           ]
         },
         {
-          "id": "3e0a4d15-97d7-4d7a-8320-b4dd9db62c8b",
+          "id": "330c3435-7088-4dc0-a17d-e7bf1459ce59",
           "frames": [
             {
-              "id": "ea240b7c-575e-44e7-aff6-c9ebda5d9673",
+              "id": "9d5b9efd-cffe-456f-958a-7d8ca9a7e63b",
               "tiles": []
             }
           ]
         },
         {
-          "id": "c4fad985-e3b5-4f89-882e-2f7a7f027396",
+          "id": "6198c72e-39aa-4bfc-a494-423652c6e18b",
           "frames": [
             {
-              "id": "9160e4d2-dff1-4056-9c70-236b16942e14",
+              "id": "efe97780-ad20-433d-9223-5ded86028add",
               "tiles": []
             }
           ]
         },
         {
-          "id": "b486913f-2fd8-4b1c-9116-1b92be6b54e1",
+          "id": "945af401-04c0-4073-9aa0-98a13c4a0f23",
           "frames": [
             {
-              "id": "6eedd801-e073-4bd2-bf4b-e5615ed70e04",
+              "id": "d0b8c6cf-f75f-4296-9acb-2e31fcf368da",
               "tiles": []
             }
           ]
         },
         {
-          "id": "5981ccc4-0d6c-48ef-b720-91646580edfc",
+          "id": "e48d74b7-0d7c-4cbe-856a-2d6bdc91b8c4",
           "frames": [
             {
-              "id": "55378038-3cb9-430f-9b0a-79593931302d",
+              "id": "56a1d4f0-f0ac-471f-843f-66ebd243c3ac",
               "tiles": []
             }
           ]
         },
         {
-          "id": "17e199bd-620f-4e05-986a-ed552fe02148",
+          "id": "6505011a-4d20-4c48-95a6-76478f6645d2",
           "frames": [
             {
-              "id": "b096a65d-0a63-4ebe-b91e-8fc97854ef06",
+              "id": "d283c642-f872-4c90-abc5-366d37de6b31",
               "tiles": []
             }
           ]
         },
         {
-          "id": "c02f68c2-2fd9-4d6c-b995-084bbaab84a3",
+          "id": "b436896a-f2a3-4f72-825a-d976772ecfc8",
           "frames": [
             {
-              "id": "77b9357c-849c-4363-a92e-fc120df79ce4",
+              "id": "76bf8964-f1b7-4702-be82-cb29adc4a5de",
               "tiles": []
             }
           ]
@@ -88,14 +86,17 @@
     }
   ],
   "numTiles": 0,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
   "canvasWidth": 32,
   "canvasHeight": 32,
   "boundsX": 0,
-  "boundsY": 0,
+  "boundsY": -8,
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
-  "filename": "25tagz/scientist.png",
-  "checksum": "ecb430dc6d0fed5108c2b2144b4ce3af3d21ceb5",
-  "numFrames": 1
+  "filename": "25TAGZ/scientist.png",
+  "width": 16,
+  "height": 96,
+  "checksum": "ecb430dc6d0fed5108c2b2144b4ce3af3d21ceb5"
 }

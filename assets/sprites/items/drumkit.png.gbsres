@@ -3,8 +3,6 @@
   "id": "102fd99b-5c4b-4b73-ae84-bc59c135c7bb",
   "name": "items/drumkit",
   "symbol": "sprite_drumkit",
-  "width": 32,
-  "height": 16,
   "states": [
     {
       "id": "0cf43833-f2dc-429d-98f5-7fd79330d289",
@@ -146,14 +144,17 @@
     }
   ],
   "numTiles": 4,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
   "canvasWidth": 16,
   "canvasHeight": 16,
   "boundsX": 0,
-  "boundsY": 0,
+  "boundsY": -8,
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
   "filename": "items/drumkit.png",
-  "checksum": "5fcf7c764346d545dc96b54ec1516c73569d081e",
-  "numFrames": 2
+  "width": 32,
+  "height": 16,
+  "checksum": "5fcf7c764346d545dc96b54ec1516c73569d081e"
 }

@@ -1,85 +1,83 @@
 {
   "_resourceType": "sprite",
-  "id": "9426c7b9-0c16-4920-9d98-cb96b1486721",
+  "id": "7b0332c0-f920-4d5e-85c6-a63e20eba7ef",
   "name": "25TAGZ/balding_guy",
   "symbol": "sprite_25tagz_balding_guy",
-  "width": 16,
-  "height": 48,
   "states": [
     {
-      "id": "63f410ac-e130-463e-959a-6f35b9a82a1e",
+      "id": "a5049b9b-d587-45e8-9523-2d8d2dc5e4bb",
       "name": "",
       "animationType": "multi_movement",
       "flipLeft": true,
       "animations": [
         {
-          "id": "75621657-c6ea-4366-9ea6-b21fd5d9152e",
+          "id": "3d6f18c9-d0ec-4ea0-aac4-94d6a370822a",
           "frames": [
             {
-              "id": "43982f90-962a-46e3-a971-797d976c9c0b",
+              "id": "1cf111cd-dffc-4cd4-b992-a3535b13c3d0",
               "tiles": []
             }
           ]
         },
         {
-          "id": "8806b8a3-1dc9-4771-bb72-5d50c082eb44",
+          "id": "5a23cfff-1926-4009-b018-fb3031815fa8",
           "frames": [
             {
-              "id": "74f7e82a-af0e-4cab-af81-af4221cad9d6",
+              "id": "37bed77d-b5ca-4199-a24f-c5f5d6cf082b",
               "tiles": []
             }
           ]
         },
         {
-          "id": "710d3dd2-22b9-4924-a6fc-e9f29052060d",
+          "id": "c4bf926b-6168-414f-808d-46a77300e059",
           "frames": [
             {
-              "id": "ca0546a8-ea7f-491c-886b-172649325161",
+              "id": "1945fc91-8464-4531-bbfd-e50fb4b25044",
               "tiles": []
             }
           ]
         },
         {
-          "id": "2bf51592-0c31-4582-a4d1-f0c71e351348",
+          "id": "0c029943-e83c-49f4-989d-6442f817b1d1",
           "frames": [
             {
-              "id": "18d2bd7c-354d-468c-978b-92488d0b5d4a",
+              "id": "1964f071-e3ac-4d2f-a520-3af4d4a7e606",
               "tiles": []
             }
           ]
         },
         {
-          "id": "b465d3df-8556-4622-a7f4-19b5ea4242f7",
+          "id": "22b8ca41-bfe1-442b-9301-6417041fdc33",
           "frames": [
             {
-              "id": "5c983fc4-7c37-47e6-aa20-0ab47a030957",
+              "id": "fa948c08-93a4-49cd-8ac9-896d537bbfc4",
               "tiles": []
             }
           ]
         },
         {
-          "id": "2e51305b-e161-460a-918f-c92612ca393d",
+          "id": "8f962785-c8be-44f0-8f42-53034c5d78a9",
           "frames": [
             {
-              "id": "94409f8b-054b-47e0-a7f5-c41f089e567b",
+              "id": "ca882741-8d0b-4083-856d-58e58afae8ae",
               "tiles": []
             }
           ]
         },
         {
-          "id": "3ceb308b-2903-4138-aa8f-0fccd98310d8",
+          "id": "19c72b6e-5eec-4c9f-a3c6-4a77023964cb",
           "frames": [
             {
-              "id": "5af6601f-3e3d-4fa1-8577-17244ec7ea99",
+              "id": "08633f35-4979-4757-9d46-9469ff6e1ef8",
               "tiles": []
             }
           ]
         },
         {
-          "id": "2f5c9da0-543e-4219-a397-bdc6a677fbe3",
+          "id": "79bbedaa-fd30-4882-92ff-57a60db9905f",
           "frames": [
             {
-              "id": "17622ea9-b2fd-40da-8dc1-fbd80328f52d",
+              "id": "c22a548c-e342-404a-89e5-68f8c336b1c7",
               "tiles": []
             }
           ]
@@ -88,14 +86,17 @@
     }
   ],
   "numTiles": 0,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
   "canvasWidth": 32,
   "canvasHeight": 32,
   "boundsX": 0,
-  "boundsY": 0,
+  "boundsY": -8,
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
-  "filename": "25tagz/balding_guy.png",
-  "checksum": "469b453c903d115ed9126da80e9092a2df4e512c",
-  "numFrames": 1
+  "filename": "25TAGZ/balding_guy.png",
+  "width": 16,
+  "height": 48,
+  "checksum": "469b453c903d115ed9126da80e9092a2df4e512c"
 }

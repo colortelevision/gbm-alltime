@@ -3,8 +3,6 @@
   "id": "ff4d7101-2f6d-4e98-b57a-44fded20ed7c",
   "name": "pixel 112022 geeker2",
   "symbol": "sprite_pixel_112022_geeker2",
-  "width": 171,
-  "height": 170,
   "states": [
     {
       "id": "a973c42c-e26d-4e9d-aa12-7074a3a464de",
@@ -88,14 +86,17 @@
     }
   ],
   "numTiles": 0,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
   "canvasWidth": 32,
   "canvasHeight": 32,
   "boundsX": 0,
-  "boundsY": 0,
+  "boundsY": -8,
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
   "filename": "pixel 112022 geeker2.png",
-  "checksum": "22fda987e66d4569467c371ee0d3f15b9ad6094f",
-  "numFrames": 10.6875
+  "width": 171,
+  "height": 170,
+  "checksum": "22fda987e66d4569467c371ee0d3f15b9ad6094f"
 }

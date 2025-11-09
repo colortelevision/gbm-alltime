@@ -3,8 +3,6 @@
   "id": "a58b9567-ffdf-42bc-95e5-7e59803afb93",
   "name": "kanto/converted_middle_aged_man",
   "symbol": "sprite_kanto_converted_midd",
-  "width": 16,
-  "height": 96,
   "states": [
     {
       "id": "87aec20b-89ec-4a09-ab76-ae1d6016ef54",
@@ -88,13 +86,17 @@
     }
   ],
   "numTiles": 0,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
   "canvasWidth": 32,
   "canvasHeight": 32,
   "boundsX": 0,
-  "boundsY": 0,
+  "boundsY": -8,
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
   "filename": "kanto/converted_middle_aged_man.png",
+  "width": 16,
+  "height": 96,
   "checksum": "177531ffca6b8e6911d708db1077901b3ea1eefb"
 }

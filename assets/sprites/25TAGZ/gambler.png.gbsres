@@ -1,85 +1,83 @@
 {
   "_resourceType": "sprite",
-  "id": "5bb46611-41dd-4142-9845-a41f8546ac91",
+  "id": "29fbfd95-4323-4fd6-82da-e7f5f735ba19",
   "name": "25TAGZ/gambler",
   "symbol": "sprite_25tagz_gambler",
-  "width": 16,
-  "height": 96,
   "states": [
     {
-      "id": "c66b4992-77ac-4a2f-9d72-07d04924babe",
+      "id": "d13cf70e-0ad9-46ce-98fb-8eaceca68073",
       "name": "",
       "animationType": "multi_movement",
       "flipLeft": true,
       "animations": [
         {
-          "id": "a5e0d09b-9683-4335-aca7-e46e9a721af3",
+          "id": "fc86bf1f-d513-4571-9cb5-65186762e168",
           "frames": [
             {
-              "id": "ff560c5e-3ce8-4cf7-91d6-c3d385df9f04",
+              "id": "6582f395-67f5-4831-88a0-dc2144386667",
               "tiles": []
             }
           ]
         },
         {
-          "id": "ebc78092-1b08-4724-953b-60d27a8c1346",
+          "id": "d76c457c-ad21-42b1-b07f-2e16ecc9e48c",
           "frames": [
             {
-              "id": "35ba8f98-53c6-40bf-aece-0258fed8ffb9",
+              "id": "00e21886-a85d-4df3-94c6-21f520383f50",
               "tiles": []
             }
           ]
         },
         {
-          "id": "1597f88c-97f1-42b8-b23a-bbe85e3e0d62",
+          "id": "54e3aa18-5705-45bc-ae6b-a9c7faf76d59",
           "frames": [
             {
-              "id": "4d0a2513-ea7b-4e0b-80d3-5d5aeafc4b64",
+              "id": "fe216349-32e6-4720-895a-2df8dbb43838",
               "tiles": []
             }
           ]
         },
         {
-          "id": "cfa9069e-7dd4-4221-be1e-1e2ffa57d845",
+          "id": "fe79d4f2-7d27-4312-b8d9-03493a16108f",
           "frames": [
             {
-              "id": "958f3f90-f692-47a1-bc5f-13c2980c8bf7",
+              "id": "7bbfc550-f4ee-411d-a3dd-56f125a3b188",
               "tiles": []
             }
           ]
         },
         {
-          "id": "cd6a93dc-601a-45f2-8cd6-817fa5dcb506",
+          "id": "2fe654ed-0d69-4a60-adba-a7c24fb0cd3d",
           "frames": [
             {
-              "id": "c0158b90-2cbc-48d1-a89e-d729dae30770",
+              "id": "1d4cd447-5c38-41d8-9af1-80723628973b",
               "tiles": []
             }
           ]
         },
         {
-          "id": "07704971-6bbc-4f16-9d7f-74e02f5d3a1d",
+          "id": "1df10b19-1033-402d-b289-e20cbfc37691",
           "frames": [
             {
-              "id": "33f8ed5c-2c56-42b5-b0dc-3a7d1c7d57f8",
+              "id": "d6c8e099-4001-4996-b7aa-bf65b55e9667",
               "tiles": []
             }
           ]
         },
         {
-          "id": "92a2ff9e-6b15-42bf-b437-a182ce24054c",
+          "id": "8c15b4f0-b8c3-47f8-bb7b-636b2afdd073",
           "frames": [
             {
-              "id": "aaf06cf4-8387-4847-921c-1571f55af0be",
+              "id": "7238984c-929d-4ede-8cc8-a735baf9cb2e",
               "tiles": []
             }
           ]
         },
         {
-          "id": "10cdf010-244e-4661-bce9-be2e53e98b8a",
+          "id": "3fdb4a95-113c-4a3a-8d31-8a4e42ffd9bf",
           "frames": [
             {
-              "id": "048d65c8-ac59-46c3-8959-e2c141241faf",
+              "id": "579ba3db-5523-44ae-8d4c-5dc2e034a063",
               "tiles": []
             }
           ]
@@ -88,14 +86,17 @@
     }
   ],
   "numTiles": 0,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
   "canvasWidth": 32,
   "canvasHeight": 32,
   "boundsX": 0,
-  "boundsY": 0,
+  "boundsY": -8,
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
-  "filename": "25tagz/gambler.png",
-  "checksum": "b64cc4fba94d54c8e44271b91925ea60a007938f",
-  "numFrames": 1
+  "filename": "25TAGZ/gambler.png",
+  "width": 16,
+  "height": 96,
+  "checksum": "b64cc4fba94d54c8e44271b91925ea60a007938f"
 }

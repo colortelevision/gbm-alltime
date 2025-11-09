@@ -3,8 +3,6 @@
   "id": "8567e45e-79e9-4c4c-a556-2e40077af383",
   "name": "uiux/click (2)",
   "symbol": "sprite_click_2_",
-  "width": 48,
-  "height": 16,
   "states": [
     {
       "id": "7e77764b-9e98-4cac-ab0b-adbcd7a18b87",
@@ -169,14 +167,17 @@
     }
   ],
   "numTiles": 6,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
   "canvasWidth": 16,
   "canvasHeight": 16,
   "boundsX": 0,
-  "boundsY": 0,
+  "boundsY": -8,
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
   "filename": "uiux/click (2).png",
-  "checksum": "dc77046126e69dbfa8320db4d5cb6c7e1de7cd4b",
-  "numFrames": 3
+  "width": 48,
+  "height": 16,
+  "checksum": "dc77046126e69dbfa8320db4d5cb6c7e1de7cd4b"
 }

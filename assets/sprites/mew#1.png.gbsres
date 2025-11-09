@@ -3,8 +3,6 @@
   "id": "b81daf34-2fc6-4a11-94a8-08c1c9dc925b",
   "name": "mew#1",
   "symbol": "sprite_mew_1",
-  "width": 16,
-  "height": 96,
   "states": [
     {
       "id": "e4dead71-14fb-4b6d-85bc-ff1a29264975",
@@ -88,13 +86,17 @@
     }
   ],
   "numTiles": 0,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
   "canvasWidth": 32,
   "canvasHeight": 32,
   "boundsX": 0,
-  "boundsY": 0,
+  "boundsY": -8,
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
   "filename": "mew#1.png",
+  "width": 16,
+  "height": 96,
   "checksum": "02bf63700790fb3c6d2d6411d80b8cd4137cdcda"
 }

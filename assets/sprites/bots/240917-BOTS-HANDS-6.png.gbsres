@@ -3,8 +3,6 @@
   "id": "33461bc7-a405-458d-89d9-286b592c48fa",
   "name": "bots/240917-BOTS-HANDS-6",
   "symbol": "sprite_240917_bots_hands_6",
-  "width": 64,
-  "height": 16,
   "states": [
     {
       "id": "a3a0161d-bea8-4882-9724-b43326376717",
@@ -208,14 +206,17 @@
     }
   ],
   "numTiles": 7,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
   "canvasWidth": 16,
   "canvasHeight": 16,
   "boundsX": 0,
-  "boundsY": 0,
+  "boundsY": -8,
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
   "filename": "bots/240917-BOTS-HANDS-6.png",
-  "checksum": "1f97ce0d611766e6bd45e20ba332ae65bb0da3ea",
-  "numFrames": 4
+  "width": 64,
+  "height": 16,
+  "checksum": "1f97ce0d611766e6bd45e20ba332ae65bb0da3ea"
 }

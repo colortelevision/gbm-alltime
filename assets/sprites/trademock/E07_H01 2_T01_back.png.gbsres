@@ -3,8 +3,6 @@
   "id": "e726fe0a-0b98-47d9-958f-f970d4b09ef5",
   "name": "trademock/E07_H01 2_T01_back",
   "symbol": "sprite_trademock_e07_h01_2_",
-  "width": 96,
-  "height": 16,
   "states": [
     {
       "id": "099765a9-f4c2-410b-bf38-ce61384c6bf9",
@@ -467,13 +465,17 @@
     }
   ],
   "numTiles": 10,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
   "canvasWidth": 16,
   "canvasHeight": 16,
   "boundsX": 0,
-  "boundsY": 0,
+  "boundsY": -8,
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
   "filename": "trademock/E07_H01 2_T01_back.png",
+  "width": 96,
+  "height": 16,
   "checksum": "33b349496ac43d1a39a975b810d565cfca4dde13"
 }

@@ -3,8 +3,6 @@
   "id": "a2613020-9b66-40c2-99ad-bdb9a7fc0918",
   "name": "untitled/UNT_CONNERRPG",
   "symbol": "sprite_unt_connerrpg",
-  "width": 112,
-  "height": 16,
   "states": [
     {
       "id": "3aba40f7-de39-4427-a966-4e6de9c2d6f1",
@@ -115,14 +113,17 @@
     }
   ],
   "numTiles": 2,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
   "canvasWidth": 16,
   "canvasHeight": 16,
   "boundsX": 0,
-  "boundsY": 0,
+  "boundsY": -8,
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
   "filename": "untitled/UNT_CONNERRPG.png",
-  "checksum": "cb301966a3b598642c10321f203a617b487a79bb",
-  "numFrames": 7
+  "width": 112,
+  "height": 16,
+  "checksum": "cb301966a3b598642c10321f203a617b487a79bb"
 }

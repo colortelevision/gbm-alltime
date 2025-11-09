@@ -3,8 +3,6 @@
   "id": "8fe7bc91-3e4b-4188-968a-d67822f51591",
   "name": "untitled/112022 max sprite art",
   "symbol": "sprite_112022_max_sprite_ar",
-  "width": 16,
-  "height": 16,
   "states": [
     {
       "id": "d1298883-c1aa-4e17-b5cc-1b5cd898c526",
@@ -115,14 +113,17 @@
     }
   ],
   "numTiles": 2,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
   "canvasWidth": 16,
   "canvasHeight": 16,
   "boundsX": 0,
-  "boundsY": 0,
+  "boundsY": -8,
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
   "filename": "untitled/112022 max sprite art.png",
-  "checksum": "1da96d17f82637dfc87cacedb62812d2362802a5",
-  "numFrames": 1
+  "width": 16,
+  "height": 16,
+  "checksum": "1da96d17f82637dfc87cacedb62812d2362802a5"
 }

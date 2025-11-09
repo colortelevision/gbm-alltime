@@ -1,85 +1,83 @@
 {
   "_resourceType": "sprite",
-  "id": "0babfda1-ad45-499c-9451-b1a5b50fcfbb",
+  "id": "06f9aa0b-8b8e-4e0a-8178-16f38ceb6a8f",
   "name": "MILKHOUSE/JAGS",
-  "symbol": "sprite_jags",
-  "width": 32,
-  "height": 32,
+  "symbol": "sprite_milkhouse_jags",
   "states": [
     {
-      "id": "789dbaa5-b013-4c45-9710-14cbd0dea054",
+      "id": "dd4c2e55-0b24-4696-a047-679650672d1f",
       "name": "",
       "animationType": "multi_movement",
       "flipLeft": true,
       "animations": [
         {
-          "id": "837a4666-4446-4c10-ad44-d5643640affb",
+          "id": "774cfd79-f5cd-4fad-91bc-9a1f2c060fc5",
           "frames": [
             {
-              "id": "9d5d3713-4e6f-463a-ba56-0583ead8b063",
+              "id": "6928ced5-3a1a-4e48-8b04-eb6dc980da67",
               "tiles": []
             }
           ]
         },
         {
-          "id": "b6a2f920-7274-47fb-8292-a1529000995e",
+          "id": "e8c5e1c2-60f5-41ca-a07b-1fcf1b227336",
           "frames": [
             {
-              "id": "f26dba2e-91f8-4afd-844b-81fa612c6ef2",
+              "id": "6f9a8bec-1e30-4e6b-89d8-507786725473",
               "tiles": []
             }
           ]
         },
         {
-          "id": "af3bf4fc-f274-4761-a199-c7f2895600ca",
+          "id": "5f81c18f-6b46-47be-9460-cdda014df0a9",
           "frames": [
             {
-              "id": "e380cdc0-8083-4413-b9af-6f6e0b8596fd",
+              "id": "6392b25a-7a10-4519-aa01-d79c756e6b4e",
               "tiles": []
             }
           ]
         },
         {
-          "id": "a1b27124-c39e-4581-ad82-4835fa19c63d",
+          "id": "d0b1f470-8f67-46d0-9112-ccde32022edf",
           "frames": [
             {
-              "id": "4c83b257-0195-4183-a621-7ca2f45dc507",
+              "id": "694e3b4b-52d6-4a85-9c5b-b4fcc60b2e40",
               "tiles": []
             }
           ]
         },
         {
-          "id": "bd084817-02e9-4c54-a2cb-81c964aa280a",
+          "id": "988eba13-53a0-4507-b6b3-07cad35c1c0c",
           "frames": [
             {
-              "id": "e9f47641-7f06-44d2-8126-524a3652e08c",
+              "id": "293d10d5-723a-419c-9591-92f0c80d4a66",
               "tiles": []
             }
           ]
         },
         {
-          "id": "d315edbd-6434-45d5-922e-e19396ea4423",
+          "id": "2c2dba68-f992-4346-9764-7d1e927fa0ca",
           "frames": [
             {
-              "id": "f3a5ab21-a817-44ff-bc06-60b298a572da",
+              "id": "7a6d749a-4c44-4ceb-a08e-ca8aa502774a",
               "tiles": []
             }
           ]
         },
         {
-          "id": "934ddd8c-8786-42a0-a97c-594e8acdf119",
+          "id": "0340b990-a3e2-4ef0-b678-4ae2d294fedf",
           "frames": [
             {
-              "id": "1fd75741-edfd-4ac9-83a1-932d85d684f7",
+              "id": "f01b2b80-41f5-4a8e-aba0-47eb76000f09",
               "tiles": []
             }
           ]
         },
         {
-          "id": "4760e29f-90a6-4ab5-a922-c52859d726f5",
+          "id": "e9531c51-00dc-41b7-b0ec-f7f1512aa0c2",
           "frames": [
             {
-              "id": "032cc37d-5cc9-408d-be04-eb68209be371",
+              "id": "e33b18a2-ee2f-4da0-8934-84fe24e87272",
               "tiles": []
             }
           ]
@@ -88,14 +86,17 @@
     }
   ],
   "numTiles": 0,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
   "canvasWidth": 32,
   "canvasHeight": 32,
   "boundsX": 0,
-  "boundsY": 0,
+  "boundsY": -8,
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
-  "filename": "milkhouse/JAGS.png",
-  "checksum": "4a2d4bd1b7a80235ddf422fde55547f93d95a1cb",
-  "numFrames": 2
+  "filename": "MILKHOUSE/JAGS.png",
+  "width": 32,
+  "height": 32,
+  "checksum": "4a2d4bd1b7a80235ddf422fde55547f93d95a1cb"
 }

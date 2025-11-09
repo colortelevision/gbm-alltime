@@ -3,8 +3,6 @@
   "id": "1f61c862-3e07-4dea-8492-51e4f066a64c",
   "name": "kanto/converted_erika",
   "symbol": "sprite_kanto_converted_erik",
-  "width": 16,
-  "height": 96,
   "states": [
     {
       "id": "ff6f2490-3fc3-4f3d-a85e-771d552bfbdc",
@@ -347,13 +345,17 @@
     }
   ],
   "numTiles": 9,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
   "canvasWidth": 16,
   "canvasHeight": 16,
   "boundsX": 0,
-  "boundsY": 0,
+  "boundsY": -8,
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
   "filename": "kanto/converted_erika.png",
+  "width": 16,
+  "height": 96,
   "checksum": "f64ea03aaa7afd0a48778d3daa8325835464390e"
 }

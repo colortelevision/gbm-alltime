@@ -3,8 +3,6 @@
   "id": "d894828d-2aed-45f9-b55e-433b678e5371",
   "name": "RGB GB STYLE",
   "symbol": "sprite_rgb_gb_style",
-  "width": 160,
-  "height": 144,
   "states": [
     {
       "id": "4fdb4c9e-de54-4b1e-ab2d-fe88f3ce7d8d",
@@ -88,14 +86,17 @@
     }
   ],
   "numTiles": 0,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
   "canvasWidth": 32,
   "canvasHeight": 32,
   "boundsX": 0,
-  "boundsY": 0,
+  "boundsY": -8,
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
   "filename": "RGB GB STYLE.png",
-  "checksum": "ef009e1fe1dc4ede7356527fd607d304cfc1d622",
-  "numFrames": 10
+  "width": 160,
+  "height": 144,
+  "checksum": "ef009e1fe1dc4ede7356527fd607d304cfc1d622"
 }

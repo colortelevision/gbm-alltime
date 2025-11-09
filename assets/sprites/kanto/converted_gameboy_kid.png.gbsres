@@ -3,8 +3,6 @@
   "id": "abf67286-c9c5-4345-91af-6d56f3cfaf10",
   "name": "kanto/converted_gameboy_kid",
   "symbol": "sprite_kanto_converted_game",
-  "width": 16,
-  "height": 48,
   "states": [
     {
       "id": "f859f15d-6718-4fde-a047-8d084e521f87",
@@ -88,13 +86,17 @@
     }
   ],
   "numTiles": 0,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
   "canvasWidth": 32,
   "canvasHeight": 32,
   "boundsX": 0,
-  "boundsY": 0,
+  "boundsY": -8,
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
   "filename": "kanto/converted_gameboy_kid.png",
+  "width": 16,
+  "height": 48,
   "checksum": "32cfa14b718b323f7a0b41575e868f617366c0db"
 }

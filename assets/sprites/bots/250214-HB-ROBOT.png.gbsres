@@ -3,8 +3,6 @@
   "id": "ebbdfa84-61c2-41e4-a1e9-2f0174774007",
   "name": "bots/250214-HB-ROBOT",
   "symbol": "sprite_250214_hb_robot",
-  "width": 64,
-  "height": 64,
   "states": [
     {
       "id": "b5137670-5155-4e65-a383-7ec00fb3184d",
@@ -88,14 +86,17 @@
     }
   ],
   "numTiles": 0,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
   "canvasWidth": 32,
   "canvasHeight": 32,
   "boundsX": 0,
-  "boundsY": 0,
+  "boundsY": -8,
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
   "filename": "bots/250214-HB-ROBOT.png",
-  "checksum": "d8753a66d937d471affaf95efc8933d98376413a",
-  "numFrames": 4
+  "width": 64,
+  "height": 64,
+  "checksum": "d8753a66d937d471affaf95efc8933d98376413a"
 }

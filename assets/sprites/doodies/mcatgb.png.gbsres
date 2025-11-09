@@ -3,8 +3,6 @@
   "id": "71299b18-a847-445f-a6e2-cc1f91db9c02",
   "name": "doodies/mcatgb",
   "symbol": "sprite_doodies_mcatgb",
-  "width": 48,
-  "height": 16,
   "states": [
     {
       "id": "3ec842cb-39c3-42a6-a16c-b2ea98ddd3db",
@@ -169,13 +167,17 @@
     }
   ],
   "numTiles": 6,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
   "canvasWidth": 16,
   "canvasHeight": 16,
   "boundsX": 0,
-  "boundsY": 0,
+  "boundsY": -8,
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
   "filename": "doodies/mcatgb.png",
+  "width": 48,
+  "height": 16,
   "checksum": "9f1edb72dd8e0485273664b71d1e1a85294acfda"
 }

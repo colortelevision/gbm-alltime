@@ -1,85 +1,83 @@
 {
   "_resourceType": "sprite",
-  "id": "a0229021-b2e1-4cb7-bb97-22c38be0de36",
+  "id": "87ed7e72-ac01-49b0-a811-c65fe7a23aef",
   "name": "25TAGZ/red_bike",
   "symbol": "sprite_25tagz_red_bike",
-  "width": 16,
-  "height": 96,
   "states": [
     {
-      "id": "128060c4-28c0-4e84-b4c4-15690b4bb1d2",
+      "id": "7027b3a4-3c75-4c9a-8156-b4a927ce28fa",
       "name": "",
       "animationType": "multi_movement",
       "flipLeft": true,
       "animations": [
         {
-          "id": "eedd1d44-aa86-43c1-b3d2-52e23a8c1170",
+          "id": "81e2ee39-a2d4-45c6-b090-f715b06d11e4",
           "frames": [
             {
-              "id": "e63c8cad-3ce3-4e77-acf3-6f749f17cd1d",
+              "id": "976d1c83-6c09-44bf-b6f9-125065bb506b",
               "tiles": []
             }
           ]
         },
         {
-          "id": "fbfd2a6e-968a-45d4-b537-6b3d92fdf318",
+          "id": "c14866f0-0136-4324-96be-0f5ec4ad28ae",
           "frames": [
             {
-              "id": "5a4c36ad-9563-4df7-b8e6-c692d2c8fb79",
+              "id": "80d6d493-ff7b-449b-84ab-44b27c2e2f1d",
               "tiles": []
             }
           ]
         },
         {
-          "id": "d751ef2e-6690-4323-a8e6-b720a1386408",
+          "id": "da4e4c7a-4f55-4884-9af0-00048a47ac31",
           "frames": [
             {
-              "id": "f402cd16-4d94-4337-9e83-6973ed5752e0",
+              "id": "ee249ee4-2da3-4e52-a506-2624301fba20",
               "tiles": []
             }
           ]
         },
         {
-          "id": "b9ad4cdf-d7f4-4ba7-9074-a750f2c79825",
+          "id": "2a5a8526-5431-43ae-ae85-18f40bb82df6",
           "frames": [
             {
-              "id": "585a490d-8334-4a18-8730-d985c28c42e8",
+              "id": "e0d07c55-fa34-4736-83b4-1cd7d8e9f7e1",
               "tiles": []
             }
           ]
         },
         {
-          "id": "b0e4981f-48db-4af4-9b73-8a75cb231b53",
+          "id": "7d7d448b-3ec9-4fec-bc1f-fd14389d4df6",
           "frames": [
             {
-              "id": "cd929b9f-7c1e-4f61-8c95-c1984b8c8463",
+              "id": "077b592e-ecde-49e6-afdc-0b4e53fca1be",
               "tiles": []
             }
           ]
         },
         {
-          "id": "3999d738-3866-4427-97fb-72ba8915a061",
+          "id": "18d700af-ca4e-4404-8587-f333167316c4",
           "frames": [
             {
-              "id": "68605aef-f72a-45c7-8fd3-22a273c108ca",
+              "id": "544d7450-1428-49c0-9a89-c8cc735d1e89",
               "tiles": []
             }
           ]
         },
         {
-          "id": "303d6606-2625-4630-b077-0fd591eddc18",
+          "id": "76d3ad37-c3af-4f14-9684-5c36c0a7d7b6",
           "frames": [
             {
-              "id": "c6e11225-32aa-478d-b31a-0e23929efc8a",
+              "id": "73d6d720-7c66-452f-be01-b9947c3e8039",
               "tiles": []
             }
           ]
         },
         {
-          "id": "243db31e-5aae-443d-996f-cb79c5a52515",
+          "id": "06cc1d71-5330-4835-bf49-eae27f4ac15a",
           "frames": [
             {
-              "id": "ba00d54a-b6fd-4064-9955-42220e8596ce",
+              "id": "0e1dd0fe-3c41-4f2e-9904-f9ce0cf62fde",
               "tiles": []
             }
           ]
@@ -88,14 +86,17 @@
     }
   ],
   "numTiles": 0,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
   "canvasWidth": 32,
   "canvasHeight": 32,
   "boundsX": 0,
-  "boundsY": 0,
+  "boundsY": -8,
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
-  "filename": "25tagz/red_bike.png",
-  "checksum": "374db4e94247edbe67b32ffb081bf38d8eb8a643",
-  "numFrames": 1
+  "filename": "25TAGZ/red_bike.png",
+  "width": 16,
+  "height": 96,
+  "checksum": "374db4e94247edbe67b32ffb081bf38d8eb8a643"
 }

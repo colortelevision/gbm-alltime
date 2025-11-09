@@ -3,8 +3,6 @@
   "id": "0c950b4d-6e90-4881-b8e0-7cfcfb015280",
   "name": "kanto/converted_safari_zone_worker",
   "symbol": "sprite_kanto_converted_safa",
-  "width": 16,
-  "height": 48,
   "states": [
     {
       "id": "ba92bb4a-89eb-4f65-a651-39b632266ae6",
@@ -88,13 +86,17 @@
     }
   ],
   "numTiles": 0,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
   "canvasWidth": 32,
   "canvasHeight": 32,
   "boundsX": 0,
-  "boundsY": 0,
+  "boundsY": -8,
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
   "filename": "kanto/converted_safari_zone_worker.png",
+  "width": 16,
+  "height": 48,
   "checksum": "830b23c567a65e251f3f2476890c03bab96903aa"
 }

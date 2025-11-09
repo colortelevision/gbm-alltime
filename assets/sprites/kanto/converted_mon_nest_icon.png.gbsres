@@ -3,8 +3,6 @@
   "id": "0a4edc59-23d2-4a91-bb44-bc31b504c1dc",
   "name": "kanto/converted_mon_nest_icon",
   "symbol": "sprite_kanto_converted_mon_",
-  "width": 8,
-  "height": 8,
   "states": [
     {
       "id": "434879fe-9d57-4543-8ddd-d37116877821",
@@ -102,13 +100,17 @@
     }
   ],
   "numTiles": 1,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
   "canvasWidth": 8,
   "canvasHeight": 16,
   "boundsX": 0,
-  "boundsY": 0,
+  "boundsY": -8,
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
   "filename": "kanto/converted_mon_nest_icon.png",
+  "width": 8,
+  "height": 8,
   "checksum": "a75212ed00ae5ed06f9bb3a9f2a98d3935d5cea9"
 }

@@ -3,8 +3,6 @@
   "id": "12771976-19e9-4a90-909e-8c203b9e5520",
   "name": "bots/roebot_00_spritesheet",
   "symbol": "sprite_roebot_00_spriteshee",
-  "width": 64,
-  "height": 16,
   "states": [
     {
       "id": "81f2c54e-7db9-4b97-8b46-b75841ae2a78",
@@ -195,14 +193,17 @@
     }
   ],
   "numTiles": 7,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
   "canvasWidth": 8,
   "canvasHeight": 16,
   "boundsX": 0,
-  "boundsY": 0,
+  "boundsY": -8,
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
   "filename": "bots/roebot_00_spritesheet.png",
-  "checksum": "2c33116498aad2f767f5850d96a9c76b2bbb1a9f",
-  "numFrames": 4
+  "width": 64,
+  "height": 16,
+  "checksum": "2c33116498aad2f767f5850d96a9c76b2bbb1a9f"
 }

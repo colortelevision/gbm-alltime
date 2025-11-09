@@ -3,8 +3,6 @@
   "id": "aead02ec-3fe2-43bd-a849-5099ea4bc748",
   "name": "doodies/250919-gbshapeguys",
   "symbol": "sprite_doodies_250919_gbsha",
-  "width": 64,
-  "height": 48,
   "states": [
     {
       "id": "eb219096-dea3-427a-bdc9-5224cc626a68",
@@ -88,13 +86,17 @@
     }
   ],
   "numTiles": 0,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
   "canvasWidth": 32,
   "canvasHeight": 32,
   "boundsX": 0,
-  "boundsY": 0,
+  "boundsY": -8,
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
   "filename": "doodies/250919-gbshapeguys.png",
+  "width": 64,
+  "height": 48,
   "checksum": "08f4aeca13bc1e8bd73760e904d07aaf1048e836"
 }

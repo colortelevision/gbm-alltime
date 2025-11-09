@@ -3,8 +3,6 @@
   "id": "a62cae13-aede-4b98-a331-aff9283775bd",
   "name": "anabel#1",
   "symbol": "sprite_anabel_1",
-  "width": 16,
-  "height": 96,
   "states": [
     {
       "id": "c551281e-fc86-4a4b-a5a0-f842ef5c0962",
@@ -88,13 +86,17 @@
     }
   ],
   "numTiles": 0,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
   "canvasWidth": 32,
   "canvasHeight": 32,
   "boundsX": 0,
-  "boundsY": 0,
+  "boundsY": -8,
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
   "filename": "anabel#1.png",
+  "width": 16,
+  "height": 96,
   "checksum": "237a6ee92620ac7b9ed4c40fa3717e1d565d10ce"
 }

@@ -1,25 +1,23 @@
 {
   "_resourceType": "sprite",
-  "id": "0817794a-0c36-416e-a39c-c728bce7aefc",
+  "id": "ee275bcd-a765-405b-aee5-633cdf4cd0e1",
   "name": "25TAGZ/pokedex",
   "symbol": "sprite_25tagz_pokedex",
-  "width": 16,
-  "height": 16,
   "states": [
     {
-      "id": "e9a67655-51eb-4326-addb-1415b9756fdd",
+      "id": "8753601b-1b78-476a-973c-17d07c5319c7",
       "name": "",
       "animationType": "fixed",
       "flipLeft": false,
       "animations": [
         {
-          "id": "945449f4-47e8-41a3-8d67-733db04369d3",
+          "id": "34500dab-dcaf-41ac-844b-46d35d9caf9b",
           "frames": [
             {
-              "id": "9a4c73f6-e879-43a3-9f7a-6f2593ccfea8",
+              "id": "f8d9eccd-bd1f-4195-879e-a3e369ecdc02",
               "tiles": [
                 {
-                  "id": "a9fcafc9-aa18-45cc-8504-4978d440e7f6",
+                  "id": "865b4ddd-a175-4727-9817-b9468e49bce0",
                   "x": 0,
                   "y": 0,
                   "sliceX": 0,
@@ -32,7 +30,7 @@
                   "priority": false
                 },
                 {
-                  "id": "c9e95b2d-498d-4f8d-9b06-01eb706b291c",
+                  "id": "bef4ddb3-4fc0-404b-b27a-c6500d0d1f30",
                   "x": 8,
                   "y": 0,
                   "sliceX": 8,
@@ -49,64 +47,64 @@
           ]
         },
         {
-          "id": "de280050-1bbf-4a4e-a56f-c93ba93d827d",
+          "id": "becc5ac6-a8b6-4a58-b18a-f604362719ea",
           "frames": [
             {
-              "id": "8289c6fe-ceef-47be-b450-463c13836580",
+              "id": "dde00980-72b7-45a0-98ca-d34b5c6cc359",
               "tiles": []
             }
           ]
         },
         {
-          "id": "5d7caa2f-3e60-4626-8815-59e47cbaaee3",
+          "id": "66bbc3f8-be38-47ff-b7f6-afc1cfadd5cc",
           "frames": [
             {
-              "id": "ea655169-73b9-4434-860b-6b76b4da8dc6",
+              "id": "969f139e-f77b-45ef-968a-ae591bab68ac",
               "tiles": []
             }
           ]
         },
         {
-          "id": "76c3007d-5ae7-4940-8ae9-91f50d8e7c95",
+          "id": "eb08d3ba-490a-4095-aaf6-0adbff4f273c",
           "frames": [
             {
-              "id": "99108d9f-029b-4ce9-9b64-997aea09f6ea",
+              "id": "44346cc5-c1dc-4032-ba34-86016ac092ad",
               "tiles": []
             }
           ]
         },
         {
-          "id": "657c3878-c355-437f-8d3c-a8f5b1b11db0",
+          "id": "03d10884-de0f-4c78-a948-92fddcf6231e",
           "frames": [
             {
-              "id": "75caab5e-55ad-4089-a4c6-37bea2e4583e",
+              "id": "f7c9a1a1-82b0-42fb-8bda-9b800abe01da",
               "tiles": []
             }
           ]
         },
         {
-          "id": "a0237c86-6576-4240-87c4-b50b4374700b",
+          "id": "4b6c5604-2e4a-4d6a-be15-35663b69b5ae",
           "frames": [
             {
-              "id": "d2645c8f-b1fb-48e9-857e-eccf93f0f645",
+              "id": "96d4c0f3-f3de-494c-81b0-fef0578c47b5",
               "tiles": []
             }
           ]
         },
         {
-          "id": "3d297a92-06e1-4d2f-aa9c-afa5939ac71d",
+          "id": "f34bf1ec-23b3-4545-8b23-eac4de627b61",
           "frames": [
             {
-              "id": "ae32ff7b-0fc6-4af2-b497-d0fe879bc3f9",
+              "id": "a788f4fb-7840-415c-ae7d-8e3a3819d0aa",
               "tiles": []
             }
           ]
         },
         {
-          "id": "5965b004-0eb4-4d84-a2d4-e28ae434544f",
+          "id": "f847fced-9b54-4ddc-ba26-93f724854d33",
           "frames": [
             {
-              "id": "ef511f2d-e057-449f-8113-9fe480f7f92e",
+              "id": "7c44665f-a474-448e-82d2-a57851b368ab",
               "tiles": []
             }
           ]
@@ -115,14 +113,17 @@
     }
   ],
   "numTiles": 2,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
   "canvasWidth": 16,
   "canvasHeight": 16,
   "boundsX": 0,
-  "boundsY": 0,
+  "boundsY": -8,
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
-  "filename": "25tagz/pokedex.png",
-  "checksum": "297b2d76d65f34ae696dd7df4238a426d56df785",
-  "numFrames": 1
+  "filename": "25TAGZ/pokedex.png",
+  "width": 16,
+  "height": 16,
+  "checksum": "297b2d76d65f34ae696dd7df4238a426d56df785"
 }

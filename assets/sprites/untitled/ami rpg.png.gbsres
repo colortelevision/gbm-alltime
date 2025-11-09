@@ -3,8 +3,6 @@
   "id": "64ab1b1d-3b77-44a3-ba2a-398b5880386c",
   "name": "untitled/ami rpg",
   "symbol": "sprite_ami_rpg",
-  "width": 128,
-  "height": 16,
   "states": [
     {
       "id": "00062442-f8ed-42e1-b41c-431d9e0c2170",
@@ -467,14 +465,17 @@
     }
   ],
   "numTiles": 14,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
   "canvasWidth": 16,
   "canvasHeight": 16,
   "boundsX": 0,
-  "boundsY": 0,
+  "boundsY": -8,
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
   "filename": "untitled/ami rpg.png",
-  "checksum": "ec70b5bf483f42e1081ea4e8bb1576f198def5a9",
-  "numFrames": 8
+  "width": 128,
+  "height": 16,
+  "checksum": "ec70b5bf483f42e1081ea4e8bb1576f198def5a9"
 }

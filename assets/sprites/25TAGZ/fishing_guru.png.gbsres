@@ -1,85 +1,83 @@
 {
   "_resourceType": "sprite",
-  "id": "0d17ee6b-360d-4184-b8b1-08ce6a6d96b7",
+  "id": "01151c6b-e409-40a4-83c2-b23f36824f5c",
   "name": "25TAGZ/fishing_guru",
   "symbol": "sprite_25tagz_fishing_guru",
-  "width": 16,
-  "height": 48,
   "states": [
     {
-      "id": "3a4274dc-3a2a-47b0-b913-3db4f775a329",
+      "id": "0a131296-9855-4d79-a32e-d5e46a3d8b6e",
       "name": "",
       "animationType": "multi_movement",
       "flipLeft": true,
       "animations": [
         {
-          "id": "aabcb4ac-95f6-441a-9d06-ac1d156fe1bd",
+          "id": "b8adffb1-b00d-4a31-9eff-62d6665a5bf6",
           "frames": [
             {
-              "id": "9a80c389-294a-42fb-8f98-dce36597b3ef",
+              "id": "0c66dcb1-4b71-4919-b3d5-b38d75021828",
               "tiles": []
             }
           ]
         },
         {
-          "id": "28aedcd2-e5df-44df-9a55-89398bf649ae",
+          "id": "23b9dadf-1319-478d-b13c-b7676d3cb24b",
           "frames": [
             {
-              "id": "52c831d8-869f-4cac-ac7b-9441bf9c2717",
+              "id": "a9b31f49-9059-4949-abcd-434f144523fc",
               "tiles": []
             }
           ]
         },
         {
-          "id": "0a38c94e-2733-4452-9aac-3bd5e97f963b",
+          "id": "f2b34ae3-7dd3-44f6-86b2-706fcfc6804f",
           "frames": [
             {
-              "id": "45cac5b2-1dd3-4a5b-be85-a73d1a75482a",
+              "id": "cc31f1b7-ffbc-407a-95e0-ae2c7c48698e",
               "tiles": []
             }
           ]
         },
         {
-          "id": "79f2ad08-6e7e-46df-bd1e-da6b1d5dae43",
+          "id": "c27e1980-3ddc-46af-bbc2-061eecd8bd1c",
           "frames": [
             {
-              "id": "4e150572-6018-456e-af83-4bd129248f1c",
+              "id": "7f53898a-2fe3-46e4-927b-2e4cc395ecd1",
               "tiles": []
             }
           ]
         },
         {
-          "id": "e391ff86-0d1b-4658-a48c-d4e68f99cca1",
+          "id": "2f3a66df-9683-4dfb-beec-0c4bd505038e",
           "frames": [
             {
-              "id": "5581162e-d907-4463-8766-e2249b0f59bd",
+              "id": "339c97af-954c-4e88-bd30-2f4744702087",
               "tiles": []
             }
           ]
         },
         {
-          "id": "41151060-40d9-405b-b6e6-471b86ccc37d",
+          "id": "cb5f5816-c652-4c0b-a58e-c454ac5544d9",
           "frames": [
             {
-              "id": "be6d1ed7-d007-429f-baeb-6f78fe7a85e6",
+              "id": "e1686434-6b8b-45ec-9769-10b87bb65cb7",
               "tiles": []
             }
           ]
         },
         {
-          "id": "4e0db816-4ee4-4d73-8f92-f4dd1c2a6754",
+          "id": "ca6cf17c-3ab4-4acf-9c93-74415d874112",
           "frames": [
             {
-              "id": "9ac8c452-07b3-409e-a969-f514a490e372",
+              "id": "52f60f20-570a-42e9-b593-9f7f6419dde3",
               "tiles": []
             }
           ]
         },
         {
-          "id": "4c53882b-5605-4900-9ca9-22e831839f27",
+          "id": "7e5381f9-6763-48eb-a13f-c0697403acc8",
           "frames": [
             {
-              "id": "2a858f73-b67a-4757-814a-37d21209e256",
+              "id": "4f32dddd-3041-49c1-b32d-dfa12240dffb",
               "tiles": []
             }
           ]
@@ -88,14 +86,17 @@
     }
   ],
   "numTiles": 0,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
   "canvasWidth": 32,
   "canvasHeight": 32,
   "boundsX": 0,
-  "boundsY": 0,
+  "boundsY": -8,
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
-  "filename": "25tagz/fishing_guru.png",
-  "checksum": "f31671a08f0a674584276786ff38dfcc659d3477",
-  "numFrames": 1
+  "filename": "25TAGZ/fishing_guru.png",
+  "width": 16,
+  "height": 48,
+  "checksum": "f31671a08f0a674584276786ff38dfcc659d3477"
 }

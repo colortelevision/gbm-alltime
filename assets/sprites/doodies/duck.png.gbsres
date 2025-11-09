@@ -3,8 +3,6 @@
   "id": "acece1ca-961c-4d7a-be42-c2c1e69a3c98",
   "name": "doodies/duck",
   "symbol": "sprite_duck",
-  "width": 32,
-  "height": 16,
   "states": [
     {
       "id": "0a183e3c-5bb8-44df-bd7c-96989f538669",
@@ -146,14 +144,17 @@
     }
   ],
   "numTiles": 4,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
   "canvasWidth": 16,
   "canvasHeight": 16,
   "boundsX": 0,
-  "boundsY": 0,
+  "boundsY": -8,
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
   "filename": "doodies/duck.png",
-  "checksum": "1cee9ea2f1edd8aa1b3dfeb886c7d0d52c52eb9a",
-  "numFrames": 2
+  "width": 32,
+  "height": 16,
+  "checksum": "1cee9ea2f1edd8aa1b3dfeb886c7d0d52c52eb9a"
 }

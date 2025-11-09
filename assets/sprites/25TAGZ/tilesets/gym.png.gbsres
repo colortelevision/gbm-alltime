@@ -1,85 +1,83 @@
 {
   "_resourceType": "sprite",
-  "id": "ef8eb1c5-c474-40fc-88d9-d2df5493d109",
+  "id": "98cea3a8-16ab-4bb9-ba55-1e842bc4a1b5",
   "name": "25TAGZ/tilesets/gym",
   "symbol": "sprite_25tagz_tilesets_gym",
-  "width": 128,
-  "height": 48,
   "states": [
     {
-      "id": "c687d9bd-69b9-4427-aed3-7068613e640b",
+      "id": "68347185-765d-4339-a5f0-36c467f65644",
       "name": "",
       "animationType": "multi_movement",
       "flipLeft": true,
       "animations": [
         {
-          "id": "04982de1-03df-4a85-b47c-d5f62f5cf291",
+          "id": "cf028c01-2276-42d7-93b2-35a3fc43a76a",
           "frames": [
             {
-              "id": "955f141b-368f-47cc-bb33-b5daf2341eb6",
+              "id": "2eb38add-d205-4d26-a8e9-e30b75c8896e",
               "tiles": []
             }
           ]
         },
         {
-          "id": "1c267b1c-fc9e-4bb6-b3a3-7f4e1fb8b156",
+          "id": "6819fcbd-d53b-48be-8321-37a29d4e3b3e",
           "frames": [
             {
-              "id": "ecbfc067-ef10-48be-a9d2-7fae6de05050",
+              "id": "3390af37-dce0-4531-b16f-67cc3308207a",
               "tiles": []
             }
           ]
         },
         {
-          "id": "98dbd3d0-99e3-448a-8057-ee1c25612bdf",
+          "id": "2a3d0ef7-8910-4b1f-89e8-07b90b24904c",
           "frames": [
             {
-              "id": "73009636-ec23-4881-b038-2c3bba89088f",
+              "id": "a14758e7-4619-4e3a-84c0-fa66e44fa804",
               "tiles": []
             }
           ]
         },
         {
-          "id": "ce5eac4b-5cc5-42b8-904d-9b9755ccf74e",
+          "id": "77a6f3b6-cca9-49c2-9cc1-09e2910f35aa",
           "frames": [
             {
-              "id": "5d5b7f9a-e54c-4420-be73-25b5eff93132",
+              "id": "d70f15da-4c59-40d0-9f3d-b14fe1f9308f",
               "tiles": []
             }
           ]
         },
         {
-          "id": "6de81e5c-4696-4ab8-ba20-cb56cf370c83",
+          "id": "464853cc-652c-440d-a075-375e55fc059e",
           "frames": [
             {
-              "id": "6b51c9cd-3d56-4bbd-893f-a510623c0f83",
+              "id": "454e16d7-e322-48da-b7ed-884c59086328",
               "tiles": []
             }
           ]
         },
         {
-          "id": "e70f5b1e-7f9e-4c75-9155-5b489cfbc123",
+          "id": "4e399c59-7edc-4219-8093-d569e4944a6d",
           "frames": [
             {
-              "id": "cb6232b6-95b7-4e10-8674-d33e36ecbfa0",
+              "id": "f102d0b0-894d-47f4-8f45-48dd9afdaa4f",
               "tiles": []
             }
           ]
         },
         {
-          "id": "7f7d0447-c630-43c1-8920-3696604078f4",
+          "id": "ffee62b9-b544-465c-ab31-b938704c3094",
           "frames": [
             {
-              "id": "7c97d18a-ab7e-4f50-9a15-ac5bdbb9ffac",
+              "id": "0bf35781-7b71-48ef-b363-e37342dfcf28",
               "tiles": []
             }
           ]
         },
         {
-          "id": "1129d7e0-6f93-4026-a0cb-16b3258ca7bd",
+          "id": "35f630dd-5035-4e30-8425-f8ed787ec950",
           "frames": [
             {
-              "id": "ab3b5ecd-b6b2-4edb-b9ce-4af7132f9d05",
+              "id": "88daca86-718e-4449-80d2-045d9d9b8edb",
               "tiles": []
             }
           ]
@@ -88,14 +86,17 @@
     }
   ],
   "numTiles": 0,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
   "canvasWidth": 32,
   "canvasHeight": 32,
   "boundsX": 0,
-  "boundsY": 0,
+  "boundsY": -8,
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
-  "filename": "25tagz/tilesets/gym.png",
-  "checksum": "bd0cd62ccc3d44ea69b3555270caaefa60a15549",
-  "numFrames": 8
+  "filename": "25TAGZ/tilesets/gym.png",
+  "width": 128,
+  "height": 48,
+  "checksum": "bd0cd62ccc3d44ea69b3555270caaefa60a15549"
 }

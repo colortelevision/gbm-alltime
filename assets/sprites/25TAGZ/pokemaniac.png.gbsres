@@ -1,85 +1,83 @@
 {
   "_resourceType": "sprite",
-  "id": "144d1ca4-181e-4e68-9901-53232f871aec",
+  "id": "68c35c24-01b8-4ecb-9fdb-716e3994657c",
   "name": "25TAGZ/pokemaniac",
   "symbol": "sprite_25tagz_pokemaniac",
-  "width": 56,
-  "height": 56,
   "states": [
     {
-      "id": "cf79e4a5-43d7-4235-b804-3a47af8cb5e7",
+      "id": "c881f80b-b2ed-4569-9d9b-4a90814ef802",
       "name": "",
       "animationType": "multi_movement",
       "flipLeft": true,
       "animations": [
         {
-          "id": "37b5fcda-1442-45e2-876e-7cf3b2da8bb1",
+          "id": "5fab4705-79fc-4580-83ad-c18cec3fb405",
           "frames": [
             {
-              "id": "c8eec80e-127d-465d-a55d-073da82b1d3d",
+              "id": "8f9db9c6-1933-4513-a631-52ea73fa7c9c",
               "tiles": []
             }
           ]
         },
         {
-          "id": "f3e85a4f-91e2-4b1c-8a07-1d225d94c5e8",
+          "id": "617731a5-1484-46f9-be18-95b020c95768",
           "frames": [
             {
-              "id": "9413fab2-ad59-4433-884f-9ac35e8da115",
+              "id": "a1245124-49ac-42b6-b466-7253845e2af7",
               "tiles": []
             }
           ]
         },
         {
-          "id": "6c512de7-dbd0-41ef-a2fd-1d0e1380240c",
+          "id": "edcb8229-a448-4be1-9b5f-8cdb76e52190",
           "frames": [
             {
-              "id": "89f31aea-9f78-473b-85b1-90c43241c13a",
+              "id": "7a5c074a-58e8-4680-bbb9-d881a4e9f776",
               "tiles": []
             }
           ]
         },
         {
-          "id": "e4087b2b-e2ee-4d7e-8c9c-220231b6c28c",
+          "id": "3a18174e-9af3-4fda-84f7-98d595b6a7ad",
           "frames": [
             {
-              "id": "f50d3fa0-bd4d-4d04-985a-6b9d12e1fb53",
+              "id": "39885c0b-d6ce-465f-8986-d39fa080df75",
               "tiles": []
             }
           ]
         },
         {
-          "id": "24546d07-47e2-41f1-8855-fb69256f56b4",
+          "id": "1dfbb008-c822-4e14-ae2e-7ede673b4442",
           "frames": [
             {
-              "id": "431153fa-c7e3-41c6-8875-20a31153e9df",
+              "id": "859e3a45-f5b3-4759-b0ef-ff8775a50e51",
               "tiles": []
             }
           ]
         },
         {
-          "id": "e8f6a201-0a3f-4a2c-b1ee-809db36cf94b",
+          "id": "11eb456d-5288-4dfd-9de9-44baca9616c2",
           "frames": [
             {
-              "id": "46623bac-e62f-4d01-a677-9aad22eb4d5f",
+              "id": "119b1530-53f6-4f0c-a1a3-ce21a12357b0",
               "tiles": []
             }
           ]
         },
         {
-          "id": "4924be3b-a4a6-4d78-bee1-583afda76cdc",
+          "id": "7b8820bf-c891-4ba1-8318-00759bb74dad",
           "frames": [
             {
-              "id": "8f3c8ef0-c60d-4958-915b-0d5c7d3e256e",
+              "id": "7d29330c-22f1-472c-97cb-1d252f690085",
               "tiles": []
             }
           ]
         },
         {
-          "id": "39ccbc28-7adc-4ee9-b9fe-6e14475cb0a0",
+          "id": "6e0a7245-875b-4770-9476-8948f32ed8eb",
           "frames": [
             {
-              "id": "610c1f3c-81d0-496b-91a0-e1dee333f985",
+              "id": "387a86fd-72b5-4cdb-8689-87419eaf5804",
               "tiles": []
             }
           ]
@@ -88,14 +86,17 @@
     }
   ],
   "numTiles": 0,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
   "canvasWidth": 32,
   "canvasHeight": 32,
   "boundsX": 0,
-  "boundsY": 0,
+  "boundsY": -8,
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
-  "filename": "25tagz/pokemaniac.png",
-  "checksum": "6a34ea1ea57f5fcbc0cc5e92da7204480a7d06ad",
-  "numFrames": 3.5
+  "filename": "25TAGZ/pokemaniac.png",
+  "width": 56,
+  "height": 56,
+  "checksum": "6a34ea1ea57f5fcbc0cc5e92da7204480a7d06ad"
 }

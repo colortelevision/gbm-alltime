@@ -3,8 +3,6 @@
   "id": "e883dbf4-6707-4c7a-98a2-e55f6c6bc5c9",
   "name": "doodies/250919-gbtriad",
   "symbol": "sprite_doodies_250919_gbtri",
-  "width": 64,
-  "height": 48,
   "states": [
     {
       "id": "98a51c9f-407c-4eb3-aefd-a1f5889f2f4e",
@@ -88,13 +86,17 @@
     }
   ],
   "numTiles": 0,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
   "canvasWidth": 32,
   "canvasHeight": 32,
   "boundsX": 0,
-  "boundsY": 0,
+  "boundsY": -8,
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
   "filename": "doodies/250919-gbtriad.png",
+  "width": 64,
+  "height": 48,
   "checksum": "08f4aeca13bc1e8bd73760e904d07aaf1048e836"
 }

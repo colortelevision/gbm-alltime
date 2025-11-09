@@ -1,85 +1,83 @@
 {
   "_resourceType": "sprite",
-  "id": "fdbb6134-01f9-4246-af32-5e1750a58848",
+  "id": "2294cb67-200e-46a4-831e-6f07cf14bb4e",
   "name": "MILKHOUSE/ctv guide spritesheet",
-  "symbol": "sprite_ctv_guide_spriteshee",
-  "width": 64,
-  "height": 64,
+  "symbol": "sprite_milkhouse_ctv_guide_",
   "states": [
     {
-      "id": "ad342383-8b22-4c24-8c50-2e99d2c82331",
+      "id": "f53d71dc-a3f3-4983-a444-ddceb82172fc",
       "name": "",
       "animationType": "multi_movement",
       "flipLeft": true,
       "animations": [
         {
-          "id": "592eb317-4689-4f15-b9ae-7555ebb3e803",
+          "id": "79f9023a-ffe6-4dc3-bece-99d159456460",
           "frames": [
             {
-              "id": "83fe9d57-974d-4ca2-8a81-1a3dd3607e65",
+              "id": "84928657-d579-44b4-aec4-0ed58d4358f1",
               "tiles": []
             }
           ]
         },
         {
-          "id": "9d48ede0-d7de-4c82-9a8f-cc6d637f82fc",
+          "id": "aefee91b-44e7-469e-8bf5-2491262548e2",
           "frames": [
             {
-              "id": "84651fba-71be-4bd8-aa49-ac137bebeb70",
+              "id": "a58a78a4-70cf-4ca6-9810-8954d86b1c3e",
               "tiles": []
             }
           ]
         },
         {
-          "id": "6c3c6db5-1c46-401d-99d3-8d3b2a28e05a",
+          "id": "1ca9e6f7-cdf1-4990-a90c-c49dc90550e7",
           "frames": [
             {
-              "id": "6bd2f682-1c5a-48fa-bcc1-560559563d2d",
+              "id": "912848ac-2ea1-41d1-9a56-e17a6bbb1ecb",
               "tiles": []
             }
           ]
         },
         {
-          "id": "8a2cb0cd-ae44-4ea8-b525-d4e024c597b3",
+          "id": "0c43b23b-2c67-4690-a448-fe3c9b4831a5",
           "frames": [
             {
-              "id": "17e1176f-13ed-420e-9b35-4d926c44b62a",
+              "id": "e0fb1f68-5219-4d5b-99b1-693a08be3d57",
               "tiles": []
             }
           ]
         },
         {
-          "id": "f3874bc0-1b7f-41f7-917e-f269502f5764",
+          "id": "80a462a9-a004-4d40-bc70-f426d8de7081",
           "frames": [
             {
-              "id": "5ffb7338-fabd-4b18-873a-8dcd037b54b6",
+              "id": "443ee735-4284-4c61-b20c-48722d30a04f",
               "tiles": []
             }
           ]
         },
         {
-          "id": "549a2618-f510-4de7-8c7f-71cc22e8ec47",
+          "id": "52ef9445-53a2-49ae-98fd-a6bec716f6f7",
           "frames": [
             {
-              "id": "3d42cdae-bacb-4f50-8932-b864e75303fd",
+              "id": "5c5e55d3-a48f-444a-837d-08026a072605",
               "tiles": []
             }
           ]
         },
         {
-          "id": "a7ba168d-427d-4071-8d6d-e4356901850a",
+          "id": "990a534f-5bd6-4d41-a579-bb1a26313ae1",
           "frames": [
             {
-              "id": "820c4af9-1f7c-414e-904b-adde3fa404fa",
+              "id": "1015082b-9933-4131-8c1d-03147d08af21",
               "tiles": []
             }
           ]
         },
         {
-          "id": "dfdb9dfe-7ade-4d4f-8aea-15bd6d1229e5",
+          "id": "835e4cb2-0216-4275-acd5-f1106568de43",
           "frames": [
             {
-              "id": "6a2e58c5-83e8-43db-a1ac-50b6dedf9010",
+              "id": "99a1bf79-1e7f-4a2f-a0a0-da12c9d33a75",
               "tiles": []
             }
           ]
@@ -88,14 +86,17 @@
     }
   ],
   "numTiles": 0,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
   "canvasWidth": 32,
   "canvasHeight": 32,
   "boundsX": 0,
-  "boundsY": 0,
+  "boundsY": -8,
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
-  "filename": "milkhouse/ctv guide spritesheet.png",
-  "checksum": "2e79380c56c5ac4f9b25e24263867c94a8b6e5aa",
-  "numFrames": 4
+  "filename": "MILKHOUSE/ctv guide spritesheet.png",
+  "width": 64,
+  "height": 64,
+  "checksum": "2e79380c56c5ac4f9b25e24263867c94a8b6e5aa"
 }

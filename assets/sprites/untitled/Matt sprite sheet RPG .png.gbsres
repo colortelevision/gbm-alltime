@@ -3,8 +3,6 @@
   "id": "45041d6f-c787-4088-9cd4-5d5610c2e967",
   "name": "untitled/Matt sprite sheet RPG ",
   "symbol": "sprite_matt_sprite_sheet_rp",
-  "width": 129,
-  "height": 32,
   "states": [
     {
       "id": "1ec68205-7b5b-410e-a90a-54d6cefff532",
@@ -88,14 +86,17 @@
     }
   ],
   "numTiles": 0,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
   "canvasWidth": 32,
   "canvasHeight": 32,
   "boundsX": 0,
-  "boundsY": 0,
+  "boundsY": -8,
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
   "filename": "untitled/Matt sprite sheet RPG .png",
-  "checksum": "07a4c7030ea83fe28f60ab276c8a9ca357174758",
-  "numFrames": 8.0625
+  "width": 129,
+  "height": 32,
+  "checksum": "07a4c7030ea83fe28f60ab276c8a9ca357174758"
 }

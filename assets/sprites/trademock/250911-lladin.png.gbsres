@@ -3,8 +3,6 @@
   "id": "4aec8b8a-4032-4dc7-8ba4-1b5ad2b32bfe",
   "name": "trademock/250911-lladin",
   "symbol": "sprite_trademock_250911_lla",
-  "width": 64,
-  "height": 32,
   "states": [
     {
       "id": "c6c70f14-f3a8-4760-80b9-ff59e1127b30",
@@ -88,13 +86,17 @@
     }
   ],
   "numTiles": 0,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
   "canvasWidth": 32,
   "canvasHeight": 32,
   "boundsX": 0,
-  "boundsY": 0,
+  "boundsY": -8,
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
   "filename": "trademock/250911-lladin.png",
+  "width": 64,
+  "height": 32,
   "checksum": "c4a4493633a033f4bdbebdc042b7e8cc5250a02f"
 }

@@ -3,8 +3,6 @@
   "id": "bb353ef2-6413-4e27-83aa-01b778611025",
   "name": "untitled/player",
   "symbol": "sprite_player",
-  "width": 112,
-  "height": 16,
   "states": [
     {
       "id": "b637f967-f450-4130-abc9-088725da3942",
@@ -301,14 +299,17 @@
     }
   ],
   "numTiles": 14,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
   "canvasWidth": 16,
   "canvasHeight": 16,
   "boundsX": 0,
-  "boundsY": 0,
+  "boundsY": -8,
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
   "filename": "untitled/player.png",
-  "checksum": "4badbf5c7f5ee0cd5fe9d84609c695c585ecfe55",
-  "numFrames": 7
+  "width": 112,
+  "height": 16,
+  "checksum": "4badbf5c7f5ee0cd5fe9d84609c695c585ecfe55"
 }

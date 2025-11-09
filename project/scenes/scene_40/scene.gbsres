@@ -2,19 +2,19 @@
   "_resourceType": "scene",
   "id": "40299e04-9053-4959-a5d1-461584156752",
   "_index": 39,
-  "name": "Scene 40",
-  "backgroundId": "c882b493-061b-46c9-b80d-d0222632fd85",
-  "tilesetId": "",
-  "width": 20,
-  "height": 18,
   "type": "POINTNCLICK",
-  "paletteIds": [],
-  "spritePaletteIds": [],
-  "collisions": "",
-  "autoFadeSpeed": 1,
+  "name": "Scene 40",
   "symbol": "scene_40",
   "x": 2800,
   "y": 1160,
+  "width": 20,
+  "height": 18,
+  "backgroundId": "c882b493-061b-46c9-b80d-d0222632fd85",
+  "tilesetId": "",
+  "colorModeOverride": "none",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
   "script": [
     {
       "command": "EVENT_TEXT_DRAW",
@@ -53,5 +53,6 @@
   ],
   "playerHit1Script": [],
   "playerHit2Script": [],
-  "playerHit3Script": []
+  "playerHit3Script": [],
+  "collisions": ""
 }

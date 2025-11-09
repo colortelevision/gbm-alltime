@@ -3,8 +3,6 @@
   "id": "f32156e4-9597-4b02-8ad7-b01ae28c0d22",
   "name": "untitled/250114-gb-ami-talking-",
   "symbol": "sprite_250114_gb_ami_talkin",
-  "width": 64,
-  "height": 64,
   "states": [
     {
       "id": "1ba40570-4d3f-4315-a34f-9023bbfebd7b",
@@ -1814,14 +1812,17 @@
     }
   ],
   "numTiles": 15,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
   "canvasWidth": 32,
   "canvasHeight": 64,
   "boundsX": 0,
-  "boundsY": 0,
+  "boundsY": -8,
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
   "filename": "untitled/250114-gb-ami-talking-.png",
-  "checksum": "ab160540c96202f4c7717d21c1c8d0c886615c2d",
-  "numFrames": 4
+  "width": 64,
+  "height": 64,
+  "checksum": "ab160540c96202f4c7717d21c1c8d0c886615c2d"
 }

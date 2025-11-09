@@ -3,8 +3,6 @@
   "id": "144e9ca9-ee41-48cd-92e3-e7b6198c4c67",
   "name": "kanto/converted_gentleman",
   "symbol": "sprite_kanto_converted_gent",
-  "width": 16,
-  "height": 96,
   "states": [
     {
       "id": "87e19f74-d312-4717-aa86-5977f6eca743",
@@ -467,13 +465,17 @@
     }
   ],
   "numTiles": 10,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
   "canvasWidth": 16,
   "canvasHeight": 16,
   "boundsX": 0,
-  "boundsY": 0,
+  "boundsY": -8,
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
   "filename": "kanto/converted_gentleman.png",
+  "width": 16,
+  "height": 96,
   "checksum": "075c21a7a59c64d412787a89dd8741f5bc0b9bc6"
 }

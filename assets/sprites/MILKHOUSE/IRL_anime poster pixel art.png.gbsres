@@ -1,85 +1,83 @@
 {
   "_resourceType": "sprite",
-  "id": "5c6e1bce-7f64-4506-bd54-5940eb9e7fab",
+  "id": "58df2f25-0f19-4b53-a51f-4edc6a22cf7e",
   "name": "MILKHOUSE/IRL_anime poster pixel art",
-  "symbol": "sprite_irl_anime_poster_pix",
-  "width": 94,
-  "height": 144,
+  "symbol": "sprite_milkhouse_irl_anime_",
   "states": [
     {
-      "id": "d9c8c422-0061-4ab6-b3bc-07b810a91ff9",
+      "id": "da4db961-426d-41fe-a518-2392c56612d7",
       "name": "",
       "animationType": "multi_movement",
       "flipLeft": true,
       "animations": [
         {
-          "id": "891576fa-3ef0-4ae4-be3f-5ab516cf5ac2",
+          "id": "c54a4cb1-d36b-4792-bd5a-e4dc1798248e",
           "frames": [
             {
-              "id": "301b3ded-6d3f-492e-a9fc-e4c33936442d",
+              "id": "315f7a15-38f4-4f5a-8e7c-6180db2d835e",
               "tiles": []
             }
           ]
         },
         {
-          "id": "6bef0646-f959-4a10-bbac-682973010909",
+          "id": "99a403ae-0202-40cb-b4de-4af61fd5686d",
           "frames": [
             {
-              "id": "b0264c5d-ca85-48cb-bd3b-184618800efb",
+              "id": "12f8686d-1e86-4eba-8018-3eca81719897",
               "tiles": []
             }
           ]
         },
         {
-          "id": "680dbbc7-22aa-4aa0-a193-3f946d222bb2",
+          "id": "db1747bd-dee5-4f0c-81de-9a88782ebbe8",
           "frames": [
             {
-              "id": "f6b1b70f-79ad-40f4-bc90-7b7a4c1655fd",
+              "id": "bbc82fc3-dbc0-4c0f-87cd-917ca82963e2",
               "tiles": []
             }
           ]
         },
         {
-          "id": "f9818844-d849-4aeb-9641-2409cfc82464",
+          "id": "bdeb3018-f497-4315-acc5-5527cb7ee1ca",
           "frames": [
             {
-              "id": "38afdcab-a4d6-4e3c-9274-46a6ca1c4aa9",
+              "id": "37303804-88ba-460b-b8aa-72d9344d9e5a",
               "tiles": []
             }
           ]
         },
         {
-          "id": "762f9728-b771-42ba-941a-2059f1ef7a71",
+          "id": "b3b40269-ea4b-4f21-84ce-6d06622f61d2",
           "frames": [
             {
-              "id": "73f35b90-6c8a-4124-a867-c9569ef22c0a",
+              "id": "c5481a42-6c37-4592-ac6b-6f8ab05cc3e4",
               "tiles": []
             }
           ]
         },
         {
-          "id": "269fbd0e-cfda-4c2c-8cae-a808f47b2836",
+          "id": "29d3a3a8-02c8-4d0d-9e61-6c1d913c3d3e",
           "frames": [
             {
-              "id": "78ceda22-c8a8-4696-bebd-eee5961a68eb",
+              "id": "860199bd-69ba-4833-953c-b8d8b01f5218",
               "tiles": []
             }
           ]
         },
         {
-          "id": "5af6d68e-9461-4296-b80d-c5eb123d6cca",
+          "id": "efa8ad1f-c19a-44eb-88c4-576623118b76",
           "frames": [
             {
-              "id": "0f4a2c99-1079-4fb6-831d-b85091cafa2c",
+              "id": "5df3b26d-f5dc-4b2b-8460-64404b02a95b",
               "tiles": []
             }
           ]
         },
         {
-          "id": "057496e7-681d-4f29-8b62-a2c55d2aafb9",
+          "id": "bfc92fec-6a79-4ac2-a160-6367ef347eb2",
           "frames": [
             {
-              "id": "016e58fe-df73-4701-afe3-0837d5f93a4d",
+              "id": "229c9cb9-8932-4f71-8bbb-5fedbf2eb113",
               "tiles": []
             }
           ]
@@ -88,14 +86,17 @@
     }
   ],
   "numTiles": 0,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
   "canvasWidth": 32,
   "canvasHeight": 32,
   "boundsX": 0,
-  "boundsY": 0,
+  "boundsY": -8,
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
-  "filename": "milkhouse/IRL_anime poster pixel art.png",
-  "checksum": "94a27c3b00072ff0397585026d67709590ced6c9",
-  "numFrames": 5.875
+  "filename": "MILKHOUSE/IRL_anime poster pixel art.png",
+  "width": 94,
+  "height": 144,
+  "checksum": "94a27c3b00072ff0397585026d67709590ced6c9"
 }

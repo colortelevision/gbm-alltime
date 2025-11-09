@@ -3,8 +3,6 @@
   "id": "f35bec7b-181a-4ce3-ac80-87a745bc611d",
   "name": "241107-BOTS-HBOT-CB",
   "symbol": "sprite_241107_bots_hbot_cb",
-  "width": 845,
-  "height": 845,
   "states": [
     {
       "id": "4bb2ca37-b745-470d-bc0e-015533001ac8",
@@ -88,14 +86,17 @@
     }
   ],
   "numTiles": 0,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
   "canvasWidth": 32,
   "canvasHeight": 32,
   "boundsX": 0,
-  "boundsY": 0,
+  "boundsY": -8,
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
   "filename": "241107-BOTS-HBOT-CB.png",
-  "checksum": "af181a6c357496598c2ef12612b1153778ebae5e",
-  "numFrames": 52.8125
+  "width": 845,
+  "height": 845,
+  "checksum": "af181a6c357496598c2ef12612b1153778ebae5e"
 }

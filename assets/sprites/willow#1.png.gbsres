@@ -3,8 +3,6 @@
   "id": "40c6c1c2-9895-448b-88b8-eadc300531a5",
   "name": "willow#1",
   "symbol": "sprite_willow_1",
-  "width": 16,
-  "height": 48,
   "states": [
     {
       "id": "b0f71096-b158-4464-a8c5-9064d78ce47d",
@@ -88,13 +86,17 @@
     }
   ],
   "numTiles": 0,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
   "canvasWidth": 32,
   "canvasHeight": 32,
   "boundsX": 0,
-  "boundsY": 0,
+  "boundsY": -8,
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
   "filename": "willow#1.png",
+  "width": 16,
+  "height": 48,
   "checksum": "0a60b3aa5d563d5efaeaaafe3a557aad0b013599"
 }

@@ -3,8 +3,6 @@
   "id": "d0d07f4a-05be-416e-9ed2-ac95dab83f5e",
   "name": "uiux/slide_numbers",
   "symbol": "sprite_slide_numbers",
-  "width": 64,
-  "height": 64,
   "states": [
     {
       "id": "28731e51-980a-4caa-9214-d0cc4812f30f",
@@ -88,14 +86,17 @@
     }
   ],
   "numTiles": 0,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
   "canvasWidth": 32,
   "canvasHeight": 32,
   "boundsX": 0,
-  "boundsY": 0,
+  "boundsY": -8,
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
   "filename": "uiux/slide_numbers.png",
-  "checksum": "fdbed17bdca62dca1d3ab716c7872cefa939b0f9",
-  "numFrames": 4
+  "width": 64,
+  "height": 64,
+  "checksum": "fdbed17bdca62dca1d3ab716c7872cefa939b0f9"
 }

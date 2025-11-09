@@ -3,8 +3,6 @@
   "id": "79724091-b7fb-4e77-b814-6e4cb206abf9",
   "name": "pxjames",
   "symbol": "sprite_pxjames",
-  "width": 49,
-  "height": 71,
   "states": [
     {
       "id": "fc4eb5dd-3a7d-467a-95d4-473811d03274",
@@ -88,14 +86,17 @@
     }
   ],
   "numTiles": 0,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
   "canvasWidth": 32,
   "canvasHeight": 32,
   "boundsX": 0,
-  "boundsY": 0,
+  "boundsY": -8,
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
   "filename": "pxjames.png",
-  "checksum": "f04dbf9a40bebbbab4eb1c5496f6322f8e0c6ddd",
-  "numFrames": 3.0625
+  "width": 49,
+  "height": 71,
+  "checksum": "f04dbf9a40bebbbab4eb1c5496f6322f8e0c6ddd"
 }

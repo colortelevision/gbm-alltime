@@ -3,8 +3,6 @@
   "id": "8c4bc318-583f-4a35-aeab-e98e0e6cebc0",
   "name": "uiux/cursor",
   "symbol": "sprite_cursor",
-  "width": 32,
-  "height": 16,
   "states": [
     {
       "id": "395fdbcb-a130-4e5c-a01b-45e2dd850cf4",
@@ -146,14 +144,17 @@
     }
   ],
   "numTiles": 4,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
   "canvasWidth": 16,
   "canvasHeight": 16,
   "boundsX": 0,
-  "boundsY": 0,
+  "boundsY": -8,
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
   "filename": "uiux/cursor.png",
-  "checksum": "1f21ce7ede568c59e378eec3bce19e7abe50414a",
-  "numFrames": 2
+  "width": 32,
+  "height": 16,
+  "checksum": "1f21ce7ede568c59e378eec3bce19e7abe50414a"
 }

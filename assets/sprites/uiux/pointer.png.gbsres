@@ -3,8 +3,6 @@
   "id": "57776ecd-617a-463c-bafe-278759867630",
   "name": "uiux/pointer",
   "symbol": "sprite_pointer",
-  "width": 32,
-  "height": 32,
   "states": [
     {
       "id": "ced7c0b9-22f1-44a3-ac03-7ef21b46214e",
@@ -208,13 +206,17 @@
     }
   ],
   "numTiles": 8,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
   "canvasWidth": 16,
   "canvasHeight": 16,
   "boundsX": 0,
-  "boundsY": 0,
+  "boundsY": -8,
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
   "filename": "uiux/pointer.png",
+  "width": 32,
+  "height": 32,
   "checksum": "e751fe13ab9fbdfb3f4b521e0b2d901718e4a56f"
 }

@@ -3,8 +3,6 @@
   "id": "fff361be-3f3b-4b26-b42e-247251450ff9",
   "name": "kanto/converted_swimmer",
   "symbol": "sprite_kanto_converted_swim",
-  "width": 16,
-  "height": 96,
   "states": [
     {
       "id": "f16a59a2-f00b-4f0a-a3d4-f8639b1bb775",
@@ -88,13 +86,17 @@
     }
   ],
   "numTiles": 0,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
   "canvasWidth": 32,
   "canvasHeight": 32,
   "boundsX": 0,
-  "boundsY": 0,
+  "boundsY": -8,
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
   "filename": "kanto/converted_swimmer.png",
+  "width": 16,
+  "height": 96,
   "checksum": "cefb8093e80a8108ecb64f85857df5032fee38c1"
 }

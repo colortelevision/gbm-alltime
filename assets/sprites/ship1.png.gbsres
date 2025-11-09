@@ -3,8 +3,6 @@
   "id": "cc258ade-3ac0-44f6-9caa-73974441b2b3",
   "name": "ship1",
   "symbol": "sprite_ship1",
-  "width": 32,
-  "height": 32,
   "states": [
     {
       "id": "0f8e3ad4-d6b8-45ff-b959-ed1761d0a423",
@@ -88,14 +86,17 @@
     }
   ],
   "numTiles": 0,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
   "canvasWidth": 32,
   "canvasHeight": 32,
   "boundsX": 0,
-  "boundsY": 0,
+  "boundsY": -8,
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
   "filename": "ship1.png",
-  "checksum": "fc4e7b97e2059f67a6c0381932481a1c33961978",
-  "numFrames": 2
+  "width": 32,
+  "height": 32,
+  "checksum": "fc4e7b97e2059f67a6c0381932481a1c33961978"
 }

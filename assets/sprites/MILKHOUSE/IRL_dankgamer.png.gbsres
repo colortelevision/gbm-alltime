@@ -1,85 +1,83 @@
 {
   "_resourceType": "sprite",
-  "id": "0618a850-46e6-4e50-a671-10199e41e578",
+  "id": "d07a92af-93ad-47de-a0d4-3a3ce4ea85bd",
   "name": "MILKHOUSE/IRL_dankgamer",
-  "symbol": "sprite_irl_dankgamer",
-  "width": 32,
-  "height": 32,
+  "symbol": "sprite_milkhouse_irl_dankga",
   "states": [
     {
-      "id": "d424f174-e22a-4274-831b-e6f2222681ed",
+      "id": "de84b965-8161-496a-8a0e-ac5efe31a9de",
       "name": "",
       "animationType": "multi_movement",
       "flipLeft": true,
       "animations": [
         {
-          "id": "fd502117-27ef-42a6-8e20-e5350cded27e",
+          "id": "b005f6b0-b0ad-4cfe-b75e-0cb4116645f1",
           "frames": [
             {
-              "id": "96a00fce-9b64-4e9b-99eb-5de81a52c09b",
+              "id": "cd21ff87-e107-436a-8d3d-5b06cbe5557b",
               "tiles": []
             }
           ]
         },
         {
-          "id": "421dba00-9138-4bff-b305-e84fccee7933",
+          "id": "fb14aff9-7092-4464-a936-3f733bcb37d1",
           "frames": [
             {
-              "id": "669898f6-75de-4562-9f5c-57a632315265",
+              "id": "fbd62ca9-4a68-46f4-a918-d791777992c9",
               "tiles": []
             }
           ]
         },
         {
-          "id": "9382d38b-8633-4216-95d1-9548f0392909",
+          "id": "6c0ab3fd-66b6-4620-a598-54ebdbdb87e0",
           "frames": [
             {
-              "id": "8b5802f3-8426-48f3-80b5-b3cae2f65b90",
+              "id": "8d1a467b-79cf-4ae4-8d54-b1e2dc72d394",
               "tiles": []
             }
           ]
         },
         {
-          "id": "9008fcf5-93ab-4c33-ad08-06001e823542",
+          "id": "4b731160-82a1-4327-aa0f-87e97a296cee",
           "frames": [
             {
-              "id": "6407d034-a572-4e24-8166-f008493ef906",
+              "id": "7281c463-83cd-436e-a7a4-7b2d3440ac94",
               "tiles": []
             }
           ]
         },
         {
-          "id": "e4c9b53e-1cc2-4dd8-8657-4b53201abdb6",
+          "id": "cba5ff4e-7320-40a5-a5ce-cf39780f595b",
           "frames": [
             {
-              "id": "4e617679-3aed-4c35-b25d-6ce78ebfd9ed",
+              "id": "d50e9f90-ec91-4c33-be87-4705ecca25a7",
               "tiles": []
             }
           ]
         },
         {
-          "id": "1b6f8ea7-f925-420d-94c5-520c43fc3b03",
+          "id": "9bae58b5-8097-41b8-bf04-a47d2a7c5b5e",
           "frames": [
             {
-              "id": "d3f6cae3-500e-4ddd-8c9c-8683933abb43",
+              "id": "edeec6f8-c719-4ebc-997f-f03f160af626",
               "tiles": []
             }
           ]
         },
         {
-          "id": "63601f3e-c22e-4f21-86e3-54a0c64240d9",
+          "id": "49712e99-b5fe-413e-a8d4-5053d0741e3f",
           "frames": [
             {
-              "id": "9c342fbd-5f8b-48f2-a436-854903d9ac2a",
+              "id": "5a9a8a2d-57f3-479c-84ab-3f7bbb393563",
               "tiles": []
             }
           ]
         },
         {
-          "id": "4d1e094f-1990-4b0b-bd3a-539f615f1079",
+          "id": "105bcc7a-7a43-40b7-9e5d-0337c3e4574b",
           "frames": [
             {
-              "id": "79f528d5-5f23-4c04-bbf7-3851388e1c98",
+              "id": "64c1a21f-e053-4c14-920c-5e3c09da5ef1",
               "tiles": []
             }
           ]
@@ -88,14 +86,17 @@
     }
   ],
   "numTiles": 0,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
   "canvasWidth": 32,
   "canvasHeight": 32,
   "boundsX": 0,
-  "boundsY": 0,
+  "boundsY": -8,
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
-  "filename": "milkhouse/IRL_dankgamer.png",
-  "checksum": "8ca1453739a18245b0a6947cf007c833986a1d89",
-  "numFrames": 2
+  "filename": "MILKHOUSE/IRL_dankgamer.png",
+  "width": 32,
+  "height": 32,
+  "checksum": "8ca1453739a18245b0a6947cf007c833986a1d89"
 }

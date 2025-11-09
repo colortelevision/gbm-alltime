@@ -1,85 +1,83 @@
 {
   "_resourceType": "sprite",
-  "id": "b4ecec77-865d-4747-ab3f-97380da0d3ba",
+  "id": "ad120f8b-d3f3-47df-bcb3-3e7bd923db02",
   "name": "MILKHOUSE/IRL_103022 8 bit danknate sprite sheet",
-  "symbol": "sprite_irl_103022_8_bit_dan",
-  "width": 96,
-  "height": 32,
+  "symbol": "sprite_milkhouse_irl_103022",
   "states": [
     {
-      "id": "a72f9743-52ac-4b09-bb32-2d62fe11e23b",
+      "id": "9da99c40-00e2-4127-80f0-4e3429ced8b8",
       "name": "",
       "animationType": "multi_movement",
       "flipLeft": true,
       "animations": [
         {
-          "id": "37aa1a9c-e928-4537-a836-7bd3130e02e9",
+          "id": "353c1670-157e-4254-b4cb-7d94104d9014",
           "frames": [
             {
-              "id": "9108f0df-339c-4258-8e19-2733685bc309",
+              "id": "732bf44e-fb79-4ab1-b6f5-06014c5078ab",
               "tiles": []
             }
           ]
         },
         {
-          "id": "78d9c84f-79bc-4ba4-996e-79639b284f1f",
+          "id": "557eca68-11b4-4a81-b0a5-389d95977855",
           "frames": [
             {
-              "id": "89028d9e-86ce-4a4b-a799-15c8a6a38378",
+              "id": "b63426f6-e2db-495d-8d80-0b8d61ea31e8",
               "tiles": []
             }
           ]
         },
         {
-          "id": "4664d034-4349-49ba-8f56-050a913ba596",
+          "id": "baa76da1-6b98-42a9-9751-da901ac99a62",
           "frames": [
             {
-              "id": "90410438-2171-4fa2-9422-21f23817bd8a",
+              "id": "55bea116-5d21-4400-97b8-cbe11826b4c2",
               "tiles": []
             }
           ]
         },
         {
-          "id": "803e3250-5465-49c4-b88c-d883be5f84a6",
+          "id": "474c0965-e022-4f0a-af81-34129f0cef6e",
           "frames": [
             {
-              "id": "32e89b6f-a541-47c3-951b-462bb45a2e2f",
+              "id": "b81d7e4e-ac33-496d-ab79-1167cc3999ac",
               "tiles": []
             }
           ]
         },
         {
-          "id": "dce63bdf-8814-4937-9c05-44af0fa7556b",
+          "id": "8ab8ad7f-611a-479f-9f12-c15a7901c5e7",
           "frames": [
             {
-              "id": "43a5f75f-24dd-4adb-a172-ddd4456c8eda",
+              "id": "41581909-38b7-429b-9f6d-3aa57ea7b038",
               "tiles": []
             }
           ]
         },
         {
-          "id": "31066d2e-85cc-44e5-af35-b6caa076d1f9",
+          "id": "fd20782f-e854-412f-81c0-6b07d1ca56fa",
           "frames": [
             {
-              "id": "12165aab-a7a8-4bbe-9dcd-feff8289df0b",
+              "id": "6f0f2858-b7e3-4bed-b51e-9d6986f3aeb6",
               "tiles": []
             }
           ]
         },
         {
-          "id": "c38d52fb-1259-431b-b332-3dd3b0ab8e9a",
+          "id": "34b3cb09-d6d5-4884-bb6b-fbfb2672f954",
           "frames": [
             {
-              "id": "e1c4010b-83d8-4c58-a291-1428e6286ff4",
+              "id": "64c759b5-2c2c-414c-9720-93b6af6dfdc5",
               "tiles": []
             }
           ]
         },
         {
-          "id": "a3e5c98a-d2d4-4e89-adbb-86e1a66ca85f",
+          "id": "ba6bfa08-20ae-48ae-9802-186ace043c13",
           "frames": [
             {
-              "id": "ae2dd435-2b8e-4ce0-a71b-da606f24cdbd",
+              "id": "73e1ee08-8d76-4842-b77c-062d8adb7689",
               "tiles": []
             }
           ]
@@ -88,14 +86,17 @@
     }
   ],
   "numTiles": 0,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
   "canvasWidth": 32,
   "canvasHeight": 32,
   "boundsX": 0,
-  "boundsY": 0,
+  "boundsY": -8,
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
-  "filename": "milkhouse/IRL_103022 8 bit danknate sprite sheet.png",
-  "checksum": "cd730c4498e707846133a90fca6d6356307760e7",
-  "numFrames": 6
+  "filename": "MILKHOUSE/IRL_103022 8 bit danknate sprite sheet.png",
+  "width": 96,
+  "height": 32,
+  "checksum": "cd730c4498e707846133a90fca6d6356307760e7"
 }

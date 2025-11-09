@@ -3,8 +3,6 @@
   "id": "03c75cd2-1bef-4446-aefb-1f9c46e60816",
   "name": "doodies/30doodies",
   "symbol": "sprite_30doodies",
-  "width": 48,
-  "height": 40,
   "states": [
     {
       "id": "11cb0548-d058-4924-a8c6-542ecbc6985b",
@@ -102,13 +100,17 @@
     }
   ],
   "numTiles": 1,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
   "canvasWidth": 8,
   "canvasHeight": 16,
   "boundsX": 0,
-  "boundsY": 0,
+  "boundsY": -8,
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
   "filename": "doodies/30doodies.png",
+  "width": 48,
+  "height": 40,
   "checksum": "739c9e46feeb7dea7cf95b9fae48718940f25da7"
 }

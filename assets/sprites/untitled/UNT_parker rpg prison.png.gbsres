@@ -3,8 +3,6 @@
   "id": "076fde35-496c-4c42-a59e-e147f6d5f777",
   "name": "untitled/UNT_parker rpg prison",
   "symbol": "sprite_unt_parker_rpg_priso",
-  "width": 128,
-  "height": 16,
   "states": [
     {
       "id": "eae5553d-7972-40e2-9f69-1996e4f1d7c6",
@@ -332,14 +330,17 @@
     }
   ],
   "numTiles": 16,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
   "canvasWidth": 16,
   "canvasHeight": 16,
   "boundsX": 0,
-  "boundsY": 0,
+  "boundsY": -8,
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
   "filename": "untitled/UNT_parker rpg prison.png",
-  "checksum": "912ee7a17d2b57b8bea7686efac707b5b2c53968",
-  "numFrames": 8
+  "width": 128,
+  "height": 16,
+  "checksum": "912ee7a17d2b57b8bea7686efac707b5b2c53968"
 }

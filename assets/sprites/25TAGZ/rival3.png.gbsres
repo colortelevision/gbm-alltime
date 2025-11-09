@@ -1,85 +1,83 @@
 {
   "_resourceType": "sprite",
-  "id": "8be47267-c4b4-44a3-b09b-4a32b65cb5be",
+  "id": "20af0fb1-f31f-4b97-ae0a-85c797362f0f",
   "name": "25TAGZ/rival3",
   "symbol": "sprite_25tagz_rival3",
-  "width": 56,
-  "height": 56,
   "states": [
     {
-      "id": "6c337e1f-22ab-40b0-8040-21436b503a9d",
+      "id": "b34ae0d5-4871-4cf5-b9a7-b81510f4e3fc",
       "name": "",
       "animationType": "multi_movement",
       "flipLeft": true,
       "animations": [
         {
-          "id": "28a5ccd2-aedf-408a-ab10-6696d09e1398",
+          "id": "7d6d9639-8db8-4558-9b8c-41897a9d9dd2",
           "frames": [
             {
-              "id": "42b1b7ea-0990-459c-9831-ee59c424fa2f",
+              "id": "738ad921-023f-4d36-b33f-6a8f009b2a60",
               "tiles": []
             }
           ]
         },
         {
-          "id": "d204c346-2432-431d-97b4-3e1b687494b1",
+          "id": "0f9915cd-7a1b-4fb7-9df2-70191862889e",
           "frames": [
             {
-              "id": "34a60af7-56f7-4e46-9ef6-3b68129ab2d3",
+              "id": "3d6bb9e8-4de9-4d79-a3f6-19d2cc7e3613",
               "tiles": []
             }
           ]
         },
         {
-          "id": "38572644-60a3-42cb-a83a-5591ccbe8b90",
+          "id": "ba5d1452-7f02-464a-a8f1-12c749e255f7",
           "frames": [
             {
-              "id": "7e42827a-cb74-4031-8679-e9f9aec87f8f",
+              "id": "2c3b6f03-6977-4b3e-aab6-2526e9c03156",
               "tiles": []
             }
           ]
         },
         {
-          "id": "e55afcfd-0e5b-4084-9928-6fba9ee3bd85",
+          "id": "2cb09428-345d-44dd-adeb-8381c2534aa5",
           "frames": [
             {
-              "id": "97f5b4ca-6026-4688-8f0f-814c156fa872",
+              "id": "a3580799-b471-4d38-be76-612b97f69c2b",
               "tiles": []
             }
           ]
         },
         {
-          "id": "6f739c14-6fcf-49a9-8af3-0690b65a2eb9",
+          "id": "9d4e1548-af49-49a0-9895-93b412772472",
           "frames": [
             {
-              "id": "a3ec0b6b-aa95-4ab1-a834-d2d72d58afea",
+              "id": "b410eb2d-1009-460a-87d6-47fcb1ea116a",
               "tiles": []
             }
           ]
         },
         {
-          "id": "3ae5dfcd-7ea9-4db4-8999-1b2f57e7f2d4",
+          "id": "632118e1-c302-4be2-a9c2-af46d38a7289",
           "frames": [
             {
-              "id": "c683ca96-dac1-48ae-859a-0cf072907d7f",
+              "id": "ba49f2ef-bb3f-4a16-8602-31b916dd0f15",
               "tiles": []
             }
           ]
         },
         {
-          "id": "6e15d9b9-dbd2-4e65-bd90-44575123664a",
+          "id": "2f970cc2-62fc-4c8f-9079-09203221658d",
           "frames": [
             {
-              "id": "c96d0724-96f0-457f-9b78-708ea49cc7b0",
+              "id": "2f524050-2342-4f5c-961f-e8eda9b5d4ef",
               "tiles": []
             }
           ]
         },
         {
-          "id": "e303b056-6863-46bd-8986-ca14719ef483",
+          "id": "7daef3e4-9247-48a9-8058-a76ff757b63d",
           "frames": [
             {
-              "id": "39ed83c9-10cc-49e6-be79-3e1be8c4accb",
+              "id": "37d7243e-5d7e-4b2e-a35d-b4ced96ffebe",
               "tiles": []
             }
           ]
@@ -88,14 +86,17 @@
     }
   ],
   "numTiles": 0,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
   "canvasWidth": 32,
   "canvasHeight": 32,
   "boundsX": 0,
-  "boundsY": 0,
+  "boundsY": -8,
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
-  "filename": "25tagz/rival3.png",
-  "checksum": "60cf4647dc6b1c3135246db5bb86e751370bc994",
-  "numFrames": 3.5
+  "filename": "25TAGZ/rival3.png",
+  "width": 56,
+  "height": 56,
+  "checksum": "60cf4647dc6b1c3135246db5bb86e751370bc994"
 }

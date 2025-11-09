@@ -3,8 +3,6 @@
   "id": "c44d5dd5-6cda-4d32-bfb5-983be30b7f99",
   "name": "uiux/checkbox",
   "symbol": "sprite_checkbox",
-  "width": 32,
-  "height": 16,
   "states": [
     {
       "id": "c62e8535-6b45-4845-9c17-c77f6ede244b",
@@ -147,14 +145,17 @@
     }
   ],
   "numTiles": 2,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
   "canvasWidth": 16,
   "canvasHeight": 16,
   "boundsX": 0,
-  "boundsY": 0,
+  "boundsY": -8,
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
   "filename": "uiux/checkbox.png",
-  "checksum": "e0de60a8f904a122b16d8b7f94721e789193b6f9",
-  "numFrames": 2
+  "width": 32,
+  "height": 16,
+  "checksum": "e0de60a8f904a122b16d8b7f94721e789193b6f9"
 }

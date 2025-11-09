@@ -3,8 +3,6 @@
   "id": "a1157d42-ddce-4b36-8c5b-669c57d843da",
   "name": "doodies/112222 RPG SPRITESHEET STICK DUELING INVERSE",
   "symbol": "sprite_112222_rpg_spriteshe",
-  "width": 96,
-  "height": 16,
   "states": [
     {
       "id": "fe2c57f1-7e10-4a8c-857a-ba46c1480dbc",
@@ -343,14 +341,17 @@
     }
   ],
   "numTiles": 10,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
   "canvasWidth": 16,
   "canvasHeight": 16,
   "boundsX": 0,
-  "boundsY": 0,
+  "boundsY": -8,
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
   "filename": "doodies/112222 RPG SPRITESHEET STICK DUELING INVERSE.png",
-  "checksum": "dd02941c8fc9cc072eb9c9c93dafcbe436b549d4",
-  "numFrames": 6
+  "width": 96,
+  "height": 16,
+  "checksum": "dd02941c8fc9cc072eb9c9c93dafcbe436b549d4"
 }

@@ -3,8 +3,6 @@
   "id": "0bd7da01-3c17-4cf8-a598-d92f76ae5939",
   "name": "kanto/converted_cook",
   "symbol": "sprite_kanto_converted_cook",
-  "width": 16,
-  "height": 96,
   "states": [
     {
       "id": "2c881780-6ae0-4103-b3fc-003c81258f08",
@@ -467,13 +465,17 @@
     }
   ],
   "numTiles": 10,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
   "canvasWidth": 16,
   "canvasHeight": 16,
   "boundsX": 0,
-  "boundsY": 0,
+  "boundsY": -8,
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
   "filename": "kanto/converted_cook.png",
+  "width": 16,
+  "height": 96,
   "checksum": "c9c10d9658f6771f6914c0d22e0e5adf9387d867"
 }

@@ -1,85 +1,83 @@
 {
   "_resourceType": "sprite",
-  "id": "ddea9ddb-abf8-4f3e-9d37-48fb02194c98",
+  "id": "02f0eb10-bf4a-4225-9d88-a8ad034b855b",
   "name": "25TAGZ/bike_shop_clerk",
   "symbol": "sprite_25tagz_bike_shop_cle",
-  "width": 16,
-  "height": 48,
   "states": [
     {
-      "id": "720a7f2f-b877-4473-823e-0d63a793dea5",
+      "id": "5d715827-6a83-449c-a126-0013439b3beb",
       "name": "",
       "animationType": "multi_movement",
       "flipLeft": true,
       "animations": [
         {
-          "id": "8607af90-1d43-4001-8924-e47992555f14",
+          "id": "edae34ea-8521-4451-b733-1d7a8d7970e8",
           "frames": [
             {
-              "id": "d6ed9e47-248b-40ec-a83f-3599d1fcddc8",
+              "id": "7f6dd98a-0a44-4ede-948c-8139b003cf23",
               "tiles": []
             }
           ]
         },
         {
-          "id": "4dfb4239-6ff6-4fd2-b4fa-73b0e57e8d60",
+          "id": "89ce86aa-31d9-4e63-bb02-28afb2a9b9ba",
           "frames": [
             {
-              "id": "c44f8055-b91b-449c-a268-9d58aa9e2723",
+              "id": "8a26ac2a-4148-4b3f-8a33-8db41dc95001",
               "tiles": []
             }
           ]
         },
         {
-          "id": "b93878a8-93a7-489e-a8d1-890583b9e3c8",
+          "id": "f280229d-5bd2-4fb6-aafb-33330a25cd55",
           "frames": [
             {
-              "id": "13f867ab-006c-4451-8bf4-ba7f0f8e110f",
+              "id": "f7570e8d-aba0-4b44-a4e4-73db56922a2a",
               "tiles": []
             }
           ]
         },
         {
-          "id": "67ecb9b8-6200-47f1-9155-9c6ca9d206ef",
+          "id": "3d7142b1-180b-4343-98d0-8d9c1036f5c2",
           "frames": [
             {
-              "id": "9019163e-4b33-4acb-bd6d-e4cd8beb3d04",
+              "id": "6375dfa9-b237-446f-bbee-5fe39bd26938",
               "tiles": []
             }
           ]
         },
         {
-          "id": "01abd994-1e1f-40f7-9278-6fee3593d6e3",
+          "id": "863fc01f-ed0f-4c38-a643-c13f7f7dc453",
           "frames": [
             {
-              "id": "3b6379c7-4ec1-43d8-8b40-1a4f4f417d93",
+              "id": "cd3107c3-4092-4e7f-9a2b-bb7960a4a53c",
               "tiles": []
             }
           ]
         },
         {
-          "id": "bc36e6df-9658-4576-84ea-2821c7e75cb4",
+          "id": "a9cb614c-de19-4c64-9f40-f047fe4b4d75",
           "frames": [
             {
-              "id": "f23ed2b0-f5f9-4eef-b146-6aec9ff49fb6",
+              "id": "ed762a34-aea2-4832-8cd5-42a25344d240",
               "tiles": []
             }
           ]
         },
         {
-          "id": "5442830d-5684-43b9-90d1-7dc6ba1588b5",
+          "id": "2f173318-dc33-4f93-a867-59c8d84e8d33",
           "frames": [
             {
-              "id": "c2c07052-43ca-4973-8420-aed3e90b2070",
+              "id": "45cea977-ec6a-4264-8fb2-0af0ffbefc6a",
               "tiles": []
             }
           ]
         },
         {
-          "id": "a1f7b8ab-8c74-4470-aa8d-4376e7516c7d",
+          "id": "c72ecc96-29bd-4ecb-89a4-43e61bc20b49",
           "frames": [
             {
-              "id": "c77a7b26-34e8-4f23-a29a-ba10c0fabffd",
+              "id": "ad0372ed-0bb0-4d8c-9960-a37842827eba",
               "tiles": []
             }
           ]
@@ -88,14 +86,17 @@
     }
   ],
   "numTiles": 0,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
   "canvasWidth": 32,
   "canvasHeight": 32,
   "boundsX": 0,
-  "boundsY": 0,
+  "boundsY": -8,
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
-  "filename": "25tagz/bike_shop_clerk.png",
-  "checksum": "2ff3dbb0f54f57689ca518ee0ef24e2e2dbb248e",
-  "numFrames": 1
+  "filename": "25TAGZ/bike_shop_clerk.png",
+  "width": 16,
+  "height": 48,
+  "checksum": "2ff3dbb0f54f57689ca518ee0ef24e2e2dbb248e"
 }

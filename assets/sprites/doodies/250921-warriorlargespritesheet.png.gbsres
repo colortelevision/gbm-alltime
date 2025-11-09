@@ -3,8 +3,6 @@
   "id": "7ad02e3f-1dfe-403b-9102-9ec2c7c15007",
   "name": "doodies/250921-warriorlargespritesheet",
   "symbol": "sprite_doodies_250921_warri",
-  "width": 64,
-  "height": 64,
   "states": [
     {
       "id": "0f3055fd-6cb9-469e-abb3-929ebcd0f05c",
@@ -88,13 +86,17 @@
     }
   ],
   "numTiles": 0,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
   "canvasWidth": 32,
   "canvasHeight": 32,
   "boundsX": 0,
-  "boundsY": 0,
+  "boundsY": -8,
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
   "filename": "doodies/250921-warriorlargespritesheet.png",
+  "width": 64,
+  "height": 64,
   "checksum": "94b1293104689cbce2c3b029d2d3ba7f7bdc5385"
 }

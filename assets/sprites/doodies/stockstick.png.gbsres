@@ -3,8 +3,6 @@
   "id": "9c2d8ff9-de52-402a-ac0e-9384f2263a0f",
   "name": "doodies/stockstick",
   "symbol": "sprite_stockstick",
-  "width": 96,
-  "height": 96,
   "states": [
     {
       "id": "84f5401a-c3cd-44cc-8790-3ab4d292ecc5",
@@ -88,13 +86,17 @@
     }
   ],
   "numTiles": 0,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
   "canvasWidth": 32,
   "canvasHeight": 32,
   "boundsX": 0,
-  "boundsY": 0,
+  "boundsY": -8,
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
   "filename": "doodies/stockstick.png",
+  "width": 96,
+  "height": 96,
   "checksum": "2cf1e613b36273c4d5c5ecc5487fe93a50147dfb"
 }

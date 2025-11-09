@@ -3,8 +3,6 @@
   "id": "5284c020-aca7-4e1e-96a9-926938d89029",
   "name": "kanto/converted_cooltrainer_f",
   "symbol": "sprite_kanto_converted_cool",
-  "width": 16,
-  "height": 96,
   "states": [
     {
       "id": "e7c7ceaa-4d8d-47e6-9806-ba5e248240e5",
@@ -467,13 +465,17 @@
     }
   ],
   "numTiles": 11,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
   "canvasWidth": 16,
   "canvasHeight": 16,
   "boundsX": 0,
-  "boundsY": 0,
+  "boundsY": -8,
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
   "filename": "kanto/converted_cooltrainer_f.png",
+  "width": 16,
+  "height": 96,
   "checksum": "1fffcab6781db2516efd314ff0873ac202f76854"
 }

@@ -3,8 +3,6 @@
   "id": "d2bc2509-50c1-48eb-a3c8-2a5dc73b573a",
   "name": "uiux/SKIPBUTTON",
   "symbol": "sprite_uiux_skipbutton",
-  "width": 56,
-  "height": 16,
   "states": [
     {
       "id": "11e81f96-3548-41da-82b8-79c9d5c9907e",
@@ -1760,13 +1758,17 @@
     }
   ],
   "numTiles": 7,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
   "canvasWidth": 32,
   "canvasHeight": 16,
   "boundsX": 0,
-  "boundsY": 0,
+  "boundsY": -8,
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
   "filename": "uiux/SKIPBUTTON.png",
+  "width": 56,
+  "height": 16,
   "checksum": "b30b3477e13a6b59d797290f9e5b1fc0e64a8089"
 }
