@@ -9,7 +9,25 @@
   "prefabScriptOverrides": {},
   "width": 2,
   "height": 2,
-  "script": [],
+  "script": [
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "7e7243b3-2997-4575-a72e-b57fec71bfde",
+        "x": {
+          "type": "number",
+          "value": 54
+        },
+        "y": {
+          "type": "number",
+          "value": 7
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "fc3d0fbb-2636-4cb1-b64e-604327c9f148"
+    }
+  ],
   "leaveScript": [],
   "_index": 5
 }
