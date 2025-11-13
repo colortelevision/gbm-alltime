@@ -24,33 +24,77 @@
       "id": "8120369c-cc35-4c90-bd79-cb36653bad7b"
     },
     {
-      "command": "PT_EVENT_ACTOR_EFFECTS",
+      "command": "EVENT_IF",
       "args": {
-        "effect": "split_out",
-        "actorId": "$self$",
-        "distance": 20,
-        "speed": 2
-      },
-      "id": "5b79823c-1c8f-4987-b5e0-fd32eb15f3a2"
-    },
-    {
-      "command": "EVENT_SWITCH_SCENE",
-      "args": {
-        "sceneId": "ba83b6dd-b8ee-4c25-9bd6-658e25bdd4f4",
-        "x": {
-          "type": "number",
-          "value": 6
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "48"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 1
+          }
         },
-        "y": {
-          "type": "number",
-          "value": 31
-        },
-        "direction": "down",
-        "fadeSpeed": "2"
+        "__collapseElse": false
       },
-      "id": "0b3d25f5-b9e9-48d6-bdba-cc591942ed0d"
+      "children": {
+        "true": [],
+        "false": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "48",
+              "value": {
+                "type": "true"
+              }
+            },
+            "id": "803cab54-0110-4ce9-8613-dd8699c6bc25"
+          },
+          {
+            "command": "PT_EVENT_ACTOR_EFFECTS",
+            "args": {
+              "effect": "split_out",
+              "actorId": "$self$",
+              "distance": 20,
+              "speed": 4
+            },
+            "id": "5b79823c-1c8f-4987-b5e0-fd32eb15f3a2"
+          },
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "ba83b6dd-b8ee-4c25-9bd6-658e25bdd4f4",
+              "x": {
+                "type": "number",
+                "value": 6
+              },
+              "y": {
+                "type": "number",
+                "value": 31
+              },
+              "direction": "down",
+              "fadeSpeed": "2"
+            },
+            "id": "0b3d25f5-b9e9-48d6-bdba-cc591942ed0d"
+          }
+        ]
+      },
+      "id": "af4edc95-a0c6-4198-b641-25694f44019d"
     }
   ],
-  "leaveScript": [],
+  "leaveScript": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "48",
+        "value": {
+          "type": "false"
+        }
+      },
+      "id": "52c528d9-7ebc-460e-bbea-798c89807ad6"
+    }
+  ],
   "_index": 1
 }

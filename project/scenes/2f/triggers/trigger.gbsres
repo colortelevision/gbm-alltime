@@ -11,23 +11,90 @@
   "height": 2,
   "script": [
     {
-      "command": "EVENT_SWITCH_SCENE",
+      "command": "EVENT_SOUND_PLAY_EFFECT",
       "args": {
-        "sceneId": "ec327b07-fc92-453d-bb6d-362645223426",
-        "x": {
-          "type": "number",
-          "value": 54
-        },
-        "y": {
-          "type": "number",
-          "value": 7
-        },
-        "direction": "",
-        "fadeSpeed": "2"
+        "type": "0bd74973-5406-4673-be7c-0483da44ed85",
+        "priority": "medium",
+        "pitch": 4,
+        "frequency": 200,
+        "duration": 0.5,
+        "wait": true,
+        "effect": 0
       },
-      "id": "268d466f-71aa-4e7b-a8d9-82571b9105d4"
+      "id": "da3df6e0-0879-495a-be3f-54fb9abd9ed6"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "48"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 1
+          }
+        },
+        "__collapseElse": false
+      },
+      "children": {
+        "true": [],
+        "false": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "48",
+              "value": {
+                "type": "true"
+              }
+            },
+            "id": "78aba44b-285b-41ed-b261-c5709d126b64"
+          },
+          {
+            "command": "PT_EVENT_ACTOR_EFFECTS",
+            "args": {
+              "effect": "split_out",
+              "actorId": "$self$",
+              "distance": 20,
+              "speed": 4
+            },
+            "id": "e70a87e9-2d66-4cca-9692-d99ae2b486d5"
+          },
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "ec327b07-fc92-453d-bb6d-362645223426",
+              "x": {
+                "type": "number",
+                "value": 54
+              },
+              "y": {
+                "type": "number",
+                "value": 7
+              },
+              "direction": "down",
+              "fadeSpeed": "2"
+            },
+            "id": "268d466f-71aa-4e7b-a8d9-82571b9105d4"
+          }
+        ]
+      },
+      "id": "01bfc298-95f9-401a-813b-c7c4e7e45264"
     }
   ],
-  "leaveScript": [],
+  "leaveScript": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "48",
+        "value": {
+          "type": "false"
+        }
+      },
+      "id": "09e6a3c2-ff81-435b-9d38-2f0f1246a42c"
+    }
+  ],
   "_index": 0
 }
