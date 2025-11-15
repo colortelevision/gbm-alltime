@@ -15,7 +15,21 @@
           "frames": [
             {
               "id": "dbd2636d-e6c8-4840-88fe-a4b748827402",
-              "tiles": []
+              "tiles": [
+                {
+                  "id": "3e938160-6d15-45c1-8eec-a5d31f14b482",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 0,
+                  "sliceY": -8,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 0,
+                  "priority": false
+                }
+              ]
             }
           ]
         },
@@ -85,7 +99,7 @@
       ]
     }
   ],
-  "numTiles": 0,
+  "numTiles": 1,
   "canvasOriginX": 0,
   "canvasOriginY": 0,
   "canvasWidth": 32,

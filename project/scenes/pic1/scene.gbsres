@@ -3,16 +3,23 @@
   "id": "b90b942a-9dbb-4d2b-b759-c85afec39250",
   "_index": 40,
   "type": "LOGO",
-  "name": "Scene 41",
+  "name": "pic1",
   "symbol": "scene_41",
-  "x": 2546.7280681436823,
-  "y": 906.7926054653794,
+  "x": 2688,
+  "y": 960,
   "width": 20,
   "height": 18,
   "backgroundId": "229795ef-62de-4431-9df3-c74e5ec9793e",
   "tilesetId": "",
   "colorModeOverride": "none",
-  "paletteIds": [],
+  "paletteIds": [
+    "",
+    "",
+    "41d0571e-0f36-494a-b085-dfdf8276ff91",
+    "4c562fad-58cd-42c9-9853-42c1d919c57d",
+    "d654aedd-e5fd-43fa-b086-08bc5a70aa3b",
+    "d3c3f07e-3fa5-4ad2-8382-4c19200fafa5"
+  ],
   "spritePaletteIds": [],
   "autoFadeSpeed": 1,
   "script": [
@@ -26,14 +33,23 @@
           "select"
         ],
         "override": true,
-        "__scriptTabs": "press"
+        "__scriptTabs": "press",
+        "__collapse": true
       },
       "children": {
         "true": [
           {
-            "command": "EVENT_SCENE_POP_STATE",
+            "command": "EVENT_SCENE_POP_ALL_STATE",
             "args": {
               "fadeSpeed": "2"
+            },
+            "id": "be830466-4642-45e9-88ce-d44eb9316ec5"
+          },
+          {
+            "command": "EVENT_SCENE_POP_STATE",
+            "args": {
+              "fadeSpeed": "2",
+              "__comment": true
             },
             "id": "a9dc37da-817d-4c7a-baf1-f2370761c794"
           }

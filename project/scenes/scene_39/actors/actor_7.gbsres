@@ -25,7 +25,7 @@
       "command": "EVENT_SOUND_PLAY_EFFECT",
       "args": {
         "type": "4ce0ca92-3b3d-462d-909d-ad668fad85c6",
-        "priority": "medium",
+        "priority": "high",
         "pitch": 4,
         "frequency": 200,
         "duration": 0.5,
@@ -35,14 +35,26 @@
       "id": "aca40466-738d-4ed5-8012-56fa78e6a093"
     },
     {
-      "command": "EVENT_SET_VALUE",
+      "command": "EVENT_IF",
       "args": {
-        "variable": "56",
-        "value": {
-          "type": "true"
-        }
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "56"
+          },
+          "valueB": {
+            "type": "true"
+          }
+        },
+        "__collapseElse": true,
+        "__comment": true
       },
-      "id": "3318d43e-0e96-4bc6-8776-83226eeb8249"
+      "children": {
+        "true": [],
+        "false": []
+      },
+      "id": "a4405d27-30ee-4985-87ce-bd2fbfe4401a"
     },
     {
       "command": "EVENT_TEXT",
@@ -68,6 +80,16 @@
         "closeDelayFrames": 30
       },
       "id": "a9299435-7154-4c5a-98ca-1e75736e9968"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "56",
+        "value": {
+          "type": "true"
+        }
+      },
+      "id": "3318d43e-0e96-4bc6-8776-83226eeb8249"
     },
     {
       "command": "EVENT_ACTOR_DEACTIVATE",

@@ -26,7 +26,9 @@
           {
             "id": "cf11aff1-0a25-43d1-9bbe-058eef09a1b1",
             "command": "EVENT_GROUP",
-            "args": {},
+            "args": {
+              "__collapse": false
+            },
             "children": {
               "true": [
                 {
@@ -36,7 +38,7 @@
                       "HI, CAN YOU SELL ME SOME\nCOCAINE?? I NEED SOME!!\nI CAN GIVE YOU 100 BUCKS\nFOR A GRAMM! PLEASE!!"
                     ],
                     "__section": "text",
-                    "avatarId": "",
+                    "avatarId": "5c639d6d-2434-491f-b82f-62e2a33c2e34",
                     "minHeight": 4,
                     "maxHeight": 7,
                     "textX": 1,
@@ -51,7 +53,7 @@
                     "closeButton": "any",
                     "closeDelayTime": 0.5,
                     "closeDelayFrames": 30,
-                    "__collapse": true
+                    "__collapse": false
                   },
                   "id": "0074b8fb-2bc3-4db2-a4b7-793c92c62ede"
                 },
@@ -70,7 +72,7 @@
                       }
                     },
                     "__collapseElse": false,
-                    "__collapse": true
+                    "__collapse": false
                   },
                   "children": {
                     "true": [
@@ -123,7 +125,8 @@
                                 "value": {
                                   "type": "false"
                                 },
-                                "__comment": true
+                                "__comment": true,
+                                "__collapse": true
                               },
                               "id": "5f023a06-5397-48be-8080-8a444ad77617"
                             }
@@ -166,7 +169,7 @@
                     "value": {
                       "type": "false"
                     },
-                    "__collapse": true
+                    "__collapse": false
                   },
                   "id": "28b18f4c-4884-4101-8484-faba2988b866"
                 }

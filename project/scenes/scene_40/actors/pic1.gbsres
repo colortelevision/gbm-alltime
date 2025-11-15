@@ -4,10 +4,10 @@
   "_index": 1,
   "symbol": "actor_45",
   "prefabId": "",
-  "name": "",
+  "name": "pic1",
   "coordinateType": "tiles",
-  "x": 7,
-  "y": 12,
+  "x": 17,
+  "y": 4,
   "frame": 0,
   "animate": false,
   "spriteSheetId": "d219d29a-b959-4284-b7d5-7cc92cc7c5a6",
@@ -25,11 +25,16 @@
       "command": "EVENT_IF",
       "args": {
         "condition": {
-          "type": "variable",
-          "value": "56"
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "56"
+          },
+          "valueB": {
+            "type": "true"
+          }
         },
-        "__collapseElse": false,
-        "__collapse": false
+        "__collapseElse": false
       },
       "children": {
         "true": [
@@ -51,6 +56,36 @@
             "id": "05afa183-0b3e-4779-9e7a-7171f2426ddc"
           }
         ],
+        "false": [
+          {
+            "command": "EVENT_SOUND_PLAY_EFFECT",
+            "args": {
+              "type": "beep",
+              "priority": "high",
+              "pitch": 1,
+              "frequency": 200,
+              "duration": 0.05,
+              "wait": false,
+              "effect": 0
+            },
+            "id": "15f56403-a71f-45b1-8d45-44ec735c9158"
+          }
+        ]
+      },
+      "id": "61507658-e270-414a-b024-6630118be0fb"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "variable",
+          "value": "56"
+        },
+        "__collapseElse": false,
+        "__collapse": false
+      },
+      "children": {
+        "true": [],
         "false": [
           {
             "command": "EVENT_SOUND_PLAY_EFFECT",

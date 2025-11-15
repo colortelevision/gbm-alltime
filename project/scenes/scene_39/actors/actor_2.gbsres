@@ -25,7 +25,7 @@
       "id": "495700b1-e2ff-4ead-9761-91fc40973746",
       "command": "EVENT_GROUP",
       "args": {
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -33,7 +33,7 @@
             "command": "EVENT_ACTOR_STOP_UPDATE",
             "args": {
               "actorId": "$self$",
-              "__collapse": true
+              "__collapse": false
             },
             "id": "dddb83df-4598-4044-9784-451f51252d19"
           },

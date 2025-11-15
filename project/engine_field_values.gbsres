@@ -7,7 +7,7 @@
     },
     {
       "id": "topdown_grid",
-      "value": 16
+      "value": 8
     },
     {
       "id": "plat_jump_vel",
@@ -19,7 +19,7 @@
     },
     {
       "id": "shooter_scroll_speed",
-      "value": 96
+      "value": 112
     },
     {
       "id": "plat_jump_min",
@@ -39,7 +39,7 @@
     },
     {
       "id": "plat_run_boost",
-      "value": 4
+      "value": 2990
     },
     {
       "id": "plat_dash",
@@ -55,11 +55,63 @@
     },
     {
       "id": "FEAT_PLATFORM_COYOTE_TIME",
-      "value": 0
+      "value": 1
     },
     {
       "id": "FEAT_PLATFORM_DROP_THROUGH",
-      "value": 0
+      "value": 1
+    },
+    {
+      "id": "plat_run_vel",
+      "value": 11632
+    },
+    {
+      "id": "plat_run_acc",
+      "value": 368
+    },
+    {
+      "id": "FEAT_PLATFORM_DOUBLE_JUMP",
+      "value": 1
+    },
+    {
+      "id": "FEAT_PLATFORM_WALL_JUMP",
+      "value": 1
+    },
+    {
+      "id": "plat_wall_slide",
+      "value": 1
+    },
+    {
+      "id": "INPUT_PLATFORM_DROP_THROUGH",
+      "value": "DROP_THRU_INPUT_DOWN_HOLD"
+    },
+    {
+      "id": "plat_climb_vel",
+      "value": 6144
+    },
+    {
+      "id": "FEAT_PLATFORM_LADDERS_JUMP",
+      "value": 1
+    },
+    {
+      "id": "FEAT_PLATFORM_DASH",
+      "value": 1
+    },
+    {
+      "id": "INPUT_PLATFORM_DASH",
+      "value": "DASH_INPUT_DOWN_JUMP"
+    },
+    {
+      "id": "plat_dash_mask",
+      "value": 8
+    },
+    {
+      "id": "plat_knockback_vel_x",
+      "value": 10772
+    },
+    {
+      "id": "plat_knockback_frames",
+      "value": 20
     }
   ]
 }

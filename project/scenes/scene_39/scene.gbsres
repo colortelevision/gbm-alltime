@@ -11,7 +11,7 @@
   "colorModeOverride": "none",
   "paletteIds": [
     "a8353c40-a7c8-4424-a3cb-f82bf0261c93",
-    "9e3d1aab-572b-4af2-a857-739d22d3fc67",
+    "9fdcf8ee-55d6-4fb8-b27d-54862a739e2c",
     "df63a8bd-2619-4a13-8e65-d954fb1b1669",
     "d3c3f07e-3fa5-4ad2-8382-4c19200fafa5",
     "e8004bb0-ca98-4f8e-bbb0-047fe655a335",
@@ -60,7 +60,7 @@
         ],
         "override": true,
         "__scriptTabs": "press",
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -98,7 +98,7 @@
         ],
         "override": true,
         "__scriptTabs": "press",
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -132,11 +132,11 @@
             "args": {
               "x": {
                 "type": "number",
-                "value": 22
+                "value": 23
               },
               "y": {
                 "type": "number",
-                "value": 6
+                "value": 44
               },
               "tileIndex": {
                 "type": "number",
@@ -147,7 +147,8 @@
               "frames": {
                 "type": "number",
                 "value": 2
-              }
+              },
+              "__comment": true
             },
             "id": "9dc9eb26-96f0-45a3-ab38-dc89b7377f3c"
           },
@@ -171,7 +172,8 @@
               "frames": {
                 "type": "number",
                 "value": 4
-              }
+              },
+              "__comment": true
             },
             "id": "cd9e6e7e-269f-465f-8ae1-903729a9604b"
           },
@@ -190,11 +192,11 @@
                 "type": "number",
                 "value": 0
               },
-              "variable": "L2",
-              "tilesetId": "d7042527-d20e-486d-93e6-66b9397df510",
+              "variable": "L0",
+              "tilesetId": "c3448327-7d0e-47f5-be75-00c95bd3f2af",
               "frames": {
                 "type": "number",
-                "value": 4
+                "value": 2
               }
             },
             "id": "324c6cfc-467e-4df7-9cd4-6cbd7634c921"
