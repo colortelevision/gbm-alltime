@@ -51,7 +51,65 @@
           "frames": [
             {
               "id": "6324edf6-30f7-4388-85e1-5c7e1966c582",
-              "tiles": []
+              "tiles": [
+                {
+                  "id": "6345e3c4-1ff8-4d71-a6b8-e1ae51f725e8",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 32,
+                  "sliceY": 32,
+                  "palette": 0,
+                  "flipX": true,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 0,
+                  "priority": false
+                },
+                {
+                  "id": "f78fe47f-1397-495c-a656-fdf5a08627fc",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 40,
+                  "sliceY": 32,
+                  "palette": 0,
+                  "flipX": true,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 0,
+                  "priority": false
+                }
+              ]
+            },
+            {
+              "id": "77e314ec-5f46-422f-b42b-7113d8515666",
+              "tiles": [
+                {
+                  "id": "4709b803-f713-4cce-abab-0715aa5d9273",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 48,
+                  "sliceY": 32,
+                  "palette": 0,
+                  "flipX": true,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 0,
+                  "priority": false
+                },
+                {
+                  "id": "730593d7-0924-4f51-929f-f9301ec4e495",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 56,
+                  "sliceY": 32,
+                  "palette": 0,
+                  "flipX": true,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 0,
+                  "priority": false
+                }
+              ]
             }
           ]
         },
@@ -85,7 +143,7 @@
       ]
     }
   ],
-  "numTiles": 0,
+  "numTiles": 4,
   "canvasOriginX": 0,
   "canvasOriginY": 0,
   "canvasWidth": 32,

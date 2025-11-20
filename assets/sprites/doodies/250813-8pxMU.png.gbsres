@@ -201,7 +201,75 @@
           "frames": [
             {
               "id": "12a563d5-1a4d-44e3-999f-70075f59fda3",
-              "tiles": []
+              "tiles": [
+                {
+                  "id": "1b60fe50-14ed-44dc-bd38-5e41efebd189",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 24,
+                  "sliceY": -8,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 3,
+                  "priority": false
+                }
+              ]
+            },
+            {
+              "id": "dc3ce563-6c2b-4c6f-bd1c-3b92953974a3",
+              "tiles": [
+                {
+                  "id": "f0317a3c-50c2-4a59-9e97-95c3a5c0c4ab",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 16,
+                  "sliceY": -8,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 3,
+                  "priority": false
+                }
+              ]
+            },
+            {
+              "id": "2ba29c81-208c-4011-acb4-9d0126637ba7",
+              "tiles": [
+                {
+                  "id": "cad33013-b39b-4a00-b839-9973b2974937",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 16,
+                  "sliceY": -8,
+                  "palette": 0,
+                  "flipX": true,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 3,
+                  "priority": false
+                }
+              ]
+            },
+            {
+              "id": "5d2921a2-49dc-469e-af6a-c9b1f976b896",
+              "tiles": [
+                {
+                  "id": "70a30671-d285-4e75-86ac-c9d83e56b6de",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 8,
+                  "sliceY": -8,
+                  "palette": 0,
+                  "flipX": true,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 3,
+                  "priority": false
+                }
+              ]
             }
           ]
         },
