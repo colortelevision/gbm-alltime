@@ -76,7 +76,7 @@
       "args": {
         "condition": {
           "type": "variable",
-          "value": "56"
+          "value": "57"
         },
         "__collapseElse": false
       },
@@ -85,7 +85,7 @@
           {
             "command": "EVENT_ACTOR_SET_STATE",
             "args": {
-              "actorId": "961a6930-7b55-4969-9842-78c8d3fda44b",
+              "actorId": "97eb6f4f-6e67-4b12-93c1-4b8467c1e624",
               "spriteStateId": "on",
               "loopAnim": false
             },

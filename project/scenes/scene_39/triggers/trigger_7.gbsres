@@ -9,7 +9,46 @@
   "prefabScriptOverrides": {},
   "width": 1,
   "height": 10,
-  "script": [],
+  "script": [
+    {
+      "command": "EVENT_ACTOR_ACTIVATE",
+      "args": {
+        "actorId": "48595178-5ecf-4383-a322-b2b37d4c471c"
+      },
+      "id": "e00828da-b24a-463b-884f-f97b86ab026d"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_POSITION",
+      "args": {
+        "actorId": "48595178-5ecf-4383-a322-b2b37d4c471c",
+        "x": {
+          "type": "number",
+          "value": 65
+        },
+        "y": {
+          "type": "number",
+          "value": 3
+        }
+      },
+      "id": "eaa4180b-2314-4d68-bbfc-fd177cfea63d"
+    },
+    {
+      "command": "EVENT_ACTOR_START_UPDATE",
+      "args": {
+        "actorId": "69552641-fa29-4916-b271-6a3a0e3792ab"
+      },
+      "id": "b54089f0-e33a-4fb8-9c6d-40571b361475"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "7e81ad58-0076-4c57-892c-a387c8862d41",
+        "$actor[09ec8350-b5c5-439e-b97a-f2778829ff3d]$": "09ec8350-b5c5-439e-b97a-f2778829ff3d",
+        "$actor[9]$": "09ec8350-b5c5-439e-b97a-f2778829ff3d"
+      },
+      "id": "48258c9f-6ffe-4fa1-bee3-bd632a40ad89"
+    }
+  ],
   "leaveScript": [],
   "_index": 6
 }

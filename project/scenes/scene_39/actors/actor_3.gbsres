@@ -6,8 +6,8 @@
   "prefabId": "",
   "name": "",
   "coordinateType": "tiles",
-  "x": 26,
-  "y": 8,
+  "x": 28,
+  "y": 7,
   "frame": 0,
   "animate": false,
   "spriteSheetId": "da069a2f-da58-4169-9ef4-d61ebfab5638",
@@ -20,8 +20,129 @@
   "collisionGroup": "",
   "collisionExtraFlags": [],
   "prefabScriptOverrides": {},
-  "script": [],
-  "startScript": [],
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "I DON'T HAVE THE HEART\nTO GO TO THE HARBOR...",
+          "SOME SAY DRUG DEALERS ARE \nHANGING AROUND THERE."
+        ],
+        "__section": "layout",
+        "avatarId": "5c639d6d-2434-491f-b82f-62e2a33c2e34",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 2,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "eb30dfe4-e047-42db-8b49-aaee11c175b4"
+    }
+  ],
+  "startScript": [
+    {
+      "command": "EVENT_LOOP_WHILE",
+      "args": {
+        "condition": {
+          "type": "gte",
+          "valueA": {
+            "type": "variable",
+            "value": "69"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 1
+          }
+        },
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_MOVE_RELATIVE",
+            "args": {
+              "actorId": "$self$",
+              "x": {
+                "type": "number",
+                "value": -2
+              },
+              "y": {
+                "type": "number",
+                "value": 0
+              },
+              "collideWith": [
+                "walls",
+                "actors"
+              ],
+              "moveType": "horizontal",
+              "__collapse": true
+            },
+            "id": "14a2c961-2241-4156-93e3-ec855a541e56"
+          },
+          {
+            "command": "EVENT_WAIT",
+            "args": {
+              "time": {
+                "type": "number",
+                "value": 1.5
+              },
+              "frames": {
+                "type": "number",
+                "value": 1
+              },
+              "__collapse": true
+            },
+            "id": "1dd7b99c-8cc8-4483-9bac-2eb9b0207472"
+          },
+          {
+            "command": "EVENT_ACTOR_MOVE_RELATIVE",
+            "args": {
+              "actorId": "$self$",
+              "x": {
+                "type": "number",
+                "value": 2
+              },
+              "y": {
+                "type": "number",
+                "value": 1
+              },
+              "collideWith": [
+                "walls",
+                "actors"
+              ],
+              "moveType": "vertical",
+              "__collapse": true
+            },
+            "id": "7045f987-8823-46b1-a984-932e79341641"
+          },
+          {
+            "command": "EVENT_WAIT",
+            "args": {
+              "time": {
+                "type": "number",
+                "value": 3.2
+              },
+              "frames": {
+                "type": "number",
+                "value": 1
+              }
+            },
+            "id": "55229e7e-7737-4976-a6d1-fa348475f043"
+          }
+        ]
+      },
+      "id": "87ab8e3f-fb7d-48e1-9a50-37f058827288"
+    }
+  ],
   "updateScript": [],
   "hit1Script": [],
   "hit2Script": [],

@@ -113,21 +113,31 @@
           "type": "variable",
           "value": "55"
         },
-        "__collapseElse": true
+        "__collapseElse": false
       },
       "children": {
         "true": [
           {
             "command": "EVENT_ACTOR_SET_STATE",
             "args": {
-              "actorId": "961a6930-7b55-4969-9842-78c8d3fda44b",
+              "actorId": "06ad65a3-b39b-4b6c-bce0-3cc01a5ffa21",
               "spriteStateId": "on",
-              "loopAnim": false
+              "loopAnim": true
             },
             "id": "1c069606-b100-415c-8100-4ade8c0ea547"
           }
         ],
-        "false": []
+        "false": [
+          {
+            "command": "EVENT_ACTOR_SET_STATE",
+            "args": {
+              "actorId": "$self$",
+              "spriteStateId": "",
+              "loopAnim": true
+            },
+            "id": "fb4cccbb-4a37-4474-8fb8-5e866a55c819"
+          }
+        ]
       },
       "id": "0a195baa-f3fe-4f61-81ec-1fff3716d742"
     }

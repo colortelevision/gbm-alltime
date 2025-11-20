@@ -34,14 +34,16 @@
         ],
         "override": true,
         "__scriptTabs": "press",
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
           {
             "command": "EVENT_SCENE_POP_ALL_STATE",
             "args": {
-              "fadeSpeed": "2"
+              "fadeSpeed": "2",
+              "__collapse": false,
+              "__comment": true
             },
             "id": "be830466-4642-45e9-88ce-d44eb9316ec5"
           },
@@ -49,7 +51,8 @@
             "command": "EVENT_SCENE_POP_STATE",
             "args": {
               "fadeSpeed": "2",
-              "__comment": true
+              "__comment": false,
+              "__collapse": true
             },
             "id": "a9dc37da-817d-4c7a-baf1-f2370761c794"
           }

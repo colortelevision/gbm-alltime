@@ -20,7 +20,25 @@
   "collisionGroup": "",
   "collisionExtraFlags": [],
   "prefabScriptOverrides": {},
-  "script": [],
+  "script": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "76",
+        "value": {
+          "type": "true"
+        }
+      },
+      "id": "21891956-4601-4eae-9389-abff59b9a155"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "ab582b97-0e6c-40d9-9a7c-798989433aab"
+      },
+      "id": "9d54d628-b99d-47d5-9e95-489867ff3c6a"
+    }
+  ],
   "startScript": [],
   "updateScript": [],
   "hit1Script": [],

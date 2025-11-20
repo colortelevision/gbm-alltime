@@ -1,44 +1,46 @@
 {
   "_resourceType": "actor",
-  "id": "09ec8350-b5c5-439e-b97a-f2778829ff3d",
-  "_index": 5,
-  "symbol": "actor_38",
-  "prefabId": "",
+  "id": "7da0def5-ca9b-49a8-a58a-8173e035a721",
   "name": "",
-  "coordinateType": "tiles",
-  "x": 77,
-  "y": 4,
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "3b720790-4142-465f-b4df-904bc403ad45",
-  "paletteId": "",
+  "spriteSheetId": "8f401b5c-e99a-456d-badf-af867f685b4c",
+  "prefabId": "",
   "direction": "down",
   "moveSpeed": 1,
   "animSpeed": 15,
+  "paletteId": "",
   "isPinned": false,
   "persistent": false,
   "collisionGroup": "",
   "collisionExtraFlags": [],
   "prefabScriptOverrides": {},
+  "symbol": "actor_48",
   "script": [],
   "startScript": [
     {
       "command": "EVENT_PALETTE_SET_SPRITE",
       "args": {
-        "palette0": "keep",
+        "palette0": "1192b80c-2a58-470d-91dc-c5fe77520be3",
         "palette1": "keep",
         "palette2": "keep",
         "palette3": "keep",
         "palette4": "keep",
         "palette5": "keep",
         "palette6": "keep",
-        "palette7": "keep"
+        "palette7": "keep",
+        "__collapse": false,
+        "__comment": true
       },
-      "id": "1eee36d9-dc3b-4ed2-a49c-907d0b4bf1f7"
+      "id": "4733dfd9-f3d0-4666-8f2e-83add7bbc513"
     }
   ],
   "updateScript": [],
   "hit1Script": [],
   "hit2Script": [],
-  "hit3Script": []
+  "hit3Script": [],
+  "coordinateType": "tiles",
+  "x": 70,
+  "y": 26,
+  "_index": 10
 }

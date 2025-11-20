@@ -28,31 +28,33 @@
             "args": {
               "actorId": "69661f2c-1381-41d6-9dfe-7b07ed3ba6c3",
               "emoteId": "7f3448d2-0251-4a83-b64f-a6a7fc0746fc",
-              "__collapse": true
+              "__collapse": false
             },
             "id": "8e3b3d08-70f8-4f59-83d3-bbdb5d7efb13"
           },
           {
             "command": "EVENT_TEXT",
             "args": {
-              "text": "",
-              "__section": "text",
-              "avatarId": "",
+              "text": [
+                "HEY! GET OFF THE COURT!!"
+              ],
+              "__section": "layout",
+              "avatarId": "5c639d6d-2434-491f-b82f-62e2a33c2e34",
               "minHeight": 4,
-              "maxHeight": 7,
-              "textX": 1,
-              "textY": 1,
-              "textHeight": 5,
-              "position": "bottom",
+              "maxHeight": 4,
+              "textX": 3,
+              "textY": 2,
+              "textHeight": 1,
+              "position": "top",
               "clearPrevious": true,
-              "showFrame": "true",
+              "showFrame": false,
               "speedIn": -1,
               "speedOut": -1,
               "closeWhen": "key",
-              "closeButton": "a",
+              "closeButton": "any",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
-              "__collapse": true
+              "__collapse": false
             },
             "id": "7af4efe2-9bd4-4434-9066-998641ef7892"
           },

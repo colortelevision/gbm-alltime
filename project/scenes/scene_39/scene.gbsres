@@ -2,12 +2,15 @@
   "_resourceType": "scene",
   "id": "ded6baad-2400-4c26-9a79-b416093dafef",
   "_index": 38,
+  "type": "TOPDOWN",
   "name": "Scene 39",
-  "backgroundId": "9d70176f-1157-448a-b9c0-d64719c35a57",
-  "tilesetId": "",
+  "symbol": "scene_39",
+  "x": 2696,
+  "y": 1336,
   "width": 110,
   "height": 54,
-  "type": "TOPDOWN",
+  "backgroundId": "9d70176f-1157-448a-b9c0-d64719c35a57",
+  "tilesetId": "",
   "colorModeOverride": "none",
   "paletteIds": [
     "a8353c40-a7c8-4424-a3cb-f82bf0261c93",
@@ -20,43 +23,85 @@
     "4c22bc1f-b13d-4b68-962d-a567eac810fd"
   ],
   "spritePaletteIds": [
-    "a8353c40-a7c8-4424-a3cb-f82bf0261c93"
+    "bddace7a-c5ea-4a7f-ac3f-854c0fd7a897",
+    "1192b80c-2a58-470d-91dc-c5fe77520be3",
+    "",
+    "",
+    "",
+    "",
+    "365591fd-b649-41c7-b3ea-a33ce3584370"
   ],
-  "collisions": "0fdf+00!0f2+0066+0f8+0066+0f6+00!0f!0066+0f8+0066+0f8+004+0f7+002+0f5+006+0f2e+004+0f18+004+0f8+004+0f7+002+0f5+006+0f2e+004+0f18+004+0f8+004+0f7+002+0f5+0054+0f8+004+0f7+002+0f5+0054+0f8+004+0f14+004e+0f8+004+0f14+004e+0f8+004+0f6+0012+0f2a+004+0f18+004+0f8+004+0f6+0012+0f2a+004+0f18+004+0f8+004+0f6+002+0fc+004+0f2a+004+0f18+004+0f8+004+0f6+002+0fc+004+0f2a+004+0f18+004+0f8+008+0f2+002+0f4+006+0f2+00e+0f20+004+0f18+004+0f8+008+0f2+002+0f4+006+0f2+00e+0f20+004+0f18+004+0f6+00!0f!004+0f6+002+0f4+0016+0f2+003e+0f8+004+0f6+002+0f4+0016+0f2+003e+0f8+004+0f!00!0f4+002+0fc+007+0f4+003+0f2+004+0f10+002a+0f8+004+0f6+002+0fc+005+0f2+002+0f!00!0f2+00!0f2+004+0f10+002a+0f8+004+0f6+002+0fc+004+0f!006+0f!00!0f3+004+0f1a+004+0f18+004+0f8+004+0f6+002+0fc+004+0f2+006+0f4+004+0f1a+004+0f16+006+0f8+004+0f!002+0f3+002+0fc+004+0f4+002+0f6+004+0f5+002+0f13+004+0fb+002+0f9+006+0f8+004+0f!002+0f3+002+0fc+005+0f3+002+0f6+004+0f5+002+0f13+008+0f7+002+0f7+008+0f8+0066+0f8+0066+0f8+0066+0f8+0066+0fa+004+0f6+002+0fa+004+0fc+004+0f8+002+0f8+002+0f6+002+0f8+002+0f8+004+0f12+004+0f6+002+0fa+004+0fc+004+0f8+002+0f8+002+0f6+002+0f8+002+0f8+004+0f12+004+0f6+002+0fa+004+0fc+004+0f8+002+0f8+002+0f6+002+0f8+008+0f2+004+0f12+004+0f6+002+0fa+004+0fc+004+0f8+002+0f8+002+0f6+002+0f8+008+0f2+004+0fc+0036+0f2+0022+0f4+004+0fc+0036+0f2+0022+0f4+004+0fc+004+0f2+004+0f2+004a+0f8+004+0fc+004+0f2+004+0f2+004a+0f8+004+0fc+008+0f2+002+0f2+0046+0f4+0013+0f3+008+0f2+002+0f2+0046+0f4+0013+0f!0056+0f4+0013+0f!005a+0f53c+",
   "autoFadeSpeed": 1,
-  "symbol": "scene_39",
-  "x": 2696,
-  "y": 1336,
+  "playerSpriteSheetId": "6a93315c-61d0-47f7-afff-96bf560bd964",
   "script": [
     {
-      "command": "EVENT_SET_VALUE",
+      "command": "EVENT_MUSIC_PLAY",
       "args": {
-        "variable": "69",
-        "value": {
-          "type": "number",
-          "value": 200
-        },
-        "__collapse": true
+        "musicId": "fdd403b3-8d20-4d8b-ad2f-95259b85e8b7"
       },
-      "id": "10018c61-1336-4b75-89e0-be074f808d07"
+      "id": "b1f4ac8e-05e9-4dd3-9f07-be25dfcda604"
     },
     {
-      "command": "EVENT_SET_VALUE",
+      "command": "EVENT_IF",
       "args": {
-        "variable": "68",
-        "value": {
-          "type": "number",
-          "value": 16
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "56"
+          },
+          "valueB": {
+            "type": "true"
+          }
         },
+        "__collapseElse": false,
         "__collapse": true
       },
-      "id": "2d26fbad-37be-4510-a31a-97d856406217"
+      "children": {
+        "true": [],
+        "false": [
+          {
+            "id": "b7d9f786-7ce9-434d-b754-75b714a4c869",
+            "command": "EVENT_GROUP",
+            "args": {},
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_SET_VALUE",
+                  "args": {
+                    "variable": "69",
+                    "value": {
+                      "type": "number",
+                      "value": 200
+                    },
+                    "__collapse": true
+                  },
+                  "id": "10018c61-1336-4b75-89e0-be074f808d07"
+                },
+                {
+                  "command": "EVENT_SET_VALUE",
+                  "args": {
+                    "variable": "68",
+                    "value": {
+                      "type": "number",
+                      "value": 16
+                    },
+                    "__collapse": true
+                  },
+                  "id": "2d26fbad-37be-4510-a31a-97d856406217"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "id": "fe4c34d2-d26e-4137-8f53-f141d3c8a624"
     },
     {
       "command": "EVENT_SET_INPUT_SCRIPT",
       "args": {
         "input": [
-          "select"
+          "start"
         ],
         "override": true,
         "__scriptTabs": "press",
@@ -64,6 +109,15 @@
       },
       "children": {
         "true": [
+          {
+            "command": "EVENT_PEEK_DATA",
+            "args": {
+              "variableDest": "26",
+              "variableSource": "L0",
+              "saveSlot": 0
+            },
+            "id": "be8779f3-0c35-42c2-afc9-0801074330a9"
+          },
           {
             "command": "EVENT_SCENE_PUSH_STATE",
             "args": {},
@@ -81,7 +135,7 @@
                 "type": "number",
                 "value": 3
               },
-              "direction": "",
+              "direction": "right",
               "fadeSpeed": "2"
             },
             "id": "dc9d4c6e-d848-4121-ae2b-d9ee584b676e"
@@ -94,7 +148,7 @@
       "command": "EVENT_SET_INPUT_SCRIPT",
       "args": {
         "input": [
-          "start"
+          "select"
         ],
         "override": true,
         "__scriptTabs": "press",
@@ -206,7 +260,65 @@
       "id": "96be73b7-0358-4c9b-be71-bd5a6d54c969"
     }
   ],
-  "playerHit1Script": [],
+  "playerHit1Script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "gte",
+          "valueA": {
+            "type": "variable",
+            "value": "68"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 3
+          }
+        },
+        "__collapseElse": false,
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_VARIABLE_MATH",
+            "args": {
+              "vectorX": "68",
+              "operation": "sub",
+              "other": "val",
+              "vectorY": "L0",
+              "value": 2,
+              "minValue": "0",
+              "maxValue": "32767",
+              "clamp": false,
+              "__collapse": true
+            },
+            "id": "991fd162-1a59-47d0-ad29-75aa276fa599"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "07e642cc-ed35-45c9-805e-550683671818",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": 0
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "e8d95a55-4bf4-484f-9e6b-f8667c2c3c7c"
+          }
+        ]
+      },
+      "id": "b8dae781-b61a-46f8-8b10-c1380103a77c"
+    }
+  ],
   "playerHit2Script": [
     {
       "command": "EVENT_IF",
@@ -266,5 +378,5 @@
     }
   ],
   "playerHit3Script": [],
-  "playerSpriteSheetId": "6a93315c-61d0-47f7-afff-96bf560bd964"
+  "collisions": "0fdf+00!0f2+0066+0f8+0066+0f6+00!0f!0066+0f8+0066+0f8+004+0f7+002+0f5+006+0f2e+004+0f18+004+0f8+004+0f7+002+0f5+006+0f2e+004+0f18+004+0f8+004+0f7+002+0f5+0054+0f8+004+0f7+002+0f5+0054+0f8+004+0f14+004e+0f8+004+0f14+004e+0f8+004+0f6+0012+0f2a+004+0f18+004+0f8+004+0f6+0012+0f2a+004+0f18+004+0f8+004+0f6+002+0fc+004+0f2a+004+0f18+004+0f8+004+0f6+002+0fc+004+0f2a+004+0f18+004+0f8+008+0f2+002+0f4+006+0f2+00e+0f20+004+0f18+004+0f8+008+0f2+002+0f4+006+0f2+00e+0f20+004+0f18+004+0f6+00!0f!004+0f6+002+0f4+0016+0f2+003e+0f8+004+0f6+002+0f4+0016+0f2+003e+0f8+004+0f!00!0f4+002+0fc+007+0f4+003+0f2+004+0f10+002a+0f8+004+0f6+002+0fc+005+0f2+002+0f!00!0f2+00!0f2+004+0f10+002a+0f8+004+0f6+002+0fc+004+0f!006+0f!00!0f3+004+0f1a+004+0f18+004+0f8+004+0f6+002+0fc+004+0f2+006+0f4+004+0f1a+004+0f16+006+0f8+004+0f!002+0f3+002+0fc+004+0f4+002+0f6+004+0f5+002+0f13+004+0fb+002+0f9+006+0f8+004+0f!002+0f3+002+0fc+005+0f3+002+0f6+004+0f5+002+0f13+008+0f7+002+0f7+008+0f8+0066+0f8+0066+0f8+0066+0f8+0066+0fa+004+0f6+002+0fa+004+0fc+004+0f8+002+0f8+002+0f6+002+0f8+002+0f8+004+0f12+004+0f6+002+0fa+004+0fc+004+0f8+002+0f8+002+0f6+002+0f8+002+0f8+004+0f12+004+0f6+002+0fa+004+0fc+004+0f8+002+0f8+002+0f6+002+0f8+008+0f2+004+0f12+004+0f6+002+0fa+004+0fc+004+0f8+002+0f8+002+0f6+002+0f8+008+0f2+004+0fc+0036+0f2+0022+0f4+004+0fc+0036+0f2+0022+0f4+004+0fc+004+0f2+004+0f2+004a+0f8+004+0fc+004+0f2+004+0f2+004a+0f8+004+0fc+008+0f2+002+0f2+0046+0f4+0013+0f3+008+0f2+002+0f2+0046+0f4+0013+0f!0056+0f4+0013+0f!005a+0f53c+"
 }
