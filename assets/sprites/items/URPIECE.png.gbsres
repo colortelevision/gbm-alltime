@@ -1,0 +1,129 @@
+{
+  "_resourceType": "sprite",
+  "id": "ea5a92f3-75b0-4c0c-9a85-c2f8680b851c",
+  "name": "items/URPIECE",
+  "symbol": "sprite_items_urpiece",
+  "states": [
+    {
+      "id": "54b396df-e883-4537-8c96-f6d19702fe41",
+      "name": "",
+      "animationType": "fixed",
+      "flipLeft": false,
+      "animations": [
+        {
+          "id": "5512b7c0-73ff-4ea2-99ba-a872bd1adbdb",
+          "frames": [
+            {
+              "id": "63117f53-d2c8-43ce-bcc2-5b127173d7e4",
+              "tiles": [
+                {
+                  "id": "a5b24d87-5927-4964-b7dd-eab0e6f2d384",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 0,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                },
+                {
+                  "id": "8e861921-c4d9-4fae-aff5-ad5bddce1f01",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 8,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "42efd3be-915b-4190-844c-2d7fbf6328ea",
+          "frames": [
+            {
+              "id": "0799d8f7-024b-4c7d-92cb-1ab2f87c2a62",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "09bd7b2b-b8ab-4ed3-9fba-c6eba8ab9f4c",
+          "frames": [
+            {
+              "id": "e8d94a45-5894-401a-ab10-2a41773d1fa0",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "f0770ff1-4f0e-4c48-bf1e-d43de4e9befb",
+          "frames": [
+            {
+              "id": "cc9e0ad3-6059-4a9f-a5b7-ec79ed0dbe24",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "6ea56061-f3cd-4c76-b474-25383673b63b",
+          "frames": [
+            {
+              "id": "423903f3-c15e-456a-a21e-56b11e264fc1",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "6eaaa5b9-0ef4-4483-a69e-e8920f01749e",
+          "frames": [
+            {
+              "id": "5de7836c-d55b-4477-b223-fc4bbb7695b5",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "2793101e-66f3-44c1-9d31-064aa0cabd1b",
+          "frames": [
+            {
+              "id": "13dd2ba1-ceae-45cc-a2b9-346e345bd215",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "64aa2765-d831-4a20-a48b-0d6f80b673e6",
+          "frames": [
+            {
+              "id": "b5471102-9d7c-447f-8c43-57c37b97155c",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 2,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
+  "canvasWidth": 16,
+  "canvasHeight": 16,
+  "boundsX": 0,
+  "boundsY": -8,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "items/URPIECE.png",
+  "width": 16,
+  "height": 16,
+  "checksum": "feb4a5e0086c6c82211869d55680ea5c8c2bdadd"
+}
