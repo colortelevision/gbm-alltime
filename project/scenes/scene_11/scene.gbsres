@@ -57,10 +57,22 @@
             "command": "EVENT_ACTOR_SET_COLLISION_BOX",
             "args": {
               "actorId": "ab3fb6c7-69e9-4f19-b5db-b45775047975",
-              "x": 2,
-              "y": -10,
-              "width": 9,
-              "height": 16,
+              "x": {
+                "type": "number",
+                "value": 2
+              },
+              "y": {
+                "type": "number",
+                "value": -10
+              },
+              "width": {
+                "type": "number",
+                "value": 9
+              },
+              "height": {
+                "type": "number",
+                "value": 16
+              },
               "__collapse": false
             },
             "id": "1648ee0d-7542-4a48-8e05-6009c910a1e9"
