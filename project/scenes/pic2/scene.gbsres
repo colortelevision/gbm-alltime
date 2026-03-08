@@ -1,7 +1,7 @@
 {
   "_resourceType": "scene",
   "id": "7e229957-ddd2-4953-b024-fe0859fb3f1b",
-  "_index": 41,
+  "_index": 40,
   "type": "LOGO",
   "name": "pic2",
   "symbol": "scene_42",
@@ -40,14 +40,6 @@
               "fadeSpeed": "2"
             },
             "id": "0ebd4156-8ad2-4548-8edc-5e53d9a5f682"
-          },
-          {
-            "command": "EVENT_SCENE_POP_STATE",
-            "args": {
-              "fadeSpeed": "2",
-              "__comment": true
-            },
-            "id": "8b8232b3-cb2f-4223-8209-d25a9bbe0ba3"
           }
         ]
       },

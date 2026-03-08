@@ -1,7 +1,7 @@
 {
   "_resourceType": "scene",
   "id": "36b29559-ddf3-4ab9-9162-21efb20a0e3b",
-  "_index": 32,
+  "_index": 31,
   "type": "POINTNCLICK",
   "name": "Scene 33",
   "symbol": "scene_33",
@@ -23,13 +23,7 @@
     "a8353c40-a7c8-4424-a3cb-f82bf0261c93"
   ],
   "autoFadeSpeed": 1,
-  "script": [
-    {
-      "command": "EVENT_CALL_CUSTOM_EVENT",
-      "args": {},
-      "id": "fc2e0445-bb71-4207-a9a5-eead004488ab"
-    }
-  ],
+  "script": [],
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],

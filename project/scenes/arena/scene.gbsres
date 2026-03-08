@@ -1,7 +1,7 @@
 {
   "_resourceType": "scene",
   "id": "b9f61af9-9379-44bf-8280-0d8ff1f650b3",
-  "_index": 4,
+  "_index": 3,
   "type": "PLATFORM",
   "name": "Arena",
   "symbol": "scene_5",
@@ -28,8 +28,8 @@
       "command": "EVENT_ACTOR_SET_SPRITE",
       "args": {
         "actorId": "$self$",
-        "spriteSheetId": "1e5260e5-0979-419d-92e3-87b702306fb2",
-        "__comment": true
+        "spriteSheetId": "4c52abbd-27c5-4144-a74a-affe1f6e7292",
+        "__comment": false
       },
       "id": "ed52d2ba-5df2-45dc-8aa6-26b23d83567e"
     },
@@ -73,7 +73,7 @@
           "type": "direction",
           "value": "right"
         },
-        "__collapse": true
+        "__collapse": false
       },
       "id": "3302ac4e-5dbc-4ff5-ba73-2f9f05e9237d"
     },
@@ -85,7 +85,7 @@
           "type": "direction",
           "value": "left"
         },
-        "__collapse": true
+        "__collapse": false
       },
       "id": "b3873fb3-9341-471e-b757-2579e303c6da"
     },

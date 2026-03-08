@@ -1,0 +1,102 @@
+{
+  "_resourceType": "sprite",
+  "id": "ce4ed3f9-d63e-439f-9650-7bdc18d3bb51",
+  "name": "TILESET_TESELIT",
+  "symbol": "sprite_tileset_teselit",
+  "states": [
+    {
+      "id": "4e87bad4-80a0-4bf2-a6e3-0aa54d888a1c",
+      "name": "",
+      "animationType": "multi_movement",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "f45f9a81-9cc6-46f6-ac1d-86a9095c7e01",
+          "frames": [
+            {
+              "id": "9bf79e4d-51c1-443d-b4af-8dda2f386a58",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "bc07c28b-08e8-4629-ac50-548061483bec",
+          "frames": [
+            {
+              "id": "838e17b1-1da1-4e7f-9b5b-d1863c3d0f8d",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "87f5e981-3707-450c-a8a8-ace0a8ce4be2",
+          "frames": [
+            {
+              "id": "bbc7ec26-3962-4b0a-a98a-ca0624c84bc4",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "c4921889-915c-4cdb-8a04-aedccdf2ef2a",
+          "frames": [
+            {
+              "id": "4d6b742b-19da-4b99-b710-0480d2a892a4",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "1b7e4ca0-e308-4e79-951b-b888b466796c",
+          "frames": [
+            {
+              "id": "2c5c5293-6f5e-4d7f-878c-abb0ed8c5c6d",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "2fe77153-1559-4027-9288-7e470fcd9c64",
+          "frames": [
+            {
+              "id": "819ee483-d91c-4d90-9b9c-7ec97d97a4f9",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "8c5e607d-eb7d-4926-b147-068ce6d5e25d",
+          "frames": [
+            {
+              "id": "dc69ff14-9c71-46dc-a9a8-172783bdcd12",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "5206df09-840b-4fad-a2da-e13b64ff4618",
+          "frames": [
+            {
+              "id": "e006bc72-a62e-463f-8fad-0e9d2e0733e9",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 0,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
+  "canvasWidth": 32,
+  "canvasHeight": 32,
+  "boundsX": 0,
+  "boundsY": -8,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "TILESET_TESELIT.png",
+  "width": 256,
+  "height": 64,
+  "checksum": "52e5819a4476ceca78883d4198e2ecf0bdaecc78"
+}

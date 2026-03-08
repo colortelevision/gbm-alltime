@@ -1,7 +1,7 @@
 {
   "_resourceType": "scene",
   "id": "efcfd492-3744-48df-9bd5-5825f69c57fc",
-  "_index": 42,
+  "_index": 41,
   "name": "pic3",
   "backgroundId": "577c095c-6612-462b-9560-0666a0e5815d",
   "tilesetId": "",
@@ -38,14 +38,6 @@
               "fadeSpeed": "2"
             },
             "id": "91b6639a-6318-4cc8-88f8-3b5b99ea062e"
-          },
-          {
-            "command": "EVENT_SCENE_POP_STATE",
-            "args": {
-              "fadeSpeed": "2",
-              "__comment": true
-            },
-            "id": "57be66b8-8b35-4d1b-9b0d-023e164ef338"
           }
         ]
       },

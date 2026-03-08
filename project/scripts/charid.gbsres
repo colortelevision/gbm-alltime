@@ -13,39 +13,6 @@
   "symbol": "script_4",
   "script": [
     {
-      "command": "EVENT_IF",
-      "args": {
-        "condition": {
-          "type": "eq",
-          "valueA": {
-            "type": "variable",
-            "value": "V0"
-          },
-          "valueB": {
-            "type": "variable",
-            "value": "64"
-          }
-        },
-        "__collapseElse": true,
-        "__comment": true,
-        "__collapse": true
-      },
-      "children": {
-        "true": [
-          {
-            "command": "EVENT_ACTOR_SET_SPRITE",
-            "args": {
-              "actorId": "player",
-              "spriteSheetId": "0f4e4dfe-c613-4f6f-9c70-c2d036f0f75f"
-            },
-            "id": "99bd80a1-df22-4493-acfb-3d3c31f952a3"
-          }
-        ],
-        "false": []
-      },
-      "id": "ca58551b-e7f5-494a-8da5-143eb536811a"
-    },
-    {
       "command": "EVENT_SWITCH",
       "args": {
         "variable": "64",
@@ -131,7 +98,7 @@
           "value": 16
         },
         "__collapseElse": false,
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true0": [

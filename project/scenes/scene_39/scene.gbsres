@@ -1,7 +1,7 @@
 {
   "_resourceType": "scene",
   "id": "ded6baad-2400-4c26-9a79-b416093dafef",
-  "_index": 38,
+  "_index": 37,
   "type": "TOPDOWN",
   "name": "Scene 39",
   "symbol": "scene_39",
@@ -55,7 +55,7 @@
           }
         },
         "__collapseElse": false,
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [],
@@ -181,56 +181,6 @@
       },
       "children": {
         "script": [
-          {
-            "command": "EVENT_REPLACE_TILE_XY_SEQUENCE",
-            "args": {
-              "x": {
-                "type": "number",
-                "value": 23
-              },
-              "y": {
-                "type": "number",
-                "value": 44
-              },
-              "tileIndex": {
-                "type": "number",
-                "value": 0
-              },
-              "variable": "L0",
-              "tilesetId": "c3448327-7d0e-47f5-be75-00c95bd3f2af",
-              "frames": {
-                "type": "number",
-                "value": 2
-              },
-              "__comment": true
-            },
-            "id": "9dc9eb26-96f0-45a3-ab38-dc89b7377f3c"
-          },
-          {
-            "command": "EVENT_REPLACE_TILE_XY_SEQUENCE",
-            "args": {
-              "x": {
-                "type": "number",
-                "value": 22
-              },
-              "y": {
-                "type": "number",
-                "value": 17
-              },
-              "tileIndex": {
-                "type": "number",
-                "value": 4
-              },
-              "variable": "L0",
-              "tilesetId": "4991cc19-85b6-45f9-bef6-39496dc2c62a",
-              "frames": {
-                "type": "number",
-                "value": 4
-              },
-              "__comment": true
-            },
-            "id": "cd9e6e7e-269f-465f-8ae1-903729a9604b"
-          },
           {
             "command": "EVENT_REPLACE_TILE_XY_SEQUENCE",
             "args": {
@@ -365,7 +315,7 @@
               },
               "y": {
                 "type": "number",
-                "value": 22
+                "value": 19
               },
               "direction": "down",
               "fadeSpeed": "2"

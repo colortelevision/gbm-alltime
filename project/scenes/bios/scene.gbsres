@@ -1,7 +1,7 @@
 {
   "_resourceType": "scene",
   "id": "c6957208-bf8e-4a53-8cb6-79b8d4b94593",
-  "_index": 13,
+  "_index": 12,
   "type": "POINTNCLICK",
   "name": "BIOS",
   "symbol": "scene_14",
@@ -43,7 +43,7 @@
           "value": 0
         },
         "__collapse": false,
-        "__comment": true
+        "__comment": false
       },
       "id": "2c4e8439-f2e0-49c3-9969-e707d7807e63"
     },
@@ -52,7 +52,7 @@
       "command": "EVENT_GROUP",
       "args": {
         "__collapse": false,
-        "__comment": true
+        "__comment": false
       },
       "children": {
         "true": [
@@ -63,7 +63,7 @@
               "x": 1,
               "y": 1,
               "location": "background",
-              "__collapse": true
+              "__collapse": false
             },
             "id": "1c5b5769-b4ec-4a56-8150-79403592af29"
           },
@@ -74,7 +74,7 @@
               "x": 1,
               "y": 3,
               "location": "background",
-              "__collapse": true
+              "__collapse": false
             },
             "id": "a1909c74-3b6f-4397-b10e-a146e5e3f4e7"
           },
@@ -85,7 +85,7 @@
               "x": 1,
               "y": 5,
               "location": "background",
-              "__collapse": true
+              "__collapse": false
             },
             "id": "4ac6c9fd-8c3c-4261-8845-7adb11fd60fa"
           }
@@ -145,7 +145,8 @@
           "type": "constant",
           "value": "b11b3e35-071c-43e3-a28d-cd6f612035de"
         },
-        "__comment": true
+        "__comment": false,
+        "__collapse": false
       },
       "id": "b47b3975-dd06-4256-b287-bf5aba099e79"
     },
@@ -168,8 +169,8 @@
       "args": {
         "variable": "T0",
         "__scriptTabs": "true",
-        "__comment": true,
-        "__collapse": true
+        "__comment": false,
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -569,7 +570,7 @@
           "value": "L0"
         },
         "$actor[0]$": "182e0294-c712-44c6-bb20-e0fe23c3da04",
-        "__comment": true
+        "__comment": false
       },
       "id": "3a9eaa7e-61b5-4748-ac08-a08d24cac669"
     }

@@ -1,0 +1,102 @@
+{
+  "_resourceType": "sprite",
+  "id": "d41ca199-06ba-4b3b-b808-da1fd8123caa",
+  "name": "items/tetradice",
+  "symbol": "sprite_items_tetradice",
+  "states": [
+    {
+      "id": "d49029ff-b3af-4c41-8c2c-33dff8ff692d",
+      "name": "",
+      "animationType": "multi_movement",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "e0dad51b-0cce-4879-bfe2-592ee0f43407",
+          "frames": [
+            {
+              "id": "cf5af97d-98a1-49bb-926e-d0f6a94d5224",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "88b891fb-b0c6-4dbd-b7e5-9efbd3fa407d",
+          "frames": [
+            {
+              "id": "706dfc83-ea90-4dfd-a9dd-3ec425d35189",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "453a709c-00bc-4bec-8dc7-97664d38b9a5",
+          "frames": [
+            {
+              "id": "aa38a597-de78-4b11-9df3-e0103b965fbb",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "2403c8ff-1a64-4689-8ec5-a6569b8fb5da",
+          "frames": [
+            {
+              "id": "8b449d45-0efe-467f-9c9b-aa5cbac6e04d",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "90edad9b-f8cb-472b-9371-7e9ba6f154bb",
+          "frames": [
+            {
+              "id": "e736a560-7e59-49d2-833b-392c276b4bab",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "4a7fb952-9131-4f62-89c7-54ae00d30212",
+          "frames": [
+            {
+              "id": "27fad906-6430-48fa-bd2b-75e450fd5e0d",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "91bde395-0185-4fce-bafc-3a8b84c43dff",
+          "frames": [
+            {
+              "id": "71e4d176-a918-40e2-8d0b-d09047d93f41",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "c411ead2-3c1f-409d-8a2c-65246348e1ad",
+          "frames": [
+            {
+              "id": "fef4c3f0-4a2d-4c47-a53c-f9b385be0410",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 0,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
+  "canvasWidth": 32,
+  "canvasHeight": 32,
+  "boundsX": 0,
+  "boundsY": -8,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "items/tetradice.png",
+  "width": 512,
+  "height": 255,
+  "checksum": "744ef7d8e5cce41d3a5a1809af540d17a18cc3e1"
+}

@@ -1,7 +1,7 @@
 {
   "_resourceType": "scene",
   "id": "e781dccc-4d86-422e-b110-3735f0192c9c",
-  "_index": 20,
+  "_index": 19,
   "type": "TOPDOWN",
   "name": "BOOT",
   "symbol": "scene_21",
@@ -27,13 +27,13 @@
   ],
   "autoFadeSpeed": 1,
   "autoFadeEventCollapse": true,
-  "playerSpriteSheetId": "0496c361-8944-44f7-853e-a1957b482c4a",
+  "playerSpriteSheetId": "7af91c2d-1507-4a72-b383-cde1c094f949",
   "script": [
     {
       "command": "EVENT_ACTOR_HIDE",
       "args": {
         "actorId": "$self$",
-        "__comment": true,
+        "__comment": false,
         "__collapse": false
       },
       "id": "1743eda6-4c58-4f06-85c5-2a25c9e87961"

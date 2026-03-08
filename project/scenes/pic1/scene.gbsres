@@ -1,7 +1,7 @@
 {
   "_resourceType": "scene",
   "id": "b90b942a-9dbb-4d2b-b759-c85afec39250",
-  "_index": 40,
+  "_index": 39,
   "type": "LOGO",
   "name": "pic1",
   "symbol": "scene_41",
@@ -39,20 +39,11 @@
       "children": {
         "true": [
           {
-            "command": "EVENT_SCENE_POP_ALL_STATE",
-            "args": {
-              "fadeSpeed": "2",
-              "__collapse": false,
-              "__comment": true
-            },
-            "id": "be830466-4642-45e9-88ce-d44eb9316ec5"
-          },
-          {
             "command": "EVENT_SCENE_POP_STATE",
             "args": {
               "fadeSpeed": "2",
               "__comment": false,
-              "__collapse": true
+              "__collapse": false
             },
             "id": "a9dc37da-817d-4c7a-baf1-f2370761c794"
           }
