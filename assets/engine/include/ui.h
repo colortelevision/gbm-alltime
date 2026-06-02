@@ -50,7 +50,7 @@ extern UBYTE text_ff_joypad;
 extern UBYTE text_ff;
 extern UBYTE text_bkg_fill;
 
-extern unsigned char ui_text_data[TEXT_MAX_LENGTH];
+extern unsigned char ui_text_data[TEXT_MAX_LENGTH + 1];
 
 #define UI_PRINT_LEFTTORIGHT 0
 #define UI_PRINT_RIGHTTOLEFT 1
@@ -79,7 +79,7 @@ extern UBYTE text_palette;
 #endif
 
 void ui_init(void) BANKED;
-void ui_update(void) NONBANKED;  // critical path, NONBANKED for speed
+void ui_update(void) BANKED;
 
 void ui_load_tiles(void) BANKED;
 

@@ -131,6 +131,15 @@ OP_VM_JUMP         = 0x09
         .db OP_VM_JUMP, #>LABEL, #<LABEL
 .endm
 
+OP_VM_RATE_LIMIT_CONST = 0x1C
+;-- If the last execution of the same instruction was less than N frames ago, jump to the specified label.
+; @param N Minimum number of frames between two executions of the same instruction.
+; @param IDX Variable to store last call time.
+; @param LABEL Jump label.
+.macro VM_RATE_LIMIT_CONST, N, IDX, LABEL
+        .db OP_VM_RATE_LIMIT_CONST, #>LABEL, #<LABEL, #>IDX, #<IDX, #>N, #<N
+.endm
+
 OP_VM_CALL_FAR     = 0x0A
 ;-- Calls far routine (inter-bank call).
 ; @param BANK Bank number of the routine.
@@ -235,23 +244,7 @@ OP_VM_SET_CONST   = 0x14
 .endm
 
 OP_VM_RPN          = 0x15
-.ADD               = '+'
-.SUB               = '-'
-.MUL               = '*'
-.DIV               = '/'
-.MOD               = '%'
-.B_AND             = '&'
-.B_OR              = '|'
-.B_XOR             = '^'
-.B_NOT             = '~'
-.SHL               = 'L'
-.SHR               = 'R'
-.ABS               = '@'
-.MIN               = 'm'
-.MAX               = 'M'
-.ISQRT             = 'Q'
-.ATAN2             = 'T'
-.RND               = 'r'
+.STOP              = 0
 ;.EQ                = 1
 ;.LT                = 2
 ;.LTE               = 3
@@ -261,52 +254,86 @@ OP_VM_RPN          = 0x15
 .AND               = 7
 .OR                = 8
 .NOT               = 9
+.ADD               = 10
+.SUB               = 11
+.MUL               = 12
+.DIV               = 13
+.MOD               = 14
+.B_AND             = 15
+.B_OR              = 16
+.B_XOR             = 17
+.SHL               = 18
+.SHR               = 19
+.MIN               = 20
+.MAX               = 21
+.ATAN2             = 22
+.ABS               = 23
+.B_NOT             = 24
+.NEG               = 25
+.ISQRT             = 26
+.RND               = 27
+
+.INT8              = -1
+.INT16             = -2
+.REF               = -3
+.REF_IND           = -4
+.REF_SET           = -5
+.REF_SET_IND       = -6
+.REF_MEM           = -7
+.REF_MEM_SET       = -8
+.REF_MEM_IND       = -9
+
 ;-- Reverse Polish Notation (RPN) calculator, returns result(s) on the VM stack.
 .macro VM_RPN
         .db OP_VM_RPN
 .endm
 .macro .R_INT8 ARG0
-        .db -1
+        .db .INT8
         .db #<ARG0
 .endm
 .macro .R_INT16 ARG0
-        .db -2
+        .db .INT16
         .dw #ARG0
 .endm
 .macro .R_REF ARG0
-        .db -3
+        .db .REF
         .dw #ARG0
 .endm
 .macro .R_REF_IND ARG0
-        .db -4
+        .db .REF_IND
         .dw #ARG0
 .endm
 .macro .R_REF_SET ARG0
-        .db -5
+        .db .REF_SET
         .dw #ARG0
 .endm
 .macro .R_REF_SET_IND ARG0
-        .db -6
+        .db .REF_SET_IND
         .dw #ARG0
 .endm
 .MEM_I8            = 'i'
 .MEM_U8            = 'u'
 .MEM_I16           = 'I'
 .macro .R_REF_MEM TYP, ADDR
-        .db -7
+        .db .REF_MEM
         .db #<TYP
         .dw #ADDR
 .endm
 .macro .R_REF_MEM_SET TYP, ADDR
-        .db -8
+        .db .REF_MEM_SET
         .db #<TYP
         .dw #ADDR
+.endm
+.macro .R_REF_MEM_IND TYP, ARG0
+        .db .REF_MEM_IND
+        .db #<TYP
+        .dw #ARG0
 .endm
 .macro .R_OPERATOR ARG0
         .db ARG0
 .endm
 .macro .R_STOP
-        .db 0
+        .db .STOP
 .endm
 
 OP_VM_JOIN       = 0x16
@@ -352,6 +379,18 @@ OP_VM_IF_CONST  = 0x1A
 ; @param N Number of values to be removed from stack after evaluating the condition.
 .macro VM_IF_CONST CONDITION, IDXA, B, LABEL, N
         .db OP_VM_IF_CONST, #<N, #>LABEL, #<LABEL, #>B, #<B, #>IDXA, #<IDXA, #<CONDITION
+.endm
+
+OP_VM_ASM             = 0x1B
+;-- Executes the inline native code
+.macro VM_ASM
+        .db OP_VM_ASM
+.endm
+
+;-- Terminates execution of the inline native code
+.macro VM_ENDASM
+        pop hl
+        rst 0x20
 .endm
 
 ;-- Gets unsigned int8 from WRAM.
@@ -613,6 +652,90 @@ OP_VM_ACTOR_MOVE_TO             = 0x30
         .db OP_VM_ACTOR_MOVE_TO, #>IDX, #<IDX
 .endm
 
+OP_VM_ACTOR_MOVE_TO_INIT        = 0x8F
+;-- Initialises moving actor to a new position. Handles calculating relative offsets, snapping and tile collision checks
+; @param IDX points to the beginning of the pseudo-structure that contains these members:
+;    `ID`   - Actor number.
+;    `X`    - New X-coordinate of the actor.
+;    `Y`    - New Y-coordinate of the actor.
+; @param ATTR bit flags:
+;    `.ACTOR_ATTR_H_FIRST`    - Move horizontal first.
+;    `.ACTOR_ATTR_CHECK_COLL` - Respect collisions.
+;    `.ACTOR_ATTR_DIAGONAL`   - Allow diagonal movement
+.macro VM_ACTOR_MOVE_TO_INIT IDX, ATTR
+        .db OP_VM_ACTOR_MOVE_TO_INIT, #<ATTR, #>IDX, #<IDX
+.endm
+
+OP_VM_ACTOR_MOVE_TO_X           = 0x90
+;-- Move actor to a new position along X-axis only.
+; @param IDX points to the beginning of the pseudo-structure that contains these members:
+;    `ID`   - Actor number.
+;    `X`    - New X-coordinate of the actor.
+;    `Y`    - New Y-coordinate of the actor.
+; @param ATTR bit flags:
+;    `.ACTOR_ATTR_H_FIRST`    - Move horizontal first.
+;    `.ACTOR_ATTR_CHECK_COLL` - Respect collisions.
+;    `.ACTOR_ATTR_DIAGONAL`   - Allow diagonal movement
+.macro VM_ACTOR_MOVE_TO_X IDX, ATTR
+        .db OP_VM_ACTOR_MOVE_TO_X, #<ATTR, #>IDX, #<IDX
+.endm
+
+OP_VM_ACTOR_MOVE_TO_Y           = 0x91
+;-- Move actor to a new position along Y-axis only.
+; @param IDX points to the beginning of the pseudo-structure that contains these members:
+;    `ID`   - Actor number.
+;    `X`    - New X-coordinate of the actor.
+;    `Y`    - New Y-coordinate of the actor.
+; @param ATTR bit flags:
+;    `.ACTOR_ATTR_H_FIRST`    - Move horizontal first.
+;    `.ACTOR_ATTR_CHECK_COLL` - Respect collisions.
+;    `.ACTOR_ATTR_DIAGONAL`   - Allow diagonal movement
+.macro VM_ACTOR_MOVE_TO_Y IDX, ATTR
+        .db OP_VM_ACTOR_MOVE_TO_Y, #<ATTR, #>IDX, #<IDX
+.endm
+
+OP_VM_ACTOR_MOVE_TO_XY          = 0x92
+;-- Move actor to a new position along both X and Y axes.
+; @param IDX points to the beginning of the pseudo-structure that contains these members:
+;    `ID`   - Actor number.
+;    `X`    - New X-coordinate of the actor.
+;    `Y`    - New Y-coordinate of the actor.
+; @param ATTR bit flags:
+;    `.ACTOR_ATTR_H_FIRST`    - Move horizontal first.
+;    `.ACTOR_ATTR_CHECK_COLL` - Respect collisions.
+;    `.ACTOR_ATTR_DIAGONAL`   - Allow diagonal movement
+.macro VM_ACTOR_MOVE_TO_XY IDX, ATTR
+        .db OP_VM_ACTOR_MOVE_TO_XY, #<ATTR, #>IDX, #<IDX
+.endm
+
+OP_VM_ACTOR_MOVE_TO_SET_DIR_X           = 0x93
+;-- Set actor direction to face towards X-axis destination. If actor is already at X-axis destination, direction is not changed.
+; @param IDX points to the beginning of the pseudo-structure that contains these members:
+;    `ID`   - Actor number.
+;    `X`    - New X-coordinate of the actor.
+;    `Y`    - New Y-coordinate of the actor.
+.macro VM_ACTOR_MOVE_TO_SET_DIR_X IDX
+        .db OP_VM_ACTOR_MOVE_TO_SET_DIR_X, #>IDX, #<IDX
+.endm
+
+OP_VM_ACTOR_MOVE_TO_SET_DIR_Y           = 0x94
+;-- Set actor direction to face towards Y-axis destination. If actor is already at Y-axis destination, direction is not changed.
+; @param IDX points to the beginning of the pseudo-structure that contains these members:
+;    `ID`   - Actor number.
+;    `X`    - New X-coordinate of the actor.
+;    `Y`    - New Y-coordinate of the actor.
+.macro VM_ACTOR_MOVE_TO_SET_DIR_Y IDX
+        .db OP_VM_ACTOR_MOVE_TO_SET_DIR_Y, #>IDX, #<IDX
+.endm
+
+OP_VM_ACTOR_SET_ANIM_MOVING             = 0x95
+;-- Set actor to moving animation of current facing direction.
+; @param IDX points to the beginning of the pseudo-structure that contains these members:
+;    `ID`   - Actor number.
+.macro VM_ACTOR_SET_ANIM_MOVING IDX
+        .db OP_VM_ACTOR_SET_ANIM_MOVING, #>IDX, #<IDX
+.endm
+
 OP_VM_ACTOR_MOVE_CANCEL         = 0x88
 ;-- Cancels movement of actor.
 ; @param ACTOR Variable that contains the actor number.
@@ -679,13 +802,14 @@ OP_VM_ACTOR_EMOTE               = 0x36
 
 OP_VM_ACTOR_SET_BOUNDS          = 0x37
 ;-- Sets actor bounding box.
-; @param ACTOR Variable that contains the actor number.
-; @param LEFT Left boundary of the bounding box.
-; @param RIGHT Right boundary of the bounding box.
-; @param TOP Top boundary of the bounding box.
-; @param BOTTOM Bottom boundary of the bounding box.
-.macro VM_ACTOR_SET_BOUNDS ACTOR, LEFT, RIGHT, TOP, BOTTOM
-        .db OP_VM_ACTOR_SET_BOUNDS, #>BOTTOM, #<BOTTOM, #>TOP, #<TOP, #>RIGHT, #<RIGHT, #>LEFT, #<LEFT, #>ACTOR, #<ACTOR
+; @param IDX points to the beginning of the pseudo-structure that contains these members:
+;    `ID`     - Actor number.
+;    `LEFT`   - New left boundary of the bounding box.
+;    `RIGHT`  - New right boundary of the bounding box.
+;    `TOP`    - New top boundary of the bounding box.
+;    `BOTTOM` - New bottom boundary of the bounding box.
+.macro VM_ACTOR_SET_BOUNDS IDX
+        .db OP_VM_ACTOR_SET_BOUNDS, #>IDX, #<IDX
 .endm
 
 OP_VM_ACTOR_SET_SPRITESHEET     = 0x38
@@ -926,6 +1050,15 @@ OP_VM_OVERLAY_SETPOS    = 0x42
 ;-- Hides the overlay window.
 .macro VM_OVERLAY_HIDE
         VM_OVERLAY_SETPOS 0, .MENU_CLOSED_Y
+.endm
+
+;-- Loads text in memory similar to VM_LOAD_TEXT but expect parameters on the VM stack, then pop N parameters
+; .ARG0 -- bank of the format string and the arguments array
+; .ARG1 -- address of the format string
+; format string parameters start from .ARG2 (varargs)
+OP_VM_LOAD_TEXT_EX      = 0x43
+.macro VM_LOAD_TEXT_EX N
+        .db OP_VM_LOAD_TEXT_EX, #<N
 .endm
 
 OP_VM_OVERLAY_WAIT      = 0x44
@@ -1334,27 +1467,41 @@ OP_VM_MUSIC_STOP        = 0x61
 .endm
 
 OP_VM_MUSIC_MUTE        = 0x62
+.MUTE_CH1               = 1
+.MUTE_DUTY1             = 1
+.MUTE_CH2               = 2
+.MUTE_DUTY2             = 2
+.MUTE_CH3               = 4
+.MUTE_WAVE              = 4
+.MUTE_CH4               = 8
+.MUTE_NOISE             = 8
 ;-- Mutes/unmutes music channels.
 ; @param MASK Mute Mask. The 4 lower bits represent the 4 audio channels.
 ;
-; | `MASK`   | Channel 1 | Channel 2 | Channel 3 | Channel 4 |
+; It is possible to use channel definitions as follows:
+;
+;   VM_MUSIC_MUTE ^/(.MUTE_DUTY1 | .MUTE_NOISE)/
+;
+; That is muting music on the DUTY 1 and NOISE channels. Alternatively, you may pick the MASK value from the table below for the required combination:
+;
+; | `MASK`   | `Noise`   | `Wave`    | `Duty 2`  | `Duty 1`  |
 ; | -------- | --------- | --------- | --------- | --------- |
-; | `0b0000` | Muted     | Muted     | Muted     | Muted     |
-; | `0b0001` | Muted     | Muted     | Muted     | Not Muted |
-; | `0b0010` | Muted     | Muted     | Not Muted | Muted     |
-; | `0b0011` | Muted     | Muted     | Not Muted | Not Muted |
-; | `0b0100` | Muted     | Not Muted | Muted     | Muted     |
-; | `0b0101` | Muted     | Not Muted | Muted     | Not Muted |
-; | `0b0110` | Muted     | Not Muted | Not Muted | Muted     |
-; | `0b0111` | Muted     | Not Muted | Not Muted | Not Muted |
-; | `0b1000` | Not Muted | Muted     | Muted     | Muted     |
-; | `0b1001` | Not Muted | Muted     | Muted     | Not Muted |
-; | `0b1010` | Not Muted | Muted     | Not Muted | Muted     |
-; | `0b1011` | Not Muted | Muted     | Not Muted | Not Muted |
-; | `0b1100` | Not Muted | Not Muted | Muted     | Muted     |
-; | `0b1101` | Not Muted | Not Muted | Muted     | Not Muted |
-; | `0b1110` | Not Muted | Not Muted | Not Muted | Muted     |
-; | `0b1111` | Not Muted | Not Muted | Not Muted | Not Muted |
+; | `0b0000` | Not muted | Not muted | Not muted | Not muted |
+; | `0b0001` | Not muted | Not muted | Not muted | Muted     |
+; | `0b0010` | Not muted | Not muted | Muted     | Not muted |
+; | `0b0011` | Not muted | Not muted | Muted     | Muted     |
+; | `0b0100` | Not muted | Muted     | Not muted | Not muted |
+; | `0b0101` | Not muted | Muted     | Not muted | Muted     |
+; | `0b0110` | Not muted | Muted     | Muted     | Not muted |
+; | `0b0111` | Not muted | Muted     | Muted     | Muted     |
+; | `0b1000` | Muted     | Not muted | Not muted | Not muted |
+; | `0b1001` | Muted     | Not muted | Not muted | Muted     |
+; | `0b1010` | Muted     | Not muted | Muted     | Not muted |
+; | `0b1011` | Muted     | Not muted | Muted     | Muted     |
+; | `0b1100` | Muted     | Muted     | Not muted | Not muted |
+; | `0b1101` | Muted     | Muted     | Not muted | Muted     |
+; | `0b1110` | Muted     | Muted     | Muted     | Not muted |
+; | `0b1111` | Muted     | Muted     | Muted     | Muted     |
 .macro VM_MUSIC_MUTE MASK
         .db OP_VM_MUSIC_MUTE, #<MASK
 .endm
@@ -1382,7 +1529,7 @@ OP_VM_SFX_PLAY          = 0x66
 ;-- Plays a sound effect asset.
 ; @param BANK Bank number of the effect.
 ; @param ADDR Address of the effect.
-; @param MASK Mute mask of the effect.
+; @param MASK Mute mask of the effect, same as in VM_MUSIC_MUTE.
 ; @param PRIO Priority of the sound effect. Effects with higher priority will cancel the ones with less priority:
 ;   `.SFX_PRIORITY_MINIMAL` - Minmium priority for playback.
 ;   `.SFX_PRIORITY_NORMAL`  - Normal priority for playback.

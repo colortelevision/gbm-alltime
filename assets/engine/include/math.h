@@ -48,9 +48,6 @@
 #define DIV_4(a) ((a) >> 2)
 #define DIV_2(a) ((a) >> 1)
 
-#define SIN(a)  (sine_wave[(uint8_t)(a)])
-#define COS(a)  (sine_wave[(uint8_t)((uint8_t)(a) + 64u)])
-
 #define ANGLE_UP        0
 #define ANGLE_RIGHT     64
 #define ANGLE_DOWN      128
@@ -90,7 +87,10 @@
 #define PX_SNAP_TILE(a)     ((a) & 0xFFF8)
 
 #define SUBPX_TILE_REMAINDER(a) ((UBYTE)((a) & 0xFF))
+#define SUBPX_PX_REMAINDER(a)   ((UBYTE)((a) & 0x1F))
 #define PX_TILE_REMAINDER(a)    ((UBYTE)((a) & 0x7))
+
+#define EXCLUSIVE_OFFSET(x) ((x) + 1)
 
 #define WORD_MIN            -32768
 #define WORD_MAX            32767
@@ -133,9 +133,6 @@ typedef enum {
     DIR_NONE
 } direction_e;
 
-extern const int8_t sine_wave[256];
-extern const uint8_t dir_angle_lookup[4];
-
 inline void point_translate_dir(upoint16_t *point, direction_e dir, uint8_t speed) {
     if(dir == DIR_RIGHT)
         point->x += speed;
@@ -158,16 +155,6 @@ inline void point_translate_dir_word(upoint16_t *point, direction_e dir, uint16_
         point->y -= speed;
 }
 
-inline void upoint_translate_angle(upoint16_t *point, uint8_t angle, uint8_t speed) {
-    point->x += ((SIN(angle) * (speed)) >> 7);
-    point->y -= ((COS(angle) * (speed)) >> 7);
-}
-
-inline void point_translate_angle_to_delta(point16_t *point, uint8_t angle, uint8_t speed) {
-    point->x = ((SIN(angle) * (speed)) >> 7);
-    point->y = ((COS(angle) * (speed)) >> 7);
-}
-
 // Saturating addition of a signed 16-bit delta onto an unsigned 16-bit base.
 // Clamps to 0 or UINT16_MAX without ever using a 32-bit type.
 inline uint16_t saturating_add_u16(uint16_t base, int16_t delta) {
@@ -188,7 +175,7 @@ inline uint16_t saturating_add_u16(uint16_t base, int16_t delta) {
     }
 }
 
-uint8_t isqrt(uint16_t x) NONBANKED;
+uint8_t isqrt(uint16_t x) BANKED;
 uint8_t atan2(int16_t y, int16_t x) BANKED;
 
 #endif
