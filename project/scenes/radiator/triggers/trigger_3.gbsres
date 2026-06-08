@@ -1,0 +1,52 @@
+{
+  "_resourceType": "trigger",
+  "id": "b73fd0fa-4a53-4209-b0f9-5febafc44ea6",
+  "name": "",
+  "prefabId": "",
+  "x": 88,
+  "y": 54,
+  "symbol": "trigger_102",
+  "prefabScriptOverrides": {},
+  "width": 4,
+  "height": 4,
+  "script": [
+    {
+      "command": "PT_EVENT_ACTOR_EFFECTS",
+      "args": {
+        "effect": "split_out",
+        "actorId": "$self$",
+        "distance": 20,
+        "speed": 4
+      },
+      "id": "4582e470-2964-4744-a775-639643651ab0"
+    },
+    {
+      "command": "EVENT_PLAYER_SET_SPRITE",
+      "args": {
+        "spriteSheetId": "6a93315c-61d0-47f7-afff-96bf560bd964"
+      },
+      "id": "f63a0fa0-e45d-43bc-8895-d7c755491205"
+    },
+    {
+      "command": "EVENT_ACTOR_MOVE_TO",
+      "args": {
+        "__section": "movement",
+        "actorId": "$self$",
+        "x": {
+          "type": "number",
+          "value": 2
+        },
+        "y": {
+          "type": "number",
+          "value": 4
+        },
+        "collideWith": [],
+        "lockDirection": [],
+        "moveType": "horizontal"
+      },
+      "id": "e246ea08-e4af-4304-9d69-ca854385a5a2"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 2
+}

@@ -1,0 +1,34 @@
+{
+  "_resourceType": "scene",
+  "id": "b7f05ec8-657c-44dd-9869-da0fe1b66e20",
+  "_index": 44,
+  "name": "RADIATOR",
+  "backgroundId": "0c825c32-74d2-412e-ba6b-bfcef549ccb2",
+  "tilesetId": "",
+  "width": 255,
+  "height": 64,
+  "type": "PLATFORM",
+  "colorModeOverride": "none",
+  "paletteIds": [],
+  "spritePaletteIds": [
+    "365591fd-b649-41c7-b3ea-a33ce3584370"
+  ],
+  "collisions": "005fa+0ff0+005fa+0f8+00fb+0f2+00fd+0f2+00fd+0f2+00ee5+0f4+00c+0f!002+0f!00eb+0f4+00c+0f!002+0f!00df3+0f5c+00c+0ff3+00c+0f97+00ff0+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_45",
+  "x": 960,
+  "y": 2472,
+  "script": [
+    {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "d76a88cb-2ba3-442c-bfa7-009213baa079"
+      },
+      "id": "434cbd19-5387-4368-9a3a-8613dce8f2fc"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "6ae02c68-d626-406f-804d-963196975e50"
+}

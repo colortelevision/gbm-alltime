@@ -1,0 +1,103 @@
+{
+  "_resourceType": "scene",
+  "id": "209259b5-4f25-4a9a-80f6-eefca17e482c",
+  "_index": 42,
+  "name": "bored",
+  "backgroundId": "1c1c03ba-f669-4b00-b1fe-e6499625c866",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "POINTNCLICK",
+  "colorModeOverride": "none",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_44",
+  "x": 2424,
+  "y": 384,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_HIDE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "1854a374-337d-4714-822d-821bddf8de4b"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "66"
+          },
+          "valueB": {
+            "type": "true"
+          }
+        },
+        "__collapseElse": false,
+        "__comment": true,
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_PLAYER_SET_SPRITE",
+            "args": {
+              "spriteSheetId": "29501fb6-49ad-4dfb-af2b-2fcf2a865340",
+              "__comment": true
+            },
+            "id": "1a9bb70a-0446-46f9-ac8b-8f7a07c62eab"
+          },
+          {
+            "command": "EVENT_ACTOR_ACTIVATE",
+            "args": {
+              "actorId": "$self$"
+            },
+            "id": "9da3a144-96af-4c2c-9661-a2b011fde09b"
+          }
+        ],
+        "false": []
+      },
+      "id": "4e022ba0-5cc8-4529-951e-39a3c44d6920"
+    },
+    {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "69c83b03-bb7c-45e6-be47-1b3001e278bb",
+        "__collapse": true
+      },
+      "id": "361aaf7f-cb5f-41e1-a252-9198e8ba5f64"
+    },
+    {
+      "command": "EVENT_SET_FLAGS",
+      "args": {
+        "variable": "L0",
+        "flag1": false,
+        "flag2": false,
+        "flag3": false,
+        "flag4": false,
+        "flag5": false,
+        "flag6": false,
+        "flag7": false,
+        "flag8": false,
+        "flag9": false,
+        "flag10": false,
+        "flag11": false,
+        "flag12": false,
+        "flag13": false,
+        "flag14": false,
+        "flag15": false,
+        "flag16": false,
+        "__collapse": true
+      },
+      "id": "0091e0de-07b1-4183-8b51-0af00dbbc12a"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "5c2f523a-c9b4-4833-b582-be97e172e6e8"
+}

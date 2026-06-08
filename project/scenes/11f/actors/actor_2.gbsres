@@ -1,0 +1,60 @@
+{
+  "_resourceType": "actor",
+  "id": "9b0244be-0024-41fe-918c-fbb028be7e62",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "9c87b121-194b-4989-8242-19dd18006f82",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "collisionExtraFlags": [],
+  "prefabScriptOverrides": {},
+  "symbol": "actor_50",
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "they are mixing human dna \ndna with animal dna in labs \nlabs beneath earth's surface",
+          "they plan on creating an\nillusion ",
+          "they will show us human\nhuman & animal chimeras\n\nand tell us its aliens!",
+          "just like covid, people\npeople will panic, \nthen people will be taken\nto safety...\n(aka underground cels)",
+          "they may start wwiii first\nand then interrupt with \nthe alien psyop. ",
+          "there will also be a flood\npossibly an ice age flood"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "f26f7869-d399-4783-9ca1-954a74a5d96d"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "coordinateType": "tiles",
+  "x": 15,
+  "y": 20,
+  "_index": 1
+}

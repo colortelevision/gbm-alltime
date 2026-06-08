@@ -1,0 +1,116 @@
+{
+  "_resourceType": "actor",
+  "id": "251b219a-eb66-4b2e-ab91-fbaff3a1adfe",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "54f574c6-a7ed-4aeb-a738-680771bd8187",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "collisionExtraFlags": [],
+  "prefabScriptOverrides": {},
+  "symbol": "actor_8",
+  "script": [
+    {
+      "command": "EVENT_IF_FLAGS_COMPARE",
+      "args": {
+        "variable": "L0",
+        "flag": 0,
+        "__collapseElse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ADD_FLAGS",
+            "args": {
+              "variable": "L0",
+              "flag1": false,
+              "flag2": false,
+              "flag3": true,
+              "flag4": false,
+              "flag5": false,
+              "flag6": false,
+              "flag7": false,
+              "flag8": false,
+              "flag9": false,
+              "flag10": false,
+              "flag11": false,
+              "flag12": false,
+              "flag13": false,
+              "flag14": false,
+              "flag15": false,
+              "flag16": false
+            },
+            "id": "94df2139-038d-4fee-a183-ba41e7c7be4a"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_SET_FLAGS",
+            "args": {
+              "variable": "L0",
+              "flag1": true,
+              "flag2": false,
+              "flag3": false,
+              "flag4": false,
+              "flag5": false,
+              "flag6": false,
+              "flag7": false,
+              "flag8": false,
+              "flag9": false,
+              "flag10": false,
+              "flag11": false,
+              "flag12": false,
+              "flag13": false,
+              "flag14": false,
+              "flag15": false,
+              "flag16": false
+            },
+            "id": "1b868ee1-6239-4e50-83ee-bb148c62951e"
+          }
+        ]
+      },
+      "id": "509200c7-0786-4b8a-a638-c0706542e283"
+    }
+  ],
+  "startScript": [
+    {
+      "command": "EVENT_SET_FLAGS",
+      "args": {
+        "variable": "L0",
+        "flag1": true,
+        "flag2": false,
+        "flag3": false,
+        "flag4": false,
+        "flag5": false,
+        "flag6": false,
+        "flag7": false,
+        "flag8": false,
+        "flag9": false,
+        "flag10": false,
+        "flag11": false,
+        "flag12": false,
+        "flag13": false,
+        "flag14": false,
+        "flag15": false,
+        "flag16": false,
+        "__collapse": true
+      },
+      "id": "d204cb52-3670-4b57-84c8-9c2292129c2e"
+    }
+  ],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "coordinateType": "tiles",
+  "x": 10,
+  "y": 15,
+  "_index": 5
+}

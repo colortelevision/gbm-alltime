@@ -1,0 +1,65 @@
+{
+  "_resourceType": "actor",
+  "id": "ef4de497-b8f1-49d2-9db4-712eb36ca0a1",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "ade6506c-ae78-47a3-884f-3127945ea3e9",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 0,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "1",
+  "collisionExtraFlags": [],
+  "prefabScriptOverrides": {},
+  "symbol": "actor_4",
+  "script": [
+    {
+      "command": "BR_EVENT_ADVANCED_DIALOGUE_vB",
+      "args": {
+        "text": [
+          "!F:1c89c400-1416-48ec-98b7-e5fcca2e2131!\nYO IM IN FULL COLOR.\nI GOTTA GO SHOW EVERYONE AT $44$\n\n"
+        ],
+        "__scriptTabs": "text",
+        "boxHeight": 4,
+        "boxWidth": 6,
+        "boxX": 4,
+        "boxY": 4,
+        "showBorder": "true",
+        "showActors": "true",
+        "clearPrevious": "true",
+        "textInv": "false",
+        "textX": 1,
+        "textY": 1,
+        "closeWhen": "key",
+        "closeButton": "any",
+        "avatarId": "5c639d6d-2434-491f-b82f-62e2a33c2e34",
+        "__collapse": false
+      },
+      "id": "64d29cbb-50ce-4681-8e30-970b5e479e9f"
+    }
+  ],
+  "startScript": [
+    {
+      "command": "PT_EVENT_ACTOR_EFFECTS",
+      "args": {
+        "effect": "split_in",
+        "actorId": "$self$",
+        "distance": 20,
+        "speed": 2
+      },
+      "id": "68b9773e-5f89-4798-8e81-1753bf48d480"
+    }
+  ],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "coordinateType": "tiles",
+  "x": 6,
+  "y": 1,
+  "_index": 1
+}

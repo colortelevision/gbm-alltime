@@ -1,0 +1,23 @@
+{
+  "_resourceType": "trigger",
+  "id": "1c58150c-64c4-450a-aed0-ebe26e799e03",
+  "name": "",
+  "prefabId": "",
+  "x": 7,
+  "y": 15,
+  "symbol": "trigger_100",
+  "prefabScriptOverrides": {},
+  "width": 1,
+  "height": 1,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_SHOW",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "85ead2ad-04c9-49b5-b6ef-9d4d73544d09"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 4
+}
