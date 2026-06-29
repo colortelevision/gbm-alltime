@@ -115,11 +115,11 @@ void vm_replace_tile(SCRIPT_CTX * THIS, INT16 idx_target_tile, UBYTE tileset_ban
     INT16 * A = VM_REF_TO_PTR(idx_start_tile);
     INT16 * B = VM_REF_TO_PTR(idx_target_tile);
 #ifdef CGB
-    if (_is_CGB) VBK_REG =  (*B & 0x0800) ? 1 : 0;
+    if (_is_CGB) VBK_REG =  (*B & 0x0800) ? VBK_BANK_1 : VBK_BANK_0;
 #endif
     SetBankedBkgData((UBYTE)(*B), length, tileset->tiles + (*A << 4), tileset_bank);
 #ifdef CGB
-    VBK_REG = 0;
+    VBK_REG = VBK_BANK_0;
 #endif
 }
 
@@ -168,12 +168,12 @@ void vm_replace_tile_xy(SCRIPT_CTX * THIS, UBYTE x, UBYTE y, UBYTE tileset_bank,
 
 #ifdef CGB
     if (_is_CGB) {
-        if (ReadBankedUBYTE(image_attr_ptr + ofs, image_attr_bank) & 0x08) VBK_REG = 1;
+        if (ReadBankedUBYTE(image_attr_ptr + ofs, image_attr_bank) & 0x08) VBK_REG = VBK_BANK_1;
     }
 #endif
     SetBankedBkgData(target_tile, 1, tileset->tiles + (*(UINT8 *)(VM_REF_TO_PTR(idx_start_tile)) << 4), tileset_bank);
 #ifdef CGB
-    VBK_REG = 0;
+    VBK_REG = VBK_BANK_0;
 #endif
 }
 
@@ -189,10 +189,10 @@ void vm_load_tileset(SCRIPT_CTX * THIS, INT16 idx, UBYTE bank, const background_
     if (_is_CGB) {
         ReadBankedFarPtr(&tileset, (void *)&(background->cgb_tileset), bank);
         if (tileset.bank) {
-            VBK_REG = 1;
+            VBK_REG = VBK_BANK_1;
             UWORD n_tiles = ReadBankedUWORD(&((tileset_t *)(tileset.ptr))->n_tiles, tileset.bank);
             SetBankedBkgData(base_tile, n_tiles, ((tileset_t *)(tileset.ptr))->tiles, tileset.bank);
-            VBK_REG = 0;
+            VBK_REG = VBK_BANK_0;
         }
     }
 #endif

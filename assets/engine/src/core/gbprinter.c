@@ -101,11 +101,11 @@ uint8_t gbprinter_print_overlay(uint8_t start, uint8_t rows, uint8_t margins) BA
             uint8_t tileno = get_vram_byte(row);
 #ifdef CGB
             if (_is_CGB) {
-                VBK_REG = 1;
-                VBK_REG = ((_is_CGB) && (get_vram_byte(row) & 0x08u)) ? 1 : 0;
+                VBK_REG = VBK_ATTRIBUTES;
+                VBK_REG = ((_is_CGB) && (get_vram_byte(row) & 0x08u)) ? VBK_BANK_1 : VBK_BANK_0;
             }
             get_win_data(tileno, 1, tile_data);
-            VBK_REG = 0;
+            VBK_REG = VBK_BANK_0;
 #else
             get_win_data(tileno, 1, tile_data);
 #endif
