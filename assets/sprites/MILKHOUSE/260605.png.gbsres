@@ -1,0 +1,181 @@
+{
+  "_resourceType": "sprite",
+  "id": "3b7960f9-fda1-4b0b-b4e5-6113616f9fb9",
+  "name": "MILKHOUSE/260605",
+  "symbol": "sprite_milkhouse_260605",
+  "states": [
+    {
+      "id": "aa2fe1fd-472e-4dd4-b4ec-ef18b8c47bc9",
+      "name": "",
+      "animationType": "multi_movement",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "9c1946fa-28ae-47ab-b003-66380112ca27",
+          "frames": [
+            {
+              "id": "598f3bfb-7db9-4362-a0b6-68e6e26bd47f",
+              "tiles": [
+                {
+                  "id": "2edf56eb-d241-4ed6-a988-f977c9e703ca",
+                  "x": -4,
+                  "y": 16,
+                  "sliceX": 0,
+                  "sliceY": 0,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 7,
+                  "priority": false
+                },
+                {
+                  "id": "f309d052-e3df-44f7-b2c1-a28d9e7c9b7c",
+                  "x": -4,
+                  "y": 0,
+                  "sliceX": 0,
+                  "sliceY": 16,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 7,
+                  "priority": false
+                },
+                {
+                  "id": "74aab07b-4ad0-4f37-ad86-270a3780323d",
+                  "x": 4,
+                  "y": 16,
+                  "sliceX": 8,
+                  "sliceY": 0,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 7,
+                  "priority": false
+                },
+                {
+                  "id": "3ddb3672-d0c1-491e-8b53-0ae2ad7a0caa",
+                  "x": 4,
+                  "y": 0,
+                  "sliceX": 8,
+                  "sliceY": 16,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 7,
+                  "priority": false
+                },
+                {
+                  "id": "83e01a8a-c410-4af9-80bd-9e20bda9fe8f",
+                  "x": 12,
+                  "y": 16,
+                  "sliceX": 16,
+                  "sliceY": 0,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 7,
+                  "priority": false
+                },
+                {
+                  "id": "70480591-3ba0-49f7-8249-40d7fd26b824",
+                  "x": 12,
+                  "y": 0,
+                  "sliceX": 16,
+                  "sliceY": 16,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 7,
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "4473c623-3edb-47ef-b24f-1d76483e19e3",
+          "frames": [
+            {
+              "id": "8824c8d2-aa4e-4d8e-af42-9909953485bc",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "82443ea6-421b-47bf-86e5-d6d57310f1bb",
+          "frames": [
+            {
+              "id": "e2f0a119-69be-47de-ab6c-06194d60f119",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "fc5a74c3-e6f9-498c-9441-5bdff026f13e",
+          "frames": [
+            {
+              "id": "d6d4ec25-8040-4316-af95-5461f8449500",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "ba497f66-28db-408f-945c-314746222399",
+          "frames": [
+            {
+              "id": "add3dae0-e0cd-41b9-b66c-694458e84ce8",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "3f0f8fcc-47a5-46d2-8a0e-06345434bac8",
+          "frames": [
+            {
+              "id": "fa45b454-0644-4fed-8b00-af50c343a54f",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "2f002e90-9bfa-4e77-94ce-cfe8224e7b19",
+          "frames": [
+            {
+              "id": "d42314d5-5aa3-442e-b954-e16152ea756d",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "da48d46d-9c86-4789-91c8-9bf52fa076b8",
+          "frames": [
+            {
+              "id": "88a3cbe6-4ef7-48dc-8439-5c08435f79b1",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 6,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
+  "canvasWidth": 24,
+  "canvasHeight": 32,
+  "boundsX": 0,
+  "boundsY": -8,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "MILKHOUSE/260605.png",
+  "width": 272,
+  "height": 32,
+  "checksum": "6fe25c68c480f8aad656de84f0df90dbcce7ca81"
+}

@@ -25,6 +25,13 @@
   "playerSpriteSheetId": "2d079fc1-4d8c-4e4c-96ef-1782977b8ff9",
   "script": [
     {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "b0eb8b5b-4bfa-4644-8ae3-345c8b795d2b"
+      },
+      "id": "5b7387f4-75ba-4571-9d42-c3c9d7f244e9"
+    },
+    {
       "command": "EVENT_ACTOR_SET_SPRITE",
       "args": {
         "actorId": "$self$",
@@ -97,13 +104,6 @@
       "id": "70700a03-8478-44d5-987d-aceadea55859"
     },
     {
-      "command": "EVENT_MUSIC_PLAY",
-      "args": {
-        "musicId": "b0eb8b5b-4bfa-4644-8ae3-345c8b795d2b"
-      },
-      "id": "5b7387f4-75ba-4571-9d42-c3c9d7f244e9"
-    },
-    {
       "command": "EVENT_SET_INPUT_SCRIPT",
       "args": {
         "input": [
@@ -119,7 +119,7 @@
             "args": {
               "actorId": "$self$",
               "spriteStateId": "punch",
-              "loopAnim": true
+              "loopAnim": false
             },
             "id": "fd5c4eae-432f-4c1f-b66d-dc387036460e"
           },
