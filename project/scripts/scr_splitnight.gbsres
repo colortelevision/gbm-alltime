@@ -1,0 +1,90 @@
+{
+  "_resourceType": "script",
+  "id": "9533fcbc-999b-4f40-8642-83291af55a04",
+  "name": "SCR_SplitNight",
+  "description": "T_SPLIT_NIGHT body. SILENT: no text/music/show/sfx.",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_scr_splitnight",
+  "script": [
+    {
+      "command": "EVENT_LOOP_WHILE",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "204"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 0
+          }
+        }
+      },
+      "id": "7219e191-0676-4dcd-aae2-2a36660f2aef",
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "eq",
+                "valueA": {
+                  "type": "variable",
+                  "value": "202"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 1
+                }
+              },
+              "__collapseElse": false,
+              "__disableElse": false
+            },
+            "id": "26551fd8-ef3b-4007-a1c3-a46b0a78d22b",
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_SET_VALUE",
+                  "args": {
+                    "variable": "204",
+                    "value": {
+                      "type": "number",
+                      "value": 1
+                    }
+                  },
+                  "id": "e3f8a6e0-1384-48c3-87b5-77dc059336ac"
+                },
+                {
+                  "command": "EVENT_THREAD_STOP",
+                  "args": {
+                    "variable": "211"
+                  },
+                  "id": "ca822144-c5a7-46ed-8d6d-8c62c63bfd50"
+                }
+              ],
+              "false": [
+                {
+                  "command": "EVENT_WAIT",
+                  "args": {
+                    "time": {
+                      "type": "number",
+                      "value": 0.2
+                    },
+                    "frames": {
+                      "type": "number",
+                      "value": 12
+                    },
+                    "units": "time"
+                  },
+                  "id": "23457c9b-0309-4ee8-a854-35dab5079654"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

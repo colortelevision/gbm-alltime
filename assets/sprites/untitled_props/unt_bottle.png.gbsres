@@ -1,0 +1,129 @@
+{
+  "_resourceType": "sprite",
+  "id": "178867b9-c283-4a0e-8163-89c07d0fcd9e",
+  "name": "untitled_props/unt_bottle",
+  "symbol": "sprite_unt_bottle",
+  "states": [
+    {
+      "id": "4beef339-b8bc-469e-828b-97b344290595",
+      "name": "",
+      "animationType": "fixed",
+      "flipLeft": false,
+      "animations": [
+        {
+          "id": "1011942b-3a82-4210-8e25-168dcd77123f",
+          "frames": [
+            {
+              "id": "f26e3d82-1e09-430d-a1d1-2c2b0d3b41a0",
+              "tiles": [
+                {
+                  "id": "8776200f-284f-4744-83a2-393a26c74128",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 0,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                },
+                {
+                  "id": "fc2b2f69-02ad-43c5-a908-2bb5c2c66d36",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 8,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "585eae50-35c6-4a93-ab60-89955be79755",
+          "frames": [
+            {
+              "id": "02a38df2-8a7d-422e-b31f-31a9ac26c1d2",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "5fea99fa-c57a-406b-85b1-7c9063fe2886",
+          "frames": [
+            {
+              "id": "0cd9bc80-6927-4ef1-a0b7-7d1c833645cf",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "198820c0-8835-490a-9c3e-ddf27c6810b5",
+          "frames": [
+            {
+              "id": "46b0cbf6-735a-4054-abb0-bec9356f0e70",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "710c3df6-2a6e-4283-9d81-5bec4fddb31b",
+          "frames": [
+            {
+              "id": "4f40c4db-fb8f-4a4d-90a1-c100e91b14f8",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "72ddd625-4eef-4102-85ba-da08d02be149",
+          "frames": [
+            {
+              "id": "b4f33b6d-53b6-4fe1-8af4-216d37e18042",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "431ebdb4-52ec-4054-989f-9ced152ef60d",
+          "frames": [
+            {
+              "id": "3d8ae0c1-55f8-4ffc-a509-57cd3b04cbd4",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "0349ab67-da03-4b59-ab43-f98f788e4b53",
+          "frames": [
+            {
+              "id": "72218f09-013d-4898-b397-0131cfc466ce",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 2,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
+  "canvasWidth": 16,
+  "canvasHeight": 16,
+  "boundsX": 0,
+  "boundsY": -8,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "untitled_props/unt_bottle.png",
+  "checksum": "5c828d092549a357825d57eff707afd5ebf9b273",
+  "width": 16,
+  "height": 16
+}

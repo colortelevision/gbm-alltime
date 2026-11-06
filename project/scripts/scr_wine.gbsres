@@ -1,0 +1,135 @@
+{
+  "_resourceType": "script",
+  "id": "49a4a685-9219-4c9f-8dfc-dfbf060d3baf",
+  "name": "SCR_Wine",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_scr_wine",
+  "script": [
+    {
+      "command": "EVENT_SOUND_PLAY_EFFECT",
+      "args": {
+        "type": "05c23a5b-ba26-4df0-93c2-5704c8c79254",
+        "priority": "medium",
+        "pitch": 4,
+        "frequency": 200,
+        "duration": 0.5,
+        "wait": false,
+        "effect": 0
+      },
+      "id": "b9c86203-5c19-43b0-923b-497a8f7cd1c2"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Communion wine.\nYou drink."
+        ],
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "6e28ee52-eabe-43c1-9a05-6cd9c82f47be"
+    },
+    {
+      "command": "EVENT_INC_VALUE",
+      "args": {
+        "variable": "209"
+      },
+      "id": "fd11a2bd-2c1b-4421-a481-200eadf5b679"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "gte",
+          "valueA": {
+            "type": "variable",
+            "value": "209"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 2
+          }
+        },
+        "__collapseElse": true,
+        "__disableElse": true
+      },
+      "id": "f408fc7c-e032-4aac-b2f3-10871dcdfe34",
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "200",
+              "value": {
+                "type": "number",
+                "value": 1
+              }
+            },
+            "id": "bea1bb05-d3ff-49a1-b488-c604840b1073"
+          },
+          {
+            "command": "EVENT_SOUND_PLAY_EFFECT",
+            "args": {
+              "type": "b1cd0fad-893e-42cd-bec8-5b0dfbf870ae",
+              "priority": "medium",
+              "pitch": 4,
+              "frequency": 200,
+              "duration": 0.5,
+              "wait": false,
+              "effect": 0
+            },
+            "id": "ff1cce37-89fb-47f9-ba87-300dc5daef7f"
+          },
+          {
+            "command": "EVENT_CAMERA_SHAKE",
+            "args": {
+              "time": 0.6,
+              "frames": 36,
+              "units": "time",
+              "shakeDirection": "horizontal",
+              "magnitude": {
+                "type": "number",
+                "value": 4
+              }
+            },
+            "id": "1949dd13-ab23-4ffc-8ea3-e3813fa902fb"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "The room tilts."
+              ],
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "997ff3f0-6496-4045-85dd-b68f35d3e6a7"
+          }
+        ],
+        "false": []
+      }
+    }
+  ]
+}

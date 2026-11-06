@@ -1,0 +1,170 @@
+{
+  "_resourceType": "script",
+  "id": "0f621f4b-d643-4099-9762-04074719833f",
+  "name": "SCR_Status",
+  "description": "UNTITLED Start-button status. COMBAT HOOK: abilities menu goes here next pass.",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_scr_status",
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "206"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 0
+          }
+        },
+        "__collapseElse": true,
+        "__disableElse": true
+      },
+      "id": "fb3845ab-69c3-4e98-a9f1-ff9d82ad564f",
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SOUND_PLAY_EFFECT",
+            "args": {
+              "type": "0b0fcf82-8e70-4630-8607-fed382532af1",
+              "priority": "medium",
+              "pitch": 4,
+              "frequency": 200,
+              "duration": 0.5,
+              "wait": false,
+              "effect": 0
+            },
+            "id": "bc00514a-162d-430c-a678-278ba63d3ab6"
+          },
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "eq",
+                "valueA": {
+                  "type": "variable",
+                  "value": "208"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 1
+                }
+              },
+              "__collapseElse": false,
+              "__disableElse": false
+            },
+            "id": "11322444-b696-42ca-8477-a3f6e17d111f",
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "WHO: Matt."
+                    ],
+                    "avatarId": "",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "dd9bb19a-84d9-49d5-9044-11f3224887c2"
+                }
+              ],
+              "false": [
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "WHO: Conner."
+                    ],
+                    "avatarId": "",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "d580745d-d566-4dc5-b563-1bdeafa8e403"
+                }
+              ]
+            }
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "WHERE: somewhere in\nthe city."
+              ],
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "a5931a4b-de7f-46d7-8a61-0b6abc4ab132"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "FLAG: keep moving."
+              ],
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "e35276e4-bae7-47a8-b9f4-2b3db5ea9099"
+          },
+          {
+            "command": "EVENT_SOUND_PLAY_EFFECT",
+            "args": {
+              "type": "0b0fcf82-8e70-4630-8607-fed382532af1",
+              "priority": "medium",
+              "pitch": 4,
+              "frequency": 200,
+              "duration": 0.5,
+              "wait": false,
+              "effect": 0
+            },
+            "id": "5b0c7dd1-487c-4307-8786-8786089a7bb7"
+          }
+        ],
+        "false": []
+      }
+    }
+  ]
+}

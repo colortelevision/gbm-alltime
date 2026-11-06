@@ -1,0 +1,81 @@
+{
+  "_resourceType": "script",
+  "id": "599a34f2-c036-4b5f-9d20-177ad61b6b94",
+  "name": "SCR_OfficeTalk",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_scr_officetalk",
+  "script": [
+    {
+      "command": "EVENT_SOUND_PLAY_EFFECT",
+      "args": {
+        "type": "fe195622-1004-4f6b-b999-c4006358ab89",
+        "priority": "medium",
+        "pitch": 4,
+        "frequency": 200,
+        "duration": 0.5,
+        "wait": false,
+        "effect": 0
+      },
+      "id": "791a899f-b4c9-4622-b50e-361728c9086d"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "A laptop. The video is\nstill queued to upload.",
+          "Maxwell: Nobody needs\nto see that. Say you\nwere at the office late."
+        ],
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "c58ea378-7fd8-4913-9e18-d297e2f0bf1b"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "198",
+        "value": {
+          "type": "number",
+          "value": 1
+        }
+      },
+      "id": "29d9b382-3445-4533-b055-e914e14d6ae8"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "197",
+        "value": {
+          "type": "number",
+          "value": 1
+        }
+      },
+      "id": "fea1cd85-3d81-4c78-836b-6c3f73718d15"
+    },
+    {
+      "command": "EVENT_SOUND_PLAY_EFFECT",
+      "args": {
+        "type": "45196007-973e-4b6e-983e-e13bf71859c2",
+        "priority": "medium",
+        "pitch": 4,
+        "frequency": 200,
+        "duration": 0.5,
+        "wait": false,
+        "effect": 0
+      },
+      "id": "7a50a73b-8971-4222-a42e-6d718e868199"
+    }
+  ]
+}

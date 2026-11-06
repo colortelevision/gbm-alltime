@@ -1,0 +1,37 @@
+{
+  "_resourceType": "actor",
+  "id": "9f6c3612-cf5a-41dd-b0df-715d28cf0de8",
+  "_index": 1,
+  "symbol": "actor_unt_act_laptop",
+  "prefabId": "",
+  "name": "ACT_Laptop",
+  "coordinateType": "tiles",
+  "x": 14,
+  "y": 9,
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "a56ffcac-d7bc-434b-b67c-926b1a650ba3",
+  "paletteId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "collisionExtraFlags": [],
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "599a34f2-c036-4b5f-9d20-177ad61b6b94"
+      },
+      "id": "b7903fe6-8930-412b-a416-70429133850c"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

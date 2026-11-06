@@ -1,0 +1,129 @@
+{
+  "_resourceType": "sprite",
+  "id": "4cbcd7b4-86cb-45ca-804a-ec41e628b757",
+  "name": "untitled_props/unt_bus",
+  "symbol": "sprite_unt_bus",
+  "states": [
+    {
+      "id": "fa179b72-9c3d-4b43-a9d8-581d5053a290",
+      "name": "",
+      "animationType": "fixed",
+      "flipLeft": false,
+      "animations": [
+        {
+          "id": "f3e0124f-0396-4a2f-9c3b-f17fae47c3a7",
+          "frames": [
+            {
+              "id": "ce9c5b24-12e8-49be-87d1-2fa369e4a514",
+              "tiles": [
+                {
+                  "id": "40f4a09a-96eb-4419-bf61-6d24fbb06360",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 0,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                },
+                {
+                  "id": "824a5e02-3ff0-48f9-a86f-105225600e1f",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 8,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "4b280171-fc08-4859-808c-eb8ef2570aab",
+          "frames": [
+            {
+              "id": "b62d7697-a254-4b09-b2c1-01517653346e",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "9fad8a50-96ba-43af-9f65-9057ee37a11d",
+          "frames": [
+            {
+              "id": "8b15807b-0c94-4ba9-9342-4d033e8b3861",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "1bedd310-4f73-42e2-96ac-b056355ff78a",
+          "frames": [
+            {
+              "id": "ab958600-900e-403a-b219-acde7cb9c926",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "d3ec7600-f871-444c-b88e-083c3e4bd902",
+          "frames": [
+            {
+              "id": "8947d7e7-9945-475f-babc-339486601695",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "a50939a4-ca93-4d3f-9a3a-fd4d228b9520",
+          "frames": [
+            {
+              "id": "251f001e-967c-4a69-bb40-935d7cbbdc39",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "70f6aaf5-9013-4943-9d43-cc6229e73260",
+          "frames": [
+            {
+              "id": "1d9a78aa-b5b3-4cee-8596-1c64988b85f0",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "acffd07d-a1e6-49be-b33a-7ea71ee158f0",
+          "frames": [
+            {
+              "id": "50587be7-a000-4686-947f-56c832590547",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 1,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
+  "canvasWidth": 16,
+  "canvasHeight": 16,
+  "boundsX": 0,
+  "boundsY": -8,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "untitled_props/unt_bus.png",
+  "checksum": "902a927ebf4fd356b77cc7fb54260c54aa2ac311",
+  "width": 16,
+  "height": 16
+}

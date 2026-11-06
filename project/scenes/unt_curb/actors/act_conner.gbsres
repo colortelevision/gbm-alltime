@@ -1,0 +1,64 @@
+{
+  "_resourceType": "actor",
+  "id": "cb860e52-7a35-47fc-b6de-f34e40b3d4eb",
+  "_index": 1,
+  "symbol": "actor_unt_act_conner_0",
+  "prefabId": "",
+  "name": "ACT_Conner",
+  "coordinateType": "tiles",
+  "x": 32,
+  "y": 13,
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "f617404a-d19b-40b8-bf08-392bf219b728",
+  "paletteId": "eda38ed2-1e4b-4bf2-acf5-81ec7f76f85f",
+  "direction": "left",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "collisionExtraFlags": [],
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_SOUND_PLAY_EFFECT",
+      "args": {
+        "type": "7ca6b9db-2a48-422e-880d-3ee20c0dd7cc",
+        "priority": "medium",
+        "pitch": 4,
+        "frequency": 200,
+        "duration": 0.5,
+        "wait": false,
+        "effect": 0
+      },
+      "id": "5a92f13f-569e-4e1e-96e5-1c66128f31db"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Conner: Office first,\nthen my place."
+        ],
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "89f8a50a-4307-49ca-a368-3cae7166e7a0"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

@@ -1,0 +1,38 @@
+{
+  "_resourceType": "actor",
+  "id": "0e935223-a24b-4853-86f9-baf74e63341c",
+  "_index": 0,
+  "symbol": "actor_unt_act_maxwell_1",
+  "prefabId": "",
+  "name": "ACT_Maxwell",
+  "coordinateType": "tiles",
+  "x": 9,
+  "y": 8,
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "73e3f95b-0117-4d97-aa04-19a3f7210fe8",
+  "paletteId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "collisionExtraFlags": [],
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "da621b13-f20e-402a-a360-a015205fb79a",
+        "$actor[0]$": "$self$"
+      },
+      "id": "f39d8ba9-b85c-4e65-8ed5-946f5a2479be"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

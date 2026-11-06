@@ -1,0 +1,78 @@
+{
+  "_resourceType": "script",
+  "id": "b639ca84-124b-4271-8b67-066188cd42b6",
+  "name": "SCR_Flame",
+  "description": "NO Text. COMBAT HOOK: Matt's flame will become an ability here.",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_scr_flame",
+  "script": [
+    {
+      "command": "EVENT_SOUND_PLAY_EFFECT",
+      "args": {
+        "type": "7f0c5c1a-f006-462c-ba5a-15496661da59",
+        "priority": "medium",
+        "pitch": 4,
+        "frequency": 200,
+        "duration": 0.5,
+        "wait": false,
+        "effect": 0
+      },
+      "id": "1de726b6-fe0f-4172-98e7-4250fe0e1f3c"
+    },
+    {
+      "command": "EVENT_PLAYER_SET_SPRITE",
+      "args": {
+        "spriteSheetId": "8c1ef772-a57e-4e62-a966-0488fb329b02"
+      },
+      "id": "6a7ad4d3-62cc-4074-9813-f130d16f2a56"
+    },
+    {
+      "command": "EVENT_CAMERA_SHAKE",
+      "args": {
+        "time": 0.3,
+        "frames": 18,
+        "units": "time",
+        "shakeDirection": "horizontal",
+        "magnitude": {
+          "type": "number",
+          "value": 4
+        }
+      },
+      "id": "582641db-1cb3-4d67-9f70-0e01288a0901"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": {
+          "type": "number",
+          "value": 1
+        },
+        "frames": {
+          "type": "number",
+          "value": 60
+        },
+        "units": "time"
+      },
+      "id": "aa4df0f7-e650-49f6-8e81-ced78ae045ff"
+    },
+    {
+      "command": "EVENT_PLAYER_SET_SPRITE",
+      "args": {
+        "spriteSheetId": "8462d2a0-c2dc-45e2-baed-faced3f8f2a5"
+      },
+      "id": "1e04e87c-cae6-46c8-8fdf-46be55bc6f58"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "201",
+        "value": {
+          "type": "number",
+          "value": 1
+        }
+      },
+      "id": "5db9ae87-eb9c-48fe-ad63-ce7111038ec1"
+    }
+  ]
+}

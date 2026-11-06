@@ -1,0 +1,37 @@
+{
+  "_resourceType": "actor",
+  "id": "ff64662d-ab14-482a-8eba-8d76b20786a1",
+  "_index": 1,
+  "symbol": "actor_unt_act_bottle",
+  "prefabId": "",
+  "name": "ACT_Bottle",
+  "coordinateType": "tiles",
+  "x": 21,
+  "y": 7,
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "178867b9-c283-4a0e-8163-89c07d0fcd9e",
+  "paletteId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "collisionExtraFlags": [],
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "49a4a685-9219-4c9f-8dfc-dfbf060d3baf"
+      },
+      "id": "8c885794-6a1e-4bd9-b26f-171dd02c234c"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

@@ -1,0 +1,79 @@
+{
+  "_resourceType": "scene",
+  "id": "6074e13b-c3b2-4ecb-bda4-f04274b3185c",
+  "_index": 6,
+  "type": "TOPDOWN",
+  "name": "UNT_OFFICE",
+  "symbol": "scene_unt_office",
+  "x": 1040,
+  "y": 2600,
+  "width": 32,
+  "height": 24,
+  "backgroundId": "646260c1-08d5-4f90-a9b7-9e54fd1a86bf",
+  "tilesetId": "",
+  "colorModeOverride": "none",
+  "paletteIds": [],
+  "spritePaletteIds": [
+    "4d767298-76ca-4cc7-a8f5-662151d98b1c",
+    "eda38ed2-1e4b-4bf2-acf5-81ec7f76f85f",
+    "399321c4-ba03-441d-b973-64dfa7090f55",
+    "365591fd-b649-41c7-b3ea-a33ce3584370"
+  ],
+  "autoFadeSpeed": 1,
+  "playerSpriteSheetId": "8462d2a0-c2dc-45e2-baed-faced3f8f2a5",
+  "script": [
+    {
+      "command": "EVENT_PLAYER_SET_SPRITE",
+      "args": {
+        "spriteSheetId": "8462d2a0-c2dc-45e2-baed-faced3f8f2a5"
+      },
+      "id": "92a4ebc8-4e35-4f9b-85c4-3b829c9de7e0"
+    },
+    {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "6a9ca4fe-bb1f-4e67-921d-947b5167b0da"
+      },
+      "id": "61f7a4c9-a1c2-498b-9cd9-888c6af91d42"
+    },
+    {
+      "command": "EVENT_SOUND_PLAY_EFFECT",
+      "args": {
+        "type": "bababc8d-9fe6-4e93-9153-5547c26cdf85",
+        "priority": "medium",
+        "pitch": 4,
+        "frequency": 200,
+        "duration": 0.5,
+        "wait": false,
+        "effect": 0
+      },
+      "id": "74118121-a205-45b9-b1a8-b61512cfca3c"
+    },
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "start"
+        ],
+        "override": true,
+        "__scriptTabs": "press"
+      },
+      "id": "bd9fd7be-8dd4-4948-be9d-b6fb430b49b9",
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "0f621f4b-d643-4099-9762-04074719833f"
+            },
+            "id": "f9d3fd45-5313-4634-bedb-e04187d1e804"
+          }
+        ]
+      }
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": "0f65+008+0f2+00d+0f2+00!0f6+008+0f2+00d+0f2+00!0f2+001e+0f2+001e+0f2+001e+0f2+0011+0f4+009+0f2+00f+0f8+007+0f2+00f+0f8+007+0f2+0011+0f4+009+0f2+001e+0f2+001e+0f2+005+0f4+0015+0f2+003+0f8+008+0f4+007+0f2+003+0f8+006+0f8+005+0f2+005+0f4+008+0f8+005+0f2+0013+0f4+007+0f2+001e+0f2+001e+0f2+001e+0f2+001e+0ff+004+0fe+"
+}

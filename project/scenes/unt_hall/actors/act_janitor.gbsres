@@ -1,0 +1,64 @@
+{
+  "_resourceType": "actor",
+  "id": "5091b04c-4485-4438-9b91-d2eb4a48d56b",
+  "_index": 0,
+  "symbol": "actor_unt_act_janitor",
+  "prefabId": "",
+  "name": "ACT_Janitor",
+  "coordinateType": "tiles",
+  "x": 15,
+  "y": 7,
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "73e3f95b-0117-4d97-aa04-19a3f7210fe8",
+  "paletteId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "collisionExtraFlags": [],
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_SOUND_PLAY_EFFECT",
+      "args": {
+        "type": "7ca6b9db-2a48-422e-880d-3ee20c0dd7cc",
+        "priority": "medium",
+        "pitch": 4,
+        "frequency": 200,
+        "duration": 0.5,
+        "wait": false,
+        "effect": 0
+      },
+      "id": "0c967a4b-645d-462c-87b1-f23352b0ec27"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Janitor: Office west,\nthe Fugly house east."
+        ],
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "9e4839fe-2ee3-4139-9dd5-28df7dc8c677"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

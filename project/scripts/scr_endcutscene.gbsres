@@ -1,0 +1,47 @@
+{
+  "_resourceType": "script",
+  "id": "9f656893-63c9-480d-9525-915c517f6a2a",
+  "name": "SCR_EndCutscene",
+  "description": "UNTITLED: ONLY place Resume Logic is called.",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_scr_endcutscene",
+  "script": [
+    {
+      "command": "EVENT_THREAD_STOP",
+      "args": {
+        "variable": "210"
+      },
+      "id": "6db5a17c-83dd-4420-86ba-88386f0d9f0d"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "206",
+        "value": {
+          "type": "number",
+          "value": 0
+        }
+      },
+      "id": "43fda538-a2cd-489c-b4ae-8c96527b664d"
+    },
+    {
+      "command": "EVENT_SCENE_UPDATE_RESUME",
+      "args": {},
+      "id": "a8f884d7-a61f-4a4d-83cf-ee823f5e75bb"
+    },
+    {
+      "command": "EVENT_SOUND_PLAY_EFFECT",
+      "args": {
+        "type": "70e7709f-aa9b-4b75-b082-5afdbb0eff84",
+        "priority": "medium",
+        "pitch": 4,
+        "frequency": 200,
+        "duration": 0.5,
+        "wait": false,
+        "effect": 0
+      },
+      "id": "0a63c441-2395-47f5-995e-bf6f40a9aba3"
+    }
+  ]
+}

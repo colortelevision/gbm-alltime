@@ -1,0 +1,53 @@
+{
+  "_resourceType": "scene",
+  "id": "4404e428-3b16-409f-a95c-eb10a11eba69",
+  "_index": 8,
+  "type": "LOGO",
+  "name": "UNT_WHITE",
+  "symbol": "scene_unt_white",
+  "x": 3140,
+  "y": 2600,
+  "width": 20,
+  "height": 18,
+  "backgroundId": "95c0e924-2d5f-4b89-acd0-1c32a733f0ff",
+  "tilesetId": "",
+  "colorModeOverride": "none",
+  "paletteIds": [],
+  "spritePaletteIds": [
+    "4d767298-76ca-4cc7-a8f5-662151d98b1c",
+    "eda38ed2-1e4b-4bf2-acf5-81ec7f76f85f",
+    "399321c4-ba03-441d-b973-64dfa7090f55",
+    "365591fd-b649-41c7-b3ea-a33ce3584370"
+  ],
+  "autoFadeSpeed": 1,
+  "playerSpriteSheetId": "8462d2a0-c2dc-45e2-baed-faced3f8f2a5",
+  "script": [
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": {
+          "type": "number",
+          "value": 2
+        },
+        "frames": {
+          "type": "number",
+          "value": 120
+        },
+        "units": "time"
+      },
+      "id": "0ce80514-f1ba-49a1-ba72-154d164a2af7"
+    },
+    {
+      "command": "EVENT_COMMENT",
+      "args": {
+        "text": "hold — end of UNTITLED build. NEXT: grid combat abilities.",
+        "__comment": false
+      },
+      "id": "4bfa9c30-bb95-45d3-8bd2-25508250b4b3"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": ""
+}

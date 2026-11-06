@@ -1,0 +1,85 @@
+{
+  "_resourceType": "script",
+  "id": "da621b13-f20e-402a-a360-a015205fb79a",
+  "name": "SCR_Tour",
+  "description": "",
+  "variables": {},
+  "actors": {
+    "0": {
+      "id": "0",
+      "name": "Maxwell"
+    }
+  },
+  "symbol": "script_scr_tour",
+  "script": [
+    {
+      "command": "EVENT_SOUND_PLAY_EFFECT",
+      "args": {
+        "type": "7ca6b9db-2a48-422e-880d-3ee20c0dd7cc",
+        "priority": "medium",
+        "pitch": 4,
+        "frequency": 200,
+        "duration": 0.5,
+        "wait": false,
+        "effect": 0
+      },
+      "id": "37cb6362-ba6d-455d-9ae1-3323564bcce5"
+    },
+    {
+      "command": "EVENT_ACTOR_MOVE_RELATIVE",
+      "args": {
+        "actorId": "0",
+        "x": {
+          "type": "number",
+          "value": 2
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "moveType": "horizontal",
+        "collideWith": []
+      },
+      "id": "438b4849-9550-4cc7-8ad5-e21710b13f2d"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Maxwell: Bible study is\nupstairs.",
+          "The witches meet\ndownstairs. Ha. Kidding."
+        ],
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "c8c2f050-f1d7-4a9b-94c1-5ddd4309756f"
+    },
+    {
+      "command": "EVENT_ACTOR_MOVE_RELATIVE",
+      "args": {
+        "actorId": "0",
+        "x": {
+          "type": "number",
+          "value": -2
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "moveType": "horizontal",
+        "collideWith": []
+      },
+      "id": "19b1cb41-4453-44a4-add8-2f80faf4df04"
+    }
+  ]
+}

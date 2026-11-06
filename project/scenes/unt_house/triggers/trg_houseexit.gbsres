@@ -1,0 +1,77 @@
+{
+  "_resourceType": "trigger",
+  "id": "b1a312e6-e6fd-4237-9bb8-86184949587f",
+  "name": "TRG_HouseExit",
+  "prefabId": "",
+  "x": 14,
+  "y": 22,
+  "symbol": "trigger_unt_trg_houseexit",
+  "prefabScriptOverrides": {},
+  "width": 4,
+  "height": 1,
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "206"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 0
+          }
+        },
+        "__collapseElse": true,
+        "__disableElse": true
+      },
+      "id": "7f38860e-9f49-4267-9076-85aede85d711",
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SOUND_PLAY_EFFECT",
+            "args": {
+              "type": "49c4f9d1-5f82-434e-8447-9fdeb91556fc",
+              "priority": "medium",
+              "pitch": 4,
+              "frequency": 200,
+              "duration": 0.5,
+              "wait": true,
+              "effect": 0
+            },
+            "id": "dcf50116-a852-4b84-8a7a-9cd2b796734d"
+          },
+          {
+            "command": "EVENT_FADE_OUT",
+            "args": {
+              "speed": "2"
+            },
+            "id": "c3051cf8-893c-4ae5-8a48-fb5836e00296"
+          },
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "bd2284c7-2d34-4932-8f9a-51f96958c87a",
+              "x": {
+                "type": "number",
+                "value": 15
+              },
+              "y": {
+                "type": "number",
+                "value": 28
+              },
+              "direction": "up",
+              "fadeSpeed": "2"
+            },
+            "id": "88e13e3d-da72-44f5-98b0-f5fafe1aecd5"
+          }
+        ],
+        "false": []
+      }
+    }
+  ],
+  "leaveScript": [],
+  "_index": 0
+}

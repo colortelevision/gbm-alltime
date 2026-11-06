@@ -1,0 +1,160 @@
+{
+  "_resourceType": "sprite",
+  "id": "8c1ef772-a57e-4e62-a966-0488fb329b02",
+  "name": "untitled_props/unt_flame",
+  "symbol": "sprite_unt_flame",
+  "states": [
+    {
+      "id": "b2c7258c-0b25-4319-b5a9-428b788c9c35",
+      "name": "",
+      "animationType": "fixed",
+      "flipLeft": false,
+      "animations": [
+        {
+          "id": "7905189b-0479-4308-a438-8a1005a84366",
+          "frames": [
+            {
+              "id": "5b683d66-4bb1-4326-a800-cb3c114cc149",
+              "tiles": [
+                {
+                  "id": "fb1f9160-54c9-4cad-86f7-0878fb945964",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 0,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                },
+                {
+                  "id": "460c1d17-205c-46fb-addd-871e22d94a1d",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 8,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                }
+              ]
+            },
+            {
+              "id": "be5b4026-73ea-4ae1-b4cf-f7e0e3bb59c5",
+              "tiles": [
+                {
+                  "id": "80ff777a-89ee-48f3-b5b3-6ad109b90e6b",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 16,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                },
+                {
+                  "id": "63dd54c4-ef74-466f-90d8-fbdd6d5934a6",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 24,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "984cfc43-b6ef-44a5-afa3-c421332a0167",
+          "frames": [
+            {
+              "id": "e785b30c-2cce-43d1-a11c-aa76d3577c7d",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "788a976e-8ed8-4677-b6ba-fff3c0b51ec4",
+          "frames": [
+            {
+              "id": "98af4074-403b-4071-9802-8cb8d9bf95ed",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "2ec6f66a-5a79-4617-977e-a47254178457",
+          "frames": [
+            {
+              "id": "5e0f5674-d3f7-4c9a-9e77-6e21cb38f84d",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "b89bb5c4-afb0-4495-9eef-8d69e708ef00",
+          "frames": [
+            {
+              "id": "a8df1983-2aaf-4056-9c74-ce7cba48d2d7",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "ecf8c549-7264-40cc-a30e-3a141093c24e",
+          "frames": [
+            {
+              "id": "50563645-5aa5-4863-b929-dfe8c9b7f0dc",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "c05bbf6a-84e0-4610-9343-633007475566",
+          "frames": [
+            {
+              "id": "6a85bd16-8ccc-4ba3-bb4d-ce56cd059d59",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "977b3082-85c5-4763-8655-0e1c8da17ed8",
+          "frames": [
+            {
+              "id": "6ca35029-190a-4bbd-b5e6-f9c4ffa53d2d",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 4,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
+  "canvasWidth": 16,
+  "canvasHeight": 16,
+  "boundsX": 0,
+  "boundsY": -8,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "untitled_props/unt_flame.png",
+  "checksum": "6645062cdaf92226186070a093867f4e251c9ebb",
+  "width": 32,
+  "height": 16
+}

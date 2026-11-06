@@ -1,0 +1,71 @@
+{
+  "_resourceType": "script",
+  "id": "f884f1ba-ba80-49b0-b23b-2b02fb835d42",
+  "name": "SCR_PlayMessages",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_scr_playmessages",
+  "script": [
+    {
+      "command": "EVENT_SOUND_PLAY_EFFECT",
+      "args": {
+        "type": "b684d570-6146-453a-a4a2-b964400952cd",
+        "priority": "medium",
+        "pitch": 4,
+        "frequency": 200,
+        "duration": 0.5,
+        "wait": true,
+        "effect": 0
+      },
+      "id": "1f2fa959-c559-46fe-86a0-b23b5ddb30ab"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "*BEEP* 2 new messages.",
+          "Maxwell: Bring the boy\nto bible study Sunday.",
+          "Sister: Don't go to\nthat basement. Please."
+        ],
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "b4471ba4-fb4d-428f-8975-9048000db746"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "199",
+        "value": {
+          "type": "number",
+          "value": 1
+        }
+      },
+      "id": "6f7eedfc-7d96-4631-97b0-0907ed9f687b"
+    },
+    {
+      "command": "EVENT_SOUND_PLAY_EFFECT",
+      "args": {
+        "type": "45196007-973e-4b6e-983e-e13bf71859c2",
+        "priority": "medium",
+        "pitch": 4,
+        "frequency": 200,
+        "duration": 0.5,
+        "wait": false,
+        "effect": 0
+      },
+      "id": "51edf862-b1e7-4da1-81e3-365bf025cff5"
+    }
+  ]
+}

@@ -1,0 +1,169 @@
+{
+  "_resourceType": "scene",
+  "id": "515cb9f3-59d6-4ce3-94a2-332dd1a12dda",
+  "_index": 2,
+  "type": "TOPDOWN",
+  "name": "UNT_CURB",
+  "symbol": "scene_unt_curb",
+  "x": 620,
+  "y": 2600,
+  "width": 40,
+  "height": 36,
+  "backgroundId": "8dcccd47-e3a4-4377-9d5f-aca0ad139ea8",
+  "tilesetId": "",
+  "colorModeOverride": "none",
+  "paletteIds": [],
+  "spritePaletteIds": [
+    "4d767298-76ca-4cc7-a8f5-662151d98b1c",
+    "eda38ed2-1e4b-4bf2-acf5-81ec7f76f85f",
+    "399321c4-ba03-441d-b973-64dfa7090f55",
+    "365591fd-b649-41c7-b3ea-a33ce3584370"
+  ],
+  "autoFadeSpeed": 1,
+  "playerSpriteSheetId": "8462d2a0-c2dc-45e2-baed-faced3f8f2a5",
+  "script": [
+    {
+      "command": "EVENT_PLAYER_SET_SPRITE",
+      "args": {
+        "spriteSheetId": "8462d2a0-c2dc-45e2-baed-faced3f8f2a5"
+      },
+      "id": "81a6fcea-724b-4e19-b94c-9bca519a47b7"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "208",
+        "value": {
+          "type": "number",
+          "value": 1
+        }
+      },
+      "id": "a461ffde-65dc-4e70-ba28-fe23d3aeb029"
+    },
+    {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "a57ae27e-d444-4c7d-b514-5aaa5e8ed126"
+      },
+      "id": "861c805e-ecae-42a1-878a-38c45aa442ec"
+    },
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "start"
+        ],
+        "override": true,
+        "__scriptTabs": "press"
+      },
+      "id": "27c48f12-ef90-44be-a0ba-f76d69518b0b",
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "0f621f4b-d643-4099-9762-04074719833f"
+            },
+            "id": "7e7876d1-25e4-4895-89a8-c028fa9ac032"
+          }
+        ]
+      }
+    },
+    {
+      "command": "EVENT_COMMENT",
+      "args": {
+        "text": "COMBAT HOOK: overworld encounters / ability input binds go here (VAR_COMBAT_READY).",
+        "__comment": false
+      },
+      "id": "0fca2553-3617-47d6-89a2-f5353228c14d"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "207"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 0
+          }
+        },
+        "__collapseElse": true,
+        "__disableElse": true
+      },
+      "id": "7b6848e4-5712-4d0e-8562-b776999d2fe9",
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "5e9ef1c4-8be1-466c-93d4-321a24940be6"
+            },
+            "id": "0d3c171b-9403-429a-b240-5a41be005ce1"
+          },
+          {
+            "command": "EVENT_SOUND_PLAY_EFFECT",
+            "args": {
+              "type": "7ca6b9db-2a48-422e-880d-3ee20c0dd7cc",
+              "priority": "medium",
+              "pitch": 4,
+              "frequency": 200,
+              "duration": 0.5,
+              "wait": false,
+              "effect": 0
+            },
+            "id": "4c89968d-76c1-487c-b27a-872d22124889"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Parker: Matt! Bus is\nhere, you coming?",
+                "Conner: He's always\nlate. Let's go."
+              ],
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "cbc7f286-79ef-4139-86c9-3518fb6d2a37"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "207",
+              "value": {
+                "type": "number",
+                "value": 1
+              }
+            },
+            "id": "4f98d261-fd94-419a-b9f8-2d3abee642c0"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "9f656893-63c9-480d-9525-915c517f6a2a"
+            },
+            "id": "dd38ebe6-33fc-433e-a316-c08654aed251"
+          }
+        ],
+        "false": []
+      }
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": "0fa1+003+0f8+00!0f8+00!0f8+00!0fa+003+0f8+00!0f8+00!0f8+00!0fa+003+0f8+00!0f8+00!0f8+00!0fa+003+0f8+00!0f8+00!0f8+00!0fa+003+0f8+00!0f8+00!0f8+00!0fa+003+0f8+00!0f8+00!0f8+00!0fa+003+0f!002+0f5+00!0f!002+0f5+00!0f!002+0f5+00!0f!002+0f7+003+0f!002+0f5+00!0f!002+0f5+00!0f!002+0f5+00!0f!002+0f7+0026+0f2+0021+0f2+003+0f2+0021+0f2+003+0f2+0026+0f2+0026+0f2+0026+0f2+0026+0f2+0026+0f2+0026+0f2+0026+0ff+002+0f19+0026+0f2+0011+0f!007+0f4+009+0f2+00!0f4+004+0f!00f+0f4+006+0f5+00!0f4+0014+0f4+006+0f5+00!0f4+00e+0f4+002+0f5+005+0f5+00!0f4+00e+0f4+00c+0f5+0013+0f4+00f+0f2+006+0f4+009+0f4+007+0f4+004+0f6+002+0f4+003+0f4+00d+0f4+004+0f6+002+0f4+003+0f4+00d+0f4+004+0f6+002+0f4+003+0f4+006+0f!006+0f4+004+0f6+009+0f4+0015+0f29+"
+}

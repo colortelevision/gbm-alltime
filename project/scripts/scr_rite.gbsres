@@ -1,0 +1,508 @@
+{
+  "_resourceType": "script",
+  "id": "adcad213-3459-4777-96b4-eaea1f345f57",
+  "name": "SCR_Rite",
+  "description": "SOLE cellar speaker. Ends: EndCutscene -> MusicStop -> Fade -> SCN_UNT_WHITE.",
+  "variables": {},
+  "actors": {
+    "0": {
+      "id": "0",
+      "name": "Conner"
+    },
+    "1": {
+      "id": "1",
+      "name": "Parker"
+    }
+  },
+  "symbol": "script_scr_rite",
+  "script": [
+    {
+      "command": "EVENT_SCENE_UPDATE_PAUSE",
+      "args": {},
+      "id": "44c9ebdd-5aaf-402f-8885-ef0ea27625c8"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "206",
+        "value": {
+          "type": "number",
+          "value": 1
+        }
+      },
+      "id": "e721788c-bea6-434c-8bd9-695f2ce362d4"
+    },
+    {
+      "command": "EVENT_SOUND_PLAY_EFFECT",
+      "args": {
+        "type": "131d3143-b24f-44a0-bbe6-d075f612006a",
+        "priority": "medium",
+        "pitch": 4,
+        "frequency": 200,
+        "duration": 0.5,
+        "wait": false,
+        "effect": 0
+      },
+      "id": "c22b99d6-c47f-4f33-baa3-02c8ff1fcc89"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Something soft over your\neyes. A blindfold."
+        ],
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "fc2f275e-688e-47ea-857a-07d4e30bb85b"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_POSITION",
+      "args": {
+        "actorId": "player",
+        "x": {
+          "type": "number",
+          "value": 10
+        },
+        "y": {
+          "type": "number",
+          "value": 8
+        }
+      },
+      "id": "a8425f90-2ed4-4c06-9537-cc1de8591b63"
+    },
+    {
+      "command": "EVENT_SOUND_PLAY_EFFECT",
+      "args": {
+        "type": "133f85a4-6b5b-43a8-98a2-f92a74c9d5c1",
+        "priority": "medium",
+        "pitch": 4,
+        "frequency": 200,
+        "duration": 0.5,
+        "wait": true,
+        "effect": 0
+      },
+      "id": "9e7e675e-a0fe-42c6-b411-c850ff3acfb7"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "202",
+        "value": {
+          "type": "number",
+          "value": 1
+        }
+      },
+      "id": "1960cf00-d720-4bdc-8021-150ae4935c19"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Maxwell: Do you give\nyourself freely?"
+        ],
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "21c76938-9f29-40d8-824c-9276c1545589"
+    },
+    {
+      "command": "EVENT_CHOICE",
+      "args": {
+        "variable": "213",
+        "trueText": "Yes",
+        "falseText": "No"
+      },
+      "id": "5e5af193-5131-406f-ab73-8109233b08ec"
+    },
+    {
+      "command": "EVENT_SOUND_PLAY_EFFECT",
+      "args": {
+        "type": "00b3fa3b-1326-4e20-8b27-07a3d16f1b53",
+        "priority": "medium",
+        "pitch": 4,
+        "frequency": 200,
+        "duration": 0.5,
+        "wait": false,
+        "effect": 0
+      },
+      "id": "0c028de3-1c0a-4c05-8d53-911f5f000ed2"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "213"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 0
+          }
+        },
+        "__collapseElse": true,
+        "__disableElse": true
+      },
+      "id": "dc5bc5f8-feff-431f-8291-24c184552f10",
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Maxwell: I'll ask once\nmore. Do you consent?"
+              ],
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "9a03504e-6ab2-470a-844d-52729f81150a"
+          },
+          {
+            "command": "EVENT_CHOICE",
+            "args": {
+              "variable": "213",
+              "trueText": "Yes",
+              "falseText": "No"
+            },
+            "id": "fc9fb858-7301-4977-a730-f04bb8d35f33"
+          },
+          {
+            "command": "EVENT_SOUND_PLAY_EFFECT",
+            "args": {
+              "type": "00b3fa3b-1326-4e20-8b27-07a3d16f1b53",
+              "priority": "medium",
+              "pitch": 4,
+              "frequency": 200,
+              "duration": 0.5,
+              "wait": false,
+              "effect": 0
+            },
+            "id": "daddb2ae-c06b-4e3e-a44c-7ce599116c89"
+          }
+        ],
+        "false": []
+      }
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "b639ca84-124b-4271-8b67-066188cd42b6"
+      },
+      "id": "d4fe61bf-e18e-4252-a0aa-208b2d84de0a"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "A dagger glints in\ncandlelight."
+        ],
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "2d6d0c16-caca-4201-83b2-a76d746a57c8"
+    },
+    {
+      "command": "EVENT_SOUND_PLAY_EFFECT",
+      "args": {
+        "type": "abaa18cd-27e2-41ab-b40f-fea143dd4713",
+        "priority": "medium",
+        "pitch": 4,
+        "frequency": 200,
+        "duration": 0.5,
+        "wait": true,
+        "effect": 0
+      },
+      "id": "0d50a4b8-a43d-4bf1-9be2-e07c9ac3d196"
+    },
+    {
+      "command": "EVENT_CAMERA_SHAKE",
+      "args": {
+        "time": 0.5,
+        "frames": 30,
+        "units": "time",
+        "shakeDirection": "horizontal",
+        "magnitude": {
+          "type": "number",
+          "value": 4
+        }
+      },
+      "id": "774589cf-7d6c-4b25-a08c-498ab7793250"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Teeth. At your neck."
+        ],
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "71b52f40-27c2-4b18-b1b8-4676730aab01"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "203",
+        "value": {
+          "type": "number",
+          "value": 1
+        }
+      },
+      "id": "f5382595-b835-4e94-81e2-79d86c7dfb2e"
+    },
+    {
+      "command": "EVENT_LOOP_WHILE",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "204"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 0
+          }
+        }
+      },
+      "id": "aa9665c1-0c27-4c68-95b6-73d9f71013aa",
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_WAIT",
+            "args": {
+              "time": {
+                "type": "number",
+                "value": 0.2
+              },
+              "frames": {
+                "type": "number",
+                "value": 12
+              },
+              "units": "time"
+            },
+            "id": "fd0f57ce-d2e2-45ec-926c-e61c044b4704"
+          }
+        ]
+      }
+    },
+    {
+      "command": "EVENT_ACTOR_SET_POSITION",
+      "args": {
+        "actorId": "0",
+        "x": {
+          "type": "number",
+          "value": 4
+        },
+        "y": {
+          "type": "number",
+          "value": 10
+        }
+      },
+      "id": "9349eaa9-140d-425a-9464-e021199bbbda"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_POSITION",
+      "args": {
+        "actorId": "1",
+        "x": {
+          "type": "number",
+          "value": 6
+        },
+        "y": {
+          "type": "number",
+          "value": 10
+        }
+      },
+      "id": "35c966b9-23b1-461d-80a6-1eea52c576db"
+    },
+    {
+      "command": "EVENT_ACTOR_SHOW",
+      "args": {
+        "actorId": "0"
+      },
+      "id": "6856eb99-e900-476f-93d7-fad5cf963724"
+    },
+    {
+      "command": "EVENT_ACTOR_SHOW",
+      "args": {
+        "actorId": "1"
+      },
+      "id": "442b59b7-76a4-4e97-b46c-f14610a2586c"
+    },
+    {
+      "command": "EVENT_SOUND_PLAY_EFFECT",
+      "args": {
+        "type": "d0100687-660d-4a87-bdc7-c58d6632cc30",
+        "priority": "medium",
+        "pitch": 4,
+        "frequency": 200,
+        "duration": 0.5,
+        "wait": false,
+        "effect": 0
+      },
+      "id": "c28827f4-9c3f-419d-9dbb-db8377c53e90"
+    },
+    {
+      "command": "EVENT_CAMERA_SHAKE",
+      "args": {
+        "time": 0.3,
+        "frames": 18,
+        "units": "time",
+        "shakeDirection": "horizontal",
+        "magnitude": {
+          "type": "number",
+          "value": 4
+        }
+      },
+      "id": "f9ed67d5-e905-42be-a805-95d7a33dca24"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Conner: MATT!",
+          "Parker: Get him off\nthe cross! Go!"
+        ],
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "c76ec4e9-77b7-4564-8b39-4759f8eae7b8"
+    },
+    {
+      "command": "EVENT_SOUND_PLAY_EFFECT",
+      "args": {
+        "type": "90decc01-7fdf-4c14-b440-5844d30c11ff",
+        "priority": "medium",
+        "pitch": 4,
+        "frequency": 200,
+        "duration": 0.5,
+        "wait": true,
+        "effect": 0
+      },
+      "id": "8486380c-5a05-46c3-a375-d31c991aee09"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "205",
+        "value": {
+          "type": "number",
+          "value": 1
+        }
+      },
+      "id": "47501ca2-b8e3-45db-bef1-1ca93f9db238"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "9f656893-63c9-480d-9525-915c517f6a2a"
+      },
+      "id": "91c5107b-7706-4bbe-88c3-f23b18e71c66"
+    },
+    {
+      "command": "EVENT_MUSIC_STOP",
+      "args": {},
+      "id": "e602bafe-1f9b-40e9-bded-3342d57730d8"
+    },
+    {
+      "command": "EVENT_SOUND_PLAY_EFFECT",
+      "args": {
+        "type": "513811e3-144c-4f88-a77f-cb3ce2cdf436",
+        "priority": "medium",
+        "pitch": 4,
+        "frequency": 200,
+        "duration": 0.5,
+        "wait": false,
+        "effect": 0
+      },
+      "id": "a46512a4-a867-4b47-868d-8875242e16c9"
+    },
+    {
+      "command": "EVENT_FADE_OUT",
+      "args": {
+        "speed": "1"
+      },
+      "id": "f5a69fca-a5d5-455b-9743-760f460493f1"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "4404e428-3b16-409f-a95c-eb10a11eba69",
+        "x": {
+          "type": "number",
+          "value": 9
+        },
+        "y": {
+          "type": "number",
+          "value": 9
+        },
+        "direction": "down",
+        "fadeSpeed": "2"
+      },
+      "id": "7f5b71e0-07d0-4bbf-821d-8bdcaea1f501"
+    }
+  ]
+}

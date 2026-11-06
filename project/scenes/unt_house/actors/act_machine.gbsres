@@ -1,0 +1,37 @@
+{
+  "_resourceType": "actor",
+  "id": "c277f799-8322-4e06-aaf7-fa5ffc098171",
+  "_index": 1,
+  "symbol": "actor_unt_act_machine",
+  "prefabId": "",
+  "name": "ACT_Machine",
+  "coordinateType": "tiles",
+  "x": 26,
+  "y": 7,
+  "frame": 0,
+  "animate": true,
+  "spriteSheetId": "00a68e29-78de-497f-8c20-92f4ab08a000",
+  "paletteId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "collisionExtraFlags": [],
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "f884f1ba-ba80-49b0-b23b-2b02fb835d42"
+      },
+      "id": "1685c030-ba2f-4480-9d17-c39525157930"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}
