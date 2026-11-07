@@ -107,6 +107,16 @@
       "symbol": "var_grid"
     },
     {
+      "id": "31",
+      "name": "ARENA_CPU_HP",
+      "symbol": "var_arena_cpu_hp"
+    },
+    {
+      "id": "32",
+      "name": "ARENA_PLAYER_HP",
+      "symbol": "var_arena_player_hp"
+    },
+    {
       "id": "40",
       "name": "handPosition",
       "symbol": "var_handposition"
@@ -345,6 +355,71 @@
       "id": "214",
       "name": "VAR_COMBAT_READY",
       "symbol": "var_combat_ready"
+    },
+    {
+      "id": "215",
+      "name": "ARENA_CPU_PHASE",
+      "symbol": "var_arena_cpu_phase"
+    },
+    {
+      "id": "216",
+      "name": "ARENA_CPU_TIMER",
+      "symbol": "var_arena_cpu_timer"
+    },
+    {
+      "id": "217",
+      "name": "ARENA_PLAYER_IFRAMES_TICKS",
+      "symbol": "var_arena_player_iframes_ti"
+    },
+    {
+      "id": "218",
+      "name": "ARENA_PLAYER_ATTACK_COOLDOWN",
+      "symbol": "var_arena_player_attack_coo"
+    },
+    {
+      "id": "219",
+      "name": "ARENA_CPU_HIT_COOLDOWN",
+      "symbol": "var_arena_cpu_hit_cooldown"
+    },
+    {
+      "id": "220",
+      "name": "ARENA_CPU_SCRATCH_PLAYER_X",
+      "symbol": "var_arena_cpu_scratch_playe"
+    },
+    {
+      "id": "221",
+      "name": "ARENA_CPU_SCRATCH_PLAYER_Y",
+      "symbol": "var_arena_cpu_scratch_playe_0"
+    },
+    {
+      "id": "222",
+      "name": "ARENA_CPU_SCRATCH_FOE_X",
+      "symbol": "var_arena_cpu_scratch_foe_x"
+    },
+    {
+      "id": "223",
+      "name": "ARENA_CPU_SCRATCH_FOE_Y",
+      "symbol": "var_arena_cpu_scratch_foe_y"
+    },
+    {
+      "id": "224",
+      "name": "ARENA_B_SCRATCH_PLAYER_X",
+      "symbol": "var_arena_b_scratch_player_"
+    },
+    {
+      "id": "225",
+      "name": "ARENA_B_SCRATCH_PLAYER_Y",
+      "symbol": "var_arena_b_scratch_player__0"
+    },
+    {
+      "id": "226",
+      "name": "ARENA_B_SCRATCH_FOE_X",
+      "symbol": "var_arena_b_scratch_foe_x"
+    },
+    {
+      "id": "227",
+      "name": "ARENA_B_SCRATCH_FOE_Y",
+      "symbol": "var_arena_b_scratch_foe_y"
     },
     {
       "id": "80bf141f-2c64-4c4d-a4ca-5b80fba6e9dc__L1",

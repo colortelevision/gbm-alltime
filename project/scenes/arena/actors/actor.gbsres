@@ -35,21 +35,21 @@
       "id": "d8932a34-6f15-4df3-86e5-17324daaad89"
     },
     {
-      "command": "EVENT_SET_VALUE",
+      "command": "EVENT_SWITCH_SCENE",
       "args": {
-        "variable": "17",
-        "value": {
-          "type": "false"
-        }
-      },
-      "id": "7351e059-04f2-4929-bd36-edbaafd2c825"
-    },
-    {
-      "command": "EVENT_SCENE_POP_STATE",
-      "args": {
+        "sceneId": "b9f61af9-9379-44bf-8280-0d8ff1f650b3",
+        "x": {
+          "type": "number",
+          "value": 12
+        },
+        "y": {
+          "type": "number",
+          "value": 9
+        },
+        "direction": "right",
         "fadeSpeed": "2"
       },
-      "id": "de359b68-eec6-4915-bc6a-c65a20ce1f8e"
+      "id": "89ce006f-3687-4a68-9c0f-7bfe5d189f1a"
     }
   ],
   "startScript": [],

@@ -512,6 +512,11 @@
                                 ],
                                 "true2": [
                                   {
+                                    "command": "EVENT_SCENE_PUSH_STATE",
+                                    "args": {},
+                                    "id": "d3b91e4c-f08a-4c03-bc17-355511ef247c"
+                                  },
+                                  {
                                     "command": "EVENT_SWITCH_SCENE",
                                     "args": {
                                       "sceneId": "b9f61af9-9379-44bf-8280-0d8ff1f650b3",

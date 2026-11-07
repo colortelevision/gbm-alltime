@@ -1,0 +1,30 @@
+PASS CPU approaches left and faces player
+PASS CPU approaches right and faces player
+PASS No chase beyond safe platform / no damage from afar
+PASS No chase/damage at different height
+PASS Attack enters telegraph without instant damage
+PASS No damage before full six-tick windup
+PASS Impact deals exactly one and sets player invulnerability/recovery
+PASS Cooldown prevents rapid HP drain
+PASS Jump during telegraph dodges impact
+PASS Crossing behind during telegraph dodges fixed facing
+PASS Player invulnerability suppresses hit
+PASS KO opponent never moves/attacks
+PASS B hits in front within range
+PASS Repeated B during cooldown does not deal additional damage
+PASS B does not hit behind player
+PASS B does not hit across vertical gap
+PASS Three legal B hits KO opponent
+PASS Player defeat requests local Arena reset
+PASS Old contact auto-KO and contact HP drain removed
+PASS Preserved project/scenes/arena/triggers/trigger.gbsres
+PASS Preserved project/scenes/arena/triggers/gator_pit_respawn.gbsres
+PASS Preserved project/scenes/arena/actors/actor.gbsres
+PASS Preserved project/scenes/unt_title/scene.gbsres
+PASS Preserved project/scenes/scene_39/actors/actor_3.gbsres
+PASS Preserved project/scenes/scene_40/actors/pic1.gbsres
+PASS Preserved project/scenes/scene_40/actors/pic2.gbsres
+PASS No engine changes
+PASS Original sprite animation states unmodified
+PASS Existing punch art mirrored for CPU facing
+29 static model/preservation checks passed. NOT runtime/emulator verification.

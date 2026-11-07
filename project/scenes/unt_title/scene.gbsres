@@ -23,6 +23,37 @@
   "playerSpriteSheetId": "8462d2a0-c2dc-45e2-baed-faced3f8f2a5",
   "script": [
     {
+      "command": "EVENT_REMOVE_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a",
+          "b",
+          "start",
+          "select",
+          "up",
+          "down",
+          "left",
+          "right"
+        ]
+      },
+      "id": "3dc72528-b02e-4794-bdd8-d71b703cba6e"
+    },
+    {
+      "command": "EVENT_SCENE_RESET_STATE",
+      "args": {},
+      "id": "b890533c-8b37-4f91-bb40-8d9a327a93ac"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "17",
+        "value": {
+          "type": "false"
+        }
+      },
+      "id": "8f26e4cb-7305-48e4-b164-be338151500e"
+    },
+    {
       "command": "EVENT_MUSIC_PLAY",
       "args": {
         "musicId": "a52e109a-1ef9-471f-b12f-4ec280929c18"

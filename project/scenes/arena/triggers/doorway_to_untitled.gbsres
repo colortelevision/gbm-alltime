@@ -1,0 +1,57 @@
+{
+  "_resourceType": "trigger",
+  "id": "c5af57d3-c536-4be1-b886-0db11034877e",
+  "name": "Doorway to UNTITLED",
+  "prefabId": "",
+  "x": 29,
+  "y": 12,
+  "symbol": "trigger_8",
+  "prefabScriptOverrides": {},
+  "width": 3,
+  "height": 4,
+  "script": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "17",
+        "value": {
+          "type": "false"
+        }
+      },
+      "id": "e3d45fe2-35ac-485d-924d-44bac41d34c4"
+    },
+    {
+      "command": "EVENT_REMOVE_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "b"
+        ]
+      },
+      "id": "eecc9361-2fb2-472b-b3d1-b91cc8fa3acf"
+    },
+    {
+      "command": "EVENT_SCENE_RESET_STATE",
+      "args": {},
+      "id": "934f127d-4b8f-43fa-801a-0b089f7489b7"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "903be6a4-0888-41ea-a6ee-77392dd86174",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "direction": "right",
+        "fadeSpeed": "2"
+      },
+      "id": "918fbe0d-2e59-4b76-bd9b-e05960a1ed14"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 0
+}

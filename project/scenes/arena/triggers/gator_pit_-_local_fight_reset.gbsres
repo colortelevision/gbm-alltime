@@ -1,0 +1,33 @@
+{
+  "_resourceType": "trigger",
+  "id": "bfb27d6e-704f-407f-a843-eb7e561bb747",
+  "name": "Gator pit - local fight reset",
+  "prefabId": "",
+  "x": 6,
+  "y": 18,
+  "width": 24,
+  "height": 4,
+  "symbol": "trigger_arena_pit_respawn",
+  "prefabScriptOverrides": {},
+  "_index": 1,
+  "script": [
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "b9f61af9-9379-44bf-8280-0d8ff1f650b3",
+        "x": {
+          "type": "number",
+          "value": 12
+        },
+        "y": {
+          "type": "number",
+          "value": 9
+        },
+        "direction": "right",
+        "fadeSpeed": "2"
+      },
+      "id": "713ebc11-0692-435b-ac0e-45ddf5f7f3d4"
+    }
+  ],
+  "leaveScript": []
+}
