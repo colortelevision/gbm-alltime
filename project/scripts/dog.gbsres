@@ -40,6 +40,13 @@
         ],
         "false": [
           {
+            "command": "EVENT_ACTOR_START_UPDATE",
+            "args": {
+              "actorId": "9"
+            },
+            "id": "84a10442-93ba-4d83-9bf3-5bb4034e0ea6"
+          },
+          {
             "command": "EVENT_ACTOR_ACTIVATE",
             "args": {
               "actorId": "9"
@@ -61,7 +68,11 @@
               "moveType": "horizontal",
               "useCollisions": false,
               "__collapse": false,
-              "collideWith": []
+              "collideWith": [
+                "walls",
+                "actors"
+              ],
+              "__section": "options"
             },
             "id": "6b2109fd-be72-4b77-ac46-4def190d1fad"
           }

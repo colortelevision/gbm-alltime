@@ -1,47 +1,54 @@
 {
   "_resourceType": "actor",
-  "id": "358131e9-4bcd-4eaa-815e-1a2b775907b7",
-  "_index": 8,
-  "symbol": "actor_43",
-  "prefabId": "",
+  "id": "7da0def5-ca9b-49a8-a58a-8173e035a721",
   "name": "",
-  "coordinateType": "tiles",
-  "x": 44,
-  "y": 8,
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "1889529c-8cae-41f5-bd1a-7f5f022c0d50",
-  "paletteId": "",
+  "spriteSheetId": "8f401b5c-e99a-456d-badf-af867f685b4c",
+  "prefabId": "",
   "direction": "down",
   "moveSpeed": 1,
   "animSpeed": 15,
+  "paletteId": "",
   "isPinned": false,
   "persistent": false,
   "collisionGroup": "",
   "collisionExtraFlags": [],
   "prefabScriptOverrides": {},
+  "symbol": "actor_48",
   "script": [
-    {
-      "command": "EVENT_SET_VALUE",
-      "args": {
-        "variable": "76",
-        "value": {
-          "type": "true"
-        }
-      },
-      "id": "21891956-4601-4eae-9389-abff59b9a155"
-    },
     {
       "command": "EVENT_CALL_CUSTOM_EVENT",
       "args": {
-        "customEventId": "ab582b97-0e6c-40d9-9a7c-798989433aab"
+        "customEventId": "b5ad95c1-3887-4fbe-a906-b477e6408425"
       },
-      "id": "9d54d628-b99d-47d5-9e95-489867ff3c6a"
+      "id": "56267bd2-01d3-4dcf-be69-1287d898eb21"
     }
   ],
-  "startScript": [],
+  "startScript": [
+    {
+      "command": "EVENT_PALETTE_SET_SPRITE",
+      "args": {
+        "palette0": "1192b80c-2a58-470d-91dc-c5fe77520be3",
+        "palette1": "keep",
+        "palette2": "keep",
+        "palette3": "keep",
+        "palette4": "keep",
+        "palette5": "keep",
+        "palette6": "keep",
+        "palette7": "keep",
+        "__collapse": false,
+        "__comment": true
+      },
+      "id": "4733dfd9-f3d0-4666-8f2e-83add7bbc513"
+    }
+  ],
   "updateScript": [],
   "hit1Script": [],
   "hit2Script": [],
-  "hit3Script": []
+  "hit3Script": [],
+  "coordinateType": "tiles",
+  "x": 70,
+  "y": 26,
+  "_index": 10
 }

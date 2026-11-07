@@ -30,6 +30,14 @@
   "playerSpriteSheetId": "7af91c2d-1507-4a72-b383-cde1c094f949",
   "script": [
     {
+      "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
+      "args": {
+        "actorId": "player",
+        "speed": 1
+      },
+      "id": "876f933f-1b82-4d32-8128-b4364d7de85d"
+    },
+    {
       "command": "EVENT_ACTOR_HIDE",
       "args": {
         "actorId": "$self$",

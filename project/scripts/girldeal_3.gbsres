@@ -1,0 +1,179 @@
+{
+  "_resourceType": "script",
+  "id": "617777a2-f511-4972-99e4-cd7bf6debdf5",
+  "name": "girlDeal_3",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_27",
+  "script": [
+    {
+      "command": "EVENT_LOOP_WHILE",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "78"
+          },
+          "valueB": {
+            "type": "true"
+          }
+        },
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "id": "aa37e681-f8c6-47b9-8bdd-e3deae135171",
+            "command": "EVENT_GROUP",
+            "args": {
+              "__collapse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "HEY SMART BOY,",
+                      "I CAN SELL U A HOT\nSHOT SHOWING ME NAKED!",
+                      "200 BUCKS AND\nTHAT PIC IS YOURS!"
+                    ],
+                    "__section": "text",
+                    "avatarId": "5c639d6d-2434-491f-b82f-62e2a33c2e34",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 2,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "any",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30,
+                    "__collapse": false
+                  },
+                  "id": "0be19338-5347-409c-b377-41b34c1f68e8"
+                },
+                {
+                  "command": "EVENT_IF",
+                  "args": {
+                    "condition": {
+                      "type": "gte",
+                      "valueA": {
+                        "type": "variable",
+                        "value": "69"
+                      },
+                      "valueB": {
+                        "type": "number",
+                        "value": 200
+                      }
+                    },
+                    "__collapseElse": false,
+                    "__collapse": false
+                  },
+                  "children": {
+                    "true": [
+                      {
+                        "command": "EVENT_CHOICE",
+                        "args": {
+                          "variable": "79",
+                          "trueText": "MAKE THAT DEAL",
+                          "falseText": "NOT RIGHT NOW",
+                          "__collapse": false
+                        },
+                        "id": "5d455729-dca9-46fc-b519-9b35c7536893"
+                      },
+                      {
+                        "command": "EVENT_IF",
+                        "args": {
+                          "condition": {
+                            "type": "variable",
+                            "value": "79"
+                          },
+                          "__collapseElse": false
+                        },
+                        "children": {
+                          "true": [
+                            {
+                              "command": "EVENT_VARIABLE_MATH",
+                              "args": {
+                                "vectorX": "69",
+                                "operation": "sub",
+                                "other": "val",
+                                "vectorY": "V0",
+                                "value": 200,
+                                "minValue": "0",
+                                "maxValue": "32767",
+                                "clamp": false
+                              },
+                              "id": "995630a8-80da-4bf2-9876-f98625e4c664"
+                            },
+                            {
+                              "command": "EVENT_SET_VALUE",
+                              "args": {
+                                "variable": "53",
+                                "value": {
+                                  "type": "true"
+                                }
+                              },
+                              "id": "d7e51791-96df-4aea-962c-ff0b03c2c050"
+                            }
+                          ],
+                          "false": [
+                            {
+                              "command": "EVENT_SET_VALUE",
+                              "args": {
+                                "variable": "78",
+                                "value": {
+                                  "type": "false"
+                                }
+                              },
+                              "id": "5a79e086-6ee1-43e3-9e83-57c8cde3b413"
+                            }
+                          ]
+                        },
+                        "id": "dd7bdc55-28e4-42e3-8ab0-acbe7a360b35"
+                      }
+                    ],
+                    "false": [
+                      {
+                        "command": "EVENT_SET_VALUE",
+                        "args": {
+                          "variable": "78",
+                          "value": {
+                            "type": "false"
+                          },
+                          "__collapse": false
+                        },
+                        "id": "014a1b26-9fa0-4fc1-90d4-66ab6409bfe6"
+                      }
+                    ]
+                  },
+                  "id": "cb90d89b-9091-4268-bba8-2982ea78b13f"
+                },
+                {
+                  "command": "EVENT_SET_VALUE",
+                  "args": {
+                    "variable": "78",
+                    "value": {
+                      "type": "false"
+                    },
+                    "__collapse": false
+                  },
+                  "id": "404c241c-b0a2-41d3-89a0-4278b32708f5"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "id": "b999b82f-77c1-4113-88b7-056d38f8079d"
+    }
+  ]
+}

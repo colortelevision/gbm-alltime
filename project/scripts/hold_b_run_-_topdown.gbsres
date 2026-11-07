@@ -1,0 +1,78 @@
+{
+  "_resourceType": "script",
+  "id": "5b7f2035-33a7-41d7-b7f4-599c14a416b1",
+  "name": "Hold B Run - Topdown",
+  "description": "Yielding input-state poll, no B binding; launched once per exploration scene. Base1/run2.",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_hold_b_run_topdown",
+  "script": [
+    {
+      "command": "EVENT_THREAD_START",
+      "args": {
+        "variable": "228"
+      },
+      "id": "c7f6aa6a-c98d-4f19-872c-8cb4bb3ed0c6",
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_LOOP",
+            "args": {},
+            "id": "c0b9b38d-c45a-4ad3-8f8b-eefbf8147a78",
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_IF_INPUT",
+                  "args": {
+                    "input": [
+                      "b"
+                    ],
+                    "__collapseElse": false
+                  },
+                  "id": "101e5c36-bcfe-4fe7-8ebf-32fa2cda63c5",
+                  "children": {
+                    "true": [
+                      {
+                        "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
+                        "args": {
+                          "actorId": "player",
+                          "speed": 2
+                        },
+                        "id": "ed55520d-0d22-4384-979c-4b8e927a1f48"
+                      }
+                    ],
+                    "false": [
+                      {
+                        "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
+                        "args": {
+                          "actorId": "player",
+                          "speed": 1
+                        },
+                        "id": "e4be161b-570b-44a6-be1e-dab2ba64b002"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "command": "EVENT_WAIT",
+                  "args": {
+                    "units": "frames",
+                    "frames": {
+                      "type": "number",
+                      "value": 1
+                    },
+                    "time": {
+                      "type": "number",
+                      "value": 0.016666666666666666
+                    }
+                  },
+                  "id": "ded3d978-d29d-47f1-aa4d-1d3c81f744d9"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

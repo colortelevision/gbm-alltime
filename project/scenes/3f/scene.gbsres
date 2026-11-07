@@ -24,6 +24,21 @@
   "autoFadeSpeed": 1,
   "script": [
     {
+      "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
+      "args": {
+        "actorId": "player",
+        "speed": 1
+      },
+      "id": "97b9ad64-ba7a-480d-8546-bce01f9e4944"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "5b7f2035-33a7-41d7-b7f4-599c14a416b1"
+      },
+      "id": "ef1377c1-9a14-4e9a-ad55-73429e9755b2"
+    },
+    {
       "command": "EVENT_SET_VALUE",
       "args": {
         "variable": "52",

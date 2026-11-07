@@ -1,0 +1,127 @@
+{
+  "_resourceType": "actor",
+  "id": "dc887d95-a3cb-47df-85d7-9f97e1a94b1e",
+  "name": "girl3",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "510d10e9-e56c-48bf-9495-b40eeb745ae9",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "collisionExtraFlags": [],
+  "prefabScriptOverrides": {},
+  "symbol": "actor_55",
+  "script": [
+    {
+      "command": "EVENT_ACTOR_STOP_UPDATE",
+      "args": {
+        "actorId": "$self$",
+        "__collapse": false
+      },
+      "id": "aeabbbbd-73e1-48d3-a517-9c78918752a3"
+    },
+    {
+      "id": "d7d22be4-e1e1-49cc-a72e-94e42da724d0",
+      "command": "EVENT_GROUP",
+      "args": {
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "eq",
+                "valueA": {
+                  "type": "variable",
+                  "value": "58"
+                },
+                "valueB": {
+                  "type": "true"
+                }
+              },
+              "__collapseElse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "have a nice day!"
+                    ],
+                    "__section": "presets",
+                    "avatarId": "5c639d6d-2434-491f-b82f-62e2a33c2e34",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 4,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "any",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30,
+                    "__collapse": true
+                  },
+                  "id": "fab1e498-68d8-4289-b913-037787da79b4"
+                },
+                {
+                  "command": "EVENT_SET_VALUE",
+                  "args": {
+                    "variable": "78",
+                    "value": {
+                      "type": "false"
+                    },
+                    "__collapse": true
+                  },
+                  "id": "efddb2d4-16c4-4cc5-aead-12c6d2c860d6"
+                }
+              ],
+              "false": [
+                {
+                  "command": "EVENT_SET_VALUE",
+                  "args": {
+                    "variable": "78",
+                    "value": {
+                      "type": "true"
+                    },
+                    "__collapse": false
+                  },
+                  "id": "4e62ac81-0066-4247-be3f-d9ad6dbbe4cd"
+                },
+                {
+                  "command": "EVENT_CALL_CUSTOM_EVENT",
+                  "args": {
+                    "customEventId": "617777a2-f511-4972-99e4-cd7bf6debdf5"
+                  },
+                  "id": "1cd875f9-b3c5-4b16-b3c0-d3b496837717"
+                }
+              ]
+            },
+            "id": "f092c6c4-1432-4588-9742-7dac926a097f"
+          }
+        ]
+      }
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "coordinateType": "tiles",
+  "x": 106,
+  "y": 2,
+  "_index": 11
+}

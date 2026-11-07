@@ -1,0 +1,66 @@
+{
+  "kind": "Fresh upload ROM actual PyBoy execution; no RAM writes",
+  "checks": [
+    "Fresh FINAL boots actual METRO-CITY at base speed32",
+    "Held B changes actual speed32->64",
+    "16-frame native travel walk=16.0px/run=32.0px (2x)",
+    "Release restores speed32",
+    "B-held menu entry cycle1: actual MENU, base speed",
+    "B closes MENU cycle1, held return resumes run",
+    "Release after menu cycle1 restores walking",
+    "B-held menu entry cycle2: actual MENU, base speed",
+    "B closes MENU cycle2, held return resumes run",
+    "Release after menu cycle2 restores walking",
+    "B-held menu entry cycle3: actual MENU, base speed",
+    "B closes MENU cycle3, held return resumes run",
+    "Release after menu cycle3 restores walking",
+    "Fresh TEST BIOS Down twice, A actually enters Arena",
+    "CPU actual horizontal pursuit in fresh ROM",
+    "5HP CPU, no instant contact auto-KO",
+    "Fair CPU hit intervals: [55, 55, 55, 55]",
+    "Player loss locally respawns healthy (12,9) in Arena",
+    "B defeats5HP CPU; position/HP stable180 frames after KO",
+    "Arena B remains punch, not run",
+    "Real A jump occurs and CPU advances during it",
+    "Walking through doorway without winning loads real UNT_TITLE",
+    "B on title starts UNT_CURB at (4,13)",
+    "Pit locally resets in Arena, no encounter-trigger loop",
+    "All56 fresh scene IDs/names/paths unchanged",
+    "6500 unrelated files byte-identical, no resource removed",
+    "Fresh settings/start retained byte-for-byte"
+  ],
+  "count": 27,
+  "walk_px_16frames": 16.0,
+  "run_px_16frames": 32.0,
+  "cpu_damage_gaps_frames": [
+    55,
+    55,
+    55,
+    55
+  ],
+  "cpu_approach_30frames": [
+    [
+      136.0,
+      72.0
+    ],
+    [
+      120.0,
+      72.0
+    ]
+  ],
+  "preservation": {
+    "scene_count": 56,
+    "names_changed_since_old_upload": 27,
+    "scene_identity_changes_by_this_patch": 0,
+    "unchanged_files": 6500,
+    "modified_existing": 58,
+    "new_files": 1,
+    "removed_files": 0,
+    "settings_byte_identical": true,
+    "run_scenes": 37,
+    "checks": 7725,
+    "conflicts": [],
+    "notes": "Fresh CPU events equal old pre-v2 semantics. Fresh editor-shortened variable symbols/order retained. Nested user folder 2/ untouched."
+  },
+  "limits": "Human animation/difficulty feel and every37 exploration maps individually remain for GUI review. User exact old-build total CPU immobility was not reproduced; old local CPU was slow and height-gated."
+}

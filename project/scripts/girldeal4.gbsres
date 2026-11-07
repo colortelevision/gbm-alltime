@@ -1,0 +1,178 @@
+{
+  "_resourceType": "script",
+  "id": "cc1a384a-2938-43ad-b023-67feb47bd894",
+  "name": "girlDeal4",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_29",
+  "script": [
+    {
+      "command": "EVENT_LOOP_WHILE",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "23"
+          },
+          "valueB": {
+            "type": "true"
+          }
+        },
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "id": "694ab44f-7749-4347-853e-f9fcaead9f16",
+            "command": "EVENT_GROUP",
+            "args": {
+              "__collapse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "HI I AM THE GIRL \nYOU PHONED. ",
+                      "200 COINS AND YOU GET \nA REALLY HOT SHOT OF \nMY SWEET BODY!"
+                    ],
+                    "__section": "text",
+                    "avatarId": "5c639d6d-2434-491f-b82f-62e2a33c2e34",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 2,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "any",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30,
+                    "__collapse": false
+                  },
+                  "id": "c2441b29-4563-47df-a605-f9d7c14f9f73"
+                },
+                {
+                  "command": "EVENT_IF",
+                  "args": {
+                    "condition": {
+                      "type": "gte",
+                      "valueA": {
+                        "type": "variable",
+                        "value": "69"
+                      },
+                      "valueB": {
+                        "type": "number",
+                        "value": 200
+                      }
+                    },
+                    "__collapseElse": false,
+                    "__collapse": false
+                  },
+                  "children": {
+                    "true": [
+                      {
+                        "command": "EVENT_CHOICE",
+                        "args": {
+                          "variable": "34",
+                          "trueText": "MAKE THAT DEAL",
+                          "falseText": "NOT RIGHT NOW",
+                          "__collapse": false
+                        },
+                        "id": "94dbff09-f3b3-4fb2-8dd3-f9a61afbe682"
+                      },
+                      {
+                        "command": "EVENT_IF",
+                        "args": {
+                          "condition": {
+                            "type": "variable",
+                            "value": "34"
+                          },
+                          "__collapseElse": false
+                        },
+                        "children": {
+                          "true": [
+                            {
+                              "command": "EVENT_VARIABLE_MATH",
+                              "args": {
+                                "vectorX": "69",
+                                "operation": "sub",
+                                "other": "val",
+                                "vectorY": "V0",
+                                "value": 200,
+                                "minValue": "0",
+                                "maxValue": "32767",
+                                "clamp": false
+                              },
+                              "id": "28d155c0-9d88-4cb1-add0-1a5432159507"
+                            },
+                            {
+                              "command": "EVENT_SET_VALUE",
+                              "args": {
+                                "variable": "22",
+                                "value": {
+                                  "type": "true"
+                                }
+                              },
+                              "id": "388ec33e-3080-4e40-a937-00a7b7f909de"
+                            }
+                          ],
+                          "false": [
+                            {
+                              "command": "EVENT_SET_VALUE",
+                              "args": {
+                                "variable": "23",
+                                "value": {
+                                  "type": "false"
+                                }
+                              },
+                              "id": "58041bb3-0a30-4b96-9b7f-d5e328c27ffd"
+                            }
+                          ]
+                        },
+                        "id": "602a41ca-2c9e-4d9a-985e-08556637c52f"
+                      }
+                    ],
+                    "false": [
+                      {
+                        "command": "EVENT_SET_VALUE",
+                        "args": {
+                          "variable": "23",
+                          "value": {
+                            "type": "false"
+                          },
+                          "__collapse": false
+                        },
+                        "id": "057f0870-4f31-45ee-a39b-ce0478464dd4"
+                      }
+                    ]
+                  },
+                  "id": "03550cf7-5110-4716-aa41-b91526ea8827"
+                },
+                {
+                  "command": "EVENT_SET_VALUE",
+                  "args": {
+                    "variable": "23",
+                    "value": {
+                      "type": "false"
+                    },
+                    "__collapse": false
+                  },
+                  "id": "b71d86ae-19ab-405a-a879-7caa7f4c81ff"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "id": "d59e4eea-f355-4fac-b9f5-2e14381884cd"
+    }
+  ]
+}

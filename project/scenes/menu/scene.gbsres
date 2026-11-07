@@ -24,6 +24,14 @@
   "autoFadeSpeed": 1,
   "script": [
     {
+      "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
+      "args": {
+        "actorId": "player",
+        "speed": 1
+      },
+      "id": "9c4714be-6566-48be-9772-1ae5cb7a7b55"
+    },
+    {
       "command": "EVENT_TEXT_DRAW",
       "args": {
         "text": "ENERGY:   ... $68$\nCOINS:    ... $69$\nCOCAINE:  ... $72$\n",

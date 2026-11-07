@@ -24,7 +24,23 @@
   "symbol": "scene_37",
   "x": 3360,
   "y": 712,
-  "script": [],
+  "script": [
+    {
+      "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
+      "args": {
+        "actorId": "player",
+        "speed": 1
+      },
+      "id": "6903478b-2cfb-4b31-ac58-061fb22964e2"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "5b7f2035-33a7-41d7-b7f4-599c14a416b1"
+      },
+      "id": "8fc9a59a-3fe7-42aa-9582-367c1625092f"
+    }
+  ],
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],

@@ -19,7 +19,16 @@
   ],
   "autoFadeSpeed": 1,
   "playerSpriteSheetId": "8bec02d3-4f48-4b09-a571-c585b02a89ea",
-  "script": [],
+  "script": [
+    {
+      "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
+      "args": {
+        "actorId": "player",
+        "speed": 1
+      },
+      "id": "f8a13eb4-b82a-4dda-a7e7-24b7ccb0603b"
+    }
+  ],
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],

@@ -1,0 +1,79 @@
+{
+  "_resourceType": "actor",
+  "id": "1b7d8e53-6104-45bc-8e12-5c9ce2c20894",
+  "name": "PHONE",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "83412491-b0af-4cc1-8ece-c941dcbb7a74",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "collisionExtraFlags": [],
+  "prefabScriptOverrides": {},
+  "symbol": "actor_57",
+  "script": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "25",
+        "value": {
+          "type": "true"
+        }
+      },
+      "id": "98d7c933-6b98-42d3-bdee-8e367260aa08"
+    },
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "1886d40f-076b-4cd8-81a3-c26cafbe0bcc"
+    }
+  ],
+  "startScript": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "variable",
+          "value": "25"
+        },
+        "__collapseElse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "$self$"
+            },
+            "id": "2eea1a9e-647b-42f4-8c48-73596ba50035"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_ACTOR_ACTIVATE",
+            "args": {
+              "actorId": "$self$"
+            },
+            "id": "66ea56c9-8766-4737-9533-46bd05119fc6"
+          }
+        ]
+      },
+      "id": "6754a843-4595-4cdc-9142-2019639ca74e"
+    }
+  ],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "coordinateType": "tiles",
+  "x": 53,
+  "y": 35,
+  "_index": 12
+}

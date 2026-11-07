@@ -23,6 +23,21 @@
   "playerSpriteSheetId": "8462d2a0-c2dc-45e2-baed-faced3f8f2a5",
   "script": [
     {
+      "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
+      "args": {
+        "actorId": "player",
+        "speed": 1
+      },
+      "id": "b23f4462-55ae-4346-a9cb-8ce892f89760"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "5b7f2035-33a7-41d7-b7f4-599c14a416b1"
+      },
+      "id": "d8ac5448-b9a5-4fbd-8376-d408b515791a"
+    },
+    {
       "command": "EVENT_PLAYER_SET_SPRITE",
       "args": {
         "spriteSheetId": "8462d2a0-c2dc-45e2-baed-faced3f8f2a5"
@@ -75,5 +90,5 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "collisions": "0f65+008+0f2+00d+0f2+00!0f6+008+0f2+00d+0f2+00!0f2+001e+0f2+001e+0f2+001e+0f2+0011+0f4+009+0f2+00f+0f8+007+0f2+00f+0f8+007+0f2+0011+0f4+009+0f2+001e+0f2+001e+0f2+005+0f4+0015+0f2+003+0f8+008+0f4+007+0f2+003+0f8+006+0f8+005+0f2+005+0f4+008+0f8+005+0f2+0013+0f4+007+0f2+001e+0f2+001e+0f2+001e+0f2+001e+0ff+004+0fe+"
+  "collisions": "0f45+001a+0f6+008+0f2+0010+0f2+001e+0f2+001e+0f2+001e+0f2+001e+0f2+0011+0f4+009+0f2+0011+0f4+009+0f2+0011+0f4+009+0f2+001e+0f2+001e+0f2+001e+0f2+005+0f4+0015+0f2+005+0f4+00a+0f4+007+0f2+005+0f4+00a+0f4+007+0f2+0013+0f4+007+0f2+001e+0f2+001e+0f2+001e+0f2+001e+0f2+001e+0ff+004+0fe+"
 }

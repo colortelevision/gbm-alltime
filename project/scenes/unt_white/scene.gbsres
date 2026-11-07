@@ -5,7 +5,7 @@
   "type": "LOGO",
   "name": "UNT_WHITE",
   "symbol": "scene_unt_white",
-  "x": 3140,
+  "x": 3144,
   "y": 2600,
   "width": 20,
   "height": 18,
@@ -22,6 +22,14 @@
   "autoFadeSpeed": 1,
   "playerSpriteSheetId": "8462d2a0-c2dc-45e2-baed-faced3f8f2a5",
   "script": [
+    {
+      "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
+      "args": {
+        "actorId": "player",
+        "speed": 1
+      },
+      "id": "33bc2e82-5f68-4d94-b3fc-c4b247b01888"
+    },
     {
       "command": "EVENT_WAIT",
       "args": {

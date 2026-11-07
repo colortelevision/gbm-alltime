@@ -25,6 +25,21 @@
   "playerSpriteSheetId": "73e3f95b-0117-4d97-aa04-19a3f7210fe8",
   "script": [
     {
+      "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
+      "args": {
+        "actorId": "player",
+        "speed": 1
+      },
+      "id": "4f77e82b-189b-4c26-ab1b-36d319e73e33"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "5b7f2035-33a7-41d7-b7f4-599c14a416b1"
+      },
+      "id": "e5b571a5-c944-49a0-a82f-f869b0e6921f"
+    },
+    {
       "command": "EVENT_IF",
       "args": {
         "condition": {

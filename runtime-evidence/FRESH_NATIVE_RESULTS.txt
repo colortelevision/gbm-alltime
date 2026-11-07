@@ -1,0 +1,29 @@
+UserWarning: Using SDL2 binaries from pysdl2-dll 2.32.10
+PASS Fresh FINAL boots actual METRO-CITY at base speed32
+PASS Held B changes actual speed32->64
+PASS 16-frame native travel walk=16.0px/run=32.0px (2x)
+PASS Release restores speed32
+PASS B-held menu entry cycle1: actual MENU, base speed
+PASS B closes MENU cycle1, held return resumes run
+PASS Release after menu cycle1 restores walking
+PASS B-held menu entry cycle2: actual MENU, base speed
+PASS B closes MENU cycle2, held return resumes run
+PASS Release after menu cycle2 restores walking
+PASS B-held menu entry cycle3: actual MENU, base speed
+PASS B closes MENU cycle3, held return resumes run
+PASS Release after menu cycle3 restores walking
+PASS Fresh TEST BIOS Down twice, A actually enters Arena
+PASS CPU actual horizontal pursuit in fresh ROM
+PASS 5HP CPU, no instant contact auto-KO
+PASS Fair CPU hit intervals: [55, 55, 55, 55]
+PASS Player loss locally respawns healthy (12,9) in Arena
+PASS B defeats5HP CPU; position/HP stable180 frames after KO
+PASS Arena B remains punch, not run
+PASS Real A jump occurs and CPU advances during it
+PASS Walking through doorway without winning loads real UNT_TITLE
+PASS B on title starts UNT_CURB at (4,13)
+PASS Pit locally resets in Arena, no encounter-trigger loop
+PASS All56 fresh scene IDs/names/paths unchanged
+PASS 6500 unrelated files byte-identical, no resource removed
+PASS Fresh settings/start retained byte-for-byte
+27 checks passed

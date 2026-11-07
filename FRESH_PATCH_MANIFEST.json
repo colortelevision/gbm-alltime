@@ -1,0 +1,307 @@
+{
+  "baseline_upload": "88ec09f64ebac2dc547efda56d0e217f9e5d0787448853d67b9e8ecd192c5f7a.zip",
+  "baseline_upload_sha256": "2e927c82b3785e87c478c3d0aa66b8f73df7ecadbeeed0e21d2b7758ca64b62c",
+  "patch_type": "DELTA ONLY against this fresh upload; previous cumulative patches superseded",
+  "root": "folder containing gbm-alltime.gbsproj and project/",
+  "scene_count_preserved": 56,
+  "run_scenes": 37,
+  "settings_in_patch": false,
+  "removed_paths": [],
+  "files": [
+    {
+      "path": "project/scenes/1-1-mushroom-kingdom/scene.gbsres",
+      "before_sha256": "ec0f1f52601ebbaf7c149fc59224d13a5b5a09e697c14552d77371dc7025b81f",
+      "after_sha256": "7ec8579b1b966741f96e7432839dd23c8ee12f4ebe52f5babe33ab78c11645e7"
+    },
+    {
+      "path": "project/scenes/10f/scene.gbsres",
+      "before_sha256": "75d3fc0305698a878cd4f6db33be1051d7e6d3fac3842e382b594bfb26d09a2c",
+      "after_sha256": "376329432f4efdbc7cd222c1c1b50c7f89f6b34f33a958a9ba315e2b7a709e99"
+    },
+    {
+      "path": "project/scenes/11f/scene.gbsres",
+      "before_sha256": "e5e4dc83b721916198c11e87fd739cfe0f12ef8660635177f4dc8682b6b253f3",
+      "after_sha256": "585665d51fd9b843b290683d78b140065f19b0732834ae7cc9789abc8bb51a39"
+    },
+    {
+      "path": "project/scenes/1f/scene.gbsres",
+      "before_sha256": "d1ae655a2076eb5d2b6e1c775978805af7444919e813f7fae11d174ab015baa3",
+      "after_sha256": "de85d3d734f9d0fe4a150d7dbeb246698069c989aa6df37e541cc6bcf78268de"
+    },
+    {
+      "path": "project/scenes/2f/scene.gbsres",
+      "before_sha256": "7d98e7bc5de6257834435e746e1b30f5a48b30000488e5aed01ee49c04c27d54",
+      "after_sha256": "3207678f5cc273b0831e91e5a289d42ad7a7f65c02007568ed551c4ab5b17b74"
+    },
+    {
+      "path": "project/scenes/3f/scene.gbsres",
+      "before_sha256": "7caee255d8de1d7de05552fb4976bacc1a77f5185fe9bfb378ce0032e18f4a01",
+      "after_sha256": "cc808f54af99b4770e69cd05fb554cda105625c4716cfb2dec7dd4ccde5a22ec"
+    },
+    {
+      "path": "project/scenes/4f/scene.gbsres",
+      "before_sha256": "168d20edc60cbd5c73463588a17ccd8f60c5cd4c8484d42467727ad264b3520e",
+      "after_sha256": "a9583ec4ff5435c12b1d38317dde27adf9f7086053404f9446ea6fa50d944406"
+    },
+    {
+      "path": "project/scenes/5f/scene.gbsres",
+      "before_sha256": "d474e999627348133e5c52963e714c8bf83371451638b90fe44a3844ebaa4303",
+      "after_sha256": "1a09184a0865508feaa6565aebd4354205c95bb9930254a1058979dc559c45c0"
+    },
+    {
+      "path": "project/scenes/6f/scene.gbsres",
+      "before_sha256": "dfaa9a46070d5f3ba7febb3b14e05ac7ca0aa8511d816773d7103010af7f4b5b",
+      "after_sha256": "d8b03996361e35221fd835ccf60d92cea22a1204529884b794d17ace84a43048"
+    },
+    {
+      "path": "project/scenes/7f/scene.gbsres",
+      "before_sha256": "b8f3fb08fc1120e833fab012e478979fcf32ef263476953ec861d270df969eb3",
+      "after_sha256": "a0db7987c6715f23a026af4f6f1c717d9012f734e3a3b4d1e3c8be09b0b443d8"
+    },
+    {
+      "path": "project/scenes/8f/scene.gbsres",
+      "before_sha256": "18c7039362dd0d6e70dbf49b75bdbc846d4841e5c0b4395e026a56d7edc4c3ef",
+      "after_sha256": "c2aa5f3673710acf1abcf3dedeb7ce88c67212c7dc27f0c55c91c92e2195b5e3"
+    },
+    {
+      "path": "project/scenes/9f/scene.gbsres",
+      "before_sha256": "aa2528ff9cf7d1d07fc17d7b08bd9946f00bfa42ed75444817dc25615944d3f9",
+      "after_sha256": "7a3cd021bb7791267c63a94d286cdeb90c5c1ceb23215b5065c9e79b8279bd66"
+    },
+    {
+      "path": "project/scenes/ami-talks/scene.gbsres",
+      "before_sha256": "ac9e43ae6783b0823d49011424ccff69f140dc7b75ec70db91fbcd69e328a1f4",
+      "after_sha256": "c8d9052b012eb5fae7a67500607b1e61531d425a7bbc35d80ff02ca146f47abb"
+    },
+    {
+      "path": "project/scenes/arena/actors/actor_2.gbsres",
+      "before_sha256": "d95390e1260ed033937688319f4ef8fd946ad331e045ee5c48a2021119c129ea",
+      "after_sha256": "98ad14843b8f837757386ac00775d7acaca185a1a1b6e645f34ccc27ed4d426c"
+    },
+    {
+      "path": "project/scenes/arena/scene.gbsres",
+      "before_sha256": "4750c2152ec798048a92a25e0981176d1535fe7ba0746dc4215bd84cf11b4fd7",
+      "after_sha256": "5113310a27c6c6fff146599e926be021943223582e7d442487110f58531589d3"
+    },
+    {
+      "path": "project/scenes/bios/scene.gbsres",
+      "before_sha256": "f901d005c5d24f73e4ce34cca1bc4a503143b4efba9be017cd0b42baaf6bb02a",
+      "after_sha256": "e54117b2add45e4d7b4294177db4c027903fc259cdebee0cdd3f9af64eed2662"
+    },
+    {
+      "path": "project/scenes/blank_held/scene.gbsres",
+      "before_sha256": "6e9ed2ba3dec7001ddcba9c1db0828b810d81e32b43d99fc43ba293186460307",
+      "after_sha256": "2d3cde6188d4ba993272f72a80bb7f7f5dbff067ab2b76edcf6aeade96b730c0"
+    },
+    {
+      "path": "project/scenes/board_attempt_1/scene.gbsres",
+      "before_sha256": "2edcf55b052727bdfb1586f5653515397dd113380060b5ced59f3e11452286db",
+      "after_sha256": "9d85d293192bc43a27353dd9f0d889ac3eb9e59d89902acd98f807f551a356f1"
+    },
+    {
+      "path": "project/scenes/board_attempt_2/scene.gbsres",
+      "before_sha256": "0f49183a0faee513dc8adced798c87ec16169cf4c85b6327fdf1070314f559e4",
+      "after_sha256": "b404b86bf3690f582227268064e64704bd83c35ac144cb1ea8424f2956da57fe"
+    },
+    {
+      "path": "project/scenes/board_attempt_3/scene.gbsres",
+      "before_sha256": "60ce2694f83915b89f59cb45e37b4a5773143c09ff9f6ee968e28b9ad5dddd84",
+      "after_sha256": "f10f6f1f152f576fa47df1b295aef2d3798fb0b1dbbb2bd045d7b6c019bd9385"
+    },
+    {
+      "path": "project/scenes/board_attempt_4/scene.gbsres",
+      "before_sha256": "9ed18accfe60aa2c317327712a006c3ce8829d916391f3c4a91aca6cce0053fb",
+      "after_sha256": "3df54f70fe39945dd95b1b430ef86aa6020426637d2808b9cf0c66f8184e4e83"
+    },
+    {
+      "path": "project/scenes/boot/scene.gbsres",
+      "before_sha256": "dfbe2dec7336a4fb62958d4d464a7e88320791650b8b6081f476e269999eda1b",
+      "after_sha256": "9793ae5966d0e5440d3847293bdedecc1cd4765bed0641d4058c7e26044a6a75"
+    },
+    {
+      "path": "project/scenes/boot2/scene.gbsres",
+      "before_sha256": "d5523244c6017e99dda14492641c5fe420e1c97fbbe49796b2fc6894eefbfad4",
+      "after_sha256": "1f2b99c166152436f0addf222169f794cc21542fa49a2b0b3f3e9bc912d6a22c"
+    },
+    {
+      "path": "project/scenes/botband/scene.gbsres",
+      "before_sha256": "fb65cf3914abe4bc13ae1d84988869ee31154d375b618cdb76e3deb8b64b40ff",
+      "after_sha256": "dfe97f908550226b04e6bad482677692eb632d64590c83ed0408bdfeb73d52b8"
+    },
+    {
+      "path": "project/scenes/botband2/scene.gbsres",
+      "before_sha256": "bd2066058a4d2dabd3a3239dfb9465ec28f23c01b02241aedfc21ece61b40f90",
+      "after_sha256": "715aa723671dbaf8345116d791b342e73a96f87ec187d9f178f31591c956e03b"
+    },
+    {
+      "path": "project/scenes/card-details/scene.gbsres",
+      "before_sha256": "c1bc0d5855ca4a36bdaaf48420d05cd5c09bf714fb6dfdabf540367358b92650",
+      "after_sha256": "3c9587960727f9a6b3210a78519347203384223e28e995ac66f1af0c50e51246"
+    },
+    {
+      "path": "project/scenes/dj_title_screen/scene.gbsres",
+      "before_sha256": "6bab8460f52056ed2f0b1317b5a72881b75af8e9dcce60b1ce39ad86f35c0a28",
+      "after_sha256": "95d7bfbfa4ec8e2f5c8ade81e2b2d822cd27c131c8874790551d0138dba2458d"
+    },
+    {
+      "path": "project/scenes/elevator/scene.gbsres",
+      "before_sha256": "255b8d5a9696076eb9a8fc1e64b3da641481d312e0763f39203c15f7e7f4feda",
+      "after_sha256": "8235a97bd25b936c1f5893fc1e36c8bfa1b44af25c4e0f9f388f256e1784d2a7"
+    },
+    {
+      "path": "project/scenes/handheld4/scene.gbsres",
+      "before_sha256": "1c4adeeb0ac7f758a945e54d53f882dd570e42aeb478f9f75a72db9159a45465",
+      "after_sha256": "4dd8a64e9ce71f2a5b49dbbaeeffebef65d816a7c2c5a767e5cf5e0974642381"
+    },
+    {
+      "path": "project/scenes/handheld4b/scene.gbsres",
+      "before_sha256": "1c7d1e6ae1b6bae77a88a1e1ef29b07adeb8bed69321ff92bb04ff57b16a21d4",
+      "after_sha256": "8bfa5a21f3bda01512ea901f569743660ee201d131766a4e836df7f3dec0b113"
+    },
+    {
+      "path": "project/scenes/handheld_1/scene.gbsres",
+      "before_sha256": "0c4605be8f56fecac934b21ef2a1afeb5dc6e24122862c5c1dcb489fbe749565",
+      "after_sha256": "cb892322b9d4561513aaac091a4e95ed9fddfb674aa26728799d86d765385285"
+    },
+    {
+      "path": "project/scenes/handheld_2/scene.gbsres",
+      "before_sha256": "9cd2237a4470ace0722b3bc2e4fba9426b799e4dc35e93abd3a6fbf53579fa23",
+      "after_sha256": "a1995e95ef4c25f056e71bcb762f75c8f575d070c19ef8e6093826d7e0017c7a"
+    },
+    {
+      "path": "project/scenes/handheld_3/scene.gbsres",
+      "before_sha256": "114d5b9e088efe1d1ba45a573757eddec49f0f3e23af7559f3bb6d4c8dbd534a",
+      "after_sha256": "9a25ec67d656957f21ccbac107d5bce00d4e83047605347cf31f05ad33435b59"
+    },
+    {
+      "path": "project/scenes/intro/scene.gbsres",
+      "before_sha256": "78738937005ef5891f6e95cbd092f44a179add01a744b7cabf6acb70e6bb8c03",
+      "after_sha256": "5103a90d5e44f5dbd911508afd9942830cf7e3f4ee062e717e2b94f1026d8553"
+    },
+    {
+      "path": "project/scenes/knobcon_entrance/scene.gbsres",
+      "before_sha256": "b2da1563b22c9dba40a3e4ae0f0148cdbdb25bd1b166eb918c638e3ce3f73ee3",
+      "after_sha256": "9727ea412c0ee98dc725ad53172cfcbdd8d29642757b5e92c1255550fe0ec4f0"
+    },
+    {
+      "path": "project/scenes/livingroom/scene.gbsres",
+      "before_sha256": "9827e2f1686c8677cfa9d9ced3014bca48b629bcaf510853bcfba6c7603f0a51",
+      "after_sha256": "bf86df7713004cce71e3a797a12c2339fcf5df1d470bd8bfe216b4a5cdf7e804"
+    },
+    {
+      "path": "project/scenes/loading-screen-1/scene.gbsres",
+      "before_sha256": "0a84efe2bb306b6c4604c3a49a7ac60a658ee1fecd6c18a4ea22db9bf3f2543b",
+      "after_sha256": "f968bb97dfa7c86325ae6f0f85e8a5aa3f426e5e01e95e5887e0755b9de87b62"
+    },
+    {
+      "path": "project/scenes/menu/scene.gbsres",
+      "before_sha256": "9e5823e28086836366f9b483ad6a8d99a14772517d79450956173d11b44e4e4a",
+      "after_sha256": "7b8f1aa3797b155c7e62028c017cebeb8d061ff725909c6802a1ed833b37ee95"
+    },
+    {
+      "path": "project/scenes/metro-city/scene.gbsres",
+      "before_sha256": "eb5d3a7caeb165dccb783bd89d4b159ff1f393485f81bd7465bbdcaa37ab51b5",
+      "after_sha256": "58714e2c1c1e59c4f7c033df43816f7c4fdeb2a27a927d4eefcfc57faad89695"
+    },
+    {
+      "path": "project/scenes/monitor/scene.gbsres",
+      "before_sha256": "c31bff5264159b5242ce89bcd594547ecfeb03a7dfc7a87e76552d22e5973921",
+      "after_sha256": "f87ad0485f8a646b6170623d87115fb36dfc0ebcd54658ee7da611f8424d49f4"
+    },
+    {
+      "path": "project/scenes/mtred/scene.gbsres",
+      "before_sha256": "e01dac61b0594b5e3ef854cb68a3cd9056543fce7f5a67c9defeb964b565cacc",
+      "after_sha256": "8ac3bae510c1e0b2bf2adba0cdf27ed5da281f46cda2b52acc43a38587c9bf6d"
+    },
+    {
+      "path": "project/scenes/pic1/scene.gbsres",
+      "before_sha256": "875a00bf4e048f6e420bcf5bfbe6a5ff17c2c8a5a00eff8c77699dd5f31cdab7",
+      "after_sha256": "1f56a251e8d034dd75a8a6d001a643458f53332ff660973f01ff206511a89848"
+    },
+    {
+      "path": "project/scenes/pic2/scene.gbsres",
+      "before_sha256": "2606e8445025413ea9b6c851ca4986f52f7687bc665c700ff1e14f674d6061fb",
+      "after_sha256": "c11c3c425d6b152b80926c909a48f1616102a76cae045adbfee57443a9f15347"
+    },
+    {
+      "path": "project/scenes/pic3/scene.gbsres",
+      "before_sha256": "85b96ceb6c71efe4f40369f33fa156bbc67240e872eeb7f04e30f9cc94354fb5",
+      "after_sha256": "0b5d2b98f57f30a023c0cb190b694941ad6f5ac7d93c2f62223d5ef50a400633"
+    },
+    {
+      "path": "project/scenes/sacrificial/scene.gbsres",
+      "before_sha256": "fb80283ba6cfe83b93bfcee8b7e8afea0719ffa9e19841b8ace5780ae7eb0d70",
+      "after_sha256": "0c8e6822078450a9ef025fadea443be406c8b895d170a4f6dba0cc3b77f2d70b"
+    },
+    {
+      "path": "project/scenes/smpte_logo/scene.gbsres",
+      "before_sha256": "8b8d32779c2a1d1d36cc289be54f2619a0def3ab6bd271c23ffaa2322109afd8",
+      "after_sha256": "e9904e9726d7b22b7c517320338d469d5fac1e9d146b792703248dac446f27ff"
+    },
+    {
+      "path": "project/scenes/synth_op1/scene.gbsres",
+      "before_sha256": "57353110adf7a6770879110711b2e5513fbeff6416c6dccf7e145f53d4466e56",
+      "after_sha256": "9662c7da38fe5cc4cacb982c74c1b6e34f8b4e3294e5e4227005ee0b0880d9ff"
+    },
+    {
+      "path": "project/scenes/tv-screen/scene.gbsres",
+      "before_sha256": "e05caf46c54855780d2c31d88229fc61291709cc80e0fd199b59faa310ee3042",
+      "after_sha256": "d6b66dde1511ad0370a8759df3510042c839a57e912c9469e15134570977964e"
+    },
+    {
+      "path": "project/scenes/unt_cellar/scene.gbsres",
+      "before_sha256": "2435fb7ae31d0818f10e38cf6d5254c86b280d05309889e0f35554378854b240",
+      "after_sha256": "aec33c66dfa2d4b6673597fd1a34dda6f08c453619e0bf5d0807f6235fce931c"
+    },
+    {
+      "path": "project/scenes/unt_curb/scene.gbsres",
+      "before_sha256": "f7d88cc1463645df8fee197149e030f51109e20567a6773d12c9581c6095d430",
+      "after_sha256": "3ef383dcce4bc1536664d1758eecff4e61ba95e7f9183d4a8f6c5fdf47777854"
+    },
+    {
+      "path": "project/scenes/unt_hall/scene.gbsres",
+      "before_sha256": "9ef2b93e2f254f4f5ec2bfb432c5c521fd2b2d897fb584db9eb4b7a0874f1390",
+      "after_sha256": "12b747499447939da0b93901179106135719ce7ec09dcf78b3d8b884b29b4dd7"
+    },
+    {
+      "path": "project/scenes/unt_house/scene.gbsres",
+      "before_sha256": "59c967a207a8905ddda438096ab3a6464ce4380ae9c43e61c6823821d3f514de",
+      "after_sha256": "e49a604bca5fb32331de1b998f3d08f64df73b5949c8c193232fa7c9af96bcf8"
+    },
+    {
+      "path": "project/scenes/unt_nave/scene.gbsres",
+      "before_sha256": "effdd62a5b64f38142fb49d6f8ef01539ea9ec2f9c7753cfe788d5edac7f92cf",
+      "after_sha256": "7dc9fdc45bde73ba93bf33e8ebd39cb2f181a37c034e2e1f976c6fd704190e32"
+    },
+    {
+      "path": "project/scenes/unt_office/scene.gbsres",
+      "before_sha256": "d3a22033e330c74410d10dc0226ed93c51e7986c23159edd8f77187140435656",
+      "after_sha256": "362121a6d4c22eae247faeffe0123303c0af8ac97c4a698d3781afc4e3711541"
+    },
+    {
+      "path": "project/scenes/unt_title/scene.gbsres",
+      "before_sha256": "9313b310540695a691c47bf1ca51b61405b46703cc882392db353834209944de",
+      "after_sha256": "dad41590c08936c5eded9b7e9b2f37db610e3b894ab92561a4b22569deee535a"
+    },
+    {
+      "path": "project/scenes/unt_white/scene.gbsres",
+      "before_sha256": "ee2b53dd005e576339f8850bfb4213972132f7d01a8517c8c9d167c4e9bb0551",
+      "after_sha256": "aceb2d7724e12c9e477e888319d338dcc18b3d3c10b2105b94eedc2e8eec7565"
+    },
+    {
+      "path": "project/scenes/unued_titlecard/scene.gbsres",
+      "before_sha256": "39e5c67a397219cf53b7c00d2ef8fe7988eb297fc1946abfd52e951404f852a3",
+      "after_sha256": "bd60241ef3a8c4d33df2e0192735734eb4666857a2f51ab96ed825473bb5a2bc"
+    },
+    {
+      "path": "project/scripts/hold_b_run_topdown.gbsres",
+      "before_sha256": null,
+      "after_sha256": "24535615bebb41569347f9fc1ccb9ae74c2da1628e676bbd0106a74836979dbe"
+    },
+    {
+      "path": "project/variables.gbsres",
+      "before_sha256": "d58497903f04ddc91434d8cbbcc85a9c2658b2b7973173d4ac33edb18f938854",
+      "after_sha256": "76429989a1d601d0a050d045a04a66919d5fa7d99206b24fcf9db6d8dd7906d6"
+    }
+  ]
+}

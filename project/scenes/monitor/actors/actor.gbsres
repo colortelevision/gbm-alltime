@@ -1,0 +1,158 @@
+{
+  "_resourceType": "actor",
+  "id": "32e01e6e-52f3-42d4-a0cd-4bc546d854c1",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "79381d3a-2ef1-4fd8-868e-e7be4a9c7cc8",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "collisionExtraFlags": [],
+  "prefabScriptOverrides": {},
+  "symbol": "actor_59",
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "HI I AM THE GIRL YOU PHONED. 200 COINS AND YOU GET A REALLY HOT SHOT OF MY SWEET BODY!"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "2af21573-cea0-43cc-9865-a0308e1e6ecc"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "cc1a384a-2938-43ad-b023-67feb47bd894",
+        "__comment": true
+      },
+      "id": "c4d0c5c7-3a90-4a1d-acbd-7864f9de9f0c"
+    },
+    {
+      "command": "EVENT_ACTOR_STOP_UPDATE",
+      "args": {
+        "actorId": "$self$",
+        "__collapse": true
+      },
+      "id": "e42fc530-22b3-4bec-9114-d5d8dffb0ee7"
+    },
+    {
+      "id": "71d82b4e-54a7-4569-b582-943b27f1eba8",
+      "command": "EVENT_GROUP",
+      "args": {
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "eq",
+                "valueA": {
+                  "type": "variable",
+                  "value": "19"
+                },
+                "valueB": {
+                  "type": "true"
+                }
+              },
+              "__collapseElse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "have a nice day!"
+                    ],
+                    "__section": "presets",
+                    "avatarId": "5c639d6d-2434-491f-b82f-62e2a33c2e34",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 4,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "any",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30,
+                    "__collapse": true
+                  },
+                  "id": "674028e0-e028-4890-bac5-6125af1d1f39"
+                },
+                {
+                  "command": "EVENT_SET_VALUE",
+                  "args": {
+                    "variable": "23",
+                    "value": {
+                      "type": "false"
+                    }
+                  },
+                  "id": "0b1a564e-a62e-4848-9a50-8a067f0b6c86"
+                }
+              ],
+              "false": [
+                {
+                  "command": "EVENT_SET_VALUE",
+                  "args": {
+                    "variable": "23",
+                    "value": {
+                      "type": "true"
+                    }
+                  },
+                  "id": "32dbc57c-bd24-4258-8852-ff91390ef750"
+                },
+                {
+                  "command": "EVENT_CALL_CUSTOM_EVENT",
+                  "args": {
+                    "customEventId": "cc1a384a-2938-43ad-b023-67feb47bd894"
+                  },
+                  "id": "3543179e-97ed-4302-beea-b75a12bb04da"
+                }
+              ]
+            },
+            "id": "4f0cb47a-8252-4fa2-b852-48c7e6acc886"
+          }
+        ]
+      }
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "coordinateType": "tiles",
+  "x": 11,
+  "y": 16,
+  "_index": 0
+}

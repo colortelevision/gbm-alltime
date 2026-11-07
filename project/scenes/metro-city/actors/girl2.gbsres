@@ -1,0 +1,47 @@
+{
+  "_resourceType": "actor",
+  "id": "358131e9-4bcd-4eaa-815e-1a2b775907b7",
+  "_index": 8,
+  "symbol": "actor_43",
+  "prefabId": "",
+  "name": "girl2",
+  "coordinateType": "tiles",
+  "x": 44,
+  "y": 8,
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "1889529c-8cae-41f5-bd1a-7f5f022c0d50",
+  "paletteId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "collisionExtraFlags": [],
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "76",
+        "value": {
+          "type": "true"
+        }
+      },
+      "id": "21891956-4601-4eae-9389-abff59b9a155"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "ab582b97-0e6c-40d9-9a7c-798989433aab"
+      },
+      "id": "9d54d628-b99d-47d5-9e95-489867ff3c6a"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

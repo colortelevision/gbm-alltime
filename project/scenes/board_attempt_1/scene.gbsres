@@ -5,8 +5,8 @@
   "type": "POINTNCLICK",
   "name": "board_attempt_1",
   "symbol": "scene_33",
-  "x": 2704,
-  "y": 720,
+  "x": 2240,
+  "y": 552,
   "width": 20,
   "height": 18,
   "backgroundId": "f3614f49-456f-4ad3-bc12-4e7cf3960590",
@@ -23,7 +23,16 @@
     "a8353c40-a7c8-4424-a3cb-f82bf0261c93"
   ],
   "autoFadeSpeed": 1,
-  "script": [],
+  "script": [
+    {
+      "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
+      "args": {
+        "actorId": "player",
+        "speed": 1
+      },
+      "id": "27e48cf4-e22e-4074-8f35-75b8a1fd5f56"
+    }
+  ],
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],

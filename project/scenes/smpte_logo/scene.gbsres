@@ -23,9 +23,17 @@
   "collisions": "",
   "autoFadeSpeed": 1,
   "symbol": "scene_46",
-  "x": 2048,
-  "y": 424,
+  "x": 1616,
+  "y": 232,
   "script": [
+    {
+      "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
+      "args": {
+        "actorId": "player",
+        "speed": 1
+      },
+      "id": "9fc0332a-fe67-408d-963a-04608659074d"
+    },
     {
       "command": "EVENT_IF",
       "args": {
@@ -341,11 +349,11 @@
                           "sceneId": "ec327b07-fc92-453d-bb6d-362645223426",
                           "x": {
                             "type": "number",
-                            "value": 0
+                            "value": 3
                           },
                           "y": {
                             "type": "number",
-                            "value": 0
+                            "value": 2
                           },
                           "direction": "",
                           "fadeSpeed": "2"

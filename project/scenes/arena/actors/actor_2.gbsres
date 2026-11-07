@@ -693,7 +693,7 @@
                           "variable": "216",
                           "value": {
                             "type": "number",
-                            "value": 15
+                            "value": 9
                           }
                         },
                         "id": "383aba37-5d56-4a03-95d9-83d302640b83"
@@ -845,8 +845,15 @@
                                   "value": "221"
                                 },
                                 "valueB": {
-                                  "type": "number",
-                                  "value": 66
+                                  "type": "sub",
+                                  "valueA": {
+                                    "type": "variable",
+                                    "value": "223"
+                                  },
+                                  "valueB": {
+                                    "type": "number",
+                                    "value": 56
+                                  }
                                 }
                               }
                             },
@@ -857,8 +864,15 @@
                                 "value": "221"
                               },
                               "valueB": {
-                                "type": "number",
-                                "value": 78
+                                "type": "add",
+                                "valueA": {
+                                  "type": "variable",
+                                  "value": "223"
+                                },
+                                "valueB": {
+                                  "type": "number",
+                                  "value": 8
+                                }
                               }
                             }
                           },
@@ -1080,7 +1094,7 @@
                                               },
                                               "valueB": {
                                                 "type": "number",
-                                                "value": 159
+                                                "value": 158
                                               }
                                             },
                                             "__collapseElse": true
@@ -1100,7 +1114,7 @@
                                                     },
                                                     "valueB": {
                                                       "type": "number",
-                                                      "value": 1
+                                                      "value": 2
                                                     }
                                                   },
                                                   "y": {
@@ -1164,7 +1178,7 @@
                                               },
                                               "valueB": {
                                                 "type": "number",
-                                                "value": 88
+                                                "value": 89
                                               }
                                             },
                                             "__collapseElse": true
@@ -1184,7 +1198,7 @@
                                                     },
                                                     "valueB": {
                                                       "type": "number",
-                                                      "value": -1
+                                                      "value": -2
                                                     }
                                                   },
                                                   "y": {
@@ -1243,11 +1257,11 @@
         "units": "frames",
         "frames": {
           "type": "number",
-          "value": 4
+          "value": 1
         },
         "time": {
           "type": "number",
-          "value": 0.06666666666666667
+          "value": 0.016666666666666666
         }
       },
       "id": "9ffc6125-572f-4a63-b251-25d074576d24"

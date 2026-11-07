@@ -14,9 +14,25 @@
   "collisions": "0050+",
   "autoFadeSpeed": 1,
   "symbol": "scene_38",
-  "x": 3136,
-  "y": 1008,
-  "script": [],
+  "x": 2056,
+  "y": 368,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
+      "args": {
+        "actorId": "player",
+        "speed": 1
+      },
+      "id": "4c3a7221-6c3f-48d7-bb09-8ae0e7bcd186"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "5b7f2035-33a7-41d7-b7f4-599c14a416b1"
+      },
+      "id": "1be3e101-5bb5-4e2d-bf62-1ecbf65c88ff"
+    }
+  ],
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
