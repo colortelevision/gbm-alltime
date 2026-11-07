@@ -146,7 +146,39 @@
       }
     }
   ],
-  "startScript": [],
+  "startScript": [
+    {
+      "id": "d639e699-afc0-4b37-9c33-2bd4b42c2eef",
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "variable",
+          "value": "59"
+        },
+        "__collapseElse": false
+      },
+      "children": {
+        "true": [
+          {
+            "id": "22e2c0a0-712c-4c53-a813-5b5206c4ed1a",
+            "command": "EVENT_ACTOR_ACTIVATE",
+            "args": {
+              "actorId": "32e01e6e-52f3-42d4-a0cd-4bc546d854c1"
+            }
+          }
+        ],
+        "false": [
+          {
+            "id": "a359cb45-c151-4bcc-b570-cc4cb62c64e4",
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "32e01e6e-52f3-42d4-a0cd-4bc546d854c1"
+            }
+          }
+        ]
+      }
+    }
+  ],
   "updateScript": [],
   "hit1Script": [],
   "hit2Script": [],

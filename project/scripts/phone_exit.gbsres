@@ -1,0 +1,49 @@
+{
+  "_resourceType": "script",
+  "id": "66ae20b5-bc67-4f49-bcc0-652128d966ba",
+  "name": "PHONE EXIT",
+  "description": "Pop exactly the dialer MENU snapshot; MENU retains its caller underneath. Remove all dialer bindings and show cursor.",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_phone_exit",
+  "script": [
+    {
+      "id": "2ef6e423-767c-428a-84ba-f2e1f9c6840f",
+      "command": "EVENT_REMOVE_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "up",
+          "down",
+          "left",
+          "right",
+          "a",
+          "b",
+          "start",
+          "select"
+        ]
+      }
+    },
+    {
+      "id": "52b8bdad-e457-4ba5-a0d5-fa83877f631b",
+      "command": "EVENT_ACTOR_SHOW",
+      "args": {
+        "actorId": "player"
+      }
+    },
+    {
+      "id": "dbaecc20-6a04-48c7-bfeb-ee7cd3df3fec",
+      "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
+      "args": {
+        "actorId": "player",
+        "speed": 1
+      }
+    },
+    {
+      "id": "3e345513-cd83-4944-bafb-a6107867a4d5",
+      "command": "EVENT_SCENE_POP_STATE",
+      "args": {
+        "fadeSpeed": "2"
+      }
+    }
+  ]
+}

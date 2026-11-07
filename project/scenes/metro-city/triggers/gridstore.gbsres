@@ -1,33 +1,33 @@
 {
   "_resourceType": "trigger",
-  "id": "f361e3ca-8e72-47f2-adc6-bf50ccc14251",
-  "name": "",
+  "id": "18b1af37-792f-41a2-aa29-754b41db1f25",
+  "name": "GRIDSTORE",
   "prefabId": "",
-  "x": 38,
+  "x": 55,
   "y": 24,
-  "symbol": "trigger_120",
+  "symbol": "trigger_111",
   "prefabScriptOverrides": {},
   "width": 2,
-  "height": 1,
+  "height": 2,
   "script": [
     {
       "command": "EVENT_SWITCH_SCENE",
       "args": {
-        "sceneId": "72314381-6739-4202-bf47-ffef8f6570eb",
+        "sceneId": "36b29559-ddf3-4ab9-9162-21efb20a0e3b",
         "x": {
           "type": "number",
-          "value": 18
+          "value": 1
         },
         "y": {
           "type": "number",
-          "value": 2
+          "value": 12
         },
         "direction": "",
         "fadeSpeed": "2"
       },
-      "id": "f253a84c-ac69-4414-9b11-307a4343f584"
+      "id": "ea195ccf-f99d-4cac-b19a-df170b9c341b"
     }
   ],
   "leaveScript": [],
-  "_index": 8
+  "_index": 1
 }

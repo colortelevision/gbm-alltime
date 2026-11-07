@@ -1,15 +1,78 @@
 {
   "_resourceType": "trigger",
-  "id": "ef41b200-1136-4967-8683-78994d6c7f7a",
+  "id": "74d024c8-cba9-4be7-8e8b-f14d64de863d",
   "name": "",
   "prefabId": "",
-  "x": 11,
-  "y": 24,
-  "symbol": "trigger_110",
+  "x": 34,
+  "y": 16,
+  "symbol": "trigger_112",
   "prefabScriptOverrides": {},
-  "width": 2,
-  "height": 2,
-  "script": [],
+  "width": 1,
+  "height": 6,
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "variable",
+          "value": "L0"
+        },
+        "__collapseElse": false,
+        "__collapse": false
+      },
+      "children": {
+        "true": [],
+        "false": [
+          {
+            "command": "EVENT_ACTOR_EMOTE",
+            "args": {
+              "actorId": "69661f2c-1381-41d6-9dfe-7b07ed3ba6c3",
+              "emoteId": "7f3448d2-0251-4a83-b64f-a6a7fc0746fc",
+              "__collapse": false
+            },
+            "id": "8e3b3d08-70f8-4f59-83d3-bbdb5d7efb13"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "HEY! GET OFF THE COURT!!"
+              ],
+              "__section": "layout",
+              "avatarId": "5c639d6d-2434-491f-b82f-62e2a33c2e34",
+              "minHeight": 4,
+              "maxHeight": 4,
+              "textX": 3,
+              "textY": 2,
+              "textHeight": 1,
+              "position": "top",
+              "clearPrevious": true,
+              "showFrame": false,
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "any",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": false
+            },
+            "id": "7af4efe2-9bd4-4434-9066-998641ef7892"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "L0",
+              "value": {
+                "type": "true"
+              }
+            },
+            "id": "ad86b5ad-e82a-442b-bd62-ba77a733fa16"
+          }
+        ]
+      },
+      "id": "2229130f-798d-4290-8e11-9468117f68c6"
+    }
+  ],
   "leaveScript": [],
-  "_index": 0
+  "_index": 2
 }

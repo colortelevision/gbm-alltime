@@ -1,0 +1,33 @@
+{
+  "_resourceType": "trigger",
+  "id": "ef41b200-1136-4967-8683-78994d6c7f7a",
+  "name": "B-ILLUSTRATED",
+  "prefabId": "",
+  "x": 11,
+  "y": 24,
+  "symbol": "trigger_110",
+  "prefabScriptOverrides": {},
+  "width": 2,
+  "height": 2,
+  "script": [
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "dd7989b5-e14e-4f8e-92cd-d0ec7dbc516d",
+        "x": {
+          "type": "number",
+          "value": 21
+        },
+        "y": {
+          "type": "number",
+          "value": 32
+        },
+        "direction": "up",
+        "fadeSpeed": "2"
+      },
+      "id": "23b0331c-5288-4158-a4a5-08eefeab1ab3"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 0
+}

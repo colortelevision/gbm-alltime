@@ -1,0 +1,151 @@
+UserWarning: Using SDL2 binaries from pysdl2-dll 2.32.10
+PASS Scene: PHONE TEST HUB
+PASS Fresh save starts uncontacted
+PASS Scene: MONITOR
+PASS Monitor female disabled and absent from active/collision list before contact
+PASS Scene: PHONE TEST HUB
+PASS Test route starts with empty stack
+PASS Scene: METRO-CITY
+PASS Real world phone pickup sets existing flag25
+PASS Scene: MENU
+PASS MENU depth1 preserves world caller
+PASS Scene: PHONE DIALER
+PASS Dialer depth2, no extra pushes
+PASS Dialer entry clears digits only
+PASS 100 redraws preserve actual header/key labels/help pixels
+PASS Dialing available before dog note (knowledge puzzle)
+PASS Incomplete zero-digit submission leaves contact false
+PASS Keypad cursor reaches (1, 0)
+PASS Keypad cursor reaches (0, 1)
+PASS Keypad cursor reaches (3, 1)
+PASS Keypad cursor reaches (1, 2)
+PASS Keypad cursor reaches (2, 2)
+PASS Keypad cursor reaches (1, 2)
+PASS Six correct digits still incomplete, no contact
+PASS Keypad cursor reaches (1, 2)
+PASS Wrong seven digits do not contact
+PASS Wrong-number screen static art stays uncorrupted
+PASS Keypad cursor reaches (0, 0)
+PASS Eighth digit rejected, seven slots unchanged
+PASS B backspaces one digit
+PASS Keypad cursor reaches (2, 0)
+PASS Seven separate safe digits equal4206967
+PASS Correct-number screen static art stays uncorrupted
+PASS Correct START contacts without requiring note
+PASS Scene: MENU
+PASS Completed call returns exactly to inventory
+PASS Scene: PHONE DIALER
+PASS Dialer depth2, no extra pushes
+PASS Dialer entry clears digits only
+PASS Reopening preserves prior contact
+PASS Scene: MENU
+PASS Empty B cancels to MENU cycle1
+PASS Scene: PHONE DIALER
+PASS Dialer depth2, no extra pushes
+PASS Dialer entry clears digits only
+PASS Reopening preserves prior contact
+PASS Scene: MENU
+PASS Empty B cancels to MENU cycle2
+PASS Scene: PHONE DIALER
+PASS Dialer depth2, no extra pushes
+PASS Dialer entry clears digits only
+PASS Reopening preserves prior contact
+PASS Scene: MENU
+PASS Empty B cancels to MENU cycle3
+PASS Scene: METRO-CITY
+PASS Return world has empty stack and visible player
+PASS Holding B after phone return restores run
+PASS B release after phone returns walking
+PASS Scene: MENU
+PASS Scene: METRO-CITY
+PASS Scene: PHONE TEST HUB
+PASS Test route starts with empty stack
+PASS Scene: MONITOR
+PASS MONITOR same-room branch starts uncontacted
+PASS Scene: MENU
+PASS MENU depth1 preserves world caller
+PASS Scene: PHONE DIALER
+PASS Dialer depth2, no extra pushes
+PASS Dialer entry clears digits only
+PASS Keypad cursor reaches (1, 0)
+PASS Keypad cursor reaches (0, 1)
+PASS Keypad cursor reaches (3, 1)
+PASS Keypad cursor reaches (1, 2)
+PASS Keypad cursor reaches (2, 2)
+PASS Keypad cursor reaches (1, 2)
+PASS Keypad cursor reaches (2, 0)
+PASS Scene: MENU
+PASS Completed call returns exactly to inventory
+PASS Scene: MONITOR
+PASS Calling from MONITOR immediately activates female on return
+PASS MONITOR run restored after dialer return
+PASS MONITOR release restores walk with empty stack
+PASS Scene: MENU
+PASS Scene: METRO-CITY
+PASS Scene: PHONE TEST HUB
+PASS Test route starts with empty stack
+PASS Scene: METRO-CITY
+PASS Actual dog capture/dialogue awards existing DOGNOTE77
+PASS Captured dog deactivated, no repeated update dialogue
+PASS Scene: MENU
+PASS MENU depth1 preserves world caller
+PASS DOGNOTE activates inventory note
+PASS Scene: MENU
+PASS Scene: PHONE DIALER
+PASS Dialer depth2, no extra pushes
+PASS Dialer entry clears digits only
+PASS Keypad cursor reaches (1, 0)
+PASS Keypad cursor reaches (0, 1)
+PASS Keypad cursor reaches (3, 1)
+PASS Keypad cursor reaches (1, 2)
+PASS Keypad cursor reaches (2, 2)
+PASS Keypad cursor reaches (1, 2)
+PASS Keypad cursor reaches (2, 0)
+PASS Keypad cursor reaches (3, 2)
+PASS On-screen CALL key accepts exact seven digits
+PASS Scene: MENU
+PASS Completed call returns exactly to inventory
+PASS Scene: METRO-CITY
+PASS Scene: PHONE TEST HUB
+PASS Test route starts with empty stack
+PASS Scene: METRO-CITY
+PASS Captured dog remains absent on normal scene reentry
+PASS Scene: PHONE TEST HUB
+PASS Test route starts with empty stack
+PASS Scene: MONITOR
+PASS Monitor female activates after real note+call route
+PASS Scene: MENU
+PASS MENU depth1 preserves world caller
+PASS Scene: PHONE DIALER
+PASS Dialer depth2, no extra pushes
+PASS Dialer entry clears digits only
+PASS Keypad cursor reaches (0, 0)
+PASS Keypad cursor reaches (3, 0)
+PASS On-screen DEL removes digit
+PASS Keypad cursor reaches (3, 0)
+PASS DEL on empty does not cancel
+PASS Keypad cursor reaches (3, 1)
+PASS Keypad cursor reaches (3, 1)
+PASS Keypad cursor reaches (3, 1)
+PASS Keypad cursor reaches (3, 1)
+PASS Keypad cursor reaches (3, 1)
+PASS Keypad cursor reaches (3, 1)
+PASS Keypad cursor reaches (3, 1)
+PASS Wrong repeat call cannot clear prior contact
+PASS Scene: MENU
+PASS SELECT cancel returns inventory
+PASS Scene: MONITOR
+PASS MONITOR return visible, no stack leak
+PASS Female stays active after dialing from MONITOR
+PASS Scene: MENU
+PASS MENU depth1 preserves world caller
+PASS Scene: MONITOR
+PASS Monitor Start inventory works again without underflow
+PASS Scene: PHONE TEST HUB
+PASS Test route starts with empty stack
+PASS Scene: UNT_TITLE
+PASS Scene: UNT_CURB
+PASS Title B-to-start unaffected, storyline player visible
+PASS FINAL boots uploaded configured start scene
+PASS Actual FINAL2x run distance remains intact
+149 checks passed

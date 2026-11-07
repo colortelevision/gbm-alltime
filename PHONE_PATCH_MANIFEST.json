@@ -1,0 +1,83 @@
+{
+  "baseline_upload": "b85eb9056c21770bba166264e7981ed9427a72799290465ae993b9ff8beecd80.zip",
+  "kind": "DELTA ONLY against newest uploaded project; older patches superseded",
+  "settings_included": false,
+  "source_files": [
+    {
+      "path": "assets/backgrounds/phone_dialpad.png",
+      "before_sha256": null,
+      "after_sha256": "4da4c0a0485c33c8e9e3b5a3c463ade81e1c602b168400b4ce4d5487090fd809"
+    },
+    {
+      "path": "assets/backgrounds/phone_dialpad.png.gbsres",
+      "before_sha256": null,
+      "after_sha256": "d8d3913924efb86be161eabc242b70b6271ae88dad8a3e6e322f3f6ae2b07c7a"
+    },
+    {
+      "path": "assets/tilesets/phone_ui_tiles.png",
+      "before_sha256": null,
+      "after_sha256": "d50ab53564d575a6452b254934b7180f6579e091fe32bfe9f5342e8a1a4b44e9"
+    },
+    {
+      "path": "assets/tilesets/phone_ui_tiles.png.gbsres",
+      "before_sha256": null,
+      "after_sha256": "ac0255f1d1481552735492adcdfd470ae6f7f934b44d75252c55d3f76fbd2f96"
+    },
+    {
+      "path": "project/scenes/metro-city/actors/actor_5.gbsres",
+      "before_sha256": "52d47c41c15ea0050fd83320011df767f3c30579b161a1011f83f45b5491b8cf",
+      "after_sha256": "102a9c873fc488e1518f657f4aa93feae631a1a01107051d47c6cd940cf23753"
+    },
+    {
+      "path": "project/scenes/monitor/actors/actor.gbsres",
+      "before_sha256": "09de8396b116ccc97fc5fcc2e6d42e74971624684d89c9c448588d930f2505b8",
+      "after_sha256": "f8d2eb6ce4f6fa858bb6d07af94ef7fa88a28c74eee7d089f8ca6c973af5372e"
+    },
+    {
+      "path": "project/scenes/monitor/scene.gbsres",
+      "before_sha256": "11640d22f84a1a33f50e164ce0cb9be13632cd16f0df4775b0ee7b3103ac4916",
+      "after_sha256": "e1662f0f1dd84c65fc0d201bcf69ac70218c50c9f1d115900a373e8f487daa2d"
+    },
+    {
+      "path": "project/scenes/phone_dialer/scene.gbsres",
+      "before_sha256": null,
+      "after_sha256": "6089d6d2b74df1b547d9d338ef70c8d57675c4b01d0b8eadd90ec81509461385"
+    },
+    {
+      "path": "project/scripts/phone.gbsres",
+      "before_sha256": "7e412d3c453877de3afe842b016d381d311479769f033048a42baf7fef233314",
+      "after_sha256": "878078bb12128fdf6201c79d7bd64823f1efbf7de4f5604924a9af7eb810740a"
+    },
+    {
+      "path": "project/scripts/phone_draw.gbsres",
+      "before_sha256": null,
+      "after_sha256": "10e91d491064ff7568c554c7658a6ad6b6656906ce43bc480f3cdf4fb0576434"
+    },
+    {
+      "path": "project/scripts/phone_erase.gbsres",
+      "before_sha256": null,
+      "after_sha256": "0fcea48fdabba8dd154f474f65c8957956d63d70d7f1533741b5e5ca0d8dba7f"
+    },
+    {
+      "path": "project/scripts/phone_exit.gbsres",
+      "before_sha256": null,
+      "after_sha256": "7709bfdaa89ea192b5e39ab831f8f19a74d6afed2722bec3c20149d0d545e64b"
+    },
+    {
+      "path": "project/scripts/phone_insert.gbsres",
+      "before_sha256": null,
+      "after_sha256": "a53ceb4c24f702fc3b691777894ae0e0db0d84bcb0eca8800f3fbaa55d901c39"
+    },
+    {
+      "path": "project/scripts/phone_submit.gbsres",
+      "before_sha256": null,
+      "after_sha256": "7a8221b76dcc962d2c14c5466ee5101cce275344e9b6ac2cfdfb0d1024d789f4"
+    },
+    {
+      "path": "project/variables.gbsres",
+      "before_sha256": "c19c2f5e9c8cddbaeb3a489da2410d0fd77475ff1cf315ec9cb2fefffffe79d5",
+      "after_sha256": "448a43d7758ea47dafff66ba81c78a382b971b93c1767efe035029b8f6e81802"
+    }
+  ],
+  "baseline_sha256": "cb84c018f49d5e83c130eb152b50ee33643e355c7b53aa41c4860a336400b7a2"
+}

@@ -1,0 +1,34 @@
+{
+  "baseline_files": 6629,
+  "unrelated_files_byte_identical": 6624,
+  "modified_existing": [
+    "project/scenes/metro-city/actors/actor_5.gbsres",
+    "project/scenes/monitor/actors/actor.gbsres",
+    "project/scenes/monitor/scene.gbsres",
+    "project/scripts/phone.gbsres",
+    "project/variables.gbsres"
+  ],
+  "added": [
+    "assets/backgrounds/phone_dialpad.png",
+    "assets/backgrounds/phone_dialpad.png.gbsres",
+    "assets/tilesets/phone_ui_tiles.png",
+    "assets/tilesets/phone_ui_tiles.png.gbsres",
+    "project/scenes/phone_dialer/scene.gbsres",
+    "project/scripts/phone_draw.gbsres",
+    "project/scripts/phone_erase.gbsres",
+    "project/scripts/phone_exit.gbsres",
+    "project/scripts/phone_insert.gbsres",
+    "project/scripts/phone_submit.gbsres"
+  ],
+  "removed": [],
+  "existing_scene_count": 57,
+  "existing_names_ids_paths_unchanged": 57,
+  "final_scene_count": 58,
+  "settings_byte_identical": true,
+  "existing_variable_entries_preserved": 111,
+  "new_safe_variables": 11,
+  "metro_scene_and_all_other_metro_actors_byte_identical": true,
+  "dog_original_events_retained_with_one_shot_guard": true,
+  "existing_note_and_inventory_phone_actor_byte_identical": true,
+  "engine_modified": false
+}
