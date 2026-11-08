@@ -1,0 +1,16 @@
+#pragma bank 255
+#include "gridduel.h"
+#include "input.h"
+#include "actor.h"
+static uint8_t oldjoy,repeat,warm;
+static uint8_t piecepos(uint8_t n){uint8_t t;for(t=0;t<49;t++)if(gd.cell[t].iid!=255&&gd_owner(gd.cell[t].iid)==0){if(!n)return t;n--;}return 255;}
+static void info(uint8_t iid,uint8_t card){gd.back_pane=gd.pane;gd.info_iid=iid;gd.info_card=card;gd.pane=GD_INFO;gd.dirty=1;}
+static void btn(uint8_t key){uint8_t t,i;if(gd.pane==GD_RESULT){if(key&(J_A|J_B)){gd.exit_code=gd.winner==0?1:2;}return;}if(gd.pane==GD_QUIT){if(key&J_A)gd.exit_code=3;else if(key&J_B)gd.pane=GD_BOARD;gd.dirty=1;return;}if(gd.pane==GD_INFO){if(key&(J_A|J_B)){gd.pane=gd.back_pane;gd.dirty=1;}return;}
+if(key&J_SELECT){gd.pane=(gd.pane+1)%3;gd.pick_cell=gd.pick_hand=255;gd.dirty=1;return;}if(key&J_START){if(gd.turn==0){if(gd.pick_cell!=255||gd.pick_hand!=255){gd.pick_cell=gd.pick_hand=255;gd.dirty=1;}else gd_end();}return;}
+if(gd.pane==GD_HAND){if(key&J_UP)gd.hand_cursor=(gd.hand_cursor+4)%5;if(key&J_DOWN)gd.hand_cursor=(gd.hand_cursor+1)%5;i=gd.hand[0][gd.hand_cursor];if(i!=255){if(key&J_B)info(i,gd.inst[i].card);else if(key&J_A&&gd.turn==0){gd.pick_hand=gd.hand_cursor;gd.pick_cell=255;gd.pane=GD_BOARD;gd.cursor=38;}}gd.dirty=1;return;}
+if(gd.pane==GD_PIECES){if(key&J_UP)gd.piece_cursor=(gd.piece_cursor+5)%6;if(key&J_DOWN)gd.piece_cursor=(gd.piece_cursor+1)%6;t=piecepos(gd.piece_cursor);if(t!=255){i=gd.cell[t].iid;if(key&J_B)info(i,gd.inst[i].card);else if(key&J_A&&gd.turn==0){gd.pick_cell=t;gd.pick_hand=255;gd.cursor=t;gd.pane=GD_BOARD;}}gd.dirty=1;return;}
+if(key&J_LEFT&&gd.cursor%7)gd.cursor--;if(key&J_RIGHT&&gd.cursor%7<6)gd.cursor++;if(key&J_UP&&gd.cursor>=7)gd.cursor-=7;if(key&J_DOWN&&gd.cursor<42)gd.cursor+=7;t=gd.cursor;i=gd.cell[t].iid;if(key&J_B){if(gd.pick_cell!=255||gd.pick_hand!=255)gd.pick_cell=gd.pick_hand=255;else if(i!=255){if(gd_owner(i)==0||!(gd.cell[t].flags&GD_DOWN))info(i,gd.inst[i].card);else gd.msg=6;}else if(gd.traps[0][t])info(255,gd.traps[0][t]);else gd.pane=GD_QUIT;}else if(key&J_A&&gd.turn==0){gd.msg=0;if(gd.pick_hand!=255){if(gd_play(0,gd.pick_hand,t))gd.pick_hand=255;else gd.msg=1;}else if(gd.pick_cell!=255){if(gd_move(0,gd.pick_cell,t)||gd_attack(0,gd.pick_cell,t))gd.pick_cell=255;else if(i!=255&&gd_owner(i)==0)gd.pick_cell=t;else gd.msg=1;}else if(i!=255&&gd_owner(i)==0)gd.pick_cell=t;}gd.dirty=1;}
+UBYTE gd_init(void *THIS,UBYTE start,UWORD *stack_frame) OLDCALL BANKED {gd_begin();gd_render_init();oldjoy=joypads.joy0;repeat=0;warm=6;*stack_frame=0;return TRUE;}
+UBYTE gd_tick(void *THIS,UBYTE start,UWORD *stack_frame) OLDCALL BANKED {uint8_t now=joypads.joy0,pressed=now&~oldjoy;oldjoy=now;if(warm){warm--;return TRUE;}if(gd.reveal_ticks){if(!--gd.reveal_ticks)gd.dirty=1;}if(now&(J_UP|J_DOWN|J_LEFT|J_RIGHT)){if(++repeat>18){pressed|=now&(J_UP|J_DOWN|J_LEFT|J_RIGHT);repeat=13;}}else repeat=0;if(pressed)btn(pressed);if(gd.turn==1&&gd.winner==255&&gd.pane==GD_BOARD){if(gd.cpu_wait)gd.cpu_wait--;else{gd_cpu();gd.cpu_wait=20;}}if(gd.dirty)gd_render();*stack_frame=gd.exit_code;return TRUE;}
+/* Only the separate TEST scene invokes fixtures. No debug input in FINAL. */
+UBYTE gd_test_fixture(void *THIS,UBYTE start,UWORD *stack_frame) OLDCALL BANKED {gd_fixture((uint8_t)*stack_frame);*stack_frame=0;return TRUE;}

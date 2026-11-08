@@ -1,0 +1,1031 @@
+{
+  "schema_version": 1,
+  "cards": [
+    {
+      "id": 1,
+      "key": "prototype:wolf",
+      "name": "WOLF",
+      "atk": 1200,
+      "defense": 800,
+      "move_mask": 1,
+      "attack_mask": 1,
+      "move_mode": "walk",
+      "attack_mode": "melee",
+      "kind": 0,
+      "effect": 0,
+      "set": "prototype",
+      "attribute": null,
+      "type": null,
+      "uno": {
+        "element": null,
+        "symbol": null
+      },
+      "notes": "Provisional tuning; not canonical class/type.",
+      "shape": 0
+    },
+    {
+      "id": 2,
+      "key": "prototype:ox",
+      "name": "OX",
+      "atk": 1400,
+      "defense": 900,
+      "move_mask": 1,
+      "attack_mask": 1,
+      "move_mode": "walk",
+      "attack_mode": "melee",
+      "kind": 0,
+      "effect": 0,
+      "set": "prototype",
+      "attribute": null,
+      "type": null,
+      "uno": {
+        "element": null,
+        "symbol": null
+      },
+      "notes": "Provisional tuning; not canonical class/type.",
+      "shape": 1
+    },
+    {
+      "id": 3,
+      "key": "prototype:hawk",
+      "name": "HAWK",
+      "atk": 1100,
+      "defense": 700,
+      "move_mask": 1,
+      "attack_mask": 5,
+      "move_mode": "walk",
+      "attack_mode": "ranged",
+      "kind": 0,
+      "effect": 0,
+      "set": "prototype",
+      "attribute": null,
+      "type": null,
+      "uno": {
+        "element": null,
+        "symbol": null
+      },
+      "notes": "Provisional tuning; not canonical class/type.",
+      "shape": 2
+    },
+    {
+      "id": 4,
+      "key": "prototype:eel",
+      "name": "EEL",
+      "atk": 900,
+      "defense": 1300,
+      "move_mask": 2,
+      "attack_mask": 2,
+      "move_mode": "walk",
+      "attack_mode": "melee",
+      "kind": 0,
+      "effect": 0,
+      "set": "prototype",
+      "attribute": null,
+      "type": null,
+      "uno": {
+        "element": null,
+        "symbol": null
+      },
+      "notes": "Provisional tuning; not canonical class/type.",
+      "shape": 0
+    },
+    {
+      "id": 5,
+      "key": "prototype:toad",
+      "name": "TOAD",
+      "atk": 1000,
+      "defense": 1000,
+      "move_mask": 1,
+      "attack_mask": 2,
+      "move_mode": "walk",
+      "attack_mode": "melee",
+      "kind": 0,
+      "effect": 0,
+      "set": "prototype",
+      "attribute": null,
+      "type": null,
+      "uno": {
+        "element": null,
+        "symbol": null
+      },
+      "notes": "Provisional tuning; not canonical class/type.",
+      "shape": 1
+    },
+    {
+      "id": 6,
+      "key": "prototype:moth",
+      "name": "MOTH",
+      "atk": 800,
+      "defense": 600,
+      "move_mask": 7,
+      "attack_mask": 1,
+      "move_mode": "jump",
+      "attack_mode": "melee",
+      "kind": 0,
+      "effect": 0,
+      "set": "prototype",
+      "attribute": null,
+      "type": null,
+      "uno": {
+        "element": null,
+        "symbol": null
+      },
+      "notes": "Provisional tuning; not canonical class/type.",
+      "shape": 2
+    },
+    {
+      "id": 7,
+      "key": "prototype:boar",
+      "name": "BOAR",
+      "atk": 1600,
+      "defense": 500,
+      "move_mask": 5,
+      "attack_mask": 1,
+      "move_mode": "walk",
+      "attack_mode": "melee",
+      "kind": 0,
+      "effect": 0,
+      "set": "prototype",
+      "attribute": null,
+      "type": null,
+      "uno": {
+        "element": null,
+        "symbol": null
+      },
+      "notes": "Provisional tuning; not canonical class/type.",
+      "shape": 1
+    },
+    {
+      "id": 8,
+      "key": "prototype:lynx",
+      "name": "LYNX",
+      "atk": 1300,
+      "defense": 800,
+      "move_mask": 2,
+      "attack_mask": 2,
+      "move_mode": "walk",
+      "attack_mode": "melee",
+      "kind": 0,
+      "effect": 0,
+      "set": "prototype",
+      "attribute": null,
+      "type": null,
+      "uno": {
+        "element": null,
+        "symbol": null
+      },
+      "notes": "Provisional tuning; not canonical class/type.",
+      "shape": 0
+    },
+    {
+      "id": 9,
+      "key": "prototype:bolt",
+      "name": "BOLT",
+      "atk": 800,
+      "defense": 0,
+      "move_mask": 0,
+      "attack_mask": 0,
+      "move_mode": "walk",
+      "attack_mode": "melee",
+      "kind": 1,
+      "effect": 1,
+      "set": "prototype",
+      "attribute": null,
+      "type": null,
+      "uno": {
+        "element": null,
+        "symbol": null
+      },
+      "notes": "Provisional tuning; not canonical class/type.",
+      "shape": 0
+    },
+    {
+      "id": 10,
+      "key": "prototype:balm",
+      "name": "BALM",
+      "atk": 800,
+      "defense": 0,
+      "move_mask": 0,
+      "attack_mask": 0,
+      "move_mode": "walk",
+      "attack_mode": "melee",
+      "kind": 1,
+      "effect": 2,
+      "set": "prototype",
+      "attribute": null,
+      "type": null,
+      "uno": {
+        "element": null,
+        "symbol": null
+      },
+      "notes": "Provisional tuning; not canonical class/type.",
+      "shape": 0
+    },
+    {
+      "id": 11,
+      "key": "prototype:snare",
+      "name": "SNARE",
+      "atk": 0,
+      "defense": 0,
+      "move_mask": 0,
+      "attack_mask": 0,
+      "move_mode": "walk",
+      "attack_mode": "melee",
+      "kind": 2,
+      "effect": 3,
+      "set": "prototype",
+      "attribute": null,
+      "type": null,
+      "uno": {
+        "element": null,
+        "symbol": null
+      },
+      "notes": "Provisional tuning; not canonical class/type.",
+      "shape": 0
+    },
+    {
+      "id": 12,
+      "key": "prototype:mine",
+      "name": "MINE",
+      "atk": 1000,
+      "defense": 0,
+      "move_mask": 0,
+      "attack_mask": 0,
+      "move_mode": "walk",
+      "attack_mode": "melee",
+      "kind": 2,
+      "effect": 4,
+      "set": "prototype",
+      "attribute": null,
+      "type": null,
+      "uno": {
+        "element": null,
+        "symbol": null
+      },
+      "notes": "Provisional tuning; not canonical class/type.",
+      "shape": 0
+    },
+    {
+      "id": 13,
+      "key": "prototype:blade",
+      "name": "BLADE",
+      "atk": 500,
+      "defense": 0,
+      "move_mask": 0,
+      "attack_mask": 0,
+      "move_mode": "walk",
+      "attack_mode": "melee",
+      "kind": 3,
+      "effect": 5,
+      "set": "prototype",
+      "attribute": null,
+      "type": null,
+      "uno": {
+        "element": null,
+        "symbol": null
+      },
+      "notes": "Provisional tuning; not canonical class/type.",
+      "shape": 0
+    },
+    {
+      "id": 14,
+      "key": "prototype:crown",
+      "name": "CROWN",
+      "atk": 800,
+      "defense": 0,
+      "move_mask": 0,
+      "attack_mask": 0,
+      "move_mode": "walk",
+      "attack_mode": "melee",
+      "kind": 3,
+      "effect": 5,
+      "set": "prototype",
+      "attribute": null,
+      "type": null,
+      "uno": {
+        "element": null,
+        "symbol": null
+      },
+      "notes": "Provisional tuning; not canonical class/type.",
+      "shape": 0
+    },
+    {
+      "id": 15,
+      "key": "prototype:longbow",
+      "name": "LONGBOW",
+      "atk": 0,
+      "defense": 0,
+      "move_mask": 0,
+      "attack_mask": 4,
+      "move_mode": "walk",
+      "attack_mode": "melee",
+      "kind": 3,
+      "effect": 6,
+      "set": "prototype",
+      "attribute": null,
+      "type": null,
+      "uno": {
+        "element": null,
+        "symbol": null
+      },
+      "notes": "Provisional tuning; not canonical class/type.",
+      "shape": 0
+    },
+    {
+      "id": 16,
+      "key": "prototype:skybow",
+      "name": "SKYBOW",
+      "atk": 0,
+      "defense": 0,
+      "move_mask": 0,
+      "attack_mask": 8,
+      "move_mode": "walk",
+      "attack_mode": "melee",
+      "kind": 3,
+      "effect": 6,
+      "set": "prototype",
+      "attribute": null,
+      "type": null,
+      "uno": {
+        "element": null,
+        "symbol": null
+      },
+      "notes": "Provisional tuning; not canonical class/type.",
+      "shape": 0
+    },
+    {
+      "id": 17,
+      "key": "prototype:widebow",
+      "name": "WIDEBOW",
+      "atk": 0,
+      "defense": 0,
+      "move_mask": 0,
+      "attack_mask": 10,
+      "move_mode": "walk",
+      "attack_mode": "melee",
+      "kind": 3,
+      "effect": 6,
+      "set": "prototype",
+      "attribute": null,
+      "type": null,
+      "uno": {
+        "element": null,
+        "symbol": null
+      },
+      "notes": "Provisional tuning; not canonical class/type.",
+      "shape": 0
+    },
+    {
+      "id": 18,
+      "key": "prototype:farbow",
+      "name": "FARBOW",
+      "atk": 0,
+      "defense": 0,
+      "move_mask": 0,
+      "attack_mask": 11,
+      "move_mode": "walk",
+      "attack_mode": "melee",
+      "kind": 3,
+      "effect": 6,
+      "set": "prototype",
+      "attribute": null,
+      "type": null,
+      "uno": {
+        "element": null,
+        "symbol": null
+      },
+      "notes": "Provisional tuning; not canonical class/type.",
+      "shape": 0
+    }
+  ],
+  "deck_p1": [
+    1,
+    3,
+    6,
+    7,
+    9,
+    11,
+    15,
+    8,
+    4,
+    5,
+    10,
+    12,
+    13,
+    14,
+    3,
+    6,
+    7,
+    8,
+    4,
+    5,
+    9,
+    10,
+    11,
+    12,
+    15
+  ],
+  "deck_p2": [
+    2,
+    3,
+    6,
+    7,
+    9,
+    11,
+    15,
+    8,
+    4,
+    5,
+    10,
+    12,
+    13,
+    14,
+    3,
+    6,
+    7,
+    8,
+    4,
+    5,
+    9,
+    10,
+    11,
+    12,
+    15
+  ],
+  "leader_cards": [
+    1,
+    2
+  ],
+  "movement_masks_source": "assets/backgrounds/movement-grid-icon-tileset.png",
+  "masks": [
+    {
+      "pattern_number_one_based": 1,
+      "source_tile_index_zero_based": 0,
+      "matrix_O_is_origin_hash_is_green_pixel": [
+        ".......",
+        ".......",
+        "...#...",
+        "..#O#..",
+        "...#...",
+        ".......",
+        "......."
+      ],
+      "offsets_dx_dy_screen_y_down": [
+        [
+          0,
+          -1
+        ],
+        [
+          -1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "pattern_number_one_based": 2,
+      "source_tile_index_zero_based": 1,
+      "matrix_O_is_origin_hash_is_green_pixel": [
+        ".......",
+        ".......",
+        "..###..",
+        "..#O#..",
+        "..###..",
+        ".......",
+        "......."
+      ],
+      "offsets_dx_dy_screen_y_down": [
+        [
+          -1,
+          -1
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          1,
+          -1
+        ],
+        [
+          -1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          -1,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    },
+    {
+      "pattern_number_one_based": 3,
+      "source_tile_index_zero_based": 2,
+      "matrix_O_is_origin_hash_is_green_pixel": [
+        ".......",
+        ".......",
+        "...#...",
+        "###O###",
+        "...#...",
+        ".......",
+        "......."
+      ],
+      "offsets_dx_dy_screen_y_down": [
+        [
+          0,
+          -1
+        ],
+        [
+          -3,
+          0
+        ],
+        [
+          -2,
+          0
+        ],
+        [
+          -1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "pattern_number_one_based": 4,
+      "source_tile_index_zero_based": 3,
+      "matrix_O_is_origin_hash_is_green_pixel": [
+        "...#...",
+        "...#...",
+        "...#...",
+        "..#O#..",
+        "...#...",
+        "...#...",
+        "...#..."
+      ],
+      "offsets_dx_dy_screen_y_down": [
+        [
+          0,
+          -3
+        ],
+        [
+          0,
+          -2
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          -1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ]
+      ]
+    },
+    {
+      "pattern_number_one_based": 5,
+      "source_tile_index_zero_based": 4,
+      "matrix_O_is_origin_hash_is_green_pixel": [
+        ".......",
+        "...#...",
+        "...#...",
+        ".##O##.",
+        "...#...",
+        "...#...",
+        "......."
+      ],
+      "offsets_dx_dy_screen_y_down": [
+        [
+          0,
+          -2
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          -2,
+          0
+        ],
+        [
+          -1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ]
+      ]
+    },
+    {
+      "pattern_number_one_based": 6,
+      "source_tile_index_zero_based": 5,
+      "matrix_O_is_origin_hash_is_green_pixel": [
+        ".......",
+        "...#...",
+        "..###..",
+        ".##O##.",
+        "..###..",
+        "...#...",
+        "......."
+      ],
+      "offsets_dx_dy_screen_y_down": [
+        [
+          0,
+          -2
+        ],
+        [
+          -1,
+          -1
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          1,
+          -1
+        ],
+        [
+          -2,
+          0
+        ],
+        [
+          -1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          -1,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          2
+        ]
+      ]
+    },
+    {
+      "pattern_number_one_based": 7,
+      "source_tile_index_zero_based": 6,
+      "matrix_O_is_origin_hash_is_green_pixel": [
+        ".......",
+        ".#...#.",
+        "..#.#..",
+        "...O...",
+        "..#.#..",
+        ".#...#.",
+        "......."
+      ],
+      "offsets_dx_dy_screen_y_down": [
+        [
+          -2,
+          -2
+        ],
+        [
+          2,
+          -2
+        ],
+        [
+          -1,
+          -1
+        ],
+        [
+          1,
+          -1
+        ],
+        [
+          -1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          -2,
+          2
+        ],
+        [
+          2,
+          2
+        ]
+      ]
+    },
+    {
+      "pattern_number_one_based": 8,
+      "source_tile_index_zero_based": 7,
+      "matrix_O_is_origin_hash_is_green_pixel": [
+        "...#...",
+        ".#...#.",
+        ".......",
+        "#..O..#",
+        ".......",
+        ".#...#.",
+        "...#..."
+      ],
+      "offsets_dx_dy_screen_y_down": [
+        [
+          0,
+          -3
+        ],
+        [
+          -2,
+          -2
+        ],
+        [
+          2,
+          -2
+        ],
+        [
+          -3,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          -2,
+          2
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          0,
+          3
+        ]
+      ]
+    },
+    {
+      "pattern_number_one_based": 9,
+      "source_tile_index_zero_based": 8,
+      "matrix_O_is_origin_hash_is_green_pixel": [
+        ".......",
+        "...#...",
+        ".#.#.#.",
+        "..#O#..",
+        "...#...",
+        ".......",
+        "......."
+      ],
+      "offsets_dx_dy_screen_y_down": [
+        [
+          0,
+          -2
+        ],
+        [
+          -2,
+          -1
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          2,
+          -1
+        ],
+        [
+          -1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "pattern_number_one_based": 10,
+      "source_tile_index_zero_based": 9,
+      "matrix_O_is_origin_hash_is_green_pixel": [
+        ".......",
+        ".#...#.",
+        ".#.#.#.",
+        "..#O#..",
+        ".#.#.#.",
+        ".#...#.",
+        "......."
+      ],
+      "offsets_dx_dy_screen_y_down": [
+        [
+          -2,
+          -2
+        ],
+        [
+          2,
+          -2
+        ],
+        [
+          -2,
+          -1
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          2,
+          -1
+        ],
+        [
+          -1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          -2,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          -2,
+          2
+        ],
+        [
+          2,
+          2
+        ]
+      ]
+    },
+    {
+      "pattern_number_one_based": 11,
+      "source_tile_index_zero_based": 10,
+      "matrix_O_is_origin_hash_is_green_pixel": [
+        ".##.##.",
+        "#.....#",
+        "#.....#",
+        "...O...",
+        "#.....#",
+        "#.....#",
+        ".##.##."
+      ],
+      "offsets_dx_dy_screen_y_down": [
+        [
+          -2,
+          -3
+        ],
+        [
+          -1,
+          -3
+        ],
+        [
+          1,
+          -3
+        ],
+        [
+          2,
+          -3
+        ],
+        [
+          -3,
+          -2
+        ],
+        [
+          3,
+          -2
+        ],
+        [
+          -3,
+          -1
+        ],
+        [
+          3,
+          -1
+        ],
+        [
+          -3,
+          1
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          -3,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          -2,
+          3
+        ],
+        [
+          -1,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ]
+    }
+  ],
+  "progression": {
+    "enabled": false,
+    "initial_level": 1,
+    "initial_xp": 0,
+    "permanent_losses": false
+  },
+  "future_fields": "attribute/type and UNO metadata deliberately unset; no UNO mode.",
+  "notes": "Deck has24 playable instances plus leader. First entry is reserved as leader. Shape triangle/circle/square is provisional prototype battle advantage only, not final class/attribute/type. No leveling curve or saved roster integration yet."
+}

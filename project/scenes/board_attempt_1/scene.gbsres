@@ -31,6 +31,318 @@
         "speed": 1
       },
       "id": "27e48cf4-e22e-4074-8f35-75b8a1fd5f56"
+    },
+    {
+      "id": "f5de7aec-e1aa-4b93-a189-58fb1a08589e",
+      "command": "EVENT_REMOVE_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "up",
+          "down",
+          "left",
+          "right",
+          "a",
+          "b",
+          "start",
+          "select"
+        ]
+      }
+    },
+    {
+      "id": "632822ec-8125-473c-9b52-4a54b1da8590",
+      "command": "EVENT_ACTOR_HIDE",
+      "args": {
+        "actorId": "player"
+      }
+    },
+    {
+      "id": "fada32a0-caa6-4246-80d8-04b484d918ba",
+      "command": "EVENT_OVERLAY_HIDE",
+      "args": {}
+    },
+    {
+      "id": "8e22124f-a9b5-43ce-bca3-68c4f0705b6b",
+      "command": "EVENT_ACTOR_HIDE",
+      "args": {
+        "actorId": "e1b175b4-21af-4abc-87e8-87ad9f67b478"
+      }
+    },
+    {
+      "id": "0593a05c-4151-4505-a73a-45f9d1a1dc12",
+      "command": "EVENT_ACTOR_HIDE",
+      "args": {
+        "actorId": "d84db261-e147-4f3c-bd36-eefd139c7906"
+      }
+    },
+    {
+      "id": "63fc3ddc-62ce-4fd4-beea-25ef252e2887",
+      "command": "EVENT_ACTOR_HIDE",
+      "args": {
+        "actorId": "d1a44c94-d0a6-4944-99ea-3ca3de58bda0"
+      }
+    },
+    {
+      "id": "8aff17a6-c5d8-4105-a03e-9d08969750c7",
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "up"
+        ],
+        "override": true,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "id": "a751e4cd-7dfc-4d6d-aad9-4a69caf0ecb0",
+            "command": "EVENT_COMMENT",
+            "args": {
+              "text": "Native Gridduel reads joypad; reserve this input for duel only."
+            }
+          }
+        ],
+        "release": []
+      }
+    },
+    {
+      "id": "4a3521cd-c5ec-4f99-a84f-b3de361ab7a1",
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "down"
+        ],
+        "override": true,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "id": "d75897a9-e67e-42df-9e5c-cafa04184b64",
+            "command": "EVENT_COMMENT",
+            "args": {
+              "text": "Native Gridduel reads joypad; reserve this input for duel only."
+            }
+          }
+        ],
+        "release": []
+      }
+    },
+    {
+      "id": "5310290a-6ff1-45cb-abe4-6a990af0b076",
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "left"
+        ],
+        "override": true,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "id": "361415ec-d1e3-4b61-a69f-7452d80c0bdb",
+            "command": "EVENT_COMMENT",
+            "args": {
+              "text": "Native Gridduel reads joypad; reserve this input for duel only."
+            }
+          }
+        ],
+        "release": []
+      }
+    },
+    {
+      "id": "c604d96b-a2da-4da8-8bf6-e00955d499bf",
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "right"
+        ],
+        "override": true,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "id": "35dafa20-a607-4405-adb9-d88f27209a6c",
+            "command": "EVENT_COMMENT",
+            "args": {
+              "text": "Native Gridduel reads joypad; reserve this input for duel only."
+            }
+          }
+        ],
+        "release": []
+      }
+    },
+    {
+      "id": "c88a81ba-3f99-4548-9e22-b2ed9a4b6246",
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ],
+        "override": true,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "id": "5dc50ab5-aae0-43ad-b53d-43d3beb0917d",
+            "command": "EVENT_COMMENT",
+            "args": {
+              "text": "Native Gridduel reads joypad; reserve this input for duel only."
+            }
+          }
+        ],
+        "release": []
+      }
+    },
+    {
+      "id": "d2e44f96-c714-419e-80fe-ca41682cd193",
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "b"
+        ],
+        "override": true,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "id": "327f11be-99f8-44a8-82a8-e89bac4390a9",
+            "command": "EVENT_COMMENT",
+            "args": {
+              "text": "Native Gridduel reads joypad; reserve this input for duel only."
+            }
+          }
+        ],
+        "release": []
+      }
+    },
+    {
+      "id": "21b9fdbc-f01c-4b50-8c3a-ee4380634bc6",
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "start"
+        ],
+        "override": true,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "id": "e286839b-335d-4f62-bdff-5bd726e9a359",
+            "command": "EVENT_COMMENT",
+            "args": {
+              "text": "Native Gridduel reads joypad; reserve this input for duel only."
+            }
+          }
+        ],
+        "release": []
+      }
+    },
+    {
+      "id": "7c44f76c-6d29-41a3-a693-02eeb926ec4e",
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "select"
+        ],
+        "override": true,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "id": "5b0218a3-74ff-4b11-aa92-66ed3633c4cf",
+            "command": "EVENT_COMMENT",
+            "args": {
+              "text": "Native Gridduel reads joypad; reserve this input for duel only."
+            }
+          }
+        ],
+        "release": []
+      }
+    },
+    {
+      "id": "8a5cb792-361f-4cbc-a32b-cdbaffa93be6",
+      "command": "EVENT_ACTOR_HIDE",
+      "args": {
+        "actorId": "e8c3baf9-df2b-4fc2-8518-a45b90d207f7"
+      }
+    },
+    {
+      "id": "6d661dcd-2eed-4bdd-aa03-2fd68e91411f",
+      "command": "EVENT_MENU",
+      "args": {
+        "variable": "242",
+        "items": 3,
+        "layout": "dialogue",
+        "cancelOnB": false,
+        "cancelOnLastOption": false,
+        "option1": "BOTS DECK",
+        "option2": "HASHTAGZ DECK",
+        "option3": "HOW TO PLAY"
+      }
+    },
+    {
+      "id": "7ced0ce2-ef3c-4d95-956d-d24c744fa03f",
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "242"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 3
+          }
+        }
+      },
+      "children": {
+        "true": [
+          {
+            "id": "f2b4470c-cf51-4ede-8e75-03cf299a4d3b",
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "GRIDDUEL\n24 cards + leader\nDrop ONE card per turn\nbeside your leader.",
+                "Each piece can move\nand attack once per\nturn. Green=move.\nRed=attack target.",
+                "Circle > Triangle\nTriangle > Square\nSquare > Circle\nBattle bonus: 500",
+                "Reduce enemy LP to 0\nor surround leader.\nTraps stay hidden\nuntil stepped on.",
+                "SELECT: hand/pieces\nA: pick / act\nB: info / cancel\nSTART: end turn",
+                "Jumps: landing only.\nArrows fly OVER traps.\nB on empty: quit.\nNo permanent losses.",
+                "Empty deck: lose\n500 LP each own turn.\nLeader cannot attack.\nB: inspect card effects."
+              ]
+            }
+          },
+          {
+            "id": "81eeb3f5-fe03-4f08-975b-5bf4859f9806",
+            "command": "EVENT_MENU",
+            "args": {
+              "variable": "242",
+              "items": 2,
+              "layout": "dialogue",
+              "cancelOnB": false,
+              "cancelOnLastOption": false,
+              "option1": "BOTS DECK",
+              "option2": "HASHTAGZ DECK"
+            }
+          }
+        ],
+        "false": []
+      }
+    },
+    {
+      "id": "560a3e2a-5de8-4853-95b1-a5a10c24c362",
+      "command": "EVENT_GRIDDUEL_NATIVE",
+      "args": {
+        "action": "init",
+        "variable": "240"
+      }
     }
   ],
   "playerHit1Script": [],

@@ -1,0 +1,112 @@
+{
+  "_resourceType": "actor",
+  "id": "e8c3baf9-df2b-4fc2-8518-a45b90d207f7",
+  "_index": 3,
+  "symbol": "actor_gridduel_controller",
+  "prefabId": "",
+  "name": "Gridduel Controller",
+  "coordinateType": "tiles",
+  "x": 1,
+  "y": 1,
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "6a93315c-61d0-47f7-afff-96bf560bd964",
+  "paletteId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "isPinned": true,
+  "persistent": false,
+  "collisionGroup": "",
+  "collisionExtraFlags": [],
+  "prefabScriptOverrides": {},
+  "script": [],
+  "startScript": [],
+  "updateScript": [
+    {
+      "id": "317437ab-8d1d-492a-9948-e8a93e7bbed1",
+      "command": "EVENT_GRIDDUEL_NATIVE",
+      "args": {
+        "action": "tick",
+        "variable": "240"
+      }
+    },
+    {
+      "id": "00352beb-e40f-47c2-a54e-803fd0eda21d",
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "gt",
+          "valueA": {
+            "type": "variable",
+            "value": "240"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 0
+          }
+        }
+      },
+      "children": {
+        "true": [
+          {
+            "id": "dc9aebf2-483d-4463-a22a-42c7a588dadb",
+            "command": "EVENT_FADE_OUT",
+            "args": {
+              "speed": "2"
+            }
+          },
+          {
+            "id": "900b754a-b910-49ac-b2ec-7f77aa64645b",
+            "command": "EVENT_REMOVE_INPUT_SCRIPT",
+            "args": {
+              "input": [
+                "up",
+                "down",
+                "left",
+                "right",
+                "a",
+                "b",
+                "start",
+                "select"
+              ]
+            }
+          },
+          {
+            "id": "2cf5f254-f925-4440-bbab-fc9d44fe7872",
+            "command": "EVENT_ACTOR_SHOW",
+            "args": {
+              "actorId": "player"
+            }
+          },
+          {
+            "id": "d0186103-08d4-4f83-a1d2-85a5b283c0cf",
+            "command": "EVENT_SCENE_RESET_STATE",
+            "args": {}
+          },
+          {
+            "id": "ec52a486-3a4b-47d1-ba0a-85a73b95a087",
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "ded6baad-2400-4c26-9a79-b416093dafef",
+              "x": {
+                "type": "number",
+                "value": 54
+              },
+              "y": {
+                "type": "number",
+                "value": 27
+              },
+              "direction": "down",
+              "fadeSpeed": "2"
+            }
+          }
+        ],
+        "false": []
+      }
+    }
+  ],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}
