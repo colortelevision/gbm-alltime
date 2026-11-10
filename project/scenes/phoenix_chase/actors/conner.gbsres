@@ -1,0 +1,35 @@
+{
+  "_resourceType": "actor",
+  "id": "6b8c6c8e-5bb9-5e22-a221-13422f4ca3d1",
+  "name": "conner",
+  "symbol": "actor_ph_chase_conner",
+  "_index": 2,
+  "x": 12,
+  "y": 13,
+  "spriteSheetId": "bc5f8aea-6236-5e66-8c47-f7d00518ed52",
+  "direction": "down",
+  "frame": 0,
+  "moveSpeed": 1,
+  "animSpeed": 7,
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "none",
+  "script": [
+    {
+      "id": "644b9f45-d6f0-5b49-aeea-32297c2732f1",
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": "CONNER\nYou want your bag?\nCatch me!",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 5,
+        "closeWhen": "key",
+        "closeDelayUnits": "frames",
+        "closeDelayFrames": 0,
+        "showFrame": true
+      }
+    }
+  ],
+  "startScript": [],
+  "updateScript": []
+}

@@ -1,38 +1,35 @@
 {
   "_resourceType": "actor",
   "id": "bfd8a6b7-0657-42ba-a293-34b2a71878ff",
-  "_index": 0,
-  "symbol": "actor_unt_act_maxwell_0",
-  "prefabId": "",
   "name": "ACT_Maxwell",
-  "coordinateType": "tiles",
-  "x": 15,
-  "y": 8,
-  "frame": 0,
-  "animate": false,
-  "spriteSheetId": "bc2a00f8-a6cf-4271-b380-eacf0cd026c5",
-  "paletteId": "",
+  "symbol": "actor_unt_act_maxwell_0",
+  "_index": 3,
+  "x": 24,
+  "y": 10,
+  "spriteSheetId": "af63bd73-0460-5ad0-a8eb-6b0720586eda",
   "direction": "down",
+  "frame": 0,
   "moveSpeed": 1,
-  "animSpeed": 15,
+  "animSpeed": 7,
   "isPinned": false,
   "persistent": false,
-  "collisionGroup": "",
-  "collisionExtraFlags": [],
-  "prefabScriptOverrides": {},
+  "collisionGroup": "none",
   "script": [
     {
-      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "id": "ad425016-04df-5c85-9b45-a2b871657210",
+      "command": "EVENT_TEXT",
       "args": {
-        "customEventId": "da621b13-f20e-402a-a360-a015205fb79a",
-        "$actor[0]$": "$self$"
-      },
-      "id": "60dd8d16-a784-4bf9-bb21-e10843a4e504"
+        "text": "MAXWELL\nYou came. Downstairs.\nThis way.",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 5,
+        "closeWhen": "key",
+        "closeDelayUnits": "frames",
+        "closeDelayFrames": 0,
+        "showFrame": true
+      }
     }
   ],
   "startScript": [],
-  "updateScript": [],
-  "hit1Script": [],
-  "hit2Script": [],
-  "hit3Script": []
+  "updateScript": []
 }

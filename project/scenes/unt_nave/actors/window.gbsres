@@ -1,0 +1,43 @@
+{
+  "_resourceType": "actor",
+  "id": "f59f9741-8705-5393-affa-cf89638cc082",
+  "name": "window",
+  "symbol": "actor_ph_nave_window",
+  "_index": 3,
+  "x": 5,
+  "y": 7,
+  "spriteSheetId": "72ecc86d-c007-5343-b4de-d2d8869c10f2",
+  "direction": "down",
+  "frame": 0,
+  "moveSpeed": 1,
+  "animSpeed": 7,
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "none",
+  "script": [
+    {
+      "id": "f95d8e99-c029-51a5-8a3d-901b30f894ed",
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": "Rain taps against\nthe colored glass.",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 5,
+        "closeWhen": "key",
+        "closeDelayUnits": "frames",
+        "closeDelayFrames": 0,
+        "showFrame": true
+      }
+    }
+  ],
+  "startScript": [
+    {
+      "id": "d7ece168-5106-5811-8447-e88b78a26710",
+      "command": "EVENT_ACTOR_HIDE",
+      "args": {
+        "actorId": "$self$"
+      }
+    }
+  ],
+  "updateScript": []
+}

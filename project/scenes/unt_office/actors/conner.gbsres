@@ -1,0 +1,49 @@
+{
+  "_resourceType": "actor",
+  "id": "5d854e61-0551-54dd-9c72-172634f17071",
+  "name": "conner",
+  "symbol": "actor_ph_office_conner",
+  "_index": 6,
+  "x": 8,
+  "y": 13,
+  "spriteSheetId": "2f28e632-7740-58a7-8c4f-ef0604e92deb",
+  "direction": "down",
+  "frame": 0,
+  "moveSpeed": 1,
+  "animSpeed": 7,
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "none",
+  "script": [
+    {
+      "id": "53214eee-8651-5d62-bd7a-c35fed526f19",
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": "CONNER\nWe need a band name.\nAnd an actual gig!",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 5,
+        "closeWhen": "key",
+        "closeDelayUnits": "frames",
+        "closeDelayFrames": 0,
+        "showFrame": true
+      }
+    },
+    {
+      "id": "9640095a-da62-5146-b7aa-9d98148ac47e",
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": "MATT\nMaybe learn the songs\nfirst?",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 5,
+        "closeWhen": "key",
+        "closeDelayUnits": "frames",
+        "closeDelayFrames": 0,
+        "showFrame": true
+      }
+    }
+  ],
+  "startScript": [],
+  "updateScript": []
+}

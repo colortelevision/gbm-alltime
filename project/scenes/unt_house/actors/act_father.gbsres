@@ -17,46 +17,26 @@
   "animSpeed": 15,
   "isPinned": false,
   "persistent": false,
-  "collisionGroup": "",
+  "collisionGroup": "none",
   "collisionExtraFlags": [],
   "prefabScriptOverrides": {},
-  "script": [
+  "script": [],
+  "startScript": [
     {
-      "command": "EVENT_SOUND_PLAY_EFFECT",
+      "id": "d7ece168-5106-5811-8447-e88b78a26710",
+      "command": "EVENT_ACTOR_HIDE",
       "args": {
-        "type": "7ca6b9db-2a48-422e-880d-3ee20c0dd7cc",
-        "priority": "medium",
-        "pitch": 4,
-        "frequency": 200,
-        "duration": 0.5,
-        "wait": false,
-        "effect": 0
-      },
-      "id": "615cf47d-bf5b-49aa-b312-0d8bdf3c2c7a"
+        "actorId": "$self$"
+      }
     },
     {
-      "command": "EVENT_TEXT",
+      "id": "54fd1b93-dce5-5b2e-97ca-0e8e872ae318",
+      "command": "EVENT_ACTOR_COLLISIONS_DISABLE",
       "args": {
-        "text": [
-          "Father: Church tonight.\nNo excuses."
-        ],
-        "avatarId": "",
-        "minHeight": 4,
-        "maxHeight": 7,
-        "position": "bottom",
-        "clearPrevious": true,
-        "showFrame": "true",
-        "speedIn": -1,
-        "speedOut": -1,
-        "closeWhen": "key",
-        "closeButton": "a",
-        "closeDelayTime": 0.5,
-        "closeDelayFrames": 30
-      },
-      "id": "7c2fc593-eba1-406b-81a9-810a75c6bcfa"
+        "actorId": "$self$"
+      }
     }
   ],
-  "startScript": [],
   "updateScript": [],
   "hit1Script": [],
   "hit2Script": [],

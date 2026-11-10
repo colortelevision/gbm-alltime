@@ -1,0 +1,30 @@
+{
+  "_resourceType": "trigger",
+  "id": "dfe3d0fc-fc2e-587a-92da-f3612637d962",
+  "name": "classroom",
+  "symbol": "trigger_ph_hall_classroom",
+  "x": 1,
+  "y": 10,
+  "width": 2,
+  "height": 4,
+  "script": [
+    {
+      "id": "a9627836-9995-500d-8a7d-bf8f398224c3",
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "6074e13b-c3b2-4ecb-bda4-f04274b3185c",
+        "x": {
+          "type": "number",
+          "value": 15
+        },
+        "y": {
+          "type": "number",
+          "value": 20
+        },
+        "direction": "up",
+        "fadeSpeed": 2
+      }
+    }
+  ],
+  "leaveScript": []
+}

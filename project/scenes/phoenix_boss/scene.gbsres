@@ -1,0 +1,326 @@
+{
+  "_resourceType": "scene",
+  "id": "912c25f7-4fba-5b15-9ae8-d7b476bc6526",
+  "_index": 61,
+  "type": "TOPDOWN",
+  "name": "PH_BOSS",
+  "symbol": "scene_ph_boss",
+  "x": 5200,
+  "y": 3000,
+  "width": 20,
+  "height": 18,
+  "backgroundId": "959d6119-06f6-52e0-ab2d-532ab7c4b0da",
+  "tilesetId": "",
+  "colorModeOverride": "none",
+  "paletteIds": [
+    "056fec91-c90a-53e2-a06a-f3c853dae588",
+    "056fec91-c90a-53e2-a06a-f3c853dae588",
+    "056fec91-c90a-53e2-a06a-f3c853dae588",
+    "056fec91-c90a-53e2-a06a-f3c853dae588",
+    "056fec91-c90a-53e2-a06a-f3c853dae588",
+    "056fec91-c90a-53e2-a06a-f3c853dae588",
+    "056fec91-c90a-53e2-a06a-f3c853dae588",
+    "056fec91-c90a-53e2-a06a-f3c853dae588"
+  ],
+  "spritePaletteIds": [
+    "e3dab5d2-8e26-528a-9d69-f82ccae0fcef",
+    "837e7d42-d8d1-5d2a-ba27-43ec9bdbfc1c",
+    "270fec3a-82c3-5546-9595-6f946c97dc3b",
+    "e0aac1f2-a988-52b9-9e6c-0656966873a1",
+    "46bbc7c2-5f9e-5d7c-8bd0-69d50dc660b4",
+    "1454f3d6-be06-5224-bbac-b2e7982cd8da",
+    "282011bd-bba7-5f1f-9331-7757afab601f",
+    "e3dab5d2-8e26-528a-9d69-f82ccae0fcef"
+  ],
+  "autoFadeSpeed": 2,
+  "playerSpriteSheetId": "4fc5bbee-10e8-520e-b28c-096623100bb9",
+  "script": [
+    {
+      "id": "294f219e-00b4-5ef3-bde0-3ce027366922",
+      "command": "EVENT_SCENE_UPDATE_RESUME",
+      "args": {}
+    },
+    {
+      "id": "8529a21b-fbdd-5a61-bb00-8a23ced20dc1",
+      "command": "EVENT_SCENE_RESET_STATE",
+      "args": {}
+    },
+    {
+      "id": "e4a3725a-bb1b-53d8-9524-43d4874a7c95",
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "244",
+        "value": {
+          "type": "number",
+          "value": 0
+        }
+      }
+    },
+    {
+      "id": "f400adbb-c596-58fd-a0ea-dcde663017fd",
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "245",
+        "value": {
+          "type": "number",
+          "value": 0
+        }
+      }
+    },
+    {
+      "id": "8e00a9a3-7c26-59b7-a5dc-de2c3af11448",
+      "command": "EVENT_TEXT_SET_SOUND",
+      "args": {
+        "type": "none"
+      }
+    },
+    {
+      "id": "eb1c91e9-1043-5095-9d4c-0a7bad7c4aed",
+      "command": "EVENT_ENGINE_FIELD_SET",
+      "args": {
+        "engineFieldKey": "topdown_grid",
+        "value": {
+          "type": "number",
+          "value": 8
+        }
+      }
+    },
+    {
+      "id": "75102578-6879-5d29-adef-b84e71594c93",
+      "command": "EVENT_REMOVE_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a",
+          "b",
+          "start",
+          "select",
+          "up",
+          "down",
+          "left",
+          "right"
+        ]
+      }
+    },
+    {
+      "id": "aeae81c8-1449-57e1-8127-f8a3c4262508",
+      "command": "EVENT_PLAYER_SET_SPRITE",
+      "args": {
+        "spriteSheetId": "4fc5bbee-10e8-520e-b28c-096623100bb9"
+      }
+    },
+    {
+      "id": "f5d30f90-8761-5673-9e0d-4e428eade14d",
+      "command": "EVENT_ACTOR_SHOW",
+      "args": {
+        "actorId": "player"
+      }
+    },
+    {
+      "id": "663a7ddf-6aff-58a9-9a39-568229531a91",
+      "command": "EVENT_ACTOR_COLLISIONS_ENABLE",
+      "args": {
+        "actorId": "player"
+      }
+    },
+    {
+      "id": "5353a458-eaa5-5c98-96ad-bf73e632e9a6",
+      "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
+      "args": {
+        "actorId": "player",
+        "speed": 1
+      }
+    },
+    {
+      "id": "559a3551-ba26-51c2-b455-64e703d874bd",
+      "command": "EVENT_PALETTE_SET_SPRITE",
+      "args": {
+        "palette0": "e3dab5d2-8e26-528a-9d69-f82ccae0fcef",
+        "palette1": "837e7d42-d8d1-5d2a-ba27-43ec9bdbfc1c",
+        "palette2": "270fec3a-82c3-5546-9595-6f946c97dc3b",
+        "palette3": "e0aac1f2-a988-52b9-9e6c-0656966873a1",
+        "palette4": "46bbc7c2-5f9e-5d7c-8bd0-69d50dc660b4",
+        "palette5": "1454f3d6-be06-5224-bbac-b2e7982cd8da",
+        "palette6": "282011bd-bba7-5f1f-9331-7757afab601f",
+        "palette7": "e3dab5d2-8e26-528a-9d69-f82ccae0fcef"
+      }
+    },
+    {
+      "id": "1a5922d9-5613-58a3-a439-5d9c441b3399",
+      "command": "EVENT_PALETTE_SET_BACKGROUND",
+      "args": {
+        "palette0": "056fec91-c90a-53e2-a06a-f3c853dae588",
+        "palette1": "056fec91-c90a-53e2-a06a-f3c853dae588",
+        "palette2": "056fec91-c90a-53e2-a06a-f3c853dae588",
+        "palette3": "056fec91-c90a-53e2-a06a-f3c853dae588",
+        "palette4": "056fec91-c90a-53e2-a06a-f3c853dae588",
+        "palette5": "056fec91-c90a-53e2-a06a-f3c853dae588",
+        "palette6": "056fec91-c90a-53e2-a06a-f3c853dae588",
+        "palette7": "056fec91-c90a-53e2-a06a-f3c853dae588"
+      }
+    },
+    {
+      "id": "0df4029b-7337-5d94-ad82-d66d3c920701",
+      "command": "EVENT_PALETTE_SET_SPRITE",
+      "args": {
+        "palette0": "e3dab5d2-8e26-528a-9d69-f82ccae0fcef",
+        "palette1": "837e7d42-d8d1-5d2a-ba27-43ec9bdbfc1c",
+        "palette2": "270fec3a-82c3-5546-9595-6f946c97dc3b",
+        "palette3": "e0aac1f2-a988-52b9-9e6c-0656966873a1",
+        "palette4": "46bbc7c2-5f9e-5d7c-8bd0-69d50dc660b4",
+        "palette5": "1454f3d6-be06-5224-bbac-b2e7982cd8da",
+        "palette6": "282011bd-bba7-5f1f-9331-7757afab601f",
+        "palette7": "e0aac1f2-a988-52b9-9e6c-0656966873a1"
+      }
+    },
+    {
+      "id": "1a5922d9-5613-58a3-a439-5d9c441b3399",
+      "command": "EVENT_PALETTE_SET_BACKGROUND",
+      "args": {
+        "palette0": "056fec91-c90a-53e2-a06a-f3c853dae588",
+        "palette1": "056fec91-c90a-53e2-a06a-f3c853dae588",
+        "palette2": "056fec91-c90a-53e2-a06a-f3c853dae588",
+        "palette3": "056fec91-c90a-53e2-a06a-f3c853dae588",
+        "palette4": "056fec91-c90a-53e2-a06a-f3c853dae588",
+        "palette5": "056fec91-c90a-53e2-a06a-f3c853dae588",
+        "palette6": "056fec91-c90a-53e2-a06a-f3c853dae588",
+        "palette7": "056fec91-c90a-53e2-a06a-f3c853dae588"
+      }
+    },
+    {
+      "id": "726c6397-95aa-5cfa-994f-fd4a7344488f",
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": "CONNER\nMatt!",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 5,
+        "closeWhen": "key",
+        "closeDelayUnits": "frames",
+        "closeDelayFrames": 0,
+        "showFrame": true
+      }
+    },
+    {
+      "id": "a2f922cb-5aa8-53be-980e-7a990029cd11",
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": "PARKER\nGet behind me.",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 5,
+        "closeWhen": "key",
+        "closeDelayUnits": "frames",
+        "closeDelayFrames": 0,
+        "showFrame": true
+      }
+    },
+    {
+      "id": "29241205-72fd-5f39-a515-b076a7e6950c",
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": "PARKER\nA: attack / B: dodge\nSELECT: hold defend",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 5,
+        "closeWhen": "key",
+        "closeDelayUnits": "frames",
+        "closeDelayFrames": 0,
+        "showFrame": true
+      }
+    },
+    {
+      "id": "efa9b14d-ca99-5d7d-8877-4113e2478ee9",
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": "Hearts: health\nDiamonds: stamina\nWatch her wind-up.",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 5,
+        "closeWhen": "key",
+        "closeDelayUnits": "frames",
+        "closeDelayFrames": 0,
+        "showFrame": true
+      }
+    },
+    {
+      "id": "2b2b6560-e5a3-53b7-a2fa-2a685cf4270b",
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ],
+        "override": true,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": []
+      }
+    },
+    {
+      "id": "79eef8b2-13d7-5099-a082-0349b28915fb",
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "b"
+        ],
+        "override": true,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": []
+      }
+    },
+    {
+      "id": "9c41653d-9056-555d-a360-61dedbe272e9",
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "select"
+        ],
+        "override": true,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": []
+      }
+    },
+    {
+      "id": "abef9895-abc1-545a-b611-3ad1ddb8270c",
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "start"
+        ],
+        "override": true,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": []
+      }
+    },
+    {
+      "id": "96fd1579-a5b2-5e6d-ba48-2e0d974c57c5",
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "244",
+        "value": {
+          "type": "number",
+          "value": 3
+        }
+      }
+    },
+    {
+      "id": "d0a61eca-f43e-5123-b1b6-2ea653111503",
+      "command": "EVENT_PHOENIX_NATIVE",
+      "args": {
+        "action": "init",
+        "variable": "245",
+        "foe": "cab331af-e603-5bbd-b3fc-88bebba477dc"
+      }
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": "0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!0f!0f!00!00!00!00!00!00!0f!0f!0f!0f!0f!0f!00!00!00!00!00!00!0f!0f!00!00!00!00!00!00!0f!0f!0f!0f!0f!0f!00!00!00!00!00!00!0f!0f!00!00!00!00!00!00!0f!0f!0f!0f!0f!0f!00!00!00!00!00!00!0f!0f!00!00!00!00!00!00!0f!0f!0f!0f!0f!0f!00!00!00!00!00!00!0f!0f!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!0f!0f!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!0f!0f!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!0f!0f!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!0f!0f!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!0f!0f!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!0f!0f!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!0f!0f!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!0f!0f!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!0f!0f!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!"
+}

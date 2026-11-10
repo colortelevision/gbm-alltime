@@ -1,0 +1,130 @@
+{
+  "_resourceType": "trigger",
+  "id": "e08fc3d1-4795-5919-a541-09b47a273805",
+  "name": "parker_warning",
+  "symbol": "trigger_ph_chase_parker_warning",
+  "x": 12,
+  "y": 9,
+  "width": 2,
+  "height": 6,
+  "script": [
+    {
+      "id": "14dfe910-fb9f-592d-b898-46e71115a4fc",
+      "command": "EVENT_IF_VALUE",
+      "args": {
+        "variable": "243",
+        "operator": "==",
+        "comparator": 2
+      },
+      "children": {
+        "true": [
+          {
+            "id": "c9e55d57-f9d8-5db7-b532-43d062101973",
+            "command": "EVENT_SCENE_UPDATE_PAUSE",
+            "args": {}
+          },
+          {
+            "id": "af34addd-135a-5189-9ab4-897c49c883b5",
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": "PARKER\nEyes open, you two.\nDo not get careless.",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 5,
+              "closeWhen": "key",
+              "closeDelayUnits": "frames",
+              "closeDelayFrames": 0,
+              "showFrame": true
+            }
+          },
+          {
+            "id": "7cf7f3e5-137a-5f9b-9c56-2460c40555af",
+            "command": "EVENT_ACTOR_MOVE_TO",
+            "args": {
+              "actorId": "6b8c6c8e-5bb9-5e22-a221-13422f4ca3d1",
+              "x": {
+                "type": "number",
+                "value": 15
+              },
+              "y": {
+                "type": "number",
+                "value": 10
+              },
+              "useCollisions": false,
+              "moveType": "horizontal",
+              "units": "tiles"
+            }
+          },
+          {
+            "id": "a822dc8d-b45b-53de-9799-fe9a05acbafd",
+            "command": "EVENT_ACTOR_MOVE_TO",
+            "args": {
+              "actorId": "6b8c6c8e-5bb9-5e22-a221-13422f4ca3d1",
+              "x": {
+                "type": "number",
+                "value": 24
+              },
+              "y": {
+                "type": "number",
+                "value": 10
+              },
+              "useCollisions": false,
+              "moveType": "horizontal",
+              "units": "tiles"
+            }
+          },
+          {
+            "id": "2bf7d4d0-9ac7-534a-b73d-ad336b12b23e",
+            "command": "EVENT_ACTOR_MOVE_TO",
+            "args": {
+              "actorId": "6b8c6c8e-5bb9-5e22-a221-13422f4ca3d1",
+              "x": {
+                "type": "number",
+                "value": 28
+              },
+              "y": {
+                "type": "number",
+                "value": 13
+              },
+              "useCollisions": false,
+              "moveType": "horizontal",
+              "units": "tiles"
+            }
+          },
+          {
+            "id": "46b3964d-cd18-57f4-925a-dfe2f1a476e2",
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": "CONNER\nYes, sir! Come on, Matt!",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 5,
+              "closeWhen": "key",
+              "closeDelayUnits": "frames",
+              "closeDelayFrames": 0,
+              "showFrame": true
+            }
+          },
+          {
+            "id": "c212c6d9-979b-5789-87e1-5e7b8ac7b6ad",
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "243",
+              "value": {
+                "type": "number",
+                "value": 21
+              }
+            }
+          },
+          {
+            "id": "294f219e-00b4-5ef3-bde0-3ce027366922",
+            "command": "EVENT_SCENE_UPDATE_RESUME",
+            "args": {}
+          }
+        ],
+        "false": []
+      }
+    }
+  ],
+  "leaveScript": []
+}

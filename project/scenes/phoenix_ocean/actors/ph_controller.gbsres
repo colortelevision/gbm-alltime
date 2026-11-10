@@ -1,0 +1,86 @@
+{
+  "_resourceType": "actor",
+  "id": "a729e858-5faf-5578-a0ba-d9b3d3f8397e",
+  "name": "ph_controller",
+  "symbol": "actor_ph_ocean_ph_controller",
+  "_index": 4,
+  "x": 1,
+  "y": 1,
+  "spriteSheetId": "72ecc86d-c007-5343-b4de-d2d8869c10f2",
+  "direction": "down",
+  "frame": 0,
+  "moveSpeed": 1,
+  "animSpeed": 7,
+  "isPinned": true,
+  "persistent": false,
+  "collisionGroup": "none",
+  "script": [],
+  "startScript": [
+    {
+      "id": "d7ece168-5106-5811-8447-e88b78a26710",
+      "command": "EVENT_ACTOR_HIDE",
+      "args": {
+        "actorId": "$self$"
+      }
+    },
+    {
+      "id": "54fd1b93-dce5-5b2e-97ca-0e8e872ae318",
+      "command": "EVENT_ACTOR_COLLISIONS_DISABLE",
+      "args": {
+        "actorId": "$self$"
+      }
+    }
+  ],
+  "updateScript": [
+    {
+      "id": "5a7264ab-8141-5f37-a0f3-7ed4cc4809d5",
+      "command": "EVENT_PHOENIX_NATIVE",
+      "args": {
+        "action": "tick",
+        "variable": "245",
+        "foe": "player"
+      }
+    },
+    {
+      "id": "669b170b-65ba-5a66-9266-e2ec568f471f",
+      "command": "EVENT_IF_VALUE",
+      "args": {
+        "variable": "245",
+        "operator": "==",
+        "comparator": 1
+      },
+      "children": {
+        "true": [
+          {
+            "id": "e4a3725a-bb1b-53d8-9524-43d4874a7c95",
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "244",
+              "value": {
+                "type": "number",
+                "value": 0
+              }
+            }
+          },
+          {
+            "id": "f400adbb-c596-58fd-a0ea-dcde663017fd",
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "245",
+              "value": {
+                "type": "number",
+                "value": 0
+              }
+            }
+          },
+          {
+            "id": "c9e55d57-f9d8-5db7-b532-43d062101973",
+            "command": "EVENT_SCENE_UPDATE_PAUSE",
+            "args": {}
+          }
+        ],
+        "false": []
+      }
+    }
+  ]
+}

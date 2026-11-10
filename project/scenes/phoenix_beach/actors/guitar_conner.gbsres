@@ -1,0 +1,28 @@
+{
+  "_resourceType": "actor",
+  "id": "c132989a-3c11-5414-92a1-3c1e11a7c22b",
+  "name": "guitar_conner",
+  "symbol": "actor_ph_beach_guitar_conner",
+  "_index": 6,
+  "x": 8,
+  "y": 13,
+  "spriteSheetId": "3f22fd7e-193b-5665-a16b-49523ce47a3f",
+  "direction": "down",
+  "frame": 0,
+  "moveSpeed": 1,
+  "animSpeed": 7,
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "none",
+  "script": [],
+  "startScript": [
+    {
+      "id": "54fd1b93-dce5-5b2e-97ca-0e8e872ae318",
+      "command": "EVENT_ACTOR_COLLISIONS_DISABLE",
+      "args": {
+        "actorId": "$self$"
+      }
+    }
+  ],
+  "updateScript": []
+}

@@ -1,0 +1,37 @@
+{
+  "_resourceType": "actor",
+  "id": "1bdbc9e2-7d27-586f-ae6f-c25e99f19482",
+  "name": "stamina",
+  "symbol": "actor_ph_boss_stamina",
+  "_index": 6,
+  "x": 8,
+  "y": 1,
+  "spriteSheetId": "fc588e72-637e-5c82-b670-49d96dee35ea",
+  "direction": "down",
+  "frame": 0,
+  "moveSpeed": 1,
+  "animSpeed": 7,
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "none",
+  "script": [],
+  "startScript": [
+    {
+      "id": "d27b478f-1ac9-595b-9811-c07569c602d1",
+      "command": "EVENT_ACTOR_SET_STATE",
+      "args": {
+        "actorId": "$self$",
+        "spriteStateId": "3",
+        "loopAnim": true
+      }
+    },
+    {
+      "id": "54fd1b93-dce5-5b2e-97ca-0e8e872ae318",
+      "command": "EVENT_ACTOR_COLLISIONS_DISABLE",
+      "args": {
+        "actorId": "$self$"
+      }
+    }
+  ],
+  "updateScript": []
+}

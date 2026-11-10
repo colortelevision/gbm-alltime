@@ -1,0 +1,118 @@
+{
+  "_resourceType": "trigger",
+  "id": "655f8905-a451-5f73-b721-5fbb88bfe5b6",
+  "name": "boat",
+  "symbol": "trigger_ph_ocean_boat",
+  "x": 12,
+  "y": 7,
+  "width": 9,
+  "height": 3,
+  "script": [
+    {
+      "id": "e4a3725a-bb1b-53d8-9524-43d4874a7c95",
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "244",
+        "value": {
+          "type": "number",
+          "value": 0
+        }
+      }
+    },
+    {
+      "id": "c9e55d57-f9d8-5db7-b532-43d062101973",
+      "command": "EVENT_SCENE_UPDATE_PAUSE",
+      "args": {}
+    },
+    {
+      "id": "0af6ed2f-c490-569b-af37-d40f84dd46a1",
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": "SIREN\nCloser...",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 5,
+        "closeWhen": "key",
+        "closeDelayUnits": "frames",
+        "closeDelayFrames": 0,
+        "showFrame": true
+      }
+    },
+    {
+      "id": "daf0ff14-a026-5534-a80a-04bc755c7684",
+      "command": "EVENT_ACTOR_SET_STATE",
+      "args": {
+        "actorId": "cf3d4d46-1bb4-55dd-916d-18001ed72134",
+        "spriteStateId": "threat",
+        "loopAnim": true
+      }
+    },
+    {
+      "id": "f9aec82d-d74d-5d3d-89c0-ac51709cf71a",
+      "command": "EVENT_SOUND_PLAY_EFFECT",
+      "args": {
+        "type": "crash",
+        "duration": 0.25,
+        "priority": "medium",
+        "wait": false
+      }
+    },
+    {
+      "id": "8ebf7c90-9cd0-5fe5-b766-e3ceb2226e25",
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": "Too many teeth.\nThe song turns to\na scream.",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 5,
+        "closeWhen": "key",
+        "closeDelayUnits": "frames",
+        "closeDelayFrames": 0,
+        "showFrame": true
+      }
+    },
+    {
+      "id": "cddab81c-be2e-58d3-88bb-54d1c456a349",
+      "command": "EVENT_CAMERA_SHAKE",
+      "args": {
+        "units": "frames",
+        "frames": 25,
+        "time": 0.4,
+        "shakeDirection": "horizontal",
+        "magnitude": {
+          "type": "number",
+          "value": 2
+        }
+      }
+    },
+    {
+      "id": "c498cdd5-dd9e-57be-b38a-858f3c7bbe05",
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "243",
+        "value": {
+          "type": "number",
+          "value": 2
+        }
+      }
+    },
+    {
+      "id": "1fb1b97d-54bd-534c-b801-1337c31f002d",
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "28f40e09-7dd5-4285-a94b-72d9fb018fcc",
+        "x": {
+          "type": "number",
+          "value": 15
+        },
+        "y": {
+          "type": "number",
+          "value": 15
+        },
+        "direction": "up",
+        "fadeSpeed": 2
+      }
+    }
+  ],
+  "leaveScript": []
+}

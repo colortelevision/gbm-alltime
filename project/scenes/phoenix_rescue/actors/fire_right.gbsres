@@ -1,0 +1,28 @@
+{
+  "_resourceType": "actor",
+  "id": "65c68364-02c5-59fe-9dd5-e9160c6c1215",
+  "name": "fire_right",
+  "symbol": "actor_ph_rescue_fire_right",
+  "_index": 5,
+  "x": 16,
+  "y": 10,
+  "spriteSheetId": "145aba20-ef66-5143-ac31-65a26a322c2a",
+  "direction": "down",
+  "frame": 0,
+  "moveSpeed": 1,
+  "animSpeed": 7,
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "none",
+  "script": [],
+  "startScript": [
+    {
+      "id": "54fd1b93-dce5-5b2e-97ca-0e8e872ae318",
+      "command": "EVENT_ACTOR_COLLISIONS_DISABLE",
+      "args": {
+        "actorId": "$self$"
+      }
+    }
+  ],
+  "updateScript": []
+}

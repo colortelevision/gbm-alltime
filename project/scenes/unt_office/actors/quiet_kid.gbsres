@@ -1,0 +1,35 @@
+{
+  "_resourceType": "actor",
+  "id": "46429a3a-2953-5181-bb91-0b58858dccc1",
+  "name": "quiet_kid",
+  "symbol": "actor_ph_office_quiet_kid",
+  "_index": 6,
+  "x": 24,
+  "y": 8,
+  "spriteSheetId": "2f28e632-7740-58a7-8c4f-ef0604e92deb",
+  "direction": "down",
+  "frame": 0,
+  "moveSpeed": 1,
+  "animSpeed": 7,
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "none",
+  "script": [
+    {
+      "id": "4215b351-43e9-5dfe-b007-b3b948d5bae3",
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": "STUDENT\nSome of us are trying\nto hear the lesson.",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 5,
+        "closeWhen": "key",
+        "closeDelayUnits": "frames",
+        "closeDelayFrames": 0,
+        "showFrame": true
+      }
+    }
+  ],
+  "startScript": [],
+  "updateScript": []
+}

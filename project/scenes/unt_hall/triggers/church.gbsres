@@ -1,0 +1,30 @@
+{
+  "_resourceType": "trigger",
+  "id": "9194d42b-414e-52b0-a7b2-157e0d5c2840",
+  "name": "church",
+  "symbol": "trigger_ph_hall_church",
+  "x": 29,
+  "y": 10,
+  "width": 2,
+  "height": 4,
+  "script": [
+    {
+      "id": "802ee77b-3532-598f-b75f-e56b046b278b",
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "bd2284c7-2d34-4932-8f9a-51f96958c87a",
+        "x": {
+          "type": "number",
+          "value": 15
+        },
+        "y": {
+          "type": "number",
+          "value": 28
+        },
+        "direction": "up",
+        "fadeSpeed": 2
+      }
+    }
+  ],
+  "leaveScript": []
+}

@@ -1,0 +1,28 @@
+{
+  "_resourceType": "actor",
+  "id": "3ff2ced7-c1fd-5718-b0d1-bc06623ed0a8",
+  "name": "rain1",
+  "symbol": "actor_ph_ocean_rain1",
+  "_index": 4,
+  "x": 11,
+  "y": 16,
+  "spriteSheetId": "8a851974-8609-5881-9d57-d8c627d0dd48",
+  "direction": "down",
+  "frame": 0,
+  "moveSpeed": 1,
+  "animSpeed": 7,
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "none",
+  "script": [],
+  "startScript": [
+    {
+      "id": "54fd1b93-dce5-5b2e-97ca-0e8e872ae318",
+      "command": "EVENT_ACTOR_COLLISIONS_DISABLE",
+      "args": {
+        "actorId": "$self$"
+      }
+    }
+  ],
+  "updateScript": []
+}

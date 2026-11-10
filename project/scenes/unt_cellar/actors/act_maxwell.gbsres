@@ -1,29 +1,35 @@
 {
   "_resourceType": "actor",
   "id": "1cd8f58b-1aa3-4de0-87c5-cc4bd8c9fac2",
-  "_index": 5,
-  "symbol": "actor_unt_act_maxwell",
-  "prefabId": "",
   "name": "ACT_Maxwell",
-  "coordinateType": "tiles",
-  "x": 12,
-  "y": 8,
-  "frame": 0,
-  "animate": false,
-  "spriteSheetId": "bc2a00f8-a6cf-4271-b380-eacf0cd026c5",
-  "paletteId": "",
+  "symbol": "actor_unt_act_maxwell",
+  "_index": 7,
+  "x": 18,
+  "y": 10,
+  "spriteSheetId": "af63bd73-0460-5ad0-a8eb-6b0720586eda",
   "direction": "down",
+  "frame": 0,
   "moveSpeed": 1,
-  "animSpeed": 15,
+  "animSpeed": 7,
   "isPinned": false,
   "persistent": false,
-  "collisionGroup": "",
-  "collisionExtraFlags": [],
-  "prefabScriptOverrides": {},
-  "script": [],
+  "collisionGroup": "none",
+  "script": [
+    {
+      "id": "e83a8498-ea8f-5f91-89d9-a15f9b2933b2",
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": "MAXWELL\nA little closer.",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 5,
+        "closeWhen": "key",
+        "closeDelayUnits": "frames",
+        "closeDelayFrames": 0,
+        "showFrame": true
+      }
+    }
+  ],
   "startScript": [],
-  "updateScript": [],
-  "hit1Script": [],
-  "hit2Script": [],
-  "hit3Script": []
+  "updateScript": []
 }

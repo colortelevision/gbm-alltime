@@ -17,19 +17,26 @@
   "animSpeed": 15,
   "isPinned": false,
   "persistent": false,
-  "collisionGroup": "",
+  "collisionGroup": "none",
   "collisionExtraFlags": [],
   "prefabScriptOverrides": {},
-  "script": [
+  "script": [],
+  "startScript": [
     {
-      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "id": "d7ece168-5106-5811-8447-e88b78a26710",
+      "command": "EVENT_ACTOR_HIDE",
       "args": {
-        "customEventId": "599a34f2-c036-4b5f-9d20-177ad61b6b94"
-      },
-      "id": "b7903fe6-8930-412b-a416-70429133850c"
+        "actorId": "$self$"
+      }
+    },
+    {
+      "id": "54fd1b93-dce5-5b2e-97ca-0e8e872ae318",
+      "command": "EVENT_ACTOR_COLLISIONS_DISABLE",
+      "args": {
+        "actorId": "$self$"
+      }
     }
   ],
-  "startScript": [],
   "updateScript": [],
   "hit1Script": [],
   "hit2Script": [],

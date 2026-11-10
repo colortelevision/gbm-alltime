@@ -1,0 +1,64 @@
+{
+  "_resourceType": "actor",
+  "id": "3cee3496-c503-5f6f-a0a5-91dabcaa788d",
+  "name": "morning_conner",
+  "symbol": "actor_ph_house_morning_conner",
+  "_index": 5,
+  "x": 12,
+  "y": 15,
+  "spriteSheetId": "bc5f8aea-6236-5e66-8c47-f7d00518ed52",
+  "direction": "down",
+  "frame": 0,
+  "moveSpeed": 1,
+  "animSpeed": 7,
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "none",
+  "script": [
+    {
+      "id": "e1ca67ae-c9ee-5e31-9589-855ff42af7e0",
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": "CONNER\nHurry up!",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 5,
+        "closeWhen": "key",
+        "closeDelayUnits": "frames",
+        "closeDelayFrames": 0,
+        "showFrame": true
+      }
+    }
+  ],
+  "startScript": [
+    {
+      "id": "aa755e46-7b1e-5c46-a14b-2e972025ec1a",
+      "command": "EVENT_IF_VALUE",
+      "args": {
+        "variable": "243",
+        "operator": "==",
+        "comparator": 5
+      },
+      "children": {
+        "true": [
+          {
+            "id": "d7ece168-5106-5811-8447-e88b78a26710",
+            "command": "EVENT_ACTOR_HIDE",
+            "args": {
+              "actorId": "$self$"
+            }
+          },
+          {
+            "id": "54fd1b93-dce5-5b2e-97ca-0e8e872ae318",
+            "command": "EVENT_ACTOR_COLLISIONS_DISABLE",
+            "args": {
+              "actorId": "$self$"
+            }
+          }
+        ],
+        "false": []
+      }
+    }
+  ],
+  "updateScript": []
+}

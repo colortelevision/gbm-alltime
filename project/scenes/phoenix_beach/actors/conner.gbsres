@@ -1,0 +1,35 @@
+{
+  "_resourceType": "actor",
+  "id": "5529696f-9e71-5930-a292-0da7c805acdb",
+  "name": "conner",
+  "symbol": "actor_ph_beach_conner",
+  "_index": 6,
+  "x": 8,
+  "y": 12,
+  "spriteSheetId": "2f28e632-7740-58a7-8c4f-ef0604e92deb",
+  "direction": "down",
+  "frame": 0,
+  "moveSpeed": 1,
+  "animSpeed": 7,
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "none",
+  "script": [
+    {
+      "id": "0d44c65b-ad8b-5fcc-b660-c2e43a273bb8",
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": "CONNER\nCome on, Matt.\nYou know this one.",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 5,
+        "closeWhen": "key",
+        "closeDelayUnits": "frames",
+        "closeDelayFrames": 0,
+        "showFrame": true
+      }
+    }
+  ],
+  "startScript": [],
+  "updateScript": []
+}

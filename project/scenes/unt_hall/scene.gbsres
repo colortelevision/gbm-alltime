@@ -9,48 +9,178 @@
   "y": 2600,
   "width": 32,
   "height": 18,
-  "backgroundId": "b8fefd7b-a6d7-4a75-9f72-9197158e4cf4",
+  "backgroundId": "7573526d-c95f-50ad-9c16-9314d1062a75",
   "tilesetId": "",
   "colorModeOverride": "none",
-  "paletteIds": [],
-  "spritePaletteIds": [
-    "4d767298-76ca-4cc7-a8f5-662151d98b1c",
-    "eda38ed2-1e4b-4bf2-acf5-81ec7f76f85f",
-    "399321c4-ba03-441d-b973-64dfa7090f55",
-    "365591fd-b649-41c7-b3ea-a33ce3584370"
+  "paletteIds": [
+    "a792a526-ce68-5eb3-85c7-913b688c02af",
+    "a792a526-ce68-5eb3-85c7-913b688c02af",
+    "a792a526-ce68-5eb3-85c7-913b688c02af",
+    "a792a526-ce68-5eb3-85c7-913b688c02af",
+    "a792a526-ce68-5eb3-85c7-913b688c02af",
+    "a792a526-ce68-5eb3-85c7-913b688c02af",
+    "a792a526-ce68-5eb3-85c7-913b688c02af",
+    "a792a526-ce68-5eb3-85c7-913b688c02af"
   ],
-  "autoFadeSpeed": 1,
-  "playerSpriteSheetId": "8462d2a0-c2dc-45e2-baed-faced3f8f2a5",
+  "spritePaletteIds": [
+    "e3dab5d2-8e26-528a-9d69-f82ccae0fcef",
+    "837e7d42-d8d1-5d2a-ba27-43ec9bdbfc1c",
+    "270fec3a-82c3-5546-9595-6f946c97dc3b",
+    "e0aac1f2-a988-52b9-9e6c-0656966873a1",
+    "46bbc7c2-5f9e-5d7c-8bd0-69d50dc660b4",
+    "1454f3d6-be06-5224-bbac-b2e7982cd8da",
+    "282011bd-bba7-5f1f-9331-7757afab601f",
+    "e3dab5d2-8e26-528a-9d69-f82ccae0fcef"
+  ],
+  "autoFadeSpeed": 2,
+  "playerSpriteSheetId": "72ecc86d-c007-5343-b4de-d2d8869c10f2",
   "script": [
     {
+      "id": "294f219e-00b4-5ef3-bde0-3ce027366922",
+      "command": "EVENT_SCENE_UPDATE_RESUME",
+      "args": {}
+    },
+    {
+      "id": "8529a21b-fbdd-5a61-bb00-8a23ced20dc1",
+      "command": "EVENT_SCENE_RESET_STATE",
+      "args": {}
+    },
+    {
+      "id": "e4a3725a-bb1b-53d8-9524-43d4874a7c95",
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "244",
+        "value": {
+          "type": "number",
+          "value": 0
+        }
+      }
+    },
+    {
+      "id": "f400adbb-c596-58fd-a0ea-dcde663017fd",
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "245",
+        "value": {
+          "type": "number",
+          "value": 0
+        }
+      }
+    },
+    {
+      "id": "8e00a9a3-7c26-59b7-a5dc-de2c3af11448",
+      "command": "EVENT_TEXT_SET_SOUND",
+      "args": {
+        "type": "none"
+      }
+    },
+    {
+      "id": "eb1c91e9-1043-5095-9d4c-0a7bad7c4aed",
+      "command": "EVENT_ENGINE_FIELD_SET",
+      "args": {
+        "engineFieldKey": "topdown_grid",
+        "value": {
+          "type": "number",
+          "value": 8
+        }
+      }
+    },
+    {
+      "id": "75102578-6879-5d29-adef-b84e71594c93",
+      "command": "EVENT_REMOVE_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a",
+          "b",
+          "start",
+          "select",
+          "up",
+          "down",
+          "left",
+          "right"
+        ]
+      }
+    },
+    {
+      "id": "b6b25e20-7294-5ae1-86eb-24bd28b81bf7",
+      "command": "EVENT_PLAYER_SET_SPRITE",
+      "args": {
+        "spriteSheetId": "72ecc86d-c007-5343-b4de-d2d8869c10f2"
+      }
+    },
+    {
+      "id": "f5d30f90-8761-5673-9e0d-4e428eade14d",
+      "command": "EVENT_ACTOR_SHOW",
+      "args": {
+        "actorId": "player"
+      }
+    },
+    {
+      "id": "663a7ddf-6aff-58a9-9a39-568229531a91",
+      "command": "EVENT_ACTOR_COLLISIONS_ENABLE",
+      "args": {
+        "actorId": "player"
+      }
+    },
+    {
+      "id": "5353a458-eaa5-5c98-96ad-bf73e632e9a6",
       "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
       "args": {
         "actorId": "player",
         "speed": 1
-      },
-      "id": "423df059-a8ae-4a3f-b217-3fc4bddc9494"
+      }
     },
     {
+      "id": "559a3551-ba26-51c2-b455-64e703d874bd",
+      "command": "EVENT_PALETTE_SET_SPRITE",
+      "args": {
+        "palette0": "e3dab5d2-8e26-528a-9d69-f82ccae0fcef",
+        "palette1": "837e7d42-d8d1-5d2a-ba27-43ec9bdbfc1c",
+        "palette2": "270fec3a-82c3-5546-9595-6f946c97dc3b",
+        "palette3": "e0aac1f2-a988-52b9-9e6c-0656966873a1",
+        "palette4": "46bbc7c2-5f9e-5d7c-8bd0-69d50dc660b4",
+        "palette5": "1454f3d6-be06-5224-bbac-b2e7982cd8da",
+        "palette6": "282011bd-bba7-5f1f-9331-7757afab601f",
+        "palette7": "e3dab5d2-8e26-528a-9d69-f82ccae0fcef"
+      }
+    },
+    {
+      "id": "b4447e70-167d-5a35-b1fd-138cbd26db15",
+      "command": "EVENT_PALETTE_SET_BACKGROUND",
+      "args": {
+        "palette0": "a792a526-ce68-5eb3-85c7-913b688c02af",
+        "palette1": "a792a526-ce68-5eb3-85c7-913b688c02af",
+        "palette2": "a792a526-ce68-5eb3-85c7-913b688c02af",
+        "palette3": "a792a526-ce68-5eb3-85c7-913b688c02af",
+        "palette4": "a792a526-ce68-5eb3-85c7-913b688c02af",
+        "palette5": "a792a526-ce68-5eb3-85c7-913b688c02af",
+        "palette6": "a792a526-ce68-5eb3-85c7-913b688c02af",
+        "palette7": "a792a526-ce68-5eb3-85c7-913b688c02af"
+      }
+    },
+    {
+      "id": "bd6c6c6a-3068-5efa-bd71-128030163541",
       "command": "EVENT_CALL_CUSTOM_EVENT",
       "args": {
         "customEventId": "5b7f2035-33a7-41d7-b7f4-599c14a416b1"
-      },
-      "id": "2861e578-3ecb-41e5-bb31-d48d5893b531"
+      }
     },
     {
-      "command": "EVENT_SOUND_PLAY_EFFECT",
+      "id": "69f0f690-5b56-570a-b7be-725a69647c51",
+      "command": "EVENT_TEXT",
       "args": {
-        "type": "bababc8d-9fe6-4e93-9153-5547c26cdf85",
-        "priority": "medium",
-        "pitch": 4,
-        "frequency": 200,
-        "duration": 0.5,
-        "wait": false,
-        "effect": 0
-      },
-      "id": "ba582fbc-3140-4704-867b-a5cbad9825e8"
+        "text": "AFTER SCHOOL\nConner and Ami head out.\nMatt stays behind.",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 5,
+        "closeWhen": "key",
+        "closeDelayUnits": "frames",
+        "closeDelayFrames": 0,
+        "showFrame": true
+      }
     },
     {
+      "id": "abef9895-abc1-545a-b611-3ad1ddb8270c",
       "command": "EVENT_SET_INPUT_SCRIPT",
       "args": {
         "input": [
@@ -59,15 +189,21 @@
         "override": true,
         "__scriptTabs": "press"
       },
-      "id": "00c7ca82-2f8c-47ca-b3eb-7a46052e2217",
       "children": {
         "true": [
           {
-            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "id": "781ae8b6-d5e3-56be-856a-a76b20c7fc9e",
+            "command": "EVENT_TEXT",
             "args": {
-              "customEventId": "0f621f4b-d643-4099-9762-04074719833f"
-            },
-            "id": "dc138f86-80d5-44e4-ab6c-6436f40d5f34"
+              "text": "Right-hand door:\nthe church.",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 5,
+              "closeWhen": "key",
+              "closeDelayUnits": "frames",
+              "closeDelayFrames": 0,
+              "showFrame": true
+            }
           }
         ]
       }
@@ -76,5 +212,5 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "collisions": "0f41+005+0f2+00c+0f2+009+0f2+005+0f2+00c+0f2+009+0f2+001e+0f2+001e+0f2+001e+0f2+001e+0f!0060+0f!001e+0f2+001e+0fa1+"
+  "collisions": "0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!0f!0f!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!0f!0f!00!00!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!00!00!0f!0f!00!00!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!00!00!0f!0f!00!00!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!00!00!0f!0f!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!0f!0f!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!0f!0f!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!0f!0f!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!0f!0f!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!0f!0f!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!0f!0f!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!0f!0f!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!0f!0f!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!0f!0f!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!00!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!0f!"
 }

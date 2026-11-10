@@ -1,0 +1,30 @@
+{
+  "_resourceType": "trigger",
+  "id": "aecc22f7-cd04-5e46-a5fd-64853a452303",
+  "name": "water",
+  "symbol": "trigger_ph_beach_water",
+  "x": 18,
+  "y": 11,
+  "width": 2,
+  "height": 7,
+  "script": [
+    {
+      "id": "1b15ca7f-97ed-595d-8d5a-1dbc4b57c0b1",
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "e77185d5-6cf7-5955-880c-eb907b4c764a",
+        "x": {
+          "type": "number",
+          "value": 15
+        },
+        "y": {
+          "type": "number",
+          "value": 27
+        },
+        "direction": "up",
+        "fadeSpeed": 2
+      }
+    }
+  ],
+  "leaveScript": []
+}

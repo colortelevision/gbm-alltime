@@ -1,64 +1,35 @@
 {
   "_resourceType": "actor",
   "id": "9bf390ef-8a0d-4ea4-910d-e416ab270805",
-  "_index": 0,
-  "symbol": "actor_unt_act_parker_0",
-  "prefabId": "",
   "name": "ACT_Parker",
-  "coordinateType": "tiles",
-  "x": 30,
-  "y": 13,
+  "symbol": "actor_unt_act_parker_0",
+  "_index": 4,
+  "x": 11,
+  "y": 18,
+  "spriteSheetId": "36e2808a-b348-5fcb-97fa-8a80021b5d45",
+  "direction": "down",
   "frame": 0,
-  "animate": false,
-  "spriteSheetId": "6f089eea-d075-40da-af2c-30546d55ddda",
-  "paletteId": "399321c4-ba03-441d-b973-64dfa7090f55",
-  "direction": "left",
   "moveSpeed": 1,
-  "animSpeed": 15,
+  "animSpeed": 7,
   "isPinned": false,
   "persistent": false,
-  "collisionGroup": "",
-  "collisionExtraFlags": [],
-  "prefabScriptOverrides": {},
+  "collisionGroup": "none",
   "script": [
     {
-      "command": "EVENT_SOUND_PLAY_EFFECT",
-      "args": {
-        "type": "7ca6b9db-2a48-422e-880d-3ee20c0dd7cc",
-        "priority": "medium",
-        "pitch": 4,
-        "frequency": 200,
-        "duration": 0.5,
-        "wait": false,
-        "effect": 0
-      },
-      "id": "68fb4c1c-e19f-417b-84cd-7a60969481d9"
-    },
-    {
+      "id": "77af1962-c233-5250-a93d-ed1d2de37f8f",
       "command": "EVENT_TEXT",
       "args": {
-        "text": [
-          "Parker: Hurry up!\nThe bus won't wait."
-        ],
+        "text": "PARKER\nConner! It is Matt.\nThe church. Hurry!",
         "avatarId": "",
         "minHeight": 4,
-        "maxHeight": 7,
-        "position": "bottom",
-        "clearPrevious": true,
-        "showFrame": "true",
-        "speedIn": -1,
-        "speedOut": -1,
+        "maxHeight": 5,
         "closeWhen": "key",
-        "closeButton": "a",
-        "closeDelayTime": 0.5,
-        "closeDelayFrames": 30
-      },
-      "id": "54f110c0-d571-42c7-af7c-4ee2fe893f6b"
+        "closeDelayUnits": "frames",
+        "closeDelayFrames": 0,
+        "showFrame": true
+      }
     }
   ],
   "startScript": [],
-  "updateScript": [],
-  "hit1Script": [],
-  "hit2Script": [],
-  "hit3Script": []
+  "updateScript": []
 }

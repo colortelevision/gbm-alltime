@@ -1,39 +1,89 @@
 {
   "_resourceType": "actor",
   "id": "0e935223-a24b-4853-86f9-baf74e63341c",
-  "_index": 0,
-  "symbol": "actor_unt_act_maxwell_1",
-  "prefabId": "",
   "name": "ACT_Maxwell",
-  "coordinateType": "tiles",
-  "x": 9,
-  "y": 9,
-  "frame": 0,
-  "animate": false,
-  "spriteSheetId": "bc2a00f8-a6cf-4271-b380-eacf0cd026c5",
-  "paletteId": "",
+  "symbol": "actor_unt_act_maxwell_1",
+  "_index": 6,
+  "x": 18,
+  "y": 7,
+  "spriteSheetId": "af63bd73-0460-5ad0-a8eb-6b0720586eda",
   "direction": "down",
+  "frame": 0,
   "moveSpeed": 1,
-  "animSpeed": 15,
+  "animSpeed": 7,
   "isPinned": false,
   "persistent": false,
-  "collisionGroup": "",
-  "collisionExtraFlags": [],
-  "prefabScriptOverrides": {},
+  "collisionGroup": "none",
   "script": [
     {
-      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "id": "254e38d1-5f19-5ecc-a368-fa26e2e9bb8a",
+      "command": "EVENT_IF_VALUE",
       "args": {
-        "customEventId": "da621b13-f20e-402a-a360-a015205fb79a",
-        "$actor[0]$": "$self$",
-        "__collapse": true
+        "variable": "259",
+        "operator": "==",
+        "comparator": 0
       },
-      "id": "f39d8ba9-b85c-4e65-8ed5-946f5a2479be"
+      "children": {
+        "true": [
+          {
+            "id": "c9d79c47-fd07-5d6b-abc3-453613e19dd5",
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": "MAXWELL\nStay after school, Matt.\nI need your help.",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 5,
+              "closeWhen": "key",
+              "closeDelayUnits": "frames",
+              "closeDelayFrames": 0,
+              "showFrame": true
+            }
+          },
+          {
+            "id": "fe2376b1-e2d7-5323-835b-ba609252206e",
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": "MAXWELL\nAt the church. Just\na little favor.",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 5,
+              "closeWhen": "key",
+              "closeDelayUnits": "frames",
+              "closeDelayFrames": 0,
+              "showFrame": true
+            }
+          },
+          {
+            "id": "2d7c9e96-f7a1-5c32-ae7c-357ab6e02904",
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "259",
+              "value": {
+                "type": "number",
+                "value": 1
+              }
+            }
+          }
+        ],
+        "false": [
+          {
+            "id": "2d4e8052-9347-5aa7-a2d1-173b3f462ad4",
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": "MAXWELL\nThe church. After school.",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 5,
+              "closeWhen": "key",
+              "closeDelayUnits": "frames",
+              "closeDelayFrames": 0,
+              "showFrame": true
+            }
+          }
+        ]
+      }
     }
   ],
   "startScript": [],
-  "updateScript": [],
-  "hit1Script": [],
-  "hit2Script": [],
-  "hit3Script": []
+  "updateScript": []
 }

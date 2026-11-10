@@ -1,0 +1,35 @@
+{
+  "_resourceType": "actor",
+  "id": "5a097213-cf0e-501c-819b-db2ac053f75c",
+  "name": "loud_kid",
+  "symbol": "actor_ph_office_loud_kid",
+  "_index": 6,
+  "x": 4,
+  "y": 18,
+  "spriteSheetId": "36e2808a-b348-5fcb-97fa-8a80021b5d45",
+  "direction": "down",
+  "frame": 0,
+  "moveSpeed": 1,
+  "animSpeed": 7,
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "none",
+  "script": [
+    {
+      "id": "78e6a10d-a9f4-54b4-8ad4-c76c5c436297",
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": "STUDENT\nBand practice again?\nTry winning a game.",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 5,
+        "closeWhen": "key",
+        "closeDelayUnits": "frames",
+        "closeDelayFrames": 0,
+        "showFrame": true
+      }
+    }
+  ],
+  "startScript": [],
+  "updateScript": []
+}

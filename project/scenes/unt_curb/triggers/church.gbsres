@@ -1,0 +1,70 @@
+{
+  "_resourceType": "trigger",
+  "id": "df4d125b-b03d-513b-99a3-1aed9204de8a",
+  "name": "church",
+  "symbol": "trigger_ph_curb_church",
+  "x": 34,
+  "y": 12,
+  "width": 3,
+  "height": 3,
+  "script": [
+    {
+      "id": "00fff1e0-0348-542c-9def-40d6435d86f6",
+      "command": "EVENT_IF_VALUE",
+      "args": {
+        "variable": "243",
+        "operator": "==",
+        "comparator": 6
+      },
+      "children": {
+        "true": [
+          {
+            "id": "4ca87e4d-16b9-599a-ac62-dc6e35372b75",
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "243",
+              "value": {
+                "type": "number",
+                "value": 7
+              }
+            }
+          },
+          {
+            "id": "8fe7edba-6c4d-5f42-adf5-d762cc36d083",
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "912c25f7-4fba-5b15-9ae8-d7b476bc6526",
+              "x": {
+                "type": "number",
+                "value": 5
+              },
+              "y": {
+                "type": "number",
+                "value": 12
+              },
+              "direction": "right",
+              "fadeSpeed": 2
+            }
+          }
+        ],
+        "false": [
+          {
+            "id": "8b2f03b7-b04e-5487-9dd0-133b8b198547",
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": "Parker is calling me!",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 5,
+              "closeWhen": "key",
+              "closeDelayUnits": "frames",
+              "closeDelayFrames": 0,
+              "showFrame": true
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "leaveScript": []
+}

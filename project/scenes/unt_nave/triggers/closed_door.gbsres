@@ -1,0 +1,27 @@
+{
+  "_resourceType": "trigger",
+  "id": "7e2e449f-8dfc-51bc-90ec-0bbdd35004fd",
+  "name": "closed_door",
+  "symbol": "trigger_ph_nave_closed_door",
+  "x": 14,
+  "y": 29,
+  "width": 4,
+  "height": 2,
+  "script": [
+    {
+      "id": "9f2a7f5e-06cd-5a9b-8404-6c7f3ab0288f",
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": "The front door has\nclicked shut.",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 5,
+        "closeWhen": "key",
+        "closeDelayUnits": "frames",
+        "closeDelayFrames": 0,
+        "showFrame": true
+      }
+    }
+  ],
+  "leaveScript": []
+}

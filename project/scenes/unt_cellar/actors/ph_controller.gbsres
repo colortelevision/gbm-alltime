@@ -1,0 +1,317 @@
+{
+  "_resourceType": "actor",
+  "id": "f3dd83db-f397-5004-9537-bcac7e8a72cd",
+  "name": "ph_controller",
+  "symbol": "actor_ph_cellar_ph_controller",
+  "_index": 7,
+  "x": 1,
+  "y": 1,
+  "spriteSheetId": "72ecc86d-c007-5343-b4de-d2d8869c10f2",
+  "direction": "down",
+  "frame": 0,
+  "moveSpeed": 1,
+  "animSpeed": 7,
+  "isPinned": true,
+  "persistent": false,
+  "collisionGroup": "none",
+  "script": [],
+  "startScript": [
+    {
+      "id": "d7ece168-5106-5811-8447-e88b78a26710",
+      "command": "EVENT_ACTOR_HIDE",
+      "args": {
+        "actorId": "$self$"
+      }
+    },
+    {
+      "id": "54fd1b93-dce5-5b2e-97ca-0e8e872ae318",
+      "command": "EVENT_ACTOR_COLLISIONS_DISABLE",
+      "args": {
+        "actorId": "$self$"
+      }
+    }
+  ],
+  "updateScript": [
+    {
+      "id": "4bc8bc87-bf59-5c4d-937a-e9cbc012729a",
+      "command": "EVENT_PHOENIX_NATIVE",
+      "args": {
+        "action": "tick",
+        "variable": "245",
+        "foe": "1cd8f58b-1aa3-4de0-87c5-cc4bd8c9fac2"
+      }
+    },
+    {
+      "id": "669b170b-65ba-5a66-9266-e2ec568f471f",
+      "command": "EVENT_IF_VALUE",
+      "args": {
+        "variable": "245",
+        "operator": "==",
+        "comparator": 1
+      },
+      "children": {
+        "true": [
+          {
+            "id": "e4a3725a-bb1b-53d8-9524-43d4874a7c95",
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "244",
+              "value": {
+                "type": "number",
+                "value": 0
+              }
+            }
+          },
+          {
+            "id": "f400adbb-c596-58fd-a0ea-dcde663017fd",
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "245",
+              "value": {
+                "type": "number",
+                "value": 0
+              }
+            }
+          },
+          {
+            "id": "c9e55d57-f9d8-5db7-b532-43d062101973",
+            "command": "EVENT_SCENE_UPDATE_PAUSE",
+            "args": {}
+          },
+          {
+            "id": "b660c755-6f99-5598-8fe9-e9e03c9fd371",
+            "command": "EVENT_ACTOR_COLLISIONS_DISABLE",
+            "args": {
+              "actorId": "player"
+            }
+          },
+          {
+            "id": "68539092-1a21-5c19-973a-af20251808f0",
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": "The door will not move.",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 5,
+              "closeWhen": "key",
+              "closeDelayUnits": "frames",
+              "closeDelayFrames": 0,
+              "showFrame": true
+            }
+          },
+          {
+            "id": "fa8bbeab-e524-5cbc-b50e-68efc0af5314",
+            "command": "EVENT_ACTOR_MOVE_TO",
+            "args": {
+              "actorId": "1cd8f58b-1aa3-4de0-87c5-cc4bd8c9fac2",
+              "x": {
+                "type": "number",
+                "value": 16
+              },
+              "y": {
+                "type": "number",
+                "value": 16
+              },
+              "useCollisions": false,
+              "moveType": "horizontal",
+              "units": "tiles"
+            }
+          },
+          {
+            "id": "f77d7f80-93e3-50d0-9056-9ad018e5cfdb",
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": "MATT\nLet me go!",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 5,
+              "closeWhen": "key",
+              "closeDelayUnits": "frames",
+              "closeDelayFrames": 0,
+              "showFrame": true
+            }
+          },
+          {
+            "id": "42e834bb-e4f6-592b-a5f6-cfcd04a1c1f3",
+            "command": "EVENT_PLAYER_SET_SPRITE",
+            "args": {
+              "spriteSheetId": "24742014-385a-58ab-950d-f99f58f5a54a"
+            }
+          },
+          {
+            "id": "1efefc70-2506-5916-8762-3058c67b114e",
+            "command": "EVENT_ACTOR_SET_POSITION",
+            "args": {
+              "actorId": "player",
+              "x": {
+                "type": "number",
+                "value": 14
+              },
+              "y": {
+                "type": "number",
+                "value": 6
+              },
+              "units": "tiles"
+            }
+          },
+          {
+            "id": "4addc5f9-095d-570f-8f89-dfc7f5f9fc2b",
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": "His arms are held\nagainst the cross.",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 5,
+              "closeWhen": "key",
+              "closeDelayUnits": "frames",
+              "closeDelayFrames": 0,
+              "showFrame": true
+            }
+          },
+          {
+            "id": "06be495f-d06c-5c98-bd1e-efbf9546637a",
+            "command": "EVENT_ACTOR_MOVE_TO",
+            "args": {
+              "actorId": "1cd8f58b-1aa3-4de0-87c5-cc4bd8c9fac2",
+              "x": {
+                "type": "number",
+                "value": 16
+              },
+              "y": {
+                "type": "number",
+                "value": 8
+              },
+              "useCollisions": false,
+              "moveType": "horizontal",
+              "units": "tiles"
+            }
+          },
+          {
+            "id": "f9aec82d-d74d-5d3d-89c0-ac51709cf71a",
+            "command": "EVENT_SOUND_PLAY_EFFECT",
+            "args": {
+              "type": "crash",
+              "duration": 0.25,
+              "priority": "medium",
+              "wait": false
+            }
+          },
+          {
+            "id": "b2a32740-c1bb-5bd9-8587-748ffba2fb63",
+            "command": "EVENT_CAMERA_SHAKE",
+            "args": {
+              "units": "frames",
+              "frames": 20,
+              "time": 0.33,
+              "shakeDirection": "horizontal",
+              "magnitude": {
+                "type": "number",
+                "value": 2
+              }
+            }
+          },
+          {
+            "id": "5c491be4-e543-5645-9257-f0930ec71cd3",
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": "A blade. A sharp sting.\nMatt tries to pull away.",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 5,
+              "closeWhen": "key",
+              "closeDelayUnits": "frames",
+              "closeDelayFrames": 0,
+              "showFrame": true
+            }
+          },
+          {
+            "id": "9867d62a-17b2-5883-83ce-035f5314a15e",
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": "MATT\nStop...",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 5,
+              "closeWhen": "key",
+              "closeDelayUnits": "frames",
+              "closeDelayFrames": 0,
+              "showFrame": true
+            }
+          },
+          {
+            "id": "8e8fb447-86ad-58ce-a603-4b0e064aa417",
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": "Maxwell leans close.\nA bite. Matt goes weak.",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 5,
+              "closeWhen": "key",
+              "closeDelayUnits": "frames",
+              "closeDelayFrames": 0,
+              "showFrame": true
+            }
+          },
+          {
+            "id": "d2c2bdcf-1a54-5993-a65a-5efa907e6958",
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": "Matt can hardly breathe.\nMaxwell straightens.\nHer hands no longer shake.",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 5,
+              "closeWhen": "key",
+              "closeDelayUnits": "frames",
+              "closeDelayFrames": 0,
+              "showFrame": true
+            }
+          },
+          {
+            "id": "01fb448c-000d-5602-bca8-4ea44b0c1f41",
+            "command": "EVENT_WAIT",
+            "args": {
+              "units": "frames",
+              "frames": {
+                "type": "number",
+                "value": 60
+              },
+              "time": {
+                "type": "number",
+                "value": 1.0
+              }
+            }
+          },
+          {
+            "id": "df5c2a21-402e-5c3e-8f2e-50a58ccd9e94",
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "243",
+              "value": {
+                "type": "number",
+                "value": 5
+              }
+            }
+          },
+          {
+            "id": "c319cc91-3b44-5e0b-92d2-0149d719040b",
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "28f40e09-7dd5-4285-a94b-72d9fb018fcc",
+              "x": {
+                "type": "number",
+                "value": 15
+              },
+              "y": {
+                "type": "number",
+                "value": 17
+              },
+              "direction": "up",
+              "fadeSpeed": 2
+            }
+          }
+        ],
+        "false": []
+      }
+    }
+  ]
+}

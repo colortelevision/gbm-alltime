@@ -1,0 +1,63 @@
+{
+  "_resourceType": "actor",
+  "id": "7d559f2f-9fe7-5517-a2db-1d86dcc8896a",
+  "name": "ami",
+  "symbol": "actor_ph_office_ami",
+  "_index": 6,
+  "x": 23,
+  "y": 15,
+  "spriteSheetId": "9b4ca4e9-3c68-5a27-8cc4-ce6f11dc6af9",
+  "direction": "down",
+  "frame": 0,
+  "moveSpeed": 1,
+  "animSpeed": 7,
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "none",
+  "script": [
+    {
+      "id": "42c92558-dc78-5ba6-b207-4a1ea0fcbe9b",
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": "AMI\nYou still bringing\nyour guitar tomorrow?",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 5,
+        "closeWhen": "key",
+        "closeDelayUnits": "frames",
+        "closeDelayFrames": 0,
+        "showFrame": true
+      }
+    },
+    {
+      "id": "3b79b5e8-9943-5370-ac68-b795cd59c74f",
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": "MATT\nY-yeah. Definitely.",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 5,
+        "closeWhen": "key",
+        "closeDelayUnits": "frames",
+        "closeDelayFrames": 0,
+        "showFrame": true
+      }
+    },
+    {
+      "id": "a1f7efdc-c292-5ff5-be27-8f88ce0c7790",
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": "CONNER\nSmooth, Matt. Real smooth.",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 5,
+        "closeWhen": "key",
+        "closeDelayUnits": "frames",
+        "closeDelayFrames": 0,
+        "showFrame": true
+      }
+    }
+  ],
+  "startScript": [],
+  "updateScript": []
+}

@@ -1,0 +1,35 @@
+{
+  "_resourceType": "actor",
+  "id": "4e8bd389-5cc0-50b8-9520-e444d1ad8772",
+  "name": "ami",
+  "symbol": "actor_ph_beach_ami",
+  "_index": 6,
+  "x": 13,
+  "y": 12,
+  "spriteSheetId": "9b4ca4e9-3c68-5a27-8cc4-ce6f11dc6af9",
+  "direction": "down",
+  "frame": 0,
+  "moveSpeed": 1,
+  "animSpeed": 7,
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "none",
+  "script": [
+    {
+      "id": "d2c94657-4b4a-5d86-bac0-f3276405e094",
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": "AMI\nJust listen to the waves.",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 5,
+        "closeWhen": "key",
+        "closeDelayUnits": "frames",
+        "closeDelayFrames": 0,
+        "showFrame": true
+      }
+    }
+  ],
+  "startScript": [],
+  "updateScript": []
+}

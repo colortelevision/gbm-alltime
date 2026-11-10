@@ -1,0 +1,122 @@
+{
+  "_resourceType": "trigger",
+  "id": "4a7b1111-b45d-595d-b0dd-d9f278f6509e",
+  "name": "warning",
+  "symbol": "trigger_ph_curb_warning",
+  "x": 8,
+  "y": 16,
+  "width": 3,
+  "height": 5,
+  "script": [
+    {
+      "id": "aa755e46-7b1e-5c46-a14b-2e972025ec1a",
+      "command": "EVENT_IF_VALUE",
+      "args": {
+        "variable": "243",
+        "operator": "==",
+        "comparator": 5
+      },
+      "children": {
+        "true": [
+          {
+            "id": "c9e55d57-f9d8-5db7-b532-43d062101973",
+            "command": "EVENT_SCENE_UPDATE_PAUSE",
+            "args": {}
+          },
+          {
+            "id": "a23d2a22-b2ba-5cde-94a8-b9a4bf4d0a5e",
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": "PARKER\nConner! It is Matt.\nThe church. Move!",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 5,
+              "closeWhen": "key",
+              "closeDelayUnits": "frames",
+              "closeDelayFrames": 0,
+              "showFrame": true
+            }
+          },
+          {
+            "id": "524d19a2-dc1a-51f0-9520-e2c069043666",
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": "CONNER\nWhat happened?!",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 5,
+              "closeWhen": "key",
+              "closeDelayUnits": "frames",
+              "closeDelayFrames": 0,
+              "showFrame": true
+            }
+          },
+          {
+            "id": "239a74dc-664e-5d2e-b5ef-f02a16ae6cf3",
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": "PARKER\nNo time. Come on!",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 5,
+              "closeWhen": "key",
+              "closeDelayUnits": "frames",
+              "closeDelayFrames": 0,
+              "showFrame": true
+            }
+          },
+          {
+            "id": "62ec6007-c88c-5fcd-8d94-155b467e8d20",
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "243",
+              "value": {
+                "type": "number",
+                "value": 6
+              }
+            }
+          },
+          {
+            "id": "3c984e0b-610c-53d2-b147-00d9602b916f",
+            "command": "EVENT_ACTOR_MOVE_TO",
+            "args": {
+              "actorId": "9bf390ef-8a0d-4ea4-910d-e416ab270805",
+              "x": {
+                "type": "number",
+                "value": 30
+              },
+              "y": {
+                "type": "number",
+                "value": 18
+              },
+              "useCollisions": false,
+              "moveType": "horizontal",
+              "units": "tiles"
+            }
+          },
+          {
+            "id": "2fac9bed-5ab6-579f-91db-d1be6daf5d9a",
+            "command": "EVENT_ACTOR_HIDE",
+            "args": {
+              "actorId": "9bf390ef-8a0d-4ea4-910d-e416ab270805"
+            }
+          },
+          {
+            "id": "87634320-f853-58f6-9a37-51e8ae35e7c6",
+            "command": "EVENT_ACTOR_COLLISIONS_DISABLE",
+            "args": {
+              "actorId": "9bf390ef-8a0d-4ea4-910d-e416ab270805"
+            }
+          },
+          {
+            "id": "294f219e-00b4-5ef3-bde0-3ce027366922",
+            "command": "EVENT_SCENE_UPDATE_RESUME",
+            "args": {}
+          }
+        ],
+        "false": []
+      }
+    }
+  ],
+  "leaveScript": []
+}

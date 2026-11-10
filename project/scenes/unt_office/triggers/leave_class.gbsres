@@ -1,0 +1,59 @@
+{
+  "_resourceType": "trigger",
+  "id": "63efdac8-3143-59a5-b0aa-0fcd6932f09e",
+  "name": "leave_class",
+  "symbol": "trigger_ph_office_leave_class",
+  "x": 14,
+  "y": 21,
+  "width": 4,
+  "height": 2,
+  "script": [
+    {
+      "id": "04974ff9-e6d4-56bf-bf48-a9a8790eef71",
+      "command": "EVENT_IF_VALUE",
+      "args": {
+        "variable": "259",
+        "operator": "==",
+        "comparator": 1
+      },
+      "children": {
+        "true": [
+          {
+            "id": "ab132021-1d2d-5293-957e-83dafdb122e8",
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "29773fd2-6148-4304-9aaf-328810bc4907",
+              "x": {
+                "type": "number",
+                "value": 4
+              },
+              "y": {
+                "type": "number",
+                "value": 12
+              },
+              "direction": "right",
+              "fadeSpeed": 2
+            }
+          }
+        ],
+        "false": [
+          {
+            "id": "5ae1b318-c510-5b25-9163-47544bd75e69",
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": "Maxwell wants a word\nbefore I leave.",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 5,
+              "closeWhen": "key",
+              "closeDelayUnits": "frames",
+              "closeDelayFrames": 0,
+              "showFrame": true
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "leaveScript": []
+}

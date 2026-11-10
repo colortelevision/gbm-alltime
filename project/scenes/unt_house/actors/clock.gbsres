@@ -1,0 +1,72 @@
+{
+  "_resourceType": "actor",
+  "id": "2429c3e5-2966-5bc8-9255-6caa791067f4",
+  "name": "clock",
+  "symbol": "actor_ph_house_clock",
+  "_index": 5,
+  "x": 23,
+  "y": 10,
+  "spriteSheetId": "72ecc86d-c007-5343-b4de-d2d8869c10f2",
+  "direction": "down",
+  "frame": 0,
+  "moveSpeed": 1,
+  "animSpeed": 7,
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "none",
+  "script": [
+    {
+      "id": "aa755e46-7b1e-5c46-a14b-2e972025ec1a",
+      "command": "EVENT_IF_VALUE",
+      "args": {
+        "variable": "243",
+        "operator": "==",
+        "comparator": 5
+      },
+      "children": {
+        "true": [
+          {
+            "id": "bd806274-1184-57a0-bb44-bbe60eb31da2",
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": "The clock ticks.\nStill no sign of Matt.",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 5,
+              "closeWhen": "key",
+              "closeDelayUnits": "frames",
+              "closeDelayFrames": 0,
+              "showFrame": true
+            }
+          }
+        ],
+        "false": [
+          {
+            "id": "ebbc49a7-3991-5e64-a98d-db31b05709e3",
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": "8:15.\nAlready late.",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 5,
+              "closeWhen": "key",
+              "closeDelayUnits": "frames",
+              "closeDelayFrames": 0,
+              "showFrame": true
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "startScript": [
+    {
+      "id": "d7ece168-5106-5811-8447-e88b78a26710",
+      "command": "EVENT_ACTOR_HIDE",
+      "args": {
+        "actorId": "$self$"
+      }
+    }
+  ],
+  "updateScript": []
+}

@@ -1,0 +1,37 @@
+{
+  "_resourceType": "actor",
+  "id": "79c459f9-6c63-5eba-bc5f-3d2a66be01ef",
+  "name": "health",
+  "symbol": "actor_ph_boss_health",
+  "_index": 6,
+  "x": 1,
+  "y": 1,
+  "spriteSheetId": "b4ddc724-5c4d-589d-9537-8a4c79c1b4ca",
+  "direction": "down",
+  "frame": 0,
+  "moveSpeed": 1,
+  "animSpeed": 7,
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "none",
+  "script": [],
+  "startScript": [
+    {
+      "id": "7be47343-7a76-5c03-a348-8911fc344457",
+      "command": "EVENT_ACTOR_SET_STATE",
+      "args": {
+        "actorId": "$self$",
+        "spriteStateId": "4",
+        "loopAnim": true
+      }
+    },
+    {
+      "id": "54fd1b93-dce5-5b2e-97ca-0e8e872ae318",
+      "command": "EVENT_ACTOR_COLLISIONS_DISABLE",
+      "args": {
+        "actorId": "$self$"
+      }
+    }
+  ],
+  "updateScript": []
+}

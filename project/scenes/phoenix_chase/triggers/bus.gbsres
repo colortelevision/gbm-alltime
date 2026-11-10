@@ -1,0 +1,181 @@
+{
+  "_resourceType": "trigger",
+  "id": "7aabc789-a712-5900-8375-843995965de9",
+  "name": "bus",
+  "symbol": "trigger_ph_chase_bus",
+  "x": 52,
+  "y": 10,
+  "width": 6,
+  "height": 5,
+  "script": [
+    {
+      "id": "c9e55d57-f9d8-5db7-b532-43d062101973",
+      "command": "EVENT_SCENE_UPDATE_PAUSE",
+      "args": {}
+    },
+    {
+      "id": "92fc250e-50ac-51d3-a7db-b45ce2d31ea5",
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": "CONNER\nHere. Your bag.\nWe made it!",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 5,
+        "closeWhen": "key",
+        "closeDelayUnits": "frames",
+        "closeDelayFrames": 0,
+        "showFrame": true
+      }
+    },
+    {
+      "id": "d6d04ab7-ac64-5086-8c5c-f50fb018b539",
+      "command": "EVENT_ENGINE_FIELD_SET",
+      "args": {
+        "engineFieldKey": "plat_jump_vel",
+        "value": {
+          "type": "number",
+          "value": 20326
+        }
+      }
+    },
+    {
+      "id": "e0c150de-e214-564a-9651-52742e953df4",
+      "command": "EVENT_ENGINE_FIELD_SET",
+      "args": {
+        "engineFieldKey": "plat_grav",
+        "value": {
+          "type": "number",
+          "value": 2252
+        }
+      }
+    },
+    {
+      "id": "e152e5bf-380a-5ae2-8863-dd0ddf5ea924",
+      "command": "EVENT_ENGINE_FIELD_SET",
+      "args": {
+        "engineFieldKey": "plat_jump_min",
+        "value": {
+          "type": "number",
+          "value": 2567
+        }
+      }
+    },
+    {
+      "id": "126abc2f-6ffc-5092-a580-090e79907f13",
+      "command": "EVENT_ENGINE_FIELD_SET",
+      "args": {
+        "engineFieldKey": "plat_run_vel",
+        "value": {
+          "type": "number",
+          "value": 11632
+        }
+      }
+    },
+    {
+      "id": "6e392483-15e6-5d3a-8f26-da96feb4207d",
+      "command": "EVENT_ENGINE_FIELD_SET",
+      "args": {
+        "engineFieldKey": "plat_walk_vel",
+        "value": {
+          "type": "number",
+          "value": 6400
+        }
+      }
+    },
+    {
+      "id": "198201a5-4e0f-55e3-97a5-000d742c10f6",
+      "command": "EVENT_ENGINE_FIELD_SET",
+      "args": {
+        "engineFieldKey": "plat_extra_jumps",
+        "value": {
+          "type": "number",
+          "value": 1
+        }
+      }
+    },
+    {
+      "id": "65349540-4553-5354-810c-f9365432f085",
+      "command": "EVENT_ENGINE_FIELD_SET",
+      "args": {
+        "engineFieldKey": "plat_dash",
+        "value": {
+          "type": "number",
+          "value": 2
+        }
+      }
+    },
+    {
+      "id": "1509dbb0-bff3-5644-95e0-7176cde222e8",
+      "command": "EVENT_ENGINE_FIELD_SET",
+      "args": {
+        "engineFieldKey": "plat_run_boost",
+        "value": {
+          "type": "number",
+          "value": 2990
+        }
+      }
+    },
+    {
+      "id": "a7650bd6-c59e-5e09-a5a2-aa8ed2f79512",
+      "command": "EVENT_ENGINE_FIELD_SET",
+      "args": {
+        "engineFieldKey": "plat_jump_hold_vel",
+        "value": {
+          "type": "number",
+          "value": 0
+        }
+      }
+    },
+    {
+      "id": "22c80889-36d6-5d51-a216-9c3bd308e66f",
+      "command": "EVENT_ENGINE_FIELD_SET",
+      "args": {
+        "engineFieldKey": "plat_jump_hold_frames",
+        "value": {
+          "type": "number",
+          "value": 1
+        }
+      }
+    },
+    {
+      "id": "0388d9c0-ecb7-5fdf-a038-851fd8fdecf9",
+      "command": "EVENT_ENGINE_FIELD_SET",
+      "args": {
+        "engineFieldKey": "plat_hold_grav",
+        "value": {
+          "type": "number",
+          "value": 512
+        }
+      }
+    },
+    {
+      "id": "a553e30e-c2fc-5abb-9691-42a7ae1183c8",
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "243",
+        "value": {
+          "type": "number",
+          "value": 3
+        }
+      }
+    },
+    {
+      "id": "a9627836-9995-500d-8a7d-bf8f398224c3",
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "6074e13b-c3b2-4ecb-bda4-f04274b3185c",
+        "x": {
+          "type": "number",
+          "value": 15
+        },
+        "y": {
+          "type": "number",
+          "value": 20
+        },
+        "direction": "up",
+        "fadeSpeed": 2
+      }
+    }
+  ],
+  "leaveScript": []
+}

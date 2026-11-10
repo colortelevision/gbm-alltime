@@ -1,0 +1,96 @@
+{
+  "_resourceType": "trigger",
+  "id": "07f2e94e-c07d-5d52-b2b5-d62af2453cc4",
+  "name": "ritual",
+  "symbol": "trigger_ph_cellar_ritual",
+  "x": 13,
+  "y": 12,
+  "width": 6,
+  "height": 3,
+  "script": [
+    {
+      "id": "80a8bf8a-a4ea-5c1f-9bad-5444db63611e",
+      "command": "EVENT_IF_VALUE",
+      "args": {
+        "variable": "258",
+        "operator": "==",
+        "comparator": 0
+      },
+      "children": {
+        "true": [
+          {
+            "id": "067a3f44-cae1-5b13-8f70-46cb5fc3edd5",
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "258",
+              "value": {
+                "type": "number",
+                "value": 1
+              }
+            }
+          },
+          {
+            "id": "c9e55d57-f9d8-5db7-b532-43d062101973",
+            "command": "EVENT_SCENE_UPDATE_PAUSE",
+            "args": {}
+          },
+          {
+            "id": "37c37c15-0ffa-58bc-bd56-7b8920cb05f5",
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": "MATT\nWhat is this?\nNo. I am leaving.",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 5,
+              "closeWhen": "key",
+              "closeDelayUnits": "frames",
+              "closeDelayFrames": 0,
+              "showFrame": true
+            }
+          },
+          {
+            "id": "8fc73616-757c-5e6a-9141-b7757beec830",
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": "D-PAD: try to escape.\nThe door is behind you.",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 5,
+              "closeWhen": "key",
+              "closeDelayUnits": "frames",
+              "closeDelayFrames": 0,
+              "showFrame": true
+            }
+          },
+          {
+            "id": "a2a37a47-9674-5e0b-8323-c5edf626c1b1",
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "244",
+              "value": {
+                "type": "number",
+                "value": 2
+              }
+            }
+          },
+          {
+            "id": "1adf9995-8ea5-588a-823a-494b9920c1c8",
+            "command": "EVENT_PHOENIX_NATIVE",
+            "args": {
+              "action": "init",
+              "variable": "245",
+              "foe": "1cd8f58b-1aa3-4de0-87c5-cc4bd8c9fac2"
+            }
+          },
+          {
+            "id": "294f219e-00b4-5ef3-bde0-3ce027366922",
+            "command": "EVENT_SCENE_UPDATE_RESUME",
+            "args": {}
+          }
+        ],
+        "false": []
+      }
+    }
+  ],
+  "leaveScript": []
+}
